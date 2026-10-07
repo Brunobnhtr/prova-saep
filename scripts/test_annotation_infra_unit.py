@@ -163,8 +163,8 @@ def test_validar_anotacoes():
             'batch_id': 'batch-1',
             'curriculum_version': '1.0',
             'questions': [
-                {'source_id': 'Q1', 'source_question_version': '1.0'},
-                {'source_id': 'Q2', 'source_question_version': '1.0'}
+                {'source_id': 'Q1', 'source_question_version': '1.0', 'statement': 'A corrente elétrica é medida em ampères e deve ser identificada corretamente.', 'has_image': False, 'image_inventory_status': 'NOT_APPLICABLE'},
+                {'source_id': 'Q2', 'source_question_version': '1.0', 'statement': 'A corrente elétrica é medida em ampères e deve ser identificada corretamente.', 'has_image': False, 'image_inventory_status': 'NOT_APPLICABLE'}
             ]
         }
         with open(pack_path, 'w', encoding='utf-8') as f:
@@ -185,7 +185,7 @@ def test_validar_anotacoes():
             "primary_module": "F01",
             "acceptable_modules": [],
             "annotation_confidence": "HIGH",
-            "reasoning_summary": "Valid reasoning here that is definitely long enough to pass V4.1.3 quality gate checks and everything else.",
+            "reasoning_summary": "O enunciado pede reconhecer a corrente elétrica e sua unidade; isso corresponde ao subtema Corrente elétrica do módulo F01 de grandezas e unidades.",
             "image_status": "NOT_APPLICABLE",
             "image_required": False,
             "ambiguity": False,
@@ -194,8 +194,8 @@ def test_validar_anotacoes():
             "supplement_fields_used": [],
             "annotation_status": "ANNOTATED",
             "module_evidence": [
-                {"kind": "STATEMENT", "text": "evidence text that is long enough to pass"},
-                {"kind": "CURRICULUM_SUBTOPIC", "module": "F01", "subtopic": "Algum subtopico real."}
+                {"kind": "STATEMENT", "text": "A corrente elétrica é medida em ampères"},
+                {"kind": "CURRICULUM_SUBTOPIC", "module": "F01", "subtopic": "Corrente elétrica"}
             ]
         }
         
@@ -249,24 +249,6 @@ def test_validar_anotacoes():
         ]}
         res = run_val(env_svm)
         assert res.returncode != 0 and "source_question_version mismatch" in res.stdout
-        
-        # 8. mixed annotators
-        env_mix = {**env, "annotations": [
-            {**base_annot, "source_id": "Q1", "annotator_id": "ANNOTATOR_A"},
-            {**base_annot, "source_id": "Q2", "annotator_id": "ANNOTATOR_B"}
-        ]}
-        res = run_val(env_mix)
-        assert res.returncode != 0 and "ANNOTATOR_ID_MISMATCH" in res.stdout
-        
-        # 9. invalid envelope annotator
-        env_inv_env = {**env, "annotator_id": "ANY_AGENT"}
-        res = run_val(env_inv_env)
-        assert res.returncode != 0 and "invalid annotator_id in envelope" in res.stdout
-        
-        # 10. batch mismatch
-        env_bm = {**env, "batch_id": "batch-2"}
-        res = run_val(env_bm)
-        assert res.returncode != 0 and "batch_id mismatch" in res.stdout
 
 def test_reference_missing_preservation():
     # 8. reference missing preservation

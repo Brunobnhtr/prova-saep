@@ -1,0 +1,18 @@
+{
+  "batch_id": "REAL-BATCH-0002-25",
+  "status": "REJECTED_FOR_BLIND_AGREEMENT",
+  "preserve_for_audit": true,
+  "dual_blind_eligible": false,
+  "include_in_agreement_metrics": false,
+  "include_in_accuracy_metrics": false,
+  "reason_codes": [
+    "B_LABELS_EXPOSED_BEFORE_A_FREEZE",
+    "B_PROCESS_USED_HARDCODED_ANSWER_MAP",
+    "B_REASONING_GENERATED_BY_TEMPLATE",
+    "B_SUBTOPIC_SELECTED_PROGRAMMATICALLY"
+  ],
+  "observed_b_sha256": "295face8cb12c218819374b583386a6b699ef9c014791c980c60be5618a2fa96",
+  "repository_commit_at_detection": "bfd50b6a4d478ec157a663a6b80dcc1693d6a4d4",
+  "next_valid_real_batch": "REAL-BATCH-0003-25",
+  "methodology": "Annotation Methodology V2 — Freeze A Before B"
+}
