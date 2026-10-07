@@ -3,17 +3,56 @@
     "code": "F01",
     "title": "Circuitos CC/CA - Unidades e grandezas CC/CA",
     "prerequisites": [],
-    "description": "",
-    "learning_objectives": [],
-    "subtopics": [],
-    "includes": [],
-    "excludes": [],
-    "overlaps_with": [],
-    "boundary_rules": [],
-    "classification_examples": [],
-    "classification_counterexamples": [],
+    "description": "Fundamentos de grandezas elétricas e suas unidades em corrente contínua e alternada, com foco em reconhecer, converter e interpretar tensão, corrente, resistência, frequência, potência e energia sem aprofundar os métodos de cálculo próprios dos módulos posteriores.",
+    "learning_objectives": [
+      "Reconhecer as principais grandezas elétricas e seus símbolos.",
+      "Converter múltiplos e submúltiplos do SI aplicados à eletrotécnica.",
+      "Distinguir valores e unidades usados em CC e CA.",
+      "Interpretar dados elementares de grandezas em enunciados, tabelas e placas."
+    ],
+    "subtopics": [
+      "Sistema Internacional e prefixos",
+      "Tensão elétrica",
+      "Corrente elétrica",
+      "Resistência elétrica",
+      "Frequência como grandeza",
+      "Potência e energia como grandezas",
+      "Valores nominais e unidades em CC/CA"
+    ],
+    "includes": [
+      "Identificação de unidade correta",
+      "Conversão mA↔A, kV↔V, kW↔W, Wh↔kWh",
+      "Leitura conceitual de grandezas sem cálculo específico",
+      "Diferença entre CC e CA em nível introdutório"
+    ],
+    "excludes": [
+      "Lei de Ohm e associação de resistores → F02",
+      "Reatância, impedância, fase e formas de onda → F03",
+      "Cálculo de potência, energia ou fator de potência → F04",
+      "Seleção/uso de instrumentos → M01"
+    ],
+    "overlaps_with": [
+      "F02",
+      "F03",
+      "F04",
+      "M01"
+    ],
+    "boundary_rules": [
+      "Se o núcleo da questão é reconhecer ou converter grandezas/unidades, classificar F01.",
+      "Se a questão usa V, I e R para determinar uma incógnita, priorizar F02.",
+      "Se frequência é apenas uma unidade/dado nominal, F01; se altera comportamento reativo ou forma de onda, F03.",
+      "Se potência/energia são apenas unidades, F01; se há cálculo ou eficiência/fator de potência, F04."
+    ],
+    "classification_examples": [
+      "Qual unidade corresponde à corrente elétrica?",
+      "Converter 2,5 kV para volts."
+    ],
+    "classification_counterexamples": [
+      "Calcular a corrente em um resistor de 20 Ω ligado a 10 V. → F02",
+      "Calcular energia consumida em kWh por uma carga. → F04"
+    ],
     "normative_review_required": false,
-    "editorial_notes": ""
+    "editorial_notes": "Módulo-base. Evitar capturar questões apenas porque citam 'corrente alternada' ou 'frequência'."
   },
   {
     "code": "F02",
@@ -21,17 +60,57 @@
     "prerequisites": [
       "F01"
     ],
-    "description": "",
-    "learning_objectives": [],
-    "subtopics": [],
-    "includes": [],
-    "excludes": [],
-    "overlaps_with": [],
-    "boundary_rules": [],
-    "classification_examples": [],
-    "classification_counterexamples": [],
+    "description": "Análise de circuitos resistivos por Lei de Ohm e associação de resistores, incluindo relações entre tensão, corrente e resistência e obtenção de resistências equivalentes em série, paralelo e associações mistas.",
+    "learning_objectives": [
+      "Aplicar a Lei de Ohm em circuitos resistivos.",
+      "Determinar resistência equivalente em série, paralelo e misto.",
+      "Analisar divisores resistivos simples.",
+      "Aplicar relações básicas de corrente e tensão em redes resistivas."
+    ],
+    "subtopics": [
+      "Primeira Lei de Ohm",
+      "Resistividade e segunda Lei de Ohm quando aplicada a resistor/condutor idealizado",
+      "Resistores em série",
+      "Resistores em paralelo",
+      "Associação mista",
+      "Divisor de tensão",
+      "Divisor de corrente",
+      "Leis de Kirchhoff em redes resistivas simples"
+    ],
+    "includes": [
+      "Cálculos V-I-R",
+      "Resistência equivalente",
+      "Distribuição de tensão/corrente em resistores",
+      "Malhas e nós quando o problema é essencialmente resistivo"
+    ],
+    "excludes": [
+      "Reatância e impedância RLC → F03",
+      "Potência e energia → F04",
+      "Dimensionamento de seção de condutor por ampacidade/queda → P01",
+      "Medição com multímetro → M01"
+    ],
+    "overlaps_with": [
+      "F01",
+      "F03",
+      "F04",
+      "P01"
+    ],
+    "boundary_rules": [
+      "Circuito puramente resistivo e relação V-I-R → F02.",
+      "Se indutor/capacitor/fasor/ângulo de fase forem determinantes, usar F03.",
+      "Se o objetivo final é potência, energia ou fator de potência, usar F04 mesmo que Lei de Ohm seja etapa intermediária.",
+      "Se resistência do condutor é usada para dimensionamento de instalação, considerar P01."
+    ],
+    "classification_examples": [
+      "Dois resistores de 10 Ω em paralelo: determinar a resistência equivalente.",
+      "Encontrar a corrente de um resistor a partir de tensão e resistência."
+    ],
+    "classification_counterexamples": [
+      "Determinar a impedância de um circuito RLC a 60 Hz. → F03",
+      "Selecionar a bitola de um cabo pela corrente admissível. → P01"
+    ],
     "normative_review_required": false,
-    "editorial_notes": ""
+    "editorial_notes": "Kirchhoff entra aqui somente quando a estrutura central é circuito resistivo; casos CA reativos migram para F03."
   },
   {
     "code": "F03",
@@ -40,17 +119,59 @@
       "F01",
       "F02"
     ],
-    "description": "",
-    "learning_objectives": [],
-    "subtopics": [],
-    "includes": [],
-    "excludes": [],
-    "overlaps_with": [],
-    "boundary_rules": [],
-    "classification_examples": [],
-    "classification_counterexamples": [],
+    "description": "Comportamento de sinais e circuitos em corrente alternada, abrangendo frequência, período, formas de onda, fase, reatâncias e impedância de elementos R, L e C.",
+    "learning_objectives": [
+      "Relacionar frequência e período.",
+      "Interpretar formas de onda senoidais e grandezas associadas.",
+      "Calcular reatância indutiva e capacitiva.",
+      "Determinar impedância e relações de fase em circuitos CA simples.",
+      "Distinguir comportamento resistivo, indutivo e capacitivo."
+    ],
+    "subtopics": [
+      "Frequência e período",
+      "Forma de onda senoidal",
+      "Valor de pico, pico a pico e eficaz em contexto de forma de onda",
+      "Defasagem e fase",
+      "Reatância indutiva",
+      "Reatância capacitiva",
+      "Impedância RLC",
+      "Triângulo de impedâncias",
+      "Ressonância em nível técnico"
+    ],
+    "includes": [
+      "Problemas em que frequência altera XL/XC",
+      "Impedância complexa",
+      "Relação de fase",
+      "Leitura/interpretação de ondas CA"
+    ],
+    "excludes": [
+      "Unidades/conversões sem análise de circuito → F01",
+      "Circuitos puramente resistivos → F02",
+      "Potência ativa/reativa/aparente e FP → F04",
+      "Parametrização de frequência em inversores → E06"
+    ],
+    "overlaps_with": [
+      "F01",
+      "F02",
+      "F04",
+      "E06"
+    ],
+    "boundary_rules": [
+      "Menção isolada a 60 Hz não torna a questão F03; frequência deve ser objeto do raciocínio.",
+      "RLC, reatância, impedância ou defasagem determinantes → F03.",
+      "Potência/fator de potência como objetivo → F04.",
+      "Frequência de saída/ajuste de acionamento eletrônico → E06."
+    ],
+    "classification_examples": [
+      "Calcular a reatância indutiva de uma bobina a 60 Hz.",
+      "Determinar o período de uma senoide de 50 Hz."
+    ],
+    "classification_counterexamples": [
+      "Converter 60 Hz para unidade SI sem outra análise. → F01",
+      "Calcular fator de potência de uma carga. → F04"
+    ],
     "normative_review_required": false,
-    "editorial_notes": ""
+    "editorial_notes": "Fronteira crítica com F02 e F04."
   },
   {
     "code": "F04",
@@ -60,17 +181,60 @@
       "F02",
       "F03"
     ],
-    "description": "",
-    "learning_objectives": [],
-    "subtopics": [],
-    "includes": [],
-    "excludes": [],
-    "overlaps_with": [],
-    "boundary_rules": [],
-    "classification_examples": [],
-    "classification_counterexamples": [],
+    "description": "Potência e energia elétrica em CC e CA, incluindo potência ativa, reativa e aparente, fator de potência, consumo, rendimento e relações de eficiência energética.",
+    "learning_objectives": [
+      "Calcular potência elétrica em CC e CA.",
+      "Relacionar potência, energia e tempo.",
+      "Distinguir potência ativa, reativa e aparente.",
+      "Calcular e interpretar fator de potência.",
+      "Avaliar rendimento e eficiência em situações eletrotécnicas."
+    ],
+    "subtopics": [
+      "Potência elétrica",
+      "Energia elétrica e consumo",
+      "kW, kWh, kvar e kVA",
+      "Potência ativa, reativa e aparente",
+      "Fator de potência",
+      "Triângulo de potências",
+      "Rendimento e eficiência",
+      "Correção de fator de potência em nível conceitual/cálculo"
+    ],
+    "includes": [
+      "Cálculo de consumo",
+      "Demanda de potência simples quando não é projeto predial",
+      "FP e compensação conceitual",
+      "Eficiência/rendimento energético"
+    ],
+    "excludes": [
+      "Unidades apenas → F01",
+      "Impedância/reatância sem objetivo de potência → F03",
+      "Previsão de cargas de instalação predial → I01",
+      "Dados nominais de motor quando foco é placa/motor → E01",
+      "Produção/arranjo fotovoltaico → V01"
+    ],
+    "overlaps_with": [
+      "F01",
+      "F03",
+      "I01",
+      "E01",
+      "V01"
+    ],
+    "boundary_rules": [
+      "Se a incógnita/decisão central é W, VA, var, Wh, kWh, FP ou rendimento, F04.",
+      "Se potência aparece como dado de placa para reconhecer motor, E01.",
+      "Se soma de cargas atende projeto de tomadas/iluminação, I01.",
+      "Se potência/energia é específica de gerador/arranjo FV, V01."
+    ],
+    "classification_examples": [
+      "Calcular o consumo mensal de uma carga de 1 kW usada por 3 h/dia.",
+      "Determinar o fator de potência a partir de kW e kVA."
+    ],
+    "classification_counterexamples": [
+      "Determinar a impedância de R e L em série. → F03",
+      "Calcular a previsão de carga de tomadas de uma residência. → I01"
+    ],
     "normative_review_required": false,
-    "editorial_notes": ""
+    "editorial_notes": "Não confundir com antigo erro de eletromagnetismo; este módulo é exclusivamente potência/energia/FP/eficiência."
   },
   {
     "code": "M01",
@@ -78,15 +242,51 @@
     "prerequisites": [
       "F01"
     ],
-    "description": "",
-    "learning_objectives": [],
-    "subtopics": [],
-    "includes": [],
-    "excludes": [],
-    "overlaps_with": [],
-    "boundary_rules": [],
-    "classification_examples": [],
-    "classification_counterexamples": [],
+    "description": "Seleção, princípio de uso e interpretação de instrumentos elétricos portáteis, especialmente multímetro e alicate amperímetro, com foco em grandeza, função, escala e leitura.",
+    "learning_objectives": [
+      "Selecionar instrumento adequado à grandeza.",
+      "Escolher função e faixa/escala compatível com a medição.",
+      "Interpretar leituras e unidades de multímetros e alicates.",
+      "Distinguir medição de tensão, corrente e resistência em nível conceitual."
+    ],
+    "subtopics": [
+      "Multímetro",
+      "Alicate amperímetro",
+      "Seleção de função",
+      "Seleção de escala/faixa",
+      "Leitura de display",
+      "Pontas de prova e bornes em contexto conceitual",
+      "Medição de tensão/corrente/resistência"
+    ],
+    "includes": [
+      "Escolha de instrumento",
+      "Interpretação de escala",
+      "Erro por função/faixa inadequada",
+      "Comparação multímetro × alicate"
+    ],
+    "excludes": [
+      "Ensaios de continuidade e isolamento como objetivo → M02",
+      "Grandezas/unidades sem instrumento → F01",
+      "TC/TP e medição indireta em SEP → T02"
+    ],
+    "overlaps_with": [
+      "F01",
+      "M02",
+      "T02"
+    ],
+    "boundary_rules": [
+      "Instrumento portátil e seleção de função/escala → M01.",
+      "Teste de continuidade ou megômetro/isolação como objetivo → M02.",
+      "Medição indireta por transformadores de instrumento → T02."
+    ],
+    "classification_examples": [
+      "Qual função do multímetro deve ser selecionada para medir tensão CA?",
+      "Interpretar uma leitura de corrente exibida por alicate amperímetro."
+    ],
+    "classification_counterexamples": [
+      "Determinar resistência de isolamento de um cabo com megômetro. → M02",
+      "Calcular corrente primária usando relação de TC. → T02"
+    ],
     "normative_review_required": false,
     "editorial_notes": ""
   },
@@ -97,15 +297,49 @@
       "M01",
       "S01"
     ],
-    "description": "",
-    "learning_objectives": [],
-    "subtopics": [],
-    "includes": [],
-    "excludes": [],
-    "overlaps_with": [],
-    "boundary_rules": [],
-    "classification_examples": [],
-    "classification_counterexamples": [],
+    "description": "Ensaios de continuidade elétrica e resistência de isolamento aplicados à verificação de condutores, circuitos, enrolamentos e equipamentos, com interpretação de resultados.",
+    "learning_objectives": [
+      "Distinguir continuidade de resistência de isolamento.",
+      "Interpretar resultados de continuidade e isolação.",
+      "Reconhecer finalidade do megômetro e funções equivalentes.",
+      "Relacionar ensaios a diagnóstico sem confundir com estratégia de manutenção."
+    ],
+    "subtopics": [
+      "Teste de continuidade",
+      "Resistência de isolamento",
+      "Megômetro",
+      "Continuidade de condutores",
+      "Isolação de cabos e enrolamentos",
+      "Interpretação de circuito aberto/baixa resistência em teste"
+    ],
+    "includes": [
+      "Ensaios elétricos de continuidade/isolamento",
+      "Detecção de interrupção por continuidade",
+      "Verificação de condição de isolação"
+    ],
+    "excludes": [
+      "Seleção geral de multímetro → M01",
+      "Estratégia de manutenção preventiva/preditiva → D01",
+      "Termografia e localização ampla de falhas → D02"
+    ],
+    "overlaps_with": [
+      "M01",
+      "D01",
+      "D02"
+    ],
+    "boundary_rules": [
+      "Se a pergunta é como/por que interpretar continuidade ou isolação, M02.",
+      "Se o ensaio aparece apenas como ferramenta dentro de plano de manutenção, D01 pode ser primário.",
+      "Se o foco é localizar/diagnosticar falha por sintomas/termografia, D02."
+    ],
+    "classification_examples": [
+      "Identificar o instrumento usado para ensaio de resistência de isolamento.",
+      "Interpretar um teste de continuidade sem passagem elétrica."
+    ],
+    "classification_counterexamples": [
+      "Escolher política de manutenção para evitar falhas. → D01",
+      "Analisar ponto quente em conexão por termografia. → D02"
+    ],
     "normative_review_required": false,
     "editorial_notes": ""
   },
@@ -113,17 +347,57 @@
     "code": "S01",
     "title": "Segurança em eletricidade - Desenergização e reenergização",
     "prerequisites": [],
-    "description": "",
-    "learning_objectives": [],
-    "subtopics": [],
-    "includes": [],
-    "excludes": [],
-    "overlaps_with": [],
-    "boundary_rules": [],
-    "classification_examples": [],
-    "classification_counterexamples": [],
-    "normative_review_required": false,
-    "editorial_notes": ""
+    "description": "Princípios e sequência conceitual de controle de energia elétrica para colocar instalações em condição segura de trabalho e posteriormente restabelecer a energia, incluindo impedimento de reenergização e verificação de ausência de tensão.",
+    "learning_objectives": [
+      "Reconhecer etapas conceituais de desenergização.",
+      "Distinguir desenergização de simples desligamento.",
+      "Identificar finalidade de impedimento contra reenergização.",
+      "Reconhecer condições conceituais para reenergização segura.",
+      "Ordenar etapas quando a questão fornece procedimento normativo."
+    ],
+    "subtopics": [
+      "Seccionamento",
+      "Impedimento de reenergização",
+      "Constatação de ausência de tensão",
+      "Aterramento temporário quando aplicável ao contexto",
+      "Proteção de partes energizadas adjacentes",
+      "Sinalização de impedimento",
+      "Sequência de reenergização",
+      "Bloqueio relacionado à energia elétrica"
+    ],
+    "includes": [
+      "Sequência de desenergização/reenergização",
+      "LOTO em contexto elétrico",
+      "Verificação de estado desenergizado"
+    ],
+    "excludes": [
+      "Válvulas de bloqueio hidráulico/pneumático → H01",
+      "EPI, qualificação, trabalho em altura e zonas → S02",
+      "Prontuário/documentação e classificação de tensão → S03",
+      "Aterramento permanente de instalação → P04"
+    ],
+    "overlaps_with": [
+      "S02",
+      "S03",
+      "P04",
+      "H01"
+    ],
+    "boundary_rules": [
+      "A palavra 'bloqueio' só indica S01 quando se refere a impedir reenergização/energia elétrica.",
+      "Bloqueio de válvula ou atuador não é S01.",
+      "EPI/treinamento/zona de risco sem sequência de desenergização → S02.",
+      "Documentação e categorias de tensão → S03."
+    ],
+    "classification_examples": [
+      "Ordenar etapas conceituais para tornar um circuito desenergizado para intervenção.",
+      "Explicar a finalidade do impedimento de reenergização."
+    ],
+    "classification_counterexamples": [
+      "Selecionar EPI para trabalho elétrico. → S02",
+      "Identificar símbolo de válvula de bloqueio. → H01"
+    ],
+    "normative_review_required": true,
+    "editorial_notes": "Exige revisão normativa antes de publicar conteúdo que cite números de itens, versões de norma ou sequência legal exata."
   },
   {
     "code": "S02",
@@ -131,16 +405,57 @@
     "prerequisites": [
       "S01"
     ],
-    "description": "",
-    "learning_objectives": [],
-    "subtopics": [],
-    "includes": [],
-    "excludes": [],
-    "overlaps_with": [],
-    "boundary_rules": [],
-    "classification_examples": [],
-    "classification_counterexamples": [],
-    "normative_review_required": false,
+    "description": "Requisitos de pessoas, proteção individual/coletiva, trabalho em altura e delimitação de zonas de risco em atividades elétricas, tratados em nível curricular e normativo.",
+    "learning_objectives": [
+      "Distinguir qualificação, habilitação, capacitação e autorização quando aplicável ao currículo.",
+      "Relacionar riscos elétricos a medidas de proteção.",
+      "Reconhecer EPI/EPC adequados de forma conceitual.",
+      "Interpretar zonas de risco/controlada/livre quando apresentadas.",
+      "Reconhecer requisitos gerais de trabalho em altura."
+    ],
+    "subtopics": [
+      "Qualificação e capacitação",
+      "Autorização",
+      "EPI e EPC",
+      "Risco de choque e arco elétrico",
+      "Zona de risco e zona controlada",
+      "Trabalho em altura",
+      "Sinalização e isolamento de área",
+      "Condições pessoais para atividade elétrica"
+    ],
+    "includes": [
+      "Questões sobre trabalhador e proteção",
+      "EPI/EPC",
+      "altura",
+      "zonas de aproximação"
+    ],
+    "excludes": [
+      "Sequência de desenergização → S01",
+      "Classificação de tensão e documentos → S03",
+      "Proteções por DR → P03",
+      "Manutenção como estratégia → D01"
+    ],
+    "overlaps_with": [
+      "S01",
+      "S03",
+      "P03",
+      "D01"
+    ],
+    "boundary_rules": [
+      "Pessoa/EPI/EPC/zona/altura → S02.",
+      "Procedimento de retirar e restabelecer energia → S01.",
+      "Prontuário, diagramas obrigatórios ou classe de tensão → S03.",
+      "Dispositivo diferencial residual como tecnologia de proteção → P03."
+    ],
+    "classification_examples": [
+      "Identificar a finalidade de um EPC em área elétrica.",
+      "Classificar uma situação apresentada em zona de risco/controlada conforme dados fornecidos."
+    ],
+    "classification_counterexamples": [
+      "Ordenar passos de desenergização. → S01",
+      "Escolher sensibilidade de dispositivo DR. → P03"
+    ],
+    "normative_review_required": true,
     "editorial_notes": ""
   },
   {
@@ -150,16 +465,50 @@
       "F01",
       "S01"
     ],
-    "description": "",
-    "learning_objectives": [],
-    "subtopics": [],
-    "includes": [],
-    "excludes": [],
-    "overlaps_with": [],
-    "boundary_rules": [],
-    "classification_examples": [],
-    "classification_counterexamples": [],
-    "normative_review_required": false,
+    "description": "Classificação de instalações por níveis de tensão e documentação técnica/de segurança associada à organização de serviços elétricos.",
+    "learning_objectives": [
+      "Distinguir categorias de tensão empregadas no currículo.",
+      "Interpretar documentação técnica de segurança.",
+      "Reconhecer finalidade de prontuários, procedimentos e registros.",
+      "Relacionar diagramas/documentos à gestão de segurança, sem transformar toda leitura de diagrama em S03."
+    ],
+    "subtopics": [
+      "Classificação por tensão",
+      "Baixa e alta tensão em contexto curricular",
+      "Documentação de segurança",
+      "Prontuário",
+      "Procedimentos e registros",
+      "Diagramas como documentação obrigatória",
+      "Responsabilidade documental"
+    ],
+    "includes": [
+      "Questões cujo objeto é documentação/registro de segurança",
+      "Classificação de tensão"
+    ],
+    "excludes": [
+      "Desenho/simbologia do diagrama → I03",
+      "Sequência de desenergização → S01",
+      "EPI/qualificação → S02"
+    ],
+    "overlaps_with": [
+      "S01",
+      "S02",
+      "I03"
+    ],
+    "boundary_rules": [
+      "Se a pergunta é sobre conteúdo/finalidade/exigência documental, S03.",
+      "Se pede interpretar ou desenhar símbolo/diagrama, I03.",
+      "Se o valor de tensão é apenas grandeza física, F01; se define classe/categoria de instalação, S03."
+    ],
+    "classification_examples": [
+      "Identificar a finalidade de um prontuário de instalações elétricas.",
+      "Classificar uma instalação pela faixa de tensão fornecida."
+    ],
+    "classification_counterexamples": [
+      "Interpretar a simbologia de um diagrama unifilar. → I03",
+      "Converter 13,8 kV em volts. → F01"
+    ],
+    "normative_review_required": true,
     "editorial_notes": ""
   },
   {
@@ -169,16 +518,55 @@
       "F04",
       "S01"
     ],
-    "description": "",
-    "learning_objectives": [],
-    "subtopics": [],
-    "includes": [],
-    "excludes": [],
-    "overlaps_with": [],
-    "boundary_rules": [],
-    "classification_examples": [],
-    "classification_counterexamples": [],
-    "normative_review_required": false,
+    "description": "Planejamento básico de instalações elétricas prediais quanto a pontos de iluminação, tomadas e previsão de cargas, incluindo organização de circuitos em nível de projeto.",
+    "learning_objectives": [
+      "Determinar previsão de cargas de iluminação e tomadas a partir de critérios fornecidos.",
+      "Distinguir tipos de pontos/cargas prediais.",
+      "Organizar circuitos prediais em nível básico.",
+      "Interpretar requisitos de quantidade/potência quando fornecidos no enunciado."
+    ],
+    "subtopics": [
+      "Pontos de iluminação",
+      "Tomadas de uso geral",
+      "Tomadas de uso específico",
+      "Previsão de cargas",
+      "Divisão básica de circuitos",
+      "Quadro de cargas em nível funcional",
+      "Distribuição de pontos"
+    ],
+    "includes": [
+      "Soma/previsão de potência de cargas prediais",
+      "Quantidade/posição funcional de tomadas e iluminação"
+    ],
+    "excludes": [
+      "Comando de interruptores/sensores → I02",
+      "Representação gráfica/CAD → I03",
+      "Dimensionamento de condutor → P01",
+      "Proteção de circuito → P02",
+      "Potência geral não vinculada a projeto predial → F04"
+    ],
+    "overlaps_with": [
+      "F04",
+      "I02",
+      "I03",
+      "P01",
+      "P02"
+    ],
+    "boundary_rules": [
+      "Carga predial/quantidade de pontos → I01.",
+      "Como acionar a lâmpada/sensor → I02.",
+      "Como representar em planta/diagrama → I03.",
+      "Bitola/correção → P01; disjuntor/fusível → P02."
+    ],
+    "classification_examples": [
+      "Calcular a carga prevista de um conjunto de tomadas segundo dados fornecidos.",
+      "Identificar o circuito correspondente a iluminação em um quadro de cargas."
+    ],
+    "classification_counterexamples": [
+      "Escolher seção mínima pelo método de capacidade de corrente. → P01",
+      "Reconhecer símbolo de tomada em planta. → I03"
+    ],
+    "normative_review_required": true,
     "editorial_notes": ""
   },
   {
@@ -188,15 +576,50 @@
       "I01",
       "M01"
     ],
-    "description": "",
-    "learning_objectives": [],
-    "subtopics": [],
-    "includes": [],
-    "excludes": [],
-    "overlaps_with": [],
-    "boundary_rules": [],
-    "classification_examples": [],
-    "classification_counterexamples": [],
+    "description": "Comandos usuais de instalações prediais para iluminação e cargas simples, incluindo interruptores, sensores e relés fotocélula.",
+    "learning_objectives": [
+      "Distinguir interruptor simples, paralelo/intermediário quando apresentados.",
+      "Interpretar lógica funcional de acionamento de iluminação.",
+      "Reconhecer sensores de presença e relé fotocélula.",
+      "Relacionar dispositivo de comando à aplicação predial."
+    ],
+    "subtopics": [
+      "Interruptor simples",
+      "Interruptores para comando de múltiplos pontos",
+      "Sensor de presença predial",
+      "Relé fotocélula",
+      "Comando automático de iluminação",
+      "Circuitos funcionais de iluminação"
+    ],
+    "includes": [
+      "Questões de acionamento predial",
+      "Seleção funcional entre interruptor/sensor/fotocélula"
+    ],
+    "excludes": [
+      "Previsão de cargas → I01",
+      "Simbologia/desenho → I03",
+      "Sensores industriais/alarme/nível → A03",
+      "Comando de motores → E03"
+    ],
+    "overlaps_with": [
+      "I01",
+      "I03",
+      "A03",
+      "E03"
+    ],
+    "boundary_rules": [
+      "Comando de iluminação predial → I02.",
+      "Sensor de nível/processo/alarme integrado a automação → A03.",
+      "Contator/selo/reversão de motor → E03."
+    ],
+    "classification_examples": [
+      "Escolher dispositivo para ligar iluminação automaticamente ao anoitecer.",
+      "Interpretar comando de lâmpada a partir de dois pontos."
+    ],
+    "classification_counterexamples": [
+      "Selecionar sensor de nível para tanque automatizado. → A03",
+      "Montar lógica de reversão de motor. → E03"
+    ],
     "normative_review_required": false,
     "editorial_notes": ""
   },
@@ -206,15 +629,54 @@
     "prerequisites": [
       "F01"
     ],
-    "description": "",
-    "learning_objectives": [],
-    "subtopics": [],
-    "includes": [],
-    "excludes": [],
-    "overlaps_with": [],
-    "boundary_rules": [],
-    "classification_examples": [],
-    "classification_counterexamples": [],
+    "description": "Representação gráfica de instalações e sistemas elétricos por símbolos, diagramas unifilares/multifilares, plantas e ferramentas CAD.",
+    "learning_objectives": [
+      "Reconhecer símbolos elétricos.",
+      "Distinguir diagrama unifilar de multifilar.",
+      "Interpretar conexões a partir de representação gráfica.",
+      "Relacionar desenho técnico/CAD à documentação de projeto."
+    ],
+    "subtopics": [
+      "Simbologia elétrica",
+      "Diagrama unifilar",
+      "Diagrama multifilar",
+      "Plantas elétricas",
+      "Legenda",
+      "CAD elétrico",
+      "Representação de componentes"
+    ],
+    "includes": [
+      "Identificação de símbolo",
+      "Tipo de diagrama",
+      "Leitura de desenho quando foco é representação"
+    ],
+    "excludes": [
+      "Conteúdo funcional do circuito predial → I01/I02",
+      "Ladder/CLP → A01/A02",
+      "Simbologia pneumática/hidráulica → H01",
+      "Documentação de segurança → S03"
+    ],
+    "overlaps_with": [
+      "I01",
+      "I02",
+      "A01",
+      "H01",
+      "S03"
+    ],
+    "boundary_rules": [
+      "Símbolo/representação elétrica → I03.",
+      "Símbolo pneumático/hidráulico → H01.",
+      "Ladder como linguagem lógica → A01.",
+      "Diagrama citado apenas como documento obrigatório → S03."
+    ],
+    "classification_examples": [
+      "Identificar um componente pelo símbolo em diagrama unifilar.",
+      "Distinguir representação unifilar e multifilar."
+    ],
+    "classification_counterexamples": [
+      "Interpretar função de contato em Ladder. → A01",
+      "Identificar válvula direcional por símbolo. → H01"
+    ],
     "normative_review_required": false,
     "editorial_notes": ""
   },
@@ -226,16 +688,55 @@
       "I01",
       "S01"
     ],
-    "description": "",
-    "learning_objectives": [],
-    "subtopics": [],
-    "includes": [],
-    "excludes": [],
-    "overlaps_with": [],
-    "boundary_rules": [],
-    "classification_examples": [],
-    "classification_counterexamples": [],
-    "normative_review_required": false,
+    "description": "Dimensionamento de condutores em instalações elétricas considerando seção, método de instalação, capacidade de condução, queda de tensão e fatores de correção fornecidos.",
+    "learning_objectives": [
+      "Selecionar seção de condutor a partir de critérios de projeto.",
+      "Aplicar fatores de correção.",
+      "Comparar capacidade de condução e corrente de projeto.",
+      "Analisar queda de tensão quando usada para dimensionar condutor.",
+      "Reconhecer influência do método de instalação."
+    ],
+    "subtopics": [
+      "Seção de condutor",
+      "Capacidade de condução de corrente",
+      "Métodos de instalação",
+      "Fator de agrupamento",
+      "Fator de temperatura",
+      "Queda de tensão",
+      "Critérios de dimensionamento"
+    ],
+    "includes": [
+      "Bitola/seção",
+      "ampacidade",
+      "fatores de correção",
+      "queda de tensão aplicada ao cabo"
+    ],
+    "excludes": [
+      "Lei de Ohm de resistor abstrato → F02",
+      "Previsão de cargas → I01",
+      "Dimensionamento de disjuntor/fusível → P02",
+      "Condutor de proteção/aterramento quando foco é esquema de aterramento → P04"
+    ],
+    "overlaps_with": [
+      "F02",
+      "I01",
+      "P02",
+      "P04"
+    ],
+    "boundary_rules": [
+      "Se o produto final é escolher/verificar seção de cabo, P01.",
+      "Se o produto final é proteção contra sobrecorrente, P02.",
+      "Queda de tensão pode ser P01 quando critério de dimensionamento."
+    ],
+    "classification_examples": [
+      "Aplicar fator de agrupamento para determinar capacidade corrigida de um cabo.",
+      "Escolher seção de condutor a partir de corrente e método de instalação."
+    ],
+    "classification_counterexamples": [
+      "Calcular resistência equivalente de resistores. → F02",
+      "Selecionar curva de disjuntor. → P02"
+    ],
+    "normative_review_required": true,
     "editorial_notes": ""
   },
   {
@@ -244,16 +745,54 @@
     "prerequisites": [
       "P01"
     ],
-    "description": "",
-    "learning_objectives": [],
-    "subtopics": [],
-    "includes": [],
-    "excludes": [],
-    "overlaps_with": [],
-    "boundary_rules": [],
-    "classification_examples": [],
-    "classification_counterexamples": [],
-    "normative_review_required": false,
+    "description": "Proteção de circuitos contra sobrecorrentes e curto-circuitos por disjuntores e fusíveis, incluindo características, curvas de atuação e coordenação básica.",
+    "learning_objectives": [
+      "Distinguir sobrecarga e curto-circuito.",
+      "Reconhecer funções de disjuntores e fusíveis.",
+      "Interpretar curvas/características de atuação.",
+      "Selecionar proteção de sobrecorrente a partir de dados fornecidos.",
+      "Relacionar capacidade de interrupção ao curto-circuito em nível curricular."
+    ],
+    "subtopics": [
+      "Disjuntores",
+      "Fusíveis",
+      "Sobrecarga",
+      "Curto-circuito",
+      "Curvas de disparo",
+      "Capacidade de interrupção",
+      "Coordenação básica condutor-proteção"
+    ],
+    "includes": [
+      "Proteção por sobrecorrente",
+      "dimensionamento/seleção de disjuntor/fusível",
+      "curvas"
+    ],
+    "excludes": [
+      "Proteção diferencial residual → P03",
+      "Dimensionamento do cabo → P01",
+      "Relés de proteção/SEP → T02",
+      "Comando de motor por contatores → E03"
+    ],
+    "overlaps_with": [
+      "P01",
+      "P03",
+      "T02",
+      "E03"
+    ],
+    "boundary_rules": [
+      "Sobrecorrente/curto/disjuntor/fusível → P02.",
+      "Fuga à terra/proteção diferencial de pessoas → P03.",
+      "Relé de proteção associado a TC/TP/SEP → T02."
+    ],
+    "classification_examples": [
+      "Selecionar fusível adequado para proteção de um circuito a partir de dados fornecidos.",
+      "Interpretar uma curva de disparo de disjuntor."
+    ],
+    "classification_counterexamples": [
+      "Escolher dispositivo DR para corrente residual. → P03",
+      "Calcular relação de TC para relé. → T02"
+    ],
+    "normative_review_required": true,
     "editorial_notes": ""
   },
   {
@@ -263,16 +802,49 @@
       "S01",
       "I01"
     ],
-    "description": "",
-    "learning_objectives": [],
-    "subtopics": [],
-    "includes": [],
-    "excludes": [],
-    "overlaps_with": [],
-    "boundary_rules": [],
-    "classification_examples": [],
-    "classification_counterexamples": [],
-    "normative_review_required": false,
+    "description": "Proteção adicional de pessoas e instalações por dispositivos diferenciais residuais, distinguindo funções de DR/IDR/DDR e sua coordenação com proteção de sobrecorrente.",
+    "learning_objectives": [
+      "Reconhecer princípio da corrente diferencial residual.",
+      "Distinguir IDR, DDR e dispositivos com funções combinadas conforme terminologia adotada.",
+      "Selecionar funcionalmente proteção diferencial a partir de dados fornecidos.",
+      "Distinguir proteção contra fuga/choque de proteção contra sobrecorrente."
+    ],
+    "subtopics": [
+      "Corrente diferencial residual",
+      "DR/IDR",
+      "DDR/dispositivo diferencial com função de sobrecorrente conforme nomenclatura curricular",
+      "Sensibilidade diferencial",
+      "Proteção adicional contra choque",
+      "Coordenação com disjuntor"
+    ],
+    "includes": [
+      "Questões sobre fuga à terra e corrente residual",
+      "funções diferenciais"
+    ],
+    "excludes": [
+      "Disjuntor/fusível de sobrecorrente → P02",
+      "Esquema de aterramento → P04",
+      "EPI e zonas de risco → S02"
+    ],
+    "overlaps_with": [
+      "P02",
+      "P04",
+      "S02"
+    ],
+    "boundary_rules": [
+      "Se a grandeza central é corrente residual/diferença entre ida e retorno, P03.",
+      "Se sobrecorrente/curto é central, P02.",
+      "Aterramento pode complementar proteção, mas topologia TT/TN/IT é P04."
+    ],
+    "classification_examples": [
+      "Identificar a função de um dispositivo diferencial residual.",
+      "Distinguir proteção contra sobrecorrente de proteção diferencial."
+    ],
+    "classification_counterexamples": [
+      "Escolher curva de disjuntor termomagnético. → P02",
+      "Identificar esquema TT. → P04"
+    ],
+    "normative_review_required": true,
     "editorial_notes": ""
   },
   {
@@ -282,16 +854,50 @@
       "S01",
       "I03"
     ],
-    "description": "",
-    "learning_objectives": [],
-    "subtopics": [],
-    "includes": [],
-    "excludes": [],
-    "overlaps_with": [],
-    "boundary_rules": [],
-    "classification_examples": [],
-    "classification_counterexamples": [],
-    "normative_review_required": false,
+    "description": "Esquemas de aterramento das instalações e equipotencialização, com foco nas funções de condutores de proteção, massas e topologias usuais de aterramento.",
+    "learning_objectives": [
+      "Distinguir esquemas de aterramento apresentados no currículo.",
+      "Reconhecer função de PE, neutro e equipotencialização.",
+      "Interpretar ligação de massas e ponto de aterramento.",
+      "Relacionar esquema de aterramento à proteção contra choques em nível conceitual."
+    ],
+    "subtopics": [
+      "Esquemas TT/TN/IT em nível curricular",
+      "Condutor de proteção",
+      "Equipotencialização",
+      "Massas e partes condutoras",
+      "Aterramento funcional e de proteção",
+      "Barramento de equipotencialização"
+    ],
+    "includes": [
+      "Topologia do aterramento da instalação",
+      "equipotencialização",
+      "condutor PE"
+    ],
+    "excludes": [
+      "SPDA, captação, descida e DPS → P05",
+      "DR como dispositivo → P03",
+      "Aterramento temporário de desenergização → S01"
+    ],
+    "overlaps_with": [
+      "P03",
+      "P05",
+      "S01"
+    ],
+    "boundary_rules": [
+      "Esquema permanente TT/TN/IT/equipotencialização → P04.",
+      "Aterramento temporário como etapa de segurança → S01.",
+      "Sistema externo de proteção contra descargas/DPS → P05."
+    ],
+    "classification_examples": [
+      "Identificar um esquema de aterramento a partir da ligação entre fonte e massas.",
+      "Explicar a finalidade da equipotencialização."
+    ],
+    "classification_counterexamples": [
+      "Selecionar DPS para proteção contra surtos. → P05",
+      "Ordenar etapa de aterramento temporário na desenergização. → S01"
+    ],
+    "normative_review_required": true,
     "editorial_notes": ""
   },
   {
@@ -300,16 +906,50 @@
     "prerequisites": [
       "P04"
     ],
-    "description": "",
-    "learning_objectives": [],
-    "subtopics": [],
-    "includes": [],
-    "excludes": [],
-    "overlaps_with": [],
-    "boundary_rules": [],
-    "classification_examples": [],
-    "classification_counterexamples": [],
-    "normative_review_required": false,
+    "description": "Proteção contra descargas atmosféricas e surtos, abrangendo captação, condutores de descida, subsistema de aterramento e dispositivos de proteção contra surtos.",
+    "learning_objectives": [
+      "Reconhecer subsistemas de um SPDA.",
+      "Distinguir captação, descida e aterramento.",
+      "Reconhecer função do DPS.",
+      "Relacionar surtos e descargas à estratégia de proteção."
+    ],
+    "subtopics": [
+      "Captação",
+      "Condutores de descida",
+      "Subsistema de aterramento do SPDA",
+      "DPS",
+      "Surtos transitórios",
+      "Proteção interna e externa em nível curricular"
+    ],
+    "includes": [
+      "SPDA",
+      "para-raios/captores em contexto técnico",
+      "DPS",
+      "coordenação conceitual contra surtos"
+    ],
+    "excludes": [
+      "Esquemas TT/TN/IT e equipotencialização geral → P04",
+      "Disjuntores/fusíveis → P02",
+      "Proteção diferencial → P03"
+    ],
+    "overlaps_with": [
+      "P04",
+      "P02",
+      "P03"
+    ],
+    "boundary_rules": [
+      "Se o problema é descarga atmosférica/surto/captação/descida/DPS, P05.",
+      "Se trata da topologia de aterramento da instalação sem SPDA/surto, P04."
+    ],
+    "classification_examples": [
+      "Identificar a função de um DPS em uma instalação.",
+      "Reconhecer os subsistemas de um SPDA."
+    ],
+    "classification_counterexamples": [
+      "Identificar esquema de aterramento TT. → P04",
+      "Selecionar fusível para curto-circuito. → P02"
+    ],
+    "normative_review_required": true,
     "editorial_notes": ""
   },
   {
@@ -319,15 +959,54 @@
       "F04",
       "M01"
     ],
-    "description": "",
-    "learning_objectives": [],
-    "subtopics": [],
-    "includes": [],
-    "excludes": [],
-    "overlaps_with": [],
-    "boundary_rules": [],
-    "classification_examples": [],
-    "classification_counterexamples": [],
+    "description": "Características nominais e desempenho básico de motores elétricos, com leitura de placa e interpretação de potência, corrente, tensão, velocidade, rendimento e dados de identificação.",
+    "learning_objectives": [
+      "Interpretar dados de placa de motores.",
+      "Relacionar potência mecânica/elétrica, corrente e tensão nominais.",
+      "Reconhecer velocidade nominal e noções de escorregamento quando fornecidas.",
+      "Distinguir características de diferentes motores em nível de identificação."
+    ],
+    "subtopics": [
+      "Placa de identificação",
+      "Potência nominal",
+      "Corrente nominal",
+      "Tensão nominal",
+      "Velocidade e rotação",
+      "Rendimento",
+      "Fator de serviço quando presente",
+      "Tipos de motor em nível de identificação"
+    ],
+    "includes": [
+      "Leitura de placa",
+      "dados nominais",
+      "reconhecimento de tipo de motor"
+    ],
+    "excludes": [
+      "Ligação de bobinas/fechamentos → E02",
+      "Circuitos de partida/comando → E03-E06",
+      "Potência genérica sem contexto de motor → F04",
+      "Diagnóstico de motor → D02"
+    ],
+    "overlaps_with": [
+      "F04",
+      "E02",
+      "E03",
+      "D02"
+    ],
+    "boundary_rules": [
+      "Placa e parâmetros nominais do motor → E01.",
+      "Como conectar enrolamentos → E02.",
+      "Como partir/reverter/controlar → E03-E06.",
+      "Falha/diagnóstico → D02."
+    ],
+    "classification_examples": [
+      "Interpretar corrente e velocidade nominais indicadas na placa de um motor.",
+      "Determinar qual tensão de alimentação corresponde ao fechamento indicado em placa, sem montar o circuito."
+    ],
+    "classification_counterexamples": [
+      "Identificar ligação estrela/triângulo dos terminais. → E02",
+      "Analisar circuito de reversão com contatores. → E03"
+    ],
     "normative_review_required": false,
     "editorial_notes": ""
   },
@@ -338,15 +1017,52 @@
       "E01",
       "M02"
     ],
-    "description": "",
-    "learning_objectives": [],
-    "subtopics": [],
-    "includes": [],
-    "excludes": [],
-    "overlaps_with": [],
-    "boundary_rules": [],
-    "classification_examples": [],
-    "classification_counterexamples": [],
+    "description": "Constituição elétrica e conexão de enrolamentos de motores, incluindo terminais, bobinas, fechamentos e ligações monofásicas/trifásicas.",
+    "learning_objectives": [
+      "Identificar enrolamentos e terminais.",
+      "Interpretar fechamentos estrela/triângulo quando tratados como ligação de motor.",
+      "Relacionar tensão de rede e tensão de bobina ao fechamento.",
+      "Reconhecer elementos de ligação de motores monofásicos, como enrolamentos auxiliares/capacitor, em nível curricular."
+    ],
+    "subtopics": [
+      "Bobinas e terminais",
+      "Fechamento estrela",
+      "Fechamento triângulo",
+      "Ligação de motor monofásico",
+      "Ligação de motor trifásico",
+      "Enrolamento principal/auxiliar",
+      "Capacitor de partida/permanente em contexto de ligação"
+    ],
+    "includes": [
+      "Conexão física/lógica dos enrolamentos",
+      "identificação de terminais"
+    ],
+    "excludes": [
+      "Partida estrela-triângulo como estratégia de partida → E04",
+      "Comando/reversão/selagem → E03",
+      "Dahlander → E05",
+      "Placa/dados nominais → E01"
+    ],
+    "overlaps_with": [
+      "E01",
+      "E03",
+      "E04",
+      "E05"
+    ],
+    "boundary_rules": [
+      "Fechamento estático dos enrolamentos → E02.",
+      "Sequência temporizada estrela-triângulo para partida → E04.",
+      "Duas velocidades por reconexão Dahlander → E05.",
+      "Contatores, selo e intertravamento → E03."
+    ],
+    "classification_examples": [
+      "Identificar o fechamento adequado de um motor 220/380 V para uma rede dada.",
+      "Reconhecer enrolamento auxiliar em motor monofásico."
+    ],
+    "classification_counterexamples": [
+      "Interpretar sequência temporizada estrela-triângulo. → E04",
+      "Montar lógica de reversão. → E03"
+    ],
     "normative_review_required": false,
     "editorial_notes": ""
   },
@@ -357,15 +1073,57 @@
       "E02",
       "P02"
     ],
-    "description": "",
-    "learning_objectives": [],
-    "subtopics": [],
-    "includes": [],
-    "excludes": [],
-    "overlaps_with": [],
-    "boundary_rules": [],
-    "classification_examples": [],
-    "classification_counterexamples": [],
+    "description": "Comandos elétricos clássicos para partida direta e reversão de motores, com contatores, botoeiras, selo, intertravamento e elementos de proteção/comando.",
+    "learning_objectives": [
+      "Interpretar circuito de partida direta.",
+      "Explicar auto-retenção/selo.",
+      "Analisar reversão de sentido.",
+      "Distinguir intertravamento elétrico e mecânico em nível funcional.",
+      "Reconhecer contatos NA/NF e bobinas em comando de motor."
+    ],
+    "subtopics": [
+      "Partida direta",
+      "Contatores",
+      "Botoeiras",
+      "Selo/auto-retenção",
+      "Reversão",
+      "Intertravamento",
+      "Relé térmico em circuito de comando",
+      "Circuito de força e comando"
+    ],
+    "includes": [
+      "Ladder eletromecânico de motores",
+      "contatores para partida direta/reversão"
+    ],
+    "excludes": [
+      "Lógica Ladder de CLP → A01/A02",
+      "Estrela-triângulo → E04",
+      "Dahlander → E05",
+      "Inversor/soft-starter → E06",
+      "Disjuntor/fusível como proteção de circuito → P02"
+    ],
+    "overlaps_with": [
+      "A01",
+      "A02",
+      "E04",
+      "E05",
+      "E06",
+      "P02"
+    ],
+    "boundary_rules": [
+      "Contatores/botoeiras/selo/reversão convencional → E03.",
+      "Se o diagrama é programa de CLP, A01/A02.",
+      "Se técnica de partida específica é estrela-triângulo ou compensadora, E04.",
+      "Se eletrônico parametrizável, E06."
+    ],
+    "classification_examples": [
+      "Explicar a função do contato de selo em uma partida direta.",
+      "Identificar intertravamento em circuito de reversão."
+    ],
+    "classification_counterexamples": [
+      "Programar sequência de motor em CLP. → A02",
+      "Selecionar rampa de soft-starter. → E06"
+    ],
     "normative_review_required": false,
     "editorial_notes": ""
   },
@@ -375,15 +1133,50 @@
     "prerequisites": [
       "E03"
     ],
-    "description": "",
-    "learning_objectives": [],
-    "subtopics": [],
-    "includes": [],
-    "excludes": [],
-    "overlaps_with": [],
-    "boundary_rules": [],
-    "classification_examples": [],
-    "classification_counterexamples": [],
+    "description": "Partidas de motores por estrela-triângulo e compensadora, incluindo finalidade de redução da corrente de partida e sequência funcional dos elementos.",
+    "learning_objectives": [
+      "Reconhecer princípio da partida estrela-triângulo.",
+      "Interpretar sequência de contatores e temporização.",
+      "Reconhecer partida compensadora/autotransformador em nível curricular.",
+      "Distinguir essas técnicas da partida direta e de acionamentos eletrônicos."
+    ],
+    "subtopics": [
+      "Partida estrela-triângulo",
+      "Temporização estrela→triângulo",
+      "Contatores da partida",
+      "Partida compensadora",
+      "Autotransformador de partida",
+      "Redução de corrente de partida"
+    ],
+    "includes": [
+      "Circuitos e sequência de estrela-triângulo",
+      "partida compensadora"
+    ],
+    "excludes": [
+      "Fechamento estrela/triângulo estático → E02",
+      "Partida direta/reversão → E03",
+      "Dahlander → E05",
+      "Soft-starter/inversor → E06"
+    ],
+    "overlaps_with": [
+      "E02",
+      "E03",
+      "E05",
+      "E06"
+    ],
+    "boundary_rules": [
+      "Estrela/triângulo apenas como fechamento nominal → E02.",
+      "Mudança automática estrela→triângulo para partir → E04.",
+      "Controle eletrônico de rampa → E06."
+    ],
+    "classification_examples": [
+      "Identificar a ordem de atuação dos contatores em uma partida estrela-triângulo.",
+      "Explicar por que a partida compensadora reduz corrente de partida."
+    ],
+    "classification_counterexamples": [
+      "Escolher fechamento permanente de terminais do motor. → E02",
+      "Parametrizar tempo de aceleração em soft-starter. → E06"
+    ],
     "normative_review_required": false,
     "editorial_notes": ""
   },
@@ -393,15 +1186,47 @@
     "prerequisites": [
       "E03"
     ],
-    "description": "",
-    "learning_objectives": [],
-    "subtopics": [],
-    "includes": [],
-    "excludes": [],
-    "overlaps_with": [],
-    "boundary_rules": [],
-    "classification_examples": [],
-    "classification_counterexamples": [],
+    "description": "Comandos de motores de duas velocidades, especialmente ligação Dahlander, com identificação das configurações de polos e lógica básica de seleção/intertravamento de velocidades.",
+    "learning_objectives": [
+      "Reconhecer princípio de mudança de polos no Dahlander.",
+      "Identificar configurações de baixa/alta velocidade.",
+      "Interpretar circuitos de seleção e intertravamento entre velocidades.",
+      "Distinguir Dahlander de controle eletrônico por frequência."
+    ],
+    "subtopics": [
+      "Motor Dahlander",
+      "Mudança de polos",
+      "Baixa e alta velocidade",
+      "Conexões de duas velocidades",
+      "Intertravamento entre velocidades"
+    ],
+    "includes": [
+      "Questões que citam explicitamente Dahlander",
+      "duas velocidades por reconexão de enrolamentos/polos"
+    ],
+    "excludes": [
+      "Fechamento comum de motor → E02",
+      "Partida/reversão comum → E03",
+      "Controle de velocidade por inversor → E06"
+    ],
+    "overlaps_with": [
+      "E02",
+      "E03",
+      "E06"
+    ],
+    "boundary_rules": [
+      "Duas velocidades por polos/enrolamentos Dahlander → E05.",
+      "Velocidade variável por frequência eletrônica → E06.",
+      "Apenas estrela/triângulo de tensão → E02/E04 conforme contexto."
+    ],
+    "classification_examples": [
+      "Identificar qual ligação corresponde à alta velocidade de um motor Dahlander.",
+      "Explicar a mudança de velocidade por alteração do número de polos."
+    ],
+    "classification_counterexamples": [
+      "Ajustar frequência de saída de inversor para controlar velocidade. → E06",
+      "Escolher fechamento estrela/triângulo pela tensão de rede. → E02"
+    ],
     "normative_review_required": false,
     "editorial_notes": ""
   },
@@ -412,15 +1237,51 @@
       "E03",
       "F03"
     ],
-    "description": "",
-    "learning_objectives": [],
-    "subtopics": [],
-    "includes": [],
-    "excludes": [],
-    "overlaps_with": [],
-    "boundary_rules": [],
-    "classification_examples": [],
-    "classification_counterexamples": [],
+    "description": "Acionamentos eletrônicos de motores por inversores de frequência e soft-starters, incluindo funções, parâmetros, rampas e controle básico de velocidade/partida.",
+    "learning_objectives": [
+      "Distinguir inversor de frequência e soft-starter.",
+      "Interpretar parâmetros básicos de frequência, aceleração e desaceleração.",
+      "Reconhecer funções de proteção/controle dos acionamentos.",
+      "Relacionar frequência de saída à velocidade de motores em contexto de acionamento."
+    ],
+    "subtopics": [
+      "Inversor de frequência",
+      "Soft-starter",
+      "Rampas de aceleração/desaceleração",
+      "Frequência de saída",
+      "Parâmetros básicos",
+      "Entradas de comando do acionamento",
+      "Proteções e alarmes do equipamento"
+    ],
+    "includes": [
+      "Parametrização de acionamento",
+      "controle eletrônico de velocidade",
+      "partida suave"
+    ],
+    "excludes": [
+      "Frequência/reatância de circuito CA → F03",
+      "Partida convencional com contatores → E03/E04",
+      "Dahlander → E05"
+    ],
+    "overlaps_with": [
+      "F03",
+      "E03",
+      "E04",
+      "E05"
+    ],
+    "boundary_rules": [
+      "Se frequência é parâmetro de um inversor para controlar motor, E06.",
+      "Se frequência é propriedade de senoide/circuito reativo, F03.",
+      "Soft-starter sempre permanece E06, não E04."
+    ],
+    "classification_examples": [
+      "Definir qual parâmetro ajusta a rampa de aceleração de uma soft-starter.",
+      "Relacionar aumento de frequência de saída do inversor ao aumento de velocidade do motor."
+    ],
+    "classification_counterexamples": [
+      "Calcular reatância indutiva a 60 Hz. → F03",
+      "Identificar contato de selo em partida direta. → E03"
+    ],
     "normative_review_required": false,
     "editorial_notes": ""
   },
@@ -431,15 +1292,50 @@
       "F03",
       "F04"
     ],
-    "description": "",
-    "learning_objectives": [],
-    "subtopics": [],
-    "includes": [],
-    "excludes": [],
-    "overlaps_with": [],
-    "boundary_rules": [],
-    "classification_examples": [],
-    "classification_counterexamples": [],
+    "description": "Fundamentos de transformadores de potência/distribuição, com relação de transformação, grandezas de primário/secundário, perdas/rendimento e proteções associadas em nível técnico.",
+    "learning_objectives": [
+      "Aplicar relação de transformação.",
+      "Relacionar tensões e correntes de primário/secundário.",
+      "Reconhecer transformador elevador/abaixador.",
+      "Interpretar potência e rendimento no contexto do transformador.",
+      "Reconhecer proteções usuais em nível funcional."
+    ],
+    "subtopics": [
+      "Relação de espiras",
+      "Relação de tensões",
+      "Relação de correntes",
+      "Transformador elevador/abaixador",
+      "Potência e rendimento do transformador",
+      "Perdas",
+      "Proteções de transformador em nível introdutório"
+    ],
+    "includes": [
+      "Cálculos de transformação",
+      "identificação funcional de transformadores de potência/distribuição"
+    ],
+    "excludes": [
+      "TC e TP para medição/proteção → T02",
+      "Potência genérica → F04",
+      "Equipamentos de subestação como conjunto → R02"
+    ],
+    "overlaps_with": [
+      "F04",
+      "T02",
+      "R02"
+    ],
+    "boundary_rules": [
+      "Transformador para transferência de energia e relação N/V/I → T01.",
+      "Transformador de instrumento para medição/relé → T02.",
+      "Questão centrada na operação/conjunto da subestação → R02."
+    ],
+    "classification_examples": [
+      "Calcular a tensão secundária a partir da relação de espiras.",
+      "Identificar transformador elevador a partir de tensões de entrada e saída."
+    ],
+    "classification_counterexamples": [
+      "Calcular corrente secundária de um TC 500/5. → T02",
+      "Identificar arranjo de barramentos de subestação. → R02"
+    ],
     "normative_review_required": false,
     "editorial_notes": ""
   },
@@ -451,15 +1347,53 @@
       "M01",
       "S01"
     ],
-    "description": "",
-    "learning_objectives": [],
-    "subtopics": [],
-    "includes": [],
-    "excludes": [],
-    "overlaps_with": [],
-    "boundary_rules": [],
-    "classification_examples": [],
-    "classification_counterexamples": [],
+    "description": "Medição e proteção indireta em sistemas elétricos de potência por transformadores de corrente e potencial, relés e cadeias de medição/proteção.",
+    "learning_objectives": [
+      "Aplicar relações de TC e TP.",
+      "Distinguir funções de TC e TP.",
+      "Interpretar medição indireta.",
+      "Reconhecer função de relés de proteção e sua associação aos transformadores de instrumento.",
+      "Relacionar sinais secundários à supervisão/proteção."
+    ],
+    "subtopics": [
+      "Transformador de corrente",
+      "Transformador de potencial/tensão",
+      "Relação de TC/TP",
+      "Medição indireta",
+      "Relés de proteção",
+      "Circuitos secundários de medição/proteção",
+      "Proteções de SEP em nível funcional"
+    ],
+    "includes": [
+      "TC/TP",
+      "relés de proteção de SEP",
+      "medição indireta"
+    ],
+    "excludes": [
+      "Transformador de potência → T01",
+      "Multímetro/alicate → M01",
+      "Disjuntor/fusível de instalação → P02",
+      "Operação global da subestação → R02"
+    ],
+    "overlaps_with": [
+      "T01",
+      "M01",
+      "P02",
+      "R02"
+    ],
+    "boundary_rules": [
+      "TC/TP como sensores de corrente/tensão para instrumento/relé → T02.",
+      "Transformador transferindo potência → T01.",
+      "Equipamento de subestação sem foco no princípio de medição/proteção → R02."
+    ],
+    "classification_examples": [
+      "Calcular a corrente indicada no secundário de um TC a partir da relação nominal.",
+      "Identificar a função de um TP em circuito de medição."
+    ],
+    "classification_counterexamples": [
+      "Determinar tensão secundária de transformador de distribuição por espiras. → T01",
+      "Escolher escala de multímetro. → M01"
+    ],
     "normative_review_required": false,
     "editorial_notes": ""
   },
@@ -470,15 +1404,48 @@
       "I03",
       "S02"
     ],
-    "description": "",
-    "learning_objectives": [],
-    "subtopics": [],
-    "includes": [],
-    "excludes": [],
-    "overlaps_with": [],
-    "boundary_rules": [],
-    "classification_examples": [],
-    "classification_counterexamples": [],
+    "description": "Elementos e topologias de redes de distribuição, incluindo estruturas, postes, alimentadores, ramais e configurações radiais ou em anel em nível técnico.",
+    "learning_objectives": [
+      "Reconhecer componentes de redes de distribuição.",
+      "Distinguir alimentador, ramal e estrutura.",
+      "Interpretar topologias de rede.",
+      "Relacionar postes/estruturas à função na rede."
+    ],
+    "subtopics": [
+      "Postes e estruturas",
+      "Alimentadores",
+      "Ramais",
+      "Rede primária/secundária em contexto de distribuição",
+      "Topologia radial",
+      "Topologia em anel",
+      "Componentes de rede aérea"
+    ],
+    "includes": [
+      "Questões de arquitetura física/topológica da rede de distribuição"
+    ],
+    "excludes": [
+      "Equipamentos/barramentos de subestação → R02",
+      "Transformadores como princípio → T01",
+      "Segurança/zona de trabalho → S02"
+    ],
+    "overlaps_with": [
+      "R02",
+      "T01",
+      "S02"
+    ],
+    "boundary_rules": [
+      "Rede externa entre subestações/cargas e sua topologia → R01.",
+      "Pátio, barramentos e equipamentos de subestação → R02.",
+      "Transformador isolado e relação elétrica → T01."
+    ],
+    "classification_examples": [
+      "Identificar uma topologia radial de distribuição.",
+      "Reconhecer a função de um alimentador em rede."
+    ],
+    "classification_counterexamples": [
+      "Identificar arranjo de barramento em subestação. → R02",
+      "Calcular relação de transformação. → T01"
+    ],
     "normative_review_required": false,
     "editorial_notes": ""
   },
@@ -489,16 +1456,54 @@
       "R01",
       "T02"
     ],
-    "description": "",
-    "learning_objectives": [],
-    "subtopics": [],
-    "includes": [],
-    "excludes": [],
-    "overlaps_with": [],
-    "boundary_rules": [],
-    "classification_examples": [],
-    "classification_counterexamples": [],
-    "normative_review_required": false,
+    "description": "Constituição e operação funcional de subestações, incluindo equipamentos de manobra/proteção, barramentos, transformadores e arranjos básicos.",
+    "learning_objectives": [
+      "Reconhecer equipamentos de subestação e suas funções.",
+      "Interpretar arranjos de barramentos em nível funcional.",
+      "Relacionar sequência operacional conceitual aos equipamentos.",
+      "Distinguir subestação de rede de distribuição."
+    ],
+    "subtopics": [
+      "Barramentos",
+      "Disjuntores de potência",
+      "Seccionadores",
+      "Transformadores em subestação",
+      "Para-raios de subestação",
+      "Arranjos de barramento",
+      "Operação funcional",
+      "Pátio e equipamentos"
+    ],
+    "includes": [
+      "Identificação de equipamento de subestação",
+      "arranjo de barramentos",
+      "operação de subestação em nível conceitual"
+    ],
+    "excludes": [
+      "Topologia de rede externa → R01",
+      "TC/TP/relés como princípio → T02",
+      "Transformador como relação de transformação → T01",
+      "Sequência normativa de desenergização do trabalhador → S01"
+    ],
+    "overlaps_with": [
+      "R01",
+      "T01",
+      "T02",
+      "S01"
+    ],
+    "boundary_rules": [
+      "Se a questão trata do equipamento como parte do arranjo/operação da subestação, R02.",
+      "Se o foco é relação de TC/TP ou relé, T02.",
+      "Se o foco é relação de transformação do transformador, T01."
+    ],
+    "classification_examples": [
+      "Identificar a função de um barramento em subestação.",
+      "Reconhecer um seccionador pelo papel operacional descrito."
+    ],
+    "classification_counterexamples": [
+      "Calcular relação de TC. → T02",
+      "Identificar alimentador radial de distribuição. → R01"
+    ],
+    "normative_review_required": true,
     "editorial_notes": ""
   },
   {
@@ -507,15 +1512,51 @@
     "prerequisites": [
       "F01"
     ],
-    "description": "",
-    "learning_objectives": [],
-    "subtopics": [],
-    "includes": [],
-    "excludes": [],
-    "overlaps_with": [],
-    "boundary_rules": [],
-    "classification_examples": [],
-    "classification_counterexamples": [],
+    "description": "Fundamentos de lógica digital e linguagem Ladder, incluindo booleanos, binário, tabelas verdade e interpretação de contatos/bobinas como expressões lógicas.",
+    "learning_objectives": [
+      "Aplicar operações booleanas básicas.",
+      "Converter/interpretar representações binárias simples.",
+      "Construir e interpretar tabelas verdade.",
+      "Interpretar contatos e bobinas em Ladder.",
+      "Relacionar série/paralelo de contatos à lógica AND/OR."
+    ],
+    "subtopics": [
+      "Álgebra booleana",
+      "Sistema binário",
+      "Tabela verdade",
+      "AND/OR/NOT",
+      "Contatos NA/NF em Ladder",
+      "Bobina Ladder",
+      "Lógica combinacional em Ladder"
+    ],
+    "includes": [
+      "Lógica pura",
+      "leitura de rung",
+      "equivalência entre expressão booleana e Ladder"
+    ],
+    "excludes": [
+      "Sequenciamento com I/O de CLP → A02",
+      "Comandos eletromecânicos de motor → E03",
+      "Sensores físicos → A03"
+    ],
+    "overlaps_with": [
+      "A02",
+      "E03",
+      "A03"
+    ],
+    "boundary_rules": [
+      "Se o objetivo é lógica/expressão/tabela verdade/Ladder elementar, A01.",
+      "Se há estados, etapas, temporização, I/O e sequência de processo, A02.",
+      "Ladder desenhado como circuito eletromecânico de contatores sem CLP pode ser E03."
+    ],
+    "classification_examples": [
+      "Determinar a saída de uma expressão AND/OR.",
+      "Interpretar dois contatos em série em um rung Ladder."
+    ],
+    "classification_counterexamples": [
+      "Programar sequência de enchimento de tanque com entradas e saídas. → A02",
+      "Interpretar selo de contator em comando convencional. → E03"
+    ],
     "normative_review_required": false,
     "editorial_notes": ""
   },
@@ -526,15 +1567,54 @@
       "A01",
       "E03"
     ],
-    "description": "",
-    "learning_objectives": [],
-    "subtopics": [],
-    "includes": [],
-    "excludes": [],
-    "overlaps_with": [],
-    "boundary_rules": [],
-    "classification_examples": [],
-    "classification_counterexamples": [],
+    "description": "Aplicação de CLP ao controle sequencial por entradas, saídas, memórias, temporizadores e contadores, com foco em lógica de processo e estados.",
+    "learning_objectives": [
+      "Mapear entradas e saídas de um CLP.",
+      "Interpretar e elaborar sequências de controle.",
+      "Usar temporizadores, contadores e memórias em contexto curricular.",
+      "Diagnosticar lógica sequencial simples.",
+      "Distinguir programação de CLP de comando eletromecânico."
+    ],
+    "subtopics": [
+      "Entradas digitais",
+      "Saídas digitais",
+      "Memórias internas",
+      "Temporizadores",
+      "Contadores",
+      "Sequenciamento",
+      "Intertravamento em software",
+      "Controle de processo por estados"
+    ],
+    "includes": [
+      "Programas Ladder de CLP com sequência",
+      "I/O endereçado",
+      "temporização/contagem em automação"
+    ],
+    "excludes": [
+      "Lógica booleana elementar → A01",
+      "Sensor/dispositivo de campo como objeto → A03",
+      "Circuito convencional de contatores → E03",
+      "Sequência eletropneumática centrada em atuadores/válvulas → H02"
+    ],
+    "overlaps_with": [
+      "A01",
+      "A03",
+      "E03",
+      "H02"
+    ],
+    "boundary_rules": [
+      "Programa de CLP e sequência de I/O → A02.",
+      "Só símbolo/princípio de sensor → A03.",
+      "Sequência cujo desafio principal é pneumático/eletropneumático → H02."
+    ],
+    "classification_examples": [
+      "Programar uma sequência de partida/parada usando entradas e saída do CLP.",
+      "Interpretar temporizador em programa Ladder de processo."
+    ],
+    "classification_counterexamples": [
+      "Construir tabela verdade de porta lógica. → A01",
+      "Identificar sensor de nível apropriado. → A03"
+    ],
     "normative_review_required": false,
     "editorial_notes": ""
   },
@@ -545,15 +1625,48 @@
       "A02",
       "I02"
     ],
-    "description": "",
-    "learning_objectives": [],
-    "subtopics": [],
-    "includes": [],
-    "excludes": [],
-    "overlaps_with": [],
-    "boundary_rules": [],
-    "classification_examples": [],
-    "classification_counterexamples": [],
+    "description": "Sensores e dispositivos de detecção usados em automação e instalações, com foco em presença, proximidade, alarme e nível, seus princípios e aplicações.",
+    "learning_objectives": [
+      "Distinguir tipos de sensores por princípio/aplicação.",
+      "Selecionar sensor para presença, proximidade ou nível a partir de requisitos.",
+      "Interpretar sinais digitais básicos de sensores.",
+      "Relacionar sensor ao sistema de alarme/automação."
+    ],
+    "subtopics": [
+      "Sensor de presença",
+      "Proximidade indutiva/capacitiva em nível curricular",
+      "Fotoelétrico em automação",
+      "Sensor de nível",
+      "Boias e chaves de nível",
+      "Sensores de alarme",
+      "Saídas de sensor em nível funcional"
+    ],
+    "includes": [
+      "Identificação/seleção de sensores industriais",
+      "detecção de nível/presença/alarme"
+    ],
+    "excludes": [
+      "Relé fotocélula e sensor de iluminação predial → I02",
+      "Programação do CLP usando sensor → A02",
+      "Instrumentação analógica especializada fora da taxonomia → possível gap/out-of-curriculum"
+    ],
+    "overlaps_with": [
+      "I02",
+      "A02"
+    ],
+    "boundary_rules": [
+      "Se a pergunta é qual sensor/princípio usar, A03.",
+      "Se o sensor é apenas uma entrada e o núcleo é a sequência do CLP, A02.",
+      "Fotocélula de iluminação predial pode ser I02."
+    ],
+    "classification_examples": [
+      "Selecionar sensor para detectar nível máximo em reservatório.",
+      "Distinguir sensor indutivo e capacitivo a partir da aplicação."
+    ],
+    "classification_counterexamples": [
+      "Programar temporizador acionado por sensor no CLP. → A02",
+      "Escolher relé fotocélula para iluminação externa. → I02"
+    ],
     "normative_review_required": false,
     "editorial_notes": ""
   },
@@ -563,17 +1676,51 @@
     "prerequisites": [
       "I03"
     ],
-    "description": "",
-    "learning_objectives": [],
-    "subtopics": [],
-    "includes": [],
-    "excludes": [],
-    "overlaps_with": [],
-    "boundary_rules": [],
-    "classification_examples": [],
-    "classification_counterexamples": [],
+    "description": "Fundamentos de pneumática e hidráulica relativos a válvulas, atuadores e simbologia de circuitos fluídicos.",
+    "learning_objectives": [
+      "Reconhecer válvulas direcionais e seus símbolos.",
+      "Distinguir atuadores lineares e rotativos.",
+      "Interpretar vias/posições de válvulas em nível curricular.",
+      "Distinguir componentes pneumáticos de hidráulicos quando o contexto fornecer características."
+    ],
+    "subtopics": [
+      "Válvulas direcionais",
+      "Válvulas de bloqueio em sistemas fluídicos",
+      "Cilindros",
+      "Atuadores",
+      "Simbologia pneumática",
+      "Simbologia hidráulica",
+      "Vias e posições"
+    ],
+    "includes": [
+      "Identificação de símbolo fluídico",
+      "função de válvula/atuador"
+    ],
+    "excludes": [
+      "Bloqueio elétrico de reenergização → S01",
+      "Sequência eletropneumática → H02",
+      "Simbologia elétrica → I03"
+    ],
+    "overlaps_with": [
+      "S01",
+      "H02",
+      "I03"
+    ],
+    "boundary_rules": [
+      "'Válvula de bloqueio' é H01, não S01.",
+      "Componente/símbolo fluídico isolado → H01.",
+      "Sequência de cilindros, selo e diagnóstico eletropneumático → H02."
+    ],
+    "classification_examples": [
+      "Identificar uma válvula 5/2 por sua simbologia.",
+      "Reconhecer um cilindro de dupla ação."
+    ],
+    "classification_counterexamples": [
+      "Explicar impedimento de reenergização elétrica. → S01",
+      "Analisar sequência A+ B+ B− A−. → H02"
+    ],
     "normative_review_required": false,
-    "editorial_notes": ""
+    "editorial_notes": "Regra anti-falso-positivo explícita para a palavra 'bloqueio'."
   },
   {
     "code": "H02",
@@ -583,15 +1730,50 @@
       "E03",
       "A01"
     ],
-    "description": "",
-    "learning_objectives": [],
-    "subtopics": [],
-    "includes": [],
-    "excludes": [],
-    "overlaps_with": [],
-    "boundary_rules": [],
-    "classification_examples": [],
-    "classification_counterexamples": [],
+    "description": "Análise de sequências e comandos eletropneumáticos/eletro-hidráulicos, integrando válvulas, atuadores, contatos, selo e diagnóstico de funcionamento.",
+    "learning_objectives": [
+      "Interpretar sequências de atuadores.",
+      "Relacionar sensores/fins de curso às etapas da sequência.",
+      "Analisar comando eletropneumático com selo/intertravamento.",
+      "Diagnosticar falhas lógicas simples em sequência fluídica.",
+      "Distinguir a lógica do processo da identificação isolada de componentes."
+    ],
+    "subtopics": [
+      "Sequências de cilindros",
+      "Fim de curso",
+      "Comando eletropneumático",
+      "Selo em eletropneumática",
+      "Intertravamento",
+      "Diagnóstico de sequência",
+      "Integração válvula-sensor-atuador"
+    ],
+    "includes": [
+      "Questões de sequência fluídica",
+      "diagnóstico de circuito eletropneumático"
+    ],
+    "excludes": [
+      "Componente/simbologia isolado → H01",
+      "Comando de motor convencional → E03",
+      "Programa de CLP como núcleo → A02"
+    ],
+    "overlaps_with": [
+      "H01",
+      "E03",
+      "A02"
+    ],
+    "boundary_rules": [
+      "Se o desafio é a ordem/movimento dos atuadores fluídicos, H02.",
+      "Se só identifica a válvula/cilindro, H01.",
+      "Se a mesma sequência é tratada prioritariamente como programa de CLP, A02 pode ser primário."
+    ],
+    "classification_examples": [
+      "Determinar a próxima etapa em uma sequência de dois cilindros.",
+      "Identificar falha que impede retorno de cilindro em comando eletropneumático."
+    ],
+    "classification_counterexamples": [
+      "Identificar símbolo de válvula 3/2. → H01",
+      "Interpretar partida reversora de motor. → E03"
+    ],
     "normative_review_required": false,
     "editorial_notes": ""
   },
@@ -601,15 +1783,51 @@
     "prerequisites": [
       "S01"
     ],
-    "description": "",
-    "learning_objectives": [],
-    "subtopics": [],
-    "includes": [],
-    "excludes": [],
-    "overlaps_with": [],
-    "boundary_rules": [],
-    "classification_examples": [],
-    "classification_counterexamples": [],
+    "description": "Gestão técnica da manutenção por estratégias preventiva, preditiva e corretiva, inspeções e planejamento básico, com foco em selecionar a abordagem adequada ao contexto de falha/equipamento.",
+    "learning_objectives": [
+      "Distinguir manutenção preventiva, preditiva e corretiva.",
+      "Relacionar inspeções a estratégias de manutenção.",
+      "Selecionar estratégia a partir de condição/criticidade fornecida.",
+      "Reconhecer planejamento e registros de manutenção em nível curricular."
+    ],
+    "subtopics": [
+      "Manutenção preventiva",
+      "Manutenção preditiva",
+      "Manutenção corretiva",
+      "Inspeção periódica",
+      "Plano de manutenção",
+      "Ordens e registros em contexto de manutenção",
+      "Criticidade em nível introdutório"
+    ],
+    "includes": [
+      "Classificação de tipos de manutenção",
+      "escolha da estratégia",
+      "planejamento básico"
+    ],
+    "excludes": [
+      "Termografia/localização concreta de falha → D02",
+      "Teste de continuidade/isolação como técnica → M02",
+      "Segurança/desenergização → S01/S02"
+    ],
+    "overlaps_with": [
+      "D02",
+      "M02",
+      "S01",
+      "S02"
+    ],
+    "boundary_rules": [
+      "Se a pergunta é 'qual estratégia/tipo de manutenção', D01.",
+      "Se pergunta 'onde/qual falha' usando sintomas, termografia ou conexão, D02.",
+      "Se técnica específica de continuidade/isolação é objeto do conhecimento, M02."
+    ],
+    "classification_examples": [
+      "Classificar troca periódica programada como manutenção preventiva.",
+      "Escolher manutenção preditiva quando condição é monitorada ao longo do tempo."
+    ],
+    "classification_counterexamples": [
+      "Interpretar termograma com ponto quente em borne. → D02",
+      "Interpretar ensaio de resistência de isolamento. → M02"
+    ],
     "normative_review_required": false,
     "editorial_notes": ""
   },
@@ -620,15 +1838,53 @@
       "D01",
       "M02"
     ],
-    "description": "",
-    "learning_objectives": [],
-    "subtopics": [],
-    "includes": [],
-    "excludes": [],
-    "overlaps_with": [],
-    "boundary_rules": [],
-    "classification_examples": [],
-    "classification_counterexamples": [],
+    "description": "Diagnóstico e localização de falhas elétricas por inspeção técnica, termografia, análise de conexões e interpretação de sintomas/medições.",
+    "learning_objectives": [
+      "Interpretar indícios de mau contato e aquecimento.",
+      "Reconhecer aplicações de termografia.",
+      "Relacionar sintomas a possíveis falhas elétricas.",
+      "Localizar falhas por comparação de medições/condições.",
+      "Distinguir diagnóstico de estratégia de manutenção."
+    ],
+    "subtopics": [
+      "Termografia",
+      "Ponto quente",
+      "Conexão frouxa/mau contato",
+      "Localização de falha",
+      "Análise de sintomas",
+      "Inspeção de conexões",
+      "Diagnóstico em motores/painéis em nível técnico"
+    ],
+    "includes": [
+      "Questões que pedem causa/local da falha",
+      "termogramas",
+      "conexões anormais"
+    ],
+    "excludes": [
+      "Classificação preventiva/preditiva/corretiva → D01",
+      "Continuidade/isolamento como ensaio específico → M02",
+      "Defeito de lógica em CLP → A02",
+      "Defeito de sequência eletropneumática → H02"
+    ],
+    "overlaps_with": [
+      "D01",
+      "M02",
+      "A02",
+      "H02"
+    ],
+    "boundary_rules": [
+      "Falha física/elétrica localizada por sintoma, temperatura ou conexão → D02.",
+      "Tipo de manutenção → D01.",
+      "Se a questão é puramente sobre como funciona o ensaio de isolação, M02."
+    ],
+    "classification_examples": [
+      "Identificar possível mau contato a partir de aquecimento localizado em conexão.",
+      "Interpretar termograma que mostra assimetria térmica entre fases."
+    ],
+    "classification_counterexamples": [
+      "Classificar inspeção termográfica periódica como estratégia preditiva. → D01",
+      "Identificar instrumento de resistência de isolamento. → M02"
+    ],
     "normative_review_required": false,
     "editorial_notes": ""
   },
@@ -639,15 +1895,54 @@
       "F04",
       "P01"
     ],
-    "description": "",
-    "learning_objectives": [],
-    "subtopics": [],
-    "includes": [],
-    "excludes": [],
-    "overlaps_with": [],
-    "boundary_rules": [],
-    "classification_examples": [],
-    "classification_counterexamples": [],
+    "description": "Fundamentos de sistemas fotovoltaicos, incluindo módulos, arranjos série/paralelo, grandezas elétricas, potência, eficiência e blocos funcionais básicos do sistema.",
+    "learning_objectives": [
+      "Distinguir célula, módulo, string e arranjo.",
+      "Calcular tensão/corrente de associações série/paralelo de módulos.",
+      "Interpretar potência e eficiência de geração fotovoltaica.",
+      "Reconhecer funções básicas de inversor fotovoltaico e demais blocos sem confundir com acionamento de motores.",
+      "Relacionar condições fornecidas ao desempenho energético."
+    ],
+    "subtopics": [
+      "Célula e módulo fotovoltaico",
+      "String e arranjo",
+      "Série/paralelo de módulos",
+      "Tensão/corrente do arranjo",
+      "Potência fotovoltaica",
+      "Eficiência",
+      "Inversor fotovoltaico em nível funcional",
+      "Energia gerada em contexto FV"
+    ],
+    "includes": [
+      "Questões explicitamente de geração solar FV",
+      "configuração de strings",
+      "potência/eficiência FV"
+    ],
+    "excludes": [
+      "Potência/energia genérica → F04",
+      "Dimensionamento de condutores não específico ao arranjo → P01",
+      "Inversor de motor → E06",
+      "Proteção contra surtos/SPDA → P05"
+    ],
+    "overlaps_with": [
+      "F04",
+      "P01",
+      "E06",
+      "P05"
+    ],
+    "boundary_rules": [
+      "Se a fonte/arranjo fotovoltaico é essencial ao problema, V01.",
+      "Se é apenas cálculo genérico de energia sem contexto FV, F04.",
+      "'Inversor' de sistema FV é V01; inversor de frequência para motor é E06."
+    ],
+    "classification_examples": [
+      "Calcular tensão de uma string com módulos idênticos em série.",
+      "Determinar potência de um arranjo fotovoltaico a partir de módulos especificados."
+    ],
+    "classification_counterexamples": [
+      "Calcular consumo mensal de uma carga residencial. → F04",
+      "Ajustar frequência de inversor para motor. → E06"
+    ],
     "normative_review_required": false,
     "editorial_notes": ""
   }
