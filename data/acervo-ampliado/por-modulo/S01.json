@@ -1,0 +1,3590 @@
+{
+  "module": "S01",
+  "title": "Desenergização e reenergização",
+  "total_candidates": 253,
+  "primary_assignments": 159,
+  "high_relevance": 50,
+  "medium_relevance": 33,
+  "low_relevance": 170,
+  "outside_theme": {
+    "count": null,
+    "status": "NOT_SEMANTICALLY_REVIEWED"
+  },
+  "image_dependent": 11,
+  "possible_duplicates": 0,
+  "possible_semantic_variants": 0,
+  "priority_ids": {
+    "HIGH": [
+      "Q4186881",
+      "Q4208596",
+      "Q4084254",
+      "Q4095949",
+      "Q4104270",
+      "Q4128306",
+      "Q4032397",
+      "Q4032410",
+      "Q4025521",
+      "Q3865649",
+      "Q3887507",
+      "Q3887509",
+      "Q3834232",
+      "Q3836220",
+      "Q3838779",
+      "Q3851450",
+      "Q3675310",
+      "Q3577021",
+      "Q3640878",
+      "Q3466921",
+      "Q3538900",
+      "Q3573970",
+      "Q3452158",
+      "Q3199933",
+      "Q3264298",
+      "Q3172299",
+      "Q2693121",
+      "Q2694461",
+      "Q2376910",
+      "Q2325603",
+      "Q2258054",
+      "Q2217353",
+      "Q2217537",
+      "Q1766539",
+      "Q1608360",
+      "Q1608365",
+      "Q1106104",
+      "Q1179326",
+      "Q1037594",
+      "Q1049998",
+      "Q976415",
+      "Q874681",
+      "Q823503",
+      "Q825988",
+      "Q825994",
+      "Q772172",
+      "Q795353",
+      "Q723047",
+      "Q394772",
+      "Q186293"
+    ],
+    "MEDIUM": [
+      "Q4218580",
+      "Q4025520",
+      "Q3972822",
+      "Q3977754",
+      "Q3871338",
+      "Q3871340",
+      "Q3888895",
+      "Q3796729",
+      "Q3801828",
+      "Q3801829",
+      "Q3834227",
+      "Q3846534",
+      "Q3716091",
+      "Q3742082",
+      "Q3743195",
+      "Q3598320",
+      "Q3426565",
+      "Q3453554",
+      "Q3298676",
+      "Q3200232",
+      "Q3226645",
+      "Q2955318",
+      "Q2272595",
+      "Q2216699",
+      "Q2189232",
+      "Q1767156",
+      "Q1830364",
+      "Q1179323",
+      "Q751086",
+      "Q751894",
+      "Q234009",
+      "Q237314",
+      "Q248524"
+    ],
+    "LOW": [
+      "Q4166429",
+      "Q4173192",
+      "Q4183616",
+      "Q4193744",
+      "Q4208595",
+      "Q4218549",
+      "Q4084253",
+      "Q4084255",
+      "Q4093465",
+      "Q4095948",
+      "Q4114652",
+      "Q4128118",
+      "Q4042904",
+      "Q4047411",
+      "Q4083340",
+      "Q4083387",
+      "Q3981865",
+      "Q3996371",
+      "Q4024960",
+      "Q4025523",
+      "Q3911621",
+      "Q3915224",
+      "Q3924495",
+      "Q3943019",
+      "Q3958247",
+      "Q3887499",
+      "Q3887510",
+      "Q3896275",
+      "Q3896595",
+      "Q3898635",
+      "Q3898645",
+      "Q3905545",
+      "Q3905550",
+      "Q3907463",
+      "Q3911159",
+      "Q3802136",
+      "Q3830527",
+      "Q3836224",
+      "Q3836510",
+      "Q3837915",
+      "Q3851443",
+      "Q3854889",
+      "Q3675313",
+      "Q3742071",
+      "Q3742084",
+      "Q3742095",
+      "Q3768152",
+      "Q3790478",
+      "Q3790482",
+      "Q3790487",
+      "Q3579847",
+      "Q3595371",
+      "Q3633932",
+      "Q3646809",
+      "Q3646812",
+      "Q3658393",
+      "Q3466315",
+      "Q3466931",
+      "Q3467159",
+      "Q3507983",
+      "Q3509129",
+      "Q3542561",
+      "Q3411310",
+      "Q3413243",
+      "Q3435241",
+      "Q3442209",
+      "Q3312263",
+      "Q3314768",
+      "Q3333003",
+      "Q3354286",
+      "Q3383717",
+      "Q3386305",
+      "Q3226644",
+      "Q3260305",
+      "Q3260308",
+      "Q3262030",
+      "Q3090263",
+      "Q3090267",
+      "Q3100165",
+      "Q3157291",
+      "Q3027681",
+      "Q3080707",
+      "Q2804156",
+      "Q2768630",
+      "Q2559471",
+      "Q2436966",
+      "Q2329774",
+      "Q2329784",
+      "Q2333380",
+      "Q2338800",
+      "Q2376905",
+      "Q2314685",
+      "Q2314697",
+      "Q2314717",
+      "Q2314719",
+      "Q2329748",
+      "Q2329749",
+      "Q2329758",
+      "Q2279011",
+      "Q2285852",
+      "Q2217075",
+      "Q2217076",
+      "Q2217126",
+      "Q2217350",
+      "Q2217351",
+      "Q2158451",
+      "Q2189229",
+      "Q2189231",
+      "Q1888095",
+      "Q1766647",
+      "Q1770778",
+      "Q1694546",
+      "Q1694547",
+      "Q1694548",
+      "Q1702549",
+      "Q1721321",
+      "Q1760435",
+      "Q1608358",
+      "Q1608359",
+      "Q1608363",
+      "Q1087489",
+      "Q1090700",
+      "Q1037592",
+      "Q1058581",
+      "Q1058582",
+      "Q1058583",
+      "Q1058584",
+      "Q1058591",
+      "Q1058593",
+      "Q1058596",
+      "Q1058597",
+      "Q1066325",
+      "Q1015269",
+      "Q1023708",
+      "Q1023711",
+      "Q1023714",
+      "Q971892",
+      "Q975298",
+      "Q980913",
+      "Q980919",
+      "Q836889",
+      "Q836901",
+      "Q805903",
+      "Q825995",
+      "Q777102",
+      "Q710276",
+      "Q710279",
+      "Q727130",
+      "Q626777",
+      "Q529412",
+      "Q529413",
+      "Q507421",
+      "Q514322",
+      "Q514360",
+      "Q514366",
+      "Q522242",
+      "Q522930",
+      "Q522932",
+      "Q522933",
+      "Q522938",
+      "Q523016",
+      "Q431043",
+      "Q431301",
+      "Q412017",
+      "Q394777",
+      "Q394791",
+      "Q234035",
+      "Q263024",
+      "Q186334",
+      "Q173557"
+    ]
+  },
+  "candidate_details": [
+    {
+      "source_id": "Q4166429",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4173192",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4183616",
+      "subtopics": [
+        {
+          "id": "4.1",
+          "title": "Choque elétrico, arco elétrico e efeitos fisiológicos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.1-choque-eletrico-arco-eletrico-e-efeitos-fisiologicos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4186881",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4193744",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4208595",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4208596",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4218549",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4218580",
+      "subtopics": [],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4084253",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4084254",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4084255",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4093465",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4095948",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4095949",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4104270",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4114652",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4128118",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4128306",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4032397",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4032410",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4042904",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4047411",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4083340",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4083387",
+      "subtopics": [
+        {
+          "id": "4.1",
+          "title": "Choque elétrico, arco elétrico e efeitos fisiológicos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.1-choque-eletrico-arco-eletrico-e-efeitos-fisiologicos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3981865",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3996371",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4024960",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4025520",
+      "subtopics": [],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4025521",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4025523",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3911621",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3915224",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3924495",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3943019",
+      "subtopics": [
+        {
+          "id": "4.1",
+          "title": "Choque elétrico, arco elétrico e efeitos fisiológicos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.1-choque-eletrico-arco-eletrico-e-efeitos-fisiologicos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3958247",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3972822",
+      "subtopics": [],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3977754",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3865649",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3871338",
+      "subtopics": [],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3871340",
+      "subtopics": [],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3887499",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "CONTINUITY_TEST",
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3887507",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3887509",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3887510",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3888895",
+      "subtopics": [],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3896275",
+      "subtopics": [
+        {
+          "id": "4.1",
+          "title": "Choque elétrico, arco elétrico e efeitos fisiológicos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.1-choque-eletrico-arco-eletrico-e-efeitos-fisiologicos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3896595",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3898635",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3898645",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3905545",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3905550",
+      "subtopics": [
+        {
+          "id": "4.1",
+          "title": "Choque elétrico, arco elétrico e efeitos fisiológicos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.1-choque-eletrico-arco-eletrico-e-efeitos-fisiologicos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3907463",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3911159",
+      "subtopics": [
+        {
+          "id": "4.1",
+          "title": "Choque elétrico, arco elétrico e efeitos fisiológicos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.1-choque-eletrico-arco-eletrico-e-efeitos-fisiologicos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3796729",
+      "subtopics": [],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3801828",
+      "subtopics": [],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3801829",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3802136",
+      "subtopics": [
+        {
+          "id": "4.1",
+          "title": "Choque elétrico, arco elétrico e efeitos fisiológicos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.1-choque-eletrico-arco-eletrico-e-efeitos-fisiologicos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3830527",
+      "subtopics": [
+        {
+          "id": "4.1",
+          "title": "Choque elétrico, arco elétrico e efeitos fisiológicos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.1-choque-eletrico-arco-eletrico-e-efeitos-fisiologicos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3834227",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3834232",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3836220",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3836224",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3836510",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3837915",
+      "subtopics": [
+        {
+          "id": "4.1",
+          "title": "Choque elétrico, arco elétrico e efeitos fisiológicos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.1-choque-eletrico-arco-eletrico-e-efeitos-fisiologicos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3838779",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3846534",
+      "subtopics": [],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3851443",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3851450",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3854889",
+      "subtopics": [
+        {
+          "id": "4.1",
+          "title": "Choque elétrico, arco elétrico e efeitos fisiológicos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.1-choque-eletrico-arco-eletrico-e-efeitos-fisiologicos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3675310",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3675313",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3716091",
+      "subtopics": [],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3742071",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3742082",
+      "subtopics": [],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3742084",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3742095",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3743195",
+      "subtopics": [],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3768152",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3790478",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3790482",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3790487",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3577021",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3579847",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3595371",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3598320",
+      "subtopics": [],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3633932",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3640878",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3646809",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3646812",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3658393",
+      "subtopics": [
+        {
+          "id": "4.1",
+          "title": "Choque elétrico, arco elétrico e efeitos fisiológicos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.1-choque-eletrico-arco-eletrico-e-efeitos-fisiologicos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3466315",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3466921",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3466931",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3467159",
+      "subtopics": [
+        {
+          "id": "4.1",
+          "title": "Choque elétrico, arco elétrico e efeitos fisiológicos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.1-choque-eletrico-arco-eletrico-e-efeitos-fisiologicos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3507983",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3509129",
+      "subtopics": [
+        {
+          "id": "4.1",
+          "title": "Choque elétrico, arco elétrico e efeitos fisiológicos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.1-choque-eletrico-arco-eletrico-e-efeitos-fisiologicos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3538900",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3542561",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3573970",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3411310",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3413243",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3426565",
+      "subtopics": [],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3435241",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3442209",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3452158",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3453554",
+      "subtopics": [],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3298676",
+      "subtopics": [],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3312263",
+      "subtopics": [
+        {
+          "id": "4.1",
+          "title": "Choque elétrico, arco elétrico e efeitos fisiológicos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.1-choque-eletrico-arco-eletrico-e-efeitos-fisiologicos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3314768",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3333003",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3354286",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3383717",
+      "subtopics": [
+        {
+          "id": "4.1",
+          "title": "Choque elétrico, arco elétrico e efeitos fisiológicos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.1-choque-eletrico-arco-eletrico-e-efeitos-fisiologicos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3386305",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3199933",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3200232",
+      "subtopics": [],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3226644",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3226645",
+      "subtopics": [],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3260305",
+      "subtopics": [
+        {
+          "id": "4.1",
+          "title": "Choque elétrico, arco elétrico e efeitos fisiológicos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.1-choque-eletrico-arco-eletrico-e-efeitos-fisiologicos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3260308",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3262030",
+      "subtopics": [
+        {
+          "id": "4.1",
+          "title": "Choque elétrico, arco elétrico e efeitos fisiológicos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.1-choque-eletrico-arco-eletrico-e-efeitos-fisiologicos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3264298",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3090263",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3090267",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3100165",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3157291",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3172299",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3027681",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3080707",
+      "subtopics": [
+        {
+          "id": "4.1",
+          "title": "Choque elétrico, arco elétrico e efeitos fisiológicos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.1-choque-eletrico-arco-eletrico-e-efeitos-fisiologicos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2804156",
+      "subtopics": [
+        {
+          "id": "4.1",
+          "title": "Choque elétrico, arco elétrico e efeitos fisiológicos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.1-choque-eletrico-arco-eletrico-e-efeitos-fisiologicos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2955318",
+      "subtopics": [],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2768630",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2559471",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2693121",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2694461",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2436966",
+      "subtopics": [
+        {
+          "id": "4.1",
+          "title": "Choque elétrico, arco elétrico e efeitos fisiológicos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.1-choque-eletrico-arco-eletrico-e-efeitos-fisiologicos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2329774",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2329784",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2333380",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2338800",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2376905",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2376910",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2314685",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2314697",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2314717",
+      "subtopics": [
+        {
+          "id": "4.1",
+          "title": "Choque elétrico, arco elétrico e efeitos fisiológicos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.1-choque-eletrico-arco-eletrico-e-efeitos-fisiologicos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2314719",
+      "subtopics": [
+        {
+          "id": "4.1",
+          "title": "Choque elétrico, arco elétrico e efeitos fisiológicos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.1-choque-eletrico-arco-eletrico-e-efeitos-fisiologicos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2325603",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2329748",
+      "subtopics": [
+        {
+          "id": "4.1",
+          "title": "Choque elétrico, arco elétrico e efeitos fisiológicos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.1-choque-eletrico-arco-eletrico-e-efeitos-fisiologicos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2329749",
+      "subtopics": [
+        {
+          "id": "4.1",
+          "title": "Choque elétrico, arco elétrico e efeitos fisiológicos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.1-choque-eletrico-arco-eletrico-e-efeitos-fisiologicos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2329758",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2258054",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2272595",
+      "subtopics": [],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2279011",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2285852",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2216699",
+      "subtopics": [],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2217075",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2217076",
+      "subtopics": [
+        {
+          "id": "4.1",
+          "title": "Choque elétrico, arco elétrico e efeitos fisiológicos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.1-choque-eletrico-arco-eletrico-e-efeitos-fisiologicos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2217126",
+      "subtopics": [
+        {
+          "id": "4.1",
+          "title": "Choque elétrico, arco elétrico e efeitos fisiológicos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.1-choque-eletrico-arco-eletrico-e-efeitos-fisiologicos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2217350",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2217351",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2217353",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2217537",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2158451",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2189229",
+      "subtopics": [
+        {
+          "id": "4.1",
+          "title": "Choque elétrico, arco elétrico e efeitos fisiológicos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.1-choque-eletrico-arco-eletrico-e-efeitos-fisiologicos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2189231",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2189232",
+      "subtopics": [],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1888095",
+      "subtopics": [
+        {
+          "id": "4.1",
+          "title": "Choque elétrico, arco elétrico e efeitos fisiológicos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.1-choque-eletrico-arco-eletrico-e-efeitos-fisiologicos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1766539",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1766647",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1767156",
+      "subtopics": [],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1770778",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1830364",
+      "subtopics": [],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1694546",
+      "subtopics": [
+        {
+          "id": "4.1",
+          "title": "Choque elétrico, arco elétrico e efeitos fisiológicos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.1-choque-eletrico-arco-eletrico-e-efeitos-fisiologicos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1694547",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1694548",
+      "subtopics": [
+        {
+          "id": "4.1",
+          "title": "Choque elétrico, arco elétrico e efeitos fisiológicos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.1-choque-eletrico-arco-eletrico-e-efeitos-fisiologicos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1702549",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1721321",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1760435",
+      "subtopics": [
+        {
+          "id": "4.1",
+          "title": "Choque elétrico, arco elétrico e efeitos fisiológicos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.1-choque-eletrico-arco-eletrico-e-efeitos-fisiologicos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1608358",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1608359",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1608360",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1608363",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1608365",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1087489",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1090700",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1106104",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1179323",
+      "subtopics": [],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1179326",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1037592",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1037594",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1049998",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1058581",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1058582",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1058583",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1058584",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1058591",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1058593",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1058596",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1058597",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1066325",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1015269",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1023708",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1023711",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1023714",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q971892",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q975298",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q976415",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q980913",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q980919",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q836889",
+      "subtopics": [
+        {
+          "id": "4.1",
+          "title": "Choque elétrico, arco elétrico e efeitos fisiológicos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.1-choque-eletrico-arco-eletrico-e-efeitos-fisiologicos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q836901",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q874681",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q805903",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q823503",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q825988",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q825994",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q825995",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q772172",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q777102",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q795353",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q751086",
+      "subtopics": [],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q751894",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q710276",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q710279",
+      "subtopics": [
+        {
+          "id": "4.1",
+          "title": "Choque elétrico, arco elétrico e efeitos fisiológicos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.1-choque-eletrico-arco-eletrico-e-efeitos-fisiologicos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q723047",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q727130",
+      "subtopics": [
+        {
+          "id": "4.1",
+          "title": "Choque elétrico, arco elétrico e efeitos fisiológicos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.1-choque-eletrico-arco-eletrico-e-efeitos-fisiologicos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q626777",
+      "subtopics": [
+        {
+          "id": "4.1",
+          "title": "Choque elétrico, arco elétrico e efeitos fisiológicos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.1-choque-eletrico-arco-eletrico-e-efeitos-fisiologicos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q529412",
+      "subtopics": [
+        {
+          "id": "4.1",
+          "title": "Choque elétrico, arco elétrico e efeitos fisiológicos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.1-choque-eletrico-arco-eletrico-e-efeitos-fisiologicos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q529413",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q507421",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q514322",
+      "subtopics": [
+        {
+          "id": "4.1",
+          "title": "Choque elétrico, arco elétrico e efeitos fisiológicos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.1-choque-eletrico-arco-eletrico-e-efeitos-fisiologicos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q514360",
+      "subtopics": [
+        {
+          "id": "4.1",
+          "title": "Choque elétrico, arco elétrico e efeitos fisiológicos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.1-choque-eletrico-arco-eletrico-e-efeitos-fisiologicos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q514366",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q522242",
+      "subtopics": [
+        {
+          "id": "4.1",
+          "title": "Choque elétrico, arco elétrico e efeitos fisiológicos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.1-choque-eletrico-arco-eletrico-e-efeitos-fisiologicos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q522930",
+      "subtopics": [
+        {
+          "id": "4.1",
+          "title": "Choque elétrico, arco elétrico e efeitos fisiológicos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.1-choque-eletrico-arco-eletrico-e-efeitos-fisiologicos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q522932",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q522933",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q522938",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q523016",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q431043",
+      "subtopics": [
+        {
+          "id": "4.1",
+          "title": "Choque elétrico, arco elétrico e efeitos fisiológicos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.1-choque-eletrico-arco-eletrico-e-efeitos-fisiologicos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q431301",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q412017",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q394772",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q394777",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q394791",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q234009",
+      "subtopics": [],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q234035",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q237314",
+      "subtopics": [],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q248524",
+      "subtopics": [],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q263024",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q186293",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q186334",
+      "subtopics": [
+        {
+          "id": "4.4",
+          "title": "Desenergização e reenergização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q173557",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    }
+  ]
+}

@@ -1,0 +1,5808 @@
+{
+  "module": "I03",
+  "title": "Simbologia, unifilar, multifilar e CAD",
+  "total_candidates": 436,
+  "primary_assignments": 161,
+  "high_relevance": 71,
+  "medium_relevance": 84,
+  "low_relevance": 281,
+  "outside_theme": {
+    "count": null,
+    "status": "NOT_SEMANTICALLY_REVIEWED"
+  },
+  "image_dependent": 240,
+  "possible_duplicates": 4,
+  "possible_semantic_variants": 4,
+  "priority_ids": {
+    "HIGH": [
+      "Q4183614",
+      "Q4207238",
+      "Q4218675",
+      "Q4093937",
+      "Q4051340",
+      "Q4078059",
+      "Q4083320",
+      "Q4083343",
+      "Q3981866",
+      "Q4006486",
+      "Q3920491",
+      "Q3943007",
+      "Q3978780",
+      "Q3667624",
+      "Q3743203",
+      "Q3452142",
+      "Q3243368",
+      "Q3264291",
+      "Q3100157",
+      "Q3125843",
+      "Q3189281",
+      "Q3008702",
+      "Q3020994",
+      "Q3025721",
+      "Q2955342",
+      "Q2779443",
+      "Q2779448",
+      "Q2430921",
+      "Q2430936",
+      "Q2436959",
+      "Q2329772",
+      "Q2376899",
+      "Q2389515",
+      "Q2396768",
+      "Q2323267",
+      "Q2244997",
+      "Q2258052",
+      "Q2295396",
+      "Q2217058",
+      "Q2199724",
+      "Q1919408",
+      "Q2015010",
+      "Q1768663",
+      "Q1808430",
+      "Q1830360",
+      "Q1276363",
+      "Q1113507",
+      "Q1179312",
+      "Q1179313",
+      "Q843672",
+      "Q777161",
+      "Q777162",
+      "Q731871",
+      "Q743378",
+      "Q606989",
+      "Q626781",
+      "Q509732",
+      "Q488164",
+      "Q432421",
+      "Q432422",
+      "Q452620",
+      "Q425025",
+      "Q278091",
+      "Q231996",
+      "Q235685",
+      "Q238962",
+      "Q186312",
+      "Q187140",
+      "Q189061",
+      "Q4183612",
+      "Q64203"
+    ],
+    "MEDIUM": [
+      "Q4064759",
+      "Q4083319",
+      "Q3865647",
+      "Q3797364",
+      "Q3798174",
+      "Q3837903",
+      "Q3675304",
+      "Q3686348",
+      "Q3716096",
+      "Q3761887",
+      "Q3577011",
+      "Q3640873",
+      "Q3467160",
+      "Q3535054",
+      "Q3543758",
+      "Q3456048",
+      "Q3272780",
+      "Q3272784",
+      "Q3383580",
+      "Q3199940",
+      "Q3223391",
+      "Q3264284",
+      "Q3264305",
+      "Q3090249",
+      "Q3188811",
+      "Q3019379",
+      "Q3027678",
+      "Q2927956",
+      "Q2744353",
+      "Q2322812",
+      "Q2234159",
+      "Q2251031",
+      "Q2217374",
+      "Q2108930",
+      "Q2158449",
+      "Q2177312",
+      "Q1916798",
+      "Q1770774",
+      "Q1808441",
+      "Q1755411",
+      "Q1276366",
+      "Q1629112",
+      "Q1629113",
+      "Q1087478",
+      "Q1088665",
+      "Q1179320",
+      "Q1037600",
+      "Q1037603",
+      "Q1011015",
+      "Q1016835",
+      "Q1023712",
+      "Q1023744",
+      "Q1025919",
+      "Q1025920",
+      "Q981769",
+      "Q836894",
+      "Q837401",
+      "Q879238",
+      "Q823499",
+      "Q831199",
+      "Q786475",
+      "Q770891",
+      "Q770905",
+      "Q710276",
+      "Q734070",
+      "Q734075",
+      "Q606994",
+      "Q710270",
+      "Q462321",
+      "Q490141",
+      "Q432406",
+      "Q431294",
+      "Q404441",
+      "Q408316",
+      "Q278090",
+      "Q364426",
+      "Q364427",
+      "Q364428",
+      "Q364429",
+      "Q364430",
+      "Q241756",
+      "Q248530",
+      "Q186311",
+      "Q173545"
+    ],
+    "LOW": [
+      "Q4166430",
+      "Q4218539",
+      "Q4218544",
+      "Q4084139",
+      "Q4093460",
+      "Q4093940",
+      "Q4095954",
+      "Q4130646",
+      "Q4130653",
+      "Q4032376",
+      "Q4032385",
+      "Q4032398",
+      "Q4042900",
+      "Q4047413",
+      "Q4051928",
+      "Q4064758",
+      "Q4083321",
+      "Q4083323",
+      "Q4083376",
+      "Q4083379",
+      "Q3981877",
+      "Q3992763",
+      "Q4006966",
+      "Q4011953",
+      "Q4020224",
+      "Q4024962",
+      "Q4024965",
+      "Q4025518",
+      "Q3966223",
+      "Q3980546",
+      "Q3884359",
+      "Q3887481",
+      "Q3887505",
+      "Q3887799",
+      "Q3911603",
+      "Q3911606",
+      "Q3837918",
+      "Q3850352",
+      "Q3851440",
+      "Q3851446",
+      "Q3854878",
+      "Q3854879",
+      "Q3668220",
+      "Q3674360",
+      "Q3675318",
+      "Q3754045",
+      "Q3577018",
+      "Q3593009",
+      "Q3598321",
+      "Q3616347",
+      "Q3628892",
+      "Q3662487",
+      "Q3466923",
+      "Q3480988",
+      "Q3505049",
+      "Q3507988",
+      "Q3561146",
+      "Q3566337",
+      "Q3573963",
+      "Q3422147",
+      "Q3426563",
+      "Q3448788",
+      "Q3455095",
+      "Q3455513",
+      "Q3458227",
+      "Q3267713",
+      "Q3366632",
+      "Q3397789",
+      "Q3199944",
+      "Q3200234",
+      "Q3245395",
+      "Q3262031",
+      "Q3090251",
+      "Q3090252",
+      "Q3100171",
+      "Q3157278",
+      "Q3157280",
+      "Q3157281",
+      "Q3172298",
+      "Q3188808",
+      "Q3189271",
+      "Q3189276",
+      "Q2955794",
+      "Q3021225",
+      "Q3027664",
+      "Q2804149",
+      "Q2804161",
+      "Q2867846",
+      "Q2889419",
+      "Q2910286",
+      "Q2927368",
+      "Q2955768",
+      "Q2744268",
+      "Q2744356",
+      "Q2768644",
+      "Q2773357",
+      "Q2802828",
+      "Q2559454",
+      "Q2586186",
+      "Q2692678",
+      "Q2729165",
+      "Q2416980",
+      "Q2436972",
+      "Q2329806",
+      "Q2345828",
+      "Q2356977",
+      "Q2396777",
+      "Q2314696",
+      "Q2314698",
+      "Q2314707",
+      "Q2314725",
+      "Q2320595",
+      "Q2227585",
+      "Q2227586",
+      "Q2227587",
+      "Q2287185",
+      "Q2202878",
+      "Q2217147",
+      "Q2217528",
+      "Q2217545",
+      "Q2226728",
+      "Q2226729",
+      "Q2108931",
+      "Q2157507",
+      "Q2157513",
+      "Q2157516",
+      "Q2158454",
+      "Q2177296",
+      "Q2186799",
+      "Q2189228",
+      "Q1919358",
+      "Q2051868",
+      "Q2051869",
+      "Q2058462",
+      "Q2074790",
+      "Q2074791",
+      "Q1770362",
+      "Q1770664",
+      "Q1812397",
+      "Q1631022",
+      "Q1712198",
+      "Q1712199",
+      "Q1712203",
+      "Q1712216",
+      "Q1712226",
+      "Q1217266",
+      "Q1218062",
+      "Q1289626",
+      "Q1608362",
+      "Q1087491",
+      "Q1098271",
+      "Q1106087",
+      "Q1106111",
+      "Q1106999",
+      "Q1177662",
+      "Q1036232",
+      "Q1036233",
+      "Q1036235",
+      "Q1037605",
+      "Q1056645",
+      "Q1058590",
+      "Q1062918",
+      "Q1066326",
+      "Q1066335",
+      "Q1023708",
+      "Q981770",
+      "Q995991",
+      "Q995992",
+      "Q995993",
+      "Q995994",
+      "Q995998",
+      "Q945976",
+      "Q971891",
+      "Q839152",
+      "Q843694",
+      "Q803834",
+      "Q816243",
+      "Q818090",
+      "Q834148",
+      "Q772173",
+      "Q776986",
+      "Q786453",
+      "Q786459",
+      "Q786461",
+      "Q786468",
+      "Q786474",
+      "Q786477",
+      "Q797728",
+      "Q797906",
+      "Q797910",
+      "Q750425",
+      "Q758579",
+      "Q768537",
+      "Q770887",
+      "Q770892",
+      "Q606926",
+      "Q606992",
+      "Q606993",
+      "Q606995",
+      "Q707696",
+      "Q710265",
+      "Q710275",
+      "Q564453",
+      "Q564456",
+      "Q596704",
+      "Q596705",
+      "Q596706",
+      "Q596707",
+      "Q596708",
+      "Q596718",
+      "Q509733",
+      "Q514340",
+      "Q514354",
+      "Q522200",
+      "Q522205",
+      "Q522211",
+      "Q522213",
+      "Q522939",
+      "Q460305",
+      "Q460326",
+      "Q460364",
+      "Q461662",
+      "Q461663",
+      "Q461677",
+      "Q484527",
+      "Q484528",
+      "Q490258",
+      "Q431725",
+      "Q431726",
+      "Q431728",
+      "Q431729",
+      "Q431816",
+      "Q432401",
+      "Q452633",
+      "Q453936",
+      "Q453942",
+      "Q453946",
+      "Q453955",
+      "Q453993",
+      "Q454855",
+      "Q424977",
+      "Q425012",
+      "Q425033",
+      "Q430246",
+      "Q430255",
+      "Q431284",
+      "Q431287",
+      "Q431580",
+      "Q397133",
+      "Q397147",
+      "Q411990",
+      "Q412007",
+      "Q413089",
+      "Q413263",
+      "Q394773",
+      "Q394781",
+      "Q394790",
+      "Q231991",
+      "Q234014",
+      "Q235672",
+      "Q237314",
+      "Q238963",
+      "Q241753",
+      "Q241754",
+      "Q248523",
+      "Q263016",
+      "Q186297",
+      "Q186321",
+      "Q187137",
+      "Q189027",
+      "Q189209",
+      "Q189250",
+      "Q189726",
+      "Q180778",
+      "Q182365",
+      "Q182423",
+      "Q182427",
+      "Q182642",
+      "Q173558",
+      "Q173561",
+      "Q93712"
+    ]
+  },
+  "candidate_details": [
+    {
+      "source_id": "Q4166430",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4183614",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4207238",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4218539",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4218544",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4218675",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4084139",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4093460",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4093937",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4093940",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4095954",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4130646",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4130653",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4032376",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4032385",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4032398",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4042900",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4047413",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4051340",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4051928",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4064758",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4064759",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4078059",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4083319",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4083320",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4083321",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4083323",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4083343",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4083376",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4083379",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3981866",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3981877",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3992763",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4006486",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4006966",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4011953",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4020224",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4024962",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4024965",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4025518",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3920491",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3943007",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3966223",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3978780",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3980546",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3865647",
+      "subtopics": [
+        {
+          "id": "1.8",
+          "title": "Simbologia e leitura de esquemas elétricos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\01-alicerce-o-que-e-eletricidade\\1.8-simbologia-e-leitura-de-esquemas-eletricos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3884359",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3887481",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3887505",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3887799",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3911603",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3911606",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3797364",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3798174",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3837903",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3837918",
+      "subtopics": [
+        {
+          "id": "1.8",
+          "title": "Simbologia e leitura de esquemas elétricos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\01-alicerce-o-que-e-eletricidade\\1.8-simbologia-e-leitura-de-esquemas-eletricos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3850352",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3851440",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3851446",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3854878",
+      "subtopics": [
+        {
+          "id": "1.8",
+          "title": "Simbologia e leitura de esquemas elétricos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\01-alicerce-o-que-e-eletricidade\\1.8-simbologia-e-leitura-de-esquemas-eletricos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3854879",
+      "subtopics": [
+        {
+          "id": "1.8",
+          "title": "Simbologia e leitura de esquemas elétricos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\01-alicerce-o-que-e-eletricidade\\1.8-simbologia-e-leitura-de-esquemas-eletricos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3667624",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3668220",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3674360",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3675304",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3675318",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3686348",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3716096",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3743203",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3754045",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3761887",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3577011",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3577018",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3593009",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3598321",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3616347",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3628892",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3640873",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3662487",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3466923",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3467160",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3480988",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3505049",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3507988",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3535054",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3543758",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3561146",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3566337",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3573963",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3422147",
+      "subtopics": [
+        {
+          "id": "1.8",
+          "title": "Simbologia e leitura de esquemas elétricos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\01-alicerce-o-que-e-eletricidade\\1.8-simbologia-e-leitura-de-esquemas-eletricos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3426563",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3448788",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3452142",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3455095",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3455513",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3456048",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3458227",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3267713",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3272780",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3272784",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3366632",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3383580",
+      "subtopics": [],
+      "family": "MULTIMETER_VOLTAGE",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3397789",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3199940",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3199944",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3200234",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3223391",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3243368",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3245395",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3262031",
+      "subtopics": [
+        {
+          "id": "1.8",
+          "title": "Simbologia e leitura de esquemas elétricos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\01-alicerce-o-que-e-eletricidade\\1.8-simbologia-e-leitura-de-esquemas-eletricos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3264284",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3264291",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3264305",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3090249",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3090251",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3090252",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3100157",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3100171",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3125843",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3157278",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3157280",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3157281",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3172298",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3188808",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3188811",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3189271",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3189276",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3189281",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2955794",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3008702",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3019379",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3020994",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3021225",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3025721",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3027664",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3027678",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2804149",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2804161",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2867846",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2889419",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2910286",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2927368",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2927956",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2955342",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2955768",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2744268",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2744353",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2744356",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2768644",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2773357",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2779443",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2779448",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2802828",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2559454",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2586186",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2692678",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2729165",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2416980",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2430921",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2430936",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2436959",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2436972",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2329772",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2329806",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2345828",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2356977",
+      "subtopics": [
+        {
+          "id": "1.8",
+          "title": "Simbologia e leitura de esquemas elétricos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\01-alicerce-o-que-e-eletricidade\\1.8-simbologia-e-leitura-de-esquemas-eletricos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2376899",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2389515",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2396768",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2396777",
+      "subtopics": [
+        {
+          "id": "1.8",
+          "title": "Simbologia e leitura de esquemas elétricos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\01-alicerce-o-que-e-eletricidade\\1.8-simbologia-e-leitura-de-esquemas-eletricos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2314696",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2314698",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2314707",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "SERIES_EQUIVALENT_RESISTANCE",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2314725",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2320595",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2322812",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2323267",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2227585",
+      "subtopics": [
+        {
+          "id": "1.8",
+          "title": "Simbologia e leitura de esquemas elétricos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\01-alicerce-o-que-e-eletricidade\\1.8-simbologia-e-leitura-de-esquemas-eletricos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2227586",
+      "subtopics": [
+        {
+          "id": "1.8",
+          "title": "Simbologia e leitura de esquemas elétricos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\01-alicerce-o-que-e-eletricidade\\1.8-simbologia-e-leitura-de-esquemas-eletricos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2227587",
+      "subtopics": [
+        {
+          "id": "1.8",
+          "title": "Simbologia e leitura de esquemas elétricos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\01-alicerce-o-que-e-eletricidade\\1.8-simbologia-e-leitura-de-esquemas-eletricos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2234159",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2244997",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2251031",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2258052",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2287185",
+      "subtopics": [
+        {
+          "id": "1.8",
+          "title": "Simbologia e leitura de esquemas elétricos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\01-alicerce-o-que-e-eletricidade\\1.8-simbologia-e-leitura-de-esquemas-eletricos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2295396",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2202878",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2217058",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2217147",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2217374",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2217528",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2217545",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2226728",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2226729",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2108930",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2108931",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2157507",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2157513",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2157516",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2158449",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2158454",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2177296",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2177312",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2186799",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2189228",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2199724",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1916798",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1919358",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1919408",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2015010",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2051868",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2051869",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2058462",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2074790",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2074791",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1768663",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1770362",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1770664",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1770774",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1808430",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1808441",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1812397",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1830360",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1631022",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1712198",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1712199",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1712203",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1712216",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1712226",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1755411",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1217266",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1218062",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1276363",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1276366",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1289626",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1608362",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1629112",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1629113",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1087478",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1087491",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1088665",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1098271",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1106087",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1106111",
+      "subtopics": [
+        {
+          "id": "1.8",
+          "title": "Simbologia e leitura de esquemas elétricos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\01-alicerce-o-que-e-eletricidade\\1.8-simbologia-e-leitura-de-esquemas-eletricos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1106999",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1113507",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1177662",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1179312",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        },
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1179313",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        },
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1179320",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1036232",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1036233",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1036235",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1037600",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1037603",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1037605",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1056645",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1058590",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1062918",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "MOTOR_PROTECTION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1066326",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1066335",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1011015",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1016835",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1023708",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1023712",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1023744",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1025919",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1025920",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q981769",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q981770",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q995991",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q995992",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q995993",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q995994",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q995998",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q945976",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q971891",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q836894",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q837401",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q839152",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q843672",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q843694",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q879238",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q803834",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q816243",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q818090",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q823499",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q831199",
+      "subtopics": [
+        {
+          "id": "1.8",
+          "title": "Simbologia e leitura de esquemas elétricos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\01-alicerce-o-que-e-eletricidade\\1.8-simbologia-e-leitura-de-esquemas-eletricos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q834148",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q772173",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q776986",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q777161",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q777162",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q786453",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q786459",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q786461",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q786468",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q786474",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q786475",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q786477",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q797728",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q797906",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q797910",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q750425",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q758579",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q768537",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q770887",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q770891",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q770892",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q770905",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q710276",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q731871",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q734070",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q734075",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q743378",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q606926",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q606989",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q606992",
+      "subtopics": [
+        {
+          "id": "1.8",
+          "title": "Simbologia e leitura de esquemas elétricos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\01-alicerce-o-que-e-eletricidade\\1.8-simbologia-e-leitura-de-esquemas-eletricos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q606993",
+      "subtopics": [
+        {
+          "id": "1.8",
+          "title": "Simbologia e leitura de esquemas elétricos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\01-alicerce-o-que-e-eletricidade\\1.8-simbologia-e-leitura-de-esquemas-eletricos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q606994",
+      "subtopics": [
+        {
+          "id": "1.8",
+          "title": "Simbologia e leitura de esquemas elétricos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\01-alicerce-o-que-e-eletricidade\\1.8-simbologia-e-leitura-de-esquemas-eletricos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q606995",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q626781",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q707696",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q710265",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q710270",
+      "subtopics": [
+        {
+          "id": "1.8",
+          "title": "Simbologia e leitura de esquemas elétricos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\01-alicerce-o-que-e-eletricidade\\1.8-simbologia-e-leitura-de-esquemas-eletricos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q710275",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q564453",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q564456",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q596704",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q596705",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q596706",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q596707",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q596708",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q596718",
+      "subtopics": [
+        {
+          "id": "1.8",
+          "title": "Simbologia e leitura de esquemas elétricos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\01-alicerce-o-que-e-eletricidade\\1.8-simbologia-e-leitura-de-esquemas-eletricos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q509732",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q509733",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q514340",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q514354",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q522200",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q522205",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q522211",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q522213",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q522939",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q460305",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q460326",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q460364",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q461662",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q461663",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q461677",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q462321",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q484527",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q484528",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q488164",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q490141",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q490258",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q431725",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q431726",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q431728",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q431729",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q431816",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q432401",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q432406",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q432421",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "MOTOR_PROTECTION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q432422",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q452620",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q452633",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q453936",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q453942",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q453946",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q453955",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q453993",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q454855",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q424977",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q425012",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q425025",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q425033",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q430246",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q430255",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q431284",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q431287",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q431294",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q431580",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q397133",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q397147",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q404441",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q408316",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q411990",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q412007",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q413089",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q413263",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q278090",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q278091",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q364426",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q364427",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q364428",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q364429",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q364430",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q394773",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q394781",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q394790",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q231991",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q231996",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q234014",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q235672",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q235685",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q237314",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q238962",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q238963",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q241753",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q241754",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q241756",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q248523",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q248530",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q263016",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q186297",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q186311",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q186312",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q186321",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q187137",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q187140",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "MOTOR_PROTECTION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q189027",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q189061",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q189209",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q189250",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q189726",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q180778",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q182365",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q182423",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q182427",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q182642",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q173545",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q173558",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q173561",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4183612",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q64203",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q93712",
+      "subtopics": [
+        {
+          "id": "12.1",
+          "title": "Projeto elétrico, simbologia e previsão de cargas",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    }
+  ]
+}

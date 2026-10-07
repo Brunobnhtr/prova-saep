@@ -1,0 +1,2384 @@
+{
+  "Q460544": {
+    "source_id": "Q460544",
+    "stratum": "MODULE_A01",
+    "expected_primary_module": "A01",
+    "acceptable_modules": [
+      "A01"
+    ],
+    "expected_primary_concept": "BOOLEAN_ALGEBRA",
+    "expected_semantic_family": "DIGITAL_LOGIC",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Portas lógicas, tabela verdade e simplificação digital booleana."
+  },
+  "Q2254471": {
+    "source_id": "Q2254471",
+    "stratum": "MODULE_A01",
+    "expected_primary_module": "A01",
+    "acceptable_modules": [
+      "A01"
+    ],
+    "expected_primary_concept": "BOOLEAN_ALGEBRA",
+    "expected_semantic_family": "DIGITAL_LOGIC",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Portas lógicas, tabela verdade e simplificação digital booleana."
+  },
+  "Q767403": {
+    "source_id": "Q767403",
+    "stratum": "MODULE_A01",
+    "expected_primary_module": "A01",
+    "acceptable_modules": [
+      "A01"
+    ],
+    "expected_primary_concept": "NUMBER_BASE_CONVERSION",
+    "expected_semantic_family": "DIGITAL_LOGIC",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Conversão de base numérica binário para decimal."
+  },
+  "Q186388": {
+    "source_id": "Q186388",
+    "stratum": "MODULE_A01",
+    "expected_primary_module": "A01",
+    "acceptable_modules": [
+      "A01"
+    ],
+    "expected_primary_concept": "BOOLEAN_ALGEBRA",
+    "expected_semantic_family": "DIGITAL_LOGIC",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Portas lógicas, tabela verdade e simplificação digital booleana."
+  },
+  "Q182406": {
+    "source_id": "Q182406",
+    "stratum": "MODULE_A02",
+    "expected_primary_module": "A02",
+    "acceptable_modules": [
+      "A02"
+    ],
+    "expected_primary_concept": "PLC_LADDER",
+    "expected_semantic_family": "PROGRAMMABLE_CONTROLLERS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Programação de Controladores Lógicos Programáveis em linguagem Ladder."
+  },
+  "Q3027512": {
+    "source_id": "Q3027512",
+    "stratum": "MODULE_A02",
+    "expected_primary_module": "A02",
+    "acceptable_modules": [
+      "A02"
+    ],
+    "expected_primary_concept": "PLC_CONTROL",
+    "expected_semantic_family": "PROGRAMMABLE_CONTROLLERS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Sistemas de automação com CLP e sinais analógicos."
+  },
+  "Q768528": {
+    "source_id": "Q768528",
+    "stratum": "MODULE_A02",
+    "expected_primary_module": "A02",
+    "acceptable_modules": [
+      "A02"
+    ],
+    "expected_primary_concept": "PLC_CONTROL",
+    "expected_semantic_family": "PROGRAMMABLE_CONTROLLERS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Sistemas de automação com CLP e sinais analógicos."
+  },
+  "Q3851966": {
+    "source_id": "Q3851966",
+    "stratum": "MODULE_A02",
+    "expected_primary_module": "A02",
+    "acceptable_modules": [
+      "A02"
+    ],
+    "expected_primary_concept": "PLC_IO",
+    "expected_semantic_family": "PROGRAMMABLE_CONTROLLERS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Conceito estrutural e arquitetura interna de memória e E/S de CLP."
+  },
+  "Q1770362": {
+    "source_id": "Q1770362",
+    "stratum": "MODULE_A03",
+    "expected_primary_module": "A03",
+    "acceptable_modules": [
+      "A03"
+    ],
+    "expected_primary_concept": "PRESENCE_SENSOR",
+    "expected_semantic_family": "AUTOMATION_SENSORS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Sensor de presença em instalações de automação predial."
+  },
+  "Q1702544": {
+    "source_id": "Q1702544",
+    "stratum": "MODULE_A03",
+    "expected_primary_module": "A03",
+    "acceptable_modules": [
+      "A03"
+    ],
+    "expected_primary_concept": "PRESENCE_SENSOR",
+    "expected_semantic_family": "AUTOMATION_SENSORS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Sensor de presença em instalações de automação predial."
+  },
+  "Q2955768": {
+    "source_id": "Q2955768",
+    "stratum": "MODULE_A03",
+    "expected_primary_module": "A03",
+    "acceptable_modules": [
+      "A03"
+    ],
+    "expected_primary_concept": "FIRE_DETECTION",
+    "expected_semantic_family": "AUTOMATION_SENSORS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Sistema de detecção e alarme de incêndio em automação predial."
+  },
+  "Q2746799": {
+    "source_id": "Q2746799",
+    "stratum": "MODULE_A03",
+    "expected_primary_module": "A03",
+    "acceptable_modules": [
+      "A03"
+    ],
+    "expected_primary_concept": "ULTRASONIC_LEVEL",
+    "expected_semantic_family": "AUTOMATION_SENSORS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Sensores de medição de nível e pressão diferencial em automação de processos."
+  },
+  "Q1087485": {
+    "source_id": "Q1087485",
+    "stratum": "MODULE_D01",
+    "expected_primary_module": "D01",
+    "acceptable_modules": [
+      "D01"
+    ],
+    "expected_primary_concept": "MAINTENANCE_STRATEGY",
+    "expected_semantic_family": "MAINTENANCE",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Conceitos e estratégias de manutenção preventiva e corretiva elétrica."
+  },
+  "Q2517368": {
+    "source_id": "Q2517368",
+    "stratum": "MODULE_D01",
+    "expected_primary_module": "D01",
+    "acceptable_modules": [
+      "D01"
+    ],
+    "expected_primary_concept": "MAINTENANCE_STRATEGY",
+    "expected_semantic_family": "MAINTENANCE",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Conceitos e estratégias de manutenção preventiva e corretiva elétrica."
+  },
+  "Q3637814": {
+    "source_id": "Q3637814",
+    "stratum": "MODULE_D01",
+    "expected_primary_module": "D01",
+    "acceptable_modules": [
+      "D01"
+    ],
+    "expected_primary_concept": "MAINTENANCE_STRATEGY",
+    "expected_semantic_family": "MAINTENANCE",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Conceitos e estratégias de manutenção preventiva e corretiva elétrica."
+  },
+  "Q3232092": {
+    "source_id": "Q3232092",
+    "stratum": "MODULE_D01",
+    "expected_primary_module": "D01",
+    "acceptable_modules": [
+      "D01"
+    ],
+    "expected_primary_concept": "MAINTENANCE_STRATEGY",
+    "expected_semantic_family": "MAINTENANCE",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Conceitos e estratégias de manutenção preventiva e corretiva elétrica."
+  },
+  "Q2992836": {
+    "source_id": "Q2992836",
+    "stratum": "MODULE_D02",
+    "expected_primary_module": "D02",
+    "acceptable_modules": [
+      "D02",
+      "D01"
+    ],
+    "expected_primary_concept": "THERMOGRAPHY",
+    "expected_semantic_family": "THERMOGRAPHY",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Inspeção preditiva e técnicas de diagnóstico térmico/visual de painéis e cabines."
+  },
+  "Q3830401": {
+    "source_id": "Q3830401",
+    "stratum": "MODULE_D02",
+    "expected_primary_module": "D02",
+    "acceptable_modules": [
+      "D02",
+      "D01"
+    ],
+    "expected_primary_concept": "THERMOGRAPHY",
+    "expected_semantic_family": "THERMOGRAPHY",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Inspeção preditiva e técnicas de diagnóstico térmico/visual de painéis e cabines."
+  },
+  "Q2608791": {
+    "source_id": "Q2608791",
+    "stratum": "MODULE_D02",
+    "expected_primary_module": "D02",
+    "acceptable_modules": [
+      "D02",
+      "D01"
+    ],
+    "expected_primary_concept": "THERMOGRAPHY",
+    "expected_semantic_family": "THERMOGRAPHY",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Inspeção preditiva e técnicas de diagnóstico térmico/visual de painéis e cabines."
+  },
+  "Q1767182": {
+    "source_id": "Q1767182",
+    "stratum": "MODULE_D02",
+    "expected_primary_module": "D02",
+    "acceptable_modules": [
+      "D02",
+      "D01"
+    ],
+    "expected_primary_concept": "THERMOGRAPHY",
+    "expected_semantic_family": "THERMOGRAPHY",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Inspeção preditiva e técnicas de diagnóstico térmico/visual de painéis e cabines."
+  },
+  "Q731876": {
+    "source_id": "Q731876",
+    "stratum": "MODULE_E01",
+    "expected_primary_module": "E01",
+    "acceptable_modules": [
+      "E01"
+    ],
+    "expected_primary_concept": "MOTOR_SLIP",
+    "expected_semantic_family": "AC_MOTORS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Escorregamento e características operacionais de motores de indução."
+  },
+  "Q834155": {
+    "source_id": "Q834155",
+    "stratum": "MODULE_E01",
+    "expected_primary_module": "E01",
+    "acceptable_modules": [
+      "E01"
+    ],
+    "expected_primary_concept": "MOTOR_SLIP",
+    "expected_semantic_family": "AC_MOTORS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Escorregamento e características operacionais de motores de indução."
+  },
+  "Q777186": {
+    "source_id": "Q777186",
+    "stratum": "MODULE_E01",
+    "expected_primary_module": "E01",
+    "acceptable_modules": [
+      "E01"
+    ],
+    "expected_primary_concept": "INDUCTION_MOTOR",
+    "expected_semantic_family": "AC_MOTORS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Motor monofásico de indução e princípio de funcionamento de máquina assíncrona."
+  },
+  "Q1916787": {
+    "source_id": "Q1916787",
+    "stratum": "MODULE_E01",
+    "expected_primary_module": "E01",
+    "acceptable_modules": [
+      "E01"
+    ],
+    "expected_primary_concept": "SYNCHRONOUS_SPEED",
+    "expected_semantic_family": "AC_MOTORS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Cálculo de velocidade síncrona do campo girante Ns = 120f/p."
+  },
+  "Q1046937": {
+    "source_id": "Q1046937",
+    "stratum": "MODULE_E02",
+    "expected_primary_module": "E02",
+    "acceptable_modules": [
+      "E02"
+    ],
+    "expected_primary_concept": "MOTOR_WINDING_CONNECTION",
+    "expected_semantic_family": "MOTOR_CONNECTIONS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Fechamento de enrolamentos e ligação de motor trifásico."
+  },
+  "Q4186879": {
+    "source_id": "Q4186879",
+    "stratum": "MODULE_E02",
+    "expected_primary_module": "E02",
+    "acceptable_modules": [
+      "E02"
+    ],
+    "expected_primary_concept": "THREE_PHASE_VOLTAGE",
+    "expected_semantic_family": "THREE_PHASE_SYSTEMS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Tensões de linha e fase em sistemas e cargas trifásicas."
+  },
+  "Q843673": {
+    "source_id": "Q843673",
+    "stratum": "MODULE_E02",
+    "expected_primary_module": "E02",
+    "acceptable_modules": [
+      "E02"
+    ],
+    "expected_primary_concept": "THREE_PHASE_VOLTAGE",
+    "expected_semantic_family": "THREE_PHASE_SYSTEMS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Tensões de linha e fase em sistemas e cargas trifásicas."
+  },
+  "Q1016841": {
+    "source_id": "Q1016841",
+    "stratum": "MODULE_E02",
+    "expected_primary_module": "E02",
+    "acceptable_modules": [
+      "E02"
+    ],
+    "expected_primary_concept": "THREE_PHASE_VOLTAGE",
+    "expected_semantic_family": "THREE_PHASE_SYSTEMS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Tensões de linha e fase em sistemas e cargas trifásicas."
+  },
+  "Q3264306": {
+    "source_id": "Q3264306",
+    "stratum": "MODULE_E03",
+    "expected_primary_module": "E03",
+    "acceptable_modules": [
+      "E03"
+    ],
+    "expected_primary_concept": "MOTOR_CONTROL",
+    "expected_semantic_family": "MOTOR_CONTROL",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Análise e manutenção de circuitos de comando e sinalização de motores."
+  },
+  "Q843688": {
+    "source_id": "Q843688",
+    "stratum": "MODULE_E03",
+    "expected_primary_module": "E03",
+    "acceptable_modules": [
+      "E03"
+    ],
+    "expected_primary_concept": "RELAY_OPERATION",
+    "expected_semantic_family": "MOTOR_CONTROL",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Acionamento de cargas via relés eletromecânicos e lógica de comando."
+  },
+  "Q2255978": {
+    "source_id": "Q2255978",
+    "stratum": "MODULE_E03",
+    "expected_primary_module": "E03",
+    "acceptable_modules": [
+      "E03"
+    ],
+    "expected_primary_concept": "RELAY_OPERATION",
+    "expected_semantic_family": "MOTOR_CONTROL",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Acionamento de cargas via relés eletromecânicos e lógica de comando."
+  },
+  "Q1087464": {
+    "source_id": "Q1087464",
+    "stratum": "MODULE_E03",
+    "expected_primary_module": "E03",
+    "acceptable_modules": [
+      "E03"
+    ],
+    "expected_primary_concept": "MOTOR_CONTROL",
+    "expected_semantic_family": "MOTOR_CONTROL",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Análise e manutenção de circuitos de comando e sinalização de motores."
+  },
+  "Q4025520": {
+    "source_id": "Q4025520",
+    "stratum": "MODULE_E04",
+    "expected_primary_module": "E04",
+    "acceptable_modules": [
+      "E04"
+    ],
+    "expected_primary_concept": "STAR_DELTA_START",
+    "expected_semantic_family": "REDUCED_VOLTAGE_STARTING",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Partida com chave estrela-triângulo e redução de corrente e torque."
+  },
+  "Q2320589": {
+    "source_id": "Q2320589",
+    "stratum": "MODULE_E04",
+    "expected_primary_module": "E04",
+    "acceptable_modules": [
+      "E04"
+    ],
+    "expected_primary_concept": "STAR_DELTA_START",
+    "expected_semantic_family": "REDUCED_VOLTAGE_STARTING",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Partida com chave estrela-triângulo e redução de corrente e torque."
+  },
+  "Q758559": {
+    "source_id": "Q758559",
+    "stratum": "MODULE_E04",
+    "expected_primary_module": "E04",
+    "acceptable_modules": [
+      "E04"
+    ],
+    "expected_primary_concept": "STAR_DELTA_START",
+    "expected_semantic_family": "REDUCED_VOLTAGE_STARTING",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Partida com chave estrela-triângulo e redução de corrente e torque."
+  },
+  "Q1062920": {
+    "source_id": "Q1062920",
+    "stratum": "MODULE_E04",
+    "expected_primary_module": "E04",
+    "acceptable_modules": [
+      "E04"
+    ],
+    "expected_primary_concept": "STAR_DELTA_START",
+    "expected_semantic_family": "REDUCED_VOLTAGE_STARTING",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Partida com chave estrela-triângulo e redução de corrente e torque."
+  },
+  "Q235669": {
+    "source_id": "Q235669",
+    "stratum": "MODULE_E05",
+    "expected_primary_module": "E05",
+    "acceptable_modules": [
+      "E05"
+    ],
+    "expected_primary_concept": "DAHLANDER",
+    "expected_semantic_family": "SPECIAL_MOTORS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Motores de polos comutáveis tipo Dahlander com dupla rotação."
+  },
+  "Q263718": {
+    "source_id": "Q263718",
+    "stratum": "MODULE_E05",
+    "expected_primary_module": "E05",
+    "acceptable_modules": [
+      "E05"
+    ],
+    "expected_primary_concept": "DAHLANDER",
+    "expected_semantic_family": "SPECIAL_MOTORS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Motores de polos comutáveis tipo Dahlander com dupla rotação."
+  },
+  "Q1087471": {
+    "source_id": "Q1087471",
+    "stratum": "MODULE_E06",
+    "expected_primary_module": "E06",
+    "acceptable_modules": [
+      "E06"
+    ],
+    "expected_primary_concept": "FREQUENCY_DRIVE",
+    "expected_semantic_family": "ELECTRONIC_MOTOR_DRIVES",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Acionamento e controle de velocidade por inversores de frequência."
+  },
+  "Q707699": {
+    "source_id": "Q707699",
+    "stratum": "MODULE_E06",
+    "expected_primary_module": "E06",
+    "acceptable_modules": [
+      "E06"
+    ],
+    "expected_primary_concept": "FREQUENCY_DRIVE",
+    "expected_semantic_family": "ELECTRONIC_MOTOR_DRIVES",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Acionamento e controle de velocidade por inversores de frequência."
+  },
+  "Q186304": {
+    "source_id": "Q186304",
+    "stratum": "MODULE_E06",
+    "expected_primary_module": "E06",
+    "acceptable_modules": [
+      "E06"
+    ],
+    "expected_primary_concept": "FREQUENCY_DRIVE",
+    "expected_semantic_family": "ELECTRONIC_MOTOR_DRIVES",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Acionamento e controle de velocidade por inversores de frequência."
+  },
+  "Q1919412": {
+    "source_id": "Q1919412",
+    "stratum": "MODULE_E06",
+    "expected_primary_module": "E06",
+    "acceptable_modules": [
+      "E06"
+    ],
+    "expected_primary_concept": "SOFT_STARTER",
+    "expected_semantic_family": "ELECTRONIC_MOTOR_DRIVES",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Acionamento estático suave via Soft-Starter."
+  },
+  "Q1037612": {
+    "source_id": "Q1037612",
+    "stratum": "MODULE_F01",
+    "expected_primary_module": "E06",
+    "acceptable_modules": [
+      "E06",
+      "CROSS_MODULE"
+    ],
+    "expected_primary_concept": "SOFT_STARTER",
+    "expected_semantic_family": "ELECTRONIC_MOTOR_DRIVES",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Sistema de partida eletrônica progressiva (Soft-Starter / Inversor). V2.1 confundiu com F01 por 'motores CC e CA'."
+  },
+  "Q2157499": {
+    "source_id": "Q2157499",
+    "stratum": "MODULE_F01",
+    "expected_primary_module": "F01",
+    "acceptable_modules": [
+      "F01"
+    ],
+    "expected_primary_concept": "DC_AC_DIFFERENCE",
+    "expected_semantic_family": "FUNDAMENTALS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Conceitos fundamentais de corrente contínua vs corrente alternada."
+  },
+  "Q727123": {
+    "source_id": "Q727123",
+    "stratum": "MODULE_F01",
+    "expected_primary_module": "F02",
+    "acceptable_modules": [
+      "F02"
+    ],
+    "expected_primary_concept": "PARALLEL_EQUIVALENT_RESISTANCE",
+    "expected_semantic_family": "RESISTOR_NETWORKS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Associação de resistores (série, paralelo ou mista). Pertence a F02, não F01."
+  },
+  "Q606992": {
+    "source_id": "Q606992",
+    "stratum": "MODULE_F01",
+    "expected_primary_module": "I03",
+    "acceptable_modules": [
+      "I03",
+      "F01"
+    ],
+    "expected_primary_concept": "ELECTRICAL_DIAGRAM_NOTATION",
+    "expected_semantic_family": "ELECTRICAL_DRAWINGS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Normas e técnicas de desenho técnico de circuitos elétricos."
+  },
+  "Q422380": {
+    "source_id": "Q422380",
+    "stratum": "MODULE_F02",
+    "expected_primary_module": "F02",
+    "acceptable_modules": [
+      "F02"
+    ],
+    "expected_primary_concept": "MIXED_EQUIVALENT_RESISTANCE",
+    "expected_semantic_family": "RESISTOR_NETWORKS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Associação mista de resistores e cálculo de resistência equivalente."
+  },
+  "Q231992": {
+    "source_id": "Q231992",
+    "stratum": "MODULE_F02",
+    "expected_primary_module": "F02",
+    "acceptable_modules": [
+      "F02",
+      "M01"
+    ],
+    "expected_primary_concept": "WHEATSTONE_BRIDGE",
+    "expected_semantic_family": "BRIDGE_CIRCUITS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Equilíbrio de ponte de Wheatstone para cálculo de potenciômetro."
+  },
+  "Q237319": {
+    "source_id": "Q237319",
+    "stratum": "MODULE_F02",
+    "expected_primary_module": "T01",
+    "acceptable_modules": [
+      "T01",
+      "F02"
+    ],
+    "expected_primary_concept": "TRANSFORMER_RATIO",
+    "expected_semantic_family": "POWER_TRANSFORMERS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Transformador ideal alimentando carga resistiva. Conceito central é relação de espiras e potência de transformador (T01)."
+  },
+  "Q925208": {
+    "source_id": "Q925208",
+    "stratum": "MODULE_F02",
+    "expected_primary_module": "F02",
+    "acceptable_modules": [
+      "F02"
+    ],
+    "expected_primary_concept": "MIXED_EQUIVALENT_RESISTANCE",
+    "expected_semantic_family": "RESISTOR_NETWORKS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Associação mista de resistores e cálculo de resistência equivalente."
+  },
+  "Q186327": {
+    "source_id": "Q186327",
+    "stratum": "MODULE_F03",
+    "expected_primary_module": "E06",
+    "acceptable_modules": [
+      "E06",
+      "F03"
+    ],
+    "expected_primary_concept": "FREQUENCY_DRIVE",
+    "expected_semantic_family": "ELECTRONIC_MOTOR_DRIVES",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Acionamento de motores elétricos por meio de inversor de frequência."
+  },
+  "Q971880": {
+    "source_id": "Q971880",
+    "stratum": "MODULE_F03",
+    "expected_primary_module": "F03",
+    "acceptable_modules": [
+      "F03"
+    ],
+    "expected_primary_concept": "RLC_PHASOR",
+    "expected_semantic_family": "AC_CIRCUITS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Circuito RLC em regime permanente de corrente contínua / capacitores e indutores."
+  },
+  "Q184200": {
+    "source_id": "Q184200",
+    "stratum": "MODULE_F03",
+    "expected_primary_module": "F03",
+    "acceptable_modules": [
+      "F03"
+    ],
+    "expected_primary_concept": "REACTANCE_IMPEDANCE",
+    "expected_semantic_family": "AC_CIRCUITS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Impedância de entrada e defasagem em circuitos de corrente alternada."
+  },
+  "Q234018": {
+    "source_id": "Q234018",
+    "stratum": "MODULE_F03",
+    "expected_primary_module": null,
+    "acceptable_modules": [
+      null,
+      "F03"
+    ],
+    "expected_primary_concept": "ANALOG_CIRCUITS",
+    "expected_semantic_family": "ANALOG_ELECTRONICS",
+    "expected_unclassified_reason": "MISSING_MODULE",
+    "editorial_rationale": "Amplificador de áudio e casamento de impedância de alto-falante (Eletrônica Analógica / Áudio sem módulo)."
+  },
+  "Q3383584": {
+    "source_id": "Q3383584",
+    "stratum": "MODULE_F04",
+    "expected_primary_module": "F04",
+    "acceptable_modules": [
+      "F04"
+    ],
+    "expected_primary_concept": "ELECTRICAL_POWER",
+    "expected_semantic_family": "ELECTRIC_POWER_AND_ENERGY",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Medição e cálculo de potência elétrica fornecida ao circuito."
+  },
+  "Q3532483": {
+    "source_id": "Q3532483",
+    "stratum": "MODULE_F04",
+    "expected_primary_module": "F04",
+    "acceptable_modules": [
+      "F04"
+    ],
+    "expected_primary_concept": "ELECTRICAL_POWER",
+    "expected_semantic_family": "ELECTRIC_POWER_AND_ENERGY",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Medição e cálculo de potência elétrica fornecida ao circuito."
+  },
+  "Q186303": {
+    "source_id": "Q186303",
+    "stratum": "MODULE_F04",
+    "expected_primary_module": "F04",
+    "acceptable_modules": [
+      "F04"
+    ],
+    "expected_primary_concept": "POWER_FACTOR",
+    "expected_semantic_family": "POWER_FACTOR_MANAGEMENT",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Cálculo de fator de potência e potência aparente/ativa/reativa."
+  },
+  "Q453949": {
+    "source_id": "Q453949",
+    "stratum": "MODULE_F04",
+    "expected_primary_module": "F04",
+    "acceptable_modules": [
+      "F04"
+    ],
+    "expected_primary_concept": "POWER_FACTOR",
+    "expected_semantic_family": "POWER_FACTOR_MANAGEMENT",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Cálculo de fator de potência e potência aparente/ativa/reativa."
+  },
+  "Q182428": {
+    "source_id": "Q182428",
+    "stratum": "MODULE_H01",
+    "expected_primary_module": "H01",
+    "acceptable_modules": [
+      "H01"
+    ],
+    "expected_primary_concept": "PNEUMATIC_VALVE",
+    "expected_semantic_family": "PNEUMATICS_AND_HYDRAULICS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Válvulas de controle direcional, retenção e fluxogramas de processos industriais."
+  },
+  "Q707703": {
+    "source_id": "Q707703",
+    "stratum": "MODULE_H01",
+    "expected_primary_module": "H01",
+    "acceptable_modules": [
+      "H01"
+    ],
+    "expected_primary_concept": "PNEUMATIC_VALVE",
+    "expected_semantic_family": "PNEUMATICS_AND_HYDRAULICS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Válvulas de controle direcional, retenção e fluxogramas de processos industriais."
+  },
+  "Q430237": {
+    "source_id": "Q430237",
+    "stratum": "MODULE_H01",
+    "expected_primary_module": "H01",
+    "acceptable_modules": [
+      "H01"
+    ],
+    "expected_primary_concept": "PNEUMATIC_VALVE",
+    "expected_semantic_family": "PNEUMATICS_AND_HYDRAULICS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Válvulas de controle direcional, retenção e fluxogramas de processos industriais."
+  },
+  "Q797903": {
+    "source_id": "Q797903",
+    "stratum": "MODULE_H01",
+    "expected_primary_module": "H01",
+    "acceptable_modules": [
+      "H01"
+    ],
+    "expected_primary_concept": "VALVE_RETENTION",
+    "expected_semantic_family": "PNEUMATICS_AND_HYDRAULICS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Válvulas de controle direcional, retenção e fluxogramas de processos industriais."
+  },
+  "Q3188808": {
+    "source_id": "Q3188808",
+    "stratum": "MODULE_H02",
+    "expected_primary_module": "H02",
+    "acceptable_modules": [
+      "H02"
+    ],
+    "expected_primary_concept": "ELECTROPNEUMATIC_SEQUENCE",
+    "expected_semantic_family": "ELECTROPNEUMATICS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Sistemas eletro-hidráulicos e eletropneumáticos para sequenciamento linear."
+  },
+  "Q3188810": {
+    "source_id": "Q3188810",
+    "stratum": "MODULE_H02",
+    "expected_primary_module": "H02",
+    "acceptable_modules": [
+      "H02"
+    ],
+    "expected_primary_concept": "ELECTROPNEUMATIC_SEQUENCE",
+    "expected_semantic_family": "ELECTROPNEUMATICS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Sistemas eletro-hidráulicos e eletropneumáticos para sequenciamento linear."
+  },
+  "Q461673": {
+    "source_id": "Q461673",
+    "stratum": "MODULE_H02",
+    "expected_primary_module": "H02",
+    "acceptable_modules": [
+      "H02"
+    ],
+    "expected_primary_concept": "ELECTROPNEUMATIC_SEQUENCE",
+    "expected_semantic_family": "ELECTROPNEUMATICS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Sistemas eletro-hidráulicos e eletropneumáticos para sequenciamento linear."
+  },
+  "Q2668727": {
+    "source_id": "Q2668727",
+    "stratum": "MODULE_I01",
+    "expected_primary_module": "I01",
+    "acceptable_modules": [
+      "I01"
+    ],
+    "expected_primary_concept": "LIGHTING_SELECTION",
+    "expected_semantic_family": "LIGHTING_DESIGN",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Iluminação pública e componentes de instalação elétrica predial."
+  },
+  "Q189056": {
+    "source_id": "Q189056",
+    "stratum": "MODULE_I01",
+    "expected_primary_module": "I01",
+    "acceptable_modules": [
+      "I01"
+    ],
+    "expected_primary_concept": "LIGHTING_SELECTION",
+    "expected_semantic_family": "LIGHTING_DESIGN",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Iluminação pública e componentes de instalação elétrica predial."
+  },
+  "Q3910003": {
+    "source_id": "Q3910003",
+    "stratum": "MODULE_I01",
+    "expected_primary_module": "I01",
+    "acceptable_modules": [
+      "I01"
+    ],
+    "expected_primary_concept": "LIGHTING_SELECTION",
+    "expected_semantic_family": "LIGHTING_DESIGN",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Iluminação pública e componentes de instalação elétrica predial."
+  },
+  "Q3598313": {
+    "source_id": "Q3598313",
+    "stratum": "MODULE_I01",
+    "expected_primary_module": "I01",
+    "acceptable_modules": [
+      "I01"
+    ],
+    "expected_primary_concept": "LIGHTING_SELECTION",
+    "expected_semantic_family": "LIGHTING_DESIGN",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Iluminação pública e componentes de instalação elétrica predial."
+  },
+  "Q3226649": {
+    "source_id": "Q3226649",
+    "stratum": "MODULE_I02",
+    "expected_primary_module": "I02",
+    "acceptable_modules": [
+      "I02"
+    ],
+    "expected_primary_concept": "LIGHTING_SWITCHING",
+    "expected_semantic_family": "LIGHTING_CIRCUITS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Comando de lâmpadas por interruptores simples, paralelos (Three-Way) e intermediários."
+  },
+  "Q3159541": {
+    "source_id": "Q3159541",
+    "stratum": "MODULE_I02",
+    "expected_primary_module": "I02",
+    "acceptable_modules": [
+      "I02"
+    ],
+    "expected_primary_concept": "LIGHTING_SWITCHING",
+    "expected_semantic_family": "LIGHTING_CIRCUITS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Comando de lâmpadas por interruptores simples, paralelos (Three-Way) e intermediários."
+  },
+  "Q1276366": {
+    "source_id": "Q1276366",
+    "stratum": "MODULE_I02",
+    "expected_primary_module": "I02",
+    "acceptable_modules": [
+      "I02"
+    ],
+    "expected_primary_concept": "LIGHTING_SWITCHING",
+    "expected_semantic_family": "LIGHTING_CIRCUITS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Comando de lâmpadas por interruptores simples, paralelos (Three-Way) e intermediários."
+  },
+  "Q3159537": {
+    "source_id": "Q3159537",
+    "stratum": "MODULE_I02",
+    "expected_primary_module": "I02",
+    "acceptable_modules": [
+      "I02"
+    ],
+    "expected_primary_concept": "LIGHTING_SWITCHING",
+    "expected_semantic_family": "LIGHTING_CIRCUITS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Comando de lâmpadas por interruptores simples, paralelos (Three-Way) e intermediários."
+  },
+  "Q770891": {
+    "source_id": "Q770891",
+    "stratum": "MODULE_I03",
+    "expected_primary_module": "I03",
+    "acceptable_modules": [
+      "I03"
+    ],
+    "expected_primary_concept": "ELECTRICAL_DIAGRAM_NOTATION",
+    "expected_semantic_family": "ELECTRICAL_DRAWINGS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Simbologia gráfica de instalações prediais (NBR 5444) e diagramas unifilares."
+  },
+  "Q182642": {
+    "source_id": "Q182642",
+    "stratum": "MODULE_I03",
+    "expected_primary_module": "I03",
+    "acceptable_modules": [
+      "I03"
+    ],
+    "expected_primary_concept": "ELECTRICAL_DIAGRAM_NOTATION",
+    "expected_semantic_family": "ELECTRICAL_DRAWINGS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Simbologia gráfica de instalações prediais (NBR 5444) e diagramas unifilares."
+  },
+  "Q490258": {
+    "source_id": "Q490258",
+    "stratum": "MODULE_I03",
+    "expected_primary_module": "I03",
+    "acceptable_modules": [
+      "I03"
+    ],
+    "expected_primary_concept": "ELECTRICAL_DIAGRAM_NOTATION",
+    "expected_semantic_family": "ELECTRICAL_DRAWINGS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Simbologia gráfica de instalações prediais (NBR 5444) e diagramas unifilares."
+  },
+  "Q182416": {
+    "source_id": "Q182416",
+    "stratum": "MODULE_I03",
+    "expected_primary_module": "I03",
+    "acceptable_modules": [
+      "I03"
+    ],
+    "expected_primary_concept": "ELECTRICAL_COMPONENT_SYMBOL",
+    "expected_semantic_family": "ELECTRICAL_DRAWINGS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Simbologia gráfica de instalações prediais (NBR 5444) e diagramas unifilares."
+  },
+  "Q3981873": {
+    "source_id": "Q3981873",
+    "stratum": "MODULE_M01",
+    "expected_primary_module": "M01",
+    "acceptable_modules": [
+      "M01"
+    ],
+    "expected_primary_concept": "MULTIMETER_FUNCTION",
+    "expected_semantic_family": "MULTIMETER_MEASUREMENTS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Procedimentos de manuseio seguro e seleção de funções no multímetro."
+  },
+  "Q3576886": {
+    "source_id": "Q3576886",
+    "stratum": "MODULE_M01",
+    "expected_primary_module": "M01",
+    "acceptable_modules": [
+      "M01"
+    ],
+    "expected_primary_concept": "OSCILLOSCOPE_READING",
+    "expected_semantic_family": "MEASUREMENT_INSTRUMENTS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Leitura e análise de formas de onda de tensão e corrente no osciloscópio."
+  },
+  "Q606981": {
+    "source_id": "Q606981",
+    "stratum": "MODULE_M01",
+    "expected_primary_module": "M01",
+    "acceptable_modules": [
+      "M01"
+    ],
+    "expected_primary_concept": "MEASUREMENT_CONNECTION",
+    "expected_semantic_family": "MULTIMETER_MEASUREMENTS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Conexão de voltímetros em paralelo e amperímetros em série para medição."
+  },
+  "Q460321": {
+    "source_id": "Q460321",
+    "stratum": "MODULE_M01",
+    "expected_primary_module": "M01",
+    "acceptable_modules": [
+      "M01"
+    ],
+    "expected_primary_concept": "MEASUREMENT_CONNECTION",
+    "expected_semantic_family": "MULTIMETER_MEASUREMENTS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Conexão de voltímetros em paralelo e amperímetros em série para medição."
+  },
+  "Q3012514": {
+    "source_id": "Q3012514",
+    "stratum": "MODULE_M02",
+    "expected_primary_module": "M02",
+    "acceptable_modules": [
+      "M02",
+      "M01"
+    ],
+    "expected_primary_concept": "INSULATION_TEST",
+    "expected_semantic_family": "INSULATION_AND_CONTINUITY",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Ensaio de resistência de isolamento em motores elétricos com megômetro."
+  },
+  "Q4093457": {
+    "source_id": "Q4093457",
+    "stratum": "MODULE_M02",
+    "expected_primary_module": "M02",
+    "acceptable_modules": [
+      "M02",
+      "M01"
+    ],
+    "expected_primary_concept": "INSULATION_TEST",
+    "expected_semantic_family": "INSULATION_AND_CONTINUITY",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Ensaio de resistência de isolamento em motores elétricos com megômetro."
+  },
+  "Q3887490": {
+    "source_id": "Q3887490",
+    "stratum": "MODULE_M02",
+    "expected_primary_module": "M02",
+    "acceptable_modules": [
+      "M02",
+      "M01"
+    ],
+    "expected_primary_concept": "INSULATION_TEST",
+    "expected_semantic_family": "INSULATION_AND_CONTINUITY",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Ensaio de resistência de isolamento em motores elétricos com megômetro."
+  },
+  "Q741951": {
+    "source_id": "Q741951",
+    "stratum": "MODULE_M02",
+    "expected_primary_module": "M02",
+    "acceptable_modules": [
+      "M02",
+      "M01"
+    ],
+    "expected_primary_concept": "CONTINUITY_TEST",
+    "expected_semantic_family": "INSULATION_AND_CONTINUITY",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Teste de continuidade elétrica utilizando multímetro."
+  },
+  "Q3296514": {
+    "source_id": "Q3296514",
+    "stratum": "MODULE_P01",
+    "expected_primary_module": "P01",
+    "acceptable_modules": [
+      "P01"
+    ],
+    "expected_primary_concept": "VOLTAGE_DROP",
+    "expected_semantic_family": "CABLE_DIMENSIONING",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Critério de queda de tensão em circuitos de baixa tensão."
+  },
+  "Q1150378": {
+    "source_id": "Q1150378",
+    "stratum": "MODULE_P01",
+    "expected_primary_module": "P01",
+    "acceptable_modules": [
+      "P01"
+    ],
+    "expected_primary_concept": "CONDUCTOR_AMPACITY",
+    "expected_semantic_family": "CABLE_DIMENSIONING",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Capacidade de condução de corrente de condutores isolados e unipolares."
+  },
+  "Q3383585": {
+    "source_id": "Q3383585",
+    "stratum": "MODULE_P01",
+    "expected_primary_module": "P01",
+    "acceptable_modules": [
+      "P01"
+    ],
+    "expected_primary_concept": "CONDUCTOR_AMPACITY",
+    "expected_semantic_family": "CABLE_DIMENSIONING",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Capacidade de condução de corrente de condutores isolados e unipolares."
+  },
+  "Q3453374": {
+    "source_id": "Q3453374",
+    "stratum": "MODULE_P01",
+    "expected_primary_module": "P01",
+    "acceptable_modules": [
+      "P01"
+    ],
+    "expected_primary_concept": "WIRING_INFRASTRUCTURE",
+    "expected_semantic_family": "CABLE_DIMENSIONING",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Dimensionamento e taxa de ocupação de eletrodutos."
+  },
+  "Q3157275": {
+    "source_id": "Q3157275",
+    "stratum": "MODULE_P02",
+    "expected_primary_module": "P02",
+    "acceptable_modules": [
+      "P02"
+    ],
+    "expected_primary_concept": "OVERCURRENT_PROTECTION",
+    "expected_semantic_family": "OVERCURRENT_PROTECTION",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Proteção contra sobrecorrentes e curtos-circuitos por fusíveis e disjuntores."
+  },
+  "Q3595378": {
+    "source_id": "Q3595378",
+    "stratum": "MODULE_P02",
+    "expected_primary_module": "P02",
+    "acceptable_modules": [
+      "P02"
+    ],
+    "expected_primary_concept": "OVERCURRENT_PROTECTION",
+    "expected_semantic_family": "OVERCURRENT_PROTECTION",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Proteção contra sobrecorrentes e curtos-circuitos por fusíveis e disjuntores."
+  },
+  "Q241753": {
+    "source_id": "Q241753",
+    "stratum": "MODULE_P02",
+    "expected_primary_module": "P02",
+    "acceptable_modules": [
+      "P02"
+    ],
+    "expected_primary_concept": "OVERCURRENT_PROTECTION",
+    "expected_semantic_family": "OVERCURRENT_PROTECTION",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Proteção contra sobrecorrentes e curtos-circuitos por fusíveis e disjuntores."
+  },
+  "Q4148716": {
+    "source_id": "Q4148716",
+    "stratum": "MODULE_P02",
+    "expected_primary_module": "P02",
+    "acceptable_modules": [
+      "P02"
+    ],
+    "expected_primary_concept": "OVERCURRENT_PROTECTION",
+    "expected_semantic_family": "OVERCURRENT_PROTECTION",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Proteção contra sobrecorrentes e curtos-circuitos por fusíveis e disjuntores."
+  },
+  "Q3796723": {
+    "source_id": "Q3796723",
+    "stratum": "MODULE_P03",
+    "expected_primary_module": "P03",
+    "acceptable_modules": [
+      "P03"
+    ],
+    "expected_primary_concept": "RESIDUAL_CURRENT_PROTECTION",
+    "expected_semantic_family": "RESIDUAL_CURRENT_PROTECTION",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Dispositivos diferenciais residuais (DR) para proteção contra choques e contatos indiretos."
+  },
+  "Q1888102": {
+    "source_id": "Q1888102",
+    "stratum": "MODULE_P03",
+    "expected_primary_module": "P03",
+    "acceptable_modules": [
+      "P03"
+    ],
+    "expected_primary_concept": "RESIDUAL_CURRENT_PROTECTION",
+    "expected_semantic_family": "RESIDUAL_CURRENT_PROTECTION",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Dispositivos diferenciais residuais (DR) para proteção contra choques e contatos indiretos."
+  },
+  "Q596731": {
+    "source_id": "Q596731",
+    "stratum": "MODULE_P03",
+    "expected_primary_module": "P03",
+    "acceptable_modules": [
+      "P03"
+    ],
+    "expected_primary_concept": "RESIDUAL_CURRENT_PROTECTION",
+    "expected_semantic_family": "RESIDUAL_CURRENT_PROTECTION",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Dispositivos diferenciais residuais (DR) para proteção contra choques e contatos indiretos."
+  },
+  "Q1217257": {
+    "source_id": "Q1217257",
+    "stratum": "MODULE_P03",
+    "expected_primary_module": "P03",
+    "acceptable_modules": [
+      "P03"
+    ],
+    "expected_primary_concept": "RESIDUAL_CURRENT_PROTECTION",
+    "expected_semantic_family": "RESIDUAL_CURRENT_PROTECTION",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Dispositivos diferenciais residuais (DR) para proteção contra choques e contatos indiretos."
+  },
+  "Q3888888": {
+    "source_id": "Q3888888",
+    "stratum": "MODULE_P04",
+    "expected_primary_module": "P04",
+    "acceptable_modules": [
+      "P04"
+    ],
+    "expected_primary_concept": "EARTHING_FUNCTION",
+    "expected_semantic_family": "EARTHING_SYSTEMS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Sistemas e esquemas de aterramento elétrico (TN, TT, IT) e proteção equipotencial."
+  },
+  "Q3374202": {
+    "source_id": "Q3374202",
+    "stratum": "MODULE_P04",
+    "expected_primary_module": "P04",
+    "acceptable_modules": [
+      "P04"
+    ],
+    "expected_primary_concept": "EARTHING_FUNCTION",
+    "expected_semantic_family": "EARTHING_SYSTEMS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Sistemas e esquemas de aterramento elétrico (TN, TT, IT) e proteção equipotencial."
+  },
+  "Q2217147": {
+    "source_id": "Q2217147",
+    "stratum": "MODULE_P04",
+    "expected_primary_module": "P04",
+    "acceptable_modules": [
+      "P04"
+    ],
+    "expected_primary_concept": "EARTHING_FUNCTION",
+    "expected_semantic_family": "EARTHING_SYSTEMS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Sistemas e esquemas de aterramento elétrico (TN, TT, IT) e proteção equipotencial."
+  },
+  "Q3101069": {
+    "source_id": "Q3101069",
+    "stratum": "MODULE_P04",
+    "expected_primary_module": "P04",
+    "acceptable_modules": [
+      "P04"
+    ],
+    "expected_primary_concept": "EARTHING_FUNCTION",
+    "expected_semantic_family": "EARTHING_SYSTEMS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Sistemas e esquemas de aterramento elétrico (TN, TT, IT) e proteção equipotencial."
+  },
+  "Q3639830": {
+    "source_id": "Q3639830",
+    "stratum": "MODULE_P05",
+    "expected_primary_module": "P05",
+    "acceptable_modules": [
+      "P05"
+    ],
+    "expected_primary_concept": "SPDA",
+    "expected_semantic_family": "LIGHTNING_AND_SURGE",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Sistemas de Proteção contra Descargas Atmosféricas (SPDA - NBR 5419)."
+  },
+  "Q2744355": {
+    "source_id": "Q2744355",
+    "stratum": "MODULE_P05",
+    "expected_primary_module": "P05",
+    "acceptable_modules": [
+      "P05"
+    ],
+    "expected_primary_concept": "SPDA",
+    "expected_semantic_family": "LIGHTNING_AND_SURGE",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Sistemas de Proteção contra Descargas Atmosféricas (SPDA - NBR 5419)."
+  },
+  "Q770909": {
+    "source_id": "Q770909",
+    "stratum": "MODULE_P05",
+    "expected_primary_module": "P05",
+    "acceptable_modules": [
+      "P05"
+    ],
+    "expected_primary_concept": "SURGE_PROTECTION",
+    "expected_semantic_family": "LIGHTNING_AND_SURGE",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Dispositivos Protetores de Surto (DPS) e coordenação de proteção."
+  },
+  "Q509729": {
+    "source_id": "Q509729",
+    "stratum": "MODULE_P05",
+    "expected_primary_module": "P05",
+    "acceptable_modules": [
+      "P05"
+    ],
+    "expected_primary_concept": "SURGE_PROTECTION",
+    "expected_semantic_family": "LIGHTNING_AND_SURGE",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Dispositivos Protetores de Surto (DPS) e coordenação de proteção."
+  },
+  "Q564458": {
+    "source_id": "Q564458",
+    "stratum": "MODULE_R01",
+    "expected_primary_module": "R01",
+    "acceptable_modules": [
+      "R01"
+    ],
+    "expected_primary_concept": "DISTRIBUTION_TOPOLOGY",
+    "expected_semantic_family": "DISTRIBUTION_NETWORKS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Redes aéreas de distribuição de energia elétrica em média e baixa tensão."
+  },
+  "Q263036": {
+    "source_id": "Q263036",
+    "stratum": "MODULE_R01",
+    "expected_primary_module": "R01",
+    "acceptable_modules": [
+      "R01"
+    ],
+    "expected_primary_concept": "DISTRIBUTION_TOPOLOGY",
+    "expected_semantic_family": "DISTRIBUTION_NETWORKS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Redes aéreas de distribuição de energia elétrica em média e baixa tensão."
+  },
+  "Q342457": {
+    "source_id": "Q342457",
+    "stratum": "MODULE_R01",
+    "expected_primary_module": "R01",
+    "acceptable_modules": [
+      "R01"
+    ],
+    "expected_primary_concept": "DISTRIBUTION_TOPOLOGY",
+    "expected_semantic_family": "DISTRIBUTION_NETWORKS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Redes aéreas de distribuição de energia elétrica em média e baixa tensão."
+  },
+  "Q3200236": {
+    "source_id": "Q3200236",
+    "stratum": "MODULE_R01",
+    "expected_primary_module": "R01",
+    "acceptable_modules": [
+      "R01",
+      "P04"
+    ],
+    "expected_primary_concept": "DISTRIBUTION_TOPOLOGY",
+    "expected_semantic_family": "DISTRIBUTION_NETWORKS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Redes aéreas de distribuição de energia elétrica em média e baixa tensão."
+  },
+  "Q408312": {
+    "source_id": "Q408312",
+    "stratum": "MODULE_R02",
+    "expected_primary_module": "R02",
+    "acceptable_modules": [
+      "R02"
+    ],
+    "expected_primary_concept": "SUBSTATION_OPERATION",
+    "expected_semantic_family": "SUBSTATIONS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Operação de subestações e manobra de chaves seccionadoras e disjuntores."
+  },
+  "Q173545": {
+    "source_id": "Q173545",
+    "stratum": "MODULE_R02",
+    "expected_primary_module": "I03",
+    "acceptable_modules": [
+      "I03",
+      "I02"
+    ],
+    "expected_primary_concept": "ELECTRICAL_DIAGRAM_NOTATION",
+    "expected_semantic_family": "ELECTRICAL_DRAWINGS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Simbologia predial regulada por norma. Pertence a I03, não R02."
+  },
+  "Q2338805": {
+    "source_id": "Q2338805",
+    "stratum": "MODULE_R02",
+    "expected_primary_module": "R02",
+    "acceptable_modules": [
+      "R02"
+    ],
+    "expected_primary_concept": "SUBSTATION_OPERATION",
+    "expected_semantic_family": "SUBSTATIONS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Operação de subestações e manobra de chaves seccionadoras e disjuntores."
+  },
+  "Q1808439": {
+    "source_id": "Q1808439",
+    "stratum": "MODULE_R02",
+    "expected_primary_module": "S02",
+    "acceptable_modules": [
+      "S02",
+      "OUT_OF_CURRICULUM"
+    ],
+    "expected_primary_concept": "ELECTRICAL_SAFETY",
+    "expected_semantic_family": "SAFETY_MEASURES",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Norma NR-12 - Segurança no Trabalho em Máquinas e Equipamentos. Pertence a S02, não R02."
+  },
+  "Q1919404": {
+    "source_id": "Q1919404",
+    "stratum": "MODULE_S01",
+    "expected_primary_module": "F03",
+    "acceptable_modules": [
+      "F03",
+      "S01"
+    ],
+    "expected_primary_concept": "RC_TRANSIENT",
+    "expected_semantic_family": "AC_CIRCUITS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Transitório RC de carga e descarga de capacitor em teoria de circuitos (F03). V2.1 confundiu com S01 por 'descarga de capacitor'."
+  },
+  "Q2401034": {
+    "source_id": "Q2401034",
+    "stratum": "MODULE_S01",
+    "expected_primary_module": "F03",
+    "acceptable_modules": [
+      "F03",
+      "S01"
+    ],
+    "expected_primary_concept": "RC_TRANSIENT",
+    "expected_semantic_family": "AC_CIRCUITS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Transitório RC de carga e descarga de capacitor em teoria de circuitos (F03). V2.1 confundiu com S01 por 'descarga de capacitor'."
+  },
+  "Q3264298": {
+    "source_id": "Q3264298",
+    "stratum": "MODULE_S01",
+    "expected_primary_module": "S01",
+    "acceptable_modules": [
+      "S01"
+    ],
+    "expected_primary_concept": "NR10_DEENERGIZATION",
+    "expected_semantic_family": "DEENERGIZATION_PROCEDURES",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Procedimento de desenergização e constatação de ausência de tensão pela NR-10."
+  },
+  "Q3846534": {
+    "source_id": "Q3846534",
+    "stratum": "MODULE_S01",
+    "expected_primary_module": "S01",
+    "acceptable_modules": [
+      "S01"
+    ],
+    "expected_primary_concept": "NR10_DEENERGIZATION",
+    "expected_semantic_family": "DEENERGIZATION_PROCEDURES",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Procedimento de desenergização e constatação de ausência de tensão pela NR-10."
+  },
+  "Q3646809": {
+    "source_id": "Q3646809",
+    "stratum": "MODULE_S02",
+    "expected_primary_module": "S02",
+    "acceptable_modules": [
+      "S02"
+    ],
+    "expected_primary_concept": "ELECTRICAL_SAFETY",
+    "expected_semantic_family": "SAFETY_MEASURES",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Diretrizes gerais de segurança em instalações elétricas e riscos de choque."
+  },
+  "Q3386305": {
+    "source_id": "Q3386305",
+    "stratum": "MODULE_S02",
+    "expected_primary_module": "S02",
+    "acceptable_modules": [
+      "S02"
+    ],
+    "expected_primary_concept": "EPI_EPC_SELECTION",
+    "expected_semantic_family": "SAFETY_MEASURES",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Equipamentos de Proteção Individual e Coletiva (EPI/EPC - NR-6 / NR-10)."
+  },
+  "Q3189272": {
+    "source_id": "Q3189272",
+    "stratum": "MODULE_S02",
+    "expected_primary_module": "S02",
+    "acceptable_modules": [
+      "S02"
+    ],
+    "expected_primary_concept": "EPI_EPC_SELECTION",
+    "expected_semantic_family": "SAFETY_MEASURES",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Equipamentos de Proteção Individual e Coletiva (EPI/EPC - NR-6 / NR-10)."
+  },
+  "Q3980560": {
+    "source_id": "Q3980560",
+    "stratum": "MODULE_S02",
+    "expected_primary_module": "S02",
+    "acceptable_modules": [
+      "S02"
+    ],
+    "expected_primary_concept": "ELECTRICAL_SAFETY",
+    "expected_semantic_family": "SAFETY_MEASURES",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Diretrizes gerais de segurança em instalações elétricas e riscos de choque."
+  },
+  "Q2217149": {
+    "source_id": "Q2217149",
+    "stratum": "MODULE_S03",
+    "expected_primary_module": "S03",
+    "acceptable_modules": [
+      "S03"
+    ],
+    "expected_primary_concept": "NR10_DOCUMENTATION",
+    "expected_semantic_family": "SAFETY_REGULATIONS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Prontuário de instalações elétricas (>75 kW) e segurança em projetos segundo NR-10."
+  },
+  "Q4218549": {
+    "source_id": "Q4218549",
+    "stratum": "MODULE_S03",
+    "expected_primary_module": "S03",
+    "acceptable_modules": [
+      "S03"
+    ],
+    "expected_primary_concept": "NR10_DOCUMENTATION",
+    "expected_semantic_family": "SAFETY_REGULATIONS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Prontuário de instalações elétricas (>75 kW) e segurança em projetos segundo NR-10."
+  },
+  "Q4095948": {
+    "source_id": "Q4095948",
+    "stratum": "MODULE_S03",
+    "expected_primary_module": "S03",
+    "acceptable_modules": [
+      "S03"
+    ],
+    "expected_primary_concept": "NR10_DOCUMENTATION",
+    "expected_semantic_family": "SAFETY_REGULATIONS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Prontuário de instalações elétricas (>75 kW) e segurança em projetos segundo NR-10."
+  },
+  "Q1058583": {
+    "source_id": "Q1058583",
+    "stratum": "MODULE_S03",
+    "expected_primary_module": "S03",
+    "acceptable_modules": [
+      "S03"
+    ],
+    "expected_primary_concept": "NR10_DOCUMENTATION",
+    "expected_semantic_family": "SAFETY_REGULATIONS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Prontuário de instalações elétricas (>75 kW) e segurança em projetos segundo NR-10."
+  },
+  "Q184216": {
+    "source_id": "Q184216",
+    "stratum": "MODULE_T01",
+    "expected_primary_module": "T01",
+    "acceptable_modules": [
+      "T01"
+    ],
+    "expected_primary_concept": "TRANSFORMER_RATIO",
+    "expected_semantic_family": "POWER_TRANSFORMERS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Relação de transformação de tensão e corrente em transformadores."
+  },
+  "Q596740": {
+    "source_id": "Q596740",
+    "stratum": "MODULE_T01",
+    "expected_primary_module": "T01",
+    "acceptable_modules": [
+      "T01",
+      "R02"
+    ],
+    "expected_primary_concept": "TRANSFORMER_THREE_PHASE",
+    "expected_semantic_family": "POWER_TRANSFORMERS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Transformador trifásico a óleo em subestação abrigada."
+  },
+  "Q2251036": {
+    "source_id": "Q2251036",
+    "stratum": "MODULE_T01",
+    "expected_primary_module": "T01",
+    "acceptable_modules": [
+      "T01"
+    ],
+    "expected_primary_concept": "TRANSFORMER_THEORY",
+    "expected_semantic_family": "POWER_TRANSFORMERS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Teoria básica e operação de autotransformadores e ligação estrela/triângulo."
+  },
+  "Q2386846": {
+    "source_id": "Q2386846",
+    "stratum": "MODULE_T01",
+    "expected_primary_module": "T01",
+    "acceptable_modules": [
+      "T01"
+    ],
+    "expected_primary_concept": "TRANSFORMER_THEORY",
+    "expected_semantic_family": "POWER_TRANSFORMERS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Teoria básica e operação de autotransformadores e ligação estrela/triângulo."
+  },
+  "Q431820": {
+    "source_id": "Q431820",
+    "stratum": "MODULE_T02",
+    "expected_primary_module": "T02",
+    "acceptable_modules": [
+      "T02"
+    ],
+    "expected_primary_concept": "CURRENT_TRANSFORMER",
+    "expected_semantic_family": "INSTRUMENT_TRANSFORMERS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Transformadores de corrente (TC) para medição e proteção em média e alta tensão."
+  },
+  "Q1767162": {
+    "source_id": "Q1767162",
+    "stratum": "MODULE_T02",
+    "expected_primary_module": "T02",
+    "acceptable_modules": [
+      "T02"
+    ],
+    "expected_primary_concept": "CURRENT_TRANSFORMER",
+    "expected_semantic_family": "INSTRUMENT_TRANSFORMERS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Transformadores de corrente (TC) para medição e proteção em média e alta tensão."
+  },
+  "Q2217360": {
+    "source_id": "Q2217360",
+    "stratum": "MODULE_T02",
+    "expected_primary_module": "T02",
+    "acceptable_modules": [
+      "T02"
+    ],
+    "expected_primary_concept": "CURRENT_TRANSFORMER",
+    "expected_semantic_family": "INSTRUMENT_TRANSFORMERS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Transformadores de corrente (TC) para medição e proteção em média e alta tensão."
+  },
+  "Q453997": {
+    "source_id": "Q453997",
+    "stratum": "MODULE_T02",
+    "expected_primary_module": "T02",
+    "acceptable_modules": [
+      "T02",
+      "M01"
+    ],
+    "expected_primary_concept": "CURRENT_TRANSFORMER",
+    "expected_semantic_family": "INSTRUMENT_TRANSFORMERS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Transformadores de corrente (TC) para medição e proteção em média e alta tensão."
+  },
+  "Q3790478": {
+    "source_id": "Q3790478",
+    "stratum": "MODULE_V01",
+    "expected_primary_module": "V01",
+    "acceptable_modules": [
+      "V01"
+    ],
+    "expected_primary_concept": "PV_ARRAY_POWER",
+    "expected_semantic_family": "PHOTOVOLTAIC_SYSTEMS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Sistemas fotovoltaicos, arranjos de módulos (strings) e norma técnica associada."
+  },
+  "Q3887500": {
+    "source_id": "Q3887500",
+    "stratum": "MODULE_V01",
+    "expected_primary_module": "V01",
+    "acceptable_modules": [
+      "V01"
+    ],
+    "expected_primary_concept": "RENEWABLE_SOURCES",
+    "expected_semantic_family": "ALTERNATIVE_ENERGY",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Fontes alternativas e renováveis de geração de energia elétrica."
+  },
+  "Q3754044": {
+    "source_id": "Q3754044",
+    "stratum": "MODULE_V01",
+    "expected_primary_module": "V01",
+    "acceptable_modules": [
+      "V01"
+    ],
+    "expected_primary_concept": "PV_ARRAY_POWER",
+    "expected_semantic_family": "PHOTOVOLTAIC_SYSTEMS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Sistemas fotovoltaicos, arranjos de módulos (strings) e norma técnica associada."
+  },
+  "Q3027680": {
+    "source_id": "Q3027680",
+    "stratum": "MODULE_V01",
+    "expected_primary_module": "V01",
+    "acceptable_modules": [
+      "V01"
+    ],
+    "expected_primary_concept": "RENEWABLE_SOURCES",
+    "expected_semantic_family": "ALTERNATIVE_ENERGY",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Fontes alternativas e renováveis de geração de energia elétrica."
+  },
+  "Q234022": {
+    "source_id": "Q234022",
+    "stratum": "UNCLASSIFIED_CLASSIFIER_GAP",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "INDUSTRIAL_NETWORK",
+    "expected_semantic_family": "INDUSTRIAL_AUTOMATION",
+    "expected_unclassified_reason": "MISSING_MODULE",
+    "editorial_rationale": "Redes industriais de comunicação (Profibus, Modbus, Fieldbus) - sem módulo no currículo."
+  },
+  "Q3796394": {
+    "source_id": "Q3796394",
+    "stratum": "UNCLASSIFIED_CLASSIFIER_GAP",
+    "expected_primary_module": "E01",
+    "acceptable_modules": [
+      "E01"
+    ],
+    "expected_primary_concept": "INDUCTION_MOTOR",
+    "expected_semantic_family": "AC_MOTORS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Princípio de funcionamento de motor elétrico: conversão eletromecânica. Lacuna legítima do classificador."
+  },
+  "Q596749": {
+    "source_id": "Q596749",
+    "stratum": "UNCLASSIFIED_CLASSIFIER_GAP",
+    "expected_primary_module": "D01",
+    "acceptable_modules": [
+      "D01"
+    ],
+    "expected_primary_concept": "MAINTENANCE_STRATEGY",
+    "expected_semantic_family": "MAINTENANCE",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Tipos de manutenção industrial (preventiva/preditiva). Lacuna legítima do classificador."
+  },
+  "Q2692679": {
+    "source_id": "Q2692679",
+    "stratum": "UNCLASSIFIED_CLASSIFIER_GAP",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "WELDING_TECHNOLOGY",
+    "expected_semantic_family": "MECHANICAL_ENGINEERING",
+    "expected_unclassified_reason": "OUT_OF_CURRICULUM",
+    "editorial_rationale": "Eletrodos revestidos norma AWS para soldagem - fora do currículo eletrotécnico."
+  },
+  "Q2608796": {
+    "source_id": "Q2608796",
+    "stratum": "UNCLASSIFIED_CLASSIFIER_GAP",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "ENVIRONMENTAL_MANAGEMENT",
+    "expected_semantic_family": "INDUSTRIAL_SAFETY",
+    "expected_unclassified_reason": "OUT_OF_CURRICULUM",
+    "editorial_rationale": "Impactos ambientais e sustentabilidade em projetos industriais."
+  },
+  "Q186301": {
+    "source_id": "Q186301",
+    "stratum": "UNCLASSIFIED_CLASSIFIER_GAP",
+    "expected_primary_module": "I01",
+    "acceptable_modules": [
+      "I01",
+      "S03"
+    ],
+    "expected_primary_concept": "INSTALLATION_STANDARDS",
+    "expected_semantic_family": "ELECTRICAL_INSTALLATIONS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "NBR 5410 instalações elétricas de baixa tensão. Lacuna de classificador."
+  },
+  "Q2217126": {
+    "source_id": "Q2217126",
+    "stratum": "UNCLASSIFIED_CLASSIFIER_GAP",
+    "expected_primary_module": "S02",
+    "acceptable_modules": [
+      "S02"
+    ],
+    "expected_primary_concept": "EPI_EPC_SELECTION",
+    "expected_semantic_family": "SAFETY_MEASURES",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Luvas isolantes de borracha para proteção contra choques (EPI). Lacuna legítima do classificador."
+  },
+  "Q1037588": {
+    "source_id": "Q1037588",
+    "stratum": "UNCLASSIFIED_CLASSIFIER_GAP",
+    "expected_primary_module": "I01",
+    "acceptable_modules": [
+      "I01"
+    ],
+    "expected_primary_concept": "WIRING_INFRASTRUCTURE",
+    "expected_semantic_family": "ELECTRICAL_INSTALLATIONS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Reparo de tomada predial e caixa de passagem. Lacuna de classificador."
+  },
+  "Q783431": {
+    "source_id": "Q783431",
+    "stratum": "UNCLASSIFIED_CLASSIFIER_GAP",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "SEMICONDUCTOR_PHYSICS",
+    "expected_semantic_family": "OPTOELECTRONICS",
+    "expected_unclassified_reason": "MISSING_MODULE",
+    "editorial_rationale": "Dispositivos optoeletrônicos e corrente escura (fotodiodo) - sem módulo no currículo."
+  },
+  "Q2329792": {
+    "source_id": "Q2329792",
+    "stratum": "UNCLASSIFIED_CLASSIFIER_GAP",
+    "expected_primary_module": "S02",
+    "acceptable_modules": [
+      "S02",
+      "S03"
+    ],
+    "expected_primary_concept": "ELECTRICAL_SAFETY",
+    "expected_semantic_family": "SAFETY_MEASURES",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Medidas de segurança em serviços em instalações elétricas. Lacuna de classificador."
+  },
+  "Q4025523": {
+    "source_id": "Q4025523",
+    "stratum": "UNCLASSIFIED_CLASSIFIER_GAP",
+    "expected_primary_module": "S02",
+    "acceptable_modules": [
+      "S02",
+      "OUT_OF_CURRICULUM"
+    ],
+    "expected_primary_concept": "FIRE_SAFETY",
+    "expected_semantic_family": "SAFETY_MEASURES",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Sinalização e inspeção de extintores em laboratório elétrico."
+  },
+  "Q4032402": {
+    "source_id": "Q4032402",
+    "stratum": "UNCLASSIFIED_CLASSIFIER_GAP",
+    "expected_primary_module": "S02",
+    "acceptable_modules": [
+      "S02",
+      "OUT_OF_CURRICULUM"
+    ],
+    "expected_primary_concept": "ELECTRICAL_SAFETY",
+    "expected_semantic_family": "SAFETY_MEASURES",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "NR-12 Segurança em Máquinas - dispositivos de partida e parada."
+  },
+  "Q2784996": {
+    "source_id": "Q2784996",
+    "stratum": "UNCLASSIFIED_CLASSIFIER_GAP",
+    "expected_primary_module": "D01",
+    "acceptable_modules": [
+      "D01",
+      "E01"
+    ],
+    "expected_primary_concept": "MAINTENANCE_STRATEGY",
+    "expected_semantic_family": "MAINTENANCE",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Práticas de manutenção preventiva e corretiva de motores elétricos. Lacuna de classificador."
+  },
+  "Q3958245": {
+    "source_id": "Q3958245",
+    "stratum": "UNCLASSIFIED_CLASSIFIER_GAP",
+    "expected_primary_module": "D01",
+    "acceptable_modules": [
+      "D01",
+      "M01"
+    ],
+    "expected_primary_concept": "MAINTENANCE_STRATEGY",
+    "expected_semantic_family": "MAINTENANCE",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Manutenção e calibração de equipamentos eletrônicos laboratoriais. Lacuna de classificador."
+  },
+  "Q533338": {
+    "source_id": "Q533338",
+    "stratum": "UNCLASSIFIED_CLASSIFIER_GAP",
+    "expected_primary_module": "E03",
+    "acceptable_modules": [
+      "E03",
+      "A02"
+    ],
+    "expected_primary_concept": "RELAY_OPERATION",
+    "expected_semantic_family": "MOTOR_CONTROL",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Temporizadores / relés de tempo para ligar e desligar circuitos automaticamente. Lacuna de classificador."
+  },
+  "Q4108778": {
+    "source_id": "Q4108778",
+    "stratum": "UNCLASSIFIED_CLASSIFIER_GAP",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "VEHICULAR_ELECTRICAL_SYSTEMS",
+    "expected_semantic_family": "AUTOMOTIVE",
+    "expected_unclassified_reason": "OUT_OF_CURRICULUM",
+    "editorial_rationale": "Sistema elétrico de máquina pesada com motor diesel (fora do currículo de eletrotécnica predial/industrial)."
+  },
+  "Q2693084": {
+    "source_id": "Q2693084",
+    "stratum": "UNCLASSIFIED_CLASSIFIER_GAP",
+    "expected_primary_module": "E02",
+    "acceptable_modules": [
+      "E02",
+      "F03"
+    ],
+    "expected_primary_concept": "THREE_PHASE_VOLTAGE",
+    "expected_semantic_family": "THREE_PHASE_SYSTEMS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Relações de tensão e corrente de linha/fase em estrela trifásica. Lacuna legítima do classificador."
+  },
+  "Q654065": {
+    "source_id": "Q654065",
+    "stratum": "UNCLASSIFIED_CLASSIFIER_GAP",
+    "expected_primary_module": "R01",
+    "acceptable_modules": [
+      "R01"
+    ],
+    "expected_primary_concept": "DISTRIBUTION_TOPOLOGY",
+    "expected_semantic_family": "DISTRIBUTION_NETWORKS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Normas de religação e fornecimento por distribuidora rural. Lacuna de classificador."
+  },
+  "Q1916782": {
+    "source_id": "Q1916782",
+    "stratum": "UNCLASSIFIED_CLASSIFIER_GAP",
+    "expected_primary_module": "P03",
+    "acceptable_modules": [
+      "P03",
+      "P04",
+      "I01"
+    ],
+    "expected_primary_concept": "RESIDUAL_CURRENT_PROTECTION",
+    "expected_semantic_family": "RESIDUAL_CURRENT_PROTECTION",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Proteção contra contatos indiretos via DR e esquemas de aterramento. Lacuna legítima do classificador."
+  },
+  "Q514378": {
+    "source_id": "Q514378",
+    "stratum": "UNCLASSIFIED_MISSING_MODULE",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "RECTIFIER_OPERATION",
+    "expected_semantic_family": "ANALOG_ELECTRONICS",
+    "expected_unclassified_reason": "MISSING_MODULE",
+    "editorial_rationale": "Circuito retificador de onda com diodos / osciloscópio (Eletrônica Analógica sem módulo)."
+  },
+  "Q2325617": {
+    "source_id": "Q2325617",
+    "stratum": "UNCLASSIFIED_MISSING_MODULE",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "ACTIVE_FILTER",
+    "expected_semantic_family": "ANALOG_ELECTRONICS",
+    "expected_unclassified_reason": "MISSING_MODULE",
+    "editorial_rationale": "Amplificadores operacionais e filtros ativos (Eletrônica Analógica sem módulo)."
+  },
+  "Q2444955": {
+    "source_id": "Q2444955",
+    "stratum": "UNCLASSIFIED_MISSING_MODULE",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "SEMICONDUCTOR_PHYSICS",
+    "expected_semantic_family": "ANALOG_ELECTRONICS",
+    "expected_unclassified_reason": "MISSING_MODULE",
+    "editorial_rationale": "Física de semicondutores, diodo comum e regulador zener (sem módulo no currículo)."
+  },
+  "Q1770790": {
+    "source_id": "Q1770790",
+    "stratum": "UNCLASSIFIED_MISSING_MODULE",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "SEMICONDUCTOR_PHYSICS",
+    "expected_semantic_family": "ANALOG_ELECTRONICS",
+    "expected_unclassified_reason": "MISSING_MODULE",
+    "editorial_rationale": "Física de semicondutores, diodo comum e regulador zener (sem módulo no currículo)."
+  },
+  "Q2081102": {
+    "source_id": "Q2081102",
+    "stratum": "UNCLASSIFIED_MISSING_MODULE",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "INDUSTRIAL_NETWORK",
+    "expected_semantic_family": "INDUSTRIAL_AUTOMATION",
+    "expected_unclassified_reason": "MISSING_MODULE",
+    "editorial_rationale": "Redes de automação industrial (Profibus) - sem módulo dedicado."
+  },
+  "Q2251029": {
+    "source_id": "Q2251029",
+    "stratum": "UNCLASSIFIED_MISSING_MODULE",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "RECTIFIER_OPERATION",
+    "expected_semantic_family": "ANALOG_ELECTRONICS",
+    "expected_unclassified_reason": "MISSING_MODULE",
+    "editorial_rationale": "Circuito retificador de onda com diodos / osciloscópio (Eletrônica Analógica sem módulo)."
+  },
+  "Q1000404": {
+    "source_id": "Q1000404",
+    "stratum": "UNCLASSIFIED_MISSING_MODULE",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "TRANSISTOR_OPERATION",
+    "expected_semantic_family": "ANALOG_ELECTRONICS",
+    "expected_unclassified_reason": "MISSING_MODULE",
+    "editorial_rationale": "Transistores bipolares como chave e reta de carga (sem módulo no currículo)."
+  },
+  "Q364398": {
+    "source_id": "Q364398",
+    "stratum": "UNCLASSIFIED_MISSING_MODULE",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "ACTIVE_FILTER",
+    "expected_semantic_family": "ANALOG_ELECTRONICS",
+    "expected_unclassified_reason": "MISSING_MODULE",
+    "editorial_rationale": "Amplificadores operacionais e filtros ativos (Eletrônica Analógica sem módulo)."
+  },
+  "Q3458726": {
+    "source_id": "Q3458726",
+    "stratum": "UNCLASSIFIED_MISSING_MODULE",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "TRANSISTOR_OPERATION",
+    "expected_semantic_family": "ANALOG_ELECTRONICS",
+    "expected_unclassified_reason": "MISSING_MODULE",
+    "editorial_rationale": "Transistores bipolares como chave e reta de carga (sem módulo no currículo)."
+  },
+  "Q2754158": {
+    "source_id": "Q2754158",
+    "stratum": "UNCLASSIFIED_MISSING_MODULE",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "SEMICONDUCTOR_PHYSICS",
+    "expected_semantic_family": "ANALOG_ELECTRONICS",
+    "expected_unclassified_reason": "MISSING_MODULE",
+    "editorial_rationale": "Física de semicondutores, diodo comum e regulador zener (sem módulo no currículo)."
+  },
+  "Q3393718": {
+    "source_id": "Q3393718",
+    "stratum": "UNCLASSIFIED_IMAGE_REQUIRED",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNINSPECTED_VISUAL_DEPENDENCY",
+    "expected_semantic_family": "INSUFFICIENT_VISUAL_CONTEXT",
+    "expected_unclassified_reason": "IMAGE_REQUIRED",
+    "editorial_rationale": "A resolução ou classificação conceitual depende estritamente da imagem/diagrama referenciado no texto."
+  },
+  "Q797914": {
+    "source_id": "Q797914",
+    "stratum": "UNCLASSIFIED_IMAGE_REQUIRED",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNINSPECTED_VISUAL_DEPENDENCY",
+    "expected_semantic_family": "INSUFFICIENT_VISUAL_CONTEXT",
+    "expected_unclassified_reason": "IMAGE_REQUIRED",
+    "editorial_rationale": "A resolução ou classificação conceitual depende estritamente da imagem/diagrama referenciado no texto."
+  },
+  "Q3452150": {
+    "source_id": "Q3452150",
+    "stratum": "UNCLASSIFIED_IMAGE_REQUIRED",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNINSPECTED_VISUAL_DEPENDENCY",
+    "expected_semantic_family": "INSUFFICIENT_VISUAL_CONTEXT",
+    "expected_unclassified_reason": "IMAGE_REQUIRED",
+    "editorial_rationale": "A resolução ou classificação conceitual depende estritamente da imagem/diagrama referenciado no texto."
+  },
+  "Q3012509": {
+    "source_id": "Q3012509",
+    "stratum": "UNCLASSIFIED_IMAGE_REQUIRED",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNINSPECTED_VISUAL_DEPENDENCY",
+    "expected_semantic_family": "INSUFFICIENT_VISUAL_CONTEXT",
+    "expected_unclassified_reason": "IMAGE_REQUIRED",
+    "editorial_rationale": "A resolução ou classificação conceitual depende estritamente da imagem/diagrama referenciado no texto."
+  },
+  "Q777158": {
+    "source_id": "Q777158",
+    "stratum": "UNCLASSIFIED_IMAGE_REQUIRED",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNINSPECTED_VISUAL_DEPENDENCY",
+    "expected_semantic_family": "INSUFFICIENT_VISUAL_CONTEXT",
+    "expected_unclassified_reason": "IMAGE_REQUIRED",
+    "editorial_rationale": "A resolução ou classificação conceitual depende estritamente da imagem/diagrama referenciado no texto."
+  },
+  "Q453955": {
+    "source_id": "Q453955",
+    "stratum": "UNCLASSIFIED_IMAGE_REQUIRED",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNINSPECTED_VISUAL_DEPENDENCY",
+    "expected_semantic_family": "INSUFFICIENT_VISUAL_CONTEXT",
+    "expected_unclassified_reason": "IMAGE_REQUIRED",
+    "editorial_rationale": "A resolução ou classificação conceitual depende estritamente da imagem/diagrama referenciado no texto."
+  },
+  "Q184203": {
+    "source_id": "Q184203",
+    "stratum": "UNCLASSIFIED_IMAGE_REQUIRED",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNINSPECTED_VISUAL_DEPENDENCY",
+    "expected_semantic_family": "INSUFFICIENT_VISUAL_CONTEXT",
+    "expected_unclassified_reason": "IMAGE_REQUIRED",
+    "editorial_rationale": "A resolução ou classificação conceitual depende estritamente da imagem/diagrama referenciado no texto."
+  },
+  "Q187137": {
+    "source_id": "Q187137",
+    "stratum": "UNCLASSIFIED_IMAGE_REQUIRED",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNINSPECTED_VISUAL_DEPENDENCY",
+    "expected_semantic_family": "INSUFFICIENT_VISUAL_CONTEXT",
+    "expected_unclassified_reason": "IMAGE_REQUIRED",
+    "editorial_rationale": "A resolução ou classificação conceitual depende estritamente da imagem/diagrama referenciado no texto."
+  },
+  "Q839168": {
+    "source_id": "Q839168",
+    "stratum": "UNCLASSIFIED_INSUFFICIENT_CONTEXT",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "POWER_ELECTRONICS",
+    "expected_semantic_family": "POWER_ELECTRONICS",
+    "expected_unclassified_reason": "MISSING_MODULE",
+    "editorial_rationale": "Conversores estáticos CC-CC (Buck/Boost) - Eletrônica de Potência sem módulo dedicado."
+  },
+  "Q2668749": {
+    "source_id": "Q2668749",
+    "stratum": "UNCLASSIFIED_INSUFFICIENT_CONTEXT",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "GENERIC_STATEMENT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "INSUFFICIENT_CONTEXT",
+    "editorial_rationale": "Enunciado puramente genérico ('assinale a alternativa correta') sem termo técnico decisivo."
+  },
+  "Q182355": {
+    "source_id": "Q182355",
+    "stratum": "UNCLASSIFIED_INSUFFICIENT_CONTEXT",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNINSPECTED_VISUAL_DEPENDENCY",
+    "expected_semantic_family": "INSUFFICIENT_VISUAL_CONTEXT",
+    "expected_unclassified_reason": "IMAGE_REQUIRED",
+    "editorial_rationale": "Cálculo de nós em circuito ausente (figura necessária)."
+  },
+  "Q3125837": {
+    "source_id": "Q3125837",
+    "stratum": "UNCLASSIFIED_INSUFFICIENT_CONTEXT",
+    "expected_primary_module": "F01",
+    "acceptable_modules": [
+      "F01"
+    ],
+    "expected_primary_concept": "DC_AC_DIFFERENCE",
+    "expected_semantic_family": "FUNDAMENTALS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Características fundamentais da corrente alternada (CA). Pertence a F01."
+  },
+  "Q2178402": {
+    "source_id": "Q2178402",
+    "stratum": "EDGE_IMAGE",
+    "expected_primary_module": "E04",
+    "acceptable_modules": [
+      "E04",
+      "E06",
+      "CROSS_MODULE"
+    ],
+    "expected_primary_concept": "STAR_DELTA_START",
+    "expected_semantic_family": "REDUCED_VOLTAGE_STARTING",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Esquema de acionamento de motor (partida indireta). V2.1 atribuiu R02 por menção a chave seccionadora."
+  },
+  "Q3535054": {
+    "source_id": "Q3535054",
+    "stratum": "EDGE_IMAGE",
+    "expected_primary_module": "I02",
+    "acceptable_modules": [
+      "I02",
+      "I03"
+    ],
+    "expected_primary_concept": "LIGHTING_SWITCHING",
+    "expected_semantic_family": "LIGHTING_CIRCUITS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Diagrama unifilar de iluminação predial com interruptores."
+  },
+  "Q238949": {
+    "source_id": "Q238949",
+    "stratum": "EDGE_IMAGE",
+    "expected_primary_module": "F03",
+    "acceptable_modules": [
+      "F03"
+    ],
+    "expected_primary_concept": "REACTANCE_IMPEDANCE",
+    "expected_semantic_family": "AC_CIRCUITS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Impedância equivalente de circuito em corrente alternada."
+  },
+  "Q839156": {
+    "source_id": "Q839156",
+    "stratum": "EDGE_IMAGE",
+    "expected_primary_module": "F02",
+    "acceptable_modules": [
+      "F02"
+    ],
+    "expected_primary_concept": "OHMS_LAW_CURRENT",
+    "expected_semantic_family": "OHMS_LAW",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Cálculo de corrente fornecida pelo gerador em circuito resistivo."
+  },
+  "Q583714": {
+    "source_id": "Q583714",
+    "stratum": "EDGE_IMAGE",
+    "expected_primary_module": "M01",
+    "acceptable_modules": [
+      "M01",
+      "F02"
+    ],
+    "expected_primary_concept": "MEASUREMENT_CONNECTION",
+    "expected_semantic_family": "MULTIMETER_MEASUREMENTS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Conexão de instrumento de medição em rede de resistores."
+  },
+  "Q4083319": {
+    "source_id": "Q4083319",
+    "stratum": "EDGE_IMAGE",
+    "expected_primary_module": "I02",
+    "acceptable_modules": [
+      "I02",
+      "I03"
+    ],
+    "expected_primary_concept": "LIGHTING_SWITCHING",
+    "expected_semantic_family": "LIGHTING_CIRCUITS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Simbologia de interruptor e lâmpada em instalação predial."
+  },
+  "Q430257": {
+    "source_id": "Q430257",
+    "stratum": "EDGE_IMAGE",
+    "expected_primary_module": "I03",
+    "acceptable_modules": [
+      "I03",
+      "MISSING_MODULE"
+    ],
+    "expected_primary_concept": "ELECTRICAL_DIAGRAM_NOTATION",
+    "expected_semantic_family": "ELECTRICAL_DRAWINGS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Montagem de transmissor de vazão e simbologia ISA."
+  },
+  "Q2354138": {
+    "source_id": "Q2354138",
+    "stratum": "EDGE_IMAGE",
+    "expected_primary_module": "M01",
+    "acceptable_modules": [
+      "M01",
+      "V01"
+    ],
+    "expected_primary_concept": "OSCILLOSCOPE_READING",
+    "expected_semantic_family": "MEASUREMENT_INSTRUMENTS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Análise de sinal de inversor fotovoltaico com osciloscópio."
+  },
+  "Q2276467": {
+    "source_id": "Q2276467",
+    "stratum": "EDGE_IMAGE",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNINSPECTED_VISUAL_DEPENDENCY",
+    "expected_semantic_family": "INSUFFICIENT_VISUAL_CONTEXT",
+    "expected_unclassified_reason": "IMAGE_REQUIRED",
+    "editorial_rationale": "Circuito ilustrado na figura ausente."
+  },
+  "Q3100164": {
+    "source_id": "Q3100164",
+    "stratum": "EDGE_IMAGE",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNINSPECTED_VISUAL_DEPENDENCY",
+    "expected_semantic_family": "INSUFFICIENT_VISUAL_CONTEXT",
+    "expected_unclassified_reason": "IMAGE_REQUIRED",
+    "editorial_rationale": "Circuito ilustrado na figura ausente."
+  },
+  "Q3576892": {
+    "source_id": "Q3576892",
+    "stratum": "EDGE_IMAGE",
+    "expected_primary_module": "A01",
+    "acceptable_modules": [
+      "A01",
+      "IMAGE_REQUIRED"
+    ],
+    "expected_primary_concept": "BOOLEAN_ALGEBRA",
+    "expected_semantic_family": "DIGITAL_LOGIC",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Formas de onda de entradas SET e RESET de Flip-Flop digital."
+  },
+  "Q3452140": {
+    "source_id": "Q3452140",
+    "stratum": "EDGE_PROPOSITIONS_TF",
+    "expected_primary_module": "T02",
+    "acceptable_modules": [
+      "T02"
+    ],
+    "expected_primary_concept": "CURRENT_TRANSFORMER",
+    "expected_semantic_family": "INSTRUMENT_TRANSFORMERS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Transformadores de corrente (TC) em sistemas de potência."
+  },
+  "Q2314731": {
+    "source_id": "Q2314731",
+    "stratum": "EDGE_PROPOSITIONS_TF",
+    "expected_primary_module": "P02",
+    "acceptable_modules": [
+      "P02"
+    ],
+    "expected_primary_concept": "OVERCURRENT_PROTECTION",
+    "expected_semantic_family": "OVERCURRENT_PROTECTION",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Caminho de baixa resistência e corrente anormal em curto período (curto-circuito)."
+  },
+  "Q184185": {
+    "source_id": "Q184185",
+    "stratum": "EDGE_PROPOSITIONS_TF",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "ACTIVE_FILTER",
+    "expected_semantic_family": "ANALOG_ELECTRONICS",
+    "expected_unclassified_reason": "MISSING_MODULE",
+    "editorial_rationale": "Impedância de entrada infinita de amplificador operacional ideal."
+  },
+  "Q2587489": {
+    "source_id": "Q2587489",
+    "stratum": "EDGE_PROPOSITIONS_TF",
+    "expected_primary_module": "S02",
+    "acceptable_modules": [
+      "S02",
+      "S03"
+    ],
+    "expected_primary_concept": "WORKER_AUTHORIZATION",
+    "expected_semantic_family": "SAFETY_MEASURES",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Trabalhador qualificado e autorizado segundo a NR-10."
+  },
+  "Q2559458": {
+    "source_id": "Q2559458",
+    "stratum": "EDGE_PROPOSITIONS_TF",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "SEMICONDUCTOR_SWITCH",
+    "expected_semantic_family": "POWER_ELECTRONICS",
+    "expected_unclassified_reason": "MISSING_MODULE",
+    "editorial_rationale": "Transistores bipolares de junção em corte e saturação como chave."
+  },
+  "Q93727": {
+    "source_id": "Q93727",
+    "stratum": "EDGE_PROPOSITIONS_TF",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "REGULATORY_FRAMEWORK",
+    "expected_semantic_family": "REGULATORY_BODIES",
+    "expected_unclassified_reason": "OUT_OF_CURRICULUM",
+    "editorial_rationale": "Competências institucionais do diretor-geral da ANEEL (legislação administrativa fora do currículo)."
+  },
+  "Q4084202": {
+    "source_id": "Q4084202",
+    "stratum": "EDGE_PROPOSITIONS_TF",
+    "expected_primary_module": "M01",
+    "acceptable_modules": [
+      "M01",
+      "F03"
+    ],
+    "expected_primary_concept": "MULTIMETER_CURRENT",
+    "expected_semantic_family": "MULTIMETER_MEASUREMENTS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Medição senoidal de corrente em circuito trifásico."
+  },
+  "Q1658927": {
+    "source_id": "Q1658927",
+    "stratum": "EDGE_PROPOSITIONS_TF",
+    "expected_primary_module": "M01",
+    "acceptable_modules": [
+      "M01",
+      "IMAGE_REQUIRED"
+    ],
+    "expected_primary_concept": "MEASUREMENT_CONNECTION",
+    "expected_semantic_family": "MULTIMETER_MEASUREMENTS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Espelho antiparalaxe em instrumento analógico de medição."
+  },
+  "Q825994": {
+    "source_id": "Q825994",
+    "stratum": "EDGE_PROPOSITIONS_TF",
+    "expected_primary_module": "S03",
+    "acceptable_modules": [
+      "S03",
+      "S02"
+    ],
+    "expected_primary_concept": "NR10_DOCUMENTATION",
+    "expected_semantic_family": "SAFETY_REGULATIONS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Diretrizes normativas e documentais da NR-10."
+  },
+  "Q768525": {
+    "source_id": "Q768525",
+    "stratum": "EDGE_PROPOSITIONS_TF",
+    "expected_primary_module": "E02",
+    "acceptable_modules": [
+      "E02"
+    ],
+    "expected_primary_concept": "SINGLE_PHASE_MOTOR_CAPACITOR",
+    "expected_semantic_family": "SINGLE_PHASE_MOTORS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Motores monofásicos de polos sombreados e fase dividida com capacitor."
+  },
+  "Q606951": {
+    "source_id": "Q606951",
+    "stratum": "EDGE_PROPOSITIONS_TF",
+    "expected_primary_module": "T01",
+    "acceptable_modules": [
+      "T01",
+      "T02"
+    ],
+    "expected_primary_concept": "TRANSFORMER_THEORY",
+    "expected_semantic_family": "POWER_TRANSFORMERS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Transformadores empregados em circuitos de medição elétrica."
+  }
+}

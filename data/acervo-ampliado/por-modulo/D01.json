@@ -1,0 +1,1933 @@
+{
+  "module": "D01",
+  "title": "Preventiva, preditiva, corretiva e inspeções",
+  "total_candidates": 136,
+  "primary_assignments": 121,
+  "high_relevance": 70,
+  "medium_relevance": 19,
+  "low_relevance": 47,
+  "outside_theme": {
+    "count": null,
+    "status": "NOT_SEMANTICALLY_REVIEWED"
+  },
+  "image_dependent": 3,
+  "possible_duplicates": 0,
+  "possible_semantic_variants": 0,
+  "priority_ids": {
+    "HIGH": [
+      "Q4216211",
+      "Q4218537",
+      "Q4218684",
+      "Q4042905",
+      "Q4064768",
+      "Q4083377",
+      "Q3992759",
+      "Q4031088",
+      "Q3911619",
+      "Q3942996",
+      "Q3943015",
+      "Q3943020",
+      "Q3871334",
+      "Q3871340",
+      "Q3887492",
+      "Q3803278",
+      "Q3851985",
+      "Q3598318",
+      "Q3637814",
+      "Q3643142",
+      "Q3646800",
+      "Q3646801",
+      "Q3648513",
+      "Q3419877",
+      "Q3419878",
+      "Q3419887",
+      "Q3307988",
+      "Q3200211",
+      "Q3232092",
+      "Q3232094",
+      "Q3264297",
+      "Q3027671",
+      "Q3072954",
+      "Q2523911",
+      "Q2436970",
+      "Q2517366",
+      "Q2517367",
+      "Q2517368",
+      "Q2517369",
+      "Q2356974",
+      "Q2314688",
+      "Q2314694",
+      "Q2252807",
+      "Q2279015",
+      "Q2217125",
+      "Q2158477",
+      "Q2158478",
+      "Q1767182",
+      "Q1770777",
+      "Q1087485",
+      "Q1056658",
+      "Q836902",
+      "Q879230",
+      "Q879241",
+      "Q803824",
+      "Q728278",
+      "Q742065",
+      "Q596744",
+      "Q596747",
+      "Q529116",
+      "Q484529",
+      "Q451984",
+      "Q454854",
+      "Q411998",
+      "Q412003",
+      "Q412014",
+      "Q412015",
+      "Q412019",
+      "Q364577",
+      "Q394782"
+    ],
+    "MEDIUM": [
+      "Q4209556",
+      "Q4042904",
+      "Q4025520",
+      "Q3871331",
+      "Q3909997",
+      "Q3798181",
+      "Q3838775",
+      "Q3838779",
+      "Q3846526",
+      "Q3675314",
+      "Q3742084",
+      "Q3262037",
+      "Q3090267",
+      "Q1721321",
+      "Q1217775",
+      "Q596746",
+      "Q484544",
+      "Q412011",
+      "Q394769"
+    ],
+    "LOW": [
+      "Q4216212",
+      "Q4216219",
+      "Q4218538",
+      "Q4218677",
+      "Q4093939",
+      "Q3981876",
+      "Q4006485",
+      "Q3958240",
+      "Q3958245",
+      "Q3887488",
+      "Q3887502",
+      "Q3887512",
+      "Q3887515",
+      "Q3887516",
+      "Q3911609",
+      "Q3865637",
+      "Q3411317",
+      "Q3413240",
+      "Q3419879",
+      "Q3419880",
+      "Q3458241",
+      "Q3200208",
+      "Q3200221",
+      "Q3180692",
+      "Q3008717",
+      "Q3027680",
+      "Q2517374",
+      "Q2517377",
+      "Q2081094",
+      "Q1721322",
+      "Q1036264",
+      "Q1023740",
+      "Q980910",
+      "Q742064",
+      "Q742066",
+      "Q742087",
+      "Q533335",
+      "Q522232",
+      "Q432425",
+      "Q453966",
+      "Q453974",
+      "Q454856",
+      "Q238958",
+      "Q263051",
+      "Q189057",
+      "Q180437",
+      "Q180442"
+    ]
+  },
+  "candidate_details": [
+    {
+      "source_id": "Q4209556",
+      "subtopics": [],
+      "family": "PARALLEL_EQUIVALENT_RESISTANCE",
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4216211",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4216212",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4216219",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4218537",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4218538",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4218677",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4218684",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4093939",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4042904",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4042905",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4064768",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4083377",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3981876",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3992759",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4006485",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4025520",
+      "subtopics": [],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4031088",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3911619",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3942996",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3943015",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3943020",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3958240",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3958245",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3871331",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3871334",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3871340",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3887488",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3887492",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "INSULATION_TEST",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3887502",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3887512",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3887515",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3887516",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3909997",
+      "subtopics": [],
+      "family": "MULTIMETER_VOLTAGE",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3911609",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3798181",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3803278",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3838775",
+      "subtopics": [],
+      "family": "SERIES_EQUIVALENT_RESISTANCE",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3838779",
+      "subtopics": [],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3846526",
+      "subtopics": [],
+      "family": "CONTINUITY_TEST",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3851985",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3865637",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3675314",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3742084",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3598318",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3637814",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3643142",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3646800",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3646801",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3648513",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3411317",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3413240",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3419877",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3419878",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3419879",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3419880",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3419887",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3458241",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3307988",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3200208",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3200211",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3200221",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3232092",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3232094",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3262037",
+      "subtopics": [],
+      "family": "INSULATION_TEST",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3264297",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3090267",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3180692",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3008717",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3027671",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3027680",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3072954",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2517374",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2517377",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2523911",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2436970",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2517366",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2517367",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2517368",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2517369",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2356974",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2314688",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2314694",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2252807",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2279015",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2217125",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2081094",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2158477",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2158478",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1767182",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1770777",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1721321",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1721322",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1217775",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1087485",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1036264",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1056658",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1023740",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q980910",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q836902",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q879230",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q879241",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q803824",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q728278",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q742064",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q742065",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q742066",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q742087",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q596744",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q596746",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q596747",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q529116",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q533335",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q522232",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q484529",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q484544",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q432425",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q451984",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q453966",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q453974",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q454854",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q454856",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q411998",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q412003",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q412011",
+      "subtopics": [],
+      "family": "CONTINUITY_TEST",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q412014",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q412015",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "CONTINUITY_TEST",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q412019",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q364577",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q394769",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q394782",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q238958",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q263051",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q189057",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q180437",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q180442",
+      "subtopics": [
+        {
+          "id": "14.1",
+          "title": "Tipos de manutenção: corretiva, preventiva e preditiva",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    }
+  ]
+}

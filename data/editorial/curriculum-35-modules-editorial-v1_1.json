@@ -1,0 +1,1661 @@
+[
+  {
+    "code": "F01",
+    "title": "Circuitos CC/CA - Unidades e grandezas CC/CA",
+    "description": "Conceitos iniciais de grandezas elétricas (tensão, corrente, potência e energia) em circuitos de corrente contínua e corrente alternada.",
+    "learning_objectives": [
+      "Diferenciar tensão, corrente e potência.",
+      "Converter unidades de medida elétricas."
+    ],
+    "subtopics": [
+      "Tensão elétrica",
+      "Corrente elétrica",
+      "Potência e Energia"
+    ],
+    "prerequisites": [],
+    "includes": [
+      "Conceitos fundamentais"
+    ],
+    "excludes": [
+      "Análise de fasores"
+    ],
+    "overlaps_with": [],
+    "needs_editorial_definition": false,
+    "source_refs": [
+      {
+        "file": "data/fase2/mapa-conteudo.json",
+        "section": "subtemas",
+        "fields_supported": [
+          "code",
+          "title",
+          "prerequisites"
+        ]
+      }
+    ],
+    "authorship_status": {
+      "objectives": "EDITORIALLY_AUTHORED",
+      "subtopics": "EDITORIALLY_AUTHORED",
+      "boundaries": "EDITORIALLY_AUTHORED",
+      "code_title_prereqs": "SOURCE_DERIVED"
+    },
+    "status": "REJECTED_EDITORIAL_DRAFT"
+  },
+  {
+    "code": "F02",
+    "title": "Circuitos CC/CA - Lei de Ohm e associação de resistores",
+    "description": "Estudo detalhado da Lei de Ohm e das técnicas de associação de resistores em série, paralelo e misto.",
+    "learning_objectives": [
+      "Aplicar os conceitos fundamentais de circuitos cc/ca - lei de ohm e associação de resistores na resolução de problemas práticos.",
+      "Analisar o comportamento de sistemas relacionados a circuitos cc/ca - lei de ohm e associação de resistores sob diferentes condições de operação.",
+      "Identificar os parâmetros críticos e normas de segurança pertinentes a circuitos cc/ca - lei de ohm e associação de resistores."
+    ],
+    "subtopics": [
+      "Primeira Lei de Ohm",
+      "Segunda Lei de Ohm",
+      "Resistores em Série",
+      "Resistores em Paralelo"
+    ],
+    "prerequisites": [
+      "F01"
+    ],
+    "includes": [
+      "Cálculo de resistência equivalente",
+      "Divisores de tensão e corrente"
+    ],
+    "excludes": [
+      "Circuitos reativos"
+    ],
+    "overlaps_with": [],
+    "needs_editorial_definition": false,
+    "source_refs": [
+      {
+        "file": "data/fase2/mapa-conteudo.json",
+        "section": "subtemas",
+        "fields_supported": [
+          "code",
+          "title",
+          "prerequisites"
+        ]
+      }
+    ],
+    "authorship_status": {
+      "objectives": "EDITORIALLY_AUTHORED",
+      "subtopics": "EDITORIALLY_AUTHORED",
+      "boundaries": "EDITORIALLY_AUTHORED",
+      "code_title_prereqs": "SOURCE_DERIVED"
+    },
+    "status": "REJECTED_EDITORIAL_DRAFT"
+  },
+  {
+    "code": "F03",
+    "title": "Circuitos CC/CA - Frequência, formas de onda e reatância",
+    "description": "Análise de circuitos de corrente alternada incluindo o cálculo de reatância indutiva, reatância capacitiva e impedância.",
+    "learning_objectives": [
+      "Aplicar os conceitos fundamentais de circuitos cc/ca - frequência, formas de onda e reatância na resolução de problemas práticos.",
+      "Analisar o comportamento de sistemas relacionados a circuitos cc/ca - frequência, formas de onda e reatância sob diferentes condições de operação.",
+      "Identificar os parâmetros críticos e normas de segurança pertinentes a circuitos cc/ca - frequência, formas de onda e reatância."
+    ],
+    "subtopics": [
+      "Reatância Indutiva",
+      "Reatância Capacitiva",
+      "Impedância complexa",
+      "Triângulo de potências"
+    ],
+    "prerequisites": [
+      "F01",
+      "F02"
+    ],
+    "includes": [
+      "Cálculos com números complexos aplicados a CA"
+    ],
+    "excludes": [
+      "Sistemas trifásicos desequilibrados"
+    ],
+    "overlaps_with": [],
+    "needs_editorial_definition": false,
+    "source_refs": [
+      {
+        "file": "data/fase2/mapa-conteudo.json",
+        "section": "subtemas",
+        "fields_supported": [
+          "code",
+          "title",
+          "prerequisites"
+        ]
+      }
+    ],
+    "authorship_status": {
+      "objectives": "EDITORIALLY_AUTHORED",
+      "subtopics": "EDITORIALLY_AUTHORED",
+      "boundaries": "EDITORIALLY_AUTHORED",
+      "code_title_prereqs": "SOURCE_DERIVED"
+    },
+    "status": "REJECTED_EDITORIAL_DRAFT"
+  },
+  {
+    "code": "F04",
+    "title": "Energia e eficiência - Potência, energia e fator de potência",
+    "description": "Princípios de eletromagnetismo e conversão eletromecânica de energia aplicados a máquinas e equipamentos.",
+    "learning_objectives": [
+      "Aplicar os conceitos fundamentais de energia e eficiência - potência, energia e fator de potência na resolução de problemas práticos.",
+      "Analisar o comportamento de sistemas relacionados a energia e eficiência - potência, energia e fator de potência sob diferentes condições de operação.",
+      "Identificar os parâmetros críticos e normas de segurança pertinentes a energia e eficiência - potência, energia e fator de potência."
+    ],
+    "subtopics": [
+      "Campo Magnético",
+      "Indução Eletromagnética",
+      "Lei de Faraday-Lenz",
+      "Circuitos Magnéticos"
+    ],
+    "prerequisites": [
+      "F01",
+      "F02",
+      "F03"
+    ],
+    "includes": [
+      "Força magnetomotriz",
+      "Relutância"
+    ],
+    "excludes": [
+      "Teoria avançada de campos eletromagnéticos"
+    ],
+    "overlaps_with": [],
+    "needs_editorial_definition": false,
+    "source_refs": [
+      {
+        "file": "data/fase2/mapa-conteudo.json",
+        "section": "subtemas",
+        "fields_supported": [
+          "code",
+          "title",
+          "prerequisites"
+        ]
+      }
+    ],
+    "authorship_status": {
+      "objectives": "EDITORIALLY_AUTHORED",
+      "subtopics": "EDITORIALLY_AUTHORED",
+      "boundaries": "EDITORIALLY_AUTHORED",
+      "code_title_prereqs": "SOURCE_DERIVED"
+    },
+    "status": "REJECTED_EDITORIAL_DRAFT"
+  },
+  {
+    "code": "M01",
+    "title": "Instrumentos - Multímetro, alicate e seleção de escala",
+    "description": "Princípios de funcionamento, características e ligações de transformadores e motores de indução trifásicos.",
+    "learning_objectives": [
+      "Aplicar os conceitos fundamentais de instrumentos - multímetro, alicate e seleção de escala na resolução de problemas práticos.",
+      "Analisar o comportamento de sistemas relacionados a instrumentos - multímetro, alicate e seleção de escala sob diferentes condições de operação.",
+      "Identificar os parâmetros críticos e normas de segurança pertinentes a instrumentos - multímetro, alicate e seleção de escala."
+    ],
+    "subtopics": [
+      "Transformadores Monofásicos",
+      "Transformadores Trifásicos",
+      "Motores de Indução",
+      "Fechamento de Motores"
+    ],
+    "prerequisites": [
+      "F01"
+    ],
+    "includes": [
+      "Tópicos essenciais de instrumentos - multímetro, alicate e seleção de escala",
+      "Exemplos práticos e exercícios de fixação"
+    ],
+    "excludes": [
+      "Projetos de alta complexidade que excedam o nível técnico",
+      "Tópicos exclusivos de engenharia de desenvolvimento"
+    ],
+    "overlaps_with": [],
+    "needs_editorial_definition": false,
+    "source_refs": [
+      {
+        "file": "data/fase2/mapa-conteudo.json",
+        "section": "subtemas",
+        "fields_supported": [
+          "code",
+          "title",
+          "prerequisites"
+        ]
+      }
+    ],
+    "authorship_status": {
+      "objectives": "EDITORIALLY_AUTHORED",
+      "subtopics": "EDITORIALLY_AUTHORED",
+      "boundaries": "EDITORIALLY_AUTHORED",
+      "code_title_prereqs": "SOURCE_DERIVED"
+    },
+    "status": "REJECTED_EDITORIAL_DRAFT"
+  },
+  {
+    "code": "M02",
+    "title": "Instrumentos - Continuidade e resistência de isolamento",
+    "description": "Estudo aprofundado dos princípios de instrumentos - continuidade e resistência de isolamento. Engloba a análise, cálculo e interpretação dos fenômenos associados a esta área técnica da eletrotécnica.",
+    "learning_objectives": [
+      "Aplicar os conceitos fundamentais de instrumentos - continuidade e resistência de isolamento na resolução de problemas práticos.",
+      "Analisar o comportamento de sistemas relacionados a instrumentos - continuidade e resistência de isolamento sob diferentes condições de operação.",
+      "Identificar os parâmetros críticos e normas de segurança pertinentes a instrumentos - continuidade e resistência de isolamento."
+    ],
+    "subtopics": [
+      "Fundamentos teóricos de instrumentos - continuidade e resistência de isolamento",
+      "Metodologias de cálculo e dimensionamento",
+      "Aplicações práticas e industriais",
+      "Normatização e procedimentos técnicos"
+    ],
+    "prerequisites": [
+      "M01",
+      "S01"
+    ],
+    "includes": [
+      "Tópicos essenciais de instrumentos - continuidade e resistência de isolamento",
+      "Exemplos práticos e exercícios de fixação"
+    ],
+    "excludes": [
+      "Projetos de alta complexidade que excedam o nível técnico",
+      "Tópicos exclusivos de engenharia de desenvolvimento"
+    ],
+    "overlaps_with": [],
+    "needs_editorial_definition": false,
+    "source_refs": [
+      {
+        "file": "data/fase2/mapa-conteudo.json",
+        "section": "subtemas",
+        "fields_supported": [
+          "code",
+          "title",
+          "prerequisites"
+        ]
+      }
+    ],
+    "authorship_status": {
+      "objectives": "EDITORIALLY_AUTHORED",
+      "subtopics": "EDITORIALLY_AUTHORED",
+      "boundaries": "EDITORIALLY_AUTHORED",
+      "code_title_prereqs": "SOURCE_DERIVED"
+    },
+    "status": "REJECTED_EDITORIAL_DRAFT"
+  },
+  {
+    "code": "S01",
+    "title": "Segurança em eletricidade - Desenergização e reenergização",
+    "description": "Estudo aprofundado dos princípios de segurança em eletricidade - desenergização e reenergização. Engloba a análise, cálculo e interpretação dos fenômenos associados a esta área técnica da eletrotécnica.",
+    "learning_objectives": [
+      "Aplicar os conceitos fundamentais de segurança em eletricidade - desenergização e reenergização na resolução de problemas práticos.",
+      "Analisar o comportamento de sistemas relacionados a segurança em eletricidade - desenergização e reenergização sob diferentes condições de operação.",
+      "Identificar os parâmetros críticos e normas de segurança pertinentes a segurança em eletricidade - desenergização e reenergização."
+    ],
+    "subtopics": [
+      "Fundamentos teóricos de segurança em eletricidade - desenergização e reenergização",
+      "Metodologias de cálculo e dimensionamento",
+      "Aplicações práticas e industriais",
+      "Normatização e procedimentos técnicos"
+    ],
+    "prerequisites": [],
+    "includes": [
+      "Tópicos essenciais de segurança em eletricidade - desenergização e reenergização",
+      "Exemplos práticos e exercícios de fixação"
+    ],
+    "excludes": [
+      "Projetos de alta complexidade que excedam o nível técnico",
+      "Tópicos exclusivos de engenharia de desenvolvimento"
+    ],
+    "overlaps_with": [],
+    "needs_editorial_definition": false,
+    "source_refs": [
+      {
+        "file": "data/fase2/mapa-conteudo.json",
+        "section": "subtemas",
+        "fields_supported": [
+          "code",
+          "title",
+          "prerequisites"
+        ]
+      }
+    ],
+    "authorship_status": {
+      "objectives": "EDITORIALLY_AUTHORED",
+      "subtopics": "EDITORIALLY_AUTHORED",
+      "boundaries": "EDITORIALLY_AUTHORED",
+      "code_title_prereqs": "SOURCE_DERIVED"
+    },
+    "status": "REJECTED_EDITORIAL_DRAFT"
+  },
+  {
+    "code": "S02",
+    "title": "Segurança em eletricidade - Qualificação, EPI, altura e zonas de risco",
+    "description": "Estudo aprofundado dos princípios de segurança em eletricidade - qualificação, epi, altura e zonas de risco. Engloba a análise, cálculo e interpretação dos fenômenos associados a esta área técnica da eletrotécnica.",
+    "learning_objectives": [
+      "Aplicar os conceitos fundamentais de segurança em eletricidade - qualificação, epi, altura e zonas de risco na resolução de problemas práticos.",
+      "Analisar o comportamento de sistemas relacionados a segurança em eletricidade - qualificação, epi, altura e zonas de risco sob diferentes condições de operação.",
+      "Identificar os parâmetros críticos e normas de segurança pertinentes a segurança em eletricidade - qualificação, epi, altura e zonas de risco."
+    ],
+    "subtopics": [
+      "Fundamentos teóricos de segurança em eletricidade - qualificação, epi, altura e zonas de risco",
+      "Metodologias de cálculo e dimensionamento",
+      "Aplicações práticas e industriais",
+      "Normatização e procedimentos técnicos"
+    ],
+    "prerequisites": [
+      "S01"
+    ],
+    "includes": [
+      "Tópicos essenciais de segurança em eletricidade - qualificação, epi, altura e zonas de risco",
+      "Exemplos práticos e exercícios de fixação"
+    ],
+    "excludes": [
+      "Projetos de alta complexidade que excedam o nível técnico",
+      "Tópicos exclusivos de engenharia de desenvolvimento"
+    ],
+    "overlaps_with": [],
+    "needs_editorial_definition": false,
+    "source_refs": [
+      {
+        "file": "data/fase2/mapa-conteudo.json",
+        "section": "subtemas",
+        "fields_supported": [
+          "code",
+          "title",
+          "prerequisites"
+        ]
+      }
+    ],
+    "authorship_status": {
+      "objectives": "EDITORIALLY_AUTHORED",
+      "subtopics": "EDITORIALLY_AUTHORED",
+      "boundaries": "EDITORIALLY_AUTHORED",
+      "code_title_prereqs": "SOURCE_DERIVED"
+    },
+    "status": "REJECTED_EDITORIAL_DRAFT"
+  },
+  {
+    "code": "S03",
+    "title": "Segurança em eletricidade - Classificação de tensão e documentação",
+    "description": "Estudo aprofundado dos princípios de segurança em eletricidade - classificação de tensão e documentação. Engloba a análise, cálculo e interpretação dos fenômenos associados a esta área técnica da eletrotécnica.",
+    "learning_objectives": [
+      "Aplicar os conceitos fundamentais de segurança em eletricidade - classificação de tensão e documentação na resolução de problemas práticos.",
+      "Analisar o comportamento de sistemas relacionados a segurança em eletricidade - classificação de tensão e documentação sob diferentes condições de operação.",
+      "Identificar os parâmetros críticos e normas de segurança pertinentes a segurança em eletricidade - classificação de tensão e documentação."
+    ],
+    "subtopics": [
+      "Fundamentos teóricos de segurança em eletricidade - classificação de tensão e documentação",
+      "Metodologias de cálculo e dimensionamento",
+      "Aplicações práticas e industriais",
+      "Normatização e procedimentos técnicos"
+    ],
+    "prerequisites": [
+      "F01",
+      "S01"
+    ],
+    "includes": [
+      "Tópicos essenciais de segurança em eletricidade - classificação de tensão e documentação",
+      "Exemplos práticos e exercícios de fixação"
+    ],
+    "excludes": [
+      "Projetos de alta complexidade que excedam o nível técnico",
+      "Tópicos exclusivos de engenharia de desenvolvimento"
+    ],
+    "overlaps_with": [],
+    "needs_editorial_definition": false,
+    "source_refs": [
+      {
+        "file": "data/fase2/mapa-conteudo.json",
+        "section": "subtemas",
+        "fields_supported": [
+          "code",
+          "title",
+          "prerequisites"
+        ]
+      }
+    ],
+    "authorship_status": {
+      "objectives": "EDITORIALLY_AUTHORED",
+      "subtopics": "EDITORIALLY_AUTHORED",
+      "boundaries": "EDITORIALLY_AUTHORED",
+      "code_title_prereqs": "SOURCE_DERIVED"
+    },
+    "status": "REJECTED_EDITORIAL_DRAFT"
+  },
+  {
+    "code": "I01",
+    "title": "Instalações prediais - Tomadas, iluminação e previsão de cargas",
+    "description": "Estudo aprofundado dos princípios de instalações prediais - tomadas, iluminação e previsão de cargas. Engloba a análise, cálculo e interpretação dos fenômenos associados a esta área técnica da eletrotécnica.",
+    "learning_objectives": [
+      "Aplicar os conceitos fundamentais de instalações prediais - tomadas, iluminação e previsão de cargas na resolução de problemas práticos.",
+      "Analisar o comportamento de sistemas relacionados a instalações prediais - tomadas, iluminação e previsão de cargas sob diferentes condições de operação.",
+      "Identificar os parâmetros críticos e normas de segurança pertinentes a instalações prediais - tomadas, iluminação e previsão de cargas."
+    ],
+    "subtopics": [
+      "Fundamentos teóricos de instalações prediais - tomadas, iluminação e previsão de cargas",
+      "Metodologias de cálculo e dimensionamento",
+      "Aplicações práticas e industriais",
+      "Normatização e procedimentos técnicos"
+    ],
+    "prerequisites": [
+      "F04",
+      "S01"
+    ],
+    "includes": [
+      "Tópicos essenciais de instalações prediais - tomadas, iluminação e previsão de cargas",
+      "Exemplos práticos e exercícios de fixação"
+    ],
+    "excludes": [
+      "Projetos de alta complexidade que excedam o nível técnico",
+      "Tópicos exclusivos de engenharia de desenvolvimento"
+    ],
+    "overlaps_with": [],
+    "needs_editorial_definition": false,
+    "source_refs": [
+      {
+        "file": "data/fase2/mapa-conteudo.json",
+        "section": "subtemas",
+        "fields_supported": [
+          "code",
+          "title",
+          "prerequisites"
+        ]
+      }
+    ],
+    "authorship_status": {
+      "objectives": "EDITORIALLY_AUTHORED",
+      "subtopics": "EDITORIALLY_AUTHORED",
+      "boundaries": "EDITORIALLY_AUTHORED",
+      "code_title_prereqs": "SOURCE_DERIVED"
+    },
+    "status": "REJECTED_EDITORIAL_DRAFT"
+  },
+  {
+    "code": "I02",
+    "title": "Instalações prediais - Interruptores, sensores e relé fotocélula",
+    "description": "Estudo aprofundado dos princípios de instalações prediais - interruptores, sensores e relé fotocélula. Engloba a análise, cálculo e interpretação dos fenômenos associados a esta área técnica da eletrotécnica.",
+    "learning_objectives": [
+      "Aplicar os conceitos fundamentais de instalações prediais - interruptores, sensores e relé fotocélula na resolução de problemas práticos.",
+      "Analisar o comportamento de sistemas relacionados a instalações prediais - interruptores, sensores e relé fotocélula sob diferentes condições de operação.",
+      "Identificar os parâmetros críticos e normas de segurança pertinentes a instalações prediais - interruptores, sensores e relé fotocélula."
+    ],
+    "subtopics": [
+      "Fundamentos teóricos de instalações prediais - interruptores, sensores e relé fotocélula",
+      "Metodologias de cálculo e dimensionamento",
+      "Aplicações práticas e industriais",
+      "Normatização e procedimentos técnicos"
+    ],
+    "prerequisites": [
+      "I01",
+      "M01"
+    ],
+    "includes": [
+      "Tópicos essenciais de instalações prediais - interruptores, sensores e relé fotocélula",
+      "Exemplos práticos e exercícios de fixação"
+    ],
+    "excludes": [
+      "Projetos de alta complexidade que excedam o nível técnico",
+      "Tópicos exclusivos de engenharia de desenvolvimento"
+    ],
+    "overlaps_with": [],
+    "needs_editorial_definition": false,
+    "source_refs": [
+      {
+        "file": "data/fase2/mapa-conteudo.json",
+        "section": "subtemas",
+        "fields_supported": [
+          "code",
+          "title",
+          "prerequisites"
+        ]
+      }
+    ],
+    "authorship_status": {
+      "objectives": "EDITORIALLY_AUTHORED",
+      "subtopics": "EDITORIALLY_AUTHORED",
+      "boundaries": "EDITORIALLY_AUTHORED",
+      "code_title_prereqs": "SOURCE_DERIVED"
+    },
+    "status": "REJECTED_EDITORIAL_DRAFT"
+  },
+  {
+    "code": "I03",
+    "title": "Projetos elétricos - Simbologia, unifilar, multifilar e CAD",
+    "description": "Estudo aprofundado dos princípios de projetos elétricos - simbologia, unifilar, multifilar e cad. Engloba a análise, cálculo e interpretação dos fenômenos associados a esta área técnica da eletrotécnica.",
+    "learning_objectives": [
+      "Aplicar os conceitos fundamentais de projetos elétricos - simbologia, unifilar, multifilar e cad na resolução de problemas práticos.",
+      "Analisar o comportamento de sistemas relacionados a projetos elétricos - simbologia, unifilar, multifilar e cad sob diferentes condições de operação.",
+      "Identificar os parâmetros críticos e normas de segurança pertinentes a projetos elétricos - simbologia, unifilar, multifilar e cad."
+    ],
+    "subtopics": [
+      "Fundamentos teóricos de projetos elétricos - simbologia, unifilar, multifilar e cad",
+      "Metodologias de cálculo e dimensionamento",
+      "Aplicações práticas e industriais",
+      "Normatização e procedimentos técnicos"
+    ],
+    "prerequisites": [
+      "F01"
+    ],
+    "includes": [
+      "Tópicos essenciais de projetos elétricos - simbologia, unifilar, multifilar e cad",
+      "Exemplos práticos e exercícios de fixação"
+    ],
+    "excludes": [
+      "Projetos de alta complexidade que excedam o nível técnico",
+      "Tópicos exclusivos de engenharia de desenvolvimento"
+    ],
+    "overlaps_with": [],
+    "needs_editorial_definition": false,
+    "source_refs": [
+      {
+        "file": "data/fase2/mapa-conteudo.json",
+        "section": "subtemas",
+        "fields_supported": [
+          "code",
+          "title",
+          "prerequisites"
+        ]
+      }
+    ],
+    "authorship_status": {
+      "objectives": "EDITORIALLY_AUTHORED",
+      "subtopics": "EDITORIALLY_AUTHORED",
+      "boundaries": "EDITORIALLY_AUTHORED",
+      "code_title_prereqs": "SOURCE_DERIVED"
+    },
+    "status": "REJECTED_EDITORIAL_DRAFT"
+  },
+  {
+    "code": "P01",
+    "title": "Dimensionamento - Condutores, instalação e fatores de correção",
+    "description": "Estudo aprofundado dos princípios de dimensionamento - condutores, instalação e fatores de correção. Engloba a análise, cálculo e interpretação dos fenômenos associados a esta área técnica da eletrotécnica.",
+    "learning_objectives": [
+      "Aplicar os conceitos fundamentais de dimensionamento - condutores, instalação e fatores de correção na resolução de problemas práticos.",
+      "Analisar o comportamento de sistemas relacionados a dimensionamento - condutores, instalação e fatores de correção sob diferentes condições de operação.",
+      "Identificar os parâmetros críticos e normas de segurança pertinentes a dimensionamento - condutores, instalação e fatores de correção."
+    ],
+    "subtopics": [
+      "Fundamentos teóricos de dimensionamento - condutores, instalação e fatores de correção",
+      "Metodologias de cálculo e dimensionamento",
+      "Aplicações práticas e industriais",
+      "Normatização e procedimentos técnicos"
+    ],
+    "prerequisites": [
+      "F04",
+      "I01",
+      "S01"
+    ],
+    "includes": [
+      "Tópicos essenciais de dimensionamento - condutores, instalação e fatores de correção",
+      "Exemplos práticos e exercícios de fixação"
+    ],
+    "excludes": [
+      "Projetos de alta complexidade que excedam o nível técnico",
+      "Tópicos exclusivos de engenharia de desenvolvimento"
+    ],
+    "overlaps_with": [],
+    "needs_editorial_definition": false,
+    "source_refs": [
+      {
+        "file": "data/fase2/mapa-conteudo.json",
+        "section": "subtemas",
+        "fields_supported": [
+          "code",
+          "title",
+          "prerequisites"
+        ]
+      }
+    ],
+    "authorship_status": {
+      "objectives": "EDITORIALLY_AUTHORED",
+      "subtopics": "EDITORIALLY_AUTHORED",
+      "boundaries": "EDITORIALLY_AUTHORED",
+      "code_title_prereqs": "SOURCE_DERIVED"
+    },
+    "status": "REJECTED_EDITORIAL_DRAFT"
+  },
+  {
+    "code": "P02",
+    "title": "Dimensionamento - Disjuntores, fusíveis, curvas e curto-circuito",
+    "description": "Estudo aprofundado dos princípios de dimensionamento - disjuntores, fusíveis, curvas e curto-circuito. Engloba a análise, cálculo e interpretação dos fenômenos associados a esta área técnica da eletrotécnica.",
+    "learning_objectives": [
+      "Aplicar os conceitos fundamentais de dimensionamento - disjuntores, fusíveis, curvas e curto-circuito na resolução de problemas práticos.",
+      "Analisar o comportamento de sistemas relacionados a dimensionamento - disjuntores, fusíveis, curvas e curto-circuito sob diferentes condições de operação.",
+      "Identificar os parâmetros críticos e normas de segurança pertinentes a dimensionamento - disjuntores, fusíveis, curvas e curto-circuito."
+    ],
+    "subtopics": [
+      "Fundamentos teóricos de dimensionamento - disjuntores, fusíveis, curvas e curto-circuito",
+      "Metodologias de cálculo e dimensionamento",
+      "Aplicações práticas e industriais",
+      "Normatização e procedimentos técnicos"
+    ],
+    "prerequisites": [
+      "P01"
+    ],
+    "includes": [
+      "Tópicos essenciais de dimensionamento - disjuntores, fusíveis, curvas e curto-circuito",
+      "Exemplos práticos e exercícios de fixação"
+    ],
+    "excludes": [
+      "Projetos de alta complexidade que excedam o nível técnico",
+      "Tópicos exclusivos de engenharia de desenvolvimento"
+    ],
+    "overlaps_with": [],
+    "needs_editorial_definition": false,
+    "source_refs": [
+      {
+        "file": "data/fase2/mapa-conteudo.json",
+        "section": "subtemas",
+        "fields_supported": [
+          "code",
+          "title",
+          "prerequisites"
+        ]
+      }
+    ],
+    "authorship_status": {
+      "objectives": "EDITORIALLY_AUTHORED",
+      "subtopics": "EDITORIALLY_AUTHORED",
+      "boundaries": "EDITORIALLY_AUTHORED",
+      "code_title_prereqs": "SOURCE_DERIVED"
+    },
+    "status": "REJECTED_EDITORIAL_DRAFT"
+  },
+  {
+    "code": "P03",
+    "title": "Proteção de pessoas - DR, IDR, DDR e coordenação de funções",
+    "description": "Estudo aprofundado dos princípios de proteção de pessoas - dr, idr, ddr e coordenação de funções. Engloba a análise, cálculo e interpretação dos fenômenos associados a esta área técnica da eletrotécnica.",
+    "learning_objectives": [
+      "Aplicar os conceitos fundamentais de proteção de pessoas - dr, idr, ddr e coordenação de funções na resolução de problemas práticos.",
+      "Analisar o comportamento de sistemas relacionados a proteção de pessoas - dr, idr, ddr e coordenação de funções sob diferentes condições de operação.",
+      "Identificar os parâmetros críticos e normas de segurança pertinentes a proteção de pessoas - dr, idr, ddr e coordenação de funções."
+    ],
+    "subtopics": [
+      "Fundamentos teóricos de proteção de pessoas - dr, idr, ddr e coordenação de funções",
+      "Metodologias de cálculo e dimensionamento",
+      "Aplicações práticas e industriais",
+      "Normatização e procedimentos técnicos"
+    ],
+    "prerequisites": [
+      "S01",
+      "I01"
+    ],
+    "includes": [
+      "Tópicos essenciais de proteção de pessoas - dr, idr, ddr e coordenação de funções",
+      "Exemplos práticos e exercícios de fixação"
+    ],
+    "excludes": [
+      "Projetos de alta complexidade que excedam o nível técnico",
+      "Tópicos exclusivos de engenharia de desenvolvimento"
+    ],
+    "overlaps_with": [],
+    "needs_editorial_definition": false,
+    "source_refs": [
+      {
+        "file": "data/fase2/mapa-conteudo.json",
+        "section": "subtemas",
+        "fields_supported": [
+          "code",
+          "title",
+          "prerequisites"
+        ]
+      }
+    ],
+    "authorship_status": {
+      "objectives": "EDITORIALLY_AUTHORED",
+      "subtopics": "EDITORIALLY_AUTHORED",
+      "boundaries": "EDITORIALLY_AUTHORED",
+      "code_title_prereqs": "SOURCE_DERIVED"
+    },
+    "status": "REJECTED_EDITORIAL_DRAFT"
+  },
+  {
+    "code": "P04",
+    "title": "Aterramento e SPDA - Esquemas de aterramento e equipotencialização",
+    "description": "Estudo aprofundado dos princípios de aterramento e spda - esquemas de aterramento e equipotencialização. Engloba a análise, cálculo e interpretação dos fenômenos associados a esta área técnica da eletrotécnica.",
+    "learning_objectives": [
+      "Aplicar os conceitos fundamentais de aterramento e spda - esquemas de aterramento e equipotencialização na resolução de problemas práticos.",
+      "Analisar o comportamento de sistemas relacionados a aterramento e spda - esquemas de aterramento e equipotencialização sob diferentes condições de operação.",
+      "Identificar os parâmetros críticos e normas de segurança pertinentes a aterramento e spda - esquemas de aterramento e equipotencialização."
+    ],
+    "subtopics": [
+      "Fundamentos teóricos de aterramento e spda - esquemas de aterramento e equipotencialização",
+      "Metodologias de cálculo e dimensionamento",
+      "Aplicações práticas e industriais",
+      "Normatização e procedimentos técnicos"
+    ],
+    "prerequisites": [
+      "S01",
+      "I03"
+    ],
+    "includes": [
+      "Tópicos essenciais de aterramento e spda - esquemas de aterramento e equipotencialização",
+      "Exemplos práticos e exercícios de fixação"
+    ],
+    "excludes": [
+      "Projetos de alta complexidade que excedam o nível técnico",
+      "Tópicos exclusivos de engenharia de desenvolvimento"
+    ],
+    "overlaps_with": [],
+    "needs_editorial_definition": false,
+    "source_refs": [
+      {
+        "file": "data/fase2/mapa-conteudo.json",
+        "section": "subtemas",
+        "fields_supported": [
+          "code",
+          "title",
+          "prerequisites"
+        ]
+      }
+    ],
+    "authorship_status": {
+      "objectives": "EDITORIALLY_AUTHORED",
+      "subtopics": "EDITORIALLY_AUTHORED",
+      "boundaries": "EDITORIALLY_AUTHORED",
+      "code_title_prereqs": "SOURCE_DERIVED"
+    },
+    "status": "REJECTED_EDITORIAL_DRAFT"
+  },
+  {
+    "code": "P05",
+    "title": "Aterramento e SPDA - Captação, descida, aterramento e DPS",
+    "description": "Estudo aprofundado dos princípios de aterramento e spda - captação, descida, aterramento e dps. Engloba a análise, cálculo e interpretação dos fenômenos associados a esta área técnica da eletrotécnica.",
+    "learning_objectives": [
+      "Aplicar os conceitos fundamentais de aterramento e spda - captação, descida, aterramento e dps na resolução de problemas práticos.",
+      "Analisar o comportamento de sistemas relacionados a aterramento e spda - captação, descida, aterramento e dps sob diferentes condições de operação.",
+      "Identificar os parâmetros críticos e normas de segurança pertinentes a aterramento e spda - captação, descida, aterramento e dps."
+    ],
+    "subtopics": [
+      "Fundamentos teóricos de aterramento e spda - captação, descida, aterramento e dps",
+      "Metodologias de cálculo e dimensionamento",
+      "Aplicações práticas e industriais",
+      "Normatização e procedimentos técnicos"
+    ],
+    "prerequisites": [
+      "P04"
+    ],
+    "includes": [
+      "Tópicos essenciais de aterramento e spda - captação, descida, aterramento e dps",
+      "Exemplos práticos e exercícios de fixação"
+    ],
+    "excludes": [
+      "Projetos de alta complexidade que excedam o nível técnico",
+      "Tópicos exclusivos de engenharia de desenvolvimento"
+    ],
+    "overlaps_with": [],
+    "needs_editorial_definition": false,
+    "source_refs": [
+      {
+        "file": "data/fase2/mapa-conteudo.json",
+        "section": "subtemas",
+        "fields_supported": [
+          "code",
+          "title",
+          "prerequisites"
+        ]
+      }
+    ],
+    "authorship_status": {
+      "objectives": "EDITORIALLY_AUTHORED",
+      "subtopics": "EDITORIALLY_AUTHORED",
+      "boundaries": "EDITORIALLY_AUTHORED",
+      "code_title_prereqs": "SOURCE_DERIVED"
+    },
+    "status": "REJECTED_EDITORIAL_DRAFT"
+  },
+  {
+    "code": "E01",
+    "title": "Motores elétricos - Placa, potência, corrente e velocidade",
+    "description": "Estudo aprofundado dos princípios de motores elétricos - placa, potência, corrente e velocidade. Engloba a análise, cálculo e interpretação dos fenômenos associados a esta área técnica da eletrotécnica.",
+    "learning_objectives": [
+      "Aplicar os conceitos fundamentais de motores elétricos - placa, potência, corrente e velocidade na resolução de problemas práticos.",
+      "Analisar o comportamento de sistemas relacionados a motores elétricos - placa, potência, corrente e velocidade sob diferentes condições de operação.",
+      "Identificar os parâmetros críticos e normas de segurança pertinentes a motores elétricos - placa, potência, corrente e velocidade."
+    ],
+    "subtopics": [
+      "Fundamentos teóricos de motores elétricos - placa, potência, corrente e velocidade",
+      "Metodologias de cálculo e dimensionamento",
+      "Aplicações práticas e industriais",
+      "Normatização e procedimentos técnicos"
+    ],
+    "prerequisites": [
+      "F04",
+      "M01"
+    ],
+    "includes": [
+      "Tópicos essenciais de motores elétricos - placa, potência, corrente e velocidade",
+      "Exemplos práticos e exercícios de fixação"
+    ],
+    "excludes": [
+      "Projetos de alta complexidade que excedam o nível técnico",
+      "Tópicos exclusivos de engenharia de desenvolvimento"
+    ],
+    "overlaps_with": [],
+    "needs_editorial_definition": false,
+    "source_refs": [
+      {
+        "file": "data/fase2/mapa-conteudo.json",
+        "section": "subtemas",
+        "fields_supported": [
+          "code",
+          "title",
+          "prerequisites"
+        ]
+      }
+    ],
+    "authorship_status": {
+      "objectives": "EDITORIALLY_AUTHORED",
+      "subtopics": "EDITORIALLY_AUTHORED",
+      "boundaries": "EDITORIALLY_AUTHORED",
+      "code_title_prereqs": "SOURCE_DERIVED"
+    },
+    "status": "REJECTED_EDITORIAL_DRAFT"
+  },
+  {
+    "code": "E02",
+    "title": "Motores elétricos - Bobinas, fechamentos e ligação monofásica/trifásica",
+    "description": "Estudo aprofundado dos princípios de motores elétricos - bobinas, fechamentos e ligação monofásica/trifásica. Engloba a análise, cálculo e interpretação dos fenômenos associados a esta área técnica da eletrotécnica.",
+    "learning_objectives": [
+      "Aplicar os conceitos fundamentais de motores elétricos - bobinas, fechamentos e ligação monofásica/trifásica na resolução de problemas práticos.",
+      "Analisar o comportamento de sistemas relacionados a motores elétricos - bobinas, fechamentos e ligação monofásica/trifásica sob diferentes condições de operação.",
+      "Identificar os parâmetros críticos e normas de segurança pertinentes a motores elétricos - bobinas, fechamentos e ligação monofásica/trifásica."
+    ],
+    "subtopics": [
+      "Fundamentos teóricos de motores elétricos - bobinas, fechamentos e ligação monofásica/trifásica",
+      "Metodologias de cálculo e dimensionamento",
+      "Aplicações práticas e industriais",
+      "Normatização e procedimentos técnicos"
+    ],
+    "prerequisites": [
+      "E01",
+      "M02"
+    ],
+    "includes": [
+      "Tópicos essenciais de motores elétricos - bobinas, fechamentos e ligação monofásica/trifásica",
+      "Exemplos práticos e exercícios de fixação"
+    ],
+    "excludes": [
+      "Projetos de alta complexidade que excedam o nível técnico",
+      "Tópicos exclusivos de engenharia de desenvolvimento"
+    ],
+    "overlaps_with": [],
+    "needs_editorial_definition": false,
+    "source_refs": [
+      {
+        "file": "data/fase2/mapa-conteudo.json",
+        "section": "subtemas",
+        "fields_supported": [
+          "code",
+          "title",
+          "prerequisites"
+        ]
+      }
+    ],
+    "authorship_status": {
+      "objectives": "EDITORIALLY_AUTHORED",
+      "subtopics": "EDITORIALLY_AUTHORED",
+      "boundaries": "EDITORIALLY_AUTHORED",
+      "code_title_prereqs": "SOURCE_DERIVED"
+    },
+    "status": "REJECTED_EDITORIAL_DRAFT"
+  },
+  {
+    "code": "E03",
+    "title": "Comandos e partidas - Direta, reversão, selo e intertravamento",
+    "description": "Estudo aprofundado dos princípios de comandos e partidas - direta, reversão, selo e intertravamento. Engloba a análise, cálculo e interpretação dos fenômenos associados a esta área técnica da eletrotécnica.",
+    "learning_objectives": [
+      "Aplicar os conceitos fundamentais de comandos e partidas - direta, reversão, selo e intertravamento na resolução de problemas práticos.",
+      "Analisar o comportamento de sistemas relacionados a comandos e partidas - direta, reversão, selo e intertravamento sob diferentes condições de operação.",
+      "Identificar os parâmetros críticos e normas de segurança pertinentes a comandos e partidas - direta, reversão, selo e intertravamento."
+    ],
+    "subtopics": [
+      "Fundamentos teóricos de comandos e partidas - direta, reversão, selo e intertravamento",
+      "Metodologias de cálculo e dimensionamento",
+      "Aplicações práticas e industriais",
+      "Normatização e procedimentos técnicos"
+    ],
+    "prerequisites": [
+      "E02",
+      "P02"
+    ],
+    "includes": [
+      "Tópicos essenciais de comandos e partidas - direta, reversão, selo e intertravamento",
+      "Exemplos práticos e exercícios de fixação"
+    ],
+    "excludes": [
+      "Projetos de alta complexidade que excedam o nível técnico",
+      "Tópicos exclusivos de engenharia de desenvolvimento"
+    ],
+    "overlaps_with": [],
+    "needs_editorial_definition": false,
+    "source_refs": [
+      {
+        "file": "data/fase2/mapa-conteudo.json",
+        "section": "subtemas",
+        "fields_supported": [
+          "code",
+          "title",
+          "prerequisites"
+        ]
+      }
+    ],
+    "authorship_status": {
+      "objectives": "EDITORIALLY_AUTHORED",
+      "subtopics": "EDITORIALLY_AUTHORED",
+      "boundaries": "EDITORIALLY_AUTHORED",
+      "code_title_prereqs": "SOURCE_DERIVED"
+    },
+    "status": "REJECTED_EDITORIAL_DRAFT"
+  },
+  {
+    "code": "E04",
+    "title": "Comandos e partidas - Estrela-triângulo e compensadora",
+    "description": "Estudo aprofundado dos princípios de comandos e partidas - estrela-triângulo e compensadora. Engloba a análise, cálculo e interpretação dos fenômenos associados a esta área técnica da eletrotécnica.",
+    "learning_objectives": [
+      "Aplicar os conceitos fundamentais de comandos e partidas - estrela-triângulo e compensadora na resolução de problemas práticos.",
+      "Analisar o comportamento de sistemas relacionados a comandos e partidas - estrela-triângulo e compensadora sob diferentes condições de operação.",
+      "Identificar os parâmetros críticos e normas de segurança pertinentes a comandos e partidas - estrela-triângulo e compensadora."
+    ],
+    "subtopics": [
+      "Fundamentos teóricos de comandos e partidas - estrela-triângulo e compensadora",
+      "Metodologias de cálculo e dimensionamento",
+      "Aplicações práticas e industriais",
+      "Normatização e procedimentos técnicos"
+    ],
+    "prerequisites": [
+      "E03"
+    ],
+    "includes": [
+      "Tópicos essenciais de comandos e partidas - estrela-triângulo e compensadora",
+      "Exemplos práticos e exercícios de fixação"
+    ],
+    "excludes": [
+      "Projetos de alta complexidade que excedam o nível técnico",
+      "Tópicos exclusivos de engenharia de desenvolvimento"
+    ],
+    "overlaps_with": [],
+    "needs_editorial_definition": false,
+    "source_refs": [
+      {
+        "file": "data/fase2/mapa-conteudo.json",
+        "section": "subtemas",
+        "fields_supported": [
+          "code",
+          "title",
+          "prerequisites"
+        ]
+      }
+    ],
+    "authorship_status": {
+      "objectives": "EDITORIALLY_AUTHORED",
+      "subtopics": "EDITORIALLY_AUTHORED",
+      "boundaries": "EDITORIALLY_AUTHORED",
+      "code_title_prereqs": "SOURCE_DERIVED"
+    },
+    "status": "REJECTED_EDITORIAL_DRAFT"
+  },
+  {
+    "code": "E05",
+    "title": "Comandos e partidas - Dahlander e duas velocidades",
+    "description": "Estudo aprofundado dos princípios de comandos e partidas - dahlander e duas velocidades. Engloba a análise, cálculo e interpretação dos fenômenos associados a esta área técnica da eletrotécnica.",
+    "learning_objectives": [
+      "Aplicar os conceitos fundamentais de comandos e partidas - dahlander e duas velocidades na resolução de problemas práticos.",
+      "Analisar o comportamento de sistemas relacionados a comandos e partidas - dahlander e duas velocidades sob diferentes condições de operação.",
+      "Identificar os parâmetros críticos e normas de segurança pertinentes a comandos e partidas - dahlander e duas velocidades."
+    ],
+    "subtopics": [
+      "Fundamentos teóricos de comandos e partidas - dahlander e duas velocidades",
+      "Metodologias de cálculo e dimensionamento",
+      "Aplicações práticas e industriais",
+      "Normatização e procedimentos técnicos"
+    ],
+    "prerequisites": [
+      "E03"
+    ],
+    "includes": [
+      "Tópicos essenciais de comandos e partidas - dahlander e duas velocidades",
+      "Exemplos práticos e exercícios de fixação"
+    ],
+    "excludes": [
+      "Projetos de alta complexidade que excedam o nível técnico",
+      "Tópicos exclusivos de engenharia de desenvolvimento"
+    ],
+    "overlaps_with": [],
+    "needs_editorial_definition": false,
+    "source_refs": [
+      {
+        "file": "data/fase2/mapa-conteudo.json",
+        "section": "subtemas",
+        "fields_supported": [
+          "code",
+          "title",
+          "prerequisites"
+        ]
+      }
+    ],
+    "authorship_status": {
+      "objectives": "EDITORIALLY_AUTHORED",
+      "subtopics": "EDITORIALLY_AUTHORED",
+      "boundaries": "EDITORIALLY_AUTHORED",
+      "code_title_prereqs": "SOURCE_DERIVED"
+    },
+    "status": "REJECTED_EDITORIAL_DRAFT"
+  },
+  {
+    "code": "E06",
+    "title": "Acionamentos - Inversor, soft-starter e parametrização",
+    "description": "Estudo aprofundado dos princípios de acionamentos - inversor, soft-starter e parametrização. Engloba a análise, cálculo e interpretação dos fenômenos associados a esta área técnica da eletrotécnica.",
+    "learning_objectives": [
+      "Aplicar os conceitos fundamentais de acionamentos - inversor, soft-starter e parametrização na resolução de problemas práticos.",
+      "Analisar o comportamento de sistemas relacionados a acionamentos - inversor, soft-starter e parametrização sob diferentes condições de operação.",
+      "Identificar os parâmetros críticos e normas de segurança pertinentes a acionamentos - inversor, soft-starter e parametrização."
+    ],
+    "subtopics": [
+      "Fundamentos teóricos de acionamentos - inversor, soft-starter e parametrização",
+      "Metodologias de cálculo e dimensionamento",
+      "Aplicações práticas e industriais",
+      "Normatização e procedimentos técnicos"
+    ],
+    "prerequisites": [
+      "E03",
+      "F03"
+    ],
+    "includes": [
+      "Tópicos essenciais de acionamentos - inversor, soft-starter e parametrização",
+      "Exemplos práticos e exercícios de fixação"
+    ],
+    "excludes": [
+      "Projetos de alta complexidade que excedam o nível técnico",
+      "Tópicos exclusivos de engenharia de desenvolvimento"
+    ],
+    "overlaps_with": [],
+    "needs_editorial_definition": false,
+    "source_refs": [
+      {
+        "file": "data/fase2/mapa-conteudo.json",
+        "section": "subtemas",
+        "fields_supported": [
+          "code",
+          "title",
+          "prerequisites"
+        ]
+      }
+    ],
+    "authorship_status": {
+      "objectives": "EDITORIALLY_AUTHORED",
+      "subtopics": "EDITORIALLY_AUTHORED",
+      "boundaries": "EDITORIALLY_AUTHORED",
+      "code_title_prereqs": "SOURCE_DERIVED"
+    },
+    "status": "REJECTED_EDITORIAL_DRAFT"
+  },
+  {
+    "code": "T01",
+    "title": "Transformadores - Relação de transformação e proteções",
+    "description": "Estudo aprofundado dos princípios de transformadores - relação de transformação e proteções. Engloba a análise, cálculo e interpretação dos fenômenos associados a esta área técnica da eletrotécnica.",
+    "learning_objectives": [
+      "Aplicar os conceitos fundamentais de transformadores - relação de transformação e proteções na resolução de problemas práticos.",
+      "Analisar o comportamento de sistemas relacionados a transformadores - relação de transformação e proteções sob diferentes condições de operação.",
+      "Identificar os parâmetros críticos e normas de segurança pertinentes a transformadores - relação de transformação e proteções."
+    ],
+    "subtopics": [
+      "Fundamentos teóricos de transformadores - relação de transformação e proteções",
+      "Metodologias de cálculo e dimensionamento",
+      "Aplicações práticas e industriais",
+      "Normatização e procedimentos técnicos"
+    ],
+    "prerequisites": [
+      "F03",
+      "F04"
+    ],
+    "includes": [
+      "Tópicos essenciais de transformadores - relação de transformação e proteções",
+      "Exemplos práticos e exercícios de fixação"
+    ],
+    "excludes": [
+      "Projetos de alta complexidade que excedam o nível técnico",
+      "Tópicos exclusivos de engenharia de desenvolvimento"
+    ],
+    "overlaps_with": [],
+    "needs_editorial_definition": false,
+    "source_refs": [
+      {
+        "file": "data/fase2/mapa-conteudo.json",
+        "section": "subtemas",
+        "fields_supported": [
+          "code",
+          "title",
+          "prerequisites"
+        ]
+      }
+    ],
+    "authorship_status": {
+      "objectives": "EDITORIALLY_AUTHORED",
+      "subtopics": "EDITORIALLY_AUTHORED",
+      "boundaries": "EDITORIALLY_AUTHORED",
+      "code_title_prereqs": "SOURCE_DERIVED"
+    },
+    "status": "REJECTED_EDITORIAL_DRAFT"
+  },
+  {
+    "code": "T02",
+    "title": "Medição e proteção em SEP - TC, TP, relés e medição indireta",
+    "description": "Estudo aprofundado dos princípios de medição e proteção em sep - tc, tp, relés e medição indireta. Engloba a análise, cálculo e interpretação dos fenômenos associados a esta área técnica da eletrotécnica.",
+    "learning_objectives": [
+      "Aplicar os conceitos fundamentais de medição e proteção em sep - tc, tp, relés e medição indireta na resolução de problemas práticos.",
+      "Analisar o comportamento de sistemas relacionados a medição e proteção em sep - tc, tp, relés e medição indireta sob diferentes condições de operação.",
+      "Identificar os parâmetros críticos e normas de segurança pertinentes a medição e proteção em sep - tc, tp, relés e medição indireta."
+    ],
+    "subtopics": [
+      "Fundamentos teóricos de medição e proteção em sep - tc, tp, relés e medição indireta",
+      "Metodologias de cálculo e dimensionamento",
+      "Aplicações práticas e industriais",
+      "Normatização e procedimentos técnicos"
+    ],
+    "prerequisites": [
+      "T01",
+      "M01",
+      "S01"
+    ],
+    "includes": [
+      "Tópicos essenciais de medição e proteção em sep - tc, tp, relés e medição indireta",
+      "Exemplos práticos e exercícios de fixação"
+    ],
+    "excludes": [
+      "Projetos de alta complexidade que excedam o nível técnico",
+      "Tópicos exclusivos de engenharia de desenvolvimento"
+    ],
+    "overlaps_with": [],
+    "needs_editorial_definition": false,
+    "source_refs": [
+      {
+        "file": "data/fase2/mapa-conteudo.json",
+        "section": "subtemas",
+        "fields_supported": [
+          "code",
+          "title",
+          "prerequisites"
+        ]
+      }
+    ],
+    "authorship_status": {
+      "objectives": "EDITORIALLY_AUTHORED",
+      "subtopics": "EDITORIALLY_AUTHORED",
+      "boundaries": "EDITORIALLY_AUTHORED",
+      "code_title_prereqs": "SOURCE_DERIVED"
+    },
+    "status": "REJECTED_EDITORIAL_DRAFT"
+  },
+  {
+    "code": "R01",
+    "title": "Redes de distribuição - Estruturas, postes, alimentadores e topologias",
+    "description": "Estudo aprofundado dos princípios de redes de distribuição - estruturas, postes, alimentadores e topologias. Engloba a análise, cálculo e interpretação dos fenômenos associados a esta área técnica da eletrotécnica.",
+    "learning_objectives": [
+      "Aplicar os conceitos fundamentais de redes de distribuição - estruturas, postes, alimentadores e topologias na resolução de problemas práticos.",
+      "Analisar o comportamento de sistemas relacionados a redes de distribuição - estruturas, postes, alimentadores e topologias sob diferentes condições de operação.",
+      "Identificar os parâmetros críticos e normas de segurança pertinentes a redes de distribuição - estruturas, postes, alimentadores e topologias."
+    ],
+    "subtopics": [
+      "Fundamentos teóricos de redes de distribuição - estruturas, postes, alimentadores e topologias",
+      "Metodologias de cálculo e dimensionamento",
+      "Aplicações práticas e industriais",
+      "Normatização e procedimentos técnicos"
+    ],
+    "prerequisites": [
+      "I03",
+      "S02"
+    ],
+    "includes": [
+      "Tópicos essenciais de redes de distribuição - estruturas, postes, alimentadores e topologias",
+      "Exemplos práticos e exercícios de fixação"
+    ],
+    "excludes": [
+      "Projetos de alta complexidade que excedam o nível técnico",
+      "Tópicos exclusivos de engenharia de desenvolvimento"
+    ],
+    "overlaps_with": [],
+    "needs_editorial_definition": false,
+    "source_refs": [
+      {
+        "file": "data/fase2/mapa-conteudo.json",
+        "section": "subtemas",
+        "fields_supported": [
+          "code",
+          "title",
+          "prerequisites"
+        ]
+      }
+    ],
+    "authorship_status": {
+      "objectives": "EDITORIALLY_AUTHORED",
+      "subtopics": "EDITORIALLY_AUTHORED",
+      "boundaries": "EDITORIALLY_AUTHORED",
+      "code_title_prereqs": "SOURCE_DERIVED"
+    },
+    "status": "REJECTED_EDITORIAL_DRAFT"
+  },
+  {
+    "code": "R02",
+    "title": "Subestações - Equipamentos, barramentos e operação",
+    "description": "Estudo aprofundado dos princípios de subestações - equipamentos, barramentos e operação. Engloba a análise, cálculo e interpretação dos fenômenos associados a esta área técnica da eletrotécnica.",
+    "learning_objectives": [
+      "Aplicar os conceitos fundamentais de subestações - equipamentos, barramentos e operação na resolução de problemas práticos.",
+      "Analisar o comportamento de sistemas relacionados a subestações - equipamentos, barramentos e operação sob diferentes condições de operação.",
+      "Identificar os parâmetros críticos e normas de segurança pertinentes a subestações - equipamentos, barramentos e operação."
+    ],
+    "subtopics": [
+      "Fundamentos teóricos de subestações - equipamentos, barramentos e operação",
+      "Metodologias de cálculo e dimensionamento",
+      "Aplicações práticas e industriais",
+      "Normatização e procedimentos técnicos"
+    ],
+    "prerequisites": [
+      "R01",
+      "T02"
+    ],
+    "includes": [
+      "Tópicos essenciais de subestações - equipamentos, barramentos e operação",
+      "Exemplos práticos e exercícios de fixação"
+    ],
+    "excludes": [
+      "Projetos de alta complexidade que excedam o nível técnico",
+      "Tópicos exclusivos de engenharia de desenvolvimento"
+    ],
+    "overlaps_with": [],
+    "needs_editorial_definition": false,
+    "source_refs": [
+      {
+        "file": "data/fase2/mapa-conteudo.json",
+        "section": "subtemas",
+        "fields_supported": [
+          "code",
+          "title",
+          "prerequisites"
+        ]
+      }
+    ],
+    "authorship_status": {
+      "objectives": "EDITORIALLY_AUTHORED",
+      "subtopics": "EDITORIALLY_AUTHORED",
+      "boundaries": "EDITORIALLY_AUTHORED",
+      "code_title_prereqs": "SOURCE_DERIVED"
+    },
+    "status": "REJECTED_EDITORIAL_DRAFT"
+  },
+  {
+    "code": "A01",
+    "title": "CLP e lógica - Booleanos, binário, tabela verdade e Ladder",
+    "description": "Estudo aprofundado dos princípios de clp e lógica - booleanos, binário, tabela verdade e ladder. Engloba a análise, cálculo e interpretação dos fenômenos associados a esta área técnica da eletrotécnica.",
+    "learning_objectives": [
+      "Aplicar os conceitos fundamentais de clp e lógica - booleanos, binário, tabela verdade e ladder na resolução de problemas práticos.",
+      "Analisar o comportamento de sistemas relacionados a clp e lógica - booleanos, binário, tabela verdade e ladder sob diferentes condições de operação.",
+      "Identificar os parâmetros críticos e normas de segurança pertinentes a clp e lógica - booleanos, binário, tabela verdade e ladder."
+    ],
+    "subtopics": [
+      "Fundamentos teóricos de clp e lógica - booleanos, binário, tabela verdade e ladder",
+      "Metodologias de cálculo e dimensionamento",
+      "Aplicações práticas e industriais",
+      "Normatização e procedimentos técnicos"
+    ],
+    "prerequisites": [
+      "F01"
+    ],
+    "includes": [
+      "Tópicos essenciais de clp e lógica - booleanos, binário, tabela verdade e ladder",
+      "Exemplos práticos e exercícios de fixação"
+    ],
+    "excludes": [
+      "Projetos de alta complexidade que excedam o nível técnico",
+      "Tópicos exclusivos de engenharia de desenvolvimento"
+    ],
+    "overlaps_with": [],
+    "needs_editorial_definition": false,
+    "source_refs": [
+      {
+        "file": "data/fase2/mapa-conteudo.json",
+        "section": "subtemas",
+        "fields_supported": [
+          "code",
+          "title",
+          "prerequisites"
+        ]
+      }
+    ],
+    "authorship_status": {
+      "objectives": "EDITORIALLY_AUTHORED",
+      "subtopics": "EDITORIALLY_AUTHORED",
+      "boundaries": "EDITORIALLY_AUTHORED",
+      "code_title_prereqs": "SOURCE_DERIVED"
+    },
+    "status": "REJECTED_EDITORIAL_DRAFT"
+  },
+  {
+    "code": "A02",
+    "title": "CLP e lógica - Entradas, saídas e controle sequencial",
+    "description": "Estudo aprofundado dos princípios de clp e lógica - entradas, saídas e controle sequencial. Engloba a análise, cálculo e interpretação dos fenômenos associados a esta área técnica da eletrotécnica.",
+    "learning_objectives": [
+      "Aplicar os conceitos fundamentais de clp e lógica - entradas, saídas e controle sequencial na resolução de problemas práticos.",
+      "Analisar o comportamento de sistemas relacionados a clp e lógica - entradas, saídas e controle sequencial sob diferentes condições de operação.",
+      "Identificar os parâmetros críticos e normas de segurança pertinentes a clp e lógica - entradas, saídas e controle sequencial."
+    ],
+    "subtopics": [
+      "Fundamentos teóricos de clp e lógica - entradas, saídas e controle sequencial",
+      "Metodologias de cálculo e dimensionamento",
+      "Aplicações práticas e industriais",
+      "Normatização e procedimentos técnicos"
+    ],
+    "prerequisites": [
+      "A01",
+      "E03"
+    ],
+    "includes": [
+      "Tópicos essenciais de clp e lógica - entradas, saídas e controle sequencial",
+      "Exemplos práticos e exercícios de fixação"
+    ],
+    "excludes": [
+      "Projetos de alta complexidade que excedam o nível técnico",
+      "Tópicos exclusivos de engenharia de desenvolvimento"
+    ],
+    "overlaps_with": [],
+    "needs_editorial_definition": false,
+    "source_refs": [
+      {
+        "file": "data/fase2/mapa-conteudo.json",
+        "section": "subtemas",
+        "fields_supported": [
+          "code",
+          "title",
+          "prerequisites"
+        ]
+      }
+    ],
+    "authorship_status": {
+      "objectives": "EDITORIALLY_AUTHORED",
+      "subtopics": "EDITORIALLY_AUTHORED",
+      "boundaries": "EDITORIALLY_AUTHORED",
+      "code_title_prereqs": "SOURCE_DERIVED"
+    },
+    "status": "REJECTED_EDITORIAL_DRAFT"
+  },
+  {
+    "code": "A03",
+    "title": "Sensores - Sensores de presença, alarme e nível",
+    "description": "Estudo aprofundado dos princípios de sensores - sensores de presença, alarme e nível. Engloba a análise, cálculo e interpretação dos fenômenos associados a esta área técnica da eletrotécnica.",
+    "learning_objectives": [
+      "Aplicar os conceitos fundamentais de sensores - sensores de presença, alarme e nível na resolução de problemas práticos.",
+      "Analisar o comportamento de sistemas relacionados a sensores - sensores de presença, alarme e nível sob diferentes condições de operação.",
+      "Identificar os parâmetros críticos e normas de segurança pertinentes a sensores - sensores de presença, alarme e nível."
+    ],
+    "subtopics": [
+      "Fundamentos teóricos de sensores - sensores de presença, alarme e nível",
+      "Metodologias de cálculo e dimensionamento",
+      "Aplicações práticas e industriais",
+      "Normatização e procedimentos técnicos"
+    ],
+    "prerequisites": [
+      "A02",
+      "I02"
+    ],
+    "includes": [
+      "Tópicos essenciais de sensores - sensores de presença, alarme e nível",
+      "Exemplos práticos e exercícios de fixação"
+    ],
+    "excludes": [
+      "Projetos de alta complexidade que excedam o nível técnico",
+      "Tópicos exclusivos de engenharia de desenvolvimento"
+    ],
+    "overlaps_with": [],
+    "needs_editorial_definition": false,
+    "source_refs": [
+      {
+        "file": "data/fase2/mapa-conteudo.json",
+        "section": "subtemas",
+        "fields_supported": [
+          "code",
+          "title",
+          "prerequisites"
+        ]
+      }
+    ],
+    "authorship_status": {
+      "objectives": "EDITORIALLY_AUTHORED",
+      "subtopics": "EDITORIALLY_AUTHORED",
+      "boundaries": "EDITORIALLY_AUTHORED",
+      "code_title_prereqs": "SOURCE_DERIVED"
+    },
+    "status": "REJECTED_EDITORIAL_DRAFT"
+  },
+  {
+    "code": "H01",
+    "title": "Pneumática e hidráulica - Válvulas, atuadores e simbologia",
+    "description": "Estudo aprofundado dos princípios de pneumática e hidráulica - válvulas, atuadores e simbologia. Engloba a análise, cálculo e interpretação dos fenômenos associados a esta área técnica da eletrotécnica.",
+    "learning_objectives": [
+      "Aplicar os conceitos fundamentais de pneumática e hidráulica - válvulas, atuadores e simbologia na resolução de problemas práticos.",
+      "Analisar o comportamento de sistemas relacionados a pneumática e hidráulica - válvulas, atuadores e simbologia sob diferentes condições de operação.",
+      "Identificar os parâmetros críticos e normas de segurança pertinentes a pneumática e hidráulica - válvulas, atuadores e simbologia."
+    ],
+    "subtopics": [
+      "Fundamentos teóricos de pneumática e hidráulica - válvulas, atuadores e simbologia",
+      "Metodologias de cálculo e dimensionamento",
+      "Aplicações práticas e industriais",
+      "Normatização e procedimentos técnicos"
+    ],
+    "prerequisites": [
+      "I03"
+    ],
+    "includes": [
+      "Tópicos essenciais de pneumática e hidráulica - válvulas, atuadores e simbologia",
+      "Exemplos práticos e exercícios de fixação"
+    ],
+    "excludes": [
+      "Projetos de alta complexidade que excedam o nível técnico",
+      "Tópicos exclusivos de engenharia de desenvolvimento"
+    ],
+    "overlaps_with": [],
+    "needs_editorial_definition": false,
+    "source_refs": [
+      {
+        "file": "data/fase2/mapa-conteudo.json",
+        "section": "subtemas",
+        "fields_supported": [
+          "code",
+          "title",
+          "prerequisites"
+        ]
+      }
+    ],
+    "authorship_status": {
+      "objectives": "EDITORIALLY_AUTHORED",
+      "subtopics": "EDITORIALLY_AUTHORED",
+      "boundaries": "EDITORIALLY_AUTHORED",
+      "code_title_prereqs": "SOURCE_DERIVED"
+    },
+    "status": "REJECTED_EDITORIAL_DRAFT"
+  },
+  {
+    "code": "H02",
+    "title": "Pneumática e hidráulica - Sequências, selo e diagnóstico eletropneumático",
+    "description": "Estudo aprofundado dos princípios de pneumática e hidráulica - sequências, selo e diagnóstico eletropneumático. Engloba a análise, cálculo e interpretação dos fenômenos associados a esta área técnica da eletrotécnica.",
+    "learning_objectives": [
+      "Aplicar os conceitos fundamentais de pneumática e hidráulica - sequências, selo e diagnóstico eletropneumático na resolução de problemas práticos.",
+      "Analisar o comportamento de sistemas relacionados a pneumática e hidráulica - sequências, selo e diagnóstico eletropneumático sob diferentes condições de operação.",
+      "Identificar os parâmetros críticos e normas de segurança pertinentes a pneumática e hidráulica - sequências, selo e diagnóstico eletropneumático."
+    ],
+    "subtopics": [
+      "Fundamentos teóricos de pneumática e hidráulica - sequências, selo e diagnóstico eletropneumático",
+      "Metodologias de cálculo e dimensionamento",
+      "Aplicações práticas e industriais",
+      "Normatização e procedimentos técnicos"
+    ],
+    "prerequisites": [
+      "H01",
+      "E03",
+      "A01"
+    ],
+    "includes": [
+      "Tópicos essenciais de pneumática e hidráulica - sequências, selo e diagnóstico eletropneumático",
+      "Exemplos práticos e exercícios de fixação"
+    ],
+    "excludes": [
+      "Projetos de alta complexidade que excedam o nível técnico",
+      "Tópicos exclusivos de engenharia de desenvolvimento"
+    ],
+    "overlaps_with": [],
+    "needs_editorial_definition": false,
+    "source_refs": [
+      {
+        "file": "data/fase2/mapa-conteudo.json",
+        "section": "subtemas",
+        "fields_supported": [
+          "code",
+          "title",
+          "prerequisites"
+        ]
+      }
+    ],
+    "authorship_status": {
+      "objectives": "EDITORIALLY_AUTHORED",
+      "subtopics": "EDITORIALLY_AUTHORED",
+      "boundaries": "EDITORIALLY_AUTHORED",
+      "code_title_prereqs": "SOURCE_DERIVED"
+    },
+    "status": "REJECTED_EDITORIAL_DRAFT"
+  },
+  {
+    "code": "D01",
+    "title": "Manutenção e diagnóstico - Preventiva, preditiva, corretiva e inspeções",
+    "description": "Estudo aprofundado dos princípios de manutenção e diagnóstico - preventiva, preditiva, corretiva e inspeções. Engloba a análise, cálculo e interpretação dos fenômenos associados a esta área técnica da eletrotécnica.",
+    "learning_objectives": [
+      "Aplicar os conceitos fundamentais de manutenção e diagnóstico - preventiva, preditiva, corretiva e inspeções na resolução de problemas práticos.",
+      "Analisar o comportamento de sistemas relacionados a manutenção e diagnóstico - preventiva, preditiva, corretiva e inspeções sob diferentes condições de operação.",
+      "Identificar os parâmetros críticos e normas de segurança pertinentes a manutenção e diagnóstico - preventiva, preditiva, corretiva e inspeções."
+    ],
+    "subtopics": [
+      "Fundamentos teóricos de manutenção e diagnóstico - preventiva, preditiva, corretiva e inspeções",
+      "Metodologias de cálculo e dimensionamento",
+      "Aplicações práticas e industriais",
+      "Normatização e procedimentos técnicos"
+    ],
+    "prerequisites": [
+      "S01"
+    ],
+    "includes": [
+      "Tópicos essenciais de manutenção e diagnóstico - preventiva, preditiva, corretiva e inspeções",
+      "Exemplos práticos e exercícios de fixação"
+    ],
+    "excludes": [
+      "Projetos de alta complexidade que excedam o nível técnico",
+      "Tópicos exclusivos de engenharia de desenvolvimento"
+    ],
+    "overlaps_with": [],
+    "needs_editorial_definition": false,
+    "source_refs": [
+      {
+        "file": "data/fase2/mapa-conteudo.json",
+        "section": "subtemas",
+        "fields_supported": [
+          "code",
+          "title",
+          "prerequisites"
+        ]
+      }
+    ],
+    "authorship_status": {
+      "objectives": "EDITORIALLY_AUTHORED",
+      "subtopics": "EDITORIALLY_AUTHORED",
+      "boundaries": "EDITORIALLY_AUTHORED",
+      "code_title_prereqs": "SOURCE_DERIVED"
+    },
+    "status": "REJECTED_EDITORIAL_DRAFT"
+  },
+  {
+    "code": "D02",
+    "title": "Manutenção e diagnóstico - Termografia, conexões e localização de falhas",
+    "description": "Estudo aprofundado dos princípios de manutenção e diagnóstico - termografia, conexões e localização de falhas. Engloba a análise, cálculo e interpretação dos fenômenos associados a esta área técnica da eletrotécnica.",
+    "learning_objectives": [
+      "Aplicar os conceitos fundamentais de manutenção e diagnóstico - termografia, conexões e localização de falhas na resolução de problemas práticos.",
+      "Analisar o comportamento de sistemas relacionados a manutenção e diagnóstico - termografia, conexões e localização de falhas sob diferentes condições de operação.",
+      "Identificar os parâmetros críticos e normas de segurança pertinentes a manutenção e diagnóstico - termografia, conexões e localização de falhas."
+    ],
+    "subtopics": [
+      "Fundamentos teóricos de manutenção e diagnóstico - termografia, conexões e localização de falhas",
+      "Metodologias de cálculo e dimensionamento",
+      "Aplicações práticas e industriais",
+      "Normatização e procedimentos técnicos"
+    ],
+    "prerequisites": [
+      "D01",
+      "M02"
+    ],
+    "includes": [
+      "Tópicos essenciais de manutenção e diagnóstico - termografia, conexões e localização de falhas",
+      "Exemplos práticos e exercícios de fixação"
+    ],
+    "excludes": [
+      "Projetos de alta complexidade que excedam o nível técnico",
+      "Tópicos exclusivos de engenharia de desenvolvimento"
+    ],
+    "overlaps_with": [],
+    "needs_editorial_definition": false,
+    "source_refs": [
+      {
+        "file": "data/fase2/mapa-conteudo.json",
+        "section": "subtemas",
+        "fields_supported": [
+          "code",
+          "title",
+          "prerequisites"
+        ]
+      }
+    ],
+    "authorship_status": {
+      "objectives": "EDITORIALLY_AUTHORED",
+      "subtopics": "EDITORIALLY_AUTHORED",
+      "boundaries": "EDITORIALLY_AUTHORED",
+      "code_title_prereqs": "SOURCE_DERIVED"
+    },
+    "status": "REJECTED_EDITORIAL_DRAFT"
+  },
+  {
+    "code": "V01",
+    "title": "Energia solar fotovoltaica - Arranjos, potência e eficiência",
+    "description": "Estudo aprofundado dos princípios de energia solar fotovoltaica - arranjos, potência e eficiência. Engloba a análise, cálculo e interpretação dos fenômenos associados a esta área técnica da eletrotécnica.",
+    "learning_objectives": [
+      "Aplicar os conceitos fundamentais de energia solar fotovoltaica - arranjos, potência e eficiência na resolução de problemas práticos.",
+      "Analisar o comportamento de sistemas relacionados a energia solar fotovoltaica - arranjos, potência e eficiência sob diferentes condições de operação.",
+      "Identificar os parâmetros críticos e normas de segurança pertinentes a energia solar fotovoltaica - arranjos, potência e eficiência."
+    ],
+    "subtopics": [
+      "Fundamentos teóricos de energia solar fotovoltaica - arranjos, potência e eficiência",
+      "Metodologias de cálculo e dimensionamento",
+      "Aplicações práticas e industriais",
+      "Normatização e procedimentos técnicos"
+    ],
+    "prerequisites": [
+      "F04",
+      "P01"
+    ],
+    "includes": [
+      "Tópicos essenciais de energia solar fotovoltaica - arranjos, potência e eficiência",
+      "Exemplos práticos e exercícios de fixação"
+    ],
+    "excludes": [
+      "Projetos de alta complexidade que excedam o nível técnico",
+      "Tópicos exclusivos de engenharia de desenvolvimento"
+    ],
+    "overlaps_with": [],
+    "needs_editorial_definition": false,
+    "source_refs": [
+      {
+        "file": "data/fase2/mapa-conteudo.json",
+        "section": "subtemas",
+        "fields_supported": [
+          "code",
+          "title",
+          "prerequisites"
+        ]
+      }
+    ],
+    "authorship_status": {
+      "objectives": "EDITORIALLY_AUTHORED",
+      "subtopics": "EDITORIALLY_AUTHORED",
+      "boundaries": "EDITORIALLY_AUTHORED",
+      "code_title_prereqs": "SOURCE_DERIVED"
+    },
+    "status": "REJECTED_EDITORIAL_DRAFT"
+  }
+]

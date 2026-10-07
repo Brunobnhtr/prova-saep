@@ -1,0 +1,58 @@
+{
+  "passed": 13,
+  "failed": 0,
+  "checks": [
+    {
+      "check": "IDs V1/V2 identical",
+      "passed": true
+    },
+    {
+      "check": "V1 unchanged",
+      "passed": true
+    },
+    {
+      "check": "recovery fields unchanged",
+      "passed": true
+    },
+    {
+      "check": "answers all unresolved",
+      "passed": true
+    },
+    {
+      "check": "all 878 formerly unclassified analyzed",
+      "passed": true
+    },
+    {
+      "check": "all 35 modules have editorial golden examples",
+      "passed": true
+    },
+    {
+      "check": "all regression fields match",
+      "passed": true
+    },
+    {
+      "check": "no strong family claimed for unseen essential imagery",
+      "passed": true
+    },
+    {
+      "check": "all primary-less items have reason",
+      "passed": true
+    },
+    {
+      "check": "source lot hashes unchanged",
+      "passed": true
+    },
+    {
+      "check": "taxonomy IDs unique",
+      "passed": true
+    },
+    {
+      "check": "taxonomy acyclic",
+      "passed": true
+    },
+    {
+      "check": "all families registered",
+      "passed": true
+    }
+  ]
+}

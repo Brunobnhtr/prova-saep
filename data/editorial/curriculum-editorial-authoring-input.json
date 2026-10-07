@@ -1,0 +1,269 @@
+[
+  {
+    "code": "F01",
+    "title": "Circuitos CC/CA - Unidades e grandezas CC/CA",
+    "prerequisites": []
+  },
+  {
+    "code": "F02",
+    "title": "Circuitos CC/CA - Lei de Ohm e associação de resistores",
+    "prerequisites": [
+      "F01"
+    ]
+  },
+  {
+    "code": "F03",
+    "title": "Circuitos CC/CA - Frequência, formas de onda e reatância",
+    "prerequisites": [
+      "F01",
+      "F02"
+    ]
+  },
+  {
+    "code": "F04",
+    "title": "Energia e eficiência - Potência, energia e fator de potência",
+    "prerequisites": [
+      "F01",
+      "F02",
+      "F03"
+    ]
+  },
+  {
+    "code": "M01",
+    "title": "Instrumentos - Multímetro, alicate e seleção de escala",
+    "prerequisites": [
+      "F01"
+    ]
+  },
+  {
+    "code": "M02",
+    "title": "Instrumentos - Continuidade e resistência de isolamento",
+    "prerequisites": [
+      "M01",
+      "S01"
+    ]
+  },
+  {
+    "code": "S01",
+    "title": "Segurança em eletricidade - Desenergização e reenergização",
+    "prerequisites": []
+  },
+  {
+    "code": "S02",
+    "title": "Segurança em eletricidade - Qualificação, EPI, altura e zonas de risco",
+    "prerequisites": [
+      "S01"
+    ]
+  },
+  {
+    "code": "S03",
+    "title": "Segurança em eletricidade - Classificação de tensão e documentação",
+    "prerequisites": [
+      "F01",
+      "S01"
+    ]
+  },
+  {
+    "code": "I01",
+    "title": "Instalações prediais - Tomadas, iluminação e previsão de cargas",
+    "prerequisites": [
+      "F04",
+      "S01"
+    ]
+  },
+  {
+    "code": "I02",
+    "title": "Instalações prediais - Interruptores, sensores e relé fotocélula",
+    "prerequisites": [
+      "I01",
+      "M01"
+    ]
+  },
+  {
+    "code": "I03",
+    "title": "Projetos elétricos - Simbologia, unifilar, multifilar e CAD",
+    "prerequisites": [
+      "F01"
+    ]
+  },
+  {
+    "code": "P01",
+    "title": "Dimensionamento - Condutores, instalação e fatores de correção",
+    "prerequisites": [
+      "F04",
+      "I01",
+      "S01"
+    ]
+  },
+  {
+    "code": "P02",
+    "title": "Dimensionamento - Disjuntores, fusíveis, curvas e curto-circuito",
+    "prerequisites": [
+      "P01"
+    ]
+  },
+  {
+    "code": "P03",
+    "title": "Proteção de pessoas - DR, IDR, DDR e coordenação de funções",
+    "prerequisites": [
+      "S01",
+      "I01"
+    ]
+  },
+  {
+    "code": "P04",
+    "title": "Aterramento e SPDA - Esquemas de aterramento e equipotencialização",
+    "prerequisites": [
+      "S01",
+      "I03"
+    ]
+  },
+  {
+    "code": "P05",
+    "title": "Aterramento e SPDA - Captação, descida, aterramento e DPS",
+    "prerequisites": [
+      "P04"
+    ]
+  },
+  {
+    "code": "E01",
+    "title": "Motores elétricos - Placa, potência, corrente e velocidade",
+    "prerequisites": [
+      "F04",
+      "M01"
+    ]
+  },
+  {
+    "code": "E02",
+    "title": "Motores elétricos - Bobinas, fechamentos e ligação monofásica/trifásica",
+    "prerequisites": [
+      "E01",
+      "M02"
+    ]
+  },
+  {
+    "code": "E03",
+    "title": "Comandos e partidas - Direta, reversão, selo e intertravamento",
+    "prerequisites": [
+      "E02",
+      "P02"
+    ]
+  },
+  {
+    "code": "E04",
+    "title": "Comandos e partidas - Estrela-triângulo e compensadora",
+    "prerequisites": [
+      "E03"
+    ]
+  },
+  {
+    "code": "E05",
+    "title": "Comandos e partidas - Dahlander e duas velocidades",
+    "prerequisites": [
+      "E03"
+    ]
+  },
+  {
+    "code": "E06",
+    "title": "Acionamentos - Inversor, soft-starter e parametrização",
+    "prerequisites": [
+      "E03",
+      "F03"
+    ]
+  },
+  {
+    "code": "T01",
+    "title": "Transformadores - Relação de transformação e proteções",
+    "prerequisites": [
+      "F03",
+      "F04"
+    ]
+  },
+  {
+    "code": "T02",
+    "title": "Medição e proteção em SEP - TC, TP, relés e medição indireta",
+    "prerequisites": [
+      "T01",
+      "M01",
+      "S01"
+    ]
+  },
+  {
+    "code": "R01",
+    "title": "Redes de distribuição - Estruturas, postes, alimentadores e topologias",
+    "prerequisites": [
+      "I03",
+      "S02"
+    ]
+  },
+  {
+    "code": "R02",
+    "title": "Subestações - Equipamentos, barramentos e operação",
+    "prerequisites": [
+      "R01",
+      "T02"
+    ]
+  },
+  {
+    "code": "A01",
+    "title": "CLP e lógica - Booleanos, binário, tabela verdade e Ladder",
+    "prerequisites": [
+      "F01"
+    ]
+  },
+  {
+    "code": "A02",
+    "title": "CLP e lógica - Entradas, saídas e controle sequencial",
+    "prerequisites": [
+      "A01",
+      "E03"
+    ]
+  },
+  {
+    "code": "A03",
+    "title": "Sensores - Sensores de presença, alarme e nível",
+    "prerequisites": [
+      "A02",
+      "I02"
+    ]
+  },
+  {
+    "code": "H01",
+    "title": "Pneumática e hidráulica - Válvulas, atuadores e simbologia",
+    "prerequisites": [
+      "I03"
+    ]
+  },
+  {
+    "code": "H02",
+    "title": "Pneumática e hidráulica - Sequências, selo e diagnóstico eletropneumático",
+    "prerequisites": [
+      "H01",
+      "E03",
+      "A01"
+    ]
+  },
+  {
+    "code": "D01",
+    "title": "Manutenção e diagnóstico - Preventiva, preditiva, corretiva e inspeções",
+    "prerequisites": [
+      "S01"
+    ]
+  },
+  {
+    "code": "D02",
+    "title": "Manutenção e diagnóstico - Termografia, conexões e localização de falhas",
+    "prerequisites": [
+      "D01",
+      "M02"
+    ]
+  },
+  {
+    "code": "V01",
+    "title": "Energia solar fotovoltaica - Arranjos, potência e eficiência",
+    "prerequisites": [
+      "F04",
+      "P01"
+    ]
+  }
+]

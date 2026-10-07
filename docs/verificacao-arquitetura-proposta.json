@@ -1,0 +1,11 @@
+{
+  "data": "2026-10-02",
+  "schemas_validos": 3,
+  "exemplo_valido": true,
+  "rejeita_matriz_confirmada_sem_codigo": true,
+  "rejeita_campo_desconhecido": true,
+  "rejeita_cinco_opcoes_em_etapas": true,
+  "links_locais_validos": true,
+  "decisoes_aprovadas": false,
+  "aplicativo_implementado": false
+}

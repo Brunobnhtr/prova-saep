@@ -1,0 +1,4365 @@
+{
+  "version": 2.1,
+  "classifier_sha256": "43ed1fc90496b857c42a2bf7afd175fe377dc7082ddcd873415e26aed1ef9867",
+  "golden_set": {
+    "total": 153,
+    "passed": 153,
+    "failed": 0,
+    "cases": [
+      {
+        "source_id": "Q4148970",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "E03",
+          "secondary_modules": [],
+          "primary_concept": "MOTOR_REVERSING",
+          "semantic_family": "MOTOR_REVERSING",
+          "probable_types": [
+            "DIAGRAM"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "DIAGRAM"
+        },
+        "actual": {
+          "primary_module": "E03",
+          "primary_concept": "MOTOR_REVERSING",
+          "semantic_family": "MOTOR_CONTROL",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q4148977",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "F02",
+          "secondary_modules": [
+            "M01"
+          ],
+          "primary_concept": "WHEATSTONE_BRIDGE",
+          "semantic_family": "WHEATSTONE_BRIDGE",
+          "probable_types": [
+            "CALCULATION",
+            "DIAGRAM"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CALCULATION"
+        },
+        "actual": {
+          "primary_module": "F02",
+          "primary_concept": "WHEATSTONE_BRIDGE",
+          "semantic_family": "BRIDGE_CIRCUITS",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q4150424",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": null,
+          "secondary_modules": [],
+          "primary_concept": "TRANSISTOR_IDENTIFICATION",
+          "semantic_family": "TRANSISTOR_IDENTIFICATION",
+          "probable_types": [
+            "DIAGRAM"
+          ],
+          "unclassified_reason": "MISSING_MODULE",
+          "probable_type": "DIAGRAM"
+        },
+        "actual": {
+          "primary_module": null,
+          "primary_concept": "TRANSISTOR_IDENTIFICATION",
+          "semantic_family": "TRANSISTORS",
+          "unclassified_reason": "MISSING_MODULE"
+        }
+      },
+      {
+        "source_id": "Q4151541",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "E01",
+          "secondary_modules": [],
+          "primary_concept": "INDUCTION_MOTOR",
+          "semantic_family": "INDUCTION_MOTOR",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": "E01",
+          "primary_concept": "INDUCTION_MOTOR",
+          "semantic_family": "AC_MOTORS",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q772172",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "S01",
+          "secondary_modules": [],
+          "primary_concept": "NR10_DEENERGIZATION",
+          "semantic_family": "NR10_DEENERGIZATION",
+          "probable_types": [
+            "PROCEDURE"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "PROCEDURE"
+        },
+        "actual": {
+          "primary_module": "S01",
+          "primary_concept": "NR10_DEENERGIZATION",
+          "semantic_family": "DEENERGIZATION_PROCEDURES",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q3865649",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "S01",
+          "secondary_modules": [],
+          "primary_concept": "NR10_DEENERGIZATION",
+          "semantic_family": "NR10_DEENERGIZATION",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": "S01",
+          "primary_concept": "NR10_DEENERGIZATION",
+          "semantic_family": "DEENERGIZATION_PROCEDURES",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q3796729",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "S01",
+          "secondary_modules": [],
+          "primary_concept": "STORED_ENERGY_DISCHARGE",
+          "semantic_family": "STORED_ENERGY_DISCHARGE",
+          "probable_types": [
+            "PROCEDURE"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "PROCEDURE"
+        },
+        "actual": {
+          "primary_module": "S01",
+          "primary_concept": "STORED_ENERGY_DISCHARGE",
+          "semantic_family": "DEENERGIZATION_PROCEDURES",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q522242",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": null,
+          "secondary_modules": [],
+          "primary_concept": "MATERIAL_PLASTICITY",
+          "semantic_family": "MATERIAL_PLASTICITY",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": "OUT_OF_CURRICULUM",
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": null,
+          "primary_concept": "MATERIAL_PLASTICITY",
+          "semantic_family": "MATERIALS_SCIENCE",
+          "unclassified_reason": "OUT_OF_CURRICULUM"
+        }
+      },
+      {
+        "source_id": "Q3413235",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "S02",
+          "secondary_modules": [],
+          "primary_concept": "EPI_EPC_SELECTION",
+          "semantic_family": "EPI_EPC_SELECTION",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": "S02",
+          "primary_concept": "EPI_EPC_SELECTION",
+          "semantic_family": "SAFETY_MEASURES",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q3157289",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "S02",
+          "secondary_modules": [],
+          "primary_concept": "EPI_EPC_SELECTION",
+          "semantic_family": "EPI_EPC_SELECTION",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": "S02",
+          "primary_concept": "EPI_EPC_SELECTION",
+          "semantic_family": "SAFETY_MEASURES",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q1037593",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "S02",
+          "secondary_modules": [],
+          "primary_concept": "EPI_EPC_SELECTION",
+          "semantic_family": "EPI_EPC_SELECTION",
+          "probable_types": [
+            "MULTIPLE_PROPOSITIONS"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "MULTIPLE_PROPOSITIONS"
+        },
+        "actual": {
+          "primary_module": "S02",
+          "primary_concept": "EPI_EPC_SELECTION",
+          "semantic_family": "SAFETY_MEASURES",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q3958229",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "S02",
+          "secondary_modules": [],
+          "primary_concept": "EPI_EPC_SELECTION",
+          "semantic_family": "EPI_EPC_SELECTION",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": "S02",
+          "primary_concept": "EPI_EPC_SELECTION",
+          "semantic_family": "SAFETY_MEASURES",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q3468466",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "F03",
+          "secondary_modules": [],
+          "primary_concept": "CAPACITOR_STORAGE",
+          "semantic_family": "CAPACITOR_STORAGE",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": "F03",
+          "primary_concept": "CAPACITOR_STORAGE",
+          "semantic_family": "AC_CIRCUITS",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q1916791",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "F01",
+          "secondary_modules": [],
+          "primary_concept": "ELECTRICAL_UNITS",
+          "semantic_family": "ELECTRICAL_UNITS",
+          "probable_types": [
+            "CALCULATION"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CALCULATION"
+        },
+        "actual": {
+          "primary_module": "F01",
+          "primary_concept": "ELECTRICAL_UNITS",
+          "semantic_family": "FUNDAMENTALS",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q3200234",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "I01",
+          "secondary_modules": [
+            "F04"
+          ],
+          "primary_concept": "LOAD_DEMAND_CURRENT",
+          "semantic_family": "LOAD_DEMAND_CURRENT",
+          "probable_types": [
+            "CALCULATION"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CALCULATION"
+        },
+        "actual": {
+          "primary_module": "I01",
+          "primary_concept": "LOAD_DEMAND_CURRENT",
+          "semantic_family": "BUILDING_INSTALLATIONS",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q1694550",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "P01",
+          "secondary_modules": [],
+          "primary_concept": "WIRING_INFRASTRUCTURE",
+          "semantic_family": "WIRING_INFRASTRUCTURE",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": "P01",
+          "primary_concept": "WIRING_INFRASTRUCTURE",
+          "semantic_family": "CONDUCTORS_AND_CABLES",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q3766965",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "M01",
+          "secondary_modules": [],
+          "primary_concept": "MULTIMETER_FUNCTION",
+          "semantic_family": "MULTIMETER_FUNCTION",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": "M01",
+          "primary_concept": "MULTIMETER_FUNCTION",
+          "semantic_family": "MULTIMETER_MEASUREMENTS",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q2158458",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "M01",
+          "secondary_modules": [],
+          "primary_concept": "MULTIMETER_CURRENT",
+          "semantic_family": "MULTIMETER_CURRENT",
+          "probable_types": [
+            "TRUE_FALSE"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "TRUE_FALSE"
+        },
+        "actual": {
+          "primary_module": "M01",
+          "primary_concept": "MULTIMETER_CURRENT",
+          "semantic_family": "MULTIMETER_MEASUREMENTS",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q2002186",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "M01",
+          "secondary_modules": [],
+          "primary_concept": "MULTIMETER_VOLTAGE",
+          "semantic_family": "MULTIMETER_VOLTAGE",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": "M01",
+          "primary_concept": "MULTIMETER_VOLTAGE",
+          "semantic_family": "MULTIMETER_MEASUREMENTS",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q606953",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "F02",
+          "secondary_modules": [],
+          "primary_concept": "SOURCE_LOADING",
+          "semantic_family": "SOURCE_LOADING",
+          "probable_types": [
+            "TRUE_FALSE"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "TRUE_FALSE"
+        },
+        "actual": {
+          "primary_module": "F02",
+          "primary_concept": "SOURCE_LOADING",
+          "semantic_family": "RESISTOR_NETWORKS",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q1631012",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "F02",
+          "secondary_modules": [],
+          "primary_concept": "KIRCHHOFF_KVL",
+          "semantic_family": "KIRCHHOFF_KVL",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": "F02",
+          "primary_concept": "KIRCHHOFF_KVL",
+          "semantic_family": "KIRCHHOFF_LAWS",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q609655",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "F02",
+          "secondary_modules": [],
+          "primary_concept": "PARALLEL_EQUIVALENT_RESISTANCE",
+          "semantic_family": "PARALLEL_EQUIVALENT_RESISTANCE",
+          "probable_types": [
+            "CALCULATION"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CALCULATION"
+        },
+        "actual": {
+          "primary_module": "F02",
+          "primary_concept": "PARALLEL_EQUIVALENT_RESISTANCE",
+          "semantic_family": "RESISTOR_NETWORKS",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q453504",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "M01",
+          "secondary_modules": [],
+          "primary_concept": "MEASUREMENT_CONNECTION",
+          "semantic_family": "MEASUREMENT_CONNECTION",
+          "probable_types": [
+            "DIAGRAM"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "DIAGRAM"
+        },
+        "actual": {
+          "primary_module": "M01",
+          "primary_concept": "MEASUREMENT_CONNECTION",
+          "semantic_family": "MULTIMETER_MEASUREMENTS",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q539964",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "F03",
+          "secondary_modules": [],
+          "primary_concept": "RC_TRANSIENT",
+          "semantic_family": "RC_TRANSIENT",
+          "probable_types": [
+            "CALCULATION"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CALCULATION"
+        },
+        "actual": {
+          "primary_module": "F03",
+          "primary_concept": "RC_TRANSIENT",
+          "semantic_family": "AC_CIRCUITS",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q2217527",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "F02",
+          "secondary_modules": [],
+          "primary_concept": "STAR_DELTA_IMPEDANCE",
+          "semantic_family": "STAR_DELTA_IMPEDANCE",
+          "probable_types": [
+            "CALCULATION"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CALCULATION"
+        },
+        "actual": {
+          "primary_module": "F02",
+          "primary_concept": "STAR_DELTA_IMPEDANCE",
+          "semantic_family": "RESISTOR_NETWORKS",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q3573981",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "E01",
+          "secondary_modules": [],
+          "primary_concept": "SYNCHRONOUS_SPEED",
+          "semantic_family": "SYNCHRONOUS_SPEED",
+          "probable_types": [
+            "CALCULATION"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CALCULATION"
+        },
+        "actual": {
+          "primary_module": "E01",
+          "primary_concept": "SYNCHRONOUS_SPEED",
+          "semantic_family": "AC_MOTORS",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q2779411",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "E01",
+          "secondary_modules": [],
+          "primary_concept": "SYNCHRONOUS_SPEED",
+          "semantic_family": "SYNCHRONOUS_SPEED",
+          "probable_types": [
+            "CALCULATION"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CALCULATION"
+        },
+        "actual": {
+          "primary_module": "E01",
+          "primary_concept": "SYNCHRONOUS_SPEED",
+          "semantic_family": "AC_MOTORS",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q462309",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": null,
+          "secondary_modules": [],
+          "primary_concept": "SYNCHRONOUS_MACHINE_EMF",
+          "semantic_family": "SYNCHRONOUS_MACHINE_EMF",
+          "probable_types": [
+            "CALCULATION"
+          ],
+          "unclassified_reason": "MISSING_MODULE",
+          "probable_type": "CALCULATION"
+        },
+        "actual": {
+          "primary_module": null,
+          "primary_concept": "SYNCHRONOUS_MACHINE_EMF",
+          "semantic_family": "SYNCHRONOUS_MACHINES",
+          "unclassified_reason": "MISSING_MODULE"
+        }
+      },
+      {
+        "source_id": "Q3949007",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "F04",
+          "secondary_modules": [],
+          "primary_concept": "POWER_FACTOR",
+          "semantic_family": "POWER_FACTOR",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": "F04",
+          "primary_concept": "POWER_FACTOR",
+          "semantic_family": "POWER_FACTOR_MANAGEMENT",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q4006990",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "F04",
+          "secondary_modules": [],
+          "primary_concept": "POWER_FACTOR_CORRECTION",
+          "semantic_family": "POWER_FACTOR_CORRECTION",
+          "probable_types": [
+            "CALCULATION"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CALCULATION"
+        },
+        "actual": {
+          "primary_module": "F04",
+          "primary_concept": "POWER_FACTOR_CORRECTION",
+          "semantic_family": "POWER_FACTOR_MANAGEMENT",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q3915223",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "F04",
+          "secondary_modules": [
+            "I01"
+          ],
+          "primary_concept": "ELECTRICAL_POWER",
+          "semantic_family": "ELECTRICAL_POWER",
+          "probable_types": [
+            "CALCULATION"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CALCULATION"
+        },
+        "actual": {
+          "primary_module": "F04",
+          "primary_concept": "ELECTRICAL_POWER",
+          "semantic_family": "ELECTRIC_POWER_AND_ENERGY",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q3019378",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "I03",
+          "secondary_modules": [],
+          "primary_concept": "ELECTRICAL_CAD",
+          "semantic_family": "ELECTRICAL_CAD",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": "I03",
+          "primary_concept": "ELECTRICAL_CAD",
+          "semantic_family": "ELECTRICAL_DRAWINGS",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q3981866",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "I03",
+          "secondary_modules": [],
+          "primary_concept": "ELECTRICAL_DIAGRAM_NOTATION",
+          "semantic_family": "ELECTRICAL_DIAGRAM_NOTATION",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": "I03",
+          "primary_concept": "ELECTRICAL_DIAGRAM_NOTATION",
+          "semantic_family": "ELECTRICAL_DRAWINGS",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q3025721",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": null,
+          "secondary_modules": [],
+          "primary_concept": "INSTRUMENTATION_TAGS",
+          "semantic_family": "INSTRUMENTATION_TAGS",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": "MISSING_MODULE",
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": null,
+          "primary_concept": "INSTRUMENTATION_TAGS",
+          "semantic_family": "INSTRUMENTATION_STANDARDS",
+          "unclassified_reason": "MISSING_MODULE"
+        }
+      },
+      {
+        "source_id": "Q1023744",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "I03",
+          "secondary_modules": [],
+          "primary_concept": "ELECTRICAL_DIAGRAM_NOTATION",
+          "semantic_family": "ELECTRICAL_DIAGRAM_NOTATION",
+          "probable_types": [
+            "DIAGRAM"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "DIAGRAM"
+        },
+        "actual": {
+          "primary_module": "I03",
+          "primary_concept": "ELECTRICAL_DIAGRAM_NOTATION",
+          "semantic_family": "ELECTRICAL_DRAWINGS",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q1023708",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "I03",
+          "secondary_modules": [],
+          "primary_concept": "ELECTRICAL_COMPONENT_SYMBOL",
+          "semantic_family": "ELECTRICAL_COMPONENT_SYMBOL",
+          "probable_types": [
+            "DIAGRAM"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "DIAGRAM"
+        },
+        "actual": {
+          "primary_module": "I03",
+          "primary_concept": "ELECTRICAL_COMPONENT_SYMBOL",
+          "semantic_family": "ELECTRICAL_DRAWINGS",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q3966220",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "S02",
+          "secondary_modules": [],
+          "primary_concept": "WORK_AT_HEIGHT",
+          "semantic_family": "WORK_AT_HEIGHT",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": "S02",
+          "primary_concept": "WORK_AT_HEIGHT",
+          "semantic_family": "SAFETY_MEASURES",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q461602",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "E02",
+          "secondary_modules": [],
+          "primary_concept": "THREE_PHASE_VOLTAGE",
+          "semantic_family": "THREE_PHASE_VOLTAGE",
+          "probable_types": [
+            "CALCULATION"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CALCULATION"
+        },
+        "actual": {
+          "primary_module": "E02",
+          "primary_concept": "THREE_PHASE_VOLTAGE",
+          "semantic_family": "THREE_PHASE_SYSTEMS",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q3264283",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "P02",
+          "secondary_modules": [],
+          "primary_concept": "OVERCURRENT_PROTECTION",
+          "semantic_family": "OVERCURRENT_PROTECTION",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": "P02",
+          "primary_concept": "OVERCURRENT_PROTECTION",
+          "semantic_family": "OVERCURRENT_PROTECTION",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q499915",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": null,
+          "secondary_modules": [],
+          "primary_concept": "DISTRIBUTION_REGULATORY_COST",
+          "semantic_family": "DISTRIBUTION_REGULATORY_COST",
+          "probable_types": [
+            "CALCULATION"
+          ],
+          "unclassified_reason": "OUT_OF_CURRICULUM",
+          "probable_type": "CALCULATION"
+        },
+        "actual": {
+          "primary_module": null,
+          "primary_concept": "DISTRIBUTION_REGULATORY_COST",
+          "semantic_family": "REGULATORY_FRAMEWORK",
+          "unclassified_reason": "OUT_OF_CURRICULUM"
+        }
+      },
+      {
+        "source_id": "Q180465",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": null,
+          "secondary_modules": [],
+          "primary_concept": "INDUSTRIAL_TRANSMITTER",
+          "semantic_family": "INDUSTRIAL_TRANSMITTER",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": "MISSING_MODULE",
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": null,
+          "primary_concept": "INDUSTRIAL_TRANSMITTER",
+          "semantic_family": "INDUSTRIAL_TRANSMITTERS",
+          "unclassified_reason": "MISSING_MODULE"
+        }
+      },
+      {
+        "source_id": "Q2042489",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "A01",
+          "secondary_modules": [],
+          "primary_concept": "BOOLEAN_ALGEBRA",
+          "semantic_family": "BOOLEAN_ALGEBRA",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": "A01",
+          "primary_concept": "BOOLEAN_ALGEBRA",
+          "semantic_family": "DIGITAL_LOGIC",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q2255988",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "A01",
+          "secondary_modules": [],
+          "primary_concept": "BOOLEAN_ALGEBRA",
+          "semantic_family": "BOOLEAN_ALGEBRA",
+          "probable_types": [
+            "CALCULATION"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CALCULATION"
+        },
+        "actual": {
+          "primary_module": "A01",
+          "primary_concept": "BOOLEAN_ALGEBRA",
+          "semantic_family": "DIGITAL_LOGIC",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q969635",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "A01",
+          "secondary_modules": [],
+          "primary_concept": "NUMBER_BASE_CONVERSION",
+          "semantic_family": "NUMBER_BASE_CONVERSION",
+          "probable_types": [
+            "CALCULATION"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CALCULATION"
+        },
+        "actual": {
+          "primary_module": "A01",
+          "primary_concept": "NUMBER_BASE_CONVERSION",
+          "semantic_family": "DIGITAL_LOGIC",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q431719",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "A01",
+          "secondary_modules": [],
+          "primary_concept": "LADDER_BOOLEAN",
+          "semantic_family": "LADDER_BOOLEAN",
+          "probable_types": [
+            "DIAGRAM"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "DIAGRAM"
+        },
+        "actual": {
+          "primary_module": "A01",
+          "primary_concept": "LADDER_BOOLEAN",
+          "semantic_family": "DIGITAL_LOGIC",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q731875",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "E01",
+          "secondary_modules": [],
+          "primary_concept": "SYNCHRONOUS_SPEED",
+          "semantic_family": "SYNCHRONOUS_SPEED",
+          "probable_types": [
+            "CALCULATION"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CALCULATION"
+        },
+        "actual": {
+          "primary_module": "E01",
+          "primary_concept": "SYNCHRONOUS_SPEED",
+          "semantic_family": "AC_MOTORS",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q2779415",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "E01",
+          "secondary_modules": [],
+          "primary_concept": "MOTOR_SLIP",
+          "semantic_family": "MOTOR_SLIP",
+          "probable_types": [
+            "CALCULATION"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CALCULATION"
+        },
+        "actual": {
+          "primary_module": "E01",
+          "primary_concept": "MOTOR_SLIP",
+          "semantic_family": "AC_MOTORS",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q1768656",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "E01",
+          "secondary_modules": [],
+          "primary_concept": "MOTOR_SLIP",
+          "semantic_family": "MOTOR_SLIP",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": "E01",
+          "primary_concept": "MOTOR_SLIP",
+          "semantic_family": "AC_MOTORS",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q1767154",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "E01",
+          "secondary_modules": [],
+          "primary_concept": "MOTOR_SLIP",
+          "semantic_family": "MOTOR_SLIP",
+          "probable_types": [
+            "TRUE_FALSE"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "TRUE_FALSE"
+        },
+        "actual": {
+          "primary_module": "E01",
+          "primary_concept": "MOTOR_SLIP",
+          "semantic_family": "AC_MOTORS",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q2177313",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "T01",
+          "secondary_modules": [],
+          "primary_concept": "TRANSFORMER_RATIO",
+          "semantic_family": "TRANSFORMER_RATIO",
+          "probable_types": [
+            "CALCULATION"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CALCULATION"
+        },
+        "actual": {
+          "primary_module": "T01",
+          "primary_concept": "TRANSFORMER_RATIO",
+          "semantic_family": "POWER_TRANSFORMERS",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q1046934",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "T01",
+          "secondary_modules": [],
+          "primary_concept": "TRANSFORMER_RATIO",
+          "semantic_family": "TRANSFORMER_RATIO",
+          "probable_types": [
+            "CALCULATION"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CALCULATION"
+        },
+        "actual": {
+          "primary_module": "T01",
+          "primary_concept": "TRANSFORMER_RATIO",
+          "semantic_family": "POWER_TRANSFORMERS",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q759346",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": null,
+          "secondary_modules": [],
+          "primary_concept": "SEMICONDUCTOR_SWITCH",
+          "semantic_family": "SEMICONDUCTOR_SWITCH",
+          "probable_types": [
+            "DIAGRAM",
+            "TRUE_FALSE"
+          ],
+          "unclassified_reason": "MISSING_MODULE",
+          "probable_type": "TRUE_FALSE"
+        },
+        "actual": {
+          "primary_module": null,
+          "primary_concept": "SEMICONDUCTOR_SWITCH",
+          "semantic_family": "POWER_ELECTRONICS",
+          "unclassified_reason": "MISSING_MODULE"
+        }
+      },
+      {
+        "source_id": "Q2369617",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "A02",
+          "secondary_modules": [],
+          "primary_concept": "AUTOMATION_ACTUATOR",
+          "semantic_family": "AUTOMATION_ACTUATOR",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": "A02",
+          "primary_concept": "AUTOMATION_ACTUATOR",
+          "semantic_family": "PROGRAMMABLE_CONTROLLERS",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q460311",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "T02",
+          "secondary_modules": [],
+          "primary_concept": "CURRENT_TRANSFORMER",
+          "semantic_family": "CURRENT_TRANSFORMER",
+          "probable_types": [
+            "CALCULATION"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CALCULATION"
+        },
+        "actual": {
+          "primary_module": "T02",
+          "primary_concept": "CURRENT_TRANSFORMER",
+          "semantic_family": "INSTRUMENT_TRANSFORMERS",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q3976912",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "T02",
+          "secondary_modules": [
+            "M01"
+          ],
+          "primary_concept": "CURRENT_TRANSFORMER",
+          "semantic_family": "CURRENT_TRANSFORMER",
+          "probable_types": [
+            "CALCULATION"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CALCULATION"
+        },
+        "actual": {
+          "primary_module": "T02",
+          "primary_concept": "CURRENT_TRANSFORMER",
+          "semantic_family": "INSTRUMENT_TRANSFORMERS",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q278096",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "R02",
+          "secondary_modules": [],
+          "primary_concept": "SUBSTATION_AUXILIARY_POWER",
+          "semantic_family": "SUBSTATION_AUXILIARY_POWER",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": "R02",
+          "primary_concept": "SUBSTATION_AUXILIARY_POWER",
+          "semantic_family": "SUBSTATIONS",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q3272003",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": null,
+          "secondary_modules": [],
+          "primary_concept": "PROTOBOARD",
+          "semantic_family": "PROTOBOARD",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": "MISSING_MODULE",
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": null,
+          "primary_concept": "PROTOBOARD",
+          "semantic_family": "PROTOTYPING",
+          "unclassified_reason": "MISSING_MODULE"
+        }
+      },
+      {
+        "source_id": "Q2157566",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "R02",
+          "secondary_modules": [],
+          "primary_concept": "SUBSTATION_PROTECTION",
+          "semantic_family": "SUBSTATION_PROTECTION",
+          "probable_types": [
+            "TRUE_FALSE"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "TRUE_FALSE"
+        },
+        "actual": {
+          "primary_module": "R02",
+          "primary_concept": "SUBSTATION_PROTECTION",
+          "semantic_family": "SUBSTATIONS",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q2081100",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": null,
+          "secondary_modules": [],
+          "primary_concept": "INDUSTRIAL_NETWORK",
+          "semantic_family": "INDUSTRIAL_NETWORK",
+          "probable_types": [
+            "TRUE_FALSE"
+          ],
+          "unclassified_reason": "MISSING_MODULE",
+          "probable_type": "TRUE_FALSE"
+        },
+        "actual": {
+          "primary_module": null,
+          "primary_concept": "INDUSTRIAL_NETWORK",
+          "semantic_family": "COMMUNICATION_NETWORKS",
+          "unclassified_reason": "MISSING_MODULE"
+        }
+      },
+      {
+        "source_id": "Q2729179",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "P01",
+          "secondary_modules": [],
+          "primary_concept": "VOLTAGE_DROP",
+          "semantic_family": "VOLTAGE_DROP",
+          "probable_types": [
+            "CALCULATION"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CALCULATION"
+        },
+        "actual": {
+          "primary_module": "P01",
+          "primary_concept": "VOLTAGE_DROP",
+          "semantic_family": "CONDUCTORS_AND_CABLES",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q654057",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "R01",
+          "secondary_modules": [],
+          "primary_concept": "DISTRIBUTION_CONNECTION",
+          "semantic_family": "DISTRIBUTION_CONNECTION",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": "R01",
+          "primary_concept": "DISTRIBUTION_CONNECTION",
+          "semantic_family": "DISTRIBUTION_NETWORKS",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q3616346",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "I01",
+          "secondary_modules": [],
+          "primary_concept": "LIGHTING_SELECTION",
+          "semantic_family": "LIGHTING_SELECTION",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": "I01",
+          "primary_concept": "LIGHTING_SELECTION",
+          "semantic_family": "BUILDING_INSTALLATIONS",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q2447327",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "F04",
+          "secondary_modules": [
+            "I01"
+          ],
+          "primary_concept": "ELECTRICAL_POWER",
+          "semantic_family": "ELECTRICAL_POWER",
+          "probable_types": [
+            "CALCULATION"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CALCULATION"
+        },
+        "actual": {
+          "primary_module": "F04",
+          "primary_concept": "ELECTRICAL_POWER",
+          "semantic_family": "ELECTRIC_POWER_AND_ENERGY",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q3942990",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "I01",
+          "secondary_modules": [],
+          "primary_concept": "LIGHTING_CONTROL_PROTOCOL",
+          "semantic_family": "LIGHTING_CONTROL_PROTOCOL",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": "I01",
+          "primary_concept": "LIGHTING_CONTROL_PROTOCOL",
+          "semantic_family": "BUILDING_INSTALLATIONS",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q93722",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": null,
+          "secondary_modules": [],
+          "primary_concept": "ANEEL_ADMINISTRATION",
+          "semantic_family": "ANEEL_ADMINISTRATION",
+          "probable_types": [
+            "TRUE_FALSE"
+          ],
+          "unclassified_reason": "OUT_OF_CURRICULUM",
+          "probable_type": "TRUE_FALSE"
+        },
+        "actual": {
+          "primary_module": null,
+          "primary_concept": "ANEEL_ADMINISTRATION",
+          "semantic_family": "REGULATORY_FRAMEWORK",
+          "unclassified_reason": "OUT_OF_CURRICULUM"
+        }
+      },
+      {
+        "source_id": "Q263040",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "I01",
+          "secondary_modules": [],
+          "primary_concept": "LOAD_ALLOCATION",
+          "semantic_family": "LOAD_ALLOCATION",
+          "probable_types": [
+            "CALCULATION"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CALCULATION"
+        },
+        "actual": {
+          "primary_module": "I01",
+          "primary_concept": "LOAD_ALLOCATION",
+          "semantic_family": "BUILDING_INSTALLATIONS",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q3125854",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "P01",
+          "secondary_modules": [],
+          "primary_concept": "CONDUCTOR_AMPACITY",
+          "semantic_family": "CONDUCTOR_AMPACITY",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": "P01",
+          "primary_concept": "CONDUCTOR_AMPACITY",
+          "semantic_family": "CONDUCTORS_AND_CABLES",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q231985",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "P01",
+          "secondary_modules": [],
+          "primary_concept": "CONDUCTOR_CORRECTION",
+          "semantic_family": "CONDUCTOR_CORRECTION",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": "P01",
+          "primary_concept": "CONDUCTOR_CORRECTION",
+          "semantic_family": "CONDUCTORS_AND_CABLES",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q3008696",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "P01",
+          "secondary_modules": [],
+          "primary_concept": "CONDUCTOR_SIZING",
+          "semantic_family": "CONDUCTOR_SIZING",
+          "probable_types": [
+            "MULTIPLE_PROPOSITIONS"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "MULTIPLE_PROPOSITIONS"
+        },
+        "actual": {
+          "primary_module": "P01",
+          "primary_concept": "CONDUCTOR_SIZING",
+          "semantic_family": "CONDUCTORS_AND_CABLES",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q823507",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "P02",
+          "secondary_modules": [],
+          "primary_concept": "PROTECTION_CONDUCTOR_COORDINATION",
+          "semantic_family": "PROTECTION_CONDUCTOR_COORDINATION",
+          "probable_types": [
+            "CALCULATION"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CALCULATION"
+        },
+        "actual": {
+          "primary_module": "P02",
+          "primary_concept": "PROTECTION_CONDUCTOR_COORDINATION",
+          "semantic_family": "OVERCURRENT_PROTECTION",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q3200229",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "F04",
+          "secondary_modules": [
+            "I01"
+          ],
+          "primary_concept": "ELECTRICAL_POWER",
+          "semantic_family": "ELECTRICAL_POWER",
+          "probable_types": [
+            "CALCULATION"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CALCULATION"
+        },
+        "actual": {
+          "primary_module": "F04",
+          "primary_concept": "ELECTRICAL_POWER",
+          "semantic_family": "ELECTRIC_POWER_AND_ENERGY",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q3075673",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "P02",
+          "secondary_modules": [],
+          "primary_concept": "OVERCURRENT_PROTECTION",
+          "semantic_family": "OVERCURRENT_PROTECTION",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": "P02",
+          "primary_concept": "OVERCURRENT_PROTECTION",
+          "semantic_family": "OVERCURRENT_PROTECTION",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q3509144",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "P03",
+          "secondary_modules": [],
+          "primary_concept": "RESIDUAL_CURRENT_PROTECTION",
+          "semantic_family": "RESIDUAL_CURRENT_PROTECTION",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": "P03",
+          "primary_concept": "RESIDUAL_CURRENT_PROTECTION",
+          "semantic_family": "RESIDUAL_PROTECTION",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q3607231",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "I02",
+          "secondary_modules": [],
+          "primary_concept": "LIGHTING_SWITCHING",
+          "semantic_family": "LIGHTING_SWITCHING",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": "I02",
+          "primary_concept": "LIGHTING_SWITCHING",
+          "semantic_family": "LIGHTING_CONTROLS",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q3566335",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "I02",
+          "secondary_modules": [],
+          "primary_concept": "LIGHTING_SWITCHING",
+          "semantic_family": "LIGHTING_SWITCHING",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": "I02",
+          "primary_concept": "LIGHTING_SWITCHING",
+          "semantic_family": "LIGHTING_CONTROLS",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q3480988",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "I03",
+          "secondary_modules": [],
+          "primary_concept": "ELECTRICAL_COMPONENT_SYMBOL",
+          "semantic_family": "ELECTRICAL_COMPONENT_SYMBOL",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": "I03",
+          "primary_concept": "ELECTRICAL_COMPONENT_SYMBOL",
+          "semantic_family": "ELECTRICAL_DRAWINGS",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q1066325",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "I02",
+          "secondary_modules": [
+            "S01"
+          ],
+          "primary_concept": "LIGHTING_SWITCHING",
+          "semantic_family": "LIGHTING_SWITCHING",
+          "probable_types": [
+            "MULTIPLE_PROPOSITIONS"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "MULTIPLE_PROPOSITIONS"
+        },
+        "actual": {
+          "primary_module": "I02",
+          "primary_concept": "LIGHTING_SWITCHING",
+          "semantic_family": "LIGHTING_CONTROLS",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q2125847",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "P03",
+          "secondary_modules": [],
+          "primary_concept": "RESIDUAL_CURRENT_PROTECTION",
+          "semantic_family": "RESIDUAL_CURRENT_PROTECTION",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": "P03",
+          "primary_concept": "RESIDUAL_CURRENT_PROTECTION",
+          "semantic_family": "RESIDUAL_PROTECTION",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q4104272",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "P03",
+          "secondary_modules": [],
+          "primary_concept": "RESIDUAL_CURRENT_PROTECTION",
+          "semantic_family": "RESIDUAL_CURRENT_PROTECTION",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": "P03",
+          "primary_concept": "RESIDUAL_CURRENT_PROTECTION",
+          "semantic_family": "RESIDUAL_PROTECTION",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q2226740",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "P03",
+          "secondary_modules": [],
+          "primary_concept": "RESIDUAL_CURRENT_PROTECTION",
+          "semantic_family": "RESIDUAL_CURRENT_PROTECTION",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": "P03",
+          "primary_concept": "RESIDUAL_CURRENT_PROTECTION",
+          "semantic_family": "RESIDUAL_PROTECTION",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q533336",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "P03",
+          "secondary_modules": [
+            "P04"
+          ],
+          "primary_concept": "RESIDUAL_EARTHING_COMPATIBILITY",
+          "semantic_family": "RESIDUAL_EARTHING_COMPATIBILITY",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": "P03",
+          "primary_concept": "RESIDUAL_EARTHING_COMPATIBILITY",
+          "semantic_family": "RESIDUAL_PROTECTION",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q3675317",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "M02",
+          "secondary_modules": [],
+          "primary_concept": "CONTINUITY_TEST",
+          "semantic_family": "CONTINUITY_TEST",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": "M02",
+          "primary_concept": "CONTINUITY_TEST",
+          "semantic_family": "INSULATION_AND_CONTINUITY",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q4129342",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "P02",
+          "secondary_modules": [],
+          "primary_concept": "FUSE_OPERATION",
+          "semantic_family": "FUSE_OPERATION",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": "P02",
+          "primary_concept": "FUSE_OPERATION",
+          "semantic_family": "OVERCURRENT_PROTECTION",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q4083345",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "M02",
+          "secondary_modules": [],
+          "primary_concept": "INSULATION_TEST",
+          "semantic_family": "INSULATION_TEST",
+          "probable_types": [
+            "TRUE_FALSE"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "TRUE_FALSE"
+        },
+        "actual": {
+          "primary_module": "M02",
+          "primary_concept": "INSULATION_TEST",
+          "semantic_family": "INSULATION_AND_CONTINUITY",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q4160619",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "S03",
+          "secondary_modules": [],
+          "primary_concept": "NR10_DOCUMENTATION",
+          "semantic_family": "NR10_DOCUMENTATION",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": "S03",
+          "primary_concept": "NR10_DOCUMENTATION",
+          "semantic_family": "SAFETY_REGULATIONS",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q3992776",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "V01",
+          "secondary_modules": [],
+          "primary_concept": "PV_ENERGY",
+          "semantic_family": "PV_ENERGY",
+          "probable_types": [
+            "CALCULATION"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CALCULATION"
+        },
+        "actual": {
+          "primary_module": "V01",
+          "primary_concept": "PV_ENERGY",
+          "semantic_family": "PHOTOVOLTAIC_SYSTEMS",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q3887498",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "V01",
+          "secondary_modules": [],
+          "primary_concept": "PV_ARRAY_POWER",
+          "semantic_family": "PV_ARRAY_POWER",
+          "probable_types": [
+            "CALCULATION"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CALCULATION"
+        },
+        "actual": {
+          "primary_module": "V01",
+          "primary_concept": "PV_ARRAY_POWER",
+          "semantic_family": "PHOTOVOLTAIC_SYSTEMS",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q3458243",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "V01",
+          "secondary_modules": [],
+          "primary_concept": "PV_IV_CURVE",
+          "semantic_family": "PV_IV_CURVE",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": "V01",
+          "primary_concept": "PV_IV_CURVE",
+          "semantic_family": "PHOTOVOLTAIC_SYSTEMS",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q1113505",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "V01",
+          "secondary_modules": [],
+          "primary_concept": "RENEWABLE_SOURCES",
+          "semantic_family": "RENEWABLE_SOURCES",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": "V01",
+          "primary_concept": "RENEWABLE_SOURCES",
+          "semantic_family": "PHOTOVOLTAIC_SYSTEMS",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q4218684",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "D02",
+          "secondary_modules": [],
+          "primary_concept": "THERMOGRAPHY",
+          "semantic_family": "THERMOGRAPHY",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": "D02",
+          "primary_concept": "THERMOGRAPHY",
+          "semantic_family": "MAINTENANCE_AND_DIAGNOSIS",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q803824",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "D01",
+          "secondary_modules": [],
+          "primary_concept": "MAINTENANCE_STRATEGY",
+          "semantic_family": "MAINTENANCE_STRATEGY",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": "D01",
+          "primary_concept": "MAINTENANCE_STRATEGY",
+          "semantic_family": "MAINTENANCE_AND_DIAGNOSIS",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q3798181",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "M01",
+          "secondary_modules": [],
+          "primary_concept": "MEASUREMENT_CONNECTION",
+          "semantic_family": "MEASUREMENT_CONNECTION",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": "M01",
+          "primary_concept": "MEASUREMENT_CONNECTION",
+          "semantic_family": "MULTIMETER_MEASUREMENTS",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q742064",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "D01",
+          "secondary_modules": [],
+          "primary_concept": "MAINTENANCE_STRATEGY",
+          "semantic_family": "MAINTENANCE_STRATEGY",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": "D01",
+          "primary_concept": "MAINTENANCE_STRATEGY",
+          "semantic_family": "MAINTENANCE_AND_DIAGNOSIS",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q4083376",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "D02",
+          "secondary_modules": [],
+          "primary_concept": "THERMOGRAPHY",
+          "semantic_family": "THERMOGRAPHY",
+          "probable_types": [
+            "TRUE_FALSE"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "TRUE_FALSE"
+        },
+        "actual": {
+          "primary_module": "D02",
+          "primary_concept": "THERMOGRAPHY",
+          "semantic_family": "MAINTENANCE_AND_DIAGNOSIS",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q1113499",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "M01",
+          "secondary_modules": [],
+          "primary_concept": "MEASUREMENT_CONNECTION",
+          "semantic_family": "MEASUREMENT_CONNECTION",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": "M01",
+          "primary_concept": "MEASUREMENT_CONNECTION",
+          "semantic_family": "MULTIMETER_MEASUREMENTS",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q811507",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "E01",
+          "secondary_modules": [],
+          "primary_concept": "MOTOR_LOCKED_ROTOR_TEST",
+          "semantic_family": "MOTOR_LOCKED_ROTOR_TEST",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": "E01",
+          "primary_concept": "MOTOR_LOCKED_ROTOR_TEST",
+          "semantic_family": "AC_MOTORS",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q413070",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "E02",
+          "secondary_modules": [],
+          "primary_concept": "THREE_PHASE_VOLTAGE",
+          "semantic_family": "THREE_PHASE_VOLTAGE",
+          "probable_types": [
+            "CALCULATION"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CALCULATION"
+        },
+        "actual": {
+          "primary_module": "E02",
+          "primary_concept": "THREE_PHASE_VOLTAGE",
+          "semantic_family": "THREE_PHASE_SYSTEMS",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q514337",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "P02",
+          "secondary_modules": [],
+          "primary_concept": "MOTOR_PROTECTION",
+          "semantic_family": "MOTOR_PROTECTION",
+          "probable_types": [
+            "CALCULATION"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CALCULATION"
+        },
+        "actual": {
+          "primary_module": "P02",
+          "primary_concept": "MOTOR_PROTECTION",
+          "semantic_family": "MOTOR_PROTECTION",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q811511",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "R01",
+          "secondary_modules": [],
+          "primary_concept": "DISTRIBUTION_CONNECTION",
+          "semantic_family": "DISTRIBUTION_CONNECTION",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": "R01",
+          "primary_concept": "DISTRIBUTION_CONNECTION",
+          "semantic_family": "DISTRIBUTION_NETWORKS",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q747658",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "E03",
+          "secondary_modules": [],
+          "primary_concept": "DIRECT_START",
+          "semantic_family": "DIRECT_START",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": "E03",
+          "primary_concept": "DIRECT_START",
+          "semantic_family": "MOTOR_STARTING",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q1629121",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "E03",
+          "secondary_modules": [],
+          "primary_concept": "LOGIC_INTERLOCK",
+          "semantic_family": "LOGIC_INTERLOCK",
+          "probable_types": [
+            "DIAGRAM"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "DIAGRAM"
+        },
+        "actual": {
+          "primary_module": "E03",
+          "primary_concept": "LOGIC_INTERLOCK",
+          "semantic_family": "MOTOR_CONTROL",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q2955313",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "P02",
+          "secondary_modules": [],
+          "primary_concept": "MOTOR_PROTECTION",
+          "semantic_family": "MOTOR_PROTECTION",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": "P02",
+          "primary_concept": "MOTOR_PROTECTION",
+          "semantic_family": "MOTOR_PROTECTION",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q3422149",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "E03",
+          "secondary_modules": [],
+          "primary_concept": "RELAY_OPERATION",
+          "semantic_family": "RELAY_OPERATION",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": "E03",
+          "primary_concept": "RELAY_OPERATION",
+          "semantic_family": "MOTOR_CONTROL",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q1762486",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "A01",
+          "secondary_modules": [],
+          "primary_concept": "NUMBER_BASE_CONVERSION",
+          "semantic_family": "NUMBER_BASE_CONVERSION",
+          "probable_types": [
+            "CALCULATION"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CALCULATION"
+        },
+        "actual": {
+          "primary_module": "A01",
+          "primary_concept": "NUMBER_BASE_CONVERSION",
+          "semantic_family": "DIGITAL_LOGIC",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q596755",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "A02",
+          "secondary_modules": [],
+          "primary_concept": "PLC_IO",
+          "semantic_family": "PLC_IO",
+          "probable_types": [
+            "TRUE_FALSE"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "TRUE_FALSE"
+        },
+        "actual": {
+          "primary_module": "A02",
+          "primary_concept": "PLC_IO",
+          "semantic_family": "PROGRAMMABLE_CONTROLLERS",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q3021242",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "A02",
+          "secondary_modules": [],
+          "primary_concept": "PLC_PROGRAMMING",
+          "semantic_family": "PLC_PROGRAMMING",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": "A02",
+          "primary_concept": "PLC_PROGRAMMING",
+          "semantic_family": "PROGRAMMABLE_CONTROLLERS",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q182432",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "A02",
+          "secondary_modules": [],
+          "primary_concept": "SCADA_OPERATION",
+          "semantic_family": "SCADA_OPERATION",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": "A02",
+          "primary_concept": "SCADA_OPERATION",
+          "semantic_family": "PROGRAMMABLE_CONTROLLERS",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q3386300",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "E06",
+          "secondary_modules": [],
+          "primary_concept": "FREQUENCY_DRIVE",
+          "semantic_family": "FREQUENCY_DRIVE",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": "E06",
+          "primary_concept": "FREQUENCY_DRIVE",
+          "semantic_family": "ELECTRONIC_MOTOR_DRIVES",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q3232090",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "E06",
+          "secondary_modules": [],
+          "primary_concept": "FREQUENCY_DRIVE",
+          "semantic_family": "FREQUENCY_DRIVE",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": "E06",
+          "primary_concept": "FREQUENCY_DRIVE",
+          "semantic_family": "ELECTRONIC_MOTOR_DRIVES",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q490253",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "E06",
+          "secondary_modules": [],
+          "primary_concept": "SOFT_STARTER",
+          "semantic_family": "SOFT_STARTER",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": "E06",
+          "primary_concept": "SOFT_STARTER",
+          "semantic_family": "ELECTRONIC_MOTOR_DRIVES",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q1888091",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "E06",
+          "secondary_modules": [],
+          "primary_concept": "FREQUENCY_DRIVE",
+          "semantic_family": "FREQUENCY_DRIVE",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": "E06",
+          "primary_concept": "FREQUENCY_DRIVE",
+          "semantic_family": "ELECTRONIC_MOTOR_DRIVES",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q2867844",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "E04",
+          "secondary_modules": [],
+          "primary_concept": "STAR_DELTA_START",
+          "semantic_family": "STAR_DELTA_START",
+          "probable_types": [
+            "CALCULATION"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CALCULATION"
+        },
+        "actual": {
+          "primary_module": "E04",
+          "primary_concept": "STAR_DELTA_START",
+          "semantic_family": "REDUCED_VOLTAGE_STARTING",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q3231028",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "E04",
+          "secondary_modules": [],
+          "primary_concept": "STAR_DELTA_START",
+          "semantic_family": "STAR_DELTA_START",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": "E04",
+          "primary_concept": "STAR_DELTA_START",
+          "semantic_family": "REDUCED_VOLTAGE_STARTING",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q173552",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "E04",
+          "secondary_modules": [],
+          "primary_concept": "STAR_DELTA_START",
+          "semantic_family": "STAR_DELTA_START",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": "E04",
+          "primary_concept": "STAR_DELTA_START",
+          "semantic_family": "REDUCED_VOLTAGE_STARTING",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q2910275",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "T01",
+          "secondary_modules": [],
+          "primary_concept": "TRANSFORMER_THREE_PHASE",
+          "semantic_family": "TRANSFORMER_THREE_PHASE",
+          "probable_types": [
+            "CALCULATION"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CALCULATION"
+        },
+        "actual": {
+          "primary_module": "T01",
+          "primary_concept": "TRANSFORMER_THREE_PHASE",
+          "semantic_family": "POWER_TRANSFORMERS",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q522245",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "A03",
+          "secondary_modules": [],
+          "primary_concept": "PRESENCE_SENSOR",
+          "semantic_family": "PRESENCE_SENSOR",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": "A03",
+          "primary_concept": "PRESENCE_SENSOR",
+          "semantic_family": "AUTOMATION_SENSORS",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q1087482",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "A03",
+          "secondary_modules": [],
+          "primary_concept": "ULTRASONIC_LEVEL",
+          "semantic_family": "ULTRASONIC_LEVEL",
+          "probable_types": [
+            "CALCULATION"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CALCULATION"
+        },
+        "actual": {
+          "primary_module": "A03",
+          "primary_concept": "ULTRASONIC_LEVEL",
+          "semantic_family": "AUTOMATION_SENSORS",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q411629",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "A03",
+          "secondary_modules": [],
+          "primary_concept": "FIRE_DETECTION",
+          "semantic_family": "FIRE_DETECTION",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": "A03",
+          "primary_concept": "FIRE_DETECTION",
+          "semantic_family": "SAFETY_SYSTEMS",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q402449",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": null,
+          "secondary_modules": [],
+          "primary_concept": "PUMP_MECHANICAL_FAULT",
+          "semantic_family": "PUMP_MECHANICAL_FAULT",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": "OUT_OF_CURRICULUM",
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": null,
+          "primary_concept": "PUMP_MECHANICAL_FAULT",
+          "semantic_family": "MECHANICAL_FAULTS",
+          "unclassified_reason": "OUT_OF_CURRICULUM"
+        }
+      },
+      {
+        "source_id": "Q759352",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "E05",
+          "secondary_modules": [],
+          "primary_concept": "DAHLANDER",
+          "semantic_family": "DAHLANDER",
+          "probable_types": [
+            "TRUE_FALSE"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "TRUE_FALSE"
+        },
+        "actual": {
+          "primary_module": "E05",
+          "primary_concept": "DAHLANDER",
+          "semantic_family": "SPECIAL_MOTORS",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q186325",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "P04",
+          "secondary_modules": [],
+          "primary_concept": "EARTHING_SCHEME",
+          "semantic_family": "EARTHING_SCHEME",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": "P04",
+          "primary_concept": "EARTHING_SCHEME",
+          "semantic_family": "EARTHING_SYSTEMS",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q3915208",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "P04",
+          "secondary_modules": [],
+          "primary_concept": "EARTHING_ELECTRODE",
+          "semantic_family": "EARTHING_ELECTRODE",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": "P04",
+          "primary_concept": "EARTHING_ELECTRODE",
+          "semantic_family": "EARTHING_SYSTEMS",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q186435",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "P04",
+          "secondary_modules": [],
+          "primary_concept": "EARTHING_FUNCTION",
+          "semantic_family": "EARTHING_FUNCTION",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": "P04",
+          "primary_concept": "EARTHING_FUNCTION",
+          "semantic_family": "EARTHING_SYSTEMS",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q2523914",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "P01",
+          "secondary_modules": [],
+          "primary_concept": "CONDUCTOR_INSULATION",
+          "semantic_family": "CONDUCTOR_INSULATION",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": "P01",
+          "primary_concept": "CONDUCTOR_INSULATION",
+          "semantic_family": "CONDUCTORS_AND_CABLES",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q2314741",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "P05",
+          "secondary_modules": [],
+          "primary_concept": "SURGE_PROTECTION",
+          "semantic_family": "SURGE_PROTECTION",
+          "probable_types": [
+            "TRUE_FALSE"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "TRUE_FALSE"
+        },
+        "actual": {
+          "primary_module": "P05",
+          "primary_concept": "SURGE_PROTECTION",
+          "semantic_family": "SURGE_AND_LIGHTNING_PROTECTION",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q4083375",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "P05",
+          "secondary_modules": [],
+          "primary_concept": "SPDA",
+          "semantic_family": "SPDA",
+          "probable_types": [
+            "TRUE_FALSE"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "TRUE_FALSE"
+        },
+        "actual": {
+          "primary_module": "P05",
+          "primary_concept": "SPDA",
+          "semantic_family": "SURGE_AND_LIGHTNING_PROTECTION",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q3125845",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "P05",
+          "secondary_modules": [],
+          "primary_concept": "SURGE_PROTECTION",
+          "semantic_family": "SURGE_PROTECTION",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": "P05",
+          "primary_concept": "SURGE_PROTECTION",
+          "semantic_family": "SURGE_AND_LIGHTNING_PROTECTION",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q1629114",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "S03",
+          "secondary_modules": [],
+          "primary_concept": "NR10_DOCUMENTATION",
+          "semantic_family": "NR10_DOCUMENTATION",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": "S03",
+          "primary_concept": "NR10_DOCUMENTATION",
+          "semantic_family": "SAFETY_REGULATIONS",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q2314701",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "F03",
+          "secondary_modules": [],
+          "primary_concept": "INDUCTOR_STORAGE",
+          "semantic_family": "INDUCTOR_STORAGE",
+          "probable_types": [
+            "TRUE_FALSE"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "TRUE_FALSE"
+        },
+        "actual": {
+          "primary_module": "F03",
+          "primary_concept": "INDUCTOR_STORAGE",
+          "semantic_family": "AC_CIRCUITS",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q2538201",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": null,
+          "secondary_modules": [],
+          "primary_concept": "TRANSISTOR_OPERATION",
+          "semantic_family": "TRANSISTOR_OPERATION",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": "MISSING_MODULE",
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": null,
+          "primary_concept": "TRANSISTOR_OPERATION",
+          "semantic_family": "TRANSISTORS",
+          "unclassified_reason": "MISSING_MODULE"
+        }
+      },
+      {
+        "source_id": "Q2693093",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": null,
+          "secondary_modules": [],
+          "primary_concept": "SEMICONDUCTOR_SWITCH",
+          "semantic_family": "SEMICONDUCTOR_SWITCH",
+          "probable_types": [
+            "MULTIPLE_PROPOSITIONS"
+          ],
+          "unclassified_reason": "MISSING_MODULE",
+          "probable_type": "MULTIPLE_PROPOSITIONS"
+        },
+        "actual": {
+          "primary_module": null,
+          "primary_concept": "SEMICONDUCTOR_SWITCH",
+          "semantic_family": "POWER_ELECTRONICS",
+          "unclassified_reason": "MISSING_MODULE"
+        }
+      },
+      {
+        "source_id": "Q404449",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": null,
+          "secondary_modules": [],
+          "primary_concept": "TRANSISTOR_IDENTIFICATION",
+          "semantic_family": "TRANSISTOR_IDENTIFICATION",
+          "probable_types": [
+            "DIAGRAM"
+          ],
+          "unclassified_reason": "MISSING_MODULE",
+          "probable_type": "DIAGRAM"
+        },
+        "actual": {
+          "primary_module": null,
+          "primary_concept": "TRANSISTOR_IDENTIFICATION",
+          "semantic_family": "TRANSISTORS",
+          "unclassified_reason": "MISSING_MODULE"
+        }
+      },
+      {
+        "source_id": "Q4097795",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "I01",
+          "secondary_modules": [],
+          "primary_concept": "ELECTRICIAN_TOOLS",
+          "semantic_family": "ELECTRICIAN_TOOLS",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": "I01",
+          "primary_concept": "ELECTRICIAN_TOOLS",
+          "semantic_family": "BUILDING_INSTALLATIONS",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q2314684",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "S02",
+          "secondary_modules": [],
+          "primary_concept": "WORKPLACE_ORGANIZATION",
+          "semantic_family": "WORKPLACE_ORGANIZATION",
+          "probable_types": [
+            "TRUE_FALSE"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "TRUE_FALSE"
+        },
+        "actual": {
+          "primary_module": "S02",
+          "primary_concept": "WORKPLACE_ORGANIZATION",
+          "semantic_family": "SAFETY_MEASURES",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q747675",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": null,
+          "secondary_modules": [],
+          "primary_concept": "THYRISTOR_OPERATION",
+          "semantic_family": "THYRISTOR_OPERATION",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": "MISSING_MODULE",
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": null,
+          "primary_concept": "THYRISTOR_OPERATION",
+          "semantic_family": "POWER_ELECTRONICS",
+          "unclassified_reason": "MISSING_MODULE"
+        }
+      },
+      {
+        "source_id": "Q1812409",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": null,
+          "secondary_modules": [],
+          "primary_concept": "SEMICONDUCTOR_PHYSICS",
+          "semantic_family": "SEMICONDUCTOR_PHYSICS",
+          "probable_types": [
+            "TRUE_FALSE"
+          ],
+          "unclassified_reason": "MISSING_MODULE",
+          "probable_type": "TRUE_FALSE"
+        },
+        "actual": {
+          "primary_module": null,
+          "primary_concept": "SEMICONDUCTOR_PHYSICS",
+          "semantic_family": "SEMICONDUCTORS",
+          "unclassified_reason": "MISSING_MODULE"
+        }
+      },
+      {
+        "source_id": "Q413081",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": null,
+          "secondary_modules": [],
+          "primary_concept": "RECTIFIER_OPERATION",
+          "semantic_family": "RECTIFIER_OPERATION",
+          "probable_types": [
+            "DIAGRAM",
+            "MULTIPLE_PROPOSITIONS"
+          ],
+          "unclassified_reason": "MISSING_MODULE",
+          "probable_type": "MULTIPLE_PROPOSITIONS"
+        },
+        "actual": {
+          "primary_module": null,
+          "primary_concept": "RECTIFIER_OPERATION",
+          "semantic_family": "POWER_ELECTRONICS",
+          "unclassified_reason": "MISSING_MODULE"
+        }
+      },
+      {
+        "source_id": "Q777107",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": null,
+          "secondary_modules": [],
+          "primary_concept": "DC_MACHINE_TORQUE",
+          "semantic_family": "DC_MACHINE_TORQUE",
+          "probable_types": [
+            "CALCULATION"
+          ],
+          "unclassified_reason": "MISSING_MODULE",
+          "probable_type": "CALCULATION"
+        },
+        "actual": {
+          "primary_module": null,
+          "primary_concept": "DC_MACHINE_TORQUE",
+          "semantic_family": "DC_MACHINES",
+          "unclassified_reason": "MISSING_MODULE"
+        }
+      },
+      {
+        "source_id": "Q330187",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": null,
+          "secondary_modules": [],
+          "primary_concept": "OSCILLATOR_FEEDBACK",
+          "semantic_family": "OSCILLATOR_FEEDBACK",
+          "probable_types": [
+            "DIAGRAM"
+          ],
+          "unclassified_reason": "MISSING_MODULE",
+          "probable_type": "DIAGRAM"
+        },
+        "actual": {
+          "primary_module": null,
+          "primary_concept": "OSCILLATOR_FEEDBACK",
+          "semantic_family": "ANALOG_CIRCUITS",
+          "unclassified_reason": "MISSING_MODULE"
+        }
+      },
+      {
+        "source_id": "Q342468",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": null,
+          "secondary_modules": [],
+          "primary_concept": "UNSPECIFIED_RESISTOR_CIRCUIT",
+          "semantic_family": "UNSPECIFIED_RESISTOR_CIRCUIT",
+          "probable_types": [
+            "DIAGRAM",
+            "CALCULATION"
+          ],
+          "unclassified_reason": "IMAGE_REQUIRED",
+          "probable_type": "CALCULATION"
+        },
+        "actual": {
+          "primary_module": null,
+          "primary_concept": "UNSPECIFIED_RESISTOR_CIRCUIT",
+          "semantic_family": "RESISTOR_NETWORKS",
+          "unclassified_reason": "IMAGE_REQUIRED"
+        }
+      },
+      {
+        "source_id": "Q3887803",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": null,
+          "secondary_modules": [],
+          "primary_concept": "THYRISTOR_OPERATION",
+          "semantic_family": "THYRISTOR_OPERATION",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": "MISSING_MODULE",
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": null,
+          "primary_concept": "THYRISTOR_OPERATION",
+          "semantic_family": "POWER_ELECTRONICS",
+          "unclassified_reason": "MISSING_MODULE"
+        }
+      },
+      {
+        "source_id": "Q816265",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": null,
+          "secondary_modules": [],
+          "primary_concept": "LORENTZ_FORCE",
+          "semantic_family": "LORENTZ_FORCE",
+          "probable_types": [
+            "CALCULATION"
+          ],
+          "unclassified_reason": "OUT_OF_CURRICULUM",
+          "probable_type": "CALCULATION"
+        },
+        "actual": {
+          "primary_module": null,
+          "primary_concept": "LORENTZ_FORCE",
+          "semantic_family": "THEORETICAL_PHYSICS",
+          "unclassified_reason": "OUT_OF_CURRICULUM"
+        }
+      },
+      {
+        "source_id": "Q3981911",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": null,
+          "secondary_modules": [],
+          "primary_concept": "TRANSISTOR_OPERATION",
+          "semantic_family": "TRANSISTOR_OPERATION",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": "MISSING_MODULE",
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": null,
+          "primary_concept": "TRANSISTOR_OPERATION",
+          "semantic_family": "TRANSISTORS",
+          "unclassified_reason": "MISSING_MODULE"
+        }
+      },
+      {
+        "source_id": "Q3943016",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": null,
+          "secondary_modules": [],
+          "primary_concept": "ACTIVE_FILTER",
+          "semantic_family": "ACTIVE_FILTER",
+          "probable_types": [
+            "DIAGRAM"
+          ],
+          "unclassified_reason": "MISSING_MODULE",
+          "probable_type": "DIAGRAM"
+        },
+        "actual": {
+          "primary_module": null,
+          "primary_concept": "ACTIVE_FILTER",
+          "semantic_family": "OPERATIONAL_AMPLIFIERS",
+          "unclassified_reason": "MISSING_MODULE"
+        }
+      },
+      {
+        "source_id": "Q514370",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": null,
+          "secondary_modules": [],
+          "primary_concept": "AMPLIFIER_GAIN",
+          "semantic_family": "AMPLIFIER_GAIN",
+          "probable_types": [
+            "CALCULATION"
+          ],
+          "unclassified_reason": "MISSING_MODULE",
+          "probable_type": "CALCULATION"
+        },
+        "actual": {
+          "primary_module": null,
+          "primary_concept": "AMPLIFIER_GAIN",
+          "semantic_family": "OPERATIONAL_AMPLIFIERS",
+          "unclassified_reason": "MISSING_MODULE"
+        }
+      },
+      {
+        "source_id": "Q431629",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "A02",
+          "secondary_modules": [],
+          "primary_concept": "CAUSE_EFFECT_LOGIC",
+          "semantic_family": "CAUSE_EFFECT_LOGIC",
+          "probable_types": [
+            "DIAGRAM"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "DIAGRAM"
+        },
+        "actual": {
+          "primary_module": "A02",
+          "primary_concept": "CAUSE_EFFECT_LOGIC",
+          "semantic_family": "PROGRAMMABLE_CONTROLLERS",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q1762481",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": null,
+          "secondary_modules": [],
+          "primary_concept": "AMPLIFIER_GAIN",
+          "semantic_family": "AMPLIFIER_GAIN",
+          "probable_types": [
+            "CALCULATION"
+          ],
+          "unclassified_reason": "MISSING_MODULE",
+          "probable_type": "CALCULATION"
+        },
+        "actual": {
+          "primary_module": null,
+          "primary_concept": "AMPLIFIER_GAIN",
+          "semantic_family": "OPERATIONAL_AMPLIFIERS",
+          "unclassified_reason": "MISSING_MODULE"
+        }
+      },
+      {
+        "source_id": "Q2226732",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "F01",
+          "secondary_modules": [],
+          "primary_concept": "SIGNIFICANT_FIGURES",
+          "semantic_family": "SIGNIFICANT_FIGURES",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": "F01",
+          "primary_concept": "SIGNIFICANT_FIGURES",
+          "semantic_family": "FUNDAMENTALS",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q3980565",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "S01",
+          "secondary_modules": [],
+          "primary_concept": "NR10_DEENERGIZATION",
+          "semantic_family": "NR10_DEENERGIZATION",
+          "probable_types": [
+            "PROCEDURE"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "PROCEDURE"
+        },
+        "actual": {
+          "primary_module": "S01",
+          "primary_concept": "NR10_DEENERGIZATION",
+          "semantic_family": "DEENERGIZATION_PROCEDURES",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q1023720",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": null,
+          "secondary_modules": [],
+          "primary_concept": "SEMICONDUCTOR_SWITCH",
+          "semantic_family": "SEMICONDUCTOR_SWITCH",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": "MISSING_MODULE",
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": null,
+          "primary_concept": "SEMICONDUCTOR_SWITCH",
+          "semantic_family": "POWER_ELECTRONICS",
+          "unclassified_reason": "MISSING_MODULE"
+        }
+      },
+      {
+        "source_id": "Q431574",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "H01",
+          "secondary_modules": [],
+          "primary_concept": "CYLINDER_FORCE",
+          "semantic_family": "CYLINDER_FORCE",
+          "probable_types": [
+            "CALCULATION"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CALCULATION"
+        },
+        "actual": {
+          "primary_module": "H01",
+          "primary_concept": "CYLINDER_FORCE",
+          "semantic_family": "FLUID_POWER",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q402437",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "H01",
+          "secondary_modules": [],
+          "primary_concept": "VALVE_RETENTION",
+          "semantic_family": "VALVE_RETENTION",
+          "probable_types": [
+            "CONCEPTUAL"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "CONCEPTUAL"
+        },
+        "actual": {
+          "primary_module": "H01",
+          "primary_concept": "VALVE_RETENTION",
+          "semantic_family": "FLUID_POWER",
+          "unclassified_reason": null
+        }
+      },
+      {
+        "source_id": "Q4027618",
+        "checks": {
+          "primary_module": true,
+          "primary_concept": true,
+          "unclassified_reason": true
+        },
+        "passed": true,
+        "expected": {
+          "primary_module": "H02",
+          "secondary_modules": [],
+          "primary_concept": "ELECTROPNEUMATIC_SEQUENCE",
+          "semantic_family": "ELECTROPNEUMATIC_SEQUENCE",
+          "probable_types": [
+            "DIAGRAM"
+          ],
+          "unclassified_reason": null,
+          "probable_type": "DIAGRAM"
+        },
+        "actual": {
+          "primary_module": "H02",
+          "primary_concept": "ELECTROPNEUMATIC_SEQUENCE",
+          "semantic_family": "ELECTROPNEUMATICS",
+          "unclassified_reason": null
+        }
+      }
+    ]
+  },
+  "target_regressions": {
+    "total": 31,
+    "passed": 31,
+    "failed": 0,
+    "cases": [
+      {
+        "source_id": "Q825995",
+        "description": "Reciclagem NR-10",
+        "expected_modules": [
+          "S02",
+          "S03"
+        ],
+        "actual_module": "S03",
+        "actual_concept": "NR10_DOCUMENTATION",
+        "actual_family": "SAFETY_REGULATIONS",
+        "passed": true
+      },
+      {
+        "source_id": "Q2217076",
+        "description": "Riscos ergonomicos em postes",
+        "expected_modules": [
+          "S02"
+        ],
+        "actual_module": "S02",
+        "actual_concept": "ELECTRICAL_SAFETY",
+        "actual_family": "SAFETY_MEASURES",
+        "passed": true
+      },
+      {
+        "source_id": "Q3958246",
+        "description": "Automacao CLP",
+        "expected_modules": [
+          "A02"
+        ],
+        "actual_module": "A02",
+        "actual_concept": "PLC_CONTROL",
+        "actual_family": "PROGRAMMABLE_CONTROLLERS",
+        "passed": true
+      },
+      {
+        "source_id": "Q2916786",
+        "description": "Controladores Logicos Programaveis CLP",
+        "expected_modules": [
+          "A02"
+        ],
+        "actual_module": "A02",
+        "actual_concept": "PLC_CONTROL",
+        "actual_family": "PROGRAMMABLE_CONTROLLERS",
+        "passed": true
+      },
+      {
+        "source_id": "Q810802",
+        "description": "CLP substituindo reles",
+        "expected_modules": [
+          "A02"
+        ],
+        "actual_module": "A02",
+        "actual_concept": "PLC_CONTROL",
+        "actual_family": "PROGRAMMABLE_CONTROLLERS",
+        "passed": true
+      },
+      {
+        "source_id": "Q770887",
+        "description": "Ladder em CLPs",
+        "expected_modules": [
+          "A02"
+        ],
+        "actual_module": "A02",
+        "actual_concept": "PLC_LADDER",
+        "actual_family": "PROGRAMMABLE_CONTROLLERS",
+        "passed": true
+      },
+      {
+        "source_id": "Q770894",
+        "description": "CLP rele interno",
+        "expected_modules": [
+          "A02"
+        ],
+        "actual_module": "A02",
+        "actual_concept": "PLC_CONTROL",
+        "actual_family": "PROGRAMMABLE_CONTROLLERS",
+        "passed": true
+      },
+      {
+        "source_id": "Q431575",
+        "description": "Programacao Ladder",
+        "expected_modules": [
+          "A02"
+        ],
+        "actual_module": "A02",
+        "actual_concept": "PLC_LADDER",
+        "actual_family": "PROGRAMMABLE_CONTROLLERS",
+        "passed": true
+      },
+      {
+        "source_id": "Q3452153",
+        "description": "Comparacao metodos partida (CROSS_MODULE)",
+        "expected_modules": [
+          null,
+          "E03",
+          "E04",
+          "E06"
+        ],
+        "actual_module": null,
+        "actual_concept": "MOTOR_STARTING_COMPARISON",
+        "actual_family": "MOTOR_STARTING_METHODS",
+        "passed": true
+      },
+      {
+        "source_id": "Q4093465",
+        "description": "NR-10 seguranca projetos",
+        "expected_modules": [
+          "S03",
+          "S02"
+        ],
+        "actual_module": "S03",
+        "actual_concept": "NR10_DOCUMENTATION",
+        "actual_family": "SAFETY_REGULATIONS",
+        "passed": true
+      },
+      {
+        "source_id": "Q3393722",
+        "description": "Aviso choque eletrico criancas",
+        "expected_modules": [
+          "S02"
+        ],
+        "actual_module": "S02",
+        "actual_concept": "ELECTRICAL_SAFETY",
+        "actual_family": "SAFETY_MEASURES",
+        "passed": true
+      },
+      {
+        "source_id": "Q3291406",
+        "description": "Potencia aparente motor monofasico 11 kVA",
+        "expected_modules": [
+          "F04",
+          "E02"
+        ],
+        "actual_module": "F04",
+        "actual_concept": "ELECTRICAL_POWER",
+        "actual_family": "ELECTRIC_POWER_AND_ENERGY",
+        "passed": true
+      },
+      {
+        "source_id": "Q751907",
+        "description": "Turbina hidraulica geracao hidreletrica",
+        "expected_modules": [
+          null
+        ],
+        "actual_module": null,
+        "actual_concept": "HYDROELECTRIC_GENERATION",
+        "actual_family": "POWER_GENERATION",
+        "passed": true
+      },
+      {
+        "source_id": "Q3981910",
+        "description": "Reducao de custos com capacitores FP",
+        "expected_modules": [
+          "F04"
+        ],
+        "actual_module": "F04",
+        "actual_concept": "POWER_FACTOR_CORRECTION",
+        "actual_family": "POWER_FACTOR_MANAGEMENT",
+        "passed": true
+      },
+      {
+        "source_id": "Q3978783",
+        "description": "Motor monofasico capacitor partida",
+        "expected_modules": [
+          "E02"
+        ],
+        "actual_module": "E02",
+        "actual_concept": "SINGLE_PHASE_MOTOR_CAPACITOR",
+        "actual_family": "SINGLE_PHASE_MOTORS",
+        "passed": true
+      },
+      {
+        "source_id": "Q3675303",
+        "description": "Portao motor monofasico capacitor",
+        "expected_modules": [
+          "E02"
+        ],
+        "actual_module": "E02",
+        "actual_concept": "SINGLE_PHASE_MOTOR_CAPACITOR",
+        "actual_family": "SINGLE_PHASE_MOTORS",
+        "passed": true
+      },
+      {
+        "source_id": "Q3232086",
+        "description": "Funcao capacitor partida motor monofasico",
+        "expected_modules": [
+          "E02"
+        ],
+        "actual_module": "E02",
+        "actual_concept": "SINGLE_PHASE_MOTOR_CAPACITOR",
+        "actual_family": "SINGLE_PHASE_MOTORS",
+        "passed": true
+      },
+      {
+        "source_id": "Q2955277",
+        "description": "Motor enrolamento auxiliar capacitor",
+        "expected_modules": [
+          "E02"
+        ],
+        "actual_module": "E02",
+        "actual_concept": "SINGLE_PHASE_MOTOR_CAPACITOR",
+        "actual_family": "SINGLE_PHASE_MOTORS",
+        "passed": true
+      },
+      {
+        "source_id": "Q2401042",
+        "description": "Motor monofasico partida capacitor",
+        "expected_modules": [
+          "E02"
+        ],
+        "actual_module": "E02",
+        "actual_concept": "SINGLE_PHASE_MOTOR_CAPACITOR",
+        "actual_family": "SINGLE_PHASE_MOTORS",
+        "passed": true
+      },
+      {
+        "source_id": "Q2323269",
+        "description": "Motor 2.5 kW partida capacitor",
+        "expected_modules": [
+          "E02"
+        ],
+        "actual_module": "E02",
+        "actual_concept": "SINGLE_PHASE_MOTOR_CAPACITOR",
+        "actual_family": "SINGLE_PHASE_MOTORS",
+        "passed": true
+      },
+      {
+        "source_id": "Q3125841",
+        "description": "Quadro distribuicao barramento neutro",
+        "expected_modules": [
+          "I01",
+          "P01"
+        ],
+        "actual_module": "I01",
+        "actual_concept": "DISTRIBUTION_BOARD",
+        "actual_family": "BUILDING_INSTALLATIONS",
+        "passed": true
+      },
+      {
+        "source_id": "Q2737528",
+        "description": "Barramentos quadros distribuicao",
+        "expected_modules": [
+          "I01",
+          "P01"
+        ],
+        "actual_module": "I01",
+        "actual_concept": "DISTRIBUTION_BOARD",
+        "actual_family": "BUILDING_INSTALLATIONS",
+        "passed": true
+      },
+      {
+        "source_id": "Q3850333",
+        "description": "Circuito resistivo corrente total",
+        "expected_modules": [
+          "F02"
+        ],
+        "actual_module": "F02",
+        "actual_concept": "OHMS_LAW_CURRENT",
+        "actual_family": "OHMS_LAW",
+        "passed": true
+      },
+      {
+        "source_id": "Q3012489",
+        "description": "Ganho de corrente total (eletronica)",
+        "expected_modules": [
+          null
+        ],
+        "actual_module": null,
+        "actual_concept": "AMPLIFIER_GAIN",
+        "actual_family": "OPERATIONAL_AMPLIFIERS",
+        "passed": true
+      },
+      {
+        "source_id": "Q2779437",
+        "description": "Resistores paralelo corrente total",
+        "expected_modules": [
+          "F02"
+        ],
+        "actual_module": "F02",
+        "actual_concept": "OHMS_LAW_CURRENT",
+        "actual_family": "OHMS_LAW",
+        "passed": true
+      },
+      {
+        "source_id": "Q2930977",
+        "description": "Oposicao CA impedancia",
+        "expected_modules": [
+          "F03"
+        ],
+        "actual_module": "F03",
+        "actual_concept": "REACTANCE_IMPEDANCE",
+        "actual_family": "AC_CIRCUITS",
+        "passed": true
+      },
+      {
+        "source_id": "Q3027672",
+        "description": "Caracteristicas CC e CA",
+        "expected_modules": [
+          "F01"
+        ],
+        "actual_module": "F01",
+        "actual_concept": "DC_AC_DIFFERENCE",
+        "actual_family": "FUNDAMENTALS",
+        "passed": true
+      },
+      {
+        "source_id": "Q3485343",
+        "description": "Definicao potencia ativa",
+        "expected_modules": [
+          "F04"
+        ],
+        "actual_module": "F04",
+        "actual_concept": "ELECTRICAL_POWER",
+        "actual_family": "ELECTRIC_POWER_AND_ENERGY",
+        "passed": true
+      },
+      {
+        "source_id": "Q2403191",
+        "description": "Motor trifasico 6 terminais 220/380V",
+        "expected_modules": [
+          "E02"
+        ],
+        "actual_module": "E02",
+        "actual_concept": "MOTOR_WINDING_CONNECTION",
+        "actual_family": "MOTOR_CONNECTIONS",
+        "passed": true
+      },
+      {
+        "source_id": "Q3976932",
+        "description": "Conversao base decimal binario",
+        "expected_modules": [
+          "A01"
+        ],
+        "actual_module": "A01",
+        "actual_concept": "NUMBER_BASE_CONVERSION",
+        "actual_family": "DIGITAL_LOGIC",
+        "passed": true
+      },
+      {
+        "source_id": "Q2955288",
+        "description": "Associacao mista paralelo e serie",
+        "expected_modules": [
+          "F02"
+        ],
+        "actual_module": "F02",
+        "actual_concept": "MIXED_EQUIVALENT_RESISTANCE",
+        "actual_family": "RESISTOR_NETWORKS",
+        "passed": true
+      }
+    ]
+  }
+}

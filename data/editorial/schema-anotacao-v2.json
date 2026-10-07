@@ -1,0 +1,387 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "source_id": {
+      "type": "string"
+    },
+    "annotation_version": {
+      "type": "string"
+    },
+    "curriculum_version": {
+      "type": "string"
+    },
+    "source_question_version": {
+      "type": "string"
+    },
+    "annotator_id": {
+      "type": "string",
+      "enum": [
+        "ANNOTATOR_A",
+        "ANNOTATOR_B",
+        "ADJUDICATOR"
+      ]
+    },
+    "in_curriculum": {
+      "type": "boolean"
+    },
+    "primary_module": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "F01",
+        "F02",
+        "F03",
+        "F04",
+        "M01",
+        "M02",
+        "S01",
+        "S02",
+        "S03",
+        "I01",
+        "I02",
+        "I03",
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "E01",
+        "E02",
+        "E03",
+        "E04",
+        "E05",
+        "E06",
+        "T01",
+        "T02",
+        "R01",
+        "R02",
+        "A01",
+        "A02",
+        "A03",
+        "H01",
+        "H02",
+        "D01",
+        "D02",
+        "V01",
+        null
+      ]
+    },
+    "acceptable_modules": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "F01",
+          "F02",
+          "F03",
+          "F04",
+          "M01",
+          "M02",
+          "S01",
+          "S02",
+          "S03",
+          "I01",
+          "I02",
+          "I03",
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P05",
+          "E01",
+          "E02",
+          "E03",
+          "E04",
+          "E05",
+          "E06",
+          "T01",
+          "T02",
+          "R01",
+          "R02",
+          "A01",
+          "A02",
+          "A03",
+          "H01",
+          "H02",
+          "D01",
+          "D02",
+          "V01"
+        ]
+      }
+    },
+    "annotation_confidence": {
+      "type": "string",
+      "enum": [
+        "HIGH",
+        "MEDIUM",
+        "LOW"
+      ]
+    },
+    "reasoning_summary": {
+      "type": "string"
+    },
+    "image_status": {
+      "type": "string"
+    },
+    "image_required": {
+      "type": "boolean"
+    },
+    "ambiguity": {
+      "type": "boolean"
+    },
+    "ambiguity_reason": {
+      "type": "string"
+    },
+    "supplement_used": {
+      "type": "boolean"
+    },
+    "supplement_fields_used": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "annotation_status": {
+      "type": "string",
+      "enum": [
+        "ANNOTATED",
+        "IMAGE_REQUIRED",
+        "INSUFFICIENT_CONTEXT",
+        "AMBIGUOUS",
+        "OUT_OF_CURRICULUM",
+        "NEEDS_ADJUDICATION"
+      ]
+    },
+    "module_evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "kind": {
+            "type": "string",
+            "enum": [
+              "STATEMENT",
+              "CURRICULUM_SUBTOPIC"
+            ]
+          },
+          "text": {
+            "type": "string"
+          },
+          "module": {
+            "type": "string",
+            "enum": [
+              "F01",
+              "F02",
+              "F03",
+              "F04",
+              "M01",
+              "M02",
+              "S01",
+              "S02",
+              "S03",
+              "I01",
+              "I02",
+              "I03",
+              "P01",
+              "P02",
+              "P03",
+              "P04",
+              "P05",
+              "E01",
+              "E02",
+              "E03",
+              "E04",
+              "E05",
+              "E06",
+              "T01",
+              "T02",
+              "R01",
+              "R02",
+              "A01",
+              "A02",
+              "A03",
+              "H01",
+              "H02",
+              "D01",
+              "D02",
+              "V01"
+            ]
+          },
+          "subtopic": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "kind"
+        ],
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "kind": {
+                  "const": "STATEMENT"
+                }
+              }
+            },
+            "then": {
+              "required": [
+                "text"
+              ]
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "kind": {
+                  "const": "CURRICULUM_SUBTOPIC"
+                }
+              }
+            },
+            "then": {
+              "required": [
+                "module",
+                "subtopic"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "required": [
+    "source_id",
+    "annotation_version",
+    "curriculum_version",
+    "source_question_version",
+    "annotator_id",
+    "in_curriculum",
+    "acceptable_modules",
+    "annotation_confidence",
+    "reasoning_summary",
+    "image_required",
+    "ambiguity",
+    "supplement_used",
+    "annotation_status",
+    "module_evidence"
+  ],
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "annotation_status": {
+            "const": "OUT_OF_CURRICULUM"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "in_curriculum": {
+            "const": false
+          },
+          "primary_module": {
+            "type": "null"
+          }
+        },
+        "required": [
+          "primary_module"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "annotation_status": {
+            "const": "ANNOTATED"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "in_curriculum": {
+            "const": true
+          },
+          "primary_module": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "primary_module"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "annotation_status": {
+            "const": "IMAGE_REQUIRED"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "image_required": {
+            "const": true
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "annotation_status": {
+            "const": "AMBIGUOUS"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "ambiguity": {
+            "const": true
+          },
+          "ambiguity_reason": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "ambiguity_reason"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "supplement_used": {
+            "const": false
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "supplement_fields_used": {
+            "maxItems": 0
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "supplement_used": {
+            "const": true
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "supplement_fields_used": {
+            "minItems": 1
+          }
+        }
+      }
+    }
+  ]
+}

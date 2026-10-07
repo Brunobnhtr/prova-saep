@@ -1,0 +1,402 @@
+{
+  "TOTAL_QUESTIONS": 9791,
+  "CLASSIFIED": 6246,
+  "UNCLASSIFIED": 3545,
+  "SEMANTIC_FAMILY_ASSIGNED": 6984,
+  "MODULE_ASSIGNMENTS": 6293,
+  "HIGH_INTERACTION_POTENTIAL": 716,
+  "CONFIDENCE_COUNTS": {
+    "UNCLASSIFIED": 3545,
+    "HIGH": 2930,
+    "MEDIUM": 2726,
+    "LOW": 590
+  },
+  "INSPECTION_PRIORITY_COUNTS": {
+    "P1": 4447,
+    "P3": 2972,
+    "P0": 865,
+    "P2": 1507
+  },
+  "V1_COMPARISON": {
+    "PRIMARY_MODULE_CHANGED": 5181,
+    "LEFT_UNCLASSIFIED": 118,
+    "OUT_OF_CURRICULUM": 14,
+    "NEW_SEMANTIC_FAMILY": 6007,
+    "CHANGED_SEMANTIC_FAMILY": 747,
+    "HIGH_DOWNGRADED": 1939,
+    "LOW_MEDIUM_PROMOTED": 1301,
+    "THEMATIC_TIES_RESOLVED": 1752
+  },
+  "V1_UNCHANGED": true,
+  "ANSWERS_UNRESOLVED": true,
+  "MODULE_QUEUES": [
+    {
+      "module": "S01",
+      "title": "Desenergização e reenergização",
+      "primary_count": 79,
+      "secondary_count": 1,
+      "confidence_counts": {
+        "HIGH": 64,
+        "MEDIUM": 15
+      }
+    },
+    {
+      "module": "S02",
+      "title": "Qualificação, EPI, altura e zonas de risco",
+      "primary_count": 179,
+      "secondary_count": 0,
+      "confidence_counts": {
+        "HIGH": 97,
+        "MEDIUM": 80,
+        "LOW": 2
+      }
+    },
+    {
+      "module": "F01",
+      "title": "Unidades e grandezas CC/CA",
+      "primary_count": 190,
+      "secondary_count": 0,
+      "confidence_counts": {
+        "HIGH": 97,
+        "MEDIUM": 89,
+        "LOW": 4
+      }
+    },
+    {
+      "module": "M01",
+      "title": "Multímetro, alicate e seleção de escala",
+      "primary_count": 411,
+      "secondary_count": 27,
+      "confidence_counts": {
+        "HIGH": 155,
+        "MEDIUM": 253,
+        "LOW": 3
+      }
+    },
+    {
+      "module": "F02",
+      "title": "Lei de Ohm e associação de resistores",
+      "primary_count": 707,
+      "secondary_count": 0,
+      "confidence_counts": {
+        "HIGH": 316,
+        "MEDIUM": 380,
+        "LOW": 11
+      }
+    },
+    {
+      "module": "F03",
+      "title": "Frequência, formas de onda e reatância",
+      "primary_count": 602,
+      "secondary_count": 0,
+      "confidence_counts": {
+        "MEDIUM": 398,
+        "HIGH": 201,
+        "LOW": 3
+      }
+    },
+    {
+      "module": "F04",
+      "title": "Potência, energia e fator de potência",
+      "primary_count": 581,
+      "secondary_count": 4,
+      "confidence_counts": {
+        "HIGH": 388,
+        "MEDIUM": 113,
+        "LOW": 80
+      }
+    },
+    {
+      "module": "I03",
+      "title": "Simbologia, unifilar, multifilar e CAD",
+      "primary_count": 200,
+      "secondary_count": 0,
+      "confidence_counts": {
+        "MEDIUM": 112,
+        "LOW": 61,
+        "HIGH": 27
+      }
+    },
+    {
+      "module": "R01",
+      "title": "Estruturas, postes, alimentadores e topologias",
+      "primary_count": 69,
+      "secondary_count": 0,
+      "confidence_counts": {
+        "MEDIUM": 60,
+        "LOW": 6,
+        "HIGH": 3
+      }
+    },
+    {
+      "module": "H01",
+      "title": "Válvulas, atuadores e simbologia",
+      "primary_count": 67,
+      "secondary_count": 0,
+      "confidence_counts": {
+        "HIGH": 46,
+        "MEDIUM": 21
+      }
+    },
+    {
+      "module": "A01",
+      "title": "Booleanos, binário, tabela verdade e Ladder",
+      "primary_count": 209,
+      "secondary_count": 0,
+      "confidence_counts": {
+        "MEDIUM": 56,
+        "LOW": 119,
+        "HIGH": 34
+      }
+    },
+    {
+      "module": "E01",
+      "title": "Placa, potência, corrente e velocidade",
+      "primary_count": 203,
+      "secondary_count": 0,
+      "confidence_counts": {
+        "MEDIUM": 102,
+        "HIGH": 100,
+        "LOW": 1
+      }
+    },
+    {
+      "module": "T01",
+      "title": "Relação de transformação e proteções",
+      "primary_count": 313,
+      "secondary_count": 0,
+      "confidence_counts": {
+        "MEDIUM": 188,
+        "HIGH": 106,
+        "LOW": 19
+      }
+    },
+    {
+      "module": "T02",
+      "title": "TC, TP, relés e medição indireta",
+      "primary_count": 57,
+      "secondary_count": 0,
+      "confidence_counts": {
+        "HIGH": 46,
+        "MEDIUM": 11
+      }
+    },
+    {
+      "module": "R02",
+      "title": "Equipamentos, barramentos e operação",
+      "primary_count": 86,
+      "secondary_count": 0,
+      "confidence_counts": {
+        "MEDIUM": 37,
+        "LOW": 40,
+        "HIGH": 9
+      }
+    },
+    {
+      "module": "I01",
+      "title": "Tomadas, iluminação e previsão de cargas",
+      "primary_count": 314,
+      "secondary_count": 10,
+      "confidence_counts": {
+        "HIGH": 251,
+        "MEDIUM": 48,
+        "LOW": 15
+      }
+    },
+    {
+      "module": "P01",
+      "title": "Condutores, instalação e fatores de correção",
+      "primary_count": 251,
+      "secondary_count": 0,
+      "confidence_counts": {
+        "HIGH": 175,
+        "MEDIUM": 75,
+        "LOW": 1
+      }
+    },
+    {
+      "module": "P02",
+      "title": "Disjuntores, fusíveis, curvas e curto-circuito",
+      "primary_count": 364,
+      "secondary_count": 0,
+      "confidence_counts": {
+        "MEDIUM": 306,
+        "HIGH": 53,
+        "LOW": 5
+      }
+    },
+    {
+      "module": "I02",
+      "title": "Interruptores, sensores e relé fotocélula",
+      "primary_count": 147,
+      "secondary_count": 0,
+      "confidence_counts": {
+        "HIGH": 89,
+        "LOW": 17,
+        "MEDIUM": 41
+      }
+    },
+    {
+      "module": "P03",
+      "title": "DR, IDR, DDR e coordenação de funções",
+      "primary_count": 63,
+      "secondary_count": 0,
+      "confidence_counts": {
+        "MEDIUM": 4,
+        "HIGH": 59
+      }
+    },
+    {
+      "module": "M02",
+      "title": "Continuidade e resistência de isolamento",
+      "primary_count": 65,
+      "secondary_count": 0,
+      "confidence_counts": {
+        "HIGH": 57,
+        "LOW": 6,
+        "MEDIUM": 2
+      }
+    },
+    {
+      "module": "S03",
+      "title": "Classificação de tensão e documentação",
+      "primary_count": 25,
+      "secondary_count": 0,
+      "confidence_counts": {
+        "HIGH": 25
+      }
+    },
+    {
+      "module": "V01",
+      "title": "Arranjos, potência e eficiência",
+      "primary_count": 13,
+      "secondary_count": 0,
+      "confidence_counts": {
+        "HIGH": 11,
+        "MEDIUM": 2
+      }
+    },
+    {
+      "module": "D01",
+      "title": "Preventiva, preditiva, corretiva e inspeções",
+      "primary_count": 67,
+      "secondary_count": 0,
+      "confidence_counts": {
+        "MEDIUM": 1,
+        "HIGH": 66
+      }
+    },
+    {
+      "module": "D02",
+      "title": "Termografia, conexões e localização de falhas",
+      "primary_count": 11,
+      "secondary_count": 0,
+      "confidence_counts": {
+        "MEDIUM": 2,
+        "HIGH": 9
+      }
+    },
+    {
+      "module": "E02",
+      "title": "Bobinas, fechamentos e ligação monofásica/trifásica",
+      "primary_count": 91,
+      "secondary_count": 0,
+      "confidence_counts": {
+        "HIGH": 66,
+        "MEDIUM": 25
+      }
+    },
+    {
+      "module": "E03",
+      "title": "Direta, reversão, selo e intertravamento",
+      "primary_count": 193,
+      "secondary_count": 0,
+      "confidence_counts": {
+        "HIGH": 128,
+        "MEDIUM": 64,
+        "LOW": 1
+      }
+    },
+    {
+      "module": "H02",
+      "title": "Sequências, selo e diagnóstico eletropneumático",
+      "primary_count": 4,
+      "secondary_count": 0,
+      "confidence_counts": {
+        "HIGH": 1,
+        "MEDIUM": 3
+      }
+    },
+    {
+      "module": "A02",
+      "title": "Entradas, saídas e controle sequencial",
+      "primary_count": 99,
+      "secondary_count": 0,
+      "confidence_counts": {
+        "MEDIUM": 57,
+        "HIGH": 26,
+        "LOW": 16
+      }
+    },
+    {
+      "module": "E06",
+      "title": "Inversor, soft-starter e parametrização",
+      "primary_count": 44,
+      "secondary_count": 0,
+      "confidence_counts": {
+        "HIGH": 39,
+        "MEDIUM": 5
+      }
+    },
+    {
+      "module": "E04",
+      "title": "Estrela-triângulo e compensadora",
+      "primary_count": 64,
+      "secondary_count": 0,
+      "confidence_counts": {
+        "MEDIUM": 17,
+        "HIGH": 47
+      }
+    },
+    {
+      "module": "A03",
+      "title": "Sensores de presença, alarme e nível",
+      "primary_count": 15,
+      "secondary_count": 0,
+      "confidence_counts": {
+        "HIGH": 13,
+        "MEDIUM": 2
+      }
+    },
+    {
+      "module": "E05",
+      "title": "Dahlander e duas velocidades",
+      "primary_count": 3,
+      "secondary_count": 0,
+      "confidence_counts": {
+        "HIGH": 3
+      }
+    },
+    {
+      "module": "P04",
+      "title": "Esquemas de aterramento e equipotencialização",
+      "primary_count": 371,
+      "secondary_count": 5,
+      "confidence_counts": {
+        "HIGH": 47,
+        "LOW": 180,
+        "MEDIUM": 144
+      }
+    },
+    {
+      "module": "P05",
+      "title": "Captação, descida, aterramento e DPS",
+      "primary_count": 89,
+      "secondary_count": 0,
+      "confidence_counts": {
+        "HIGH": 76,
+        "MEDIUM": 13
+      }
+    }
+  ]
+}

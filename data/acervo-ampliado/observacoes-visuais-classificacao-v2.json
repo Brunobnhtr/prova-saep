@@ -1,0 +1,10 @@
+{
+  "reviewer": "AGENT",
+  "scope": "Somente quatro imagens efetivamente abertas e inspecionadas nesta etapa; observações não contêm gabarito.",
+  "observations": {
+    "Q4148970": "Reversão de motor trifásico: K1 e K2 invertem duas fases; selo e intertravamento mecânico e elétrico.",
+    "Q4148977": "Ponte de Wheatstone com voltímetro entre pontos médios, quatro braços resistivos e extensômetro; equilíbrio da ponte.",
+    "Q4150424": "Identificação de transistor; símbolos de FET Q1 e Q2 em circuito apresentado.",
+    "Q4027618": "Circuito eletropneumático com válvula 5/2, cilindro, botões S1/S2, relé K1 e solenoide 1Y1; sequência de acionamento."
+  }
+}

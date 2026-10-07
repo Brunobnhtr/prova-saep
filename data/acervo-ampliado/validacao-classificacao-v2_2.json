@@ -1,0 +1,134 @@
+{
+  "version": 2.2,
+  "status": "VALIDATED_CONSISTENT",
+  "invariants": {
+    "total_questions_exact": true,
+    "id_sequence_conserved": true,
+    "v1_intact": true,
+    "no_empty_hashes": true,
+    "answers_unresolved": true,
+    "holdout_blind_contamination_zero": true
+  },
+  "catalog_metrics": {
+    "total_questions": 9791,
+    "classified": 6481,
+    "unclassified": 3310,
+    "coverage_percent": 66.19
+  },
+  "regression_metrics": {
+    "golden_set_153": "153/153 (100.0%)",
+    "target_regressions_31": "31/31 (100.0%)",
+    "dev_audit_200_strict": "188/200 (94.0%)",
+    "dev_audit_200_acceptable": "190/200 (95.0%)"
+  },
+  "blind_holdout_metrics": {
+    "sample_size": 300,
+    "strict_agreement": "169/300 (56.33%)",
+    "acceptable_agreement": "175/300 (58.33%)",
+    "concept_agreement": "53/300 (17.67%)",
+    "family_agreement": "83/300 (27.67%)",
+    "high_confidence_precision": "58/94 (61.7%)"
+  },
+  "file_manifest": {
+    "catalogo-global.json": {
+      "path": "data\\acervo-ampliado\\catalogo-global.json",
+      "size_bytes": 26205335,
+      "sha256": "84172aadab440c65532b75bc8caf21ea8e5a5d844d6173cfd90e87bb22ed49a6"
+    },
+    "catalogo-global-v2.json": {
+      "path": "data\\acervo-ampliado\\catalogo-global-v2.json",
+      "size_bytes": 42892275,
+      "sha256": "409f9cb00c18c95359c9b30ff62ae96be0ce45267adb5b53ebe7453453d03ac6"
+    },
+    "catalogo-global-v2_1.json": {
+      "path": "data\\acervo-ampliado\\catalogo-global-v2_1.json",
+      "size_bytes": 46829414,
+      "sha256": "c5224832005fbe975ec85a58dc0443767a964d94bc967f15420e949de37d12ac"
+    },
+    "catalogo-global-v2_2.json": {
+      "path": "data\\acervo-ampliado\\catalogo-global-v2_2.json",
+      "size_bytes": 47356842,
+      "sha256": "5b4ab9659218186a769963bc166e35f08063599babc6c41e1b13bb08373d6f5f"
+    },
+    "resumo-global-v2_2.json": {
+      "path": "data\\acervo-ampliado\\resumo-global-v2_2.json",
+      "size_bytes": 18620,
+      "sha256": "488248977ad452f506024a56617febbc79fdb024549219bd82a5b83ae09a8654"
+    },
+    "taxonomia-conceitos-v2_2.json": {
+      "path": "data\\acervo-ampliado\\taxonomia-conceitos-v2_2.json",
+      "size_bytes": 67255,
+      "sha256": "feaee714b36b94df9cd61a3f629c94bb384e1af15bc9dd6fd03ab8490cd9124a"
+    },
+    "familias-semanticas-v2_2.json": {
+      "path": "data\\acervo-ampliado\\familias-semanticas-v2_2.json",
+      "size_bytes": 321881,
+      "sha256": "34606fa85ab78b061117806c924c683091eaed998220bd0c7ce307f2f1478c81"
+    },
+    "unclassified-analysis-v2_2.json": {
+      "path": "data\\acervo-ampliado\\unclassified-analysis-v2_2.json",
+      "size_bytes": 2525407,
+      "sha256": "421436c23c53c55cfa0537065f4eba70d7529d1a01021acbf21da552985bba29"
+    },
+    "v1-high-v2_2-gap-review.json": {
+      "path": "data\\acervo-ampliado\\v1-high-v2_2-gap-review.json",
+      "size_bytes": 154575,
+      "sha256": "32d871f18459d2ad899c2697afb36ae6e5a0e55267bd80924786160abd28de5a"
+    },
+    "classification-regressions-v2_2.json": {
+      "path": "data\\acervo-ampliado\\classification-regressions-v2_2.json",
+      "size_bytes": 257080,
+      "sha256": "f848f74fd8b7aa494115f7686119ac25471ee7b3809c90f2ab50c5a736b0d658"
+    },
+    "holdout-v2_2-annotation-pack.json": {
+      "path": "data\\acervo-ampliado\\holdout-v2_2-annotation-pack.json",
+      "size_bytes": 247805,
+      "sha256": "957cb4728cc19ad361005400c078bddce9498ea3c399dfb88b14e663aab30dbf"
+    },
+    "holdout-v2_2-meta.json": {
+      "path": "data\\acervo-ampliado\\holdout-v2_2-meta.json",
+      "size_bytes": 68629,
+      "sha256": "dfbf3843a9fbd4228034d1182bbb10c442da01dec7d986dea645dad0cfc39f5f"
+    },
+    "holdout-v2_2-labels.json": {
+      "path": "data\\acervo-ampliado\\holdout-v2_2-labels.json",
+      "size_bytes": 114624,
+      "sha256": "4421e283ec84a050f863906320167ac853023b60cb0bcb902afad13cc26a69c0"
+    },
+    "blind-audit-v2_2.json": {
+      "path": "data\\acervo-ampliado\\blind-audit-v2_2.json",
+      "size_bytes": 387861,
+      "sha256": "3e44f00dfc5ef29a5b00d580cce24dad2d84c503e44ee965ecc0f228e05b47bd"
+    },
+    "classificador-conceitos-v2_2.py": {
+      "path": "scripts\\classificador-conceitos-v2_2.py",
+      "size_bytes": 59184,
+      "sha256": "766f43cc7fd9c7c5e3c1d774f747f45bbf143b795c2ed2d43fd89d0db87e68c6"
+    },
+    "reclassificar-acervo-v2_2.py": {
+      "path": "scripts\\reclassificar-acervo-v2_2.py",
+      "size_bytes": 23815,
+      "sha256": "6f8616f7d2bc094956dbfc4c67a49855dab1d6732eb79c717fbba82b797cdd6d"
+    },
+    "test_classificacao_v2_2.py": {
+      "path": "scripts\\test_classificacao_v2_2.py",
+      "size_bytes": 7670,
+      "sha256": "5a3ebae6401b503c89bbb8a29789ec9a359b6d73852034f56a093ec5c30f00e8"
+    },
+    "amostrar-holdout-v2_2.py": {
+      "path": "scripts\\amostrar-holdout-v2_2.py",
+      "size_bytes": 8042,
+      "sha256": "ea38c6f44a645ac91f46e75731dfdb97442f7ad75806c732fe82de7ffbc4d728"
+    },
+    "anotar-blind-holdout-v2_2.py": {
+      "path": "scripts\\anotar-blind-holdout-v2_2.py",
+      "size_bytes": 22256,
+      "sha256": "971776535cd7fdcf3d8b8f46e6ec740ea06e80615428730f88af1b4eb89417bb"
+    },
+    "auditar-blind-holdout-v2_2.py": {
+      "path": "scripts\\auditar-blind-holdout-v2_2.py",
+      "size_bytes": 8481,
+      "sha256": "b0a9eab9279d0fd12f187b6c9a7463e2abc9e82bc046a3c5ae1d97dd6f29381f"
+    }
+  }
+}

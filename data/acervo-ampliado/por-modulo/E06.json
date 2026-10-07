@@ -1,0 +1,2825 @@
+{
+  "module": "E06",
+  "title": "Inversor, soft-starter e parametrização",
+  "total_candidates": 192,
+  "primary_assignments": 42,
+  "high_relevance": 41,
+  "medium_relevance": 15,
+  "low_relevance": 136,
+  "outside_theme": {
+    "count": null,
+    "status": "NOT_SEMANTICALLY_REVIEWED"
+  },
+  "image_dependent": 64,
+  "possible_duplicates": 0,
+  "possible_semantic_variants": 0,
+  "priority_ids": {
+    "HIGH": [
+      "Q4148961",
+      "Q4047407",
+      "Q3891640",
+      "Q3798182",
+      "Q3830403",
+      "Q3837936",
+      "Q3838775",
+      "Q3539195",
+      "Q3452153",
+      "Q3386300",
+      "Q3386306",
+      "Q3232090",
+      "Q2559463",
+      "Q2586184",
+      "Q2198765",
+      "Q1919412",
+      "Q2058451",
+      "Q1766556",
+      "Q1087471",
+      "Q1087492",
+      "Q1037586",
+      "Q945964",
+      "Q980911",
+      "Q811503",
+      "Q825978",
+      "Q758559",
+      "Q770897",
+      "Q734067",
+      "Q734068",
+      "Q707698",
+      "Q707699",
+      "Q460309",
+      "Q484536",
+      "Q431753",
+      "Q430262",
+      "Q431031",
+      "Q263029",
+      "Q186304",
+      "Q186317",
+      "Q189046",
+      "Q180431"
+    ],
+    "MEDIUM": [
+      "Q3798174",
+      "Q3851982",
+      "Q2295402",
+      "Q2157581",
+      "Q1888091",
+      "Q1927402",
+      "Q1767162",
+      "Q1113501",
+      "Q980893",
+      "Q777108",
+      "Q770889",
+      "Q666491",
+      "Q539961",
+      "Q490253",
+      "Q182379"
+    ],
+    "LOW": [
+      "Q4032379",
+      "Q4011944",
+      "Q4011949",
+      "Q4024969",
+      "Q3920497",
+      "Q3980552",
+      "Q3887487",
+      "Q3887798",
+      "Q3900503",
+      "Q3900516",
+      "Q3837903",
+      "Q3851441",
+      "Q3851966",
+      "Q3851980",
+      "Q3690133",
+      "Q3761883",
+      "Q3761884",
+      "Q3761888",
+      "Q3790488",
+      "Q3466929",
+      "Q3543774",
+      "Q3561144",
+      "Q3383715",
+      "Q3396413",
+      "Q3223390",
+      "Q3231028",
+      "Q3233443",
+      "Q3264293",
+      "Q3264306",
+      "Q3100169",
+      "Q3188796",
+      "Q3025726",
+      "Q3069886",
+      "Q3089619",
+      "Q2867371",
+      "Q2867844",
+      "Q2955268",
+      "Q2955291",
+      "Q2955318",
+      "Q2737524",
+      "Q2744343",
+      "Q2773352",
+      "Q2608791",
+      "Q2666056",
+      "Q2668731",
+      "Q2668742",
+      "Q2692660",
+      "Q2693110",
+      "Q2401054",
+      "Q2403196",
+      "Q2436962",
+      "Q2436964",
+      "Q2354125",
+      "Q2354138",
+      "Q2369613",
+      "Q2401036",
+      "Q2401040",
+      "Q2314705",
+      "Q2325589",
+      "Q2325600",
+      "Q2202785",
+      "Q2226616",
+      "Q2226740",
+      "Q2178402",
+      "Q2198764",
+      "Q2198767",
+      "Q2200899",
+      "Q2200902",
+      "Q1916780",
+      "Q1919409",
+      "Q1927401",
+      "Q1767155",
+      "Q1770767",
+      "Q1770768",
+      "Q1770796",
+      "Q1631017",
+      "Q1668821",
+      "Q1721319",
+      "Q1755402",
+      "Q1755412",
+      "Q1217787",
+      "Q1218065",
+      "Q1240729",
+      "Q1276368",
+      "Q1289614",
+      "Q1629120",
+      "Q1087464",
+      "Q1087469",
+      "Q1087470",
+      "Q1087476",
+      "Q1088667",
+      "Q1113512",
+      "Q1037612",
+      "Q1015268",
+      "Q971890",
+      "Q971897",
+      "Q976427",
+      "Q837397",
+      "Q843662",
+      "Q803806",
+      "Q795351",
+      "Q797726",
+      "Q803804",
+      "Q758563",
+      "Q768536",
+      "Q734065",
+      "Q734076",
+      "Q743372",
+      "Q747658",
+      "Q529120",
+      "Q529390",
+      "Q529410",
+      "Q454912",
+      "Q460306",
+      "Q461600",
+      "Q462307",
+      "Q452632",
+      "Q453953",
+      "Q453954",
+      "Q431022",
+      "Q431028",
+      "Q431290",
+      "Q408314",
+      "Q413261",
+      "Q278084",
+      "Q237312",
+      "Q238954",
+      "Q263032",
+      "Q186299",
+      "Q186319",
+      "Q186527",
+      "Q186546",
+      "Q189734",
+      "Q173574",
+      "Q182373",
+      "Q173560"
+    ]
+  },
+  "candidate_details": [
+    {
+      "source_id": "Q4148961",
+      "subtopics": [
+        {
+          "id": "10.5",
+          "title": "Inversor de frequência",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.5-inversor-de-frequencia.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4032379",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4047407",
+      "subtopics": [
+        {
+          "id": "10.5",
+          "title": "Inversor de frequência",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.5-inversor-de-frequencia.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4011944",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        },
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4011949",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4024969",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3920497",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3980552",
+      "subtopics": [
+        {
+          "id": "10.5",
+          "title": "Inversor de frequência",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.5-inversor-de-frequencia.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3887487",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3887798",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3891640",
+      "subtopics": [
+        {
+          "id": "10.5",
+          "title": "Inversor de frequência",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.5-inversor-de-frequencia.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3900503",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3900516",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3798174",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3798182",
+      "subtopics": [
+        {
+          "id": "10.5",
+          "title": "Inversor de frequência",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.5-inversor-de-frequencia.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3830403",
+      "subtopics": [
+        {
+          "id": "10.5",
+          "title": "Inversor de frequência",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.5-inversor-de-frequencia.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3837903",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3837936",
+      "subtopics": [
+        {
+          "id": "10.5",
+          "title": "Inversor de frequência",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.5-inversor-de-frequencia.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3838775",
+      "subtopics": [
+        {
+          "id": "10.5",
+          "title": "Inversor de frequência",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.5-inversor-de-frequencia.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "SERIES_EQUIVALENT_RESISTANCE",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3851441",
+      "subtopics": [
+        {
+          "id": "10.5",
+          "title": "Inversor de frequência",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.5-inversor-de-frequencia.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3851966",
+      "subtopics": [
+        {
+          "id": "10.5",
+          "title": "Inversor de frequência",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.5-inversor-de-frequencia.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3851980",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3851982",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3690133",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3761883",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        },
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3761884",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        },
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3761888",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        },
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3790488",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3466929",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3539195",
+      "subtopics": [
+        {
+          "id": "10.5",
+          "title": "Inversor de frequência",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.5-inversor-de-frequencia.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3543774",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3561144",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3452153",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3383715",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3386300",
+      "subtopics": [
+        {
+          "id": "10.5",
+          "title": "Inversor de frequência",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.5-inversor-de-frequencia.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3386306",
+      "subtopics": [
+        {
+          "id": "10.5",
+          "title": "Inversor de frequência",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.5-inversor-de-frequencia.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3396413",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3223390",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3231028",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3232090",
+      "subtopics": [
+        {
+          "id": "10.5",
+          "title": "Inversor de frequência",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.5-inversor-de-frequencia.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3233443",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3264293",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "MOTOR_PROTECTION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3264306",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3100169",
+      "subtopics": [
+        {
+          "id": "10.5",
+          "title": "Inversor de frequência",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.5-inversor-de-frequencia.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3188796",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "MOTOR_PROTECTION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3025726",
+      "subtopics": [
+        {
+          "id": "10.5",
+          "title": "Inversor de frequência",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.5-inversor-de-frequencia.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3069886",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3089619",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2867371",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2867844",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2955268",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "THREE_PHASE_POWER",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2955291",
+      "subtopics": [
+        {
+          "id": "10.5",
+          "title": "Inversor de frequência",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.5-inversor-de-frequencia.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2955318",
+      "subtopics": [
+        {
+          "id": "10.5",
+          "title": "Inversor de frequência",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.5-inversor-de-frequencia.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2737524",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "MOTOR_PROTECTION",
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2744343",
+      "subtopics": [
+        {
+          "id": "10.5",
+          "title": "Inversor de frequência",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.5-inversor-de-frequencia.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2773352",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "LADDER_SEAL_IN",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2559463",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "MOTOR_PROTECTION",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2586184",
+      "subtopics": [
+        {
+          "id": "10.5",
+          "title": "Inversor de frequência",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.5-inversor-de-frequencia.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2608791",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2666056",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2668731",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2668742",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2692660",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2693110",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2401054",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2403196",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2436962",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2436964",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2354125",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "THREE_PHASE_POWER",
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2354138",
+      "subtopics": [
+        {
+          "id": "10.5",
+          "title": "Inversor de frequência",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.5-inversor-de-frequencia.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2369613",
+      "subtopics": [
+        {
+          "id": "10.5",
+          "title": "Inversor de frequência",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.5-inversor-de-frequencia.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2401036",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2401040",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2314705",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2325589",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2325600",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2295402",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2202785",
+      "subtopics": [
+        {
+          "id": "10.5",
+          "title": "Inversor de frequência",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.5-inversor-de-frequencia.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2226616",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2226740",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2157581",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2178402",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2198764",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2198765",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2198767",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2200899",
+      "subtopics": [
+        {
+          "id": "10.5",
+          "title": "Inversor de frequência",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.5-inversor-de-frequencia.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2200902",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1888091",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1916780",
+      "subtopics": [
+        {
+          "id": "10.5",
+          "title": "Inversor de frequência",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.5-inversor-de-frequencia.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1919409",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "THREE_PHASE_POWER",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1919412",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1927401",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1927402",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2058451",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1766556",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1767155",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1767162",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1770767",
+      "subtopics": [
+        {
+          "id": "10.5",
+          "title": "Inversor de frequência",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.5-inversor-de-frequencia.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1770768",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1770796",
+      "subtopics": [
+        {
+          "id": "10.5",
+          "title": "Inversor de frequência",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.5-inversor-de-frequencia.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1631017",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1668821",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1721319",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1755402",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "CONTACTOR_NO_NC",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1755412",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1217787",
+      "subtopics": [
+        {
+          "id": "10.5",
+          "title": "Inversor de frequência",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.5-inversor-de-frequencia.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1218065",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1240729",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "THREE_PHASE_POWER",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1276368",
+      "subtopics": [
+        {
+          "id": "10.5",
+          "title": "Inversor de frequência",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.5-inversor-de-frequencia.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1289614",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1629120",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1087464",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1087469",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1087470",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "MOTOR_PROTECTION",
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1087471",
+      "subtopics": [
+        {
+          "id": "10.5",
+          "title": "Inversor de frequência",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.5-inversor-de-frequencia.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1087476",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1087492",
+      "subtopics": [
+        {
+          "id": "10.5",
+          "title": "Inversor de frequência",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.5-inversor-de-frequencia.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1088667",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1113501",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1113512",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1037586",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1037612",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1015268",
+      "subtopics": [
+        {
+          "id": "10.5",
+          "title": "Inversor de frequência",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.5-inversor-de-frequencia.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q945964",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q971890",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "LADDER_SEAL_IN",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q971897",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "POWER_DC",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q976427",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q980893",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q980911",
+      "subtopics": [
+        {
+          "id": "10.5",
+          "title": "Inversor de frequência",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.5-inversor-de-frequencia.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q837397",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q843662",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q803806",
+      "subtopics": [
+        {
+          "id": "10.5",
+          "title": "Inversor de frequência",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.5-inversor-de-frequencia.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q811503",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q825978",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q777108",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q795351",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q797726",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q803804",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q758559",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "MOTOR_PROTECTION",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q758563",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q768536",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q770889",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q770897",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q734065",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q734067",
+      "subtopics": [
+        {
+          "id": "10.5",
+          "title": "Inversor de frequência",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.5-inversor-de-frequencia.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q734068",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q734076",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q743372",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q747658",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q666491",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q707698",
+      "subtopics": [
+        {
+          "id": "10.5",
+          "title": "Inversor de frequência",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.5-inversor-de-frequencia.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q707699",
+      "subtopics": [
+        {
+          "id": "10.5",
+          "title": "Inversor de frequência",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.5-inversor-de-frequencia.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q529120",
+      "subtopics": [
+        {
+          "id": "10.5",
+          "title": "Inversor de frequência",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.5-inversor-de-frequencia.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q529390",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q529410",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q539961",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q454912",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q460306",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q460309",
+      "subtopics": [
+        {
+          "id": "10.5",
+          "title": "Inversor de frequência",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.5-inversor-de-frequencia.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q461600",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "CONTACTOR_NO_NC",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q462307",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q484536",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q490253",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q431753",
+      "subtopics": [
+        {
+          "id": "10.5",
+          "title": "Inversor de frequência",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.5-inversor-de-frequencia.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q452632",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q453953",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q453954",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q430262",
+      "subtopics": [
+        {
+          "id": "10.5",
+          "title": "Inversor de frequência",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.5-inversor-de-frequencia.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q431022",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q431028",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q431031",
+      "subtopics": [
+        {
+          "id": "10.5",
+          "title": "Inversor de frequência",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.5-inversor-de-frequencia.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q431290",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "MOTOR_PROTECTION",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q408314",
+      "subtopics": [
+        {
+          "id": "10.5",
+          "title": "Inversor de frequência",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.5-inversor-de-frequencia.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q413261",
+      "subtopics": [
+        {
+          "id": "10.5",
+          "title": "Inversor de frequência",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.5-inversor-de-frequencia.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q278084",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q237312",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q238954",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q263029",
+      "subtopics": [
+        {
+          "id": "10.5",
+          "title": "Inversor de frequência",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.5-inversor-de-frequencia.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q263032",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q186299",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "THREE_PHASE_POWER",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q186304",
+      "subtopics": [
+        {
+          "id": "10.5",
+          "title": "Inversor de frequência",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.5-inversor-de-frequencia.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q186317",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q186319",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q186527",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q186546",
+      "subtopics": [
+        {
+          "id": "10.5",
+          "title": "Inversor de frequência",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.5-inversor-de-frequencia.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q189046",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "MOTOR_PROTECTION",
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q189734",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q173574",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q180431",
+      "subtopics": [
+        {
+          "id": "10.5",
+          "title": "Inversor de frequência",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.5-inversor-de-frequencia.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q182373",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q182379",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q173560",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    }
+  ]
+}

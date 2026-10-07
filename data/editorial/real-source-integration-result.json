@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "source_files": {
+    "expected": 49,
+    "actual": 49
+  },
+  "records": {
+    "expected": 9791,
+    "actual": 9791
+  },
+  "unique_ids": 9791,
+  "collisions": 0,
+  "cardinalities": {
+    "2": 1031,
+    "4": 2545,
+    "5": 6215,
+    "other": 0
+  },
+  "fidelity_50": {
+    "passed": 50,
+    "failed": 0
+  },
+  "cardinality_samples": {
+    "2": "PASS",
+    "4": "PASS",
+    "5": "PASS"
+  }
+}

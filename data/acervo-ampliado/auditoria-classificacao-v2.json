@@ -1,0 +1,2146 @@
+{
+  "modules": [
+    {
+      "module": "S01",
+      "title": "Desenergização e reenergização",
+      "strata": [
+        {
+          "version": "V1",
+          "confidence": "HIGH",
+          "sampled": 2,
+          "correct_primary": 2,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V1",
+          "confidence": "MEDIUM",
+          "sampled": 1,
+          "correct_primary": 1,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V1",
+          "confidence": "LOW",
+          "sampled": 1,
+          "correct_primary": 0,
+          "wrong_primary": 1,
+          "approximate_sample_precision": 0.0
+        },
+        {
+          "version": "V2",
+          "confidence": "HIGH",
+          "sampled": 4,
+          "correct_primary": 4,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V2",
+          "confidence": "MEDIUM",
+          "sampled": 0,
+          "correct_primary": 0,
+          "wrong_primary": 0,
+          "approximate_sample_precision": null
+        },
+        {
+          "version": "V2",
+          "confidence": "LOW",
+          "sampled": 0,
+          "correct_primary": 0,
+          "wrong_primary": 0,
+          "approximate_sample_precision": null
+        }
+      ],
+      "golden_expected_examples": 4,
+      "v1_sampled_false_negatives": 1,
+      "v2_sampled_false_negatives": 0,
+      "secondary_reviewed": 1,
+      "false_positive_ids_v1": [
+        "Q522242"
+      ]
+    },
+    {
+      "module": "S02",
+      "title": "Qualificação, EPI, altura e zonas de risco",
+      "strata": [
+        {
+          "version": "V1",
+          "confidence": "HIGH",
+          "sampled": 2,
+          "correct_primary": 2,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V1",
+          "confidence": "MEDIUM",
+          "sampled": 1,
+          "correct_primary": 1,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V1",
+          "confidence": "LOW",
+          "sampled": 1,
+          "correct_primary": 1,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V2",
+          "confidence": "HIGH",
+          "sampled": 6,
+          "correct_primary": 6,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V2",
+          "confidence": "MEDIUM",
+          "sampled": 0,
+          "correct_primary": 0,
+          "wrong_primary": 0,
+          "approximate_sample_precision": null
+        },
+        {
+          "version": "V2",
+          "confidence": "LOW",
+          "sampled": 0,
+          "correct_primary": 0,
+          "wrong_primary": 0,
+          "approximate_sample_precision": null
+        }
+      ],
+      "golden_expected_examples": 6,
+      "v1_sampled_false_negatives": 2,
+      "v2_sampled_false_negatives": 0,
+      "secondary_reviewed": 0,
+      "false_positive_ids_v1": []
+    },
+    {
+      "module": "F01",
+      "title": "Unidades e grandezas CC/CA",
+      "strata": [
+        {
+          "version": "V1",
+          "confidence": "HIGH",
+          "sampled": 2,
+          "correct_primary": 1,
+          "wrong_primary": 1,
+          "approximate_sample_precision": 0.5
+        },
+        {
+          "version": "V1",
+          "confidence": "MEDIUM",
+          "sampled": 2,
+          "correct_primary": 0,
+          "wrong_primary": 2,
+          "approximate_sample_precision": 0.0
+        },
+        {
+          "version": "V1",
+          "confidence": "LOW",
+          "sampled": 1,
+          "correct_primary": 0,
+          "wrong_primary": 1,
+          "approximate_sample_precision": 0.0
+        },
+        {
+          "version": "V2",
+          "confidence": "HIGH",
+          "sampled": 2,
+          "correct_primary": 2,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V2",
+          "confidence": "MEDIUM",
+          "sampled": 0,
+          "correct_primary": 0,
+          "wrong_primary": 0,
+          "approximate_sample_precision": null
+        },
+        {
+          "version": "V2",
+          "confidence": "LOW",
+          "sampled": 0,
+          "correct_primary": 0,
+          "wrong_primary": 0,
+          "approximate_sample_precision": null
+        }
+      ],
+      "golden_expected_examples": 2,
+      "v1_sampled_false_negatives": 1,
+      "v2_sampled_false_negatives": 0,
+      "secondary_reviewed": 0,
+      "false_positive_ids_v1": [
+        "Q4151541",
+        "Q3468466",
+        "Q3200234",
+        "Q1694550"
+      ]
+    },
+    {
+      "module": "M01",
+      "title": "Multímetro, alicate e seleção de escala",
+      "strata": [
+        {
+          "version": "V1",
+          "confidence": "HIGH",
+          "sampled": 2,
+          "correct_primary": 2,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V1",
+          "confidence": "MEDIUM",
+          "sampled": 1,
+          "correct_primary": 1,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V1",
+          "confidence": "LOW",
+          "sampled": 1,
+          "correct_primary": 0,
+          "wrong_primary": 1,
+          "approximate_sample_precision": 0.0
+        },
+        {
+          "version": "V2",
+          "confidence": "HIGH",
+          "sampled": 4,
+          "correct_primary": 4,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V2",
+          "confidence": "MEDIUM",
+          "sampled": 2,
+          "correct_primary": 2,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V2",
+          "confidence": "LOW",
+          "sampled": 0,
+          "correct_primary": 0,
+          "wrong_primary": 0,
+          "approximate_sample_precision": null
+        }
+      ],
+      "golden_expected_examples": 6,
+      "v1_sampled_false_negatives": 3,
+      "v2_sampled_false_negatives": 0,
+      "secondary_reviewed": 2,
+      "false_positive_ids_v1": [
+        "Q606953"
+      ]
+    },
+    {
+      "module": "F02",
+      "title": "Lei de Ohm e associação de resistores",
+      "strata": [
+        {
+          "version": "V1",
+          "confidence": "HIGH",
+          "sampled": 2,
+          "correct_primary": 2,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V1",
+          "confidence": "MEDIUM",
+          "sampled": 1,
+          "correct_primary": 0,
+          "wrong_primary": 1,
+          "approximate_sample_precision": 0.0
+        },
+        {
+          "version": "V1",
+          "confidence": "LOW",
+          "sampled": 1,
+          "correct_primary": 0,
+          "wrong_primary": 1,
+          "approximate_sample_precision": 0.0
+        },
+        {
+          "version": "V2",
+          "confidence": "HIGH",
+          "sampled": 5,
+          "correct_primary": 5,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V2",
+          "confidence": "MEDIUM",
+          "sampled": 0,
+          "correct_primary": 0,
+          "wrong_primary": 0,
+          "approximate_sample_precision": null
+        },
+        {
+          "version": "V2",
+          "confidence": "LOW",
+          "sampled": 0,
+          "correct_primary": 0,
+          "wrong_primary": 0,
+          "approximate_sample_precision": null
+        }
+      ],
+      "golden_expected_examples": 5,
+      "v1_sampled_false_negatives": 3,
+      "v2_sampled_false_negatives": 0,
+      "secondary_reviewed": 0,
+      "false_positive_ids_v1": [
+        "Q453504",
+        "Q539964"
+      ]
+    },
+    {
+      "module": "F03",
+      "title": "Frequência, formas de onda e reatância",
+      "strata": [
+        {
+          "version": "V1",
+          "confidence": "HIGH",
+          "sampled": 2,
+          "correct_primary": 0,
+          "wrong_primary": 2,
+          "approximate_sample_precision": 0.0
+        },
+        {
+          "version": "V1",
+          "confidence": "MEDIUM",
+          "sampled": 1,
+          "correct_primary": 0,
+          "wrong_primary": 1,
+          "approximate_sample_precision": 0.0
+        },
+        {
+          "version": "V1",
+          "confidence": "LOW",
+          "sampled": 1,
+          "correct_primary": 0,
+          "wrong_primary": 1,
+          "approximate_sample_precision": 0.0
+        },
+        {
+          "version": "V2",
+          "confidence": "HIGH",
+          "sampled": 3,
+          "correct_primary": 3,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V2",
+          "confidence": "MEDIUM",
+          "sampled": 0,
+          "correct_primary": 0,
+          "wrong_primary": 0,
+          "approximate_sample_precision": null
+        },
+        {
+          "version": "V2",
+          "confidence": "LOW",
+          "sampled": 0,
+          "correct_primary": 0,
+          "wrong_primary": 0,
+          "approximate_sample_precision": null
+        }
+      ],
+      "golden_expected_examples": 3,
+      "v1_sampled_false_negatives": 3,
+      "v2_sampled_false_negatives": 0,
+      "secondary_reviewed": 0,
+      "false_positive_ids_v1": [
+        "Q2217527",
+        "Q3573981",
+        "Q2779411",
+        "Q462309"
+      ]
+    },
+    {
+      "module": "F04",
+      "title": "Potência, energia e fator de potência",
+      "strata": [
+        {
+          "version": "V1",
+          "confidence": "HIGH",
+          "sampled": 2,
+          "correct_primary": 2,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V1",
+          "confidence": "MEDIUM",
+          "sampled": 1,
+          "correct_primary": 1,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V1",
+          "confidence": "LOW",
+          "sampled": 1,
+          "correct_primary": 0,
+          "wrong_primary": 1,
+          "approximate_sample_precision": 0.0
+        },
+        {
+          "version": "V2",
+          "confidence": "HIGH",
+          "sampled": 4,
+          "correct_primary": 4,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V2",
+          "confidence": "MEDIUM",
+          "sampled": 0,
+          "correct_primary": 0,
+          "wrong_primary": 0,
+          "approximate_sample_precision": null
+        },
+        {
+          "version": "V2",
+          "confidence": "LOW",
+          "sampled": 1,
+          "correct_primary": 1,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        }
+      ],
+      "golden_expected_examples": 5,
+      "v1_sampled_false_negatives": 2,
+      "v2_sampled_false_negatives": 0,
+      "secondary_reviewed": 1,
+      "false_positive_ids_v1": [
+        "Q3019378"
+      ]
+    },
+    {
+      "module": "I03",
+      "title": "Simbologia, unifilar, multifilar e CAD",
+      "strata": [
+        {
+          "version": "V1",
+          "confidence": "HIGH",
+          "sampled": 2,
+          "correct_primary": 1,
+          "wrong_primary": 1,
+          "approximate_sample_precision": 0.5
+        },
+        {
+          "version": "V1",
+          "confidence": "MEDIUM",
+          "sampled": 1,
+          "correct_primary": 1,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V1",
+          "confidence": "LOW",
+          "sampled": 1,
+          "correct_primary": 1,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V2",
+          "confidence": "HIGH",
+          "sampled": 3,
+          "correct_primary": 3,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V2",
+          "confidence": "MEDIUM",
+          "sampled": 2,
+          "correct_primary": 2,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V2",
+          "confidence": "LOW",
+          "sampled": 0,
+          "correct_primary": 0,
+          "wrong_primary": 0,
+          "approximate_sample_precision": null
+        }
+      ],
+      "golden_expected_examples": 5,
+      "v1_sampled_false_negatives": 2,
+      "v2_sampled_false_negatives": 0,
+      "secondary_reviewed": 0,
+      "false_positive_ids_v1": [
+        "Q3025721"
+      ]
+    },
+    {
+      "module": "R01",
+      "title": "Estruturas, postes, alimentadores e topologias",
+      "strata": [
+        {
+          "version": "V1",
+          "confidence": "HIGH",
+          "sampled": 2,
+          "correct_primary": 0,
+          "wrong_primary": 2,
+          "approximate_sample_precision": 0.0
+        },
+        {
+          "version": "V1",
+          "confidence": "MEDIUM",
+          "sampled": 1,
+          "correct_primary": 0,
+          "wrong_primary": 1,
+          "approximate_sample_precision": 0.0
+        },
+        {
+          "version": "V1",
+          "confidence": "LOW",
+          "sampled": 1,
+          "correct_primary": 0,
+          "wrong_primary": 1,
+          "approximate_sample_precision": 0.0
+        },
+        {
+          "version": "V2",
+          "confidence": "HIGH",
+          "sampled": 2,
+          "correct_primary": 2,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V2",
+          "confidence": "MEDIUM",
+          "sampled": 0,
+          "correct_primary": 0,
+          "wrong_primary": 0,
+          "approximate_sample_precision": null
+        },
+        {
+          "version": "V2",
+          "confidence": "LOW",
+          "sampled": 0,
+          "correct_primary": 0,
+          "wrong_primary": 0,
+          "approximate_sample_precision": null
+        }
+      ],
+      "golden_expected_examples": 2,
+      "v1_sampled_false_negatives": 2,
+      "v2_sampled_false_negatives": 0,
+      "secondary_reviewed": 0,
+      "false_positive_ids_v1": [
+        "Q3966220",
+        "Q461602",
+        "Q3264283",
+        "Q499915"
+      ]
+    },
+    {
+      "module": "H01",
+      "title": "Válvulas, atuadores e simbologia",
+      "strata": [
+        {
+          "version": "V1",
+          "confidence": "HIGH",
+          "sampled": 0,
+          "correct_primary": 0,
+          "wrong_primary": 0,
+          "approximate_sample_precision": null
+        },
+        {
+          "version": "V1",
+          "confidence": "MEDIUM",
+          "sampled": 3,
+          "correct_primary": 2,
+          "wrong_primary": 1,
+          "approximate_sample_precision": 0.6666666666666666
+        },
+        {
+          "version": "V1",
+          "confidence": "LOW",
+          "sampled": 1,
+          "correct_primary": 0,
+          "wrong_primary": 1,
+          "approximate_sample_precision": 0.0
+        },
+        {
+          "version": "V2",
+          "confidence": "HIGH",
+          "sampled": 2,
+          "correct_primary": 2,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V2",
+          "confidence": "MEDIUM",
+          "sampled": 0,
+          "correct_primary": 0,
+          "wrong_primary": 0,
+          "approximate_sample_precision": null
+        },
+        {
+          "version": "V2",
+          "confidence": "LOW",
+          "sampled": 0,
+          "correct_primary": 0,
+          "wrong_primary": 0,
+          "approximate_sample_precision": null
+        }
+      ],
+      "golden_expected_examples": 2,
+      "v1_sampled_false_negatives": 0,
+      "v2_sampled_false_negatives": 0,
+      "secondary_reviewed": 0,
+      "false_positive_ids_v1": [
+        "Q180465",
+        "Q4027618"
+      ]
+    },
+    {
+      "module": "A01",
+      "title": "Booleanos, binário, tabela verdade e Ladder",
+      "strata": [
+        {
+          "version": "V1",
+          "confidence": "HIGH",
+          "sampled": 2,
+          "correct_primary": 2,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V1",
+          "confidence": "MEDIUM",
+          "sampled": 1,
+          "correct_primary": 1,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V1",
+          "confidence": "LOW",
+          "sampled": 1,
+          "correct_primary": 1,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V2",
+          "confidence": "HIGH",
+          "sampled": 4,
+          "correct_primary": 4,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V2",
+          "confidence": "MEDIUM",
+          "sampled": 1,
+          "correct_primary": 1,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V2",
+          "confidence": "LOW",
+          "sampled": 0,
+          "correct_primary": 0,
+          "wrong_primary": 0,
+          "approximate_sample_precision": null
+        }
+      ],
+      "golden_expected_examples": 5,
+      "v1_sampled_false_negatives": 1,
+      "v2_sampled_false_negatives": 0,
+      "secondary_reviewed": 0,
+      "false_positive_ids_v1": []
+    },
+    {
+      "module": "E01",
+      "title": "Placa, potência, corrente e velocidade",
+      "strata": [
+        {
+          "version": "V1",
+          "confidence": "HIGH",
+          "sampled": 2,
+          "correct_primary": 2,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V1",
+          "confidence": "MEDIUM",
+          "sampled": 1,
+          "correct_primary": 1,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V1",
+          "confidence": "LOW",
+          "sampled": 1,
+          "correct_primary": 1,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V2",
+          "confidence": "HIGH",
+          "sampled": 7,
+          "correct_primary": 7,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V2",
+          "confidence": "MEDIUM",
+          "sampled": 1,
+          "correct_primary": 1,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V2",
+          "confidence": "LOW",
+          "sampled": 0,
+          "correct_primary": 0,
+          "wrong_primary": 0,
+          "approximate_sample_precision": null
+        }
+      ],
+      "golden_expected_examples": 8,
+      "v1_sampled_false_negatives": 4,
+      "v2_sampled_false_negatives": 0,
+      "secondary_reviewed": 0,
+      "false_positive_ids_v1": []
+    },
+    {
+      "module": "T01",
+      "title": "Relação de transformação e proteções",
+      "strata": [
+        {
+          "version": "V1",
+          "confidence": "HIGH",
+          "sampled": 2,
+          "correct_primary": 2,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V1",
+          "confidence": "MEDIUM",
+          "sampled": 1,
+          "correct_primary": 0,
+          "wrong_primary": 1,
+          "approximate_sample_precision": 0.0
+        },
+        {
+          "version": "V1",
+          "confidence": "LOW",
+          "sampled": 1,
+          "correct_primary": 0,
+          "wrong_primary": 1,
+          "approximate_sample_precision": 0.0
+        },
+        {
+          "version": "V2",
+          "confidence": "HIGH",
+          "sampled": 3,
+          "correct_primary": 3,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V2",
+          "confidence": "MEDIUM",
+          "sampled": 0,
+          "correct_primary": 0,
+          "wrong_primary": 0,
+          "approximate_sample_precision": null
+        },
+        {
+          "version": "V2",
+          "confidence": "LOW",
+          "sampled": 0,
+          "correct_primary": 0,
+          "wrong_primary": 0,
+          "approximate_sample_precision": null
+        }
+      ],
+      "golden_expected_examples": 3,
+      "v1_sampled_false_negatives": 1,
+      "v2_sampled_false_negatives": 0,
+      "secondary_reviewed": 0,
+      "false_positive_ids_v1": [
+        "Q759346",
+        "Q2369617"
+      ]
+    },
+    {
+      "module": "T02",
+      "title": "TC, TP, relés e medição indireta",
+      "strata": [
+        {
+          "version": "V1",
+          "confidence": "HIGH",
+          "sampled": 2,
+          "correct_primary": 2,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V1",
+          "confidence": "MEDIUM",
+          "sampled": 1,
+          "correct_primary": 0,
+          "wrong_primary": 1,
+          "approximate_sample_precision": 0.0
+        },
+        {
+          "version": "V1",
+          "confidence": "LOW",
+          "sampled": 1,
+          "correct_primary": 0,
+          "wrong_primary": 1,
+          "approximate_sample_precision": 0.0
+        },
+        {
+          "version": "V2",
+          "confidence": "HIGH",
+          "sampled": 2,
+          "correct_primary": 2,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V2",
+          "confidence": "MEDIUM",
+          "sampled": 0,
+          "correct_primary": 0,
+          "wrong_primary": 0,
+          "approximate_sample_precision": null
+        },
+        {
+          "version": "V2",
+          "confidence": "LOW",
+          "sampled": 0,
+          "correct_primary": 0,
+          "wrong_primary": 0,
+          "approximate_sample_precision": null
+        }
+      ],
+      "golden_expected_examples": 2,
+      "v1_sampled_false_negatives": 0,
+      "v2_sampled_false_negatives": 0,
+      "secondary_reviewed": 0,
+      "false_positive_ids_v1": [
+        "Q278096",
+        "Q3272003"
+      ]
+    },
+    {
+      "module": "R02",
+      "title": "Equipamentos, barramentos e operação",
+      "strata": [
+        {
+          "version": "V1",
+          "confidence": "HIGH",
+          "sampled": 2,
+          "correct_primary": 1,
+          "wrong_primary": 1,
+          "approximate_sample_precision": 0.5
+        },
+        {
+          "version": "V1",
+          "confidence": "MEDIUM",
+          "sampled": 1,
+          "correct_primary": 0,
+          "wrong_primary": 1,
+          "approximate_sample_precision": 0.0
+        },
+        {
+          "version": "V1",
+          "confidence": "LOW",
+          "sampled": 1,
+          "correct_primary": 0,
+          "wrong_primary": 1,
+          "approximate_sample_precision": 0.0
+        },
+        {
+          "version": "V2",
+          "confidence": "HIGH",
+          "sampled": 2,
+          "correct_primary": 2,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V2",
+          "confidence": "MEDIUM",
+          "sampled": 0,
+          "correct_primary": 0,
+          "wrong_primary": 0,
+          "approximate_sample_precision": null
+        },
+        {
+          "version": "V2",
+          "confidence": "LOW",
+          "sampled": 0,
+          "correct_primary": 0,
+          "wrong_primary": 0,
+          "approximate_sample_precision": null
+        }
+      ],
+      "golden_expected_examples": 2,
+      "v1_sampled_false_negatives": 1,
+      "v2_sampled_false_negatives": 0,
+      "secondary_reviewed": 0,
+      "false_positive_ids_v1": [
+        "Q2081100",
+        "Q2729179",
+        "Q654057"
+      ]
+    },
+    {
+      "module": "I01",
+      "title": "Tomadas, iluminação e previsão de cargas",
+      "strata": [
+        {
+          "version": "V1",
+          "confidence": "HIGH",
+          "sampled": 2,
+          "correct_primary": 1,
+          "wrong_primary": 1,
+          "approximate_sample_precision": 0.5
+        },
+        {
+          "version": "V1",
+          "confidence": "MEDIUM",
+          "sampled": 1,
+          "correct_primary": 1,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V1",
+          "confidence": "LOW",
+          "sampled": 1,
+          "correct_primary": 0,
+          "wrong_primary": 1,
+          "approximate_sample_precision": 0.0
+        },
+        {
+          "version": "V2",
+          "confidence": "HIGH",
+          "sampled": 5,
+          "correct_primary": 5,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V2",
+          "confidence": "MEDIUM",
+          "sampled": 0,
+          "correct_primary": 0,
+          "wrong_primary": 0,
+          "approximate_sample_precision": null
+        },
+        {
+          "version": "V2",
+          "confidence": "LOW",
+          "sampled": 0,
+          "correct_primary": 0,
+          "wrong_primary": 0,
+          "approximate_sample_precision": null
+        }
+      ],
+      "golden_expected_examples": 5,
+      "v1_sampled_false_negatives": 3,
+      "v2_sampled_false_negatives": 0,
+      "secondary_reviewed": 3,
+      "false_positive_ids_v1": [
+        "Q2447327",
+        "Q93722"
+      ]
+    },
+    {
+      "module": "P01",
+      "title": "Condutores, instalação e fatores de correção",
+      "strata": [
+        {
+          "version": "V1",
+          "confidence": "HIGH",
+          "sampled": 2,
+          "correct_primary": 1,
+          "wrong_primary": 1,
+          "approximate_sample_precision": 0.5
+        },
+        {
+          "version": "V1",
+          "confidence": "MEDIUM",
+          "sampled": 1,
+          "correct_primary": 1,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V1",
+          "confidence": "LOW",
+          "sampled": 1,
+          "correct_primary": 1,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V2",
+          "confidence": "HIGH",
+          "sampled": 6,
+          "correct_primary": 6,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V2",
+          "confidence": "MEDIUM",
+          "sampled": 0,
+          "correct_primary": 0,
+          "wrong_primary": 0,
+          "approximate_sample_precision": null
+        },
+        {
+          "version": "V2",
+          "confidence": "LOW",
+          "sampled": 0,
+          "correct_primary": 0,
+          "wrong_primary": 0,
+          "approximate_sample_precision": null
+        }
+      ],
+      "golden_expected_examples": 6,
+      "v1_sampled_false_negatives": 3,
+      "v2_sampled_false_negatives": 0,
+      "secondary_reviewed": 0,
+      "false_positive_ids_v1": [
+        "Q263040"
+      ]
+    },
+    {
+      "module": "P02",
+      "title": "Disjuntores, fusíveis, curvas e curto-circuito",
+      "strata": [
+        {
+          "version": "V1",
+          "confidence": "HIGH",
+          "sampled": 2,
+          "correct_primary": 1,
+          "wrong_primary": 1,
+          "approximate_sample_precision": 0.5
+        },
+        {
+          "version": "V1",
+          "confidence": "MEDIUM",
+          "sampled": 1,
+          "correct_primary": 1,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V1",
+          "confidence": "LOW",
+          "sampled": 1,
+          "correct_primary": 0,
+          "wrong_primary": 1,
+          "approximate_sample_precision": 0.0
+        },
+        {
+          "version": "V2",
+          "confidence": "HIGH",
+          "sampled": 4,
+          "correct_primary": 4,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V2",
+          "confidence": "MEDIUM",
+          "sampled": 2,
+          "correct_primary": 2,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V2",
+          "confidence": "LOW",
+          "sampled": 0,
+          "correct_primary": 0,
+          "wrong_primary": 0,
+          "approximate_sample_precision": null
+        }
+      ],
+      "golden_expected_examples": 6,
+      "v1_sampled_false_negatives": 4,
+      "v2_sampled_false_negatives": 0,
+      "secondary_reviewed": 0,
+      "false_positive_ids_v1": [
+        "Q3200229",
+        "Q3509144"
+      ]
+    },
+    {
+      "module": "I02",
+      "title": "Interruptores, sensores e relé fotocélula",
+      "strata": [
+        {
+          "version": "V1",
+          "confidence": "HIGH",
+          "sampled": 2,
+          "correct_primary": 2,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V1",
+          "confidence": "MEDIUM",
+          "sampled": 1,
+          "correct_primary": 0,
+          "wrong_primary": 1,
+          "approximate_sample_precision": 0.0
+        },
+        {
+          "version": "V1",
+          "confidence": "LOW",
+          "sampled": 1,
+          "correct_primary": 1,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V2",
+          "confidence": "HIGH",
+          "sampled": 3,
+          "correct_primary": 3,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V2",
+          "confidence": "MEDIUM",
+          "sampled": 0,
+          "correct_primary": 0,
+          "wrong_primary": 0,
+          "approximate_sample_precision": null
+        },
+        {
+          "version": "V2",
+          "confidence": "LOW",
+          "sampled": 0,
+          "correct_primary": 0,
+          "wrong_primary": 0,
+          "approximate_sample_precision": null
+        }
+      ],
+      "golden_expected_examples": 3,
+      "v1_sampled_false_negatives": 0,
+      "v2_sampled_false_negatives": 0,
+      "secondary_reviewed": 0,
+      "false_positive_ids_v1": [
+        "Q3480988"
+      ]
+    },
+    {
+      "module": "P03",
+      "title": "DR, IDR, DDR e coordenação de funções",
+      "strata": [
+        {
+          "version": "V1",
+          "confidence": "HIGH",
+          "sampled": 2,
+          "correct_primary": 2,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V1",
+          "confidence": "MEDIUM",
+          "sampled": 1,
+          "correct_primary": 1,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V1",
+          "confidence": "LOW",
+          "sampled": 1,
+          "correct_primary": 1,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V2",
+          "confidence": "HIGH",
+          "sampled": 5,
+          "correct_primary": 5,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V2",
+          "confidence": "MEDIUM",
+          "sampled": 0,
+          "correct_primary": 0,
+          "wrong_primary": 0,
+          "approximate_sample_precision": null
+        },
+        {
+          "version": "V2",
+          "confidence": "LOW",
+          "sampled": 0,
+          "correct_primary": 0,
+          "wrong_primary": 0,
+          "approximate_sample_precision": null
+        }
+      ],
+      "golden_expected_examples": 5,
+      "v1_sampled_false_negatives": 1,
+      "v2_sampled_false_negatives": 0,
+      "secondary_reviewed": 0,
+      "false_positive_ids_v1": []
+    },
+    {
+      "module": "M02",
+      "title": "Continuidade e resistência de isolamento",
+      "strata": [
+        {
+          "version": "V1",
+          "confidence": "HIGH",
+          "sampled": 2,
+          "correct_primary": 1,
+          "wrong_primary": 1,
+          "approximate_sample_precision": 0.5
+        },
+        {
+          "version": "V1",
+          "confidence": "MEDIUM",
+          "sampled": 1,
+          "correct_primary": 1,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V1",
+          "confidence": "LOW",
+          "sampled": 0,
+          "correct_primary": 0,
+          "wrong_primary": 0,
+          "approximate_sample_precision": null
+        },
+        {
+          "version": "V2",
+          "confidence": "HIGH",
+          "sampled": 2,
+          "correct_primary": 2,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V2",
+          "confidence": "MEDIUM",
+          "sampled": 0,
+          "correct_primary": 0,
+          "wrong_primary": 0,
+          "approximate_sample_precision": null
+        },
+        {
+          "version": "V2",
+          "confidence": "LOW",
+          "sampled": 0,
+          "correct_primary": 0,
+          "wrong_primary": 0,
+          "approximate_sample_precision": null
+        }
+      ],
+      "golden_expected_examples": 2,
+      "v1_sampled_false_negatives": 0,
+      "v2_sampled_false_negatives": 0,
+      "secondary_reviewed": 0,
+      "false_positive_ids_v1": [
+        "Q4129342"
+      ]
+    },
+    {
+      "module": "S03",
+      "title": "Classificação de tensão e documentação",
+      "strata": [
+        {
+          "version": "V1",
+          "confidence": "HIGH",
+          "sampled": 0,
+          "correct_primary": 0,
+          "wrong_primary": 0,
+          "approximate_sample_precision": null
+        },
+        {
+          "version": "V1",
+          "confidence": "MEDIUM",
+          "sampled": 1,
+          "correct_primary": 1,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V1",
+          "confidence": "LOW",
+          "sampled": 0,
+          "correct_primary": 0,
+          "wrong_primary": 0,
+          "approximate_sample_precision": null
+        },
+        {
+          "version": "V2",
+          "confidence": "HIGH",
+          "sampled": 2,
+          "correct_primary": 2,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V2",
+          "confidence": "MEDIUM",
+          "sampled": 0,
+          "correct_primary": 0,
+          "wrong_primary": 0,
+          "approximate_sample_precision": null
+        },
+        {
+          "version": "V2",
+          "confidence": "LOW",
+          "sampled": 0,
+          "correct_primary": 0,
+          "wrong_primary": 0,
+          "approximate_sample_precision": null
+        }
+      ],
+      "golden_expected_examples": 2,
+      "v1_sampled_false_negatives": 1,
+      "v2_sampled_false_negatives": 0,
+      "secondary_reviewed": 0,
+      "false_positive_ids_v1": []
+    },
+    {
+      "module": "V01",
+      "title": "Arranjos, potência e eficiência",
+      "strata": [
+        {
+          "version": "V1",
+          "confidence": "HIGH",
+          "sampled": 2,
+          "correct_primary": 2,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V1",
+          "confidence": "MEDIUM",
+          "sampled": 1,
+          "correct_primary": 1,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V1",
+          "confidence": "LOW",
+          "sampled": 1,
+          "correct_primary": 1,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V2",
+          "confidence": "HIGH",
+          "sampled": 4,
+          "correct_primary": 4,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V2",
+          "confidence": "MEDIUM",
+          "sampled": 0,
+          "correct_primary": 0,
+          "wrong_primary": 0,
+          "approximate_sample_precision": null
+        },
+        {
+          "version": "V2",
+          "confidence": "LOW",
+          "sampled": 0,
+          "correct_primary": 0,
+          "wrong_primary": 0,
+          "approximate_sample_precision": null
+        }
+      ],
+      "golden_expected_examples": 4,
+      "v1_sampled_false_negatives": 0,
+      "v2_sampled_false_negatives": 0,
+      "secondary_reviewed": 0,
+      "false_positive_ids_v1": []
+    },
+    {
+      "module": "D01",
+      "title": "Preventiva, preditiva, corretiva e inspeções",
+      "strata": [
+        {
+          "version": "V1",
+          "confidence": "HIGH",
+          "sampled": 2,
+          "correct_primary": 1,
+          "wrong_primary": 1,
+          "approximate_sample_precision": 0.5
+        },
+        {
+          "version": "V1",
+          "confidence": "MEDIUM",
+          "sampled": 1,
+          "correct_primary": 0,
+          "wrong_primary": 1,
+          "approximate_sample_precision": 0.0
+        },
+        {
+          "version": "V1",
+          "confidence": "LOW",
+          "sampled": 1,
+          "correct_primary": 1,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V2",
+          "confidence": "HIGH",
+          "sampled": 2,
+          "correct_primary": 2,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V2",
+          "confidence": "MEDIUM",
+          "sampled": 0,
+          "correct_primary": 0,
+          "wrong_primary": 0,
+          "approximate_sample_precision": null
+        },
+        {
+          "version": "V2",
+          "confidence": "LOW",
+          "sampled": 0,
+          "correct_primary": 0,
+          "wrong_primary": 0,
+          "approximate_sample_precision": null
+        }
+      ],
+      "golden_expected_examples": 2,
+      "v1_sampled_false_negatives": 0,
+      "v2_sampled_false_negatives": 0,
+      "secondary_reviewed": 0,
+      "false_positive_ids_v1": [
+        "Q4218684",
+        "Q3798181"
+      ]
+    },
+    {
+      "module": "D02",
+      "title": "Termografia, conexões e localização de falhas",
+      "strata": [
+        {
+          "version": "V1",
+          "confidence": "HIGH",
+          "sampled": 0,
+          "correct_primary": 0,
+          "wrong_primary": 0,
+          "approximate_sample_precision": null
+        },
+        {
+          "version": "V1",
+          "confidence": "MEDIUM",
+          "sampled": 1,
+          "correct_primary": 1,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V1",
+          "confidence": "LOW",
+          "sampled": 1,
+          "correct_primary": 0,
+          "wrong_primary": 1,
+          "approximate_sample_precision": 0.0
+        },
+        {
+          "version": "V2",
+          "confidence": "HIGH",
+          "sampled": 2,
+          "correct_primary": 2,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V2",
+          "confidence": "MEDIUM",
+          "sampled": 0,
+          "correct_primary": 0,
+          "wrong_primary": 0,
+          "approximate_sample_precision": null
+        },
+        {
+          "version": "V2",
+          "confidence": "LOW",
+          "sampled": 0,
+          "correct_primary": 0,
+          "wrong_primary": 0,
+          "approximate_sample_precision": null
+        }
+      ],
+      "golden_expected_examples": 2,
+      "v1_sampled_false_negatives": 1,
+      "v2_sampled_false_negatives": 0,
+      "secondary_reviewed": 0,
+      "false_positive_ids_v1": [
+        "Q1113499"
+      ]
+    },
+    {
+      "module": "E02",
+      "title": "Bobinas, fechamentos e ligação monofásica/trifásica",
+      "strata": [
+        {
+          "version": "V1",
+          "confidence": "HIGH",
+          "sampled": 2,
+          "correct_primary": 1,
+          "wrong_primary": 1,
+          "approximate_sample_precision": 0.5
+        },
+        {
+          "version": "V1",
+          "confidence": "MEDIUM",
+          "sampled": 1,
+          "correct_primary": 0,
+          "wrong_primary": 1,
+          "approximate_sample_precision": 0.0
+        },
+        {
+          "version": "V1",
+          "confidence": "LOW",
+          "sampled": 2,
+          "correct_primary": 0,
+          "wrong_primary": 2,
+          "approximate_sample_precision": 0.0
+        },
+        {
+          "version": "V2",
+          "confidence": "HIGH",
+          "sampled": 2,
+          "correct_primary": 2,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V2",
+          "confidence": "MEDIUM",
+          "sampled": 0,
+          "correct_primary": 0,
+          "wrong_primary": 0,
+          "approximate_sample_precision": null
+        },
+        {
+          "version": "V2",
+          "confidence": "LOW",
+          "sampled": 0,
+          "correct_primary": 0,
+          "wrong_primary": 0,
+          "approximate_sample_precision": null
+        }
+      ],
+      "golden_expected_examples": 2,
+      "v1_sampled_false_negatives": 1,
+      "v2_sampled_false_negatives": 0,
+      "secondary_reviewed": 0,
+      "false_positive_ids_v1": [
+        "Q4148970",
+        "Q811507",
+        "Q514337",
+        "Q811511"
+      ]
+    },
+    {
+      "module": "E03",
+      "title": "Direta, reversão, selo e intertravamento",
+      "strata": [
+        {
+          "version": "V1",
+          "confidence": "HIGH",
+          "sampled": 2,
+          "correct_primary": 2,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V1",
+          "confidence": "MEDIUM",
+          "sampled": 1,
+          "correct_primary": 0,
+          "wrong_primary": 1,
+          "approximate_sample_precision": 0.0
+        },
+        {
+          "version": "V1",
+          "confidence": "LOW",
+          "sampled": 1,
+          "correct_primary": 1,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V2",
+          "confidence": "HIGH",
+          "sampled": 3,
+          "correct_primary": 3,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V2",
+          "confidence": "MEDIUM",
+          "sampled": 1,
+          "correct_primary": 1,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V2",
+          "confidence": "LOW",
+          "sampled": 0,
+          "correct_primary": 0,
+          "wrong_primary": 0,
+          "approximate_sample_precision": null
+        }
+      ],
+      "golden_expected_examples": 4,
+      "v1_sampled_false_negatives": 1,
+      "v2_sampled_false_negatives": 0,
+      "secondary_reviewed": 0,
+      "false_positive_ids_v1": [
+        "Q2955313"
+      ]
+    },
+    {
+      "module": "H02",
+      "title": "Sequências, selo e diagnóstico eletropneumático",
+      "strata": [
+        {
+          "version": "V1",
+          "confidence": "HIGH",
+          "sampled": 0,
+          "correct_primary": 0,
+          "wrong_primary": 0,
+          "approximate_sample_precision": null
+        },
+        {
+          "version": "V1",
+          "confidence": "MEDIUM",
+          "sampled": 0,
+          "correct_primary": 0,
+          "wrong_primary": 0,
+          "approximate_sample_precision": null
+        },
+        {
+          "version": "V1",
+          "confidence": "LOW",
+          "sampled": 0,
+          "correct_primary": 0,
+          "wrong_primary": 0,
+          "approximate_sample_precision": null
+        },
+        {
+          "version": "V2",
+          "confidence": "HIGH",
+          "sampled": 1,
+          "correct_primary": 1,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V2",
+          "confidence": "MEDIUM",
+          "sampled": 0,
+          "correct_primary": 0,
+          "wrong_primary": 0,
+          "approximate_sample_precision": null
+        },
+        {
+          "version": "V2",
+          "confidence": "LOW",
+          "sampled": 0,
+          "correct_primary": 0,
+          "wrong_primary": 0,
+          "approximate_sample_precision": null
+        }
+      ],
+      "golden_expected_examples": 1,
+      "v1_sampled_false_negatives": 1,
+      "v2_sampled_false_negatives": 0,
+      "secondary_reviewed": 0,
+      "false_positive_ids_v1": []
+    },
+    {
+      "module": "A02",
+      "title": "Entradas, saídas e controle sequencial",
+      "strata": [
+        {
+          "version": "V1",
+          "confidence": "HIGH",
+          "sampled": 2,
+          "correct_primary": 1,
+          "wrong_primary": 1,
+          "approximate_sample_precision": 0.5
+        },
+        {
+          "version": "V1",
+          "confidence": "MEDIUM",
+          "sampled": 1,
+          "correct_primary": 1,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V1",
+          "confidence": "LOW",
+          "sampled": 1,
+          "correct_primary": 1,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V2",
+          "confidence": "HIGH",
+          "sampled": 4,
+          "correct_primary": 4,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V2",
+          "confidence": "MEDIUM",
+          "sampled": 1,
+          "correct_primary": 1,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V2",
+          "confidence": "LOW",
+          "sampled": 0,
+          "correct_primary": 0,
+          "wrong_primary": 0,
+          "approximate_sample_precision": null
+        }
+      ],
+      "golden_expected_examples": 5,
+      "v1_sampled_false_negatives": 2,
+      "v2_sampled_false_negatives": 0,
+      "secondary_reviewed": 0,
+      "false_positive_ids_v1": [
+        "Q1762486"
+      ]
+    },
+    {
+      "module": "E06",
+      "title": "Inversor, soft-starter e parametrização",
+      "strata": [
+        {
+          "version": "V1",
+          "confidence": "HIGH",
+          "sampled": 2,
+          "correct_primary": 2,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V1",
+          "confidence": "MEDIUM",
+          "sampled": 1,
+          "correct_primary": 1,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V1",
+          "confidence": "LOW",
+          "sampled": 1,
+          "correct_primary": 1,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V2",
+          "confidence": "HIGH",
+          "sampled": 4,
+          "correct_primary": 4,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V2",
+          "confidence": "MEDIUM",
+          "sampled": 0,
+          "correct_primary": 0,
+          "wrong_primary": 0,
+          "approximate_sample_precision": null
+        },
+        {
+          "version": "V2",
+          "confidence": "LOW",
+          "sampled": 0,
+          "correct_primary": 0,
+          "wrong_primary": 0,
+          "approximate_sample_precision": null
+        }
+      ],
+      "golden_expected_examples": 4,
+      "v1_sampled_false_negatives": 0,
+      "v2_sampled_false_negatives": 0,
+      "secondary_reviewed": 0,
+      "false_positive_ids_v1": []
+    },
+    {
+      "module": "E04",
+      "title": "Estrela-triângulo e compensadora",
+      "strata": [
+        {
+          "version": "V1",
+          "confidence": "HIGH",
+          "sampled": 2,
+          "correct_primary": 2,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V1",
+          "confidence": "MEDIUM",
+          "sampled": 1,
+          "correct_primary": 1,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V1",
+          "confidence": "LOW",
+          "sampled": 1,
+          "correct_primary": 0,
+          "wrong_primary": 1,
+          "approximate_sample_precision": 0.0
+        },
+        {
+          "version": "V2",
+          "confidence": "HIGH",
+          "sampled": 3,
+          "correct_primary": 3,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V2",
+          "confidence": "MEDIUM",
+          "sampled": 0,
+          "correct_primary": 0,
+          "wrong_primary": 0,
+          "approximate_sample_precision": null
+        },
+        {
+          "version": "V2",
+          "confidence": "LOW",
+          "sampled": 0,
+          "correct_primary": 0,
+          "wrong_primary": 0,
+          "approximate_sample_precision": null
+        }
+      ],
+      "golden_expected_examples": 3,
+      "v1_sampled_false_negatives": 0,
+      "v2_sampled_false_negatives": 0,
+      "secondary_reviewed": 0,
+      "false_positive_ids_v1": [
+        "Q2910275"
+      ]
+    },
+    {
+      "module": "A03",
+      "title": "Sensores de presença, alarme e nível",
+      "strata": [
+        {
+          "version": "V1",
+          "confidence": "HIGH",
+          "sampled": 2,
+          "correct_primary": 2,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V1",
+          "confidence": "MEDIUM",
+          "sampled": 1,
+          "correct_primary": 1,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V1",
+          "confidence": "LOW",
+          "sampled": 2,
+          "correct_primary": 0,
+          "wrong_primary": 2,
+          "approximate_sample_precision": 0.0
+        },
+        {
+          "version": "V2",
+          "confidence": "HIGH",
+          "sampled": 3,
+          "correct_primary": 3,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V2",
+          "confidence": "MEDIUM",
+          "sampled": 0,
+          "correct_primary": 0,
+          "wrong_primary": 0,
+          "approximate_sample_precision": null
+        },
+        {
+          "version": "V2",
+          "confidence": "LOW",
+          "sampled": 0,
+          "correct_primary": 0,
+          "wrong_primary": 0,
+          "approximate_sample_precision": null
+        }
+      ],
+      "golden_expected_examples": 3,
+      "v1_sampled_false_negatives": 0,
+      "v2_sampled_false_negatives": 0,
+      "secondary_reviewed": 0,
+      "false_positive_ids_v1": [
+        "Q4148977",
+        "Q402449"
+      ]
+    },
+    {
+      "module": "E05",
+      "title": "Dahlander e duas velocidades",
+      "strata": [
+        {
+          "version": "V1",
+          "confidence": "HIGH",
+          "sampled": 1,
+          "correct_primary": 1,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V1",
+          "confidence": "MEDIUM",
+          "sampled": 0,
+          "correct_primary": 0,
+          "wrong_primary": 0,
+          "approximate_sample_precision": null
+        },
+        {
+          "version": "V1",
+          "confidence": "LOW",
+          "sampled": 0,
+          "correct_primary": 0,
+          "wrong_primary": 0,
+          "approximate_sample_precision": null
+        },
+        {
+          "version": "V2",
+          "confidence": "HIGH",
+          "sampled": 1,
+          "correct_primary": 1,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V2",
+          "confidence": "MEDIUM",
+          "sampled": 0,
+          "correct_primary": 0,
+          "wrong_primary": 0,
+          "approximate_sample_precision": null
+        },
+        {
+          "version": "V2",
+          "confidence": "LOW",
+          "sampled": 0,
+          "correct_primary": 0,
+          "wrong_primary": 0,
+          "approximate_sample_precision": null
+        }
+      ],
+      "golden_expected_examples": 1,
+      "v1_sampled_false_negatives": 0,
+      "v2_sampled_false_negatives": 0,
+      "secondary_reviewed": 0,
+      "false_positive_ids_v1": []
+    },
+    {
+      "module": "P04",
+      "title": "Esquemas de aterramento e equipotencialização",
+      "strata": [
+        {
+          "version": "V1",
+          "confidence": "HIGH",
+          "sampled": 2,
+          "correct_primary": 2,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V1",
+          "confidence": "MEDIUM",
+          "sampled": 1,
+          "correct_primary": 1,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V1",
+          "confidence": "LOW",
+          "sampled": 1,
+          "correct_primary": 0,
+          "wrong_primary": 1,
+          "approximate_sample_precision": 0.0
+        },
+        {
+          "version": "V2",
+          "confidence": "HIGH",
+          "sampled": 2,
+          "correct_primary": 2,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V2",
+          "confidence": "MEDIUM",
+          "sampled": 0,
+          "correct_primary": 0,
+          "wrong_primary": 0,
+          "approximate_sample_precision": null
+        },
+        {
+          "version": "V2",
+          "confidence": "LOW",
+          "sampled": 1,
+          "correct_primary": 1,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        }
+      ],
+      "golden_expected_examples": 3,
+      "v1_sampled_false_negatives": 0,
+      "v2_sampled_false_negatives": 0,
+      "secondary_reviewed": 1,
+      "false_positive_ids_v1": [
+        "Q2523914"
+      ]
+    },
+    {
+      "module": "P05",
+      "title": "Captação, descida, aterramento e DPS",
+      "strata": [
+        {
+          "version": "V1",
+          "confidence": "HIGH",
+          "sampled": 2,
+          "correct_primary": 2,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V1",
+          "confidence": "MEDIUM",
+          "sampled": 1,
+          "correct_primary": 1,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V1",
+          "confidence": "LOW",
+          "sampled": 1,
+          "correct_primary": 0,
+          "wrong_primary": 1,
+          "approximate_sample_precision": 0.0
+        },
+        {
+          "version": "V2",
+          "confidence": "HIGH",
+          "sampled": 3,
+          "correct_primary": 3,
+          "wrong_primary": 0,
+          "approximate_sample_precision": 1.0
+        },
+        {
+          "version": "V2",
+          "confidence": "MEDIUM",
+          "sampled": 0,
+          "correct_primary": 0,
+          "wrong_primary": 0,
+          "approximate_sample_precision": null
+        },
+        {
+          "version": "V2",
+          "confidence": "LOW",
+          "sampled": 0,
+          "correct_primary": 0,
+          "wrong_primary": 0,
+          "approximate_sample_precision": null
+        }
+      ],
+      "golden_expected_examples": 3,
+      "v1_sampled_false_negatives": 0,
+      "v2_sampled_false_negatives": 0,
+      "secondary_reviewed": 0,
+      "false_positive_ids_v1": [
+        "Q1629114"
+      ]
+    }
+  ],
+  "sampling": "150 estratos V1/UNCLASSIFIED mais 3 casos de H01/H02, seed 20261006; quatro imagens inspecionadas. Estratos vazios não têm precisão estimada.",
+  "golden_expected_modules": 35,
+  "not_holdout": true
+}

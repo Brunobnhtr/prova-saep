@@ -1,0 +1,3239 @@
+{
+  "Q431284": {
+    "source_id": "Q431284",
+    "expected_primary_module": "P01",
+    "acceptable_modules": [
+      "P01",
+      "I01"
+    ],
+    "expected_primary_concept": "CONDUCTOR_SIZING",
+    "expected_semantic_family": "CONDUCTORS_AND_CABLES",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Dimensionamento de condutores e condutos"
+  },
+  "Q767411": {
+    "source_id": "Q767411",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "OPERATIONAL_AMPLIFIER",
+    "expected_semantic_family": "ANALOG_ELECTRONICS",
+    "expected_unclassified_reason": "MISSING_MODULE",
+    "editorial_rationale": "Eletronica analogica (AmpOp) ausente na matriz de 35 modulos"
+  },
+  "Q431812": {
+    "source_id": "Q431812",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNSPECIFIED_ELECTRICAL_CONCEPT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "CLASSIFIER_GAP",
+    "editorial_rationale": "Conceito generico sem discriminacao curricular clara"
+  },
+  "Q460344": {
+    "source_id": "Q460344",
+    "expected_primary_module": "P05",
+    "acceptable_modules": [
+      "P05",
+      "P04"
+    ],
+    "expected_primary_concept": "SPDA",
+    "expected_semantic_family": "SURGE_AND_LIGHTNING_PROTECTION",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Protecao contra descargas atmosfericas e surtos (SPDA/DPS)"
+  },
+  "Q3021225": {
+    "source_id": "Q3021225",
+    "expected_primary_module": "A02",
+    "acceptable_modules": [
+      "A02"
+    ],
+    "expected_primary_concept": "PLC_CONTROL",
+    "expected_semantic_family": "PROGRAMMABLE_CONTROLLERS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Controladores logicos programaveis na automacao"
+  },
+  "Q238964": {
+    "source_id": "Q238964",
+    "expected_primary_module": "F02",
+    "acceptable_modules": [
+      "F02"
+    ],
+    "expected_primary_concept": "RESISTOR_ASSOCIATION",
+    "expected_semantic_family": "RESISTOR_NETWORKS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Associacao e calculos em redes resistivas"
+  },
+  "Q837399": {
+    "source_id": "Q837399",
+    "expected_primary_module": "P01",
+    "acceptable_modules": [
+      "P01",
+      "I01"
+    ],
+    "expected_primary_concept": "CONDUCTOR_SIZING",
+    "expected_semantic_family": "CONDUCTORS_AND_CABLES",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Dimensionamento de condutores e condutos"
+  },
+  "Q189038": {
+    "source_id": "Q189038",
+    "expected_primary_module": "F04",
+    "acceptable_modules": [
+      "F04",
+      "F03"
+    ],
+    "expected_primary_concept": "ELECTRICAL_POWER",
+    "expected_semantic_family": "ELECTRIC_POWER_AND_ENERGY",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Potencias eletricas ativa, reativa e aparente"
+  },
+  "Q3566340": {
+    "source_id": "Q3566340",
+    "expected_primary_module": "P02",
+    "acceptable_modules": [
+      "P02",
+      "P01"
+    ],
+    "expected_primary_concept": "OVERCURRENT_PROTECTION",
+    "expected_semantic_family": "OVERCURRENT_PROTECTION",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Dispositivos de protecao contra sobrecorrente"
+  },
+  "Q4024961": {
+    "source_id": "Q4024961",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "IMAGE_DEPENDENT_QUESTION",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "IMAGE_REQUIRED",
+    "editorial_rationale": "Enunciado depende essencialmente de interpretacao da imagem"
+  },
+  "Q2255976": {
+    "source_id": "Q2255976",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "RECTIFIER_OPERATION",
+    "expected_semantic_family": "ANALOG_ELECTRONICS",
+    "expected_unclassified_reason": "MISSING_MODULE",
+    "editorial_rationale": "Eletronica basica / circuitos retificadores"
+  },
+  "Q2927368": {
+    "source_id": "Q2927368",
+    "expected_primary_module": "I02",
+    "acceptable_modules": [
+      "I02",
+      "I01"
+    ],
+    "expected_primary_concept": "LIGHTING_SWITCHING",
+    "expected_semantic_family": "LIGHTING_CONTROLS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Comandos e ligacoes de iluminacao residencial"
+  },
+  "Q777101": {
+    "source_id": "Q777101",
+    "expected_primary_module": "I01",
+    "acceptable_modules": [
+      "I01",
+      "P01"
+    ],
+    "expected_primary_concept": "LOAD_ALLOCATION",
+    "expected_semantic_family": "BUILDING_INSTALLATIONS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Previsao de cargas e instalacoes prediais NBR 5410"
+  },
+  "Q2295406": {
+    "source_id": "Q2295406",
+    "expected_primary_module": "M01",
+    "acceptable_modules": [
+      "M01",
+      "F02"
+    ],
+    "expected_primary_concept": "MULTIMETER_FUNCTION",
+    "expected_semantic_family": "MULTIMETER_MEASUREMENTS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Uso e escalas de instrumentos de medicao eletrica"
+  },
+  "Q3911606": {
+    "source_id": "Q3911606",
+    "expected_primary_module": "F03",
+    "acceptable_modules": [
+      "F03",
+      "F01"
+    ],
+    "expected_primary_concept": "REACTANCE_IMPEDANCE",
+    "expected_semantic_family": "AC_CIRCUITS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Impedancia e resposta em circuitos de corrente alternada"
+  },
+  "Q1630263": {
+    "source_id": "Q1630263",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNSPECIFIED_ELECTRICAL_CONCEPT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "CLASSIFIER_GAP",
+    "editorial_rationale": "Conceito generico sem discriminacao curricular clara"
+  },
+  "Q234021": {
+    "source_id": "Q234021",
+    "expected_primary_module": "P02",
+    "acceptable_modules": [
+      "P02",
+      "P01"
+    ],
+    "expected_primary_concept": "OVERCURRENT_PROTECTION",
+    "expected_semantic_family": "OVERCURRENT_PROTECTION",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Dispositivos de protecao contra sobrecorrente"
+  },
+  "Q3272494": {
+    "source_id": "Q3272494",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "IMAGE_DEPENDENT_QUESTION",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "IMAGE_REQUIRED",
+    "editorial_rationale": "Enunciado depende essencialmente de interpretacao da imagem"
+  },
+  "Q2200908": {
+    "source_id": "Q2200908",
+    "expected_primary_module": "A01",
+    "acceptable_modules": [
+      "A01"
+    ],
+    "expected_primary_concept": "NUMBER_BASE_CONVERSION",
+    "expected_semantic_family": "DIGITAL_LOGIC",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Sistemas de numeracao e codificacao digital"
+  },
+  "Q3298676": {
+    "source_id": "Q3298676",
+    "expected_primary_module": "S01",
+    "acceptable_modules": [
+      "S01",
+      "S02"
+    ],
+    "expected_primary_concept": "NR10_DEENERGIZATION",
+    "expected_semantic_family": "DEENERGIZATION_PROCEDURES",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Procedimentos de desenergizacao conforme NR-10"
+  },
+  "Q3887786": {
+    "source_id": "Q3887786",
+    "expected_primary_module": "F04",
+    "acceptable_modules": [
+      "F04",
+      "F03"
+    ],
+    "expected_primary_concept": "ELECTRICAL_POWER",
+    "expected_semantic_family": "ELECTRIC_POWER_AND_ENERGY",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Potencias eletricas ativa, reativa e aparente"
+  },
+  "Q2125850": {
+    "source_id": "Q2125850",
+    "expected_primary_module": "M01",
+    "acceptable_modules": [
+      "M01"
+    ],
+    "expected_primary_concept": "MEASUREMENT_CONNECTION",
+    "expected_semantic_family": "MULTIMETER_MEASUREMENTS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Procedimento de ligacao de instrumentos de medicao"
+  },
+  "Q462312": {
+    "source_id": "Q462312",
+    "expected_primary_module": "F03",
+    "acceptable_modules": [
+      "F03",
+      "F01"
+    ],
+    "expected_primary_concept": "REACTANCE_IMPEDANCE",
+    "expected_semantic_family": "AC_CIRCUITS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Impedancia e resposta em circuitos de corrente alternada"
+  },
+  "Q4218542": {
+    "source_id": "Q4218542",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "WELDING_TECHNOLOGY",
+    "expected_semantic_family": "OUTSIDE_CURRICULUM",
+    "expected_unclassified_reason": "OUT_OF_CURRICULUM",
+    "editorial_rationale": "Tecnologia de soldagem fora da eletrotecnica"
+  },
+  "Q1927391": {
+    "source_id": "Q1927391",
+    "expected_primary_module": "F02",
+    "acceptable_modules": [
+      "F02"
+    ],
+    "expected_primary_concept": "RESISTOR_ASSOCIATION",
+    "expected_semantic_family": "RESISTOR_NETWORKS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Associacao e calculos em redes resistivas"
+  },
+  "Q3262026": {
+    "source_id": "Q3262026",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "TRANSISTOR_OPERATION",
+    "expected_semantic_family": "ANALOG_ELECTRONICS",
+    "expected_unclassified_reason": "MISSING_MODULE",
+    "editorial_rationale": "Semicondutores discretos (transistor) fora dos 35 modulos"
+  },
+  "Q3543751": {
+    "source_id": "Q3543751",
+    "expected_primary_module": "F04",
+    "acceptable_modules": [
+      "F04",
+      "F03"
+    ],
+    "expected_primary_concept": "ELECTRICAL_POWER",
+    "expected_semantic_family": "ELECTRIC_POWER_AND_ENERGY",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Potencias eletricas ativa, reativa e aparente"
+  },
+  "Q3981869": {
+    "source_id": "Q3981869",
+    "expected_primary_module": "F04",
+    "acceptable_modules": [
+      "F04",
+      "F03"
+    ],
+    "expected_primary_concept": "ELECTRICAL_POWER",
+    "expected_semantic_family": "ELECTRIC_POWER_AND_ENERGY",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Potencias eletricas ativa, reativa e aparente"
+  },
+  "Q1023715": {
+    "source_id": "Q1023715",
+    "expected_primary_module": "P01",
+    "acceptable_modules": [
+      "P01",
+      "I01"
+    ],
+    "expected_primary_concept": "CONDUCTOR_SIZING",
+    "expected_semantic_family": "CONDUCTORS_AND_CABLES",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Dimensionamento de condutores e condutos"
+  },
+  "Q1049997": {
+    "source_id": "Q1049997",
+    "expected_primary_module": "S03",
+    "acceptable_modules": [
+      "S03",
+      "S02"
+    ],
+    "expected_primary_concept": "VOLTAGE_CLASSIFICATION",
+    "expected_semantic_family": "SAFETY_REGULATIONS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Classificacao de faixas de tensao de seguranca"
+  },
+  "Q2325612": {
+    "source_id": "Q2325612",
+    "expected_primary_module": "F02",
+    "acceptable_modules": [
+      "F02"
+    ],
+    "expected_primary_concept": "RESISTOR_ASSOCIATION",
+    "expected_semantic_family": "RESISTOR_NETWORKS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Associacao e calculos em redes resistivas"
+  },
+  "Q2486502": {
+    "source_id": "Q2486502",
+    "expected_primary_module": "T01",
+    "acceptable_modules": [
+      "T01",
+      "F02"
+    ],
+    "expected_primary_concept": "TRANSFORMER_RATIO",
+    "expected_semantic_family": "POWER_TRANSFORMERS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Relacao de transformacao e funcionamento de transformadores"
+  },
+  "Q3448794": {
+    "source_id": "Q3448794",
+    "expected_primary_module": "T01",
+    "acceptable_modules": [
+      "T01",
+      "E02"
+    ],
+    "expected_primary_concept": "TRANSFORMER_THREE_PHASE",
+    "expected_semantic_family": "POWER_TRANSFORMERS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Transformadores trifasicos de potencia"
+  },
+  "Q394776": {
+    "source_id": "Q394776",
+    "expected_primary_module": "R02",
+    "acceptable_modules": [
+      "R02",
+      "P02"
+    ],
+    "expected_primary_concept": "SUBSTATION_OPERATION",
+    "expected_semantic_family": "SUBSTATIONS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Operacao e protecao de subestacoes transformadoras"
+  },
+  "Q235673": {
+    "source_id": "Q235673",
+    "expected_primary_module": "F01",
+    "acceptable_modules": [
+      "F01",
+      "F02"
+    ],
+    "expected_primary_concept": "ELECTRICAL_QUANTITIES",
+    "expected_semantic_family": "FUNDAMENTALS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Grandezas fundamentais da eletricidade"
+  },
+  "Q925226": {
+    "source_id": "Q925226",
+    "expected_primary_module": "F02",
+    "acceptable_modules": [
+      "F02"
+    ],
+    "expected_primary_concept": "RESISTOR_ASSOCIATION",
+    "expected_semantic_family": "RESISTOR_NETWORKS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Associacao e calculos em redes resistivas"
+  },
+  "Q1023733": {
+    "source_id": "Q1023733",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNSPECIFIED_ELECTRICAL_CONCEPT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "CLASSIFIER_GAP",
+    "editorial_rationale": "Conceito generico sem discriminacao curricular clara"
+  },
+  "Q108140": {
+    "source_id": "Q108140",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNSPECIFIED_ELECTRICAL_CONCEPT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "CLASSIFIER_GAP",
+    "editorial_rationale": "Conceito generico sem discriminacao curricular clara"
+  },
+  "Q3321503": {
+    "source_id": "Q3321503",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNSPECIFIED_ELECTRICAL_CONCEPT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "CLASSIFIER_GAP",
+    "editorial_rationale": "Conceito generico sem discriminacao curricular clara"
+  },
+  "Q1023714": {
+    "source_id": "Q1023714",
+    "expected_primary_module": "S02",
+    "acceptable_modules": [
+      "S02",
+      "S03"
+    ],
+    "expected_primary_concept": "ELECTRICAL_SAFETY",
+    "expected_semantic_family": "SAFETY_MEASURES",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Seguranca e prevencao de acidentes em eletricidade"
+  },
+  "Q93700": {
+    "source_id": "Q93700",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNSPECIFIED_ELECTRICAL_CONCEPT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "CLASSIFIER_GAP",
+    "editorial_rationale": "Conceito generico sem discriminacao curricular clara"
+  },
+  "Q460347": {
+    "source_id": "Q460347",
+    "expected_primary_module": null,
+    "acceptable_modules": [
+      "A02"
+    ],
+    "expected_primary_concept": "INDUSTRIAL_NETWORK",
+    "expected_semantic_family": "COMMUNICATION_NETWORKS",
+    "expected_unclassified_reason": "MISSING_MODULE",
+    "editorial_rationale": "Redes industriais de comunicacao de dados"
+  },
+  "Q491628": {
+    "source_id": "Q491628",
+    "expected_primary_module": "T01",
+    "acceptable_modules": [
+      "T01",
+      "F02"
+    ],
+    "expected_primary_concept": "TRANSFORMER_RATIO",
+    "expected_semantic_family": "POWER_TRANSFORMERS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Relacao de transformacao e funcionamento de transformadores"
+  },
+  "Q413085": {
+    "source_id": "Q413085",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNSPECIFIED_ELECTRICAL_CONCEPT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "CLASSIFIER_GAP",
+    "editorial_rationale": "Conceito generico sem discriminacao curricular clara"
+  },
+  "Q2166315": {
+    "source_id": "Q2166315",
+    "expected_primary_module": "F03",
+    "acceptable_modules": [
+      "F03",
+      "F01"
+    ],
+    "expected_primary_concept": "REACTANCE_IMPEDANCE",
+    "expected_semantic_family": "AC_CIRCUITS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Impedancia e resposta em circuitos de corrente alternada"
+  },
+  "Q879238": {
+    "source_id": "Q879238",
+    "expected_primary_module": "I03",
+    "acceptable_modules": [
+      "I03",
+      "I01"
+    ],
+    "expected_primary_concept": "ELECTRICAL_DIAGRAM_NOTATION",
+    "expected_semantic_family": "ELECTRICAL_DRAWINGS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Simbologia e diagramas de projetos eletricos"
+  },
+  "Q2902301": {
+    "source_id": "Q2902301",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNSPECIFIED_ELECTRICAL_CONCEPT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "CLASSIFIER_GAP",
+    "editorial_rationale": "Conceito generico sem discriminacao curricular clara"
+  },
+  "Q759385": {
+    "source_id": "Q759385",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "TRANSISTOR_OPERATION",
+    "expected_semantic_family": "ANALOG_ELECTRONICS",
+    "expected_unclassified_reason": "MISSING_MODULE",
+    "editorial_rationale": "Semicondutores discretos (transistor) fora dos 35 modulos"
+  },
+  "Q3981876": {
+    "source_id": "Q3981876",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNSPECIFIED_ELECTRICAL_CONCEPT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "CLASSIFIER_GAP",
+    "editorial_rationale": "Conceito generico sem discriminacao curricular clara"
+  },
+  "Q3778946": {
+    "source_id": "Q3778946",
+    "expected_primary_module": "E01",
+    "acceptable_modules": [
+      "E01"
+    ],
+    "expected_primary_concept": "DC_MACHINES",
+    "expected_semantic_family": "ELECTRIC_MACHINES",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Principios e caracteristicas de maquinas de corrente continua"
+  },
+  "Q3255805": {
+    "source_id": "Q3255805",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "TRANSISTOR_OPERATION",
+    "expected_semantic_family": "ANALOG_ELECTRONICS",
+    "expected_unclassified_reason": "MISSING_MODULE",
+    "editorial_rationale": "Semicondutores discretos (transistor) fora dos 35 modulos"
+  },
+  "Q190095": {
+    "source_id": "Q190095",
+    "expected_primary_module": "M01",
+    "acceptable_modules": [
+      "M01",
+      "F02"
+    ],
+    "expected_primary_concept": "MULTIMETER_FUNCTION",
+    "expected_semantic_family": "MULTIMETER_MEASUREMENTS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Uso e escalas de instrumentos de medicao eletrica"
+  },
+  "Q2081061": {
+    "source_id": "Q2081061",
+    "expected_primary_module": "F02",
+    "acceptable_modules": [
+      "F02"
+    ],
+    "expected_primary_concept": "RESISTOR_ASSOCIATION",
+    "expected_semantic_family": "RESISTOR_NETWORKS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Associacao e calculos em redes resistivas"
+  },
+  "Q3453561": {
+    "source_id": "Q3453561",
+    "expected_primary_module": "E01",
+    "acceptable_modules": [
+      "E01",
+      "E02"
+    ],
+    "expected_primary_concept": "SYNCHRONOUS_SPEED",
+    "expected_semantic_family": "ELECTRIC_MACHINES",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Velocidade sincrona e escorregamento de motores"
+  },
+  "Q364387": {
+    "source_id": "Q364387",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNSPECIFIED_ELECTRICAL_CONCEPT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "CLASSIFIER_GAP",
+    "editorial_rationale": "Conceito generico sem discriminacao curricular clara"
+  },
+  "Q342450": {
+    "source_id": "Q342450",
+    "expected_primary_module": "P01",
+    "acceptable_modules": [
+      "P01",
+      "I01"
+    ],
+    "expected_primary_concept": "CONDUCTOR_SIZING",
+    "expected_semantic_family": "CONDUCTORS_AND_CABLES",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Dimensionamento de condutores e condutos"
+  },
+  "Q2694471": {
+    "source_id": "Q2694471",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNSPECIFIED_ELECTRICAL_CONCEPT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "CLASSIFIER_GAP",
+    "editorial_rationale": "Conceito generico sem discriminacao curricular clara"
+  },
+  "Q460375": {
+    "source_id": "Q460375",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "RECTIFIER_OPERATION",
+    "expected_semantic_family": "ANALOG_ELECTRONICS",
+    "expected_unclassified_reason": "MISSING_MODULE",
+    "editorial_rationale": "Eletronica basica / circuitos retificadores"
+  },
+  "Q843669": {
+    "source_id": "Q843669",
+    "expected_primary_module": "F03",
+    "acceptable_modules": [
+      "F03",
+      "F01"
+    ],
+    "expected_primary_concept": "REACTANCE_IMPEDANCE",
+    "expected_semantic_family": "AC_CIRCUITS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Impedancia e resposta em circuitos de corrente alternada"
+  },
+  "Q2051877": {
+    "source_id": "Q2051877",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "TRANSISTOR_OPERATION",
+    "expected_semantic_family": "ANALOG_ELECTRONICS",
+    "expected_unclassified_reason": "MISSING_MODULE",
+    "editorial_rationale": "Semicondutores discretos (transistor) fora dos 35 modulos"
+  },
+  "Q2668738": {
+    "source_id": "Q2668738",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNSPECIFIED_ELECTRICAL_CONCEPT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "CLASSIFIER_GAP",
+    "editorial_rationale": "Conceito generico sem discriminacao curricular clara"
+  },
+  "Q2693421": {
+    "source_id": "Q2693421",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNSPECIFIED_ELECTRICAL_CONCEPT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "CLASSIFIER_GAP",
+    "editorial_rationale": "Conceito generico sem discriminacao curricular clara"
+  },
+  "Q2217136": {
+    "source_id": "Q2217136",
+    "expected_primary_module": "P01",
+    "acceptable_modules": [
+      "P01",
+      "F02"
+    ],
+    "expected_primary_concept": "VOLTAGE_DROP",
+    "expected_semantic_family": "CONDUCTORS_AND_CABLES",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Calculo de queda de tensao em alimentadores"
+  },
+  "Q184206": {
+    "source_id": "Q184206",
+    "expected_primary_module": "F03",
+    "acceptable_modules": [
+      "F03",
+      "F01"
+    ],
+    "expected_primary_concept": "REACTANCE_IMPEDANCE",
+    "expected_semantic_family": "AC_CIRCUITS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Impedancia e resposta em circuitos de corrente alternada"
+  },
+  "Q2081065": {
+    "source_id": "Q2081065",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "RECTIFIER_OPERATION",
+    "expected_semantic_family": "ANALOG_ELECTRONICS",
+    "expected_unclassified_reason": "MISSING_MODULE",
+    "editorial_rationale": "Eletronica basica / circuitos retificadores"
+  },
+  "Q1106117": {
+    "source_id": "Q1106117",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNSPECIFIED_ELECTRICAL_CONCEPT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "CLASSIFIER_GAP",
+    "editorial_rationale": "Conceito generico sem discriminacao curricular clara"
+  },
+  "Q184120": {
+    "source_id": "Q184120",
+    "expected_primary_module": "P01",
+    "acceptable_modules": [
+      "P01",
+      "I01"
+    ],
+    "expected_primary_concept": "CONDUCTOR_SIZING",
+    "expected_semantic_family": "CONDUCTORS_AND_CABLES",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Dimensionamento de condutores e condutos"
+  },
+  "Q184210": {
+    "source_id": "Q184210",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNSPECIFIED_ELECTRICAL_CONCEPT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "CLASSIFIER_GAP",
+    "editorial_rationale": "Conceito generico sem discriminacao curricular clara"
+  },
+  "Q2198761": {
+    "source_id": "Q2198761",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNSPECIFIED_ELECTRICAL_CONCEPT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "CLASSIFIER_GAP",
+    "editorial_rationale": "Conceito generico sem discriminacao curricular clara"
+  },
+  "Q522195": {
+    "source_id": "Q522195",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "TRANSISTOR_OPERATION",
+    "expected_semantic_family": "ANALOG_ELECTRONICS",
+    "expected_unclassified_reason": "MISSING_MODULE",
+    "editorial_rationale": "Semicondutores discretos (transistor) fora dos 35 modulos"
+  },
+  "Q811509": {
+    "source_id": "Q811509",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNSPECIFIED_ELECTRICAL_CONCEPT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "CLASSIFIER_GAP",
+    "editorial_rationale": "Conceito generico sem discriminacao curricular clara"
+  },
+  "Q3180692": {
+    "source_id": "Q3180692",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNSPECIFIED_ELECTRICAL_CONCEPT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "CLASSIFIER_GAP",
+    "editorial_rationale": "Conceito generico sem discriminacao curricular clara"
+  },
+  "Q1755403": {
+    "source_id": "Q1755403",
+    "expected_primary_module": "E02",
+    "acceptable_modules": [
+      "E02",
+      "E01"
+    ],
+    "expected_primary_concept": "INDUCTION_MOTOR",
+    "expected_semantic_family": "AC_MOTORS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Motores trifasicos de inducao e fechamento de bornes"
+  },
+  "Q2217545": {
+    "source_id": "Q2217545",
+    "expected_primary_module": "E04",
+    "acceptable_modules": [
+      "E04",
+      "E03"
+    ],
+    "expected_primary_concept": "COMPENSATING_KEY_START",
+    "expected_semantic_family": "MOTOR_STARTING_METHODS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Partida de motor por chave compensadora"
+  },
+  "Q3231034": {
+    "source_id": "Q3231034",
+    "expected_primary_module": "P02",
+    "acceptable_modules": [
+      "P02",
+      "P01"
+    ],
+    "expected_primary_concept": "OVERCURRENT_PROTECTION",
+    "expected_semantic_family": "OVERCURRENT_PROTECTION",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Dispositivos de protecao contra sobrecorrente"
+  },
+  "Q180460": {
+    "source_id": "Q180460",
+    "expected_primary_module": "M02",
+    "acceptable_modules": [
+      "M02",
+      "M01"
+    ],
+    "expected_primary_concept": "CONTINUITY_TEST",
+    "expected_semantic_family": "INSULATION_AND_CONTINUITY",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Verificacao de continuidade de condutores"
+  },
+  "Q3264297": {
+    "source_id": "Q3264297",
+    "expected_primary_module": "T01",
+    "acceptable_modules": [
+      "T01",
+      "F02"
+    ],
+    "expected_primary_concept": "TRANSFORMER_RATIO",
+    "expected_semantic_family": "POWER_TRANSFORMERS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Relacao de transformacao e funcionamento de transformadores"
+  },
+  "Q342455": {
+    "source_id": "Q342455",
+    "expected_primary_module": "T01",
+    "acceptable_modules": [
+      "T01",
+      "E02"
+    ],
+    "expected_primary_concept": "TRANSFORMER_THREE_PHASE",
+    "expected_semantic_family": "POWER_TRANSFORMERS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Transformadores trifasicos de potencia"
+  },
+  "Q278089": {
+    "source_id": "Q278089",
+    "expected_primary_module": "F04",
+    "acceptable_modules": [
+      "F04",
+      "F03"
+    ],
+    "expected_primary_concept": "ELECTRICAL_POWER",
+    "expected_semantic_family": "ELECTRIC_POWER_AND_ENERGY",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Potencias eletricas ativa, reativa e aparente"
+  },
+  "Q2894103": {
+    "source_id": "Q2894103",
+    "expected_primary_module": "A01",
+    "acceptable_modules": [
+      "A01"
+    ],
+    "expected_primary_concept": "NUMBER_BASE_CONVERSION",
+    "expected_semantic_family": "DIGITAL_LOGIC",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Sistemas de numeracao e codificacao digital"
+  },
+  "Q107300": {
+    "source_id": "Q107300",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNSPECIFIED_ELECTRICAL_CONCEPT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "CLASSIFIER_GAP",
+    "editorial_rationale": "Conceito generico sem discriminacao curricular clara"
+  },
+  "Q402451": {
+    "source_id": "Q402451",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "IMAGE_DEPENDENT_QUESTION",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "IMAGE_REQUIRED",
+    "editorial_rationale": "Enunciado depende essencialmente de interpretacao da imagem"
+  },
+  "Q2217378": {
+    "source_id": "Q2217378",
+    "expected_primary_module": "F04",
+    "acceptable_modules": [
+      "F04",
+      "E02"
+    ],
+    "expected_primary_concept": "POWER_FACTOR_CORRECTION",
+    "expected_semantic_family": "POWER_FACTOR_MANAGEMENT",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Compensacao e correcao de fator de potencia"
+  },
+  "Q3199932": {
+    "source_id": "Q3199932",
+    "expected_primary_module": "P04",
+    "acceptable_modules": [
+      "P04",
+      "P03"
+    ],
+    "expected_primary_concept": "EARTHING_SCHEME",
+    "expected_semantic_family": "EARTHING_SYSTEMS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Sistemas e esquemas de aterramento NBR 5410"
+  },
+  "Q490241": {
+    "source_id": "Q490241",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNSPECIFIED_ELECTRICAL_CONCEPT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "CLASSIFIER_GAP",
+    "editorial_rationale": "Conceito generico sem discriminacao curricular clara"
+  },
+  "Q838715": {
+    "source_id": "Q838715",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "RECTIFIER_OPERATION",
+    "expected_semantic_family": "ANALOG_ELECTRONICS",
+    "expected_unclassified_reason": "MISSING_MODULE",
+    "editorial_rationale": "Eletronica basica / circuitos retificadores"
+  },
+  "Q3637809": {
+    "source_id": "Q3637809",
+    "expected_primary_module": "P02",
+    "acceptable_modules": [
+      "P02",
+      "P01"
+    ],
+    "expected_primary_concept": "OVERCURRENT_PROTECTION",
+    "expected_semantic_family": "OVERCURRENT_PROTECTION",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Dispositivos de protecao contra sobrecorrente"
+  },
+  "Q3223387": {
+    "source_id": "Q3223387",
+    "expected_primary_module": "F03",
+    "acceptable_modules": [
+      "F03",
+      "F01"
+    ],
+    "expected_primary_concept": "REACTANCE_IMPEDANCE",
+    "expected_semantic_family": "AC_CIRCUITS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Impedancia e resposta em circuitos de corrente alternada"
+  },
+  "Q3573985": {
+    "source_id": "Q3573985",
+    "expected_primary_module": "T01",
+    "acceptable_modules": [
+      "T01",
+      "F02"
+    ],
+    "expected_primary_concept": "TRANSFORMER_RATIO",
+    "expected_semantic_family": "POWER_TRANSFORMERS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Relacao de transformacao e funcionamento de transformadores"
+  },
+  "Q1334601": {
+    "source_id": "Q1334601",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNSPECIFIED_ELECTRICAL_CONCEPT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "CLASSIFIER_GAP",
+    "editorial_rationale": "Conceito generico sem discriminacao curricular clara"
+  },
+  "Q564457": {
+    "source_id": "Q564457",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNSPECIFIED_ELECTRICAL_CONCEPT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "CLASSIFIER_GAP",
+    "editorial_rationale": "Conceito generico sem discriminacao curricular clara"
+  },
+  "Q1058593": {
+    "source_id": "Q1058593",
+    "expected_primary_module": "S03",
+    "acceptable_modules": [
+      "S03",
+      "S02"
+    ],
+    "expected_primary_concept": "NR10_DOCUMENTATION",
+    "expected_semantic_family": "SAFETY_REGULATIONS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Normas e documentacao de seguranca NR-10"
+  },
+  "Q539955": {
+    "source_id": "Q539955",
+    "expected_primary_module": "P05",
+    "acceptable_modules": [
+      "P05",
+      "P04"
+    ],
+    "expected_primary_concept": "SPDA",
+    "expected_semantic_family": "SURGE_AND_LIGHTNING_PROTECTION",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Protecao contra descargas atmosfericas e surtos (SPDA/DPS)"
+  },
+  "Q1768668": {
+    "source_id": "Q1768668",
+    "expected_primary_module": "P04",
+    "acceptable_modules": [
+      "P04",
+      "P03"
+    ],
+    "expected_primary_concept": "EARTHING_SCHEME",
+    "expected_semantic_family": "EARTHING_SYSTEMS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Sistemas e esquemas de aterramento NBR 5410"
+  },
+  "Q3200216": {
+    "source_id": "Q3200216",
+    "expected_primary_module": "S02",
+    "acceptable_modules": [
+      "S02",
+      "S01"
+    ],
+    "expected_primary_concept": "EPI_EPC_SELECTION",
+    "expected_semantic_family": "SAFETY_MEASURES",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "EPI e EPC em trabalhos eletricos"
+  },
+  "Q718800": {
+    "source_id": "Q718800",
+    "expected_primary_module": "F03",
+    "acceptable_modules": [
+      "F03",
+      "F01"
+    ],
+    "expected_primary_concept": "REACTANCE_IMPEDANCE",
+    "expected_semantic_family": "AC_CIRCUITS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Impedancia e resposta em circuitos de corrente alternada"
+  },
+  "Q2325597": {
+    "source_id": "Q2325597",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNSPECIFIED_ELECTRICAL_CONCEPT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "CLASSIFIER_GAP",
+    "editorial_rationale": "Conceito generico sem discriminacao curricular clara"
+  },
+  "Q2158444": {
+    "source_id": "Q2158444",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNSPECIFIED_ELECTRICAL_CONCEPT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "CLASSIFIER_GAP",
+    "editorial_rationale": "Conceito generico sem discriminacao curricular clara"
+  },
+  "Q186288": {
+    "source_id": "Q186288",
+    "expected_primary_module": "F02",
+    "acceptable_modules": [
+      "F02"
+    ],
+    "expected_primary_concept": "SERIES_EQUIVALENT_RESISTANCE",
+    "expected_semantic_family": "RESISTOR_NETWORKS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Associacao em serie de resistores"
+  },
+  "Q2186800": {
+    "source_id": "Q2186800",
+    "expected_primary_module": "P02",
+    "acceptable_modules": [
+      "P02",
+      "P01"
+    ],
+    "expected_primary_concept": "OVERCURRENT_PROTECTION",
+    "expected_semantic_family": "OVERCURRENT_PROTECTION",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Dispositivos de protecao contra sobrecorrente"
+  },
+  "Q1090699": {
+    "source_id": "Q1090699",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNSPECIFIED_ELECTRICAL_CONCEPT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "CLASSIFIER_GAP",
+    "editorial_rationale": "Conceito generico sem discriminacao curricular clara"
+  },
+  "Q1088145": {
+    "source_id": "Q1088145",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNSPECIFIED_ELECTRICAL_CONCEPT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "CLASSIFIER_GAP",
+    "editorial_rationale": "Conceito generico sem discriminacao curricular clara"
+  },
+  "Q564469": {
+    "source_id": "Q564469",
+    "expected_primary_module": "M01",
+    "acceptable_modules": [
+      "M01",
+      "F02"
+    ],
+    "expected_primary_concept": "MULTIMETER_FUNCTION",
+    "expected_semantic_family": "MULTIMETER_MEASUREMENTS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Uso e escalas de instrumentos de medicao eletrica"
+  },
+  "Q1010997": {
+    "source_id": "Q1010997",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNSPECIFIED_ELECTRICAL_CONCEPT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "CLASSIFIER_GAP",
+    "editorial_rationale": "Conceito generico sem discriminacao curricular clara"
+  },
+  "Q3625327": {
+    "source_id": "Q3625327",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNSPECIFIED_ELECTRICAL_CONCEPT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "CLASSIFIER_GAP",
+    "editorial_rationale": "Conceito generico sem discriminacao curricular clara"
+  },
+  "Q609654": {
+    "source_id": "Q609654",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNSPECIFIED_ELECTRICAL_CONCEPT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "CLASSIFIER_GAP",
+    "editorial_rationale": "Conceito generico sem discriminacao curricular clara"
+  },
+  "Q1016842": {
+    "source_id": "Q1016842",
+    "expected_primary_module": "M01",
+    "acceptable_modules": [
+      "M01",
+      "F02"
+    ],
+    "expected_primary_concept": "MULTIMETER_FUNCTION",
+    "expected_semantic_family": "MULTIMETER_MEASUREMENTS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Uso e escalas de instrumentos de medicao eletrica"
+  },
+  "Q425008": {
+    "source_id": "Q425008",
+    "expected_primary_module": "P01",
+    "acceptable_modules": [
+      "P01",
+      "I01"
+    ],
+    "expected_primary_concept": "CONDUCTOR_SIZING",
+    "expected_semantic_family": "CONDUCTORS_AND_CABLES",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Dimensionamento de condutores e condutos"
+  },
+  "Q4218668": {
+    "source_id": "Q4218668",
+    "expected_primary_module": "F03",
+    "acceptable_modules": [
+      "F03",
+      "F01"
+    ],
+    "expected_primary_concept": "REACTANCE_IMPEDANCE",
+    "expected_semantic_family": "AC_CIRCUITS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Impedancia e resposta em circuitos de corrente alternada"
+  },
+  "Q184181": {
+    "source_id": "Q184181",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNSPECIFIED_ELECTRICAL_CONCEPT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "CLASSIFIER_GAP",
+    "editorial_rationale": "Conceito generico sem discriminacao curricular clara"
+  },
+  "Q2356977": {
+    "source_id": "Q2356977",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNSPECIFIED_ELECTRICAL_CONCEPT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "CLASSIFIER_GAP",
+    "editorial_rationale": "Conceito generico sem discriminacao curricular clara"
+  },
+  "Q3948999": {
+    "source_id": "Q3948999",
+    "expected_primary_module": "F02",
+    "acceptable_modules": [
+      "F02"
+    ],
+    "expected_primary_concept": "SERIES_EQUIVALENT_RESISTANCE",
+    "expected_semantic_family": "RESISTOR_NETWORKS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Associacao em serie de resistores"
+  },
+  "Q431296": {
+    "source_id": "Q431296",
+    "expected_primary_module": "T01",
+    "acceptable_modules": [
+      "T01",
+      "F02"
+    ],
+    "expected_primary_concept": "TRANSFORMER_RATIO",
+    "expected_semantic_family": "POWER_TRANSFORMERS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Relacao de transformacao e funcionamento de transformadores"
+  },
+  "Q2729165": {
+    "source_id": "Q2729165",
+    "expected_primary_module": "P01",
+    "acceptable_modules": [
+      "P01",
+      "I01"
+    ],
+    "expected_primary_concept": "CONDUCTOR_SIZING",
+    "expected_semantic_family": "CONDUCTORS_AND_CABLES",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Dimensionamento de condutores e condutos"
+  },
+  "Q3008703": {
+    "source_id": "Q3008703",
+    "expected_primary_module": "T01",
+    "acceptable_modules": [
+      "T01",
+      "F02"
+    ],
+    "expected_primary_concept": "TRANSFORMER_RATIO",
+    "expected_semantic_family": "POWER_TRANSFORMERS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Relacao de transformacao e funcionamento de transformadores"
+  },
+  "Q3628734": {
+    "source_id": "Q3628734",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNSPECIFIED_ELECTRICAL_CONCEPT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "CLASSIFIER_GAP",
+    "editorial_rationale": "Conceito generico sem discriminacao curricular clara"
+  },
+  "Q185197": {
+    "source_id": "Q185197",
+    "expected_primary_module": "M01",
+    "acceptable_modules": [
+      "M01",
+      "F02"
+    ],
+    "expected_primary_concept": "MULTIMETER_FUNCTION",
+    "expected_semantic_family": "MULTIMETER_MEASUREMENTS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Uso e escalas de instrumentos de medicao eletrica"
+  },
+  "Q2774847": {
+    "source_id": "Q2774847",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "RECTIFIER_OPERATION",
+    "expected_semantic_family": "ANALOG_ELECTRONICS",
+    "expected_unclassified_reason": "MISSING_MODULE",
+    "editorial_rationale": "Eletronica basica / circuitos retificadores"
+  },
+  "Q3690128": {
+    "source_id": "Q3690128",
+    "expected_primary_module": "A01",
+    "acceptable_modules": [
+      "A01"
+    ],
+    "expected_primary_concept": "NUMBER_BASE_CONVERSION",
+    "expected_semantic_family": "DIGITAL_LOGIC",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Sistemas de numeracao e codificacao digital"
+  },
+  "Q523017": {
+    "source_id": "Q523017",
+    "expected_primary_module": "F03",
+    "acceptable_modules": [
+      "F03",
+      "F01"
+    ],
+    "expected_primary_concept": "REACTANCE_IMPEDANCE",
+    "expected_semantic_family": "AC_CIRCUITS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Impedancia e resposta em circuitos de corrente alternada"
+  },
+  "Q2422438": {
+    "source_id": "Q2422438",
+    "expected_primary_module": "P01",
+    "acceptable_modules": [
+      "P01",
+      "I01"
+    ],
+    "expected_primary_concept": "CONDUCTOR_SIZING",
+    "expected_semantic_family": "CONDUCTORS_AND_CABLES",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Dimensionamento de condutores e condutos"
+  },
+  "Q2158481": {
+    "source_id": "Q2158481",
+    "expected_primary_module": "E03",
+    "acceptable_modules": [
+      "E03"
+    ],
+    "expected_primary_concept": "CONTACTOR_CONTROL",
+    "expected_semantic_family": "MOTOR_CONTROL",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Circuitos de comando e forca com contatores"
+  },
+  "Q1049990": {
+    "source_id": "Q1049990",
+    "expected_primary_module": "F03",
+    "acceptable_modules": [
+      "F03",
+      "F01"
+    ],
+    "expected_primary_concept": "REACTANCE_IMPEDANCE",
+    "expected_semantic_family": "AC_CIRCUITS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Impedancia e resposta em circuitos de corrente alternada"
+  },
+  "Q408324": {
+    "source_id": "Q408324",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNSPECIFIED_ELECTRICAL_CONCEPT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "CLASSIFIER_GAP",
+    "editorial_rationale": "Conceito generico sem discriminacao curricular clara"
+  },
+  "Q2445125": {
+    "source_id": "Q2445125",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNSPECIFIED_ELECTRICAL_CONCEPT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "CLASSIFIER_GAP",
+    "editorial_rationale": "Conceito generico sem discriminacao curricular clara"
+  },
+  "Q411634": {
+    "source_id": "Q411634",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNSPECIFIED_ELECTRICAL_CONCEPT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "CLASSIFIER_GAP",
+    "editorial_rationale": "Conceito generico sem discriminacao curricular clara"
+  },
+  "Q3466921": {
+    "source_id": "Q3466921",
+    "expected_primary_module": "S01",
+    "acceptable_modules": [
+      "S01",
+      "S02"
+    ],
+    "expected_primary_concept": "NR10_DEENERGIZATION",
+    "expected_semantic_family": "DEENERGIZATION_PROCEDURES",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Procedimentos de desenergizacao conforme NR-10"
+  },
+  "Q1023737": {
+    "source_id": "Q1023737",
+    "expected_primary_module": "T01",
+    "acceptable_modules": [
+      "T01",
+      "E02"
+    ],
+    "expected_primary_concept": "TRANSFORMER_THREE_PHASE",
+    "expected_semantic_family": "POWER_TRANSFORMERS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Transformadores trifasicos de potencia"
+  },
+  "Q2927367": {
+    "source_id": "Q2927367",
+    "expected_primary_module": "M01",
+    "acceptable_modules": [
+      "M01",
+      "F02"
+    ],
+    "expected_primary_concept": "MULTIMETER_FUNCTION",
+    "expected_semantic_family": "MULTIMETER_MEASUREMENTS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Uso e escalas de instrumentos de medicao eletrica"
+  },
+  "Q231988": {
+    "source_id": "Q231988",
+    "expected_primary_module": "F03",
+    "acceptable_modules": [
+      "F03",
+      "F01"
+    ],
+    "expected_primary_concept": "REACTANCE_IMPEDANCE",
+    "expected_semantic_family": "AC_CIRCUITS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Impedancia e resposta em circuitos de corrente alternada"
+  },
+  "Q3854879": {
+    "source_id": "Q3854879",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "IMAGE_DEPENDENT_QUESTION",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "IMAGE_REQUIRED",
+    "editorial_rationale": "Enunciado depende essencialmente de interpretacao da imagem"
+  },
+  "Q803831": {
+    "source_id": "Q803831",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNSPECIFIED_ELECTRICAL_CONCEPT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "CLASSIFIER_GAP",
+    "editorial_rationale": "Conceito generico sem discriminacao curricular clara"
+  },
+  "Q189252": {
+    "source_id": "Q189252",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNSPECIFIED_ELECTRICAL_CONCEPT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "CLASSIFIER_GAP",
+    "editorial_rationale": "Conceito generico sem discriminacao curricular clara"
+  },
+  "Q945982": {
+    "source_id": "Q945982",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNSPECIFIED_ELECTRICAL_CONCEPT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "CLASSIFIER_GAP",
+    "editorial_rationale": "Conceito generico sem discriminacao curricular clara"
+  },
+  "Q3796727": {
+    "source_id": "Q3796727",
+    "expected_primary_module": "P01",
+    "acceptable_modules": [
+      "P01",
+      "I01"
+    ],
+    "expected_primary_concept": "CONDUCTOR_SIZING",
+    "expected_semantic_family": "CONDUCTORS_AND_CABLES",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Dimensionamento de condutores e condutos"
+  },
+  "Q747661": {
+    "source_id": "Q747661",
+    "expected_primary_module": "P01",
+    "acceptable_modules": [
+      "P01",
+      "I01"
+    ],
+    "expected_primary_concept": "CONDUCTOR_SIZING",
+    "expected_semantic_family": "CONDUCTORS_AND_CABLES",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Dimensionamento de condutores e condutos"
+  },
+  "Q3432609": {
+    "source_id": "Q3432609",
+    "expected_primary_module": "P02",
+    "acceptable_modules": [
+      "P02",
+      "P01"
+    ],
+    "expected_primary_concept": "OVERCURRENT_PROTECTION",
+    "expected_semantic_family": "OVERCURRENT_PROTECTION",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Dispositivos de protecao contra sobrecorrente"
+  },
+  "Q980915": {
+    "source_id": "Q980915",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNSPECIFIED_ELECTRICAL_CONCEPT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "CLASSIFIER_GAP",
+    "editorial_rationale": "Conceito generico sem discriminacao curricular clara"
+  },
+  "Q564453": {
+    "source_id": "Q564453",
+    "expected_primary_module": "I01",
+    "acceptable_modules": [
+      "I01",
+      "P01"
+    ],
+    "expected_primary_concept": "LOAD_ALLOCATION",
+    "expected_semantic_family": "BUILDING_INSTALLATIONS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Previsao de cargas e instalacoes prediais NBR 5410"
+  },
+  "Q4093933": {
+    "source_id": "Q4093933",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNSPECIFIED_ELECTRICAL_CONCEPT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "CLASSIFIER_GAP",
+    "editorial_rationale": "Conceito generico sem discriminacao curricular clara"
+  },
+  "Q3573987": {
+    "source_id": "Q3573987",
+    "expected_primary_module": "F02",
+    "acceptable_modules": [
+      "F02"
+    ],
+    "expected_primary_concept": "RESISTOR_ASSOCIATION",
+    "expected_semantic_family": "RESISTOR_NETWORKS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Associacao e calculos em redes resistivas"
+  },
+  "Q2217539": {
+    "source_id": "Q2217539",
+    "expected_primary_module": "F03",
+    "acceptable_modules": [
+      "F03",
+      "F01"
+    ],
+    "expected_primary_concept": "REACTANCE_IMPEDANCE",
+    "expected_semantic_family": "AC_CIRCUITS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Impedancia e resposta em circuitos de corrente alternada"
+  },
+  "Q2610737": {
+    "source_id": "Q2610737",
+    "expected_primary_module": "F02",
+    "acceptable_modules": [
+      "F02"
+    ],
+    "expected_primary_concept": "RESISTOR_ASSOCIATION",
+    "expected_semantic_family": "RESISTOR_NETWORKS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Associacao e calculos em redes resistivas"
+  },
+  "Q3980551": {
+    "source_id": "Q3980551",
+    "expected_primary_module": "P02",
+    "acceptable_modules": [
+      "P02",
+      "P01"
+    ],
+    "expected_primary_concept": "OVERCURRENT_PROTECTION",
+    "expected_semantic_family": "OVERCURRENT_PROTECTION",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Dispositivos de protecao contra sobrecorrente"
+  },
+  "Q3646806": {
+    "source_id": "Q3646806",
+    "expected_primary_module": "M02",
+    "acceptable_modules": [
+      "M02",
+      "M01"
+    ],
+    "expected_primary_concept": "CONTINUITY_TEST",
+    "expected_semantic_family": "INSULATION_AND_CONTINUITY",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Verificacao de continuidade de condutores"
+  },
+  "Q850489": {
+    "source_id": "Q850489",
+    "expected_primary_module": "F01",
+    "acceptable_modules": [
+      "F01",
+      "F02"
+    ],
+    "expected_primary_concept": "ELECTRICAL_QUANTITIES",
+    "expected_semantic_family": "FUNDAMENTALS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Grandezas fundamentais da eletricidade"
+  },
+  "Q2584557": {
+    "source_id": "Q2584557",
+    "expected_primary_module": "P01",
+    "acceptable_modules": [
+      "P01",
+      "I01"
+    ],
+    "expected_primary_concept": "CONDUCTOR_SIZING",
+    "expected_semantic_family": "CONDUCTORS_AND_CABLES",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Dimensionamento de condutores e condutos"
+  },
+  "Q3980545": {
+    "source_id": "Q3980545",
+    "expected_primary_module": "E01",
+    "acceptable_modules": [
+      "E01"
+    ],
+    "expected_primary_concept": "MOTOR_ENERGY_CONVERSION",
+    "expected_semantic_family": "ELECTRIC_MACHINES",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Conversao eletromecanica de energia"
+  },
+  "Q1023712": {
+    "source_id": "Q1023712",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNSPECIFIED_ELECTRICAL_CONCEPT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "CLASSIFIER_GAP",
+    "editorial_rationale": "Conceito generico sem discriminacao curricular clara"
+  },
+  "Q596016": {
+    "source_id": "Q596016",
+    "expected_primary_module": "F02",
+    "acceptable_modules": [
+      "F02"
+    ],
+    "expected_primary_concept": "PARALLEL_EQUIVALENT_RESISTANCE",
+    "expected_semantic_family": "RESISTOR_NETWORKS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Associacao paralela de resistores"
+  },
+  "Q2517375": {
+    "source_id": "Q2517375",
+    "expected_primary_module": "P01",
+    "acceptable_modules": [
+      "P01",
+      "I01"
+    ],
+    "expected_primary_concept": "CONDUCTOR_SIZING",
+    "expected_semantic_family": "CONDUCTORS_AND_CABLES",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Dimensionamento de condutores e condutos"
+  },
+  "Q186290": {
+    "source_id": "Q186290",
+    "expected_primary_module": "E03",
+    "acceptable_modules": [
+      "E03"
+    ],
+    "expected_primary_concept": "CONTACTOR_CONTROL",
+    "expected_semantic_family": "MOTOR_CONTROL",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Circuitos de comando e forca com contatores"
+  },
+  "Q3255803": {
+    "source_id": "Q3255803",
+    "expected_primary_module": "F02",
+    "acceptable_modules": [
+      "F02"
+    ],
+    "expected_primary_concept": "RESISTOR_ASSOCIATION",
+    "expected_semantic_family": "RESISTOR_NETWORKS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Associacao e calculos em redes resistivas"
+  },
+  "Q3090243": {
+    "source_id": "Q3090243",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNSPECIFIED_ELECTRICAL_CONCEPT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "CLASSIFIER_GAP",
+    "editorial_rationale": "Conceito generico sem discriminacao curricular clara"
+  },
+  "Q234019": {
+    "source_id": "Q234019",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNSPECIFIED_ELECTRICAL_CONCEPT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "CLASSIFIER_GAP",
+    "editorial_rationale": "Conceito generico sem discriminacao curricular clara"
+  },
+  "Q529406": {
+    "source_id": "Q529406",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "RECTIFIER_OPERATION",
+    "expected_semantic_family": "ANALOG_ELECTRONICS",
+    "expected_unclassified_reason": "MISSING_MODULE",
+    "editorial_rationale": "Eletronica basica / circuitos retificadores"
+  },
+  "Q3981878": {
+    "source_id": "Q3981878",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNSPECIFIED_ELECTRICAL_CONCEPT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "CLASSIFIER_GAP",
+    "editorial_rationale": "Conceito generico sem discriminacao curricular clara"
+  },
+  "Q364386": {
+    "source_id": "Q364386",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNSPECIFIED_ELECTRICAL_CONCEPT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "CLASSIFIER_GAP",
+    "editorial_rationale": "Conceito generico sem discriminacao curricular clara"
+  },
+  "Q522207": {
+    "source_id": "Q522207",
+    "expected_primary_module": "P01",
+    "acceptable_modules": [
+      "P01",
+      "I01"
+    ],
+    "expected_primary_concept": "CONDUCTOR_SIZING",
+    "expected_semantic_family": "CONDUCTORS_AND_CABLES",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Dimensionamento de condutores e condutos"
+  },
+  "Q431653": {
+    "source_id": "Q431653",
+    "expected_primary_module": "M01",
+    "acceptable_modules": [
+      "M01",
+      "F02"
+    ],
+    "expected_primary_concept": "MULTIMETER_FUNCTION",
+    "expected_semantic_family": "MULTIMETER_MEASUREMENTS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Uso e escalas de instrumentos de medicao eletrica"
+  },
+  "Q3977401": {
+    "source_id": "Q3977401",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "TRANSISTOR_OPERATION",
+    "expected_semantic_family": "ANALOG_ELECTRONICS",
+    "expected_unclassified_reason": "MISSING_MODULE",
+    "editorial_rationale": "Semicondutores discretos (transistor) fora dos 35 modulos"
+  },
+  "Q431729": {
+    "source_id": "Q431729",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNSPECIFIED_ELECTRICAL_CONCEPT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "CLASSIFIER_GAP",
+    "editorial_rationale": "Conceito generico sem discriminacao curricular clara"
+  },
+  "Q4095961": {
+    "source_id": "Q4095961",
+    "expected_primary_module": "F02",
+    "acceptable_modules": [
+      "F02"
+    ],
+    "expected_primary_concept": "RESISTOR_ASSOCIATION",
+    "expected_semantic_family": "RESISTOR_NETWORKS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Associacao e calculos em redes resistivas"
+  },
+  "Q1631019": {
+    "source_id": "Q1631019",
+    "expected_primary_module": "F03",
+    "acceptable_modules": [
+      "F03",
+      "F01"
+    ],
+    "expected_primary_concept": "REACTANCE_IMPEDANCE",
+    "expected_semantic_family": "AC_CIRCUITS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Impedancia e resposta em circuitos de corrente alternada"
+  },
+  "Q3442204": {
+    "source_id": "Q3442204",
+    "expected_primary_module": "P01",
+    "acceptable_modules": [
+      "P01",
+      "I01"
+    ],
+    "expected_primary_concept": "CONDUCTOR_SIZING",
+    "expected_semantic_family": "CONDUCTORS_AND_CABLES",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Dimensionamento de condutores e condutos"
+  },
+  "Q879244": {
+    "source_id": "Q879244",
+    "expected_primary_module": "S02",
+    "acceptable_modules": [
+      "S02",
+      "S03"
+    ],
+    "expected_primary_concept": "ELECTRICAL_SAFETY",
+    "expected_semantic_family": "SAFETY_MEASURES",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Seguranca e prevencao de acidentes em eletricidade"
+  },
+  "Q3900498": {
+    "source_id": "Q3900498",
+    "expected_primary_module": "F04",
+    "acceptable_modules": [
+      "F04",
+      "E02"
+    ],
+    "expected_primary_concept": "POWER_FACTOR_CORRECTION",
+    "expected_semantic_family": "POWER_FACTOR_MANAGEMENT",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Compensacao e correcao de fator de potencia"
+  },
+  "Q777156": {
+    "source_id": "Q777156",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "RECTIFIER_OPERATION",
+    "expected_semantic_family": "ANALOG_ELECTRONICS",
+    "expected_unclassified_reason": "MISSING_MODULE",
+    "editorial_rationale": "Eletronica basica / circuitos retificadores"
+  },
+  "Q4218581": {
+    "source_id": "Q4218581",
+    "expected_primary_module": "E03",
+    "acceptable_modules": [
+      "E03",
+      "P02"
+    ],
+    "expected_primary_concept": "MOTOR_PROTECTION",
+    "expected_semantic_family": "MOTOR_CONTROL",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Protecao de motores contra sobrecarga por rele termico"
+  },
+  "Q1011010": {
+    "source_id": "Q1011010",
+    "expected_primary_module": "P01",
+    "acceptable_modules": [
+      "P01",
+      "F02"
+    ],
+    "expected_primary_concept": "VOLTAGE_DROP",
+    "expected_semantic_family": "CONDUCTORS_AND_CABLES",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Calculo de queda de tensao em alimentadores"
+  },
+  "Q2226727": {
+    "source_id": "Q2226727",
+    "expected_primary_module": "A02",
+    "acceptable_modules": [
+      "A02"
+    ],
+    "expected_primary_concept": "PLC_CONTROL",
+    "expected_semantic_family": "PROGRAMMABLE_CONTROLLERS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Controladores logicos programaveis na automacao"
+  },
+  "Q2220360": {
+    "source_id": "Q2220360",
+    "expected_primary_module": "F03",
+    "acceptable_modules": [
+      "F03",
+      "F01"
+    ],
+    "expected_primary_concept": "REACTANCE_IMPEDANCE",
+    "expected_semantic_family": "AC_CIRCUITS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Impedancia e resposta em circuitos de corrente alternada"
+  },
+  "Q767405": {
+    "source_id": "Q767405",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNSPECIFIED_ELECTRICAL_CONCEPT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "CLASSIFIER_GAP",
+    "editorial_rationale": "Conceito generico sem discriminacao curricular clara"
+  },
+  "Q1098187": {
+    "source_id": "Q1098187",
+    "expected_primary_module": "F02",
+    "acceptable_modules": [
+      "F02"
+    ],
+    "expected_primary_concept": "RESISTOR_ASSOCIATION",
+    "expected_semantic_family": "RESISTOR_NETWORKS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Associacao e calculos em redes resistivas"
+  },
+  "Q2354130": {
+    "source_id": "Q2354130",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "RECTIFIER_OPERATION",
+    "expected_semantic_family": "ANALOG_ELECTRONICS",
+    "expected_unclassified_reason": "MISSING_MODULE",
+    "editorial_rationale": "Eletronica basica / circuitos retificadores"
+  },
+  "Q93701": {
+    "source_id": "Q93701",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNSPECIFIED_ELECTRICAL_CONCEPT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "CLASSIFIER_GAP",
+    "editorial_rationale": "Conceito generico sem discriminacao curricular clara"
+  },
+  "Q3625328": {
+    "source_id": "Q3625328",
+    "expected_primary_module": "F02",
+    "acceptable_modules": [
+      "F02"
+    ],
+    "expected_primary_concept": "RESISTOR_ASSOCIATION",
+    "expected_semantic_family": "RESISTOR_NETWORKS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Associacao e calculos em redes resistivas"
+  },
+  "Q2779161": {
+    "source_id": "Q2779161",
+    "expected_primary_module": "F02",
+    "acceptable_modules": [
+      "F02"
+    ],
+    "expected_primary_concept": "RESISTOR_ASSOCIATION",
+    "expected_semantic_family": "RESISTOR_NETWORKS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Associacao e calculos em redes resistivas"
+  },
+  "Q3943015": {
+    "source_id": "Q3943015",
+    "expected_primary_module": "E05",
+    "acceptable_modules": [
+      "E05",
+      "E06"
+    ],
+    "expected_primary_concept": "INVERTER_SPEED_CONTROL",
+    "expected_semantic_family": "FREQUENCY_INVERTERS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Variacao de frequencia e acionamento de motores"
+  },
+  "Q431644": {
+    "source_id": "Q431644",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNSPECIFIED_ELECTRICAL_CONCEPT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "CLASSIFIER_GAP",
+    "editorial_rationale": "Conceito generico sem discriminacao curricular clara"
+  },
+  "Q1010995": {
+    "source_id": "Q1010995",
+    "expected_primary_module": "T01",
+    "acceptable_modules": [
+      "T01",
+      "F02"
+    ],
+    "expected_primary_concept": "TRANSFORMER_RATIO",
+    "expected_semantic_family": "POWER_TRANSFORMERS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Relacao de transformacao e funcionamento de transformadores"
+  },
+  "Q596759": {
+    "source_id": "Q596759",
+    "expected_primary_module": "A02",
+    "acceptable_modules": [
+      "A02"
+    ],
+    "expected_primary_concept": "PLC_CONTROL",
+    "expected_semantic_family": "PROGRAMMABLE_CONTROLLERS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Controladores logicos programaveis na automacao"
+  },
+  "Q2559466": {
+    "source_id": "Q2559466",
+    "expected_primary_module": "F03",
+    "acceptable_modules": [
+      "F03",
+      "F01"
+    ],
+    "expected_primary_concept": "REACTANCE_IMPEDANCE",
+    "expected_semantic_family": "AC_CIRCUITS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Impedancia e resposta em circuitos de corrente alternada"
+  },
+  "Q3264276": {
+    "source_id": "Q3264276",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNSPECIFIED_ELECTRICAL_CONCEPT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "CLASSIFIER_GAP",
+    "editorial_rationale": "Conceito generico sem discriminacao curricular clara"
+  },
+  "Q64193": {
+    "source_id": "Q64193",
+    "expected_primary_module": "T01",
+    "acceptable_modules": [
+      "T01",
+      "E02"
+    ],
+    "expected_primary_concept": "TRANSFORMER_THREE_PHASE",
+    "expected_semantic_family": "POWER_TRANSFORMERS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Transformadores trifasicos de potencia"
+  },
+  "Q879235": {
+    "source_id": "Q879235",
+    "expected_primary_module": "E01",
+    "acceptable_modules": [
+      "E01",
+      "E02"
+    ],
+    "expected_primary_concept": "SYNCHRONOUS_SPEED",
+    "expected_semantic_family": "ELECTRIC_MACHINES",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Velocidade sincrona e escorregamento de motores"
+  },
+  "Q522936": {
+    "source_id": "Q522936",
+    "expected_primary_module": "T01",
+    "acceptable_modules": [
+      "T01",
+      "F02"
+    ],
+    "expected_primary_concept": "TRANSFORMER_RATIO",
+    "expected_semantic_family": "POWER_TRANSFORMERS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Relacao de transformacao e funcionamento de transformadores"
+  },
+  "Q3199943": {
+    "source_id": "Q3199943",
+    "expected_primary_module": "P01",
+    "acceptable_modules": [
+      "P01",
+      "I01"
+    ],
+    "expected_primary_concept": "CONDUCTOR_SIZING",
+    "expected_semantic_family": "CONDUCTORS_AND_CABLES",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Dimensionamento de condutores e condutos"
+  },
+  "Q2049540": {
+    "source_id": "Q2049540",
+    "expected_primary_module": "P01",
+    "acceptable_modules": [
+      "P01",
+      "I01"
+    ],
+    "expected_primary_concept": "CONDUCTOR_SIZING",
+    "expected_semantic_family": "CONDUCTORS_AND_CABLES",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Dimensionamento de condutores e condutos"
+  },
+  "Q1766548": {
+    "source_id": "Q1766548",
+    "expected_primary_module": "F04",
+    "acceptable_modules": [
+      "F04",
+      "F03"
+    ],
+    "expected_primary_concept": "ELECTRICAL_POWER",
+    "expected_semantic_family": "ELECTRIC_POWER_AND_ENERGY",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Potencias eletricas ativa, reativa e aparente"
+  },
+  "Q2729149": {
+    "source_id": "Q2729149",
+    "expected_primary_module": "F02",
+    "acceptable_modules": [
+      "F02"
+    ],
+    "expected_primary_concept": "SERIES_EQUIVALENT_RESISTANCE",
+    "expected_semantic_family": "RESISTOR_NETWORKS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Associacao em serie de resistores"
+  },
+  "Q3090246": {
+    "source_id": "Q3090246",
+    "expected_primary_module": "P02",
+    "acceptable_modules": [
+      "P02",
+      "P01"
+    ],
+    "expected_primary_concept": "OVERCURRENT_PROTECTION",
+    "expected_semantic_family": "OVERCURRENT_PROTECTION",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Dispositivos de protecao contra sobrecorrente"
+  },
+  "Q3690141": {
+    "source_id": "Q3690141",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "OPERATIONAL_AMPLIFIER",
+    "expected_semantic_family": "ANALOG_ELECTRONICS",
+    "expected_unclassified_reason": "MISSING_MODULE",
+    "editorial_rationale": "Eletronica analogica (AmpOp) ausente na matriz de 35 modulos"
+  },
+  "Q3865639": {
+    "source_id": "Q3865639",
+    "expected_primary_module": "P01",
+    "acceptable_modules": [
+      "P01",
+      "I01"
+    ],
+    "expected_primary_concept": "CONDUCTOR_SIZING",
+    "expected_semantic_family": "CONDUCTORS_AND_CABLES",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Dimensionamento de condutores e condutos"
+  },
+  "Q490233": {
+    "source_id": "Q490233",
+    "expected_primary_module": "F01",
+    "acceptable_modules": [
+      "F01",
+      "F02"
+    ],
+    "expected_primary_concept": "ELECTRICAL_QUANTITIES",
+    "expected_semantic_family": "FUNDAMENTALS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Grandezas fundamentais da eletricidade"
+  },
+  "Q1037582": {
+    "source_id": "Q1037582",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNSPECIFIED_ELECTRICAL_CONCEPT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "CLASSIFIER_GAP",
+    "editorial_rationale": "Conceito generico sem discriminacao curricular clara"
+  },
+  "Q2584771": {
+    "source_id": "Q2584771",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNSPECIFIED_ELECTRICAL_CONCEPT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "CLASSIFIER_GAP",
+    "editorial_rationale": "Conceito generico sem discriminacao curricular clara"
+  },
+  "Q108160": {
+    "source_id": "Q108160",
+    "expected_primary_module": "F01",
+    "acceptable_modules": [
+      "F01",
+      "F02"
+    ],
+    "expected_primary_concept": "ELECTRICAL_QUANTITIES",
+    "expected_semantic_family": "FUNDAMENTALS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Grandezas fundamentais da eletricidade"
+  },
+  "Q883654": {
+    "source_id": "Q883654",
+    "expected_primary_module": "P01",
+    "acceptable_modules": [
+      "P01",
+      "I01"
+    ],
+    "expected_primary_concept": "CONDUCTOR_SIZING",
+    "expected_semantic_family": "CONDUCTORS_AND_CABLES",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Dimensionamento de condutores e condutos"
+  },
+  "Q3949001": {
+    "source_id": "Q3949001",
+    "expected_primary_module": "E01",
+    "acceptable_modules": [
+      "E01"
+    ],
+    "expected_primary_concept": "MOTOR_EFFICIENCY",
+    "expected_semantic_family": "ELECTRIC_MACHINES",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Rendimento e balanco de potencias em maquinas eletricas"
+  },
+  "Q3887487": {
+    "source_id": "Q3887487",
+    "expected_primary_module": "E06",
+    "acceptable_modules": [
+      "E06",
+      "E03"
+    ],
+    "expected_primary_concept": "SOFT_STARTER",
+    "expected_semantic_family": "ELECTRONIC_STARTING",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Partida e parada de motores com chave soft-starter"
+  },
+  "Q3509141": {
+    "source_id": "Q3509141",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNSPECIFIED_ELECTRICAL_CONCEPT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "CLASSIFIER_GAP",
+    "editorial_rationale": "Conceito generico sem discriminacao curricular clara"
+  },
+  "Q3999438": {
+    "source_id": "Q3999438",
+    "expected_primary_module": "F01",
+    "acceptable_modules": [
+      "F01",
+      "F02"
+    ],
+    "expected_primary_concept": "ELECTRICAL_QUANTITIES",
+    "expected_semantic_family": "FUNDAMENTALS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Grandezas fundamentais da eletricidade"
+  },
+  "Q2955378": {
+    "source_id": "Q2955378",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "OPERATIONAL_AMPLIFIER",
+    "expected_semantic_family": "ANALOG_ELECTRONICS",
+    "expected_unclassified_reason": "MISSING_MODULE",
+    "editorial_rationale": "Eletronica analogica (AmpOp) ausente na matriz de 35 modulos"
+  },
+  "Q3232089": {
+    "source_id": "Q3232089",
+    "expected_primary_module": "T01",
+    "acceptable_modules": [
+      "T01",
+      "F02"
+    ],
+    "expected_primary_concept": "TRANSFORMER_RATIO",
+    "expected_semantic_family": "POWER_TRANSFORMERS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Relacao de transformacao e funcionamento de transformadores"
+  },
+  "Q2447332": {
+    "source_id": "Q2447332",
+    "expected_primary_module": "F03",
+    "acceptable_modules": [
+      "F03",
+      "F01"
+    ],
+    "expected_primary_concept": "REACTANCE_IMPEDANCE",
+    "expected_semantic_family": "AC_CIRCUITS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Impedancia e resposta em circuitos de corrente alternada"
+  },
+  "Q2027406": {
+    "source_id": "Q2027406",
+    "expected_primary_module": "F04",
+    "acceptable_modules": [
+      "F04",
+      "E02"
+    ],
+    "expected_primary_concept": "POWER_FACTOR_CORRECTION",
+    "expected_semantic_family": "POWER_FACTOR_MANAGEMENT",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Compensacao e correcao de fator de potencia"
+  },
+  "Q3550815": {
+    "source_id": "Q3550815",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNSPECIFIED_ELECTRICAL_CONCEPT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "CLASSIFIER_GAP",
+    "editorial_rationale": "Conceito generico sem discriminacao curricular clara"
+  },
+  "Q2694469": {
+    "source_id": "Q2694469",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "RECTIFIER_OPERATION",
+    "expected_semantic_family": "ANALOG_ELECTRONICS",
+    "expected_unclassified_reason": "MISSING_MODULE",
+    "editorial_rationale": "Eletronica basica / circuitos retificadores"
+  },
+  "Q234006": {
+    "source_id": "Q234006",
+    "expected_primary_module": "F01",
+    "acceptable_modules": [
+      "F01",
+      "F02"
+    ],
+    "expected_primary_concept": "ELECTRICAL_QUANTITIES",
+    "expected_semantic_family": "FUNDAMENTALS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Grandezas fundamentais da eletricidade"
+  },
+  "Q3742086": {
+    "source_id": "Q3742086",
+    "expected_primary_module": "R01",
+    "acceptable_modules": [
+      "R01",
+      "I01"
+    ],
+    "expected_primary_concept": "DISTRIBUTION_TOPOLOGY",
+    "expected_semantic_family": "DISTRIBUTION_NETWORKS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Redes de distribuicao aerea e entrada de servico"
+  },
+  "Q751904": {
+    "source_id": "Q751904",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNSPECIFIED_ELECTRICAL_CONCEPT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "CLASSIFIER_GAP",
+    "editorial_rationale": "Conceito generico sem discriminacao curricular clara"
+  },
+  "Q971882": {
+    "source_id": "Q971882",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "RECTIFIER_OPERATION",
+    "expected_semantic_family": "ANALOG_ELECTRONICS",
+    "expected_unclassified_reason": "MISSING_MODULE",
+    "editorial_rationale": "Eletronica basica / circuitos retificadores"
+  },
+  "Q2804152": {
+    "source_id": "Q2804152",
+    "expected_primary_module": "F03",
+    "acceptable_modules": [
+      "F03",
+      "F01"
+    ],
+    "expected_primary_concept": "REACTANCE_IMPEDANCE",
+    "expected_semantic_family": "AC_CIRCUITS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Impedancia e resposta em circuitos de corrente alternada"
+  },
+  "Q2325610": {
+    "source_id": "Q2325610",
+    "expected_primary_module": "P01",
+    "acceptable_modules": [
+      "P01",
+      "I01"
+    ],
+    "expected_primary_concept": "CONDUCTOR_SIZING",
+    "expected_semantic_family": "CONDUCTORS_AND_CABLES",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Dimensionamento de condutores e condutos"
+  },
+  "Q453947": {
+    "source_id": "Q453947",
+    "expected_primary_module": "I01",
+    "acceptable_modules": [
+      "I01",
+      "P01"
+    ],
+    "expected_primary_concept": "LOAD_ALLOCATION",
+    "expected_semantic_family": "BUILDING_INSTALLATIONS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Previsao de cargas e instalacoes prediais NBR 5410"
+  },
+  "Q2251023": {
+    "source_id": "Q2251023",
+    "expected_primary_module": "F03",
+    "acceptable_modules": [
+      "F03",
+      "F01"
+    ],
+    "expected_primary_concept": "REACTANCE_IMPEDANCE",
+    "expected_semantic_family": "AC_CIRCUITS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Impedancia e resposta em circuitos de corrente alternada"
+  },
+  "Q2125854": {
+    "source_id": "Q2125854",
+    "expected_primary_module": "P01",
+    "acceptable_modules": [
+      "P01",
+      "I01"
+    ],
+    "expected_primary_concept": "CONDUCTOR_SIZING",
+    "expected_semantic_family": "CONDUCTORS_AND_CABLES",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Dimensionamento de condutores e condutos"
+  },
+  "Q2272592": {
+    "source_id": "Q2272592",
+    "expected_primary_module": "F02",
+    "acceptable_modules": [
+      "F02",
+      "M01"
+    ],
+    "expected_primary_concept": "WHEATSTONE_BRIDGE",
+    "expected_semantic_family": "RESISTOR_NETWORKS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Ponte de Wheatstone para medicao de resistencia"
+  },
+  "Q564449": {
+    "source_id": "Q564449",
+    "expected_primary_module": "F02",
+    "acceptable_modules": [
+      "F02"
+    ],
+    "expected_primary_concept": "RESISTOR_ASSOCIATION",
+    "expected_semantic_family": "RESISTOR_NETWORKS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Associacao e calculos em redes resistivas"
+  },
+  "Q2421989": {
+    "source_id": "Q2421989",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "RECTIFIER_OPERATION",
+    "expected_semantic_family": "ANALOG_ELECTRONICS",
+    "expected_unclassified_reason": "MISSING_MODULE",
+    "editorial_rationale": "Eletronica basica / circuitos retificadores"
+  },
+  "Q1888086": {
+    "source_id": "Q1888086",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "TRANSISTOR_OPERATION",
+    "expected_semantic_family": "ANALOG_ELECTRONICS",
+    "expected_unclassified_reason": "MISSING_MODULE",
+    "editorial_rationale": "Semicondutores discretos (transistor) fora dos 35 modulos"
+  },
+  "Q523006": {
+    "source_id": "Q523006",
+    "expected_primary_module": "T01",
+    "acceptable_modules": [
+      "T01",
+      "F02"
+    ],
+    "expected_primary_concept": "TRANSFORMER_RATIO",
+    "expected_semantic_family": "POWER_TRANSFORMERS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Relacao de transformacao e funcionamento de transformadores"
+  },
+  "Q759340": {
+    "source_id": "Q759340",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNSPECIFIED_ELECTRICAL_CONCEPT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "CLASSIFIER_GAP",
+    "editorial_rationale": "Conceito generico sem discriminacao curricular clara"
+  },
+  "Q818094": {
+    "source_id": "Q818094",
+    "expected_primary_module": "M01",
+    "acceptable_modules": [
+      "M01",
+      "F02"
+    ],
+    "expected_primary_concept": "MULTIMETER_FUNCTION",
+    "expected_semantic_family": "MULTIMETER_MEASUREMENTS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Uso e escalas de instrumentos de medicao eletrica"
+  },
+  "Q834148": {
+    "source_id": "Q834148",
+    "expected_primary_module": "E03",
+    "acceptable_modules": [
+      "E03",
+      "E02"
+    ],
+    "expected_primary_concept": "MOTOR_REVERSING",
+    "expected_semantic_family": "MOTOR_CONTROL",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Circuito de comando para reversao de motor"
+  },
+  "Q3402698": {
+    "source_id": "Q3402698",
+    "expected_primary_module": "M01",
+    "acceptable_modules": [
+      "M01",
+      "F02"
+    ],
+    "expected_primary_concept": "MULTIMETER_FUNCTION",
+    "expected_semantic_family": "MULTIMETER_MEASUREMENTS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Uso e escalas de instrumentos de medicao eletrica"
+  },
+  "Q3466927": {
+    "source_id": "Q3466927",
+    "expected_primary_module": "T01",
+    "acceptable_modules": [
+      "T01",
+      "F02"
+    ],
+    "expected_primary_concept": "TRANSFORMER_RATIO",
+    "expected_semantic_family": "POWER_TRANSFORMERS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Relacao de transformacao e funcionamento de transformadores"
+  },
+  "Q4186872": {
+    "source_id": "Q4186872",
+    "expected_primary_module": "P01",
+    "acceptable_modules": [
+      "P01",
+      "I01"
+    ],
+    "expected_primary_concept": "CONDUCTOR_SIZING",
+    "expected_semantic_family": "CONDUCTORS_AND_CABLES",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Dimensionamento de condutores e condutos"
+  },
+  "Q2158411": {
+    "source_id": "Q2158411",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNSPECIFIED_ELECTRICAL_CONCEPT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "CLASSIFIER_GAP",
+    "editorial_rationale": "Conceito generico sem discriminacao curricular clara"
+  },
+  "Q2284690": {
+    "source_id": "Q2284690",
+    "expected_primary_module": "A02",
+    "acceptable_modules": [
+      "A02",
+      "A01"
+    ],
+    "expected_primary_concept": "PLC_LADDER",
+    "expected_semantic_family": "PROGRAMMABLE_CONTROLLERS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Programacao de CLP em linguagem Ladder"
+  },
+  "Q4032376": {
+    "source_id": "Q4032376",
+    "expected_primary_module": "E03",
+    "acceptable_modules": [
+      "E03"
+    ],
+    "expected_primary_concept": "CONTACTOR_CONTROL",
+    "expected_semantic_family": "MOTOR_CONTROL",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Circuitos de comando e forca com contatores"
+  },
+  "Q431058": {
+    "source_id": "Q431058",
+    "expected_primary_module": "F01",
+    "acceptable_modules": [
+      "F01",
+      "F02"
+    ],
+    "expected_primary_concept": "ELECTRICAL_QUANTITIES",
+    "expected_semantic_family": "FUNDAMENTALS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Grandezas fundamentais da eletricidade"
+  },
+  "Q3267717": {
+    "source_id": "Q3267717",
+    "expected_primary_module": "E02",
+    "acceptable_modules": [
+      "E02",
+      "E01"
+    ],
+    "expected_primary_concept": "INDUCTION_MOTOR",
+    "expected_semantic_family": "AC_MOTORS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Motores trifasicos de inducao e fechamento de bornes"
+  },
+  "Q4183612": {
+    "source_id": "Q4183612",
+    "expected_primary_module": "I03",
+    "acceptable_modules": [
+      "I03",
+      "I01"
+    ],
+    "expected_primary_concept": "ELECTRICAL_DIAGRAM_NOTATION",
+    "expected_semantic_family": "ELECTRICAL_DRAWINGS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Simbologia e diagramas de projetos eletricos"
+  },
+  "Q1767168": {
+    "source_id": "Q1767168",
+    "expected_primary_module": "F01",
+    "acceptable_modules": [
+      "F01",
+      "F02"
+    ],
+    "expected_primary_concept": "ELECTRICAL_QUANTITIES",
+    "expected_semantic_family": "FUNDAMENTALS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Grandezas fundamentais da eletricidade"
+  },
+  "Q2217068": {
+    "source_id": "Q2217068",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "RECTIFIER_OPERATION",
+    "expected_semantic_family": "ANALOG_ELECTRONICS",
+    "expected_unclassified_reason": "MISSING_MODULE",
+    "editorial_rationale": "Eletronica basica / circuitos retificadores"
+  },
+  "Q1060220": {
+    "source_id": "Q1060220",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNSPECIFIED_ELECTRICAL_CONCEPT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "CLASSIFIER_GAP",
+    "editorial_rationale": "Conceito generico sem discriminacao curricular clara"
+  },
+  "Q2894076": {
+    "source_id": "Q2894076",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNSPECIFIED_ELECTRICAL_CONCEPT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "CLASSIFIER_GAP",
+    "editorial_rationale": "Conceito generico sem discriminacao curricular clara"
+  },
+  "Q184144": {
+    "source_id": "Q184144",
+    "expected_primary_module": "F02",
+    "acceptable_modules": [
+      "F02"
+    ],
+    "expected_primary_concept": "SERIES_EQUIVALENT_RESISTANCE",
+    "expected_semantic_family": "RESISTOR_NETWORKS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Associacao em serie de resistores"
+  },
+  "Q786461": {
+    "source_id": "Q786461",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "TRANSISTOR_OPERATION",
+    "expected_semantic_family": "ANALOG_ELECTRONICS",
+    "expected_unclassified_reason": "MISSING_MODULE",
+    "editorial_rationale": "Semicondutores discretos (transistor) fora dos 35 modulos"
+  },
+  "Q173563": {
+    "source_id": "Q173563",
+    "expected_primary_module": "M01",
+    "acceptable_modules": [
+      "M01",
+      "F02"
+    ],
+    "expected_primary_concept": "MULTIMETER_FUNCTION",
+    "expected_semantic_family": "MULTIMETER_MEASUREMENTS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Uso e escalas de instrumentos de medicao eletrica"
+  },
+  "Q107335": {
+    "source_id": "Q107335",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNSPECIFIED_ELECTRICAL_CONCEPT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "CLASSIFIER_GAP",
+    "editorial_rationale": "Conceito generico sem discriminacao curricular clara"
+  },
+  "Q728272": {
+    "source_id": "Q728272",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNSPECIFIED_ELECTRICAL_CONCEPT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "CLASSIFIER_GAP",
+    "editorial_rationale": "Conceito generico sem discriminacao curricular clara"
+  },
+  "Q3637810": {
+    "source_id": "Q3637810",
+    "expected_primary_module": "E04",
+    "acceptable_modules": [
+      "E04",
+      "E03"
+    ],
+    "expected_primary_concept": "COMPENSATING_KEY_START",
+    "expected_semantic_family": "MOTOR_STARTING_METHODS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Partida de motor por chave compensadora"
+  },
+  "Q3532481": {
+    "source_id": "Q3532481",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNSPECIFIED_ELECTRICAL_CONCEPT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "CLASSIFIER_GAP",
+    "editorial_rationale": "Conceito generico sem discriminacao curricular clara"
+  },
+  "Q2802803": {
+    "source_id": "Q2802803",
+    "expected_primary_module": "T02",
+    "acceptable_modules": [
+      "T02",
+      "M01"
+    ],
+    "expected_primary_concept": "CURRENT_TRANSFORMER",
+    "expected_semantic_family": "INSTRUMENT_TRANSFORMERS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Transformadores para instrumentos de medicao"
+  },
+  "Q3466923": {
+    "source_id": "Q3466923",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNSPECIFIED_ELECTRICAL_CONCEPT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "CLASSIFIER_GAP",
+    "editorial_rationale": "Conceito generico sem discriminacao curricular clara"
+  },
+  "Q2058465": {
+    "source_id": "Q2058465",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNSPECIFIED_ELECTRICAL_CONCEPT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "CLASSIFIER_GAP",
+    "editorial_rationale": "Conceito generico sem discriminacao curricular clara"
+  },
+  "Q3909995": {
+    "source_id": "Q3909995",
+    "expected_primary_module": "F04",
+    "acceptable_modules": [
+      "F04",
+      "E02"
+    ],
+    "expected_primary_concept": "POWER_FACTOR_CORRECTION",
+    "expected_semantic_family": "POWER_FACTOR_MANAGEMENT",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Compensacao e correcao de fator de potencia"
+  },
+  "Q3797364": {
+    "source_id": "Q3797364",
+    "expected_primary_module": "I03",
+    "acceptable_modules": [
+      "I03",
+      "I01"
+    ],
+    "expected_primary_concept": "ELECTRICAL_DIAGRAM_NOTATION",
+    "expected_semantic_family": "ELECTRICAL_DRAWINGS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Simbologia e diagramas de projetos eletricos"
+  },
+  "Q1066333": {
+    "source_id": "Q1066333",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNSPECIFIED_ELECTRICAL_CONCEPT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "CLASSIFIER_GAP",
+    "editorial_rationale": "Conceito generico sem discriminacao curricular clara"
+  },
+  "Q3716094": {
+    "source_id": "Q3716094",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "RECTIFIER_OPERATION",
+    "expected_semantic_family": "ANALOG_ELECTRONICS",
+    "expected_unclassified_reason": "MISSING_MODULE",
+    "editorial_rationale": "Eletronica basica / circuitos retificadores"
+  },
+  "Q3742089": {
+    "source_id": "Q3742089",
+    "expected_primary_module": "P01",
+    "acceptable_modules": [
+      "P01",
+      "I01"
+    ],
+    "expected_primary_concept": "CONDUCTOR_SIZING",
+    "expected_semantic_family": "CONDUCTORS_AND_CABLES",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Dimensionamento de condutores e condutos"
+  },
+  "Q734068": {
+    "source_id": "Q734068",
+    "expected_primary_module": "E06",
+    "acceptable_modules": [
+      "E06",
+      "E03"
+    ],
+    "expected_primary_concept": "SOFT_STARTER",
+    "expected_semantic_family": "ELECTRONIC_STARTING",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Partida e parada de motores com chave soft-starter"
+  },
+  "Q3576879": {
+    "source_id": "Q3576879",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "IMAGE_DEPENDENT_QUESTION",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "IMAGE_REQUIRED",
+    "editorial_rationale": "Enunciado depende essencialmente de interpretacao da imagem"
+  },
+  "Q945963": {
+    "source_id": "Q945963",
+    "expected_primary_module": "E01",
+    "acceptable_modules": [
+      "E01"
+    ],
+    "expected_primary_concept": "MOTOR_EFFICIENCY",
+    "expected_semantic_family": "ELECTRIC_MACHINES",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Rendimento e balanco de potencias em maquinas eletricas"
+  },
+  "Q1036232": {
+    "source_id": "Q1036232",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNSPECIFIED_ELECTRICAL_CONCEPT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "CLASSIFIER_GAP",
+    "editorial_rationale": "Conceito generico sem discriminacao curricular clara"
+  },
+  "Q2729185": {
+    "source_id": "Q2729185",
+    "expected_primary_module": "E02",
+    "acceptable_modules": [
+      "E02",
+      "E01"
+    ],
+    "expected_primary_concept": "INDUCTION_MOTOR",
+    "expected_semantic_family": "AC_MOTORS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Motores trifasicos de inducao e fechamento de bornes"
+  },
+  "Q2894080": {
+    "source_id": "Q2894080",
+    "expected_primary_module": "M01",
+    "acceptable_modules": [
+      "M01",
+      "F02"
+    ],
+    "expected_primary_concept": "MULTIMETER_FUNCTION",
+    "expected_semantic_family": "MULTIMETER_MEASUREMENTS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Uso e escalas de instrumentos de medicao eletrica"
+  },
+  "Q3426562": {
+    "source_id": "Q3426562",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNSPECIFIED_ELECTRICAL_CONCEPT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "CLASSIFIER_GAP",
+    "editorial_rationale": "Conceito generico sem discriminacao curricular clara"
+  },
+  "Q2157513": {
+    "source_id": "Q2157513",
+    "expected_primary_module": "P03",
+    "acceptable_modules": [
+      "P03",
+      "S02"
+    ],
+    "expected_primary_concept": "RESIDUAL_CURRENT_PROTECTION",
+    "expected_semantic_family": "RESIDUAL_PROTECTION",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Protecao residual (DR) e contatos indiretos"
+  },
+  "Q1036260": {
+    "source_id": "Q1036260",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNSPECIFIED_ELECTRICAL_CONCEPT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "CLASSIFIER_GAP",
+    "editorial_rationale": "Conceito generico sem discriminacao curricular clara"
+  },
+  "Q2693100": {
+    "source_id": "Q2693100",
+    "expected_primary_module": "M02",
+    "acceptable_modules": [
+      "M02",
+      "D01"
+    ],
+    "expected_primary_concept": "INSULATION_TEST",
+    "expected_semantic_family": "INSULATION_AND_CONTINUITY",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Medicao de resistencia de isolamento"
+  },
+  "Q810795": {
+    "source_id": "Q810795",
+    "expected_primary_module": "M01",
+    "acceptable_modules": [
+      "M01",
+      "F02"
+    ],
+    "expected_primary_concept": "MULTIMETER_FUNCTION",
+    "expected_semantic_family": "MULTIMETER_MEASUREMENTS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Uso e escalas de instrumentos de medicao eletrica"
+  },
+  "Q3509139": {
+    "source_id": "Q3509139",
+    "expected_primary_module": "T01",
+    "acceptable_modules": [
+      "T01",
+      "F02"
+    ],
+    "expected_primary_concept": "TRANSFORMER_RATIO",
+    "expected_semantic_family": "POWER_TRANSFORMERS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Relacao de transformacao e funcionamento de transformadores"
+  },
+  "Q4216215": {
+    "source_id": "Q4216215",
+    "expected_primary_module": "P02",
+    "acceptable_modules": [
+      "P02",
+      "P01"
+    ],
+    "expected_primary_concept": "OVERCURRENT_PROTECTION",
+    "expected_semantic_family": "OVERCURRENT_PROTECTION",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Dispositivos de protecao contra sobrecorrente"
+  },
+  "Q173560": {
+    "source_id": "Q173560",
+    "expected_primary_module": "E04",
+    "acceptable_modules": [
+      "E04",
+      "E03"
+    ],
+    "expected_primary_concept": "STAR_DELTA_START",
+    "expected_semantic_family": "MOTOR_STARTING_METHODS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Metodo de partida indireta estrela-triangulo"
+  },
+  "Q431310": {
+    "source_id": "Q431310",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNSPECIFIED_ELECTRICAL_CONCEPT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "CLASSIFIER_GAP",
+    "editorial_rationale": "Conceito generico sem discriminacao curricular clara"
+  },
+  "Q1058597": {
+    "source_id": "Q1058597",
+    "expected_primary_module": "P01",
+    "acceptable_modules": [
+      "P01",
+      "I01"
+    ],
+    "expected_primary_concept": "CONDUCTOR_SIZING",
+    "expected_semantic_family": "CONDUCTORS_AND_CABLES",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Dimensionamento de condutores e condutos"
+  },
+  "Q2987955": {
+    "source_id": "Q2987955",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNSPECIFIED_ELECTRICAL_CONCEPT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "CLASSIFIER_GAP",
+    "editorial_rationale": "Conceito generico sem discriminacao curricular clara"
+  },
+  "Q879234": {
+    "source_id": "Q879234",
+    "expected_primary_module": "M01",
+    "acceptable_modules": [
+      "M01",
+      "F03"
+    ],
+    "expected_primary_concept": "OSCILLOSCOPE_READING",
+    "expected_semantic_family": "MEASUREMENT_INSTRUMENTS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Medicao de grandezas com osciloscopio"
+  },
+  "Q2802784": {
+    "source_id": "Q2802784",
+    "expected_primary_module": "T01",
+    "acceptable_modules": [
+      "T01",
+      "F02"
+    ],
+    "expected_primary_concept": "TRANSFORMER_RATIO",
+    "expected_semantic_family": "POWER_TRANSFORMERS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Relacao de transformacao e funcionamento de transformadores"
+  },
+  "Q707694": {
+    "source_id": "Q707694",
+    "expected_primary_module": "T01",
+    "acceptable_modules": [
+      "T01",
+      "F02"
+    ],
+    "expected_primary_concept": "TRANSFORMER_RATIO",
+    "expected_semantic_family": "POWER_TRANSFORMERS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Relacao de transformacao e funcionamento de transformadores"
+  },
+  "Q431300": {
+    "source_id": "Q431300",
+    "expected_primary_module": "T01",
+    "acceptable_modules": [
+      "T01",
+      "F02"
+    ],
+    "expected_primary_concept": "TRANSFORMER_RATIO",
+    "expected_semantic_family": "POWER_TRANSFORMERS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Relacao de transformacao e funcionamento de transformadores"
+  },
+  "Q248527": {
+    "source_id": "Q248527",
+    "expected_primary_module": "F04",
+    "acceptable_modules": [
+      "F04",
+      "F03"
+    ],
+    "expected_primary_concept": "ELECTRICAL_POWER",
+    "expected_semantic_family": "ELECTRIC_POWER_AND_ENERGY",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Potencias eletricas ativa, reativa e aparente"
+  },
+  "Q2729181": {
+    "source_id": "Q2729181",
+    "expected_primary_module": "T01",
+    "acceptable_modules": [
+      "T01",
+      "F02"
+    ],
+    "expected_primary_concept": "TRANSFORMER_RATIO",
+    "expected_semantic_family": "POWER_TRANSFORMERS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Relacao de transformacao e funcionamento de transformadores"
+  },
+  "Q3675301": {
+    "source_id": "Q3675301",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNSPECIFIED_ELECTRICAL_CONCEPT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "CLASSIFIER_GAP",
+    "editorial_rationale": "Conceito generico sem discriminacao curricular clara"
+  },
+  "Q758581": {
+    "source_id": "Q758581",
+    "expected_primary_module": "F02",
+    "acceptable_modules": [
+      "F02"
+    ],
+    "expected_primary_concept": "RESISTOR_ASSOCIATION",
+    "expected_semantic_family": "RESISTOR_NETWORKS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Associacao e calculos em redes resistivas"
+  },
+  "Q726866": {
+    "source_id": "Q726866",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNSPECIFIED_ELECTRICAL_CONCEPT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "CLASSIFIER_GAP",
+    "editorial_rationale": "Conceito generico sem discriminacao curricular clara"
+  },
+  "Q743387": {
+    "source_id": "Q743387",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "TRANSISTOR_OPERATION",
+    "expected_semantic_family": "ANALOG_ELECTRONICS",
+    "expected_unclassified_reason": "MISSING_MODULE",
+    "editorial_rationale": "Semicondutores discretos (transistor) fora dos 35 modulos"
+  },
+  "Q976421": {
+    "source_id": "Q976421",
+    "expected_primary_module": "A02",
+    "acceptable_modules": [
+      "A02",
+      "A01"
+    ],
+    "expected_primary_concept": "PLC_LADDER",
+    "expected_semantic_family": "PROGRAMMABLE_CONTROLLERS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Programacao de CLP em linguagem Ladder"
+  },
+  "Q2401039": {
+    "source_id": "Q2401039",
+    "expected_primary_module": "E02",
+    "acceptable_modules": [
+      "E02",
+      "E01"
+    ],
+    "expected_primary_concept": "INDUCTION_MOTOR",
+    "expected_semantic_family": "AC_MOTORS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Motores trifasicos de inducao e fechamento de bornes"
+  },
+  "Q452619": {
+    "source_id": "Q452619",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNSPECIFIED_ELECTRICAL_CONCEPT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "CLASSIFIER_GAP",
+    "editorial_rationale": "Conceito generico sem discriminacao curricular clara"
+  },
+  "Q3188791": {
+    "source_id": "Q3188791",
+    "expected_primary_module": "E01",
+    "acceptable_modules": [
+      "E01"
+    ],
+    "expected_primary_concept": "MOTOR_ENERGY_CONVERSION",
+    "expected_semantic_family": "ELECTRIC_MACHINES",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Conversao eletromecanica de energia"
+  },
+  "Q786457": {
+    "source_id": "Q786457",
+    "expected_primary_module": "F03",
+    "acceptable_modules": [
+      "F03",
+      "F01"
+    ],
+    "expected_primary_concept": "REACTANCE_IMPEDANCE",
+    "expected_semantic_family": "AC_CIRCUITS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Impedancia e resposta em circuitos de corrente alternada"
+  },
+  "Q2354120": {
+    "source_id": "Q2354120",
+    "expected_primary_module": "S02",
+    "acceptable_modules": [
+      "S02",
+      "S03"
+    ],
+    "expected_primary_concept": "ELECTRICAL_SAFETY",
+    "expected_semantic_family": "SAFETY_MEASURES",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Seguranca e prevencao de acidentes em eletricidade"
+  },
+  "Q454860": {
+    "source_id": "Q454860",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNSPECIFIED_ELECTRICAL_CONCEPT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "CLASSIFIER_GAP",
+    "editorial_rationale": "Conceito generico sem discriminacao curricular clara"
+  },
+  "Q397153": {
+    "source_id": "Q397153",
+    "expected_primary_module": "F02",
+    "acceptable_modules": [
+      "F02"
+    ],
+    "expected_primary_concept": "PARALLEL_EQUIVALENT_RESISTANCE",
+    "expected_semantic_family": "RESISTOR_NETWORKS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Associacao paralela de resistores"
+  },
+  "Q4209249": {
+    "source_id": "Q4209249",
+    "expected_primary_module": "M02",
+    "acceptable_modules": [
+      "M02",
+      "M01"
+    ],
+    "expected_primary_concept": "CONTINUITY_TEST",
+    "expected_semantic_family": "INSULATION_AND_CONTINUITY",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Verificacao de continuidade de condutores"
+  },
+  "Q431758": {
+    "source_id": "Q431758",
+    "expected_primary_module": "P03",
+    "acceptable_modules": [
+      "P03",
+      "S02"
+    ],
+    "expected_primary_concept": "RESIDUAL_CURRENT_PROTECTION",
+    "expected_semantic_family": "RESIDUAL_PROTECTION",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Protecao residual (DR) e contatos indiretos"
+  },
+  "Q3887477": {
+    "source_id": "Q3887477",
+    "expected_primary_module": "P01",
+    "acceptable_modules": [
+      "P01",
+      "I01"
+    ],
+    "expected_primary_concept": "CONDUCTOR_SIZING",
+    "expected_semantic_family": "CONDUCTORS_AND_CABLES",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Dimensionamento de condutores e condutos"
+  },
+  "Q231998": {
+    "source_id": "Q231998",
+    "expected_primary_module": "M02",
+    "acceptable_modules": [
+      "M02",
+      "M01"
+    ],
+    "expected_primary_concept": "CONTINUITY_TEST",
+    "expected_semantic_family": "INSULATION_AND_CONTINUITY",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Verificacao de continuidade de condutores"
+  },
+  "Q2254481": {
+    "source_id": "Q2254481",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNSPECIFIED_ELECTRICAL_CONCEPT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "CLASSIFIER_GAP",
+    "editorial_rationale": "Conceito generico sem discriminacao curricular clara"
+  },
+  "Q107334": {
+    "source_id": "Q107334",
+    "expected_primary_module": "P01",
+    "acceptable_modules": [
+      "P01",
+      "I01"
+    ],
+    "expected_primary_concept": "CONDUCTOR_SIZING",
+    "expected_semantic_family": "CONDUCTORS_AND_CABLES",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Dimensionamento de condutores e condutos"
+  },
+  "Q825980": {
+    "source_id": "Q825980",
+    "expected_primary_module": "E01",
+    "acceptable_modules": [
+      "E01",
+      "E02"
+    ],
+    "expected_primary_concept": "SYNCHRONOUS_SPEED",
+    "expected_semantic_family": "ELECTRIC_MACHINES",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Velocidade sincrona e escorregamento de motores"
+  },
+  "Q2158448": {
+    "source_id": "Q2158448",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "UNSPECIFIED_ELECTRICAL_CONCEPT",
+    "expected_semantic_family": "INSUFFICIENT_CONTEXT",
+    "expected_unclassified_reason": "CLASSIFIER_GAP",
+    "editorial_rationale": "Conceito generico sem discriminacao curricular clara"
+  },
+  "Q3012493": {
+    "source_id": "Q3012493",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "OPERATIONAL_AMPLIFIER",
+    "expected_semantic_family": "ANALOG_ELECTRONICS",
+    "expected_unclassified_reason": "MISSING_MODULE",
+    "editorial_rationale": "Eletronica analogica (AmpOp) ausente na matriz de 35 modulos"
+  },
+  "Q3296523": {
+    "source_id": "Q3296523",
+    "expected_primary_module": "F03",
+    "acceptable_modules": [
+      "F03",
+      "F01"
+    ],
+    "expected_primary_concept": "REACTANCE_IMPEDANCE",
+    "expected_semantic_family": "AC_CIRCUITS",
+    "expected_unclassified_reason": null,
+    "editorial_rationale": "Impedancia e resposta em circuitos de corrente alternada"
+  },
+  "Q2158412": {
+    "source_id": "Q2158412",
+    "expected_primary_module": null,
+    "acceptable_modules": [],
+    "expected_primary_concept": "RECTIFIER_OPERATION",
+    "expected_semantic_family": "ANALOG_ELECTRONICS",
+    "expected_unclassified_reason": "MISSING_MODULE",
+    "editorial_rationale": "Eletronica basica / circuitos retificadores"
+  }
+}

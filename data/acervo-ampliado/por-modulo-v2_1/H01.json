@@ -1,0 +1,40 @@
+{
+  "module": "H01",
+  "title": "Válvulas, atuadores e simbologia",
+  "primary_count": 19,
+  "secondary_count": 0,
+  "confidence_counts": {
+    "HIGH": 15,
+    "MEDIUM": 4
+  },
+  "interaction_candidate_counts": {
+    "LOW": 7,
+    "MEDIUM": 12
+  },
+  "inspection_priority_counts": {
+    "P3": 15,
+    "P1": 4
+  },
+  "primary_ids": [
+    "Q1090583",
+    "Q707703",
+    "Q797906",
+    "Q831193",
+    "Q1086345",
+    "Q1276367",
+    "Q180460",
+    "Q180773",
+    "Q182428",
+    "Q3449172",
+    "Q3453355",
+    "Q3803295",
+    "Q3846967",
+    "Q402437",
+    "Q430237",
+    "Q431574",
+    "Q454862",
+    "Q797903",
+    "Q797905"
+  ],
+  "secondary_ids": []
+}

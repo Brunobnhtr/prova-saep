@@ -1,0 +1,36 @@
+from pathlib import Path
+p=Path('src/main.tsx');s=p.read_text(encoding='utf-8')
+s=s.replace('useState,useRef,useEffect','useState,useEffect')
+s=s.replace("import {ProbeTools}","import {useContinuityTone} from './useContinuityTone';\nimport {ProbeTools}")
+s=s.replace("useState<'voltage'|'continuity'>('voltage')","useState<'off'|'continuity'>('off')")
+s=s.replace("[sound,setSound]=useState(false)","[sound,setSound]=useState(true)")
+s=s.replace("[pairs,setPairs]=useState<string[]>([])","[pairs,setPairs]=useState<{key:string,number:number,terminals:number[]}[]>([])")
+start=s.index(' const audio=');end=s.index(' const safe=',start);s=s[:start]+" const [bobina,setBobina]=useState(1);\n"+s[end:]
+start=s.index(' function beep()');end=s.index(' useEffect(()=>{if(!tipsTouch)',start)
+s=s[:start]+" useContinuityTone(result==='closed',sound,()=>setNote('Áudio indisponível. Verifique a permissão de som do navegador.'));\n"+s[end:]
+s=s.replace(";beep();},[tipsTouch,safe,mode])",";},[tipsTouch,safe,mode])")
+s=s.replace("setRed(n);setProbe('black');","setRed(n);").replace("setBlack(n);setProbe('red');","setBlack(n);")
+s=s.replace("setProbe(color==='red'?'black':'red');","")
+s=s.replace("if(measure(a,b,true)==='closed')beep();","")
+s=s.replace("if(measure(a,b,ready)==='closed')beep();","")
+s=s.replace('terminal ${n}', 'borne selecionado')
+start=s.index(' function save(){');end=s.index(' function reset()',start)
+s=s[:start]+''' function save(){if(result!=='closed'||red===black||red===null||black===null||tipsTouch)return;const key=[red,black].sort().join('-');if(pairs.some(p=>p.key===key)){setNote('Esse par já foi identificado.');return;}if(pairs.some(p=>p.number===bobina)){setNote('Esse número já foi usado. Escolha outro número de bobina.');return;}setPairs(p=>[...p,{key,number:bobina,terminals:[red,black]}]);setNote(`Bobina ${bobina} identificada. ${pairs.length===2?'Missão concluída!':'Procure outro par.'}`);const next=[1,2,3].find(n=>n!==bobina&&!pairs.some(p=>p.number===n));if(next)setBobina(next);}
+''' +s[end:]
+s=s.replace("setMode('voltage')","setMode('off')")
+s=s.replace("setPairs([]);setNote('');}","setPairs([]);setBobina(1);setNote('');}")
+s=s.replace("aria-label={`Terminal ${n}","aria-label={`Borne ${['superior esquerdo','superior central','superior direito','inferior esquerdo','inferior central','inferior direito'][n-1]}")
+s=s.replace('<b>{n}</b>',"<b className=\"winding-label\">{pairs.find(p=>p.terminals.includes(n))?.number??''}</b>")
+s=s.replace("● Ponta vermelha {red??'—'}","● Ponta vermelha").replace("● Ponta preta {black??'—'}","● Ponta preta")
+s=s.replace('Os números são etiquetas provisórias, não identificam os pares.','Os bornes estão sem identificação. Você deve numerar cada bobina encontrada.')
+s=s.replace("mode==='voltage'?'MODO TENSÃO':'CONTINUIDADE'","mode==='off'?'DESLIGADO':'CONTINUIDADE'")
+s=s.replace('[bip curto]','[bip contínuo]')
+start=s.index('<div className="selector">');end=s.index('<label className="sound">',start)
+s=s[:start]+'''<div className="selector"><button disabled={!safe} aria-pressed={mode==='continuity'} onClick={()=>{setMode(m=>m==='continuity'?'off':'continuity');}} aria-label="Modo continuidade">Ω / )))</button></div>'''+s[end:]
+s=s.replace("{pairs.map(p=><span key={p}>{p}</span>)}","{pairs.map(p=><span key={p.key}>Bobina {p.number} ✓</span>)}")
+s=s.replace('<button className="primary"', '''<label className="numbering">Identificar como bobina <select value={bobina} onChange={e=>setBobina(Number(e.target.value))}>{[1,2,3].map(n=><option key={n} value={n}>{n}</option>)}</select></label><button className="primary"''')
+s=s.replace("disabled={result!=='closed'||red===black}","disabled={result!=='closed'||red===black||red===null||black===null||tipsTouch}")
+s=s.replace('Registrar par medido','Identificar bobina')
+p.write_text(s,encoding='utf-8')
+tools=Path('src/ProbeTools.tsx');t=tools.read_text(encoding='utf-8').replace('`Solte no terminal ${drag.target}`',"'Solte no borne destacado'");tools.write_text(t,encoding='utf-8')
+css=Path('src/style.css');css.write_text(css.read_text(encoding='utf-8')+'\n.numbering{display:flex;align-items:center;gap:12px;margin:12px 0}.numbering select{padding:8px 14px;border:1px solid #4d7568;background:white}.winding-label:not(:empty){background:#f8f2ce;border-radius:50%;display:inline-block;min-width:20px;padding:2px}\n',encoding='utf-8')

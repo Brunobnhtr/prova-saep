@@ -1,0 +1,795 @@
+{
+  "version": 2.2,
+  "classifier_sha256": "766f43cc7fd9c7c5e3c1d774f747f45bbf143b795c2ed2d43fd89d0db87e68c6",
+  "catalogo_global_v2_2_sha256": "5b4ab9659218186a769963bc166e35f08063599babc6c41e1b13bb08373d6f5f",
+  "TOTAL_QUESTIONS": 9791,
+  "CLASSIFIED": 6481,
+  "UNCLASSIFIED": 3310,
+  "COVERAGE_PERCENT": 66.19,
+  "SEMANTIC_FAMILY_ASSIGNED": 7274,
+  "PRIMARY_CONCEPT_ASSIGNED": 7274,
+  "MODULE_ASSIGNMENTS": 6590,
+  "HIGH_INTERACTION_POTENTIAL": 468,
+  "CONFIDENCE_COUNTS": {
+    "UNCLASSIFIED": 3310,
+    "HIGH": 2936,
+    "LOW": 477,
+    "MEDIUM": 3068
+  },
+  "INSPECTION_PRIORITY_COUNTS": {
+    "P1": 4094,
+    "P3": 2639,
+    "P0": 865,
+    "P2": 2193
+  },
+  "INTERACTION_CANDIDATE_COUNTS": {
+    "LOW": 3426,
+    "NONE": 1674,
+    "MEDIUM": 4223,
+    "HIGH": 468
+  },
+  "VISUAL_KIND_COUNTS": {
+    "SCHEMATIC": 1560,
+    "null": 7126,
+    "DIAGRAM": 702,
+    "GRAPH": 183,
+    "TABLE": 136,
+    "SYMBOL": 77,
+    "INSTRUMENT_DISPLAY": 4,
+    "PHOTO": 3
+  },
+  "VISUAL_CLASSIFICATION_REQUIRED_COUNT": 2178,
+  "IMAGE_ESSENTIAL_COUNT": 1921,
+  "CROSS_MODULE_COUNT": 21,
+  "UNCLASSIFIED_REASONS": {
+    "MISSING_MODULE": 732,
+    "CLASSIFIER_GAP": 1718,
+    "IMAGE_REQUIRED": 489,
+    "INSUFFICIENT_CONTEXT": 312,
+    "OUT_OF_CURRICULUM": 38,
+    "CROSS_MODULE": 21
+  },
+  "V1_COMPARISON": {
+    "PRIMARY_MODULE_CHANGED": 4915,
+    "LEFT_UNCLASSIFIED": 115,
+    "BECAME_UNCLASSIFIED": 2547
+  },
+  "V2_COMPARISON": {
+    "PRIMARY_MODULE_CHANGED_FROM_V2": 1374,
+    "RECOVERED_FROM_V2_UNCLASSIFIED": 476
+  },
+  "V2_1_COMPARISON": {
+    "PRIMARY_MODULE_CHANGED_FROM_V2_1": 360,
+    "RECOVERED_FROM_V2_1_UNCLASSIFIED": 90,
+    "BECAME_UNCLASSIFIED_FROM_V2_1": 71
+  },
+  "CATALOG_INTEGRITY": {
+    "catalogo_global_v1_sha256": "84172aadab440c65532b75bc8caf21ea8e5a5d844d6173cfd90e87bb22ed49a6",
+    "catalogo_global_v2_sha256": "409f9cb00c18c95359c9b30ff62ae96be0ce45267adb5b53ebe7453453d03ac6",
+    "catalogo_global_v2_1_sha256": "c5224832005fbe975ec85a58dc0443767a964d94bc967f15420e949de37d12ac",
+    "catalogo_global_v2_2_sha256": "5b4ab9659218186a769963bc166e35f08063599babc6c41e1b13bb08373d6f5f",
+    "v1_unchanged": true
+  },
+  "ANSWERS_UNRESOLVED": true,
+  "MODULE_QUEUES": [
+    {
+      "module": "S01",
+      "title": "Desenergização e reenergização",
+      "primary_count": 72,
+      "secondary_count": 1,
+      "confidence_counts": {
+        "HIGH": 64,
+        "MEDIUM": 7,
+        "LOW": 1
+      },
+      "interaction_candidate_counts": {
+        "MEDIUM": 36,
+        "LOW": 35,
+        "HIGH": 1
+      },
+      "inspection_priority_counts": {
+        "P0": 24,
+        "P1": 8,
+        "P3": 40
+      }
+    },
+    {
+      "module": "S02",
+      "title": "Qualificação, EPI, altura e zonas de risco",
+      "primary_count": 210,
+      "secondary_count": 0,
+      "confidence_counts": {
+        "HIGH": 118,
+        "MEDIUM": 90,
+        "LOW": 2
+      },
+      "interaction_candidate_counts": {
+        "LOW": 130,
+        "MEDIUM": 80
+      },
+      "inspection_priority_counts": {
+        "P0": 88,
+        "P2": 42,
+        "P3": 79,
+        "P1": 1
+      }
+    },
+    {
+      "module": "F01",
+      "title": "Unidades e grandezas CC/CA",
+      "primary_count": 488,
+      "secondary_count": 0,
+      "confidence_counts": {
+        "MEDIUM": 428,
+        "HIGH": 40,
+        "LOW": 20
+      },
+      "interaction_candidate_counts": {
+        "LOW": 259,
+        "MEDIUM": 226,
+        "HIGH": 3
+      },
+      "inspection_priority_counts": {
+        "P2": 333,
+        "P3": 40,
+        "P0": 26,
+        "P1": 89
+      }
+    },
+    {
+      "module": "M01",
+      "title": "Multímetro, alicate e seleção de escala",
+      "primary_count": 365,
+      "secondary_count": 27,
+      "confidence_counts": {
+        "HIGH": 153,
+        "MEDIUM": 186,
+        "LOW": 26
+      },
+      "interaction_candidate_counts": {
+        "LOW": 160,
+        "MEDIUM": 178,
+        "HIGH": 27
+      },
+      "inspection_priority_counts": {
+        "P3": 142,
+        "P1": 114,
+        "P2": 78,
+        "P0": 31
+      }
+    },
+    {
+      "module": "F02",
+      "title": "Lei de Ohm e associação de resistores",
+      "primary_count": 646,
+      "secondary_count": 0,
+      "confidence_counts": {
+        "HIGH": 194,
+        "MEDIUM": 424,
+        "LOW": 28
+      },
+      "interaction_candidate_counts": {
+        "HIGH": 124,
+        "MEDIUM": 377,
+        "LOW": 145
+      },
+      "inspection_priority_counts": {
+        "P1": 252,
+        "P3": 192,
+        "P2": 177,
+        "P0": 25
+      }
+    },
+    {
+      "module": "F03",
+      "title": "Frequência, formas de onda e reatância",
+      "primary_count": 566,
+      "secondary_count": 0,
+      "confidence_counts": {
+        "MEDIUM": 224,
+        "LOW": 95,
+        "HIGH": 247
+      },
+      "interaction_candidate_counts": {
+        "LOW": 219,
+        "MEDIUM": 295,
+        "HIGH": 52
+      },
+      "inspection_priority_counts": {
+        "P2": 91,
+        "P1": 203,
+        "P3": 242,
+        "P0": 30
+      }
+    },
+    {
+      "module": "F04",
+      "title": "Potência, energia e fator de potência",
+      "primary_count": 598,
+      "secondary_count": 4,
+      "confidence_counts": {
+        "HIGH": 325,
+        "MEDIUM": 262,
+        "LOW": 11
+      },
+      "interaction_candidate_counts": {
+        "MEDIUM": 307,
+        "LOW": 246,
+        "HIGH": 45
+      },
+      "inspection_priority_counts": {
+        "P3": 311,
+        "P2": 179,
+        "P1": 86,
+        "P0": 22
+      }
+    },
+    {
+      "module": "I03",
+      "title": "Simbologia, unifilar, multifilar e CAD",
+      "primary_count": 185,
+      "secondary_count": 0,
+      "confidence_counts": {
+        "LOW": 20,
+        "MEDIUM": 144,
+        "HIGH": 21
+      },
+      "interaction_candidate_counts": {
+        "LOW": 95,
+        "MEDIUM": 88,
+        "HIGH": 2
+      },
+      "inspection_priority_counts": {
+        "P0": 39,
+        "P1": 79,
+        "P2": 49,
+        "P3": 18
+      }
+    },
+    {
+      "module": "R01",
+      "title": "Estruturas, postes, alimentadores e topologias",
+      "primary_count": 56,
+      "secondary_count": 0,
+      "confidence_counts": {
+        "HIGH": 48,
+        "MEDIUM": 7,
+        "LOW": 1
+      },
+      "interaction_candidate_counts": {
+        "LOW": 34,
+        "MEDIUM": 22
+      },
+      "inspection_priority_counts": {
+        "P3": 44,
+        "P0": 4,
+        "P1": 8
+      }
+    },
+    {
+      "module": "H01",
+      "title": "Válvulas, atuadores e simbologia",
+      "primary_count": 19,
+      "secondary_count": 0,
+      "confidence_counts": {
+        "HIGH": 15,
+        "MEDIUM": 4
+      },
+      "interaction_candidate_counts": {
+        "LOW": 7,
+        "MEDIUM": 12
+      },
+      "inspection_priority_counts": {
+        "P3": 15,
+        "P1": 4
+      }
+    },
+    {
+      "module": "A01",
+      "title": "Booleanos, binário, tabela verdade e Ladder",
+      "primary_count": 241,
+      "secondary_count": 0,
+      "confidence_counts": {
+        "HIGH": 85,
+        "MEDIUM": 145,
+        "LOW": 11
+      },
+      "interaction_candidate_counts": {
+        "LOW": 86,
+        "MEDIUM": 150,
+        "HIGH": 5
+      },
+      "inspection_priority_counts": {
+        "P3": 85,
+        "P2": 65,
+        "P1": 78,
+        "P0": 13
+      }
+    },
+    {
+      "module": "E01",
+      "title": "Placa, potência, corrente e velocidade",
+      "primary_count": 208,
+      "secondary_count": 0,
+      "confidence_counts": {
+        "HIGH": 168,
+        "MEDIUM": 33,
+        "LOW": 7
+      },
+      "interaction_candidate_counts": {
+        "LOW": 78,
+        "MEDIUM": 126,
+        "HIGH": 4
+      },
+      "inspection_priority_counts": {
+        "P3": 166,
+        "P1": 35,
+        "P0": 7
+      }
+    },
+    {
+      "module": "T01",
+      "title": "Relação de transformação e proteções",
+      "primary_count": 293,
+      "secondary_count": 0,
+      "confidence_counts": {
+        "MEDIUM": 171,
+        "HIGH": 103,
+        "LOW": 19
+      },
+      "interaction_candidate_counts": {
+        "LOW": 118,
+        "MEDIUM": 143,
+        "HIGH": 32
+      },
+      "inspection_priority_counts": {
+        "P2": 141,
+        "P3": 96,
+        "P1": 44,
+        "P0": 12
+      }
+    },
+    {
+      "module": "T02",
+      "title": "TC, TP, relés e medição indireta",
+      "primary_count": 57,
+      "secondary_count": 0,
+      "confidence_counts": {
+        "HIGH": 47,
+        "MEDIUM": 9,
+        "LOW": 1
+      },
+      "interaction_candidate_counts": {
+        "LOW": 21,
+        "MEDIUM": 31,
+        "HIGH": 5
+      },
+      "inspection_priority_counts": {
+        "P3": 47,
+        "P0": 2,
+        "P1": 8
+      }
+    },
+    {
+      "module": "R02",
+      "title": "Equipamentos, barramentos e operação",
+      "primary_count": 46,
+      "secondary_count": 0,
+      "confidence_counts": {
+        "HIGH": 34,
+        "MEDIUM": 11,
+        "LOW": 1
+      },
+      "interaction_candidate_counts": {
+        "LOW": 27,
+        "MEDIUM": 18,
+        "HIGH": 1
+      },
+      "inspection_priority_counts": {
+        "P3": 29,
+        "P0": 5,
+        "P1": 12
+      }
+    },
+    {
+      "module": "I01",
+      "title": "Tomadas, iluminação e previsão de cargas",
+      "primary_count": 426,
+      "secondary_count": 9,
+      "confidence_counts": {
+        "HIGH": 171,
+        "MEDIUM": 251,
+        "LOW": 4
+      },
+      "interaction_candidate_counts": {
+        "LOW": 306,
+        "MEDIUM": 115,
+        "HIGH": 5
+      },
+      "inspection_priority_counts": {
+        "P0": 128,
+        "P2": 201,
+        "P3": 65,
+        "P1": 32
+      }
+    },
+    {
+      "module": "P01",
+      "title": "Condutores, instalação e fatores de correção",
+      "primary_count": 226,
+      "secondary_count": 0,
+      "confidence_counts": {
+        "MEDIUM": 107,
+        "HIGH": 111,
+        "LOW": 8
+      },
+      "interaction_candidate_counts": {
+        "LOW": 117,
+        "MEDIUM": 90,
+        "HIGH": 19
+      },
+      "inspection_priority_counts": {
+        "P2": 68,
+        "P3": 95,
+        "P1": 35,
+        "P0": 28
+      }
+    },
+    {
+      "module": "P02",
+      "title": "Disjuntores, fusíveis, curvas e curto-circuito",
+      "primary_count": 474,
+      "secondary_count": 0,
+      "confidence_counts": {
+        "HIGH": 287,
+        "MEDIUM": 172,
+        "LOW": 15
+      },
+      "interaction_candidate_counts": {
+        "LOW": 259,
+        "MEDIUM": 204,
+        "HIGH": 11
+      },
+      "inspection_priority_counts": {
+        "P3": 270,
+        "P2": 126,
+        "P1": 47,
+        "P0": 31
+      }
+    },
+    {
+      "module": "I02",
+      "title": "Interruptores, sensores e relé fotocélula",
+      "primary_count": 135,
+      "secondary_count": 0,
+      "confidence_counts": {
+        "MEDIUM": 81,
+        "HIGH": 29,
+        "LOW": 25
+      },
+      "interaction_candidate_counts": {
+        "LOW": 71,
+        "MEDIUM": 62,
+        "HIGH": 2
+      },
+      "inspection_priority_counts": {
+        "P2": 56,
+        "P3": 28,
+        "P1": 37,
+        "P0": 14
+      }
+    },
+    {
+      "module": "P03",
+      "title": "DR, IDR, DDR e coordenação de funções",
+      "primary_count": 69,
+      "secondary_count": 0,
+      "confidence_counts": {
+        "HIGH": 61,
+        "LOW": 6,
+        "MEDIUM": 2
+      },
+      "interaction_candidate_counts": {
+        "LOW": 43,
+        "MEDIUM": 25,
+        "HIGH": 1
+      },
+      "inspection_priority_counts": {
+        "P3": 50,
+        "P0": 15,
+        "P1": 4
+      }
+    },
+    {
+      "module": "M02",
+      "title": "Continuidade e resistência de isolamento",
+      "primary_count": 58,
+      "secondary_count": 0,
+      "confidence_counts": {
+        "HIGH": 53,
+        "LOW": 5
+      },
+      "interaction_candidate_counts": {
+        "LOW": 40,
+        "MEDIUM": 18
+      },
+      "inspection_priority_counts": {
+        "P3": 48,
+        "P1": 3,
+        "P0": 7
+      }
+    },
+    {
+      "module": "S03",
+      "title": "Classificação de tensão e documentação",
+      "primary_count": 26,
+      "secondary_count": 0,
+      "confidence_counts": {
+        "HIGH": 26
+      },
+      "interaction_candidate_counts": {
+        "LOW": 10,
+        "MEDIUM": 16
+      },
+      "inspection_priority_counts": {
+        "P3": 8,
+        "P0": 18
+      }
+    },
+    {
+      "module": "V01",
+      "title": "Arranjos, potência e eficiência",
+      "primary_count": 11,
+      "secondary_count": 0,
+      "confidence_counts": {
+        "HIGH": 7,
+        "MEDIUM": 4
+      },
+      "interaction_candidate_counts": {
+        "MEDIUM": 6,
+        "LOW": 5
+      },
+      "inspection_priority_counts": {
+        "P3": 6,
+        "P2": 4,
+        "P0": 1
+      }
+    },
+    {
+      "module": "D01",
+      "title": "Preventiva, preditiva, corretiva e inspeções",
+      "primary_count": 79,
+      "secondary_count": 0,
+      "confidence_counts": {
+        "LOW": 6,
+        "HIGH": 69,
+        "MEDIUM": 4
+      },
+      "interaction_candidate_counts": {
+        "MEDIUM": 17,
+        "LOW": 62
+      },
+      "inspection_priority_counts": {
+        "P0": 1,
+        "P3": 69,
+        "P2": 4,
+        "P1": 5
+      }
+    },
+    {
+      "module": "D02",
+      "title": "Termografia, conexões e localização de falhas",
+      "primary_count": 11,
+      "secondary_count": 0,
+      "confidence_counts": {
+        "MEDIUM": 2,
+        "HIGH": 9
+      },
+      "interaction_candidate_counts": {
+        "MEDIUM": 11
+      },
+      "inspection_priority_counts": {
+        "P0": 2,
+        "P3": 8,
+        "P2": 1
+      }
+    },
+    {
+      "module": "E02",
+      "title": "Bobinas, fechamentos e ligação monofásica/trifásica",
+      "primary_count": 101,
+      "secondary_count": 0,
+      "confidence_counts": {
+        "HIGH": 85,
+        "MEDIUM": 13,
+        "LOW": 3
+      },
+      "interaction_candidate_counts": {
+        "MEDIUM": 69,
+        "LOW": 24,
+        "HIGH": 8
+      },
+      "inspection_priority_counts": {
+        "P3": 79,
+        "P1": 13,
+        "P0": 9
+      }
+    },
+    {
+      "module": "E03",
+      "title": "Direta, reversão, selo e intertravamento",
+      "primary_count": 160,
+      "secondary_count": 21,
+      "confidence_counts": {
+        "HIGH": 50,
+        "MEDIUM": 99,
+        "LOW": 11
+      },
+      "interaction_candidate_counts": {
+        "LOW": 88,
+        "MEDIUM": 65,
+        "HIGH": 7
+      },
+      "inspection_priority_counts": {
+        "P3": 48,
+        "P1": 41,
+        "P0": 13,
+        "P2": 58
+      }
+    },
+    {
+      "module": "H02",
+      "title": "Sequências, selo e diagnóstico eletropneumático",
+      "primary_count": 4,
+      "secondary_count": 0,
+      "confidence_counts": {
+        "HIGH": 1,
+        "MEDIUM": 3
+      },
+      "interaction_candidate_counts": {
+        "LOW": 2,
+        "HIGH": 2
+      },
+      "inspection_priority_counts": {
+        "P3": 1,
+        "P1": 3
+      }
+    },
+    {
+      "module": "A02",
+      "title": "Entradas, saídas e controle sequencial",
+      "primary_count": 137,
+      "secondary_count": 0,
+      "confidence_counts": {
+        "HIGH": 97,
+        "MEDIUM": 36,
+        "LOW": 4
+      },
+      "interaction_candidate_counts": {
+        "LOW": 76,
+        "MEDIUM": 57,
+        "HIGH": 4
+      },
+      "inspection_priority_counts": {
+        "P3": 87,
+        "P1": 27,
+        "P0": 14,
+        "P2": 9
+      }
+    },
+    {
+      "module": "E06",
+      "title": "Inversor, soft-starter e parametrização",
+      "primary_count": 48,
+      "secondary_count": 21,
+      "confidence_counts": {
+        "HIGH": 43,
+        "MEDIUM": 5
+      },
+      "interaction_candidate_counts": {
+        "LOW": 31,
+        "MEDIUM": 17
+      },
+      "inspection_priority_counts": {
+        "P3": 35,
+        "P0": 8,
+        "P1": 5
+      }
+    },
+    {
+      "module": "E04",
+      "title": "Estrela-triângulo e compensadora",
+      "primary_count": 48,
+      "secondary_count": 21,
+      "confidence_counts": {
+        "MEDIUM": 10,
+        "HIGH": 36,
+        "LOW": 2
+      },
+      "interaction_candidate_counts": {
+        "HIGH": 1,
+        "MEDIUM": 23,
+        "LOW": 24
+      },
+      "inspection_priority_counts": {
+        "P1": 10,
+        "P0": 4,
+        "P3": 34
+      }
+    },
+    {
+      "module": "A03",
+      "title": "Sensores de presença, alarme e nível",
+      "primary_count": 12,
+      "secondary_count": 0,
+      "confidence_counts": {
+        "HIGH": 12
+      },
+      "interaction_candidate_counts": {
+        "LOW": 8,
+        "MEDIUM": 4
+      },
+      "inspection_priority_counts": {
+        "P3": 12
+      }
+    },
+    {
+      "module": "E05",
+      "title": "Dahlander e duas velocidades",
+      "primary_count": 3,
+      "secondary_count": 0,
+      "confidence_counts": {
+        "HIGH": 3
+      },
+      "interaction_candidate_counts": {
+        "MEDIUM": 2,
+        "LOW": 1
+      },
+      "inspection_priority_counts": {
+        "P3": 3
+      }
+    },
+    {
+      "module": "P04",
+      "title": "Esquemas de aterramento e equipotencialização",
+      "primary_count": 322,
+      "secondary_count": 5,
+      "confidence_counts": {
+        "HIGH": 52,
+        "LOW": 145,
+        "MEDIUM": 125
+      },
+      "interaction_candidate_counts": {
+        "LOW": 220,
+        "MEDIUM": 97,
+        "HIGH": 5
+      },
+      "inspection_priority_counts": {
+        "P0": 39,
+        "P3": 36,
+        "P2": 206,
+        "P1": 41
+      }
+    },
+    {
+      "module": "P05",
+      "title": "Captação, descida, aterramento e DPS",
+      "primary_count": 81,
+      "secondary_count": 0,
+      "confidence_counts": {
+        "HIGH": 72,
+        "MEDIUM": 9
+      },
+      "interaction_candidate_counts": {
+        "MEDIUM": 32,
+        "LOW": 47,
+        "HIGH": 2
+      },
+      "inspection_priority_counts": {
+        "P0": 16,
+        "P3": 58,
+        "P1": 7
+      }
+    }
+  ]
+}

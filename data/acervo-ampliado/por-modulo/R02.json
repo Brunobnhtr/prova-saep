@@ -1,0 +1,3306 @@
+{
+  "module": "R02",
+  "title": "Equipamentos, barramentos e operação",
+  "total_candidates": 319,
+  "primary_assignments": 129,
+  "high_relevance": 40,
+  "medium_relevance": 95,
+  "low_relevance": 184,
+  "outside_theme": {
+    "count": null,
+    "status": "NOT_SEMANTICALLY_REVIEWED"
+  },
+  "image_dependent": 69,
+  "possible_duplicates": 0,
+  "possible_semantic_variants": 0,
+  "priority_ids": {
+    "HIGH": [
+      "Q4083874",
+      "Q3851447",
+      "Q3851987",
+      "Q3452145",
+      "Q3396410",
+      "Q3008710",
+      "Q2737527",
+      "Q2744353",
+      "Q2773340",
+      "Q2802803",
+      "Q2385433",
+      "Q2217531",
+      "Q2217532",
+      "Q2217533",
+      "Q2217548",
+      "Q2081100",
+      "Q2157566",
+      "Q1808433",
+      "Q1088668",
+      "Q1217263",
+      "Q1037611",
+      "Q1037613",
+      "Q879246",
+      "Q879240",
+      "Q879242",
+      "Q879243",
+      "Q772178",
+      "Q596741",
+      "Q514338",
+      "Q490137",
+      "Q431733",
+      "Q432401",
+      "Q432420",
+      "Q425011",
+      "Q431076",
+      "Q263719",
+      "Q342458",
+      "Q342462",
+      "Q173569",
+      "Q173545"
+    ],
+    "MEDIUM": [
+      "Q4159527",
+      "Q4218865",
+      "Q4083875",
+      "Q4083876",
+      "Q4128113",
+      "Q4128312",
+      "Q4051350",
+      "Q4051355",
+      "Q4083873",
+      "Q4006974",
+      "Q4007006",
+      "Q4025517",
+      "Q3887496",
+      "Q3801829",
+      "Q3834232",
+      "Q3846963",
+      "Q3851438",
+      "Q3675306",
+      "Q3577011",
+      "Q3577021",
+      "Q3449173",
+      "Q3266187",
+      "Q3327343",
+      "Q3200215",
+      "Q3200217",
+      "Q3200223",
+      "Q3200232",
+      "Q3264292",
+      "Q3125841",
+      "Q3125851",
+      "Q3152155",
+      "Q3008702",
+      "Q3008713",
+      "Q2927902",
+      "Q2955771",
+      "Q2737525",
+      "Q2737528",
+      "Q2773350",
+      "Q2729179",
+      "Q2376899",
+      "Q2319948",
+      "Q2320605",
+      "Q2217375",
+      "Q2217543",
+      "Q2220346",
+      "Q1768658",
+      "Q1768670",
+      "Q1106118",
+      "Q1179323",
+      "Q1217254",
+      "Q1036255",
+      "Q1049999",
+      "Q1050001",
+      "Q1011015",
+      "Q1023730",
+      "Q836921",
+      "Q839177",
+      "Q879230",
+      "Q879241",
+      "Q810806",
+      "Q811514",
+      "Q823496",
+      "Q825986",
+      "Q786455",
+      "Q797723",
+      "Q751893",
+      "Q770895",
+      "Q718790",
+      "Q596728",
+      "Q596729",
+      "Q596730",
+      "Q596731",
+      "Q596740",
+      "Q596742",
+      "Q596743",
+      "Q596764",
+      "Q529411",
+      "Q460311",
+      "Q460341",
+      "Q461672",
+      "Q490235",
+      "Q431793",
+      "Q432406",
+      "Q452615",
+      "Q453968",
+      "Q453997",
+      "Q342452",
+      "Q394763",
+      "Q394769",
+      "Q237308",
+      "Q263035",
+      "Q187146",
+      "Q189054",
+      "Q173572",
+      "Q184179"
+    ],
+    "LOW": [
+      "Q4186880",
+      "Q4208614",
+      "Q4044456",
+      "Q4083363",
+      "Q4006481",
+      "Q3915217",
+      "Q3915218",
+      "Q3966220",
+      "Q3977391",
+      "Q3909902",
+      "Q3801822",
+      "Q3803277",
+      "Q3803285",
+      "Q3803291",
+      "Q3742081",
+      "Q3742089",
+      "Q3742093",
+      "Q3467156",
+      "Q3509136",
+      "Q3293308",
+      "Q3200208",
+      "Q3200221",
+      "Q3138858",
+      "Q3138958",
+      "Q2992836",
+      "Q3021361",
+      "Q3025733",
+      "Q3076032",
+      "Q2894107",
+      "Q2767024",
+      "Q2772024",
+      "Q2523988",
+      "Q2338805",
+      "Q2376888",
+      "Q2320607",
+      "Q2252822",
+      "Q2216699",
+      "Q2217131",
+      "Q2217355",
+      "Q2217362",
+      "Q2157528",
+      "Q2158425",
+      "Q2178402",
+      "Q1888092",
+      "Q1916796",
+      "Q1916798",
+      "Q1931379",
+      "Q1931381",
+      "Q1931385",
+      "Q1931386",
+      "Q1931390",
+      "Q1931401",
+      "Q1931405",
+      "Q1967496",
+      "Q2047328",
+      "Q1766547",
+      "Q1808430",
+      "Q1808439",
+      "Q1830346",
+      "Q1694561",
+      "Q1694562",
+      "Q1702543",
+      "Q1704597",
+      "Q1755397",
+      "Q1755411",
+      "Q1289619",
+      "Q1106119",
+      "Q879247",
+      "Q975298",
+      "Q980902",
+      "Q836923",
+      "Q837392",
+      "Q837393",
+      "Q837398",
+      "Q839166",
+      "Q843668",
+      "Q843669",
+      "Q843670",
+      "Q843689",
+      "Q843692",
+      "Q850491",
+      "Q855024",
+      "Q855025",
+      "Q855026",
+      "Q879229",
+      "Q879231",
+      "Q879244",
+      "Q810800",
+      "Q811516",
+      "Q823488",
+      "Q823502",
+      "Q823509",
+      "Q776982",
+      "Q795343",
+      "Q747664",
+      "Q747669",
+      "Q747671",
+      "Q747674",
+      "Q750419",
+      "Q750420",
+      "Q750425",
+      "Q751081",
+      "Q751084",
+      "Q751894",
+      "Q751897",
+      "Q759385",
+      "Q723044",
+      "Q723047",
+      "Q723055",
+      "Q725786",
+      "Q727132",
+      "Q734067",
+      "Q734068",
+      "Q738627",
+      "Q741952",
+      "Q743387",
+      "Q606986",
+      "Q606989",
+      "Q606990",
+      "Q606991",
+      "Q606995",
+      "Q654057",
+      "Q707684",
+      "Q707688",
+      "Q707696",
+      "Q710266",
+      "Q529403",
+      "Q533398",
+      "Q564459",
+      "Q509716",
+      "Q522934",
+      "Q460305",
+      "Q460308",
+      "Q460309",
+      "Q460331",
+      "Q461602",
+      "Q490125",
+      "Q490142",
+      "Q490243",
+      "Q495322",
+      "Q432419",
+      "Q432425",
+      "Q432426",
+      "Q453954",
+      "Q453960",
+      "Q454850",
+      "Q424985",
+      "Q425019",
+      "Q425027",
+      "Q431068",
+      "Q431069",
+      "Q431070",
+      "Q431309",
+      "Q408312",
+      "Q411993",
+      "Q411996",
+      "Q412000",
+      "Q412007",
+      "Q412013",
+      "Q278080",
+      "Q279535",
+      "Q342457",
+      "Q342471",
+      "Q394776",
+      "Q234021",
+      "Q235668",
+      "Q235670",
+      "Q238961",
+      "Q241772",
+      "Q248523",
+      "Q248524",
+      "Q248528",
+      "Q186311",
+      "Q186546",
+      "Q195600",
+      "Q182367",
+      "Q182637",
+      "Q182643",
+      "Q182645",
+      "Q108141",
+      "Q108149",
+      "Q108158",
+      "Q108159",
+      "Q108160"
+    ]
+  },
+  "candidate_details": [
+    {
+      "source_id": "Q4159527",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4186880",
+      "subtopics": [
+        {
+          "id": "13.3",
+          "title": "Redes de distribuição aérea e subterrânea",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.3-redes-de-distribuicao-aerea-e-subterranea.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4208614",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4218865",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4083874",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4083875",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4083876",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4128113",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4128312",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4044456",
+      "subtopics": [
+        {
+          "id": "13.3",
+          "title": "Redes de distribuição aérea e subterrânea",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.3-redes-de-distribuicao-aerea-e-subterranea.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4051350",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4051355",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4083363",
+      "subtopics": [
+        {
+          "id": "13.3",
+          "title": "Redes de distribuição aérea e subterrânea",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.3-redes-de-distribuicao-aerea-e-subterranea.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4083873",
+      "subtopics": [],
+      "family": "MULTIMETER_CURRENT",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4006481",
+      "subtopics": [
+        {
+          "id": "13.3",
+          "title": "Redes de distribuição aérea e subterrânea",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.3-redes-de-distribuicao-aerea-e-subterranea.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4006974",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4007006",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4025517",
+      "subtopics": [],
+      "family": "MULTIMETER_CURRENT",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3915217",
+      "subtopics": [
+        {
+          "id": "13.3",
+          "title": "Redes de distribuição aérea e subterrânea",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.3-redes-de-distribuicao-aerea-e-subterranea.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3915218",
+      "subtopics": [
+        {
+          "id": "13.3",
+          "title": "Redes de distribuição aérea e subterrânea",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.3-redes-de-distribuicao-aerea-e-subterranea.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3966220",
+      "subtopics": [
+        {
+          "id": "13.3",
+          "title": "Redes de distribuição aérea e subterrânea",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.3-redes-de-distribuicao-aerea-e-subterranea.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3977391",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3887496",
+      "subtopics": [],
+      "family": "THREE_PHASE_POWER",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3909902",
+      "subtopics": [
+        {
+          "id": "13.3",
+          "title": "Redes de distribuição aérea e subterrânea",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.3-redes-de-distribuicao-aerea-e-subterranea.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3801822",
+      "subtopics": [
+        {
+          "id": "13.4",
+          "title": "Proteção de sistemas e relés",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.4-protecao-de-sistemas-e-reles.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3801829",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3803277",
+      "subtopics": [
+        {
+          "id": "13.3",
+          "title": "Redes de distribuição aérea e subterrânea",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.3-redes-de-distribuicao-aerea-e-subterranea.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3803285",
+      "subtopics": [
+        {
+          "id": "13.3",
+          "title": "Redes de distribuição aérea e subterrânea",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.3-redes-de-distribuicao-aerea-e-subterranea.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3803291",
+      "subtopics": [
+        {
+          "id": "13.3",
+          "title": "Redes de distribuição aérea e subterrânea",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.3-redes-de-distribuicao-aerea-e-subterranea.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3834232",
+      "subtopics": [],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3846963",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3851438",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3851447",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3851987",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3675306",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3742081",
+      "subtopics": [
+        {
+          "id": "13.3",
+          "title": "Redes de distribuição aérea e subterrânea",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.3-redes-de-distribuicao-aerea-e-subterranea.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3742089",
+      "subtopics": [
+        {
+          "id": "13.3",
+          "title": "Redes de distribuição aérea e subterrânea",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.3-redes-de-distribuicao-aerea-e-subterranea.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3742093",
+      "subtopics": [
+        {
+          "id": "13.3",
+          "title": "Redes de distribuição aérea e subterrânea",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.3-redes-de-distribuicao-aerea-e-subterranea.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3577011",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3577021",
+      "subtopics": [],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3467156",
+      "subtopics": [
+        {
+          "id": "13.3",
+          "title": "Redes de distribuição aérea e subterrânea",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.3-redes-de-distribuicao-aerea-e-subterranea.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3509136",
+      "subtopics": [
+        {
+          "id": "13.3",
+          "title": "Redes de distribuição aérea e subterrânea",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.3-redes-de-distribuicao-aerea-e-subterranea.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3449173",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3452145",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3266187",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3293308",
+      "subtopics": [
+        {
+          "id": "13.3",
+          "title": "Redes de distribuição aérea e subterrânea",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.3-redes-de-distribuicao-aerea-e-subterranea.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3327343",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3396410",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3200208",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3200215",
+      "subtopics": [],
+      "family": "CONTINUITY_TEST",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3200217",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3200221",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3200223",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3200232",
+      "subtopics": [],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3264292",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3125841",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3125851",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3138858",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3138958",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3152155",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2992836",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3008702",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3008710",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3008713",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3021361",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3025733",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3076032",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2894107",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2927902",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2955771",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2737525",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2737527",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2737528",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2744353",
+      "subtopics": [
+        {
+          "id": "13.3",
+          "title": "Redes de distribuição aérea e subterrânea",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.3-redes-de-distribuicao-aerea-e-subterranea.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2767024",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2772024",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2773340",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2773350",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2802803",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2523988",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2729179",
+      "subtopics": [],
+      "family": "PARALLEL_EQUIVALENT_RESISTANCE",
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2338805",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2376888",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2376899",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2385433",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2319948",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2320605",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2320607",
+      "subtopics": [],
+      "family": "SERIES_EQUIVALENT_RESISTANCE",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2252822",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2216699",
+      "subtopics": [
+        {
+          "id": "13.4",
+          "title": "Proteção de sistemas e relés",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.4-protecao-de-sistemas-e-reles.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2217131",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2217355",
+      "subtopics": [
+        {
+          "id": "13.3",
+          "title": "Redes de distribuição aérea e subterrânea",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.3-redes-de-distribuicao-aerea-e-subterranea.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2217362",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2217375",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2217531",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2217532",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2217533",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2217543",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2217548",
+      "subtopics": [
+        {
+          "id": "13.3",
+          "title": "Redes de distribuição aérea e subterrânea",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.3-redes-de-distribuicao-aerea-e-subterranea.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2220346",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2081100",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2157528",
+      "subtopics": [
+        {
+          "id": "13.4",
+          "title": "Proteção de sistemas e relés",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.4-protecao-de-sistemas-e-reles.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2157566",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2158425",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2178402",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1888092",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1916796",
+      "subtopics": [],
+      "family": "SERIES_EQUIVALENT_RESISTANCE",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1916798",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1931379",
+      "subtopics": [
+        {
+          "id": "13.3",
+          "title": "Redes de distribuição aérea e subterrânea",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.3-redes-de-distribuicao-aerea-e-subterranea.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1931381",
+      "subtopics": [
+        {
+          "id": "13.3",
+          "title": "Redes de distribuição aérea e subterrânea",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.3-redes-de-distribuicao-aerea-e-subterranea.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1931385",
+      "subtopics": [
+        {
+          "id": "13.3",
+          "title": "Redes de distribuição aérea e subterrânea",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.3-redes-de-distribuicao-aerea-e-subterranea.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1931386",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1931390",
+      "subtopics": [
+        {
+          "id": "13.3",
+          "title": "Redes de distribuição aérea e subterrânea",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.3-redes-de-distribuicao-aerea-e-subterranea.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1931401",
+      "subtopics": [
+        {
+          "id": "13.3",
+          "title": "Redes de distribuição aérea e subterrânea",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.3-redes-de-distribuicao-aerea-e-subterranea.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1931405",
+      "subtopics": [
+        {
+          "id": "13.4",
+          "title": "Proteção de sistemas e relés",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.4-protecao-de-sistemas-e-reles.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1967496",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2047328",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1766547",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1768658",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1768670",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1808430",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1808433",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1808439",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1830346",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1694561",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1694562",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1702543",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1704597",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1755397",
+      "subtopics": [
+        {
+          "id": "13.3",
+          "title": "Redes de distribuição aérea e subterrânea",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.3-redes-de-distribuicao-aerea-e-subterranea.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1755411",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1289619",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1088668",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1106118",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1106119",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1179323",
+      "subtopics": [
+        {
+          "id": "13.3",
+          "title": "Redes de distribuição aérea e subterrânea",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.3-redes-de-distribuicao-aerea-e-subterranea.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1217254",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1217263",
+      "subtopics": [
+        {
+          "id": "13.3",
+          "title": "Redes de distribuição aérea e subterrânea",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.3-redes-de-distribuicao-aerea-e-subterranea.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1036255",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1037611",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "CONTACTOR_NO_NC",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1037613",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1049999",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1050001",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1011015",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1023730",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q879246",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q879247",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q975298",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q980902",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q836921",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q836923",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q837392",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q837393",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q837398",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q839166",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q839177",
+      "subtopics": [],
+      "family": "RLC_PHASOR",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q843668",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q843669",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q843670",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q843689",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q843692",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q850491",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q855024",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q855025",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q855026",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q879229",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q879230",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q879231",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q879240",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q879241",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q879242",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q879243",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q879244",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q810800",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q810806",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q811514",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q811516",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q823488",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q823496",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q823502",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q823509",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q825986",
+      "subtopics": [],
+      "family": "POWER_DC",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q772178",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q776982",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q786455",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q795343",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q797723",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q747664",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q747669",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q747671",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q747674",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q750419",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q750420",
+      "subtopics": [
+        {
+          "id": "13.3",
+          "title": "Redes de distribuição aérea e subterrânea",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.3-redes-de-distribuicao-aerea-e-subterranea.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q750425",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q751081",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q751084",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q751893",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q751894",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q751897",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q759385",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q770895",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q718790",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q723044",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q723047",
+      "subtopics": [],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q723055",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q725786",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q727132",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q734067",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q734068",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q738627",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q741952",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q743387",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q596728",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q596729",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q596730",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q596731",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q596740",
+      "subtopics": [],
+      "family": "THREE_PHASE_POWER",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q596741",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "THREE_PHASE_POWER",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q596742",
+      "subtopics": [],
+      "family": "THREE_PHASE_POWER",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q596743",
+      "subtopics": [],
+      "family": "THREE_PHASE_POWER",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q596764",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q606986",
+      "subtopics": [],
+      "family": "MULTIMETER_VOLTAGE",
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q606989",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q606990",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q606991",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q606995",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q654057",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q707684",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q707688",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q707696",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q710266",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q529403",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q529411",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q533398",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q564459",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q509716",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q514338",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q522934",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q460305",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q460308",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q460309",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q460311",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q460331",
+      "subtopics": [],
+      "family": "MOTOR_PROTECTION",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q460341",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q461602",
+      "subtopics": [
+        {
+          "id": "13.3",
+          "title": "Redes de distribuição aérea e subterrânea",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.3-redes-de-distribuicao-aerea-e-subterranea.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q461672",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q490125",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q490137",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q490142",
+      "subtopics": [
+        {
+          "id": "13.3",
+          "title": "Redes de distribuição aérea e subterrânea",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.3-redes-de-distribuicao-aerea-e-subterranea.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q490235",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q490243",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q495322",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q431733",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q431793",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q432401",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q432406",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q432419",
+      "subtopics": [
+        {
+          "id": "13.3",
+          "title": "Redes de distribuição aérea e subterrânea",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.3-redes-de-distribuicao-aerea-e-subterranea.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q432420",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q432425",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q432426",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q452615",
+      "subtopics": [],
+      "family": "MULTIMETER_CURRENT",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q453954",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q453960",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q453968",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q453997",
+      "subtopics": [],
+      "family": "MULTIMETER_CURRENT",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q454850",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q424985",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q425011",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q425019",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q425027",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q431068",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q431069",
+      "subtopics": [],
+      "family": "CONTACTOR_NO_NC",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q431070",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q431076",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q431309",
+      "subtopics": [
+        {
+          "id": "13.3",
+          "title": "Redes de distribuição aérea e subterrânea",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.3-redes-de-distribuicao-aerea-e-subterranea.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q408312",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q411993",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q411996",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q412000",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q412007",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q412013",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q263719",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q278080",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q279535",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q342452",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q342457",
+      "subtopics": [
+        {
+          "id": "13.3",
+          "title": "Redes de distribuição aérea e subterrânea",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.3-redes-de-distribuicao-aerea-e-subterranea.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q342458",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q342462",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q342471",
+      "subtopics": [
+        {
+          "id": "13.3",
+          "title": "Redes de distribuição aérea e subterrânea",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.3-redes-de-distribuicao-aerea-e-subterranea.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q394763",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q394769",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q394776",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q234021",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q235668",
+      "subtopics": [],
+      "family": "CONTACTOR_NO_NC",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q235670",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q237308",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q238961",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q241772",
+      "subtopics": [],
+      "family": "CONTACTOR_NO_NC",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q248523",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q248524",
+      "subtopics": [],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q248528",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q263035",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q186311",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q186546",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q187146",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q189054",
+      "subtopics": [],
+      "family": "CONTACTOR_NO_NC",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q195600",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q173569",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q173572",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q182367",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q182637",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q182643",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q182645",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q184179",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q108141",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q108149",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q108158",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q108159",
+      "subtopics": [],
+      "family": "OHMS_LAW_DIRECT_RESISTANCE",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q108160",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q173545",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    }
+  ]
+}

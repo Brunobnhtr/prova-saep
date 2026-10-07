@@ -1,0 +1,899 @@
+[
+  {
+    "code": "F01",
+    "title": "Circuitos CC/CA - Unidades e grandezas CC/CA",
+    "description": "",
+    "learning_objectives": [],
+    "subtopics": [],
+    "prerequisites": [],
+    "includes": [],
+    "excludes": [],
+    "overlaps_with": [],
+    "needs_editorial_definition": true,
+    "source_refs": [
+      {
+        "file": "data/fase2/mapa-conteudo.json",
+        "section": "subtemas",
+        "fields_supported": [
+          "code",
+          "title",
+          "prerequisites"
+        ]
+      }
+    ]
+  },
+  {
+    "code": "F02",
+    "title": "Circuitos CC/CA - Lei de Ohm e associação de resistores",
+    "description": "",
+    "learning_objectives": [],
+    "subtopics": [],
+    "prerequisites": [
+      "F01"
+    ],
+    "includes": [],
+    "excludes": [],
+    "overlaps_with": [],
+    "needs_editorial_definition": true,
+    "source_refs": [
+      {
+        "file": "data/fase2/mapa-conteudo.json",
+        "section": "subtemas",
+        "fields_supported": [
+          "code",
+          "title",
+          "prerequisites"
+        ]
+      }
+    ]
+  },
+  {
+    "code": "F03",
+    "title": "Circuitos CC/CA - Frequência, formas de onda e reatância",
+    "description": "",
+    "learning_objectives": [],
+    "subtopics": [],
+    "prerequisites": [
+      "F01",
+      "F02"
+    ],
+    "includes": [],
+    "excludes": [],
+    "overlaps_with": [],
+    "needs_editorial_definition": true,
+    "source_refs": [
+      {
+        "file": "data/fase2/mapa-conteudo.json",
+        "section": "subtemas",
+        "fields_supported": [
+          "code",
+          "title",
+          "prerequisites"
+        ]
+      }
+    ]
+  },
+  {
+    "code": "F04",
+    "title": "Energia e eficiência - Potência, energia e fator de potência",
+    "description": "",
+    "learning_objectives": [],
+    "subtopics": [],
+    "prerequisites": [
+      "F01",
+      "F02",
+      "F03"
+    ],
+    "includes": [],
+    "excludes": [],
+    "overlaps_with": [],
+    "needs_editorial_definition": true,
+    "source_refs": [
+      {
+        "file": "data/fase2/mapa-conteudo.json",
+        "section": "subtemas",
+        "fields_supported": [
+          "code",
+          "title",
+          "prerequisites"
+        ]
+      }
+    ]
+  },
+  {
+    "code": "M01",
+    "title": "Instrumentos - Multímetro, alicate e seleção de escala",
+    "description": "",
+    "learning_objectives": [],
+    "subtopics": [],
+    "prerequisites": [
+      "F01"
+    ],
+    "includes": [],
+    "excludes": [],
+    "overlaps_with": [],
+    "needs_editorial_definition": true,
+    "source_refs": [
+      {
+        "file": "data/fase2/mapa-conteudo.json",
+        "section": "subtemas",
+        "fields_supported": [
+          "code",
+          "title",
+          "prerequisites"
+        ]
+      }
+    ]
+  },
+  {
+    "code": "M02",
+    "title": "Instrumentos - Continuidade e resistência de isolamento",
+    "description": "",
+    "learning_objectives": [],
+    "subtopics": [],
+    "prerequisites": [
+      "M01",
+      "S01"
+    ],
+    "includes": [],
+    "excludes": [],
+    "overlaps_with": [],
+    "needs_editorial_definition": true,
+    "source_refs": [
+      {
+        "file": "data/fase2/mapa-conteudo.json",
+        "section": "subtemas",
+        "fields_supported": [
+          "code",
+          "title",
+          "prerequisites"
+        ]
+      }
+    ]
+  },
+  {
+    "code": "S01",
+    "title": "Segurança em eletricidade - Desenergização e reenergização",
+    "description": "",
+    "learning_objectives": [],
+    "subtopics": [],
+    "prerequisites": [],
+    "includes": [],
+    "excludes": [],
+    "overlaps_with": [],
+    "needs_editorial_definition": true,
+    "source_refs": [
+      {
+        "file": "data/fase2/mapa-conteudo.json",
+        "section": "subtemas",
+        "fields_supported": [
+          "code",
+          "title",
+          "prerequisites"
+        ]
+      }
+    ]
+  },
+  {
+    "code": "S02",
+    "title": "Segurança em eletricidade - Qualificação, EPI, altura e zonas de risco",
+    "description": "",
+    "learning_objectives": [],
+    "subtopics": [],
+    "prerequisites": [
+      "S01"
+    ],
+    "includes": [],
+    "excludes": [],
+    "overlaps_with": [],
+    "needs_editorial_definition": true,
+    "source_refs": [
+      {
+        "file": "data/fase2/mapa-conteudo.json",
+        "section": "subtemas",
+        "fields_supported": [
+          "code",
+          "title",
+          "prerequisites"
+        ]
+      }
+    ]
+  },
+  {
+    "code": "S03",
+    "title": "Segurança em eletricidade - Classificação de tensão e documentação",
+    "description": "",
+    "learning_objectives": [],
+    "subtopics": [],
+    "prerequisites": [
+      "F01",
+      "S01"
+    ],
+    "includes": [],
+    "excludes": [],
+    "overlaps_with": [],
+    "needs_editorial_definition": true,
+    "source_refs": [
+      {
+        "file": "data/fase2/mapa-conteudo.json",
+        "section": "subtemas",
+        "fields_supported": [
+          "code",
+          "title",
+          "prerequisites"
+        ]
+      }
+    ]
+  },
+  {
+    "code": "I01",
+    "title": "Instalações prediais - Tomadas, iluminação e previsão de cargas",
+    "description": "",
+    "learning_objectives": [],
+    "subtopics": [],
+    "prerequisites": [
+      "F04",
+      "S01"
+    ],
+    "includes": [],
+    "excludes": [],
+    "overlaps_with": [],
+    "needs_editorial_definition": true,
+    "source_refs": [
+      {
+        "file": "data/fase2/mapa-conteudo.json",
+        "section": "subtemas",
+        "fields_supported": [
+          "code",
+          "title",
+          "prerequisites"
+        ]
+      }
+    ]
+  },
+  {
+    "code": "I02",
+    "title": "Instalações prediais - Interruptores, sensores e relé fotocélula",
+    "description": "",
+    "learning_objectives": [],
+    "subtopics": [],
+    "prerequisites": [
+      "I01",
+      "M01"
+    ],
+    "includes": [],
+    "excludes": [],
+    "overlaps_with": [],
+    "needs_editorial_definition": true,
+    "source_refs": [
+      {
+        "file": "data/fase2/mapa-conteudo.json",
+        "section": "subtemas",
+        "fields_supported": [
+          "code",
+          "title",
+          "prerequisites"
+        ]
+      }
+    ]
+  },
+  {
+    "code": "I03",
+    "title": "Projetos elétricos - Simbologia, unifilar, multifilar e CAD",
+    "description": "",
+    "learning_objectives": [],
+    "subtopics": [],
+    "prerequisites": [
+      "F01"
+    ],
+    "includes": [],
+    "excludes": [],
+    "overlaps_with": [],
+    "needs_editorial_definition": true,
+    "source_refs": [
+      {
+        "file": "data/fase2/mapa-conteudo.json",
+        "section": "subtemas",
+        "fields_supported": [
+          "code",
+          "title",
+          "prerequisites"
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P01",
+    "title": "Dimensionamento - Condutores, instalação e fatores de correção",
+    "description": "",
+    "learning_objectives": [],
+    "subtopics": [],
+    "prerequisites": [
+      "F04",
+      "I01",
+      "S01"
+    ],
+    "includes": [],
+    "excludes": [],
+    "overlaps_with": [],
+    "needs_editorial_definition": true,
+    "source_refs": [
+      {
+        "file": "data/fase2/mapa-conteudo.json",
+        "section": "subtemas",
+        "fields_supported": [
+          "code",
+          "title",
+          "prerequisites"
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P02",
+    "title": "Dimensionamento - Disjuntores, fusíveis, curvas e curto-circuito",
+    "description": "",
+    "learning_objectives": [],
+    "subtopics": [],
+    "prerequisites": [
+      "P01"
+    ],
+    "includes": [],
+    "excludes": [],
+    "overlaps_with": [],
+    "needs_editorial_definition": true,
+    "source_refs": [
+      {
+        "file": "data/fase2/mapa-conteudo.json",
+        "section": "subtemas",
+        "fields_supported": [
+          "code",
+          "title",
+          "prerequisites"
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P03",
+    "title": "Proteção de pessoas - DR, IDR, DDR e coordenação de funções",
+    "description": "",
+    "learning_objectives": [],
+    "subtopics": [],
+    "prerequisites": [
+      "S01",
+      "I01"
+    ],
+    "includes": [],
+    "excludes": [],
+    "overlaps_with": [],
+    "needs_editorial_definition": true,
+    "source_refs": [
+      {
+        "file": "data/fase2/mapa-conteudo.json",
+        "section": "subtemas",
+        "fields_supported": [
+          "code",
+          "title",
+          "prerequisites"
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P04",
+    "title": "Aterramento e SPDA - Esquemas de aterramento e equipotencialização",
+    "description": "",
+    "learning_objectives": [],
+    "subtopics": [],
+    "prerequisites": [
+      "S01",
+      "I03"
+    ],
+    "includes": [],
+    "excludes": [],
+    "overlaps_with": [],
+    "needs_editorial_definition": true,
+    "source_refs": [
+      {
+        "file": "data/fase2/mapa-conteudo.json",
+        "section": "subtemas",
+        "fields_supported": [
+          "code",
+          "title",
+          "prerequisites"
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P05",
+    "title": "Aterramento e SPDA - Captação, descida, aterramento e DPS",
+    "description": "",
+    "learning_objectives": [],
+    "subtopics": [],
+    "prerequisites": [
+      "P04"
+    ],
+    "includes": [],
+    "excludes": [],
+    "overlaps_with": [],
+    "needs_editorial_definition": true,
+    "source_refs": [
+      {
+        "file": "data/fase2/mapa-conteudo.json",
+        "section": "subtemas",
+        "fields_supported": [
+          "code",
+          "title",
+          "prerequisites"
+        ]
+      }
+    ]
+  },
+  {
+    "code": "E01",
+    "title": "Motores elétricos - Placa, potência, corrente e velocidade",
+    "description": "",
+    "learning_objectives": [],
+    "subtopics": [],
+    "prerequisites": [
+      "F04",
+      "M01"
+    ],
+    "includes": [],
+    "excludes": [],
+    "overlaps_with": [],
+    "needs_editorial_definition": true,
+    "source_refs": [
+      {
+        "file": "data/fase2/mapa-conteudo.json",
+        "section": "subtemas",
+        "fields_supported": [
+          "code",
+          "title",
+          "prerequisites"
+        ]
+      }
+    ]
+  },
+  {
+    "code": "E02",
+    "title": "Motores elétricos - Bobinas, fechamentos e ligação monofásica/trifásica",
+    "description": "",
+    "learning_objectives": [],
+    "subtopics": [],
+    "prerequisites": [
+      "E01",
+      "M02"
+    ],
+    "includes": [],
+    "excludes": [],
+    "overlaps_with": [],
+    "needs_editorial_definition": true,
+    "source_refs": [
+      {
+        "file": "data/fase2/mapa-conteudo.json",
+        "section": "subtemas",
+        "fields_supported": [
+          "code",
+          "title",
+          "prerequisites"
+        ]
+      }
+    ]
+  },
+  {
+    "code": "E03",
+    "title": "Comandos e partidas - Direta, reversão, selo e intertravamento",
+    "description": "",
+    "learning_objectives": [],
+    "subtopics": [],
+    "prerequisites": [
+      "E02",
+      "P02"
+    ],
+    "includes": [],
+    "excludes": [],
+    "overlaps_with": [],
+    "needs_editorial_definition": true,
+    "source_refs": [
+      {
+        "file": "data/fase2/mapa-conteudo.json",
+        "section": "subtemas",
+        "fields_supported": [
+          "code",
+          "title",
+          "prerequisites"
+        ]
+      }
+    ]
+  },
+  {
+    "code": "E04",
+    "title": "Comandos e partidas - Estrela-triângulo e compensadora",
+    "description": "",
+    "learning_objectives": [],
+    "subtopics": [],
+    "prerequisites": [
+      "E03"
+    ],
+    "includes": [],
+    "excludes": [],
+    "overlaps_with": [],
+    "needs_editorial_definition": true,
+    "source_refs": [
+      {
+        "file": "data/fase2/mapa-conteudo.json",
+        "section": "subtemas",
+        "fields_supported": [
+          "code",
+          "title",
+          "prerequisites"
+        ]
+      }
+    ]
+  },
+  {
+    "code": "E05",
+    "title": "Comandos e partidas - Dahlander e duas velocidades",
+    "description": "",
+    "learning_objectives": [],
+    "subtopics": [],
+    "prerequisites": [
+      "E03"
+    ],
+    "includes": [],
+    "excludes": [],
+    "overlaps_with": [],
+    "needs_editorial_definition": true,
+    "source_refs": [
+      {
+        "file": "data/fase2/mapa-conteudo.json",
+        "section": "subtemas",
+        "fields_supported": [
+          "code",
+          "title",
+          "prerequisites"
+        ]
+      }
+    ]
+  },
+  {
+    "code": "E06",
+    "title": "Acionamentos - Inversor, soft-starter e parametrização",
+    "description": "",
+    "learning_objectives": [],
+    "subtopics": [],
+    "prerequisites": [
+      "E03",
+      "F03"
+    ],
+    "includes": [],
+    "excludes": [],
+    "overlaps_with": [],
+    "needs_editorial_definition": true,
+    "source_refs": [
+      {
+        "file": "data/fase2/mapa-conteudo.json",
+        "section": "subtemas",
+        "fields_supported": [
+          "code",
+          "title",
+          "prerequisites"
+        ]
+      }
+    ]
+  },
+  {
+    "code": "T01",
+    "title": "Transformadores - Relação de transformação e proteções",
+    "description": "",
+    "learning_objectives": [],
+    "subtopics": [],
+    "prerequisites": [
+      "F03",
+      "F04"
+    ],
+    "includes": [],
+    "excludes": [],
+    "overlaps_with": [],
+    "needs_editorial_definition": true,
+    "source_refs": [
+      {
+        "file": "data/fase2/mapa-conteudo.json",
+        "section": "subtemas",
+        "fields_supported": [
+          "code",
+          "title",
+          "prerequisites"
+        ]
+      }
+    ]
+  },
+  {
+    "code": "T02",
+    "title": "Medição e proteção em SEP - TC, TP, relés e medição indireta",
+    "description": "",
+    "learning_objectives": [],
+    "subtopics": [],
+    "prerequisites": [
+      "T01",
+      "M01",
+      "S01"
+    ],
+    "includes": [],
+    "excludes": [],
+    "overlaps_with": [],
+    "needs_editorial_definition": true,
+    "source_refs": [
+      {
+        "file": "data/fase2/mapa-conteudo.json",
+        "section": "subtemas",
+        "fields_supported": [
+          "code",
+          "title",
+          "prerequisites"
+        ]
+      }
+    ]
+  },
+  {
+    "code": "R01",
+    "title": "Redes de distribuição - Estruturas, postes, alimentadores e topologias",
+    "description": "",
+    "learning_objectives": [],
+    "subtopics": [],
+    "prerequisites": [
+      "I03",
+      "S02"
+    ],
+    "includes": [],
+    "excludes": [],
+    "overlaps_with": [],
+    "needs_editorial_definition": true,
+    "source_refs": [
+      {
+        "file": "data/fase2/mapa-conteudo.json",
+        "section": "subtemas",
+        "fields_supported": [
+          "code",
+          "title",
+          "prerequisites"
+        ]
+      }
+    ]
+  },
+  {
+    "code": "R02",
+    "title": "Subestações - Equipamentos, barramentos e operação",
+    "description": "",
+    "learning_objectives": [],
+    "subtopics": [],
+    "prerequisites": [
+      "R01",
+      "T02"
+    ],
+    "includes": [],
+    "excludes": [],
+    "overlaps_with": [],
+    "needs_editorial_definition": true,
+    "source_refs": [
+      {
+        "file": "data/fase2/mapa-conteudo.json",
+        "section": "subtemas",
+        "fields_supported": [
+          "code",
+          "title",
+          "prerequisites"
+        ]
+      }
+    ]
+  },
+  {
+    "code": "A01",
+    "title": "CLP e lógica - Booleanos, binário, tabela verdade e Ladder",
+    "description": "",
+    "learning_objectives": [],
+    "subtopics": [],
+    "prerequisites": [
+      "F01"
+    ],
+    "includes": [],
+    "excludes": [],
+    "overlaps_with": [],
+    "needs_editorial_definition": true,
+    "source_refs": [
+      {
+        "file": "data/fase2/mapa-conteudo.json",
+        "section": "subtemas",
+        "fields_supported": [
+          "code",
+          "title",
+          "prerequisites"
+        ]
+      }
+    ]
+  },
+  {
+    "code": "A02",
+    "title": "CLP e lógica - Entradas, saídas e controle sequencial",
+    "description": "",
+    "learning_objectives": [],
+    "subtopics": [],
+    "prerequisites": [
+      "A01",
+      "E03"
+    ],
+    "includes": [],
+    "excludes": [],
+    "overlaps_with": [],
+    "needs_editorial_definition": true,
+    "source_refs": [
+      {
+        "file": "data/fase2/mapa-conteudo.json",
+        "section": "subtemas",
+        "fields_supported": [
+          "code",
+          "title",
+          "prerequisites"
+        ]
+      }
+    ]
+  },
+  {
+    "code": "A03",
+    "title": "Sensores - Sensores de presença, alarme e nível",
+    "description": "",
+    "learning_objectives": [],
+    "subtopics": [],
+    "prerequisites": [
+      "A02",
+      "I02"
+    ],
+    "includes": [],
+    "excludes": [],
+    "overlaps_with": [],
+    "needs_editorial_definition": true,
+    "source_refs": [
+      {
+        "file": "data/fase2/mapa-conteudo.json",
+        "section": "subtemas",
+        "fields_supported": [
+          "code",
+          "title",
+          "prerequisites"
+        ]
+      }
+    ]
+  },
+  {
+    "code": "H01",
+    "title": "Pneumática e hidráulica - Válvulas, atuadores e simbologia",
+    "description": "",
+    "learning_objectives": [],
+    "subtopics": [],
+    "prerequisites": [
+      "I03"
+    ],
+    "includes": [],
+    "excludes": [],
+    "overlaps_with": [],
+    "needs_editorial_definition": true,
+    "source_refs": [
+      {
+        "file": "data/fase2/mapa-conteudo.json",
+        "section": "subtemas",
+        "fields_supported": [
+          "code",
+          "title",
+          "prerequisites"
+        ]
+      }
+    ]
+  },
+  {
+    "code": "H02",
+    "title": "Pneumática e hidráulica - Sequências, selo e diagnóstico eletropneumático",
+    "description": "",
+    "learning_objectives": [],
+    "subtopics": [],
+    "prerequisites": [
+      "H01",
+      "E03",
+      "A01"
+    ],
+    "includes": [],
+    "excludes": [],
+    "overlaps_with": [],
+    "needs_editorial_definition": true,
+    "source_refs": [
+      {
+        "file": "data/fase2/mapa-conteudo.json",
+        "section": "subtemas",
+        "fields_supported": [
+          "code",
+          "title",
+          "prerequisites"
+        ]
+      }
+    ]
+  },
+  {
+    "code": "D01",
+    "title": "Manutenção e diagnóstico - Preventiva, preditiva, corretiva e inspeções",
+    "description": "",
+    "learning_objectives": [],
+    "subtopics": [],
+    "prerequisites": [
+      "S01"
+    ],
+    "includes": [],
+    "excludes": [],
+    "overlaps_with": [],
+    "needs_editorial_definition": true,
+    "source_refs": [
+      {
+        "file": "data/fase2/mapa-conteudo.json",
+        "section": "subtemas",
+        "fields_supported": [
+          "code",
+          "title",
+          "prerequisites"
+        ]
+      }
+    ]
+  },
+  {
+    "code": "D02",
+    "title": "Manutenção e diagnóstico - Termografia, conexões e localização de falhas",
+    "description": "",
+    "learning_objectives": [],
+    "subtopics": [],
+    "prerequisites": [
+      "D01",
+      "M02"
+    ],
+    "includes": [],
+    "excludes": [],
+    "overlaps_with": [],
+    "needs_editorial_definition": true,
+    "source_refs": [
+      {
+        "file": "data/fase2/mapa-conteudo.json",
+        "section": "subtemas",
+        "fields_supported": [
+          "code",
+          "title",
+          "prerequisites"
+        ]
+      }
+    ]
+  },
+  {
+    "code": "V01",
+    "title": "Energia solar fotovoltaica - Arranjos, potência e eficiência",
+    "description": "",
+    "learning_objectives": [],
+    "subtopics": [],
+    "prerequisites": [
+      "F04",
+      "P01"
+    ],
+    "includes": [],
+    "excludes": [],
+    "overlaps_with": [],
+    "needs_editorial_definition": true,
+    "source_refs": [
+      {
+        "file": "data/fase2/mapa-conteudo.json",
+        "section": "subtemas",
+        "fields_supported": [
+          "code",
+          "title",
+          "prerequisites"
+        ]
+      }
+    ]
+  }
+]

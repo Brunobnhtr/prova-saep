@@ -1,0 +1,52 @@
+{
+  "batch_id": "mock-annotation-test",
+  "annotator_id": "ANNOTATOR_A",
+  "annotations": [
+    {
+      "source_id": "MOCK_1",
+      "annotation_version": "1.0",
+      "curriculum_version": "1.0",
+      "source_question_version": "1.0",
+      "annotator_id": "ANNOTATOR_A",
+      "in_curriculum": true,
+      "primary_module": "F01",
+      "acceptable_modules": [],
+      "annotation_confidence": "HIGH",
+      "reasoning_summary": "Clearly about F01 based on statement",
+      "image_status": "NOT_APPLICABLE",
+      "image_required": false,
+      "ambiguity": false,
+      "ambiguity_reason": "",
+      "supplement_used": false,
+      "supplement_fields_used": [],
+      "annotation_status": "ANNOTATED",
+      "module_evidence": [
+        {
+          "kind": "STATEMENT",
+          "text": "MOCK STATEMENT"
+        }
+      ]
+    },
+    {
+      "source_id": "MOCK_2",
+      "annotation_version": "1.0",
+      "curriculum_version": "1.0",
+      "source_question_version": "1.0",
+      "annotator_id": "ANNOTATOR_A",
+      "in_curriculum": false,
+      "primary_module": null,
+      "acceptable_modules": [],
+      "annotation_confidence": "HIGH",
+      "reasoning_summary": "Out of curriculum completely",
+      "image_status": "NOT_APPLICABLE",
+      "image_required": false,
+      "ambiguity": false,
+      "ambiguity_reason": "",
+      "supplement_used": false,
+      "supplement_fields_used": [],
+      "annotation_status": "OUT_OF_CURRICULUM",
+      "module_evidence": []
+    }
+  ]
+}
+

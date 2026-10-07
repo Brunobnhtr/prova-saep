@@ -1,0 +1,4102 @@
+{
+  "module": "E01",
+  "title": "Placa, potência, corrente e velocidade",
+  "total_candidates": 310,
+  "primary_assignments": 194,
+  "high_relevance": 64,
+  "medium_relevance": 82,
+  "low_relevance": 164,
+  "outside_theme": {
+    "count": null,
+    "status": "NOT_SEMANTICALLY_REVIEWED"
+  },
+  "image_dependent": 48,
+  "possible_duplicates": 0,
+  "possible_semantic_variants": 0,
+  "priority_ids": {
+    "HIGH": [
+      "Q3943003",
+      "Q3887491",
+      "Q3887789",
+      "Q3900504",
+      "Q3505047",
+      "Q3573965",
+      "Q3453561",
+      "Q3458240",
+      "Q3245383",
+      "Q3264300",
+      "Q3157290",
+      "Q3008704",
+      "Q2878164",
+      "Q2955320",
+      "Q2779415",
+      "Q2002202",
+      "Q1276356",
+      "Q1276364",
+      "Q1629119",
+      "Q1217256",
+      "Q1037587",
+      "Q1037590",
+      "Q1046935",
+      "Q1015251",
+      "Q1032587",
+      "Q883648",
+      "Q945969",
+      "Q971895",
+      "Q976426",
+      "Q976482",
+      "Q850466",
+      "Q850488",
+      "Q879235",
+      "Q834155",
+      "Q777193",
+      "Q803802",
+      "Q751891",
+      "Q728300",
+      "Q731875",
+      "Q731876",
+      "Q731877",
+      "Q741961",
+      "Q509734",
+      "Q522202",
+      "Q460307",
+      "Q461601",
+      "Q462310",
+      "Q484535",
+      "Q490245",
+      "Q432400",
+      "Q453952",
+      "Q424997",
+      "Q425009",
+      "Q425010",
+      "Q431021",
+      "Q431030",
+      "Q431299",
+      "Q263718",
+      "Q278074",
+      "Q234012",
+      "Q237320",
+      "Q263030",
+      "Q187148",
+      "Q189041"
+    ],
+    "MEDIUM": [
+      "Q4084322",
+      "Q4032379",
+      "Q4032400",
+      "Q4044697",
+      "Q4047407",
+      "Q3981882",
+      "Q3977392",
+      "Q3887790",
+      "Q3887791",
+      "Q3837936",
+      "Q3851441",
+      "Q3851975",
+      "Q3790486",
+      "Q3573966",
+      "Q3573972",
+      "Q3452153",
+      "Q3267717",
+      "Q3327345",
+      "Q3386306",
+      "Q3100169",
+      "Q3188795",
+      "Q3025726",
+      "Q2930991",
+      "Q2955749",
+      "Q2773343",
+      "Q2773349",
+      "Q2559462",
+      "Q2586173",
+      "Q2729182",
+      "Q2517358",
+      "Q2354135",
+      "Q2386848",
+      "Q2401040",
+      "Q2325594",
+      "Q2325601",
+      "Q2202785",
+      "Q2217065",
+      "Q2226615",
+      "Q2198765",
+      "Q2058451",
+      "Q1767154",
+      "Q1767156",
+      "Q1768656",
+      "Q1217264",
+      "Q1218065",
+      "Q1240739",
+      "Q1276373",
+      "Q1106095",
+      "Q1179315",
+      "Q1037584",
+      "Q1062920",
+      "Q1015268",
+      "Q1024406",
+      "Q995993",
+      "Q945964",
+      "Q971897",
+      "Q850473",
+      "Q823520",
+      "Q825978",
+      "Q825980",
+      "Q776978",
+      "Q777108",
+      "Q751100",
+      "Q758559",
+      "Q770889",
+      "Q529120",
+      "Q539954",
+      "Q514327",
+      "Q460309",
+      "Q484543",
+      "Q431753",
+      "Q431796",
+      "Q453948",
+      "Q431022",
+      "Q234013",
+      "Q237312",
+      "Q263029",
+      "Q186527",
+      "Q186534",
+      "Q189046",
+      "Q182639",
+      "Q85801"
+    ],
+    "LOW": [
+      "Q4160624",
+      "Q4218524",
+      "Q4218542",
+      "Q4084225",
+      "Q4064761",
+      "Q4083336",
+      "Q3981871",
+      "Q4006487",
+      "Q4007329",
+      "Q3980547",
+      "Q3981859",
+      "Q3887489",
+      "Q3887490",
+      "Q3887769",
+      "Q3888892",
+      "Q3802131",
+      "Q3803287",
+      "Q3837942",
+      "Q3850353",
+      "Q3790484",
+      "Q3796394",
+      "Q3616332",
+      "Q3467619",
+      "Q3479827",
+      "Q3573967",
+      "Q3419881",
+      "Q3453562",
+      "Q3453563",
+      "Q3293312",
+      "Q3381651",
+      "Q3199937",
+      "Q3100164",
+      "Q3138856",
+      "Q3138959",
+      "Q3157287",
+      "Q3157293",
+      "Q3172293",
+      "Q3188791",
+      "Q3188793",
+      "Q3007581",
+      "Q3082344",
+      "Q2955311",
+      "Q2737525",
+      "Q2779411",
+      "Q2784996",
+      "Q2802783",
+      "Q2693108",
+      "Q2416984",
+      "Q2447325",
+      "Q2333379",
+      "Q2356971",
+      "Q2396781",
+      "Q2329752",
+      "Q2258055",
+      "Q2279013",
+      "Q2295402",
+      "Q2209725",
+      "Q2157531",
+      "Q2158441",
+      "Q2158442",
+      "Q2158444",
+      "Q2158446",
+      "Q2158447",
+      "Q2158448",
+      "Q2198763",
+      "Q2200893",
+      "Q1888090",
+      "Q1916779",
+      "Q1916787",
+      "Q1916803",
+      "Q1927400",
+      "Q1927404",
+      "Q2051864",
+      "Q1768669",
+      "Q1770765",
+      "Q1808438",
+      "Q1830348",
+      "Q1830349",
+      "Q1668820",
+      "Q1721317",
+      "Q1721318",
+      "Q1218053",
+      "Q1240659",
+      "Q1240662",
+      "Q1240730",
+      "Q1276349",
+      "Q1276367",
+      "Q1087468",
+      "Q1087490",
+      "Q1090530",
+      "Q1106117",
+      "Q1106986",
+      "Q1106987",
+      "Q1036234",
+      "Q1050005",
+      "Q1060207",
+      "Q1060210",
+      "Q1025883",
+      "Q1025917",
+      "Q981774",
+      "Q995988",
+      "Q995989",
+      "Q995990",
+      "Q995996",
+      "Q882893",
+      "Q976475",
+      "Q837394",
+      "Q839173",
+      "Q839176",
+      "Q855027",
+      "Q803811",
+      "Q811519",
+      "Q823501",
+      "Q831193",
+      "Q759352",
+      "Q759355",
+      "Q759356",
+      "Q734059",
+      "Q741960",
+      "Q743375",
+      "Q646520",
+      "Q666495",
+      "Q707686",
+      "Q710264",
+      "Q529407",
+      "Q529416",
+      "Q533343",
+      "Q539958",
+      "Q539961",
+      "Q509735",
+      "Q522231",
+      "Q522939",
+      "Q462309",
+      "Q484540",
+      "Q490124",
+      "Q495322",
+      "Q454013",
+      "Q425021",
+      "Q425827",
+      "Q425830",
+      "Q431070",
+      "Q431293",
+      "Q431574",
+      "Q402439",
+      "Q411991",
+      "Q411995",
+      "Q413067",
+      "Q424974",
+      "Q278071",
+      "Q394764",
+      "Q394786",
+      "Q234010",
+      "Q235669",
+      "Q235680",
+      "Q241773",
+      "Q186311",
+      "Q187147",
+      "Q187151",
+      "Q182640",
+      "Q184210",
+      "Q184211",
+      "Q107351",
+      "Q108724",
+      "Q93707"
+    ]
+  },
+  "candidate_details": [
+    {
+      "source_id": "Q4160624",
+      "subtopics": [
+        {
+          "id": "9.4",
+          "title": "Placa de identificação, ligações e rendimento do motor",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.4-placa-de-identificacao-ligacoes-e-rendimento-do-motor.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "OHMS_LAW_DIRECT_RESISTANCE",
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4218524",
+      "subtopics": [
+        {
+          "id": "9.4",
+          "title": "Placa de identificação, ligações e rendimento do motor",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.4-placa-de-identificacao-ligacoes-e-rendimento-do-motor.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4218542",
+      "subtopics": [
+        {
+          "id": "9.4",
+          "title": "Placa de identificação, ligações e rendimento do motor",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.4-placa-de-identificacao-ligacoes-e-rendimento-do-motor.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4084225",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4084322",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4032379",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4032400",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4044697",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4047407",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4064761",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4083336",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "MOTOR_PROTECTION",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3981871",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3981882",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4006487",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4007329",
+      "subtopics": [
+        {
+          "id": "9.4",
+          "title": "Placa de identificação, ligações e rendimento do motor",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.4-placa-de-identificacao-ligacoes-e-rendimento-do-motor.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3943003",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3977392",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3980547",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3981859",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3887489",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3887490",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "INSULATION_TEST",
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3887491",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3887769",
+      "subtopics": [
+        {
+          "id": "9.4",
+          "title": "Placa de identificação, ligações e rendimento do motor",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.4-placa-de-identificacao-ligacoes-e-rendimento-do-motor.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "OHMS_LAW_DIRECT_RESISTANCE",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3887789",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3887790",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3887791",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3888892",
+      "subtopics": [
+        {
+          "id": "9.4",
+          "title": "Placa de identificação, ligações e rendimento do motor",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.4-placa-de-identificacao-ligacoes-e-rendimento-do-motor.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3900504",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3802131",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3803287",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3837936",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3837942",
+      "subtopics": [
+        {
+          "id": "9.4",
+          "title": "Placa de identificação, ligações e rendimento do motor",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.4-placa-de-identificacao-ligacoes-e-rendimento-do-motor.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3850353",
+      "subtopics": [
+        {
+          "id": "9.4",
+          "title": "Placa de identificação, ligações e rendimento do motor",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.4-placa-de-identificacao-ligacoes-e-rendimento-do-motor.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3851441",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3851975",
+      "subtopics": [],
+      "family": "THREE_PHASE_POWER",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3790484",
+      "subtopics": [
+        {
+          "id": "9.4",
+          "title": "Placa de identificação, ligações e rendimento do motor",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.4-placa-de-identificacao-ligacoes-e-rendimento-do-motor.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3790486",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3796394",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3616332",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3467619",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3479827",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3505047",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3573965",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3573966",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3573967",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "THREE_PHASE_POWER",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3573972",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3419881",
+      "subtopics": [
+        {
+          "id": "9.4",
+          "title": "Placa de identificação, ligações e rendimento do motor",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.4-placa-de-identificacao-ligacoes-e-rendimento-do-motor.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3452153",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3453561",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3453562",
+      "subtopics": [
+        {
+          "id": "9.4",
+          "title": "Placa de identificação, ligações e rendimento do motor",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.4-placa-de-identificacao-ligacoes-e-rendimento-do-motor.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "MOTOR_PROTECTION",
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3453563",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3458240",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3267717",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3293312",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3327345",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3381651",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3386306",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3199937",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3245383",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3264300",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3100164",
+      "subtopics": [
+        {
+          "id": "9.4",
+          "title": "Placa de identificação, ligações e rendimento do motor",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.4-placa-de-identificacao-ligacoes-e-rendimento-do-motor.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3100169",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3138856",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3138959",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3157287",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3157290",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3157293",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3172293",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3188791",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3188793",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "THREE_PHASE_POWER",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3188795",
+      "subtopics": [],
+      "family": "MOTOR_PROTECTION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3007581",
+      "subtopics": [
+        {
+          "id": "9.4",
+          "title": "Placa de identificação, ligações e rendimento do motor",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.4-placa-de-identificacao-ligacoes-e-rendimento-do-motor.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3008704",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3025726",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3082344",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "MOTOR_PROTECTION",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2878164",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2930991",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2955311",
+      "subtopics": [
+        {
+          "id": "9.4",
+          "title": "Placa de identificação, ligações e rendimento do motor",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.4-placa-de-identificacao-ligacoes-e-rendimento-do-motor.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2955320",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2955749",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2737525",
+      "subtopics": [
+        {
+          "id": "9.4",
+          "title": "Placa de identificação, ligações e rendimento do motor",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.4-placa-de-identificacao-ligacoes-e-rendimento-do-motor.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2773343",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2773349",
+      "subtopics": [],
+      "family": "THREE_PHASE_POWER",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2779411",
+      "subtopics": [
+        {
+          "id": "9.4",
+          "title": "Placa de identificação, ligações e rendimento do motor",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.4-placa-de-identificacao-ligacoes-e-rendimento-do-motor.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2779415",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2784996",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2802783",
+      "subtopics": [
+        {
+          "id": "9.4",
+          "title": "Placa de identificação, ligações e rendimento do motor",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.4-placa-de-identificacao-ligacoes-e-rendimento-do-motor.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2559462",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2586173",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2693108",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "MOTOR_PROTECTION",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2729182",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2416984",
+      "subtopics": [
+        {
+          "id": "9.4",
+          "title": "Placa de identificação, ligações e rendimento do motor",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.4-placa-de-identificacao-ligacoes-e-rendimento-do-motor.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2447325",
+      "subtopics": [
+        {
+          "id": "9.4",
+          "title": "Placa de identificação, ligações e rendimento do motor",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.4-placa-de-identificacao-ligacoes-e-rendimento-do-motor.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2517358",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2333379",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2354135",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2356971",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2386848",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2396781",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2401040",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2325594",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2325601",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2329752",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2258055",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2279013",
+      "subtopics": [
+        {
+          "id": "9.4",
+          "title": "Placa de identificação, ligações e rendimento do motor",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.4-placa-de-identificacao-ligacoes-e-rendimento-do-motor.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2295402",
+      "subtopics": [
+        {
+          "id": "9.4",
+          "title": "Placa de identificação, ligações e rendimento do motor",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.4-placa-de-identificacao-ligacoes-e-rendimento-do-motor.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2202785",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2209725",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2217065",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2226615",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2157531",
+      "subtopics": [
+        {
+          "id": "9.4",
+          "title": "Placa de identificação, ligações e rendimento do motor",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.4-placa-de-identificacao-ligacoes-e-rendimento-do-motor.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2158441",
+      "subtopics": [
+        {
+          "id": "9.4",
+          "title": "Placa de identificação, ligações e rendimento do motor",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.4-placa-de-identificacao-ligacoes-e-rendimento-do-motor.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2158442",
+      "subtopics": [
+        {
+          "id": "9.4",
+          "title": "Placa de identificação, ligações e rendimento do motor",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.4-placa-de-identificacao-ligacoes-e-rendimento-do-motor.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2158444",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "MOTOR_PROTECTION",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2158446",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2158447",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2158448",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2198763",
+      "subtopics": [
+        {
+          "id": "9.4",
+          "title": "Placa de identificação, ligações e rendimento do motor",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.4-placa-de-identificacao-ligacoes-e-rendimento-do-motor.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "MOTOR_PROTECTION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2198765",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2200893",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1888090",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1916779",
+      "subtopics": [
+        {
+          "id": "9.4",
+          "title": "Placa de identificação, ligações e rendimento do motor",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.4-placa-de-identificacao-ligacoes-e-rendimento-do-motor.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1916787",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1916803",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1927400",
+      "subtopics": [
+        {
+          "id": "9.4",
+          "title": "Placa de identificação, ligações e rendimento do motor",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.4-placa-de-identificacao-ligacoes-e-rendimento-do-motor.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1927404",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2002202",
+      "subtopics": [
+        {
+          "id": "9.4",
+          "title": "Placa de identificação, ligações e rendimento do motor",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.4-placa-de-identificacao-ligacoes-e-rendimento-do-motor.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2051864",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2058451",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1767154",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1767156",
+      "subtopics": [],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1768656",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1768669",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1770765",
+      "subtopics": [
+        {
+          "id": "9.4",
+          "title": "Placa de identificação, ligações e rendimento do motor",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.4-placa-de-identificacao-ligacoes-e-rendimento-do-motor.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1808438",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1830348",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1830349",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1668820",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1721317",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1721318",
+      "subtopics": [
+        {
+          "id": "9.4",
+          "title": "Placa de identificação, ligações e rendimento do motor",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.4-placa-de-identificacao-ligacoes-e-rendimento-do-motor.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1217264",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1218053",
+      "subtopics": [
+        {
+          "id": "9.4",
+          "title": "Placa de identificação, ligações e rendimento do motor",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.4-placa-de-identificacao-ligacoes-e-rendimento-do-motor.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1218065",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1240659",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1240662",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1240730",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1240739",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1276349",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1276356",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1276364",
+      "subtopics": [
+        {
+          "id": "9.4",
+          "title": "Placa de identificação, ligações e rendimento do motor",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.4-placa-de-identificacao-ligacoes-e-rendimento-do-motor.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1276367",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1276373",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1629119",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1087468",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1087490",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1090530",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1106095",
+      "subtopics": [],
+      "family": "THREE_PHASE_POWER",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1106117",
+      "subtopics": [
+        {
+          "id": "9.4",
+          "title": "Placa de identificação, ligações e rendimento do motor",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.4-placa-de-identificacao-ligacoes-e-rendimento-do-motor.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1106986",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1106987",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1179315",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1217256",
+      "subtopics": [
+        {
+          "id": "9.4",
+          "title": "Placa de identificação, ligações e rendimento do motor",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.4-placa-de-identificacao-ligacoes-e-rendimento-do-motor.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1036234",
+      "subtopics": [
+        {
+          "id": "9.4",
+          "title": "Placa de identificação, ligações e rendimento do motor",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.4-placa-de-identificacao-ligacoes-e-rendimento-do-motor.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1037584",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1037587",
+      "subtopics": [
+        {
+          "id": "9.4",
+          "title": "Placa de identificação, ligações e rendimento do motor",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.4-placa-de-identificacao-ligacoes-e-rendimento-do-motor.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1037590",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1046935",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1050005",
+      "subtopics": [
+        {
+          "id": "9.4",
+          "title": "Placa de identificação, ligações e rendimento do motor",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.4-placa-de-identificacao-ligacoes-e-rendimento-do-motor.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1060207",
+      "subtopics": [
+        {
+          "id": "9.4",
+          "title": "Placa de identificação, ligações e rendimento do motor",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.4-placa-de-identificacao-ligacoes-e-rendimento-do-motor.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1060210",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1062920",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1015251",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1015268",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1024406",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1025883",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1025917",
+      "subtopics": [
+        {
+          "id": "9.4",
+          "title": "Placa de identificação, ligações e rendimento do motor",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.4-placa-de-identificacao-ligacoes-e-rendimento-do-motor.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1032587",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q981774",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q995988",
+      "subtopics": [
+        {
+          "id": "9.4",
+          "title": "Placa de identificação, ligações e rendimento do motor",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.4-placa-de-identificacao-ligacoes-e-rendimento-do-motor.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q995989",
+      "subtopics": [
+        {
+          "id": "9.4",
+          "title": "Placa de identificação, ligações e rendimento do motor",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.4-placa-de-identificacao-ligacoes-e-rendimento-do-motor.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q995990",
+      "subtopics": [
+        {
+          "id": "9.4",
+          "title": "Placa de identificação, ligações e rendimento do motor",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.4-placa-de-identificacao-ligacoes-e-rendimento-do-motor.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q995993",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q995996",
+      "subtopics": [
+        {
+          "id": "9.4",
+          "title": "Placa de identificação, ligações e rendimento do motor",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.4-placa-de-identificacao-ligacoes-e-rendimento-do-motor.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q882893",
+      "subtopics": [
+        {
+          "id": "9.4",
+          "title": "Placa de identificação, ligações e rendimento do motor",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.4-placa-de-identificacao-ligacoes-e-rendimento-do-motor.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q883648",
+      "subtopics": [
+        {
+          "id": "9.4",
+          "title": "Placa de identificação, ligações e rendimento do motor",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.4-placa-de-identificacao-ligacoes-e-rendimento-do-motor.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q945964",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q945969",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q971895",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q971897",
+      "subtopics": [],
+      "family": "POWER_DC",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q976426",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q976475",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q976482",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q837394",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q839173",
+      "subtopics": [
+        {
+          "id": "9.4",
+          "title": "Placa de identificação, ligações e rendimento do motor",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.4-placa-de-identificacao-ligacoes-e-rendimento-do-motor.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "SERIES_EQUIVALENT_RESISTANCE",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q839176",
+      "subtopics": [
+        {
+          "id": "9.4",
+          "title": "Placa de identificação, ligações e rendimento do motor",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.4-placa-de-identificacao-ligacoes-e-rendimento-do-motor.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q850466",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q850473",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q850488",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q855027",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q879235",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q803811",
+      "subtopics": [
+        {
+          "id": "9.4",
+          "title": "Placa de identificação, ligações e rendimento do motor",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.4-placa-de-identificacao-ligacoes-e-rendimento-do-motor.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q811519",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q823501",
+      "subtopics": [
+        {
+          "id": "9.4",
+          "title": "Placa de identificação, ligações e rendimento do motor",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.4-placa-de-identificacao-ligacoes-e-rendimento-do-motor.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q823520",
+      "subtopics": [],
+      "family": "OHMS_LAW_DIRECT_RESISTANCE",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q825978",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q825980",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q831193",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q834155",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q776978",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q777108",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q777193",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q803802",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q751100",
+      "subtopics": [],
+      "family": "MOTOR_PROTECTION",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q751891",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q758559",
+      "subtopics": [],
+      "family": "MOTOR_PROTECTION",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q759352",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q759355",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q759356",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q770889",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q728300",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q731875",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q731876",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q731877",
+      "subtopics": [
+        {
+          "id": "9.4",
+          "title": "Placa de identificação, ligações e rendimento do motor",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.4-placa-de-identificacao-ligacoes-e-rendimento-do-motor.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q734059",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q741960",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q741961",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q743375",
+      "subtopics": [
+        {
+          "id": "9.4",
+          "title": "Placa de identificação, ligações e rendimento do motor",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.4-placa-de-identificacao-ligacoes-e-rendimento-do-motor.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q646520",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q666495",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q707686",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q710264",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q529120",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q529407",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q529416",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q533343",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q539954",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q539958",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q539961",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q509734",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q509735",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q514327",
+      "subtopics": [],
+      "family": "THREE_PHASE_POWER",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q522202",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q522231",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q522939",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q460307",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q460309",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q461601",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q462309",
+      "subtopics": [
+        {
+          "id": "9.4",
+          "title": "Placa de identificação, ligações e rendimento do motor",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.4-placa-de-identificacao-ligacoes-e-rendimento-do-motor.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "OHMS_LAW_DIRECT_RESISTANCE",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q462310",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q484535",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "THREE_PHASE_POWER",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q484540",
+      "subtopics": [
+        {
+          "id": "9.4",
+          "title": "Placa de identificação, ligações e rendimento do motor",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.4-placa-de-identificacao-ligacoes-e-rendimento-do-motor.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "THREE_PHASE_POWER",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q484543",
+      "subtopics": [],
+      "family": "OHMS_LAW_DIRECT_RESISTANCE",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q490124",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q490245",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q495322",
+      "subtopics": [
+        {
+          "id": "9.4",
+          "title": "Placa de identificação, ligações e rendimento do motor",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.4-placa-de-identificacao-ligacoes-e-rendimento-do-motor.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q431753",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q431796",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q432400",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q453948",
+      "subtopics": [],
+      "family": "OHMS_LAW_DIRECT_RESISTANCE",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q453952",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q454013",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q424997",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q425009",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q425010",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q425021",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "THREE_PHASE_POWER",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q425827",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q425830",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q431021",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q431022",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q431030",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q431070",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q431293",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q431299",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q431574",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q402439",
+      "subtopics": [
+        {
+          "id": "9.4",
+          "title": "Placa de identificação, ligações e rendimento do motor",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.4-placa-de-identificacao-ligacoes-e-rendimento-do-motor.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q411991",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q411995",
+      "subtopics": [
+        {
+          "id": "9.4",
+          "title": "Placa de identificação, ligações e rendimento do motor",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.4-placa-de-identificacao-ligacoes-e-rendimento-do-motor.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q413067",
+      "subtopics": [
+        {
+          "id": "9.4",
+          "title": "Placa de identificação, ligações e rendimento do motor",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.4-placa-de-identificacao-ligacoes-e-rendimento-do-motor.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q424974",
+      "subtopics": [
+        {
+          "id": "9.4",
+          "title": "Placa de identificação, ligações e rendimento do motor",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.4-placa-de-identificacao-ligacoes-e-rendimento-do-motor.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q263718",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q278071",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q278074",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q394764",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q394786",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q234010",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q234012",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q234013",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q235669",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q235680",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q237312",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q237320",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q241773",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q263029",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q263030",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q186311",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q186527",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q186534",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q187147",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q187148",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q187151",
+      "subtopics": [
+        {
+          "id": "9.4",
+          "title": "Placa de identificação, ligações e rendimento do motor",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.4-placa-de-identificacao-ligacoes-e-rendimento-do-motor.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q189041",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "OHMS_LAW_DIRECT_RESISTANCE",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q189046",
+      "subtopics": [],
+      "family": "MOTOR_PROTECTION",
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q182639",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q182640",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q184210",
+      "subtopics": [
+        {
+          "id": "9.4",
+          "title": "Placa de identificação, ligações e rendimento do motor",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.4-placa-de-identificacao-ligacoes-e-rendimento-do-motor.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q184211",
+      "subtopics": [
+        {
+          "id": "9.4",
+          "title": "Placa de identificação, ligações e rendimento do motor",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.4-placa-de-identificacao-ligacoes-e-rendimento-do-motor.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q107351",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q108724",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q85801",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q93707",
+      "subtopics": [
+        {
+          "id": "9.4",
+          "title": "Placa de identificação, ligações e rendimento do motor",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.4-placa-de-identificacao-ligacoes-e-rendimento-do-motor.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    }
+  ]
+}

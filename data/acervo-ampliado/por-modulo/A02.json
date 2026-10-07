@@ -1,0 +1,3560 @@
+{
+  "module": "A02",
+  "title": "Entradas, saídas e controle sequencial",
+  "total_candidates": 286,
+  "primary_assignments": 132,
+  "high_relevance": 82,
+  "medium_relevance": 92,
+  "low_relevance": 112,
+  "outside_theme": {
+    "count": null,
+    "status": "NOT_SEMANTICALLY_REVIEWED"
+  },
+  "image_dependent": 83,
+  "possible_duplicates": 0,
+  "possible_semantic_variants": 0,
+  "priority_ids": {
+    "HIGH": [
+      "Q4151547",
+      "Q4151548",
+      "Q4114640",
+      "Q3958246",
+      "Q3977399",
+      "Q3977407",
+      "Q3887504",
+      "Q3891635",
+      "Q3891642",
+      "Q3846968",
+      "Q3850335",
+      "Q3851968",
+      "Q3851976",
+      "Q3851982",
+      "Q3851986",
+      "Q3851990",
+      "Q3449169",
+      "Q3449173",
+      "Q3267721",
+      "Q3272501",
+      "Q3272502",
+      "Q3369745",
+      "Q3204741",
+      "Q3021238",
+      "Q3021243",
+      "Q3021245",
+      "Q3021248",
+      "Q3027512",
+      "Q3069875",
+      "Q2916786",
+      "Q2925651",
+      "Q2925653",
+      "Q2774843",
+      "Q2354133",
+      "Q2386842",
+      "Q2320587",
+      "Q2252801",
+      "Q2284690",
+      "Q2285851",
+      "Q2202787",
+      "Q2226727",
+      "Q2226745",
+      "Q2081095",
+      "Q2158395",
+      "Q2158420",
+      "Q2158481",
+      "Q2158482",
+      "Q2014939",
+      "Q1766668",
+      "Q1762486",
+      "Q1090683",
+      "Q1090685",
+      "Q1036249",
+      "Q1036254",
+      "Q976420",
+      "Q976421",
+      "Q810802",
+      "Q825992",
+      "Q783435",
+      "Q751901",
+      "Q768527",
+      "Q770887",
+      "Q718823",
+      "Q596755",
+      "Q596759",
+      "Q707697",
+      "Q529128",
+      "Q533328",
+      "Q533331",
+      "Q460347",
+      "Q460367",
+      "Q431719",
+      "Q453968",
+      "Q453982",
+      "Q453991",
+      "Q430252",
+      "Q431575",
+      "Q431578",
+      "Q186290",
+      "Q186333",
+      "Q189592",
+      "Q180777"
+    ],
+    "MEDIUM": [
+      "Q4093930",
+      "Q4093940",
+      "Q4093950",
+      "Q4104263",
+      "Q4083445",
+      "Q4083446",
+      "Q4083447",
+      "Q4083449",
+      "Q3981899",
+      "Q4027614",
+      "Q4027620",
+      "Q3958237",
+      "Q3958243",
+      "Q3977388",
+      "Q3891640",
+      "Q3851447",
+      "Q3851966",
+      "Q3851985",
+      "Q3690129",
+      "Q3539195",
+      "Q3550833",
+      "Q3188801",
+      "Q3012501",
+      "Q3021242",
+      "Q2867865",
+      "Q2894107",
+      "Q2955378",
+      "Q2737528",
+      "Q2694464",
+      "Q2443299",
+      "Q2385127",
+      "Q2234181",
+      "Q2251029",
+      "Q2251037",
+      "Q2254464",
+      "Q2255977",
+      "Q2272603",
+      "Q2284693",
+      "Q2285850",
+      "Q2285852",
+      "Q2226719",
+      "Q2081094",
+      "Q2081099",
+      "Q1919361",
+      "Q2074789",
+      "Q2074792",
+      "Q1718630",
+      "Q1755402",
+      "Q1218056",
+      "Q1090699",
+      "Q1098241",
+      "Q1098245",
+      "Q1098255",
+      "Q1062933",
+      "Q1000400",
+      "Q1023715",
+      "Q1023722",
+      "Q1023723",
+      "Q981773",
+      "Q843694",
+      "Q855023",
+      "Q825987",
+      "Q772159",
+      "Q758574",
+      "Q759340",
+      "Q768528",
+      "Q768529",
+      "Q770894",
+      "Q718822",
+      "Q747661",
+      "Q507408",
+      "Q460317",
+      "Q460525",
+      "Q460529",
+      "Q462070",
+      "Q431813",
+      "Q432414",
+      "Q453976",
+      "Q453985",
+      "Q453994",
+      "Q454009",
+      "Q408310",
+      "Q422379",
+      "Q394946",
+      "Q234019",
+      "Q237306",
+      "Q189209",
+      "Q189226",
+      "Q180775",
+      "Q182379",
+      "Q182404",
+      "Q182406"
+    ],
+    "LOW": [
+      "Q4151549",
+      "Q4218687",
+      "Q4218697",
+      "Q4109457",
+      "Q4114653",
+      "Q4032374",
+      "Q4080172",
+      "Q4007325",
+      "Q4024968",
+      "Q4025524",
+      "Q4027612",
+      "Q3980554",
+      "Q3850350",
+      "Q3550815",
+      "Q3449171",
+      "Q3452154",
+      "Q3264305",
+      "Q3090260",
+      "Q3188808",
+      "Q3021225",
+      "Q3021241",
+      "Q3069885",
+      "Q2894096",
+      "Q2955750",
+      "Q2754164",
+      "Q2692673",
+      "Q2329804",
+      "Q2333383",
+      "Q2333436",
+      "Q2314680",
+      "Q2314713",
+      "Q2285853",
+      "Q2285854",
+      "Q2217071",
+      "Q2226751",
+      "Q2081102",
+      "Q2158396",
+      "Q2158397",
+      "Q2158398",
+      "Q2158399",
+      "Q2200906",
+      "Q2051877",
+      "Q1768650",
+      "Q1694555",
+      "Q1629121",
+      "Q1090686",
+      "Q1098242",
+      "Q1098246",
+      "Q1098247",
+      "Q1098248",
+      "Q1098256",
+      "Q1098258",
+      "Q1098266",
+      "Q1106090",
+      "Q1106100",
+      "Q1106993",
+      "Q1106997",
+      "Q1107004",
+      "Q1036231",
+      "Q1036259",
+      "Q1037604",
+      "Q1025910",
+      "Q1032581",
+      "Q1032582",
+      "Q981779",
+      "Q991780",
+      "Q837393",
+      "Q837398",
+      "Q803826",
+      "Q786453",
+      "Q797741",
+      "Q797747",
+      "Q797903",
+      "Q758570",
+      "Q767423",
+      "Q461665",
+      "Q461666",
+      "Q461670",
+      "Q461672",
+      "Q431720",
+      "Q452621",
+      "Q453989",
+      "Q454008",
+      "Q431291",
+      "Q431643",
+      "Q411628",
+      "Q411993",
+      "Q364389",
+      "Q364390",
+      "Q364393",
+      "Q364394",
+      "Q394961",
+      "Q234027",
+      "Q186297",
+      "Q186321",
+      "Q189069",
+      "Q189219",
+      "Q189248",
+      "Q189253",
+      "Q180444",
+      "Q180474",
+      "Q180773",
+      "Q180774",
+      "Q180787",
+      "Q180788",
+      "Q180793",
+      "Q182408",
+      "Q182432",
+      "Q184160",
+      "Q184180",
+      "Q184182",
+      "Q184183"
+    ]
+  },
+  "candidate_details": [
+    {
+      "source_id": "Q4151547",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4151548",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4151549",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4218687",
+      "subtopics": [
+        {
+          "id": "10.3",
+          "title": "Intertravamento, selo e temporização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.3-intertravamento-selo-e-temporizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4218697",
+      "subtopics": [
+        {
+          "id": "10.3",
+          "title": "Intertravamento, selo e temporização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.3-intertravamento-selo-e-temporizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4093930",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4093940",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4093950",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4104263",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4109457",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4114640",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4114653",
+      "subtopics": [
+        {
+          "id": "10.3",
+          "title": "Intertravamento, selo e temporização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.3-intertravamento-selo-e-temporizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "LADDER_SEAL_IN",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4032374",
+      "subtopics": [
+        {
+          "id": "10.3",
+          "title": "Intertravamento, selo e temporização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.3-intertravamento-selo-e-temporizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4080172",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4083445",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4083446",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4083447",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4083449",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3981899",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4007325",
+      "subtopics": [
+        {
+          "id": "10.3",
+          "title": "Intertravamento, selo e temporização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.3-intertravamento-selo-e-temporizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "LADDER_SEAL_IN",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4024968",
+      "subtopics": [
+        {
+          "id": "10.3",
+          "title": "Intertravamento, selo e temporização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.3-intertravamento-selo-e-temporizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4025524",
+      "subtopics": [
+        {
+          "id": "10.3",
+          "title": "Intertravamento, selo e temporização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.3-intertravamento-selo-e-temporizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4027612",
+      "subtopics": [
+        {
+          "id": "10.3",
+          "title": "Intertravamento, selo e temporização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.3-intertravamento-selo-e-temporizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "MOTOR_PROTECTION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4027614",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4027620",
+      "subtopics": [],
+      "family": "OHMS_LAW_DIRECT_RESISTANCE",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3958237",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3958243",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3958246",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3977388",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3977399",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3977407",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3980554",
+      "subtopics": [
+        {
+          "id": "10.3",
+          "title": "Intertravamento, selo e temporização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.3-intertravamento-selo-e-temporizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3887504",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3891635",
+      "subtopics": [
+        {
+          "id": "10.3",
+          "title": "Intertravamento, selo e temporização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.3-intertravamento-selo-e-temporizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "CONTACTOR_NO_NC",
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3891640",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3891642",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3846968",
+      "subtopics": [
+        {
+          "id": "10.3",
+          "title": "Intertravamento, selo e temporização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.3-intertravamento-selo-e-temporizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3850335",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3850350",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3851447",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3851966",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3851968",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3851976",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3851982",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3851985",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3851986",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "INSULATION_TEST",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3851990",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3690129",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3539195",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3550815",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3550833",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3449169",
+      "subtopics": [
+        {
+          "id": "10.3",
+          "title": "Intertravamento, selo e temporização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.3-intertravamento-selo-e-temporizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3449171",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3449173",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3452154",
+      "subtopics": [
+        {
+          "id": "10.3",
+          "title": "Intertravamento, selo e temporização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.3-intertravamento-selo-e-temporizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3267721",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3272501",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3272502",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3369745",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3204741",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3264305",
+      "subtopics": [
+        {
+          "id": "10.3",
+          "title": "Intertravamento, selo e temporização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.3-intertravamento-selo-e-temporizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3090260",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3188801",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3188808",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3012501",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3021225",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3021238",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3021241",
+      "subtopics": [],
+      "family": "CONTACTOR_NO_NC",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3021242",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3021243",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3021245",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3021248",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3027512",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3069875",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3069885",
+      "subtopics": [
+        {
+          "id": "10.3",
+          "title": "Intertravamento, selo e temporização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.3-intertravamento-selo-e-temporizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2867865",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2894096",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2894107",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2916786",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2925651",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2925653",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2955378",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2955750",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2737528",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2754164",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2774843",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2692673",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2694464",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2443299",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2329804",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2333383",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2333436",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2354133",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2385127",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2386842",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2314680",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2314713",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2320587",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "OHMS_LAW_DIRECT_RESISTANCE",
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2234181",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2251029",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2251037",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2252801",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2254464",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2255977",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2272603",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2284690",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2284693",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2285850",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2285851",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2285852",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2285853",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2285854",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2202787",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2217071",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2226719",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2226727",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2226745",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2226751",
+      "subtopics": [
+        {
+          "id": "10.3",
+          "title": "Intertravamento, selo e temporização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.3-intertravamento-selo-e-temporizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2081094",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2081095",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2081099",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2081102",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2158395",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2158396",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2158397",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2158398",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2158399",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2158420",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2158481",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2158482",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2200906",
+      "subtopics": [
+        {
+          "id": "10.3",
+          "title": "Intertravamento, selo e temporização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.3-intertravamento-selo-e-temporizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1919361",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2014939",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2051877",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2074789",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2074792",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1766668",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1768650",
+      "subtopics": [
+        {
+          "id": "10.3",
+          "title": "Intertravamento, selo e temporização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.3-intertravamento-selo-e-temporizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1694555",
+      "subtopics": [
+        {
+          "id": "10.3",
+          "title": "Intertravamento, selo e temporização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.3-intertravamento-selo-e-temporizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1718630",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1755402",
+      "subtopics": [],
+      "family": "CONTACTOR_NO_NC",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1762486",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1218056",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1629121",
+      "subtopics": [
+        {
+          "id": "10.3",
+          "title": "Intertravamento, selo e temporização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.3-intertravamento-selo-e-temporizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1090683",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1090685",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1090686",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1090699",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1098241",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1098242",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1098245",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1098246",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1098247",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1098248",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1098255",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1098256",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1098258",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1098266",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1106090",
+      "subtopics": [
+        {
+          "id": "10.3",
+          "title": "Intertravamento, selo e temporização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.3-intertravamento-selo-e-temporizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1106100",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1106993",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1106997",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1107004",
+      "subtopics": [
+        {
+          "id": "10.3",
+          "title": "Intertravamento, selo e temporização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.3-intertravamento-selo-e-temporizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1036231",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1036249",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1036254",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1036259",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1037604",
+      "subtopics": [
+        {
+          "id": "10.3",
+          "title": "Intertravamento, selo e temporização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.3-intertravamento-selo-e-temporizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1062933",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1000400",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1023715",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1023722",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1023723",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1025910",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1032581",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1032582",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q981773",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q981779",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q991780",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q976420",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q976421",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q837393",
+      "subtopics": [
+        {
+          "id": "10.3",
+          "title": "Intertravamento, selo e temporização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.3-intertravamento-selo-e-temporizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q837398",
+      "subtopics": [
+        {
+          "id": "10.3",
+          "title": "Intertravamento, selo e temporização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.3-intertravamento-selo-e-temporizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q843694",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q855023",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q803826",
+      "subtopics": [
+        {
+          "id": "10.3",
+          "title": "Intertravamento, selo e temporização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.3-intertravamento-selo-e-temporizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q810802",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q825987",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q825992",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q772159",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q783435",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q786453",
+      "subtopics": [
+        {
+          "id": "10.3",
+          "title": "Intertravamento, selo e temporização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.3-intertravamento-selo-e-temporizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q797741",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q797747",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q797903",
+      "subtopics": [
+        {
+          "id": "10.3",
+          "title": "Intertravamento, selo e temporização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.3-intertravamento-selo-e-temporizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q751901",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q758570",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q758574",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q759340",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q767423",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q768527",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q768528",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q768529",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q770887",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q770894",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q718822",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q718823",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q747661",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q596755",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q596759",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q707697",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q529128",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q533328",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q533331",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q507408",
+      "subtopics": [],
+      "family": "OHMS_LAW_DIRECT_RESISTANCE",
+      "confidence": "MEDIUM",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q460317",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q460347",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q460367",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q460525",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q460529",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q461665",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q461666",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q461670",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q461672",
+      "subtopics": [
+        {
+          "id": "10.3",
+          "title": "Intertravamento, selo e temporização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.3-intertravamento-selo-e-temporizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q462070",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q431719",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q431720",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q431813",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q432414",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q452621",
+      "subtopics": [
+        {
+          "id": "10.3",
+          "title": "Intertravamento, selo e temporização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.3-intertravamento-selo-e-temporizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q453968",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q453976",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q453982",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q453985",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q453989",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q453991",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q453994",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q454008",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q454009",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q430252",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q431291",
+      "subtopics": [
+        {
+          "id": "10.3",
+          "title": "Intertravamento, selo e temporização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.3-intertravamento-selo-e-temporizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "CONTACTOR_NO_NC",
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q431575",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q431578",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q431643",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q408310",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q411628",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q411993",
+      "subtopics": [
+        {
+          "id": "10.3",
+          "title": "Intertravamento, selo e temporização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.3-intertravamento-selo-e-temporizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q422379",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q364389",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q364390",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q364393",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q364394",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q394946",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q394961",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q234019",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q234027",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q237306",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q186290",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q186297",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q186321",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q186333",
+      "subtopics": [
+        {
+          "id": "10.3",
+          "title": "Intertravamento, selo e temporização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.3-intertravamento-selo-e-temporizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q189069",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q189209",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q189219",
+      "subtopics": [
+        {
+          "id": "10.3",
+          "title": "Intertravamento, selo e temporização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.3-intertravamento-selo-e-temporizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q189226",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q189248",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q189253",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q189592",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q180444",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q180474",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q180773",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q180774",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q180775",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q180777",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q180787",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q180788",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q180793",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "KIRCHHOFF_KCL",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q182379",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q182404",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q182406",
+      "subtopics": [],
+      "family": "CONTACTOR_NO_NC",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q182408",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q182432",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q184160",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q184180",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q184182",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q184183",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    }
+  ]
+}

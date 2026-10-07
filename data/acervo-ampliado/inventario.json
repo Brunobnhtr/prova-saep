@@ -1,0 +1,2338 @@
+{
+  "resumo": {
+    "data": "2026-10-06",
+    "raiz": "C:\\dev\\extrator de perguntas",
+    "dossies": 93,
+    "figuras_dossies": 4080,
+    "questoes_ocorrencias": 9791,
+    "questoes_ids_distintos": 9791,
+    "ids_repetidos": [],
+    "index_total": 9791,
+    "index_ids_coincidem": true,
+    "enunciados_ausentes": 4,
+    "gabaritos_presentes": 0,
+    "gabaritos_ausentes": 9791,
+    "alternativas_por_quantidade": {
+      "5": 6215,
+      "4": 2545,
+      "2": 1031
+    },
+    "imagens_arquivo": 2861,
+    "referencias_imagens_ausentes": [
+      {
+        "codigo": "Q4209556",
+        "caminho": null,
+        "estado": "HTTP 403"
+      },
+      {
+        "codigo": "Q1218061",
+        "caminho": null,
+        "estado": "url sem nome de arquivo (imagem quebrada na origem)"
+      },
+      {
+        "codigo": "Q1218061",
+        "caminho": null,
+        "estado": "url sem nome de arquivo (imagem quebrada na origem)"
+      },
+      {
+        "codigo": "Q1218061",
+        "caminho": null,
+        "estado": "url sem nome de arquivo (imagem quebrada na origem)"
+      },
+      {
+        "codigo": "Q1218064",
+        "caminho": null,
+        "estado": "url sem nome de arquivo (imagem quebrada na origem)"
+      },
+      {
+        "codigo": "Q1218064",
+        "caminho": null,
+        "estado": "url sem nome de arquivo (imagem quebrada na origem)"
+      },
+      {
+        "codigo": "Q564451",
+        "caminho": null,
+        "estado": "url sem nome de arquivo (imagem quebrada na origem)"
+      }
+    ],
+    "questoes_com_mais_imgs_html_que_salvas": [
+      {
+        "codigo": "Q3854878",
+        "imagens_html": 1,
+        "imagens_salvas": 0
+      },
+      {
+        "codigo": "Q2443052",
+        "imagens_html": 2,
+        "imagens_salvas": 1
+      },
+      {
+        "codigo": "Q1718627",
+        "imagens_html": 1,
+        "imagens_salvas": 0
+      },
+      {
+        "codigo": "Q1718628",
+        "imagens_html": 1,
+        "imagens_salvas": 0
+      },
+      {
+        "codigo": "Q1718629",
+        "imagens_html": 1,
+        "imagens_salvas": 0
+      },
+      {
+        "codigo": "Q1718631",
+        "imagens_html": 1,
+        "imagens_salvas": 0
+      },
+      {
+        "codigo": "Q1240726",
+        "imagens_html": 1,
+        "imagens_salvas": 0
+      },
+      {
+        "codigo": "Q1629110",
+        "imagens_html": 1,
+        "imagens_salvas": 0
+      },
+      {
+        "codigo": "Q1629112",
+        "imagens_html": 1,
+        "imagens_salvas": 0
+      },
+      {
+        "codigo": "Q728291",
+        "imagens_html": 1,
+        "imagens_salvas": 0
+      },
+      {
+        "codigo": "Q728302",
+        "imagens_html": 2,
+        "imagens_salvas": 0
+      }
+    ],
+    "erros_registrados": 21,
+    "duplicatas_conteudo_candidatas": [],
+    "questoes_por_tema_md": 87,
+    "questoes_soma_por_tema": 9549,
+    "dossies_com_lacunas": 62,
+    "observacao": "Metadados e verificacao estrutural. Classificacao, gabaritos e pertinencia tecnica nao foram certificados. Identidade diferente nao garante enunciado distinto."
+  },
+  "dossies": [
+    {
+      "id": "0.1",
+      "tema": "Potência de dez e notação científica",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\0.1_potencia-de-dez-e-notacao-cientifica",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\0.1_potencia-de-dez-e-notacao-cientifica\\0.1_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\0.1_potencia-de-dez-e-notacao-cientifica\\0.1_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\0.1_potencia-de-dez-e-notacao-cientifica\\0.1_texto.md"
+      ],
+      "figuras": 27,
+      "fontes": 3,
+      "chaves_sem_fonte": [
+        "potencia de dez",
+        "notacao cientifica"
+      ],
+      "paginas_sem_texto": 0
+    },
+    {
+      "id": "0.2",
+      "tema": "Frações, decimais e proporção",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\0.2_fracoes-decimais-e-proporcao",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\0.2_fracoes-decimais-e-proporcao\\0.2_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\0.2_fracoes-decimais-e-proporcao\\0.2_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\0.2_fracoes-decimais-e-proporcao\\0.2_texto.md"
+      ],
+      "figuras": 21,
+      "fontes": 2,
+      "chaves_sem_fonte": [
+        "fracao",
+        "regra de tres",
+        "proporcao"
+      ],
+      "paginas_sem_texto": 0
+    },
+    {
+      "id": "0.3",
+      "tema": "Unidades de medida e o Sistema Internacional",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\0.3_unidades-de-medida-e-o-sistema-internaci",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\0.3_unidades-de-medida-e-o-sistema-internaci\\0.3_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\0.3_unidades-de-medida-e-o-sistema-internaci\\0.3_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\0.3_unidades-de-medida-e-o-sistema-internaci\\0.3_texto.md"
+      ],
+      "figuras": 28,
+      "fontes": 5,
+      "chaves_sem_fonte": [],
+      "paginas_sem_texto": 1
+    },
+    {
+      "id": "0.4",
+      "tema": "Grandezas da física que a eletricidade usa: força, energia e potência",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\0.4_grandezas-da-fisica-que-a-eletricidade-u",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\0.4_grandezas-da-fisica-que-a-eletricidade-u\\0.4_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\0.4_grandezas-da-fisica-que-a-eletricidade-u\\0.4_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\0.4_grandezas-da-fisica-que-a-eletricidade-u\\0.4_texto.md"
+      ],
+      "figuras": 28,
+      "fontes": 3,
+      "chaves_sem_fonte": [],
+      "paginas_sem_texto": 3
+    },
+    {
+      "id": "0.5",
+      "tema": "Equações do 1º grau: isolar o que você quer descobrir",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\0.5_equacoes-do-1o-grau-isolar-o-que-voce-qu",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\0.5_equacoes-do-1o-grau-isolar-o-que-voce-qu\\0.5_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\0.5_equacoes-do-1o-grau-isolar-o-que-voce-qu\\0.5_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\0.5_equacoes-do-1o-grau-isolar-o-que-voce-qu\\0.5_texto.md"
+      ],
+      "figuras": 32,
+      "fontes": 3,
+      "chaves_sem_fonte": [
+        "funcoes de 1"
+      ],
+      "paginas_sem_texto": 0
+    },
+    {
+      "id": "1.10",
+      "tema": "Ferramentas, emendas e conexões do eletricista",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\1.10_ferramentas-emendas-e-conexoes-do-eletri",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\1.10_ferramentas-emendas-e-conexoes-do-eletri\\1.10_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\1.10_ferramentas-emendas-e-conexoes-do-eletri\\1.10_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\1.10_ferramentas-emendas-e-conexoes-do-eletri\\1.10_texto.md"
+      ],
+      "figuras": 188,
+      "fontes": 7,
+      "chaves_sem_fonte": [
+        "ferramentas do eletricista",
+        "ferramentas utilizadas",
+        "chave de fenda",
+        "chave philips",
+        "chave de teste",
+        "alicate universal",
+        "alicate de corte",
+        "alicate de bico",
+        "furadeira",
+        "emenda de condutor",
+        "terminais pre-isolados",
+        "crimpar"
+      ],
+      "paginas_sem_texto": 4
+    },
+    {
+      "id": "1.1",
+      "tema": "Estrutura da matéria, carga elétrica e eletrização",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\1.1_estrutura-da-materia-carga-eletrica-e-el",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\1.1_estrutura-da-materia-carga-eletrica-e-el\\1.1_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\1.1_estrutura-da-materia-carga-eletrica-e-el\\1.1_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\1.1_estrutura-da-materia-carga-eletrica-e-el\\1.1_texto.md"
+      ],
+      "figuras": 78,
+      "fontes": 7,
+      "chaves_sem_fonte": [],
+      "paginas_sem_texto": 0
+    },
+    {
+      "id": "1.2",
+      "tema": "Grandezas, unidades do SI, prefixos e notação científica",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\1.2_grandezas-unidades-do-si-prefixos-e-nota",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\1.2_grandezas-unidades-do-si-prefixos-e-nota\\1.2_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\1.2_grandezas-unidades-do-si-prefixos-e-nota\\1.2_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\1.2_grandezas-unidades-do-si-prefixos-e-nota\\1.2_texto.md"
+      ],
+      "figuras": 122,
+      "fontes": 14,
+      "chaves_sem_fonte": [
+        "notacao cientifica"
+      ],
+      "paginas_sem_texto": 5
+    },
+    {
+      "id": "1.3",
+      "tema": "Tensão elétrica (DDP)",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\1.3_tensao-eletrica-ddp",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\1.3_tensao-eletrica-ddp\\1.3_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\1.3_tensao-eletrica-ddp\\1.3_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\1.3_tensao-eletrica-ddp\\1.3_texto.md"
+      ],
+      "figuras": 18,
+      "fontes": 5,
+      "chaves_sem_fonte": [
+        "ddp",
+        "forca eletromotriz"
+      ],
+      "paginas_sem_texto": 0
+    },
+    {
+      "id": "1.4",
+      "tema": "Corrente elétrica",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\1.4_corrente-eletrica",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\1.4_corrente-eletrica\\1.4_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\1.4_corrente-eletrica\\1.4_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\1.4_corrente-eletrica\\1.4_texto.md"
+      ],
+      "figuras": 38,
+      "fontes": 6,
+      "chaves_sem_fonte": [],
+      "paginas_sem_texto": 7
+    },
+    {
+      "id": "1.5",
+      "tema": "Resistência elétrica e resistividade",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\1.5_resistencia-eletrica-e-resistividade",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\1.5_resistencia-eletrica-e-resistividade\\1.5_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\1.5_resistencia-eletrica-e-resistividade\\1.5_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\1.5_resistencia-eletrica-e-resistividade\\1.5_texto.md"
+      ],
+      "figuras": 25,
+      "fontes": 7,
+      "chaves_sem_fonte": [],
+      "paginas_sem_texto": 0
+    },
+    {
+      "id": "1.6",
+      "tema": "Condutores, isolantes e materiais elétricos",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\1.6_condutores-isolantes-e-materiais-eletric",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\1.6_condutores-isolantes-e-materiais-eletric\\1.6_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\1.6_condutores-isolantes-e-materiais-eletric\\1.6_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\1.6_condutores-isolantes-e-materiais-eletric\\1.6_texto.md"
+      ],
+      "figuras": 86,
+      "fontes": 8,
+      "chaves_sem_fonte": [],
+      "paginas_sem_texto": 4
+    },
+    {
+      "id": "1.7",
+      "tema": "O circuito elétrico: aberto, fechado e curto-circuito",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\1.7_o-circuito-eletrico-aberto-fechado-e-cur",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\1.7_o-circuito-eletrico-aberto-fechado-e-cur\\1.7_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\1.7_o-circuito-eletrico-aberto-fechado-e-cur\\1.7_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\1.7_o-circuito-eletrico-aberto-fechado-e-cur\\1.7_texto.md"
+      ],
+      "figuras": 45,
+      "fontes": 6,
+      "chaves_sem_fonte": [
+        "circuito aberto",
+        "circuito fechado"
+      ],
+      "paginas_sem_texto": 5
+    },
+    {
+      "id": "1.8",
+      "tema": "Simbologia e leitura de esquemas elétricos",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\1.8_simbologia-e-leitura-de-esquemas-eletric",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\1.8_simbologia-e-leitura-de-esquemas-eletric\\1.8_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\1.8_simbologia-e-leitura-de-esquemas-eletric\\1.8_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\1.8_simbologia-e-leitura-de-esquemas-eletric\\1.8_texto.md"
+      ],
+      "figuras": 126,
+      "fontes": 5,
+      "chaves_sem_fonte": [
+        "leitura de esquema"
+      ],
+      "paginas_sem_texto": 9
+    },
+    {
+      "id": "1.9",
+      "tema": "Fontes de energia e geração",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\1.9_fontes-de-energia-e-geracao",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\1.9_fontes-de-energia-e-geracao\\1.9_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\1.9_fontes-de-energia-e-geracao\\1.9_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\1.9_fontes-de-energia-e-geracao\\1.9_texto.md"
+      ],
+      "figuras": 59,
+      "fontes": 6,
+      "chaves_sem_fonte": [
+        "pilhas",
+        "baterias"
+      ],
+      "paginas_sem_texto": 5
+    },
+    {
+      "id": "10.1",
+      "tema": "Dispositivos de comando e proteção de motores",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\10.1_dispositivos-de-comando-e-protecao-de-mo",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\10.1_dispositivos-de-comando-e-protecao-de-mo\\10.1_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\10.1_dispositivos-de-comando-e-protecao-de-mo\\10.1_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\10.1_dispositivos-de-comando-e-protecao-de-mo\\10.1_texto.md"
+      ],
+      "figuras": 60,
+      "fontes": 13,
+      "chaves_sem_fonte": [
+        "rele termico",
+        "chave seccionadora"
+      ],
+      "paginas_sem_texto": 1
+    },
+    {
+      "id": "10.2",
+      "tema": "Diagramas de comando e força",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\10.2_diagramas-de-comando-e-forca",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\10.2_diagramas-de-comando-e-forca\\10.2_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\10.2_diagramas-de-comando-e-forca\\10.2_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\10.2_diagramas-de-comando-e-forca\\10.2_texto.md"
+      ],
+      "figuras": 12,
+      "fontes": 8,
+      "chaves_sem_fonte": [
+        "diagrama de forca"
+      ],
+      "paginas_sem_texto": 2
+    },
+    {
+      "id": "10.3",
+      "tema": "Intertravamento, selo e temporização",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\10.3_intertravamento-selo-e-temporizacao",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\10.3_intertravamento-selo-e-temporizacao\\10.3_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\10.3_intertravamento-selo-e-temporizacao\\10.3_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\10.3_intertravamento-selo-e-temporizacao\\10.3_texto.md"
+      ],
+      "figuras": 116,
+      "fontes": 12,
+      "chaves_sem_fonte": [
+        "contato de selo",
+        "rele de tempo",
+        "reversao"
+      ],
+      "paginas_sem_texto": 3
+    },
+    {
+      "id": "10.4",
+      "tema": "Partidas de motores: direta, reversora, estrela-triângulo",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\10.4_partidas-de-motores-direta-reversora-est",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\10.4_partidas-de-motores-direta-reversora-est\\10.4_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\10.4_partidas-de-motores-direta-reversora-est\\10.4_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\10.4_partidas-de-motores-direta-reversora-est\\10.4_texto.md"
+      ],
+      "figuras": 91,
+      "fontes": 7,
+      "chaves_sem_fonte": [
+        "chave de partida",
+        "reversora"
+      ],
+      "paginas_sem_texto": 3
+    },
+    {
+      "id": "10.5",
+      "tema": "Inversor de frequência",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\10.5_inversor-de-frequencia",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\10.5_inversor-de-frequencia\\10.5_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\10.5_inversor-de-frequencia\\10.5_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\10.5_inversor-de-frequencia\\10.5_texto.md"
+      ],
+      "figuras": 54,
+      "fontes": 3,
+      "chaves_sem_fonte": [
+        "variacao de velocidade",
+        "conversor de frequencia"
+      ],
+      "paginas_sem_texto": 2
+    },
+    {
+      "id": "10.6",
+      "tema": "CLP e linguagem ladder",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\10.6_clp-e-linguagem-ladder",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\10.6_clp-e-linguagem-ladder\\10.6_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\10.6_clp-e-linguagem-ladder\\10.6_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\10.6_clp-e-linguagem-ladder\\10.6_texto.md"
+      ],
+      "figuras": 25,
+      "fontes": 6,
+      "chaves_sem_fonte": [
+        "clp",
+        "controlador logico",
+        "ladder"
+      ],
+      "paginas_sem_texto": 6
+    },
+    {
+      "id": "11.1",
+      "tema": "Aterramento: malha, haste e resistência de terra",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\11.1_aterramento-malha-haste-e-resistencia-de",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\11.1_aterramento-malha-haste-e-resistencia-de\\11.1_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\11.1_aterramento-malha-haste-e-resistencia-de\\11.1_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\11.1_aterramento-malha-haste-e-resistencia-de\\11.1_texto.md"
+      ],
+      "figuras": 22,
+      "fontes": 3,
+      "chaves_sem_fonte": [
+        "malha de terra",
+        "resistencia de aterramento"
+      ],
+      "paginas_sem_texto": 2
+    },
+    {
+      "id": "11.2",
+      "tema": "Equipotencialização",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\11.2_equipotencializacao",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\11.2_equipotencializacao\\11.2_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\11.2_equipotencializacao\\11.2_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\11.2_equipotencializacao\\11.2_texto.md"
+      ],
+      "figuras": 2,
+      "fontes": 1,
+      "chaves_sem_fonte": [
+        "barramento de equipotencial"
+      ],
+      "paginas_sem_texto": 0
+    },
+    {
+      "id": "11.3",
+      "tema": "SPDA (NBR 5419)",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\11.3_spda-nbr-5419",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\11.3_spda-nbr-5419\\11.3_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\11.3_spda-nbr-5419\\11.3_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\11.3_spda-nbr-5419\\11.3_texto.md"
+      ],
+      "figuras": 68,
+      "fontes": 5,
+      "chaves_sem_fonte": [
+        "spda",
+        "nbr 5419"
+      ],
+      "paginas_sem_texto": 5
+    },
+    {
+      "id": "12.10",
+      "tema": "Instalações prediais e industriais",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\12.10_instalacoes-prediais-e-industriais",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\12.10_instalacoes-prediais-e-industriais\\12.10_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\12.10_instalacoes-prediais-e-industriais\\12.10_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\12.10_instalacoes-prediais-e-industriais\\12.10_texto.md"
+      ],
+      "figuras": 67,
+      "fontes": 1,
+      "chaves_sem_fonte": [
+        "instalacoes prediais",
+        "instalacoes industriais",
+        "instalacao predial",
+        "instalacao industrial"
+      ],
+      "paginas_sem_texto": 2
+    },
+    {
+      "id": "12.1",
+      "tema": "Projeto elétrico, simbologia e previsão de cargas",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\12.1_projeto-eletrico-simbologia-e-previsao-d",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\12.1_projeto-eletrico-simbologia-e-previsao-d\\12.1_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\12.1_projeto-eletrico-simbologia-e-previsao-d\\12.1_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\12.1_projeto-eletrico-simbologia-e-previsao-d\\12.1_texto.md"
+      ],
+      "figuras": 71,
+      "fontes": 7,
+      "chaves_sem_fonte": [
+        "previsao de carga",
+        "levantamento de carga",
+        "nbr 5410"
+      ],
+      "paginas_sem_texto": 7
+    },
+    {
+      "id": "12.2",
+      "tema": "Fator de demanda e diversidade",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\12.2_fator-de-demanda-e-diversidade",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\12.2_fator-de-demanda-e-diversidade\\12.2_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\12.2_fator-de-demanda-e-diversidade\\12.2_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\12.2_fator-de-demanda-e-diversidade\\12.2_texto.md"
+      ],
+      "figuras": 9,
+      "fontes": 4,
+      "chaves_sem_fonte": [
+        "diversidade"
+      ],
+      "paginas_sem_texto": 2
+    },
+    {
+      "id": "12.3",
+      "tema": "Divisão de circuitos e quadro de distribuição",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\12.3_divisao-de-circuitos-e-quadro-de-distrib",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\12.3_divisao-de-circuitos-e-quadro-de-distrib\\12.3_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\12.3_divisao-de-circuitos-e-quadro-de-distrib\\12.3_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\12.3_divisao-de-circuitos-e-quadro-de-distrib\\12.3_texto.md"
+      ],
+      "figuras": 11,
+      "fontes": 2,
+      "chaves_sem_fonte": [
+        "divisao de circuitos",
+        "quadro terminal",
+        "circuito terminal"
+      ],
+      "paginas_sem_texto": 0
+    },
+    {
+      "id": "12.4",
+      "tema": "Dimensionamento de condutores",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\12.4_dimensionamento-de-condutores",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\12.4_dimensionamento-de-condutores\\12.4_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\12.4_dimensionamento-de-condutores\\12.4_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\12.4_dimensionamento-de-condutores\\12.4_texto.md"
+      ],
+      "figuras": 85,
+      "fontes": 8,
+      "chaves_sem_fonte": [
+        "secao do condutor",
+        "bitola"
+      ],
+      "paginas_sem_texto": 4
+    },
+    {
+      "id": "12.5",
+      "tema": "Curto-circuito e correntes de falta",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\12.5_curto-circuito-e-correntes-de-falta",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\12.5_curto-circuito-e-correntes-de-falta\\12.5_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\12.5_curto-circuito-e-correntes-de-falta\\12.5_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\12.5_curto-circuito-e-correntes-de-falta\\12.5_texto.md"
+      ],
+      "figuras": 3,
+      "fontes": 3,
+      "chaves_sem_fonte": [
+        "curto circuito",
+        "corrente de falta",
+        "icc"
+      ],
+      "paginas_sem_texto": 0
+    },
+    {
+      "id": "12.6",
+      "tema": "Proteção: disjuntores, fusíveis, DR e DPS",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\12.6_protecao-disjuntores-fusiveis-dr-e-dps",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\12.6_protecao-disjuntores-fusiveis-dr-e-dps\\12.6_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\12.6_protecao-disjuntores-fusiveis-dr-e-dps\\12.6_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\12.6_protecao-disjuntores-fusiveis-dr-e-dps\\12.6_texto.md"
+      ],
+      "figuras": 50,
+      "fontes": 10,
+      "chaves_sem_fonte": [
+        "dps"
+      ],
+      "paginas_sem_texto": 2
+    },
+    {
+      "id": "12.7",
+      "tema": "Esquemas de aterramento TN, TT e IT",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\12.7_esquemas-de-aterramento-tn-tt-e-it",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\12.7_esquemas-de-aterramento-tn-tt-e-it\\12.7_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\12.7_esquemas-de-aterramento-tn-tt-e-it\\12.7_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\12.7_esquemas-de-aterramento-tn-tt-e-it\\12.7_texto.md"
+      ],
+      "figuras": 4,
+      "fontes": 2,
+      "chaves_sem_fonte": [
+        "esquema de aterramento"
+      ],
+      "paginas_sem_texto": 0
+    },
+    {
+      "id": "12.8",
+      "tema": "Eletrodutos, canaletas e infraestrutura",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\12.8_eletrodutos-canaletas-e-infraestrutura",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\12.8_eletrodutos-canaletas-e-infraestrutura\\12.8_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\12.8_eletrodutos-canaletas-e-infraestrutura\\12.8_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\12.8_eletrodutos-canaletas-e-infraestrutura\\12.8_texto.md"
+      ],
+      "figuras": 38,
+      "fontes": 6,
+      "chaves_sem_fonte": [
+        "bandeja",
+        "leito"
+      ],
+      "paginas_sem_texto": 1
+    },
+    {
+      "id": "12.9",
+      "tema": "Luminotécnica",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\12.9_luminotecnica",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\12.9_luminotecnica\\12.9_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\12.9_luminotecnica\\12.9_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\12.9_luminotecnica\\12.9_texto.md"
+      ],
+      "figuras": 63,
+      "fontes": 6,
+      "chaves_sem_fonte": [
+        "luminotecnica",
+        "iluminamento",
+        "fluxo luminoso"
+      ],
+      "paginas_sem_texto": 9
+    },
+    {
+      "id": "13.1",
+      "tema": "Geração, transmissão e distribuição",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\13.1_geracao-transmissao-e-distribuicao",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\13.1_geracao-transmissao-e-distribuicao\\13.1_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\13.1_geracao-transmissao-e-distribuicao\\13.1_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\13.1_geracao-transmissao-e-distribuicao\\13.1_texto.md"
+      ],
+      "figuras": 87,
+      "fontes": 8,
+      "chaves_sem_fonte": [
+        "sep",
+        "linha de transmissao"
+      ],
+      "paginas_sem_texto": 6
+    },
+    {
+      "id": "13.2",
+      "tema": "Subestações e seus equipamentos",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\13.2_subestacoes-e-seus-equipamentos",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\13.2_subestacoes-e-seus-equipamentos\\13.2_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\13.2_subestacoes-e-seus-equipamentos\\13.2_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\13.2_subestacoes-e-seus-equipamentos\\13.2_texto.md"
+      ],
+      "figuras": 34,
+      "fontes": 4,
+      "chaves_sem_fonte": [
+        "disjuntor de alta",
+        "para-raios de linha"
+      ],
+      "paginas_sem_texto": 1
+    },
+    {
+      "id": "13.3",
+      "tema": "Redes de distribuição aérea e subterrânea",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\13.3_redes-de-distribuicao-aerea-e-subterrane",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\13.3_redes-de-distribuicao-aerea-e-subterrane\\13.3_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\13.3_redes-de-distribuicao-aerea-e-subterrane\\13.3_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\13.3_redes-de-distribuicao-aerea-e-subterrane\\13.3_texto.md"
+      ],
+      "figuras": 48,
+      "fontes": 9,
+      "chaves_sem_fonte": [
+        "rede aerea",
+        "rede subterranea"
+      ],
+      "paginas_sem_texto": 1
+    },
+    {
+      "id": "13.4",
+      "tema": "Proteção de sistemas e relés",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\13.4_protecao-de-sistemas-e-reles",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\13.4_protecao-de-sistemas-e-reles\\13.4_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\13.4_protecao-de-sistemas-e-reles\\13.4_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\13.4_protecao-de-sistemas-e-reles\\13.4_texto.md"
+      ],
+      "figuras": 11,
+      "fontes": 4,
+      "chaves_sem_fonte": [
+        "rele de protecao",
+        "seletividade"
+      ],
+      "paginas_sem_texto": 2
+    },
+    {
+      "id": "14.1",
+      "tema": "Tipos de manutenção: corretiva, preventiva e preditiva",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\14.1_tipos-de-manutencao-corretiva-preventiva",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\14.1_tipos-de-manutencao-corretiva-preventiva\\14.1_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\14.1_tipos-de-manutencao-corretiva-preventiva\\14.1_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\14.1_tipos-de-manutencao-corretiva-preventiva\\14.1_texto.md"
+      ],
+      "figuras": 58,
+      "fontes": 7,
+      "chaves_sem_fonte": [
+        "gestao da manutencao"
+      ],
+      "paginas_sem_texto": 9
+    },
+    {
+      "id": "14.2",
+      "tema": "Técnicas preditivas: termografia e vibração",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\14.2_tecnicas-preditivas-termografia-e-vibrac",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\14.2_tecnicas-preditivas-termografia-e-vibrac\\14.2_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\14.2_tecnicas-preditivas-termografia-e-vibrac\\14.2_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\14.2_tecnicas-preditivas-termografia-e-vibrac\\14.2_texto.md"
+      ],
+      "figuras": 5,
+      "fontes": 2,
+      "chaves_sem_fonte": [
+        "termografia",
+        "vibracao",
+        "analise de oleo"
+      ],
+      "paginas_sem_texto": 3
+    },
+    {
+      "id": "14.3",
+      "tema": "Eficiência energética e tarifação",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\14.3_eficiencia-energetica-e-tarifacao",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\14.3_eficiencia-energetica-e-tarifacao\\14.3_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\14.3_eficiencia-energetica-e-tarifacao\\14.3_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\14.3_eficiencia-energetica-e-tarifacao\\14.3_texto.md"
+      ],
+      "figuras": 15,
+      "fontes": 5,
+      "chaves_sem_fonte": [],
+      "paginas_sem_texto": 4
+    },
+    {
+      "id": "2.1",
+      "tema": "Lei de Ohm",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\2.1_lei-de-ohm",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\2.1_lei-de-ohm\\2.1_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\2.1_lei-de-ohm\\2.1_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\2.1_lei-de-ohm\\2.1_texto.md"
+      ],
+      "figuras": 58,
+      "fontes": 5,
+      "chaves_sem_fonte": [],
+      "paginas_sem_texto": 2
+    },
+    {
+      "id": "2.2",
+      "tema": "Resistores: tipos, código de cores e especificação",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\2.2_resistores-tipos-codigo-de-cores-e-espec",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\2.2_resistores-tipos-codigo-de-cores-e-espec\\2.2_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\2.2_resistores-tipos-codigo-de-cores-e-espec\\2.2_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\2.2_resistores-tipos-codigo-de-cores-e-espec\\2.2_texto.md"
+      ],
+      "figuras": 48,
+      "fontes": 7,
+      "chaves_sem_fonte": [],
+      "paginas_sem_texto": 2
+    },
+    {
+      "id": "2.3",
+      "tema": "Associação de resistores: série, paralelo e mista",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\2.3_associacao-de-resistores-serie-paralelo",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\2.3_associacao-de-resistores-serie-paralelo\\2.3_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\2.3_associacao-de-resistores-serie-paralelo\\2.3_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\2.3_associacao-de-resistores-serie-paralelo\\2.3_texto.md"
+      ],
+      "figuras": 100,
+      "fontes": 9,
+      "chaves_sem_fonte": [],
+      "paginas_sem_texto": 6
+    },
+    {
+      "id": "2.4",
+      "tema": "Divisor de tensão e divisor de corrente",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\2.4_divisor-de-tensao-e-divisor-de-corrente",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\2.4_divisor-de-tensao-e-divisor-de-corrente\\2.4_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\2.4_divisor-de-tensao-e-divisor-de-corrente\\2.4_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\2.4_divisor-de-tensao-e-divisor-de-corrente\\2.4_texto.md"
+      ],
+      "figuras": 5,
+      "fontes": 2,
+      "chaves_sem_fonte": [
+        "divisor de tensao"
+      ],
+      "paginas_sem_texto": 0
+    },
+    {
+      "id": "2.5",
+      "tema": "Potência, energia e Lei de Joule em CC",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\2.5_potencia-energia-e-lei-de-joule-em-cc",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\2.5_potencia-energia-e-lei-de-joule-em-cc\\2.5_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\2.5_potencia-energia-e-lei-de-joule-em-cc\\2.5_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\2.5_potencia-energia-e-lei-de-joule-em-cc\\2.5_texto.md"
+      ],
+      "figuras": 30,
+      "fontes": 11,
+      "chaves_sem_fonte": [],
+      "paginas_sem_texto": 8
+    },
+    {
+      "id": "2.6",
+      "tema": "Leis de Kirchhoff",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\2.6_leis-de-kirchhoff",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\2.6_leis-de-kirchhoff\\2.6_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\2.6_leis-de-kirchhoff\\2.6_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\2.6_leis-de-kirchhoff\\2.6_texto.md"
+      ],
+      "figuras": 42,
+      "fontes": 2,
+      "chaves_sem_fonte": [],
+      "paginas_sem_texto": 6
+    },
+    {
+      "id": "2.7",
+      "tema": "Teoremas: superposição, Thévenin, Norton e máxima transferência",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\2.7_teoremas-superposicao-thevenin-norton-e",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\2.7_teoremas-superposicao-thevenin-norton-e\\2.7_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\2.7_teoremas-superposicao-thevenin-norton-e\\2.7_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\2.7_teoremas-superposicao-thevenin-norton-e\\2.7_texto.md"
+      ],
+      "figuras": 56,
+      "fontes": 6,
+      "chaves_sem_fonte": [],
+      "paginas_sem_texto": 5
+    },
+    {
+      "id": "2.8",
+      "tema": "Ponte de Wheatstone",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\2.8_ponte-de-wheatstone",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\2.8_ponte-de-wheatstone\\2.8_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\2.8_ponte-de-wheatstone\\2.8_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\2.8_ponte-de-wheatstone\\2.8_texto.md"
+      ],
+      "figuras": 8,
+      "fontes": 2,
+      "chaves_sem_fonte": [],
+      "paginas_sem_texto": 7
+    },
+    {
+      "id": "3.1",
+      "tema": "Instrumentos analógicos e digitais",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\3.1_instrumentos-analogicos-e-digitais",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\3.1_instrumentos-analogicos-e-digitais\\3.1_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\3.1_instrumentos-analogicos-e-digitais\\3.1_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\3.1_instrumentos-analogicos-e-digitais\\3.1_texto.md"
+      ],
+      "figuras": 97,
+      "fontes": 7,
+      "chaves_sem_fonte": [],
+      "paginas_sem_texto": 12
+    },
+    {
+      "id": "3.2",
+      "tema": "Amperímetro, voltímetro, ohmímetro e multímetro",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\3.2_amperimetro-voltimetro-ohmimetro-e-multi",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\3.2_amperimetro-voltimetro-ohmimetro-e-multi\\3.2_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\3.2_amperimetro-voltimetro-ohmimetro-e-multi\\3.2_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\3.2_amperimetro-voltimetro-ohmimetro-e-multi\\3.2_texto.md"
+      ],
+      "figuras": 47,
+      "fontes": 11,
+      "chaves_sem_fonte": [],
+      "paginas_sem_texto": 5
+    },
+    {
+      "id": "3.3",
+      "tema": "Erros de medição e classe de exatidão",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\3.3_erros-de-medicao-e-classe-de-exatidao",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\3.3_erros-de-medicao-e-classe-de-exatidao\\3.3_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\3.3_erros-de-medicao-e-classe-de-exatidao\\3.3_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\3.3_erros-de-medicao-e-classe-de-exatidao\\3.3_texto.md"
+      ],
+      "figuras": 91,
+      "fontes": 7,
+      "chaves_sem_fonte": [
+        "incerteza",
+        "erro de medicao"
+      ],
+      "paginas_sem_texto": 8
+    },
+    {
+      "id": "3.4",
+      "tema": "Megôhmetro, terrômetro e alicate amperímetro",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\3.4_megohmetro-terrometro-e-alicate-amperime",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\3.4_megohmetro-terrometro-e-alicate-amperime\\3.4_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\3.4_megohmetro-terrometro-e-alicate-amperime\\3.4_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\3.4_megohmetro-terrometro-e-alicate-amperime\\3.4_texto.md"
+      ],
+      "figuras": 8,
+      "fontes": 3,
+      "chaves_sem_fonte": [
+        "megometro",
+        "terrometro"
+      ],
+      "paginas_sem_texto": 4
+    },
+    {
+      "id": "3.5",
+      "tema": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\3.5_sensores-e-instrumentacao-industrial-tem",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\3.5_sensores-e-instrumentacao-industrial-tem\\3.5_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\3.5_sensores-e-instrumentacao-industrial-tem\\3.5_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\3.5_sensores-e-instrumentacao-industrial-tem\\3.5_texto.md"
+      ],
+      "figuras": 100,
+      "fontes": 6,
+      "chaves_sem_fonte": [
+        "termoresistencia",
+        "medicao de nivel",
+        "medicao de vazao"
+      ],
+      "paginas_sem_texto": 5
+    },
+    {
+      "id": "4.1",
+      "tema": "Choque elétrico, arco elétrico e efeitos fisiológicos",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\4.1_choque-eletrico-arco-eletrico-e-efeitos",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\4.1_choque-eletrico-arco-eletrico-e-efeitos\\4.1_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\4.1_choque-eletrico-arco-eletrico-e-efeitos\\4.1_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\4.1_choque-eletrico-arco-eletrico-e-efeitos\\4.1_texto.md"
+      ],
+      "figuras": 18,
+      "fontes": 3,
+      "chaves_sem_fonte": [
+        "efeitos fisiologicos",
+        "percurso da corrente",
+        "fibrilacao"
+      ],
+      "paginas_sem_texto": 1
+    },
+    {
+      "id": "4.2",
+      "tema": "NR-10: riscos e medidas de controle",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\4.2_nr-10-riscos-e-medidas-de-controle",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\4.2_nr-10-riscos-e-medidas-de-controle\\4.2_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\4.2_nr-10-riscos-e-medidas-de-controle\\4.2_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\4.2_nr-10-riscos-e-medidas-de-controle\\4.2_texto.md"
+      ],
+      "figuras": 31,
+      "fontes": 4,
+      "chaves_sem_fonte": [
+        "nr 10",
+        "nr-10",
+        "seguranca em eletricidade"
+      ],
+      "paginas_sem_texto": 10
+    },
+    {
+      "id": "4.3",
+      "tema": "EPI e EPC",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\4.3_epi-e-epc",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\4.3_epi-e-epc\\4.3_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\4.3_epi-e-epc\\4.3_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\4.3_epi-e-epc\\4.3_texto.md"
+      ],
+      "figuras": 51,
+      "fontes": 4,
+      "chaves_sem_fonte": [
+        "vestimenta"
+      ],
+      "paginas_sem_texto": 3
+    },
+    {
+      "id": "4.4",
+      "tema": "Desenergização e reenergização",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\4.4_desenergizacao-e-reenergizacao",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\4.4_desenergizacao-e-reenergizacao\\4.4_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\4.4_desenergizacao-e-reenergizacao\\4.4_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\4.4_desenergizacao-e-reenergizacao\\4.4_texto.md"
+      ],
+      "figuras": 15,
+      "fontes": 6,
+      "chaves_sem_fonte": [
+        "reenergizacao"
+      ],
+      "paginas_sem_texto": 1
+    },
+    {
+      "id": "4.5",
+      "tema": "Primeiros socorros e combate a incêndio",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\4.5_primeiros-socorros-e-combate-a-incendio",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\4.5_primeiros-socorros-e-combate-a-incendio\\4.5_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\4.5_primeiros-socorros-e-combate-a-incendio\\4.5_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\4.5_primeiros-socorros-e-combate-a-incendio\\4.5_texto.md"
+      ],
+      "figuras": 20,
+      "fontes": 3,
+      "chaves_sem_fonte": [
+        "rcp"
+      ],
+      "paginas_sem_texto": 1
+    },
+    {
+      "id": "4.6",
+      "tema": "Normas correlatas: NR-6, NR-12 e NR-35",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\4.6_normas-correlatas-nr-6-nr-12-e-nr-35",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\4.6_normas-correlatas-nr-6-nr-12-e-nr-35\\4.6_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\4.6_normas-correlatas-nr-6-nr-12-e-nr-35\\4.6_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\4.6_normas-correlatas-nr-6-nr-12-e-nr-35\\4.6_texto.md"
+      ],
+      "figuras": 56,
+      "fontes": 4,
+      "chaves_sem_fonte": [
+        "nr 6",
+        "nr-6",
+        "nr 12",
+        "nr-12",
+        "nr 35",
+        "nr-35"
+      ],
+      "paginas_sem_texto": 10
+    },
+    {
+      "id": "5.1",
+      "tema": "Ímãs, campo magnético e fluxo",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\5.1_imas-campo-magnetico-e-fluxo",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\5.1_imas-campo-magnetico-e-fluxo\\5.1_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\5.1_imas-campo-magnetico-e-fluxo\\5.1_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\5.1_imas-campo-magnetico-e-fluxo\\5.1_texto.md"
+      ],
+      "figuras": 33,
+      "fontes": 8,
+      "chaves_sem_fonte": [],
+      "paginas_sem_texto": 0
+    },
+    {
+      "id": "5.2",
+      "tema": "Eletromagnetismo: condutor, espira e solenoide",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\5.2_eletromagnetismo-condutor-espira-e-solen",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\5.2_eletromagnetismo-condutor-espira-e-solen\\5.2_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\5.2_eletromagnetismo-condutor-espira-e-solen\\5.2_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\5.2_eletromagnetismo-condutor-espira-e-solen\\5.2_texto.md"
+      ],
+      "figuras": 18,
+      "fontes": 5,
+      "chaves_sem_fonte": [
+        "espira",
+        "solenoide"
+      ],
+      "paginas_sem_texto": 0
+    },
+    {
+      "id": "5.3",
+      "tema": "Leis de Faraday, Lenz e Lorentz",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\5.3_leis-de-faraday-lenz-e-lorentz",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\5.3_leis-de-faraday-lenz-e-lorentz\\5.3_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\5.3_leis-de-faraday-lenz-e-lorentz\\5.3_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\5.3_leis-de-faraday-lenz-e-lorentz\\5.3_texto.md"
+      ],
+      "figuras": 13,
+      "fontes": 3,
+      "chaves_sem_fonte": [
+        "forca magnetica"
+      ],
+      "paginas_sem_texto": 1
+    },
+    {
+      "id": "5.4",
+      "tema": "Circuitos magnéticos e histerese",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\5.4_circuitos-magneticos-e-histerese",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\5.4_circuitos-magneticos-e-histerese\\5.4_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\5.4_circuitos-magneticos-e-histerese\\5.4_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\5.4_circuitos-magneticos-e-histerese\\5.4_texto.md"
+      ],
+      "figuras": 4,
+      "fontes": 2,
+      "chaves_sem_fonte": [
+        "circuito magnetico",
+        "histerese"
+      ],
+      "paginas_sem_texto": 2
+    },
+    {
+      "id": "6.1",
+      "tema": "Capacitor, capacitância e associação",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\6.1_capacitor-capacitancia-e-associacao",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\6.1_capacitor-capacitancia-e-associacao\\6.1_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\6.1_capacitor-capacitancia-e-associacao\\6.1_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\6.1_capacitor-capacitancia-e-associacao\\6.1_texto.md"
+      ],
+      "figuras": 68,
+      "fontes": 5,
+      "chaves_sem_fonte": [],
+      "paginas_sem_texto": 1
+    },
+    {
+      "id": "6.2",
+      "tema": "Carga e descarga do capacitor; constante de tempo",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\6.2_carga-e-descarga-do-capacitor-constante",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\6.2_carga-e-descarga-do-capacitor-constante\\6.2_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\6.2_carga-e-descarga-do-capacitor-constante\\6.2_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\6.2_carga-e-descarga-do-capacitor-constante\\6.2_texto.md"
+      ],
+      "figuras": 18,
+      "fontes": 5,
+      "chaves_sem_fonte": [],
+      "paginas_sem_texto": 0
+    },
+    {
+      "id": "6.3",
+      "tema": "Indutor, indutância e associação",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\6.3_indutor-indutancia-e-associacao",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\6.3_indutor-indutancia-e-associacao\\6.3_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\6.3_indutor-indutancia-e-associacao\\6.3_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\6.3_indutor-indutancia-e-associacao\\6.3_texto.md"
+      ],
+      "figuras": 68,
+      "fontes": 6,
+      "chaves_sem_fonte": [],
+      "paginas_sem_texto": 3
+    },
+    {
+      "id": "6.4",
+      "tema": "Autoindução e comportamento do indutor em CC",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\6.4_autoinducao-e-comportamento-do-indutor-e",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\6.4_autoinducao-e-comportamento-do-indutor-e\\6.4_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\6.4_autoinducao-e-comportamento-do-indutor-e\\6.4_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\6.4_autoinducao-e-comportamento-do-indutor-e\\6.4_texto.md"
+      ],
+      "figuras": 10,
+      "fontes": 6,
+      "chaves_sem_fonte": [],
+      "paginas_sem_texto": 3
+    },
+    {
+      "id": "7.10",
+      "tema": "Sistemas trifásicos: estrela e triângulo",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\7.10_sistemas-trifasicos-estrela-e-triangulo",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\7.10_sistemas-trifasicos-estrela-e-triangulo\\7.10_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\7.10_sistemas-trifasicos-estrela-e-triangulo\\7.10_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\7.10_sistemas-trifasicos-estrela-e-triangulo\\7.10_texto.md"
+      ],
+      "figuras": 18,
+      "fontes": 3,
+      "chaves_sem_fonte": [
+        "sistema trifasico",
+        "tensao de linha",
+        "tensao de fase"
+      ],
+      "paginas_sem_texto": 0
+    },
+    {
+      "id": "7.11",
+      "tema": "Wattímetro, cossifímetro e medidor de energia",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\7.11_wattimetro-cossifimetro-e-medidor-de-ene",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\7.11_wattimetro-cossifimetro-e-medidor-de-ene\\7.11_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\7.11_wattimetro-cossifimetro-e-medidor-de-ene\\7.11_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\7.11_wattimetro-cossifimetro-e-medidor-de-ene\\7.11_texto.md"
+      ],
+      "figuras": 5,
+      "fontes": 1,
+      "chaves_sem_fonte": [],
+      "paginas_sem_texto": 2
+    },
+    {
+      "id": "7.12",
+      "tema": "Padronização de tensões (EBT, BT, MT e AT)",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\7.12_padronizacao-de-tensoes-ebt-bt-mt-e-at",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\7.12_padronizacao-de-tensoes-ebt-bt-mt-e-at\\7.12_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\7.12_padronizacao-de-tensoes-ebt-bt-mt-e-at\\7.12_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\7.12_padronizacao-de-tensoes-ebt-bt-mt-e-at\\7.12_texto.md"
+      ],
+      "figuras": 5,
+      "fontes": 2,
+      "chaves_sem_fonte": [
+        "padronizacao de tensao"
+      ],
+      "paginas_sem_texto": 8
+    },
+    {
+      "id": "7.1",
+      "tema": "Trigonometria e vetores aplicados à eletricidade",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\7.1_trigonometria-e-vetores-aplicados-a-elet",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\7.1_trigonometria-e-vetores-aplicados-a-elet\\7.1_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\7.1_trigonometria-e-vetores-aplicados-a-elet\\7.1_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\7.1_trigonometria-e-vetores-aplicados-a-elet\\7.1_texto.md"
+      ],
+      "figuras": 21,
+      "fontes": 5,
+      "chaves_sem_fonte": [
+        "grandezas vetoriais"
+      ],
+      "paginas_sem_texto": 1
+    },
+    {
+      "id": "7.2",
+      "tema": "Geração da CA, senoide, período e frequência",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\7.2_geracao-da-ca-senoide-periodo-e-frequenc",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\7.2_geracao-da-ca-senoide-periodo-e-frequenc\\7.2_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\7.2_geracao-da-ca-senoide-periodo-e-frequenc\\7.2_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\7.2_geracao-da-ca-senoide-periodo-e-frequenc\\7.2_texto.md"
+      ],
+      "figuras": 68,
+      "fontes": 5,
+      "chaves_sem_fonte": [],
+      "paginas_sem_texto": 8
+    },
+    {
+      "id": "7.3",
+      "tema": "Valores: pico, pico a pico, eficaz (RMS) e médio",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\7.3_valores-pico-pico-a-pico-eficaz-rms-e-me",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\7.3_valores-pico-pico-a-pico-eficaz-rms-e-me\\7.3_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\7.3_valores-pico-pico-a-pico-eficaz-rms-e-me\\7.3_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\7.3_valores-pico-pico-a-pico-eficaz-rms-e-me\\7.3_texto.md"
+      ],
+      "figuras": 19,
+      "fontes": 4,
+      "chaves_sem_fonte": [
+        "valor de pico"
+      ],
+      "paginas_sem_texto": 4
+    },
+    {
+      "id": "7.4",
+      "tema": "Reatância capacitiva e reatância indutiva",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\7.4_reatancia-capacitiva-e-reatancia-indutiv",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\7.4_reatancia-capacitiva-e-reatancia-indutiv\\7.4_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\7.4_reatancia-capacitiva-e-reatancia-indutiv\\7.4_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\7.4_reatancia-capacitiva-e-reatancia-indutiv\\7.4_texto.md"
+      ],
+      "figuras": 23,
+      "fontes": 5,
+      "chaves_sem_fonte": [],
+      "paginas_sem_texto": 4
+    },
+    {
+      "id": "7.5",
+      "tema": "Fasores, números complexos, forma retangular e polar",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\7.5_fasores-numeros-complexos-forma-retangul",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\7.5_fasores-numeros-complexos-forma-retangul\\7.5_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\7.5_fasores-numeros-complexos-forma-retangul\\7.5_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\7.5_fasores-numeros-complexos-forma-retangul\\7.5_texto.md"
+      ],
+      "figuras": 8,
+      "fontes": 1,
+      "chaves_sem_fonte": [
+        "fasor",
+        "fasorial",
+        "forma retangular",
+        "forma polar",
+        "numero complexo"
+      ],
+      "paginas_sem_texto": 0
+    },
+    {
+      "id": "7.6",
+      "tema": "Circuitos RL, RC e RLC; impedância",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\7.6_circuitos-rl-rc-e-rlc-impedancia",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\7.6_circuitos-rl-rc-e-rlc-impedancia\\7.6_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\7.6_circuitos-rl-rc-e-rlc-impedancia\\7.6_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\7.6_circuitos-rl-rc-e-rlc-impedancia\\7.6_texto.md"
+      ],
+      "figuras": 34,
+      "fontes": 4,
+      "chaves_sem_fonte": [],
+      "paginas_sem_texto": 0
+    },
+    {
+      "id": "7.7",
+      "tema": "Ressonância",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\7.7_ressonancia",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\7.7_ressonancia\\7.7_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\7.7_ressonancia\\7.7_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\7.7_ressonancia\\7.7_texto.md"
+      ],
+      "figuras": 5,
+      "fontes": 3,
+      "chaves_sem_fonte": [],
+      "paginas_sem_texto": 6
+    },
+    {
+      "id": "7.8",
+      "tema": "Potência em CA: ativa, reativa, aparente e triângulo",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\7.8_potencia-em-ca-ativa-reativa-aparente-e",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\7.8_potencia-em-ca-ativa-reativa-aparente-e\\7.8_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\7.8_potencia-em-ca-ativa-reativa-aparente-e\\7.8_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\7.8_potencia-em-ca-ativa-reativa-aparente-e\\7.8_texto.md"
+      ],
+      "figuras": 59,
+      "fontes": 4,
+      "chaves_sem_fonte": [],
+      "paginas_sem_texto": 7
+    },
+    {
+      "id": "7.9",
+      "tema": "Fator de potência e correção",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\7.9_fator-de-potencia-e-correcao",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\7.9_fator-de-potencia-e-correcao\\7.9_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\7.9_fator-de-potencia-e-correcao\\7.9_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\7.9_fator-de-potencia-e-correcao\\7.9_texto.md"
+      ],
+      "figuras": 11,
+      "fontes": 4,
+      "chaves_sem_fonte": [
+        "cossifimetro",
+        "banco de capacitores"
+      ],
+      "paginas_sem_texto": 1
+    },
+    {
+      "id": "8.1",
+      "tema": "Semicondutores e diodo",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\8.1_semicondutores-e-diodo",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\8.1_semicondutores-e-diodo\\8.1_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\8.1_semicondutores-e-diodo\\8.1_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\8.1_semicondutores-e-diodo\\8.1_texto.md"
+      ],
+      "figuras": 65,
+      "fontes": 3,
+      "chaves_sem_fonte": [],
+      "paginas_sem_texto": 4
+    },
+    {
+      "id": "8.2",
+      "tema": "Retificadores e filtros",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\8.2_retificadores-e-filtros",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\8.2_retificadores-e-filtros\\8.2_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\8.2_retificadores-e-filtros\\8.2_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\8.2_retificadores-e-filtros\\8.2_texto.md"
+      ],
+      "figuras": 26,
+      "fontes": 5,
+      "chaves_sem_fonte": [],
+      "paginas_sem_texto": 0
+    },
+    {
+      "id": "8.3",
+      "tema": "Diodo zener, LED e reguladores de tensão",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\8.3_diodo-zener-led-e-reguladores-de-tensao",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\8.3_diodo-zener-led-e-reguladores-de-tensao\\8.3_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\8.3_diodo-zener-led-e-reguladores-de-tensao\\8.3_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\8.3_diodo-zener-led-e-reguladores-de-tensao\\8.3_texto.md"
+      ],
+      "figuras": 57,
+      "fontes": 11,
+      "chaves_sem_fonte": [],
+      "paginas_sem_texto": 12
+    },
+    {
+      "id": "8.4",
+      "tema": "Transistor bipolar e chaveamento",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\8.4_transistor-bipolar-e-chaveamento",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\8.4_transistor-bipolar-e-chaveamento\\8.4_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\8.4_transistor-bipolar-e-chaveamento\\8.4_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\8.4_transistor-bipolar-e-chaveamento\\8.4_texto.md"
+      ],
+      "figuras": 51,
+      "fontes": 4,
+      "chaves_sem_fonte": [],
+      "paginas_sem_texto": 0
+    },
+    {
+      "id": "8.5",
+      "tema": "Tiristores: SCR, TRIAC e DIAC",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\8.5_tiristores-scr-triac-e-diac",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\8.5_tiristores-scr-triac-e-diac\\8.5_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\8.5_tiristores-scr-triac-e-diac\\8.5_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\8.5_tiristores-scr-triac-e-diac\\8.5_texto.md"
+      ],
+      "figuras": 27,
+      "fontes": 3,
+      "chaves_sem_fonte": [
+        "diac",
+        "eletronica de potencia"
+      ],
+      "paginas_sem_texto": 0
+    },
+    {
+      "id": "8.6",
+      "tema": "Eletrônica digital: portas lógicas e álgebra de Boole",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\8.6_eletronica-digital-portas-logicas-e-alge",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\8.6_eletronica-digital-portas-logicas-e-alge\\8.6_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\8.6_eletronica-digital-portas-logicas-e-alge\\8.6_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\8.6_eletronica-digital-portas-logicas-e-alge\\8.6_texto.md"
+      ],
+      "figuras": 104,
+      "fontes": 5,
+      "chaves_sem_fonte": [
+        "algebra de boole"
+      ],
+      "paginas_sem_texto": 0
+    },
+    {
+      "id": "9.1",
+      "tema": "Transformadores: princípio, relação e perdas",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\9.1_transformadores-principio-relacao-e-perd",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\9.1_transformadores-principio-relacao-e-perd\\9.1_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\9.1_transformadores-principio-relacao-e-perd\\9.1_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\9.1_transformadores-principio-relacao-e-perd\\9.1_texto.md"
+      ],
+      "figuras": 66,
+      "fontes": 6,
+      "chaves_sem_fonte": [
+        "perdas no ferro",
+        "ensaio a vazio",
+        "ensaio de curto"
+      ],
+      "paginas_sem_texto": 5
+    },
+    {
+      "id": "9.2",
+      "tema": "Transformadores de instrumento (TC e TP)",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\9.2_transformadores-de-instrumento-tc-e-tp",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\9.2_transformadores-de-instrumento-tc-e-tp\\9.2_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\9.2_transformadores-de-instrumento-tc-e-tp\\9.2_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\9.2_transformadores-de-instrumento-tc-e-tp\\9.2_texto.md"
+      ],
+      "figuras": 4,
+      "fontes": 2,
+      "chaves_sem_fonte": [
+        "transformador de corrente"
+      ],
+      "paginas_sem_texto": 0
+    },
+    {
+      "id": "9.3",
+      "tema": "Motor de indução trifásico",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\9.3_motor-de-inducao-trifasico",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\9.3_motor-de-inducao-trifasico\\9.3_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\9.3_motor-de-inducao-trifasico\\9.3_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\9.3_motor-de-inducao-trifasico\\9.3_texto.md"
+      ],
+      "figuras": 33,
+      "fontes": 6,
+      "chaves_sem_fonte": [
+        "motor trifasico",
+        "escorregamento",
+        "rotor gaiola",
+        "campo girante"
+      ],
+      "paginas_sem_texto": 5
+    },
+    {
+      "id": "9.4",
+      "tema": "Placa de identificação, ligações e rendimento do motor",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\9.4_placa-de-identificacao-ligacoes-e-rendim",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\9.4_placa-de-identificacao-ligacoes-e-rendim\\9.4_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\9.4_placa-de-identificacao-ligacoes-e-rendim\\9.4_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\9.4_placa-de-identificacao-ligacoes-e-rendim\\9.4_texto.md"
+      ],
+      "figuras": 176,
+      "fontes": 7,
+      "chaves_sem_fonte": [
+        "placa de identificacao",
+        "dados de placa",
+        "ligacao de motores",
+        "rendimento do motor"
+      ],
+      "paginas_sem_texto": 5
+    },
+    {
+      "id": "9.5",
+      "tema": "Motor monofásico",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\9.5_motor-monofasico",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\9.5_motor-monofasico\\9.5_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\9.5_motor-monofasico\\9.5_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\9.5_motor-monofasico\\9.5_texto.md"
+      ],
+      "figuras": 7,
+      "fontes": 3,
+      "chaves_sem_fonte": [
+        "capacitor de partida"
+      ],
+      "paginas_sem_texto": 0
+    },
+    {
+      "id": "9.6",
+      "tema": "Motor de corrente contínua",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\9.6_motor-de-corrente-continua",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\9.6_motor-de-corrente-continua\\9.6_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\9.6_motor-de-corrente-continua\\9.6_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\9.6_motor-de-corrente-continua\\9.6_texto.md"
+      ],
+      "figuras": 21,
+      "fontes": 3,
+      "chaves_sem_fonte": [
+        "escovas"
+      ],
+      "paginas_sem_texto": 2
+    },
+    {
+      "id": "9.7",
+      "tema": "Geradores e alternadores",
+      "pasta": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\9.7_geradores-e-alternadores",
+      "dados": "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\9.7_geradores-e-alternadores\\9.7_dados.json",
+      "fontes_pdf": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\9.7_geradores-e-alternadores\\9.7_fontes.pdf"
+      ],
+      "textos": [
+        "C:\\dev\\extrator de perguntas\\livros senai\\dossies\\9.7_geradores-e-alternadores\\9.7_texto.md"
+      ],
+      "figuras": 24,
+      "fontes": 4,
+      "chaves_sem_fonte": [
+        "alternador",
+        "maquina sincrona"
+      ],
+      "paginas_sem_texto": 2
+    }
+  ],
+  "questoes_por_tema": [
+    {
+      "id": "1.1",
+      "tema": "Estrutura da matéria, carga elétrica e eletrização",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\01-alicerce-o-que-e-eletricidade\\1.1-estrutura-da-materia-carga-eletrica-e-eletrizacao.md",
+      "questoes_markdown": 43
+    },
+    {
+      "id": "1.10",
+      "tema": "Ferramentas, emendas e conexões do eletricista",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\01-alicerce-o-que-e-eletricidade\\1.10-ferramentas-emendas-e-conexoes-do-eletricista.md",
+      "questoes_markdown": 38
+    },
+    {
+      "id": "1.2",
+      "tema": "Grandezas, unidades do SI, prefixos e notação científica",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\01-alicerce-o-que-e-eletricidade\\1.2-grandezas-unidades-do-si-prefixos-e-notacao-cientifica.md",
+      "questoes_markdown": 73
+    },
+    {
+      "id": "1.3",
+      "tema": "Tensão elétrica (DDP)",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\01-alicerce-o-que-e-eletricidade\\1.3-tensao-eletrica-ddp.md",
+      "questoes_markdown": 146
+    },
+    {
+      "id": "1.4",
+      "tema": "Corrente elétrica",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\01-alicerce-o-que-e-eletricidade\\1.4-corrente-eletrica.md",
+      "questoes_markdown": 262
+    },
+    {
+      "id": "1.5",
+      "tema": "Resistência elétrica e resistividade",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\01-alicerce-o-que-e-eletricidade\\1.5-resistencia-eletrica-e-resistividade.md",
+      "questoes_markdown": 101
+    },
+    {
+      "id": "1.6",
+      "tema": "Condutores, isolantes e materiais elétricos",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\01-alicerce-o-que-e-eletricidade\\1.6-condutores-isolantes-e-materiais-eletricos.md",
+      "questoes_markdown": 136
+    },
+    {
+      "id": "1.7",
+      "tema": "O circuito elétrico: aberto, fechado e curto-circuito",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\01-alicerce-o-que-e-eletricidade\\1.7-o-circuito-eletrico-aberto-fechado-e-curto-circuito.md",
+      "questoes_markdown": 160
+    },
+    {
+      "id": "1.8",
+      "tema": "Simbologia e leitura de esquemas elétricos",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\01-alicerce-o-que-e-eletricidade\\1.8-simbologia-e-leitura-de-esquemas-eletricos.md",
+      "questoes_markdown": 19
+    },
+    {
+      "id": "1.9",
+      "tema": "Fontes de energia e geração",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\01-alicerce-o-que-e-eletricidade\\1.9-fontes-de-energia-e-geracao.md",
+      "questoes_markdown": 36
+    },
+    {
+      "id": "2.1",
+      "tema": "Lei de Ohm",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\02-circuitos-em-corrente-continua\\2.1-lei-de-ohm.md",
+      "questoes_markdown": 77
+    },
+    {
+      "id": "2.2",
+      "tema": "Resistores: tipos, código de cores e especificação",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\02-circuitos-em-corrente-continua\\2.2-resistores-tipos-codigo-de-cores-e-especificacao.md",
+      "questoes_markdown": 166
+    },
+    {
+      "id": "2.3",
+      "tema": "Associação de resistores: série, paralelo e mista",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\02-circuitos-em-corrente-continua\\2.3-associacao-de-resistores-serie-paralelo-e-mista.md",
+      "questoes_markdown": 223
+    },
+    {
+      "id": "2.4",
+      "tema": "Divisor de tensão e divisor de corrente",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\02-circuitos-em-corrente-continua\\2.4-divisor-de-tensao-e-divisor-de-corrente.md",
+      "questoes_markdown": 17
+    },
+    {
+      "id": "2.5",
+      "tema": "Potência, energia e Lei de Joule em CC",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\02-circuitos-em-corrente-continua\\2.5-potencia-energia-e-lei-de-joule-em-cc.md",
+      "questoes_markdown": 96
+    },
+    {
+      "id": "2.6",
+      "tema": "Leis de Kirchhoff",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\02-circuitos-em-corrente-continua\\2.6-leis-de-kirchhoff.md",
+      "questoes_markdown": 22
+    },
+    {
+      "id": "2.7",
+      "tema": "Teoremas: superposição, Thévenin, Norton e máxima transferência",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\02-circuitos-em-corrente-continua\\2.7-teoremas-superposicao-thevenin-norton-e-maxima-transferencia.md",
+      "questoes_markdown": 28
+    },
+    {
+      "id": "2.8",
+      "tema": "Ponte de Wheatstone",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\02-circuitos-em-corrente-continua\\2.8-ponte-de-wheatstone.md",
+      "questoes_markdown": 3
+    },
+    {
+      "id": "3.1",
+      "tema": "Instrumentos analógicos e digitais",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.1-instrumentos-analogicos-e-digitais.md",
+      "questoes_markdown": 77
+    },
+    {
+      "id": "3.2",
+      "tema": "Amperímetro, voltímetro, ohmímetro e multímetro",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.2-amperimetro-voltimetro-ohmimetro-e-multimetro.md",
+      "questoes_markdown": 459
+    },
+    {
+      "id": "3.3",
+      "tema": "Erros de medição e classe de exatidão",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.3-erros-de-medicao-e-classe-de-exatidao.md",
+      "questoes_markdown": 26
+    },
+    {
+      "id": "3.4",
+      "tema": "Megôhmetro, terrômetro e alicate amperímetro",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.4-megohmetro-terrometro-e-alicate-amperimetro.md",
+      "questoes_markdown": 18
+    },
+    {
+      "id": "3.5",
+      "tema": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+      "questoes_markdown": 152
+    },
+    {
+      "id": "4.1",
+      "tema": "Choque elétrico, arco elétrico e efeitos fisiológicos",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.1-choque-eletrico-arco-eletrico-e-efeitos-fisiologicos.md",
+      "questoes_markdown": 41
+    },
+    {
+      "id": "4.2",
+      "tema": "NR-10: riscos e medidas de controle",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+      "questoes_markdown": 86
+    },
+    {
+      "id": "4.3",
+      "tema": "EPI e EPC",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.3-epi-e-epc.md",
+      "questoes_markdown": 56
+    },
+    {
+      "id": "4.4",
+      "tema": "Desenergização e reenergização",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.4-desenergizacao-e-reenergizacao.md",
+      "questoes_markdown": 101
+    },
+    {
+      "id": "4.5",
+      "tema": "Primeiros socorros e combate a incêndio",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.5-primeiros-socorros-e-combate-a-incendio.md",
+      "questoes_markdown": 16
+    },
+    {
+      "id": "4.6",
+      "tema": "Normas correlatas: NR-6, NR-12 e NR-35",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.6-normas-correlatas-nr-6-nr-12-e-nr-35.md",
+      "questoes_markdown": 38
+    },
+    {
+      "id": "5.1",
+      "tema": "Ímãs, campo magnético e fluxo",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\05-magnetismo-e-eletromagnetismo\\5.1-imas-campo-magnetico-e-fluxo.md",
+      "questoes_markdown": 45
+    },
+    {
+      "id": "5.2",
+      "tema": "Eletromagnetismo: condutor, espira e solenoide",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\05-magnetismo-e-eletromagnetismo\\5.2-eletromagnetismo-condutor-espira-e-solenoide.md",
+      "questoes_markdown": 74
+    },
+    {
+      "id": "5.3",
+      "tema": "Leis de Faraday, Lenz e Lorentz",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\05-magnetismo-e-eletromagnetismo\\5.3-leis-de-faraday-lenz-e-lorentz.md",
+      "questoes_markdown": 20
+    },
+    {
+      "id": "5.4",
+      "tema": "Circuitos magnéticos e histerese",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\05-magnetismo-e-eletromagnetismo\\5.4-circuitos-magneticos-e-histerese.md",
+      "questoes_markdown": 6
+    },
+    {
+      "id": "6.1",
+      "tema": "Capacitor, capacitância e associação",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\06-capacitores-e-indutores-em-corrente-continua\\6.1-capacitor-capacitancia-e-associacao.md",
+      "questoes_markdown": 153
+    },
+    {
+      "id": "6.2",
+      "tema": "Carga e descarga do capacitor; constante de tempo",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\06-capacitores-e-indutores-em-corrente-continua\\6.2-carga-e-descarga-do-capacitor-constante-de-tempo.md",
+      "questoes_markdown": 10
+    },
+    {
+      "id": "6.3",
+      "tema": "Indutor, indutância e associação",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\06-capacitores-e-indutores-em-corrente-continua\\6.3-indutor-indutancia-e-associacao.md",
+      "questoes_markdown": 37
+    },
+    {
+      "id": "6.4",
+      "tema": "Autoindução e comportamento do indutor em CC",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\06-capacitores-e-indutores-em-corrente-continua\\6.4-autoinducao-e-comportamento-do-indutor-em-cc.md",
+      "questoes_markdown": 1
+    },
+    {
+      "id": "7.10",
+      "tema": "Sistemas trifásicos: estrela e triângulo",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\07-corrente-alternada\\7.10-sistemas-trifasicos-estrela-e-triangulo.md",
+      "questoes_markdown": 326
+    },
+    {
+      "id": "7.11",
+      "tema": "Wattímetro, cossifímetro e medidor de energia",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\07-corrente-alternada\\7.11-wattimetro-cossifimetro-e-medidor-de-energia.md",
+      "questoes_markdown": 2
+    },
+    {
+      "id": "7.2",
+      "tema": "Geração da CA, senoide, período e frequência",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\07-corrente-alternada\\7.2-geracao-da-ca-senoide-periodo-e-frequencia.md",
+      "questoes_markdown": 375
+    },
+    {
+      "id": "7.3",
+      "tema": "Valores: pico, pico a pico, eficaz (RMS) e médio",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\07-corrente-alternada\\7.3-valores-pico-pico-a-pico-eficaz-rms-e-medio.md",
+      "questoes_markdown": 84
+    },
+    {
+      "id": "7.4",
+      "tema": "Reatância capacitiva e reatância indutiva",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\07-corrente-alternada\\7.4-reatancia-capacitiva-e-reatancia-indutiva.md",
+      "questoes_markdown": 52
+    },
+    {
+      "id": "7.5",
+      "tema": "Fasores, números complexos, forma retangular e polar",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\07-corrente-alternada\\7.5-fasores-numeros-complexos-forma-retangular-e-polar.md",
+      "questoes_markdown": 29
+    },
+    {
+      "id": "7.6",
+      "tema": "Circuitos RL, RC e RLC; impedância",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\07-corrente-alternada\\7.6-circuitos-rl-rc-e-rlc-impedancia.md",
+      "questoes_markdown": 144
+    },
+    {
+      "id": "7.7",
+      "tema": "Ressonância",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\07-corrente-alternada\\7.7-ressonancia.md",
+      "questoes_markdown": 2
+    },
+    {
+      "id": "7.8",
+      "tema": "Potência em CA: ativa, reativa, aparente e triângulo",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\07-corrente-alternada\\7.8-potencia-em-ca-ativa-reativa-aparente-e-triangulo.md",
+      "questoes_markdown": 169
+    },
+    {
+      "id": "7.9",
+      "tema": "Fator de potência e correção",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\07-corrente-alternada\\7.9-fator-de-potencia-e-correcao.md",
+      "questoes_markdown": 268
+    },
+    {
+      "id": "8.1",
+      "tema": "Semicondutores e diodo",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\08-eletronica-basica\\8.1-semicondutores-e-diodo.md",
+      "questoes_markdown": 83
+    },
+    {
+      "id": "8.2",
+      "tema": "Retificadores e filtros",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\08-eletronica-basica\\8.2-retificadores-e-filtros.md",
+      "questoes_markdown": 153
+    },
+    {
+      "id": "8.3",
+      "tema": "Diodo zener, LED e reguladores de tensão",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\08-eletronica-basica\\8.3-diodo-zener-led-e-reguladores-de-tensao.md",
+      "questoes_markdown": 78
+    },
+    {
+      "id": "8.4",
+      "tema": "Transistor bipolar e chaveamento",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\08-eletronica-basica\\8.4-transistor-bipolar-e-chaveamento.md",
+      "questoes_markdown": 414
+    },
+    {
+      "id": "8.5",
+      "tema": "Tiristores: SCR, TRIAC e DIAC",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\08-eletronica-basica\\8.5-tiristores-scr-triac-e-diac.md",
+      "questoes_markdown": 55
+    },
+    {
+      "id": "8.6",
+      "tema": "Eletrônica digital: portas lógicas e álgebra de Boole",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\08-eletronica-basica\\8.6-eletronica-digital-portas-logicas-e-algebra-de-boole.md",
+      "questoes_markdown": 294
+    },
+    {
+      "id": "9.1",
+      "tema": "Transformadores: princípio, relação e perdas",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.1-transformadores-principio-relacao-e-perdas.md",
+      "questoes_markdown": 385
+    },
+    {
+      "id": "9.2",
+      "tema": "Transformadores de instrumento (TC e TP)",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.2-transformadores-de-instrumento-tc-e-tp.md",
+      "questoes_markdown": 28
+    },
+    {
+      "id": "9.3",
+      "tema": "Motor de indução trifásico",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+      "questoes_markdown": 167
+    },
+    {
+      "id": "9.4",
+      "tema": "Placa de identificação, ligações e rendimento do motor",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.4-placa-de-identificacao-ligacoes-e-rendimento-do-motor.md",
+      "questoes_markdown": 62
+    },
+    {
+      "id": "9.5",
+      "tema": "Motor monofásico",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.5-motor-monofasico.md",
+      "questoes_markdown": 33
+    },
+    {
+      "id": "9.6",
+      "tema": "Motor de corrente contínua",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.6-motor-de-corrente-continua.md",
+      "questoes_markdown": 30
+    },
+    {
+      "id": "9.7",
+      "tema": "Geradores e alternadores",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.7-geradores-e-alternadores.md",
+      "questoes_markdown": 23
+    },
+    {
+      "id": "10.1",
+      "tema": "Dispositivos de comando e proteção de motores",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+      "questoes_markdown": 110
+    },
+    {
+      "id": "10.2",
+      "tema": "Diagramas de comando e força",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+      "questoes_markdown": 191
+    },
+    {
+      "id": "10.3",
+      "tema": "Intertravamento, selo e temporização",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.3-intertravamento-selo-e-temporizacao.md",
+      "questoes_markdown": 34
+    },
+    {
+      "id": "10.4",
+      "tema": "Partidas de motores: direta, reversora, estrela-triângulo",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+      "questoes_markdown": 128
+    },
+    {
+      "id": "10.5",
+      "tema": "Inversor de frequência",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.5-inversor-de-frequencia.md",
+      "questoes_markdown": 48
+    },
+    {
+      "id": "10.6",
+      "tema": "CLP e linguagem ladder",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+      "questoes_markdown": 145
+    },
+    {
+      "id": "11.1",
+      "tema": "Aterramento: malha, haste e resistência de terra",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\11-aterramento-e-spda\\11.1-aterramento-malha-haste-e-resistencia-de-terra.md",
+      "questoes_markdown": 179
+    },
+    {
+      "id": "11.2",
+      "tema": "Equipotencialização",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\11-aterramento-e-spda\\11.2-equipotencializacao.md",
+      "questoes_markdown": 16
+    },
+    {
+      "id": "11.3",
+      "tema": "SPDA (NBR 5419)",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\11-aterramento-e-spda\\11.3-spda-nbr-5419.md",
+      "questoes_markdown": 65
+    },
+    {
+      "id": "12.1",
+      "tema": "Projeto elétrico, simbologia e previsão de cargas",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.1-projeto-eletrico-simbologia-e-previsao-de-cargas.md",
+      "questoes_markdown": 116
+    },
+    {
+      "id": "12.10",
+      "tema": "Instalações prediais e industriais",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.10-instalacoes-prediais-e-industriais.md",
+      "questoes_markdown": 307
+    },
+    {
+      "id": "12.2",
+      "tema": "Fator de demanda e diversidade",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.2-fator-de-demanda-e-diversidade.md",
+      "questoes_markdown": 45
+    },
+    {
+      "id": "12.3",
+      "tema": "Divisão de circuitos e quadro de distribuição",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.3-divisao-de-circuitos-e-quadro-de-distribuicao.md",
+      "questoes_markdown": 113
+    },
+    {
+      "id": "12.4",
+      "tema": "Dimensionamento de condutores",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.4-dimensionamento-de-condutores.md",
+      "questoes_markdown": 300
+    },
+    {
+      "id": "12.5",
+      "tema": "Curto-circuito e correntes de falta",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.5-curto-circuito-e-correntes-de-falta.md",
+      "questoes_markdown": 123
+    },
+    {
+      "id": "12.6",
+      "tema": "Proteção: disjuntores, fusíveis, DR e DPS",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.6-protecao-disjuntores-fusiveis-dr-e-dps.md",
+      "questoes_markdown": 393
+    },
+    {
+      "id": "12.7",
+      "tema": "Esquemas de aterramento TN, TT e IT",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.7-esquemas-de-aterramento-tn-tt-e-it.md",
+      "questoes_markdown": 75
+    },
+    {
+      "id": "12.8",
+      "tema": "Eletrodutos, canaletas e infraestrutura",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.8-eletrodutos-canaletas-e-infraestrutura.md",
+      "questoes_markdown": 29
+    },
+    {
+      "id": "12.9",
+      "tema": "Luminotécnica",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\12-instalacoes-eletricas-nbr-5410\\12.9-luminotecnica.md",
+      "questoes_markdown": 278
+    },
+    {
+      "id": "13.1",
+      "tema": "Geração, transmissão e distribuição",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+      "questoes_markdown": 202
+    },
+    {
+      "id": "13.2",
+      "tema": "Subestações e seus equipamentos",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+      "questoes_markdown": 66
+    },
+    {
+      "id": "13.3",
+      "tema": "Redes de distribuição aérea e subterrânea",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.3-redes-de-distribuicao-aerea-e-subterranea.md",
+      "questoes_markdown": 35
+    },
+    {
+      "id": "13.4",
+      "tema": "Proteção de sistemas e relés",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.4-protecao-de-sistemas-e-reles.md",
+      "questoes_markdown": 4
+    },
+    {
+      "id": "13.5",
+      "tema": "Qualidade de energia e harmônicos",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.5-qualidade-de-energia-e-harmonicos.md",
+      "questoes_markdown": 19
+    },
+    {
+      "id": "14.1",
+      "tema": "Tipos de manutenção: corretiva, preventiva e preditiva",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.1-tipos-de-manutencao-corretiva-preventiva-e-preditiva.md",
+      "questoes_markdown": 117
+    },
+    {
+      "id": "14.2",
+      "tema": "Técnicas preditivas: termografia e vibração",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.2-tecnicas-preditivas-termografia-e-vibracao.md",
+      "questoes_markdown": 3
+    },
+    {
+      "id": "14.3",
+      "tema": "Eficiência energética e tarifação",
+      "arquivo": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+      "questoes_markdown": 90
+    }
+  ],
+  "inconsistencias_lotes": []
+}

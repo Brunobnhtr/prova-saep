@@ -1,0 +1,53 @@
+{
+  "type": "object",
+  "properties": {
+    "source_id": {
+      "type": "string"
+    },
+    "in_curriculum": {
+      "type": "boolean"
+    },
+    "primary_module": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Code of the primary module, or null if out of curriculum"
+    },
+    "acceptable_modules": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Other acceptable module codes"
+    },
+    "annotation_confidence": {
+      "type": "string",
+      "enum": [
+        "HIGH",
+        "MEDIUM",
+        "LOW"
+      ]
+    },
+    "reasoning_summary": {
+      "type": "string",
+      "description": "Brief justification for the module chosen"
+    },
+    "image_required": {
+      "type": "boolean",
+      "description": "Is the image essential to answer the question?"
+    },
+    "ambiguity": {
+      "type": "boolean",
+      "description": "Is the question ambiguous or poorly formulated?"
+    }
+  },
+  "required": [
+    "source_id",
+    "in_curriculum",
+    "annotation_confidence",
+    "reasoning_summary",
+    "image_required",
+    "ambiguity"
+  ]
+}

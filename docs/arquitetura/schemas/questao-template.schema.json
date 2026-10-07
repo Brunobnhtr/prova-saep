@@ -1,0 +1,107 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Contrato de template de questão",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "templateVersion": {
+      "type": "string",
+      "minLength": 1
+    },
+    "subthemeId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "kind": {
+      "enum": [
+        "etapas",
+        "simulado"
+      ]
+    },
+    "generatorId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "parameterBounds": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "min": {
+            "type": "number"
+          },
+          "max": {
+            "type": "number"
+          },
+          "unit": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "min",
+          "max",
+          "unit"
+        ]
+      }
+    },
+    "optionCount": {
+      "enum": [
+        4,
+        5
+      ]
+    },
+    "sourceIds": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "technicalStatus": {
+      "enum": [
+        "rascunho",
+        "revisado"
+      ]
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "id",
+    "templateVersion",
+    "subthemeId",
+    "kind",
+    "generatorId",
+    "parameterBounds",
+    "optionCount",
+    "sourceIds",
+    "technicalStatus"
+  ],
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "kind": {
+            "const": "etapas"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "optionCount": {
+            "const": 4
+          }
+        }
+      }
+    }
+  ]
+}

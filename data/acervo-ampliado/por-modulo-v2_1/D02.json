@@ -1,0 +1,32 @@
+{
+  "module": "D02",
+  "title": "Termografia, conexões e localização de falhas",
+  "primary_count": 11,
+  "secondary_count": 0,
+  "confidence_counts": {
+    "MEDIUM": 2,
+    "HIGH": 9
+  },
+  "interaction_candidate_counts": {
+    "MEDIUM": 11
+  },
+  "inspection_priority_counts": {
+    "P0": 2,
+    "P3": 8,
+    "P2": 1
+  },
+  "primary_ids": [
+    "Q4083376",
+    "Q4218539",
+    "Q836911",
+    "Q1767182",
+    "Q1808436",
+    "Q2608791",
+    "Q2992836",
+    "Q3232104",
+    "Q3830401",
+    "Q4218684",
+    "Q811516"
+  ],
+  "secondary_ids": []
+}

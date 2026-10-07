@@ -1,0 +1,25 @@
+{
+  "module": "H02",
+  "title": "Sequências, selo e diagnóstico eletropneumático",
+  "primary_count": 4,
+  "secondary_count": 0,
+  "confidence_counts": {
+    "HIGH": 1,
+    "MEDIUM": 3
+  },
+  "interaction_candidate_counts": {
+    "LOW": 2,
+    "HIGH": 2
+  },
+  "inspection_priority_counts": {
+    "P3": 1,
+    "P1": 3
+  },
+  "primary_ids": [
+    "Q3188808",
+    "Q3188810",
+    "Q461673",
+    "Q4027618"
+  ],
+  "secondary_ids": []
+}

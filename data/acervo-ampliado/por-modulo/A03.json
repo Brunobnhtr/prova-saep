@@ -1,0 +1,4563 @@
+{
+  "module": "A03",
+  "title": "Sensores de presença, alarme e nível",
+  "total_candidates": 309,
+  "primary_assignments": 140,
+  "high_relevance": 13,
+  "medium_relevance": 14,
+  "low_relevance": 282,
+  "outside_theme": {
+    "count": null,
+    "status": "NOT_SEMANTICALLY_REVIEWED"
+  },
+  "image_dependent": 67,
+  "possible_duplicates": 0,
+  "possible_semantic_variants": 0,
+  "priority_ids": {
+    "HIGH": [
+      "Q4044459",
+      "Q3851976",
+      "Q3449170",
+      "Q2608788",
+      "Q2217070",
+      "Q1087482",
+      "Q1087493",
+      "Q1106113",
+      "Q776981",
+      "Q596758",
+      "Q522245",
+      "Q461673",
+      "Q454008"
+    ],
+    "MEDIUM": [
+      "Q4148966",
+      "Q3838776",
+      "Q3838782",
+      "Q3716099",
+      "Q2955768",
+      "Q2329757",
+      "Q2254476",
+      "Q1770362",
+      "Q1702544",
+      "Q768529",
+      "Q425829",
+      "Q411629",
+      "Q189250",
+      "Q182427"
+    ],
+    "LOW": [
+      "Q4148977",
+      "Q4151547",
+      "Q4151548",
+      "Q4151549",
+      "Q4218533",
+      "Q4093933",
+      "Q4095617",
+      "Q4095618",
+      "Q4109457",
+      "Q4114640",
+      "Q4080172",
+      "Q4083328",
+      "Q3958242",
+      "Q3958243",
+      "Q3958246",
+      "Q3977399",
+      "Q3977407",
+      "Q3887494",
+      "Q3887504",
+      "Q3891642",
+      "Q3846530",
+      "Q3846965",
+      "Q3850335",
+      "Q3850350",
+      "Q3851968",
+      "Q3851982",
+      "Q3851984",
+      "Q3851986",
+      "Q3851990",
+      "Q3854560",
+      "Q3576898",
+      "Q3550813",
+      "Q3550815",
+      "Q3550834",
+      "Q3449173",
+      "Q3453362",
+      "Q3458242",
+      "Q3267721",
+      "Q3272499",
+      "Q3272501",
+      "Q3272502",
+      "Q3302242",
+      "Q3366585",
+      "Q3369733",
+      "Q3369744",
+      "Q3369745",
+      "Q3204741",
+      "Q3255811",
+      "Q3090260",
+      "Q3188803",
+      "Q3188807",
+      "Q3008716",
+      "Q3021234",
+      "Q3021238",
+      "Q3021242",
+      "Q3021243",
+      "Q3021245",
+      "Q3021248",
+      "Q3027512",
+      "Q3043617",
+      "Q3069875",
+      "Q2867911",
+      "Q2894096",
+      "Q2916786",
+      "Q2925651",
+      "Q2925653",
+      "Q2955750",
+      "Q2955766",
+      "Q2746799",
+      "Q2754164",
+      "Q2774843",
+      "Q2559464",
+      "Q2692670",
+      "Q2692672",
+      "Q2692673",
+      "Q2694477",
+      "Q2694478",
+      "Q2422003",
+      "Q2329804",
+      "Q2333383",
+      "Q2333436",
+      "Q2354123",
+      "Q2354133",
+      "Q2369620",
+      "Q2386842",
+      "Q2314680",
+      "Q2314713",
+      "Q2319946",
+      "Q2319950",
+      "Q2319962",
+      "Q2320587",
+      "Q2323619",
+      "Q2251030",
+      "Q2252801",
+      "Q2255983",
+      "Q2272599",
+      "Q2284690",
+      "Q2285850",
+      "Q2285851",
+      "Q2285854",
+      "Q2202787",
+      "Q2217071",
+      "Q2226727",
+      "Q2226745",
+      "Q2226752",
+      "Q2081095",
+      "Q2081099",
+      "Q2081102",
+      "Q2158395",
+      "Q2158420",
+      "Q2158481",
+      "Q2158482",
+      "Q1888088",
+      "Q1916781",
+      "Q2014939",
+      "Q2025363",
+      "Q2051863",
+      "Q2051877",
+      "Q1766543",
+      "Q1766668",
+      "Q1760442",
+      "Q1762486",
+      "Q1276373",
+      "Q1630251",
+      "Q1087474",
+      "Q1087480",
+      "Q1087494",
+      "Q1090683",
+      "Q1090685",
+      "Q1090686",
+      "Q1098241",
+      "Q1098242",
+      "Q1098243",
+      "Q1098244",
+      "Q1098245",
+      "Q1098246",
+      "Q1098247",
+      "Q1098248",
+      "Q1098249",
+      "Q1098250",
+      "Q1098256",
+      "Q1098258",
+      "Q1098266",
+      "Q1098268",
+      "Q1106089",
+      "Q1106100",
+      "Q1106993",
+      "Q1106997",
+      "Q1107000",
+      "Q1036230",
+      "Q1036231",
+      "Q1036237",
+      "Q1036244",
+      "Q1036245",
+      "Q1036246",
+      "Q1036247",
+      "Q1036249",
+      "Q1036254",
+      "Q1036257",
+      "Q1036259",
+      "Q1036260",
+      "Q1036262",
+      "Q1036265",
+      "Q1025909",
+      "Q1025910",
+      "Q1032581",
+      "Q1032582",
+      "Q981768",
+      "Q981773",
+      "Q981779",
+      "Q991781",
+      "Q991788",
+      "Q976412",
+      "Q976420",
+      "Q976421",
+      "Q836075",
+      "Q810794",
+      "Q810802",
+      "Q825992",
+      "Q783435",
+      "Q797741",
+      "Q797747",
+      "Q797920",
+      "Q751901",
+      "Q758556",
+      "Q758560",
+      "Q758561",
+      "Q758570",
+      "Q767423",
+      "Q768527",
+      "Q770887",
+      "Q718823",
+      "Q734064",
+      "Q734066",
+      "Q596754",
+      "Q596755",
+      "Q596759",
+      "Q596765",
+      "Q596768",
+      "Q666491",
+      "Q707697",
+      "Q529128",
+      "Q533328",
+      "Q533331",
+      "Q596014",
+      "Q460347",
+      "Q460367",
+      "Q461648",
+      "Q461665",
+      "Q461666",
+      "Q461670",
+      "Q431719",
+      "Q431720",
+      "Q431735",
+      "Q431738",
+      "Q431813",
+      "Q453968",
+      "Q453982",
+      "Q453986",
+      "Q453991",
+      "Q454006",
+      "Q454009",
+      "Q424978",
+      "Q425004",
+      "Q430236",
+      "Q430240",
+      "Q430241",
+      "Q430244",
+      "Q430245",
+      "Q430252",
+      "Q430254",
+      "Q430256",
+      "Q430257",
+      "Q431575",
+      "Q431578",
+      "Q431628",
+      "Q431631",
+      "Q431643",
+      "Q431715",
+      "Q402449",
+      "Q411645",
+      "Q364385",
+      "Q364386",
+      "Q364387",
+      "Q364389",
+      "Q364390",
+      "Q364393",
+      "Q364394",
+      "Q394784",
+      "Q394961",
+      "Q185175",
+      "Q186290",
+      "Q186386",
+      "Q189069",
+      "Q189205",
+      "Q189210",
+      "Q189215",
+      "Q189217",
+      "Q189248",
+      "Q189508",
+      "Q189592",
+      "Q180444",
+      "Q180445",
+      "Q180446",
+      "Q180458",
+      "Q180774",
+      "Q180775",
+      "Q180777",
+      "Q180787",
+      "Q180788",
+      "Q180793",
+      "Q181763",
+      "Q181764",
+      "Q182408",
+      "Q184160",
+      "Q184180",
+      "Q184182",
+      "Q184183",
+      "Q112428",
+      "Q112430",
+      "Q64197",
+      "Q64210"
+    ]
+  },
+  "candidate_details": [
+    {
+      "source_id": "Q4148966",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4148977",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "SERIES_EQUIVALENT_RESISTANCE",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4151547",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4151548",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4151549",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4218533",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4093933",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4095617",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4095618",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4109457",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4114640",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4044459",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4080172",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4083328",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3958242",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3958243",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3958246",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3977399",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3977407",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3887494",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3887504",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3891642",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3838776",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3838782",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3846530",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3846965",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3850335",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3850350",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3851968",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3851976",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3851982",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3851984",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3851986",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "INSULATION_TEST",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3851990",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3854560",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3716099",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3576898",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "OHMS_LAW_DIRECT_RESISTANCE",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3550813",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3550815",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3550834",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3449170",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3449173",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3453362",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3458242",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3267721",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3272499",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3272501",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3272502",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3302242",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3366585",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3369733",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3369744",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3369745",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3204741",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3255811",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3090260",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3188803",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3188807",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3008716",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3021234",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3021238",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3021242",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3021243",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3021245",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3021248",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3027512",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3043617",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3069875",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2867911",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2894096",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2916786",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2925651",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2925653",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2955750",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2955766",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2955768",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2746799",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2754164",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2774843",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2559464",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2608788",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2692670",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2692672",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2692673",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2694477",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2694478",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2422003",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2329804",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2333383",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2333436",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2354123",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2354133",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2369620",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2386842",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2314680",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2314713",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2319946",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2319950",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2319962",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2320587",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "OHMS_LAW_DIRECT_RESISTANCE",
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2323619",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2329757",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2251030",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2252801",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2254476",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2255983",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2272599",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2284690",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2285850",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2285851",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2285854",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2202787",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2217070",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2217071",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2226727",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2226745",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2226752",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2081095",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2081099",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2081102",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2158395",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2158420",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2158481",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2158482",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1888088",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1916781",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2014939",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2025363",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2051863",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2051877",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1766543",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1766668",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1770362",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1702544",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1760442",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1762486",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1276373",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1630251",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1087474",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1087480",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1087482",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1087493",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1087494",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1090683",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1090685",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1090686",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1098241",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1098242",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1098243",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1098244",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1098245",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1098246",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1098247",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1098248",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1098249",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1098250",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1098256",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1098258",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1098266",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1098268",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1106089",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1106100",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1106113",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1106993",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1106997",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1107000",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1036230",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1036231",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1036237",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1036244",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1036245",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1036246",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1036247",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1036249",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1036254",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1036257",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1036259",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1036260",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1036262",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1036265",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1025909",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1025910",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1032581",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1032582",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q981768",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q981773",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q981779",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q991781",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q991788",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q976412",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "THREE_PHASE_POWER",
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q976420",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q976421",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q836075",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q810794",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q810802",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q825992",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q776981",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q783435",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q797741",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q797747",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q797920",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q751901",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q758556",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q758560",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q758561",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q758570",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q767423",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q768527",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q768529",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q770887",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q718823",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q734064",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q734066",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q596754",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q596755",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q596758",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q596759",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q596765",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q596768",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q666491",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q707697",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q529128",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q533328",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q533331",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q596014",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q522245",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q460347",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q460367",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q461648",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q461665",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q461666",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q461670",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q461673",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q431719",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q431720",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q431735",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q431738",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q431813",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q453968",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q453982",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q453986",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q453991",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q454006",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q454008",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q454009",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q424978",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q425004",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q425829",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q430236",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q430240",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q430241",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q430244",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q430245",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q430252",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q430254",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q430256",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q430257",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q431575",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q431578",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q431628",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q431631",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q431643",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q431715",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q402449",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q411629",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q411645",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q364385",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "OHMS_LAW_DIRECT_RESISTANCE",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q364386",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "OHMS_LAW_DIRECT_RESISTANCE",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q364387",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "OHMS_LAW_DIRECT_RESISTANCE",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q364389",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q364390",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q364393",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q364394",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q394784",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q394961",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q185175",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q186290",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q186386",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q189069",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q189205",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q189210",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q189215",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q189217",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q189248",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q189250",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q189508",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q189592",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q180444",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q180445",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q180446",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q180458",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q180774",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q180775",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q180777",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q180787",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q180788",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q180793",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "KIRCHHOFF_KCL",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q181763",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q181764",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q182408",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q182427",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q184160",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q184180",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q184182",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q184183",
+      "subtopics": [
+        {
+          "id": "10.6",
+          "title": "CLP e linguagem ladder",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.6-clp-e-linguagem-ladder.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q112428",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q112430",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q64197",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q64210",
+      "subtopics": [
+        {
+          "id": "3.5",
+          "title": "Sensores e instrumentação industrial (temperatura, pressão, nível, vazão)",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\03-medicao-enxergar-o-que-voce-estudou\\3.5-sensores-e-instrumentacao-industrial-temperatura-pressao-niv.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    }
+  ]
+}

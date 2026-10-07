@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "motores",
+  "contentVersion": "0.1.0-draft",
+  "title": "Motores elétricos",
+  "subthemeIds": [
+    "E01",
+    "E02",
+    "E03",
+    "E04",
+    "E05",
+    "E06"
+  ],
+  "prerequisites": [
+    "S01",
+    "S02",
+    "F01",
+    "F02",
+    "F03",
+    "F04",
+    "M01",
+    "M02",
+    "P02"
+  ],
+  "matrixItemId": null,
+  "matrixStatus": "pendente",
+  "technicalStatus": "rascunho",
+  "sources": [
+    {
+      "id": "apoio-comandos",
+      "title": "Comandos Elétricos - livro SENAI fornecido pelo usuário",
+      "locator": "livro-007; capítulo/edição técnica [VERIFICAR]",
+      "verificationStatus": "pendente"
+    }
+  ],
+  "lessons": [],
+  "labs": [],
+  "questionTemplates": []
+}

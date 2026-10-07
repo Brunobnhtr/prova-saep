@@ -1,0 +1,35 @@
+{
+  "data": "2026-10-02",
+  "checks": [
+    {
+      "arquivo": "avaliações.pdf",
+      "itens": 40,
+      "alternativas": "4 por item, A-D",
+      "gabaritos": 40,
+      "figuras_referenciadas": 23,
+      "status": "OK"
+    },
+    {
+      "arquivo": "avaliações 2.pdf",
+      "itens": 40,
+      "alternativas": "4 por item, A-D",
+      "gabaritos": 40,
+      "figuras_referenciadas": 23,
+      "status": "OK"
+    },
+    {
+      "arquivo": "SIMULADO 2026.pdf",
+      "itens": 41,
+      "alternativas": "4 por item, A-D",
+      "gabaritos": 0,
+      "figuras_referenciadas": 47,
+      "status": "OK"
+    }
+  ],
+  "ocorrencias": 121,
+  "itens_distintos": 87,
+  "ids_compartilhados": 33,
+  "gabaritos_compartilhados": "sem divergência",
+  "hashes": "todos os arquivos presentes conferem com manifesto",
+  "limite": "Verificação estrutural; revisão técnica e transcrição acessível de figuras pendentes."
+}

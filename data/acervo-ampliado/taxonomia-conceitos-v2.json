@@ -1,0 +1,1249 @@
+{
+  "version": 2,
+  "evidence_order": [
+    "A_EXPLICIT_TECHNICAL_CONCEPT_OR_INSPECTED_IMAGE",
+    "B_ORIGINAL_SUBJECT",
+    "C_PRIOR_TOPIC_SUPPORT_ONLY",
+    "D_COMPONENT_APPLICATION_CONTEXT",
+    "E_MATHEMATICAL_VISUAL_STRUCTURE",
+    "F_GENERIC_WORDS_NON_DECISIVE"
+  ],
+  "definitions": [
+    {
+      "concept": "MOTOR_REVERSING",
+      "parent": "MOTOR_CONTROL",
+      "curricular_module": "E03",
+      "specificity": 95,
+      "frame_pattern": "reversao|inversao.{0,15}(rotacao|sentido)|inver.{0,20}fases"
+    },
+    {
+      "concept": "LOGIC_INTERLOCK",
+      "parent": "MOTOR_CONTROL",
+      "curricular_module": "E03",
+      "specificity": 85,
+      "frame_pattern": "intertravamento"
+    },
+    {
+      "concept": "MOTOR_CONTROL",
+      "parent": "COMMANDS",
+      "curricular_module": "E03",
+      "specificity": 70,
+      "frame_pattern": "circuito.{0,35}comando|comando.{0,25}motor"
+    },
+    {
+      "concept": "DIRECT_START",
+      "parent": "MOTOR_STARTING",
+      "curricular_module": "E03",
+      "specificity": 85,
+      "frame_pattern": "partida direta"
+    },
+    {
+      "concept": "STAR_DELTA_START",
+      "parent": "MOTOR_STARTING",
+      "curricular_module": "E04",
+      "specificity": 100,
+      "frame_pattern": "(partida|acionamento|chave).{0,60}estrela.{0,3}triangulo|estrela.{0,3}triangulo.{0,60}(partida|acionamento)"
+    },
+    {
+      "concept": "COMPENSATOR_START",
+      "parent": "MOTOR_STARTING",
+      "curricular_module": "E04",
+      "specificity": 90,
+      "frame_pattern": "partida compensadora|chave compensadora"
+    },
+    {
+      "concept": "DAHLANDER",
+      "parent": "MOTORS",
+      "curricular_module": "E05",
+      "specificity": 95,
+      "frame_pattern": "dahlander"
+    },
+    {
+      "concept": "FREQUENCY_DRIVE",
+      "parent": "MOTOR_DRIVES",
+      "curricular_module": "E06",
+      "specificity": 90,
+      "frame_pattern": "inversor.{0,25}frequencia"
+    },
+    {
+      "concept": "SOFT_STARTER",
+      "parent": "MOTOR_DRIVES",
+      "curricular_module": "E06",
+      "specificity": 90,
+      "frame_pattern": "soft.{0,2}starter"
+    },
+    {
+      "concept": "MOTOR_PROTECTION",
+      "parent": "PROTECTION",
+      "curricular_module": "P02",
+      "specificity": 92,
+      "frame_pattern": "(motor.{0,100}(rele termico|sobrecarga|protecao)|(sobrecarga|rele termico).{0,100}motor)"
+    },
+    {
+      "concept": "MOTOR_LOCKED_ROTOR_TEST",
+      "parent": "MOTORS",
+      "curricular_module": "E01",
+      "specificity": 95,
+      "frame_pattern": "ensaio de rotor bloqueado|rotor bloqueado.{0,30}ensaio"
+    },
+    {
+      "concept": "MOTOR_SLIP",
+      "parent": "MOTORS",
+      "curricular_module": "E01",
+      "specificity": 90,
+      "frame_pattern": "escorregamento|velocidade do motor.{0,180}velocidade (diminui|reduz)"
+    },
+    {
+      "concept": "SYNCHRONOUS_SPEED",
+      "parent": "MOTORS",
+      "curricular_module": "E01",
+      "specificity": 80,
+      "frame_pattern": "(numero de polos|numero de.{0,5}polos|\\d+ polos|rotacao nominal).{0,100}(frequencia|hz)|frequencia.{0,300}(polos|rotacao)|velocidade.{0,30}sincrona"
+    },
+    {
+      "concept": "SYNCHRONOUS_MACHINE_EMF",
+      "parent": "MOTORS",
+      "curricular_module": null,
+      "specificity": 95,
+      "frame_pattern": "reatancia sincrona|tensao induzida por fase"
+    },
+    {
+      "concept": "MOTOR_EFFICIENCY",
+      "parent": "MOTORS",
+      "curricular_module": "E01",
+      "specificity": 90,
+      "frame_pattern": "(motor.{0,160}(eficiencia|rendimento)|(eficiencia|rendimento).{0,60}motor)"
+    },
+    {
+      "concept": "INDUCTION_MOTOR",
+      "parent": "MOTORS",
+      "curricular_module": "E01",
+      "specificity": 50,
+      "frame_pattern": "assincron|motor.{0,15}inducao|gaiola de esquilo"
+    },
+    {
+      "concept": "SYNCHRONOUS_MOTOR",
+      "parent": "MOTORS",
+      "curricular_module": "E01",
+      "specificity": 45,
+      "frame_pattern": "motor sincron"
+    },
+    {
+      "concept": "DC_MACHINE_TORQUE",
+      "parent": "MOTORS",
+      "curricular_module": null,
+      "specificity": 95,
+      "frame_pattern": "motor serie.{0,100}torque|motor.{0,20}corrente continua.{0,80}torque"
+    },
+    {
+      "concept": "MOTOR_WINDING_CONNECTION",
+      "parent": "MOTORS",
+      "curricular_module": "E02",
+      "specificity": 70,
+      "frame_pattern": "fechamento.{0,25}motor|terminais.{0,60}(estrela|triangulo)|enrolamento.{0,40}(ligacao|estrela|triangulo)"
+    },
+    {
+      "concept": "THREE_PHASE_VOLTAGE",
+      "parent": "AC_CIRCUITS",
+      "curricular_module": "E02",
+      "specificity": 75,
+      "frame_pattern": "tensao.{0,20}(linha|fase.fase)|tensao.{0,30}enrolamento|tensao.{0,40}carga.{0,50}submetida"
+    },
+    {
+      "concept": "THREE_PHASE_POWER",
+      "parent": "ELECTRICAL_POWER",
+      "curricular_module": "F04",
+      "specificity": 70,
+      "frame_pattern": "(calcule|calcular|valor|determine|qual).{0,65}potencia.{0,90}trifas|trifas.{0,120}(potencia total|potencia ativa|potencia aparente)"
+    },
+    {
+      "concept": "WHEATSTONE_BRIDGE",
+      "parent": "BRIDGE_CIRCUITS",
+      "curricular_module": "F02",
+      "specificity": 100,
+      "frame_pattern": "wheatstone|ponte.{0,20}equilibrio"
+    },
+    {
+      "concept": "STRAIN_GAUGE",
+      "parent": "INDUSTRIAL_INSTRUMENTATION",
+      "curricular_module": null,
+      "specificity": 90,
+      "frame_pattern": "extensometro|strain.gauge"
+    },
+    {
+      "concept": "RESISTIVE_SENSOR",
+      "parent": "INDUSTRIAL_INSTRUMENTATION",
+      "curricular_module": null,
+      "specificity": 85,
+      "frame_pattern": "pt.{0,2}100|termorresist|sensor.{0,30}resistiv"
+    },
+    {
+      "concept": "THERMOCOUPLE",
+      "parent": "INDUSTRIAL_INSTRUMENTATION",
+      "curricular_module": null,
+      "specificity": 80,
+      "frame_pattern": "termopar|termopares"
+    },
+    {
+      "concept": "INSTRUMENTATION_TAGS",
+      "parent": "INDUSTRIAL_INSTRUMENTATION",
+      "curricular_module": null,
+      "specificity": 90,
+      "frame_pattern": "\\btic\\b|identific.{0,20}sigla.{0,15}(pic|fic|lic)|padr.{0,15}isa"
+    },
+    {
+      "concept": "INDUSTRIAL_TRANSMITTER",
+      "parent": "INDUSTRIAL_INSTRUMENTATION",
+      "curricular_module": null,
+      "specificity": 80,
+      "frame_pattern": "transmissor.{0,40}sinais|transmissores|transdutor.{0,20}pressao"
+    },
+    {
+      "concept": "ULTRASONIC_LEVEL",
+      "parent": "AUTOMATION_SENSORS",
+      "curricular_module": "A03",
+      "specificity": 95,
+      "frame_pattern": "nivel.{0,15}ultrasson|ultrasson.{0,30}nivel"
+    },
+    {
+      "concept": "PRESENCE_SENSOR",
+      "parent": "AUTOMATION_SENSORS",
+      "curricular_module": "A03",
+      "specificity": 85,
+      "frame_pattern": "sensor.{0,20}presenca|circulacao de pessoas|detector.{0,15}movimento"
+    },
+    {
+      "concept": "LEVEL_CONTROL",
+      "parent": "AUTOMATION_SENSORS",
+      "curricular_module": "A03",
+      "specificity": 75,
+      "frame_pattern": "controle de nivel|sensor de nivel"
+    },
+    {
+      "concept": "FIRE_DETECTION",
+      "parent": "AUTOMATION_SENSORS",
+      "curricular_module": "A03",
+      "specificity": 85,
+      "frame_pattern": "alarme de incendio|detector.{0,15}(fumaca|chama)|detectores automaticos"
+    },
+    {
+      "concept": "SEMICONDUCTOR_SWITCH",
+      "parent": "ANALOG_ELECTRONICS",
+      "curricular_module": null,
+      "specificity": 92,
+      "frame_pattern": "transistor.{0,120}chave|chave.{0,80}transistor|chaveamento.{0,30}(transformador|corrente)|hfe.{0,10}sat"
+    },
+    {
+      "concept": "TRANSISTOR_IDENTIFICATION",
+      "parent": "ANALOG_ELECTRONICS",
+      "curricular_module": null,
+      "specificity": 88,
+      "frame_pattern": "tipo de transistor|transistor.{0,35}(do tipo|utilizado)"
+    },
+    {
+      "concept": "TRANSISTOR_OPERATION",
+      "parent": "ANALOG_ELECTRONICS",
+      "curricular_module": null,
+      "specificity": 75,
+      "frame_pattern": "transistor|\\bbjt\\b|\\bfet\\b|\\bmosfet\\b"
+    },
+    {
+      "concept": "THYRISTOR_OPERATION",
+      "parent": "ANALOG_ELECTRONICS",
+      "curricular_module": null,
+      "specificity": 86,
+      "frame_pattern": "tiristor|\\bscr\\b|\\btriac\\b"
+    },
+    {
+      "concept": "RECTIFIER_OPERATION",
+      "parent": "ANALOG_ELECTRONICS",
+      "curricular_module": null,
+      "specificity": 80,
+      "frame_pattern": "retificador|retifica.{0,30}(onda|tensao)|fonte.{0,35}(ac/dc|nao regulada)"
+    },
+    {
+      "concept": "ACTIVE_FILTER",
+      "parent": "ANALOG_ELECTRONICS",
+      "curricular_module": null,
+      "specificity": 85,
+      "frame_pattern": "filtro ativo|amplificador operacional|\\bampop\\b"
+    },
+    {
+      "concept": "OSCILLATOR_FEEDBACK",
+      "parent": "ANALOG_ELECTRONICS",
+      "curricular_module": null,
+      "specificity": 90,
+      "frame_pattern": "barkhausen|oscilacao espontan|oscilador.{0,15}realiment"
+    },
+    {
+      "concept": "AMPLIFIER_GAIN",
+      "parent": "ANALOG_ELECTRONICS",
+      "curricular_module": null,
+      "specificity": 80,
+      "frame_pattern": "ganho.{0,20}(potencia|db)|circuito eletronico.{0,160}ganho"
+    },
+    {
+      "concept": "SEMICONDUCTOR_PHYSICS",
+      "parent": "ANALOG_ELECTRONICS",
+      "curricular_module": null,
+      "specificity": 80,
+      "frame_pattern": "dopagem|portadores minoritarios|semicondutor|diodo"
+    },
+    {
+      "concept": "PROTOBOARD",
+      "parent": "ANALOG_ELECTRONICS",
+      "curricular_module": null,
+      "specificity": 80,
+      "frame_pattern": "protoboard"
+    },
+    {
+      "concept": "INSULATION_TEST",
+      "parent": "INSULATION",
+      "curricular_module": "M02",
+      "specificity": 100,
+      "frame_pattern": "resistencia de isolamento|medicao.{0,20}isolacao|megohmetro|megometro|megomet|megometro|megometro"
+    },
+    {
+      "concept": "CONTINUITY_TEST",
+      "parent": "MEASUREMENTS",
+      "curricular_module": "M02",
+      "specificity": 80,
+      "frame_pattern": "continuidade|condutores.{0,70}interligados"
+    },
+    {
+      "concept": "MEASUREMENT_CONNECTION",
+      "parent": "MULTIMETER",
+      "curricular_module": "M01",
+      "specificity": 85,
+      "frame_pattern": "(medir|medicao|medida).{0,20}(tensao|corrente|resistencia).{0,120}(conect|terminais|serie|paralelo)|medidas.{0,70}colocado|deve ser.{0,20}colocado|instrumento.{0,70}colocado|procedimentos.{0,30}medir resistencias"
+    },
+    {
+      "concept": "MULTIMETER_VOLTAGE",
+      "parent": "MULTIMETER",
+      "curricular_module": "M01",
+      "specificity": 72,
+      "frame_pattern": "(multimetro|voltimetro).{0,120}tensao|tensao.{0,120}(multimetro|voltimetro)"
+    },
+    {
+      "concept": "MULTIMETER_CURRENT",
+      "parent": "MULTIMETER",
+      "curricular_module": "M01",
+      "specificity": 72,
+      "frame_pattern": "(amperimetro|multimetro).{0,100}corrente|corrente.{0,80}(amperimetro|multimetro)"
+    },
+    {
+      "concept": "MULTIMETER_RESISTANCE",
+      "parent": "MULTIMETER",
+      "curricular_module": "M01",
+      "specificity": 72,
+      "frame_pattern": "ohmimetro|multimetro.{0,45}resistencia"
+    },
+    {
+      "concept": "MULTIMETER_FUNCTION",
+      "parent": "MULTIMETER",
+      "curricular_module": "M01",
+      "specificity": 40,
+      "frame_pattern": "multimetro|amperimetro|voltimetro|alicate amper"
+    },
+    {
+      "concept": "OSCILLOSCOPE_READING",
+      "parent": "MEASUREMENTS",
+      "curricular_module": "M01",
+      "specificity": 70,
+      "frame_pattern": "osciloscopio"
+    },
+    {
+      "concept": "SPECTRUM_MEASUREMENT",
+      "parent": "MEASUREMENTS",
+      "curricular_module": "M01",
+      "specificity": 80,
+      "frame_pattern": "dominio da frequencia.{0,25}instrumento|instrumento.{0,100}dominio da frequencia"
+    },
+    {
+      "concept": "CURRENT_TRANSFORMER",
+      "parent": "INDIRECT_MEASUREMENT",
+      "curricular_module": "T02",
+      "specificity": 90,
+      "frame_pattern": "transformador.{0,15}corrente|\\bt\\.?\\s?c\\.?\\b.{0,30}secundario"
+    },
+    {
+      "concept": "POTENTIAL_TRANSFORMER",
+      "parent": "INDIRECT_MEASUREMENT",
+      "curricular_module": "T02",
+      "specificity": 90,
+      "frame_pattern": "transformador.{0,15}potencial"
+    },
+    {
+      "concept": "TRANSFORMER_THREE_PHASE",
+      "parent": "TRANSFORMERS",
+      "curricular_module": "T01",
+      "specificity": 85,
+      "frame_pattern": "transformador trifasico|transformador.{0,30}estrela"
+    },
+    {
+      "concept": "TRANSFORMER_RATIO",
+      "parent": "TRANSFORMERS",
+      "curricular_module": "T01",
+      "specificity": 70,
+      "frame_pattern": "transformador.{0,130}(espiras|primario|secundario|relacao)|espiras.{0,80}transformador|relacao de transformacao"
+    },
+    {
+      "concept": "TRANSFORMER_THEORY",
+      "parent": "TRANSFORMERS",
+      "curricular_module": "T01",
+      "specificity": 40,
+      "frame_pattern": "transformador"
+    },
+    {
+      "concept": "NR10_REENERGIZATION",
+      "parent": "NR10",
+      "curricular_module": "S01",
+      "specificity": 95,
+      "frame_pattern": "reenergizacao|reenergizar"
+    },
+    {
+      "concept": "STORED_ENERGY_DISCHARGE",
+      "parent": "NR10",
+      "curricular_module": "S01",
+      "specificity": 100,
+      "frame_pattern": "capacitor.{0,100}(descarreg|mantem tensao)|descarreg.{0,70}capacitor"
+    },
+    {
+      "concept": "ELECTRICAL_LOCKOUT",
+      "parent": "NR10",
+      "curricular_module": "S01",
+      "specificity": 90,
+      "frame_pattern": "bloqueio.{0,70}(eletric|reenerg|tensao)|\\bloto\\b"
+    },
+    {
+      "concept": "NR10_DEENERGIZATION",
+      "parent": "NR10",
+      "curricular_module": "S01",
+      "specificity": 80,
+      "frame_pattern": "desenergiz|ausencia de tensao|antes de iniciar.{0,80}manutencao.{0,80}isolar o circuito"
+    },
+    {
+      "concept": "NR10_DOCUMENTATION",
+      "parent": "NR10",
+      "curricular_module": "S03",
+      "specificity": 92,
+      "frame_pattern": "prontuario|nr.{0,3}10.{0,1000}(75 kw|esquemas unifilares)"
+    },
+    {
+      "concept": "VOLTAGE_CLASSIFICATION",
+      "parent": "NR10",
+      "curricular_module": "S03",
+      "specificity": 75,
+      "frame_pattern": "classificacao.{0,20}tensao|extra.baixa tensao|rede eletrica.{0,30}baixa tensao"
+    },
+    {
+      "concept": "WORK_AT_HEIGHT",
+      "parent": "SAFETY",
+      "curricular_module": "S02",
+      "specificity": 85,
+      "frame_pattern": "trabalho.{0,25}altura|nr.{0,3}35|trabalhar no alto|queda.{0,20}altura"
+    },
+    {
+      "concept": "EPI_EPC_SELECTION",
+      "parent": "SAFETY",
+      "curricular_module": "S02",
+      "specificity": 90,
+      "frame_pattern": "\\bepis?\\b|\\bepcs?\\b|protecao (individual|coletiva)|luvas isolantes"
+    },
+    {
+      "concept": "WORKER_AUTHORIZATION",
+      "parent": "NR10",
+      "curricular_module": "S02",
+      "specificity": 75,
+      "frame_pattern": "(trabalhador|profissional).{0,50}(autoriz|habilit|qualific)|operacoes elementares"
+    },
+    {
+      "concept": "WORKPLACE_ORGANIZATION",
+      "parent": "SAFETY",
+      "curricular_module": "S02",
+      "specificity": 65,
+      "frame_pattern": "organizacao.{0,50}ferramentas|ferramentas.{0,35}espalhadas"
+    },
+    {
+      "concept": "ELECTRICAL_SAFETY",
+      "parent": "NR10",
+      "curricular_module": "S02",
+      "specificity": 30,
+      "frame_pattern": "nr.{0,3}10|seguranca.{0,30}eletric"
+    },
+    {
+      "concept": "POWER_FACTOR_CORRECTION",
+      "parent": "POWER",
+      "curricular_module": "F04",
+      "specificity": 100,
+      "frame_pattern": "(capacitor|banco de capacitores).{0,140}(fator de potencia|energia reativa)|(fator de potencia).{0,150}(capacitor|corrigir|correcao)"
+    },
+    {
+      "concept": "POWER_FACTOR",
+      "parent": "POWER",
+      "curricular_module": "F04",
+      "specificity": 90,
+      "frame_pattern": "fator de potencia"
+    },
+    {
+      "concept": "ELECTRICAL_POWER",
+      "parent": "POWER",
+      "curricular_module": "F04",
+      "specificity": 65,
+      "frame_pattern": "(potencia (eletrica|recebida|fornecida)|qual.{0,25}potencia|valor.{0,25}potencia)|corrente total.{0,40}circuito|chuveiro.{0,100}valor da corrente"
+    },
+    {
+      "concept": "ELECTRICAL_ENERGY",
+      "parent": "POWER",
+      "curricular_module": "F04",
+      "specificity": 65,
+      "frame_pattern": "energia.{0,30}(consumida|consumo)|\\bkwh\\b"
+    },
+    {
+      "concept": "SOURCE_LOADING",
+      "parent": "RESISTOR_NETWORKS",
+      "curricular_module": "F02",
+      "specificity": 95,
+      "frame_pattern": "gerador de funcoes.{0,200}resistor|resistencia interna.{0,60}fonte"
+    },
+    {
+      "concept": "KIRCHHOFF_KCL",
+      "parent": "KIRCHHOFF",
+      "curricular_module": "F02",
+      "specificity": 90,
+      "frame_pattern": "lei.{0,15}nos|kirchhoff.{0,35}corrente"
+    },
+    {
+      "concept": "KIRCHHOFF_KVL",
+      "parent": "KIRCHHOFF",
+      "curricular_module": "F02",
+      "specificity": 90,
+      "frame_pattern": "lei.{0,15}malhas|kirchhoff.{0,35}tensao"
+    },
+    {
+      "concept": "PARALLEL_EQUIVALENT_RESISTANCE",
+      "parent": "RESISTOR_NETWORKS",
+      "curricular_module": "F02",
+      "specificity": 65,
+      "frame_pattern": "associacao em paralelo|paralelo de.{0,20}resistores|resistores.{0,80}(ligados|conectados) em paralelo"
+    },
+    {
+      "concept": "SERIES_EQUIVALENT_RESISTANCE",
+      "parent": "RESISTOR_NETWORKS",
+      "curricular_module": "F02",
+      "specificity": 65,
+      "frame_pattern": "associacao em serie|circuito (em )?serie|resistores.{0,55}(ligados|conectados) em serie"
+    },
+    {
+      "concept": "MIXED_EQUIVALENT_RESISTANCE",
+      "parent": "RESISTOR_NETWORKS",
+      "curricular_module": "F02",
+      "specificity": 70,
+      "frame_pattern": "resistencia equivalente|associacao mista"
+    },
+    {
+      "concept": "STAR_DELTA_IMPEDANCE",
+      "parent": "RESISTOR_NETWORKS",
+      "curricular_module": "F02",
+      "specificity": 92,
+      "frame_pattern": "circuito equivalente.{0,50}(delta|triangulo)|impedancias.{0,120}equivalente"
+    },
+    {
+      "concept": "OHMS_LAW_CURRENT",
+      "parent": "OHMS_LAW",
+      "curricular_module": "F02",
+      "specificity": 65,
+      "frame_pattern": "(valor|calcule|determine|qual).{0,25}corrente|corrente.{0,40}(inalterada|manter)|manter.{0,15}corrente"
+    },
+    {
+      "concept": "OHMS_LAW_RESISTANCE",
+      "parent": "OHMS_LAW",
+      "curricular_module": "F02",
+      "specificity": 65,
+      "frame_pattern": "(valor|calcule|determine|qual).{0,25}resistencia"
+    },
+    {
+      "concept": "OHMS_LAW_VOLTAGE",
+      "parent": "OHMS_LAW",
+      "curricular_module": "F02",
+      "specificity": 65,
+      "frame_pattern": "(valor|calcule|determine|qual).{0,25}tensao|aumento de tensao"
+    },
+    {
+      "concept": "OHMS_LAW",
+      "parent": "TECHNICAL_CONCEPTS",
+      "curricular_module": "F02",
+      "specificity": 45,
+      "frame_pattern": "lei de ohm"
+    },
+    {
+      "concept": "RESISTOR_COLOR_CODE",
+      "parent": "RESISTOR_NETWORKS",
+      "curricular_module": "F02",
+      "specificity": 85,
+      "frame_pattern": "resistor.{0,55}(cores|cor)|codigo de cores"
+    },
+    {
+      "concept": "RC_TRANSIENT",
+      "parent": "AC_CIRCUITS",
+      "curricular_module": "F03",
+      "specificity": 95,
+      "frame_pattern": "constantes? de tempo|transitorio.{0,20}capac|circuito rc"
+    },
+    {
+      "concept": "RLC_PHASOR",
+      "parent": "AC_CIRCUITS",
+      "curricular_module": "F03",
+      "specificity": 80,
+      "frame_pattern": "\\brlc\\b|fasor"
+    },
+    {
+      "concept": "REACTANCE_IMPEDANCE",
+      "parent": "AC_CIRCUITS",
+      "curricular_module": "F03",
+      "specificity": 55,
+      "frame_pattern": "reatancia|impedancia"
+    },
+    {
+      "concept": "FREQUENCY_PERIOD",
+      "parent": "AC_CIRCUITS",
+      "curricular_module": "F03",
+      "specificity": 55,
+      "frame_pattern": "frequencia|periodo|senoidal|forma.{0,3}de onda"
+    },
+    {
+      "concept": "CAPACITOR_STORAGE",
+      "parent": "AC_CIRCUITS",
+      "curricular_module": "F03",
+      "specificity": 60,
+      "frame_pattern": "armazenar.{0,15}carga|capacitancia|capacitor"
+    },
+    {
+      "concept": "INDUCTOR_STORAGE",
+      "parent": "AC_CIRCUITS",
+      "curricular_module": "F03",
+      "specificity": 60,
+      "frame_pattern": "indutor|indutancia"
+    },
+    {
+      "concept": "ELECTRICAL_UNITS",
+      "parent": "FUNDAMENTALS",
+      "curricular_module": "F01",
+      "specificity": 65,
+      "frame_pattern": "unidade.{0,20}(medida|base)|sistema internacional|\\bddp\\b.{0,150}unidade"
+    },
+    {
+      "concept": "SIGNIFICANT_FIGURES",
+      "parent": "FUNDAMENTALS",
+      "curricular_module": "F01",
+      "specificity": 90,
+      "frame_pattern": "algarismos significativos"
+    },
+    {
+      "concept": "ELECTRICAL_QUANTITIES",
+      "parent": "FUNDAMENTALS",
+      "curricular_module": "F01",
+      "specificity": 25,
+      "frame_pattern": "grandeza eletrica|carga eletrica|diferenca de potencial"
+    },
+    {
+      "concept": "LOAD_DEMAND_CURRENT",
+      "parent": "BUILDING_INSTALLATIONS",
+      "curricular_module": "I01",
+      "specificity": 90,
+      "frame_pattern": "levantamento de carga|corrente total demandada|demanda.{0,40}residencia"
+    },
+    {
+      "concept": "LOAD_ALLOCATION",
+      "parent": "BUILDING_INSTALLATIONS",
+      "curricular_module": "I01",
+      "specificity": 80,
+      "frame_pattern": "potencia.{0,35}minima.{0,30}(atribuida|tomada)|previsao.{0,25}carga"
+    },
+    {
+      "concept": "LIGHTING_CONTROL_PROTOCOL",
+      "parent": "BUILDING_INSTALLATIONS",
+      "curricular_module": "I01",
+      "specificity": 90,
+      "frame_pattern": "dmx512"
+    },
+    {
+      "concept": "LIGHTING_SELECTION",
+      "parent": "BUILDING_INSTALLATIONS",
+      "curricular_module": "I01",
+      "specificity": 65,
+      "frame_pattern": "lampada|luminaria|iluminacao"
+    },
+    {
+      "concept": "ELECTRICIAN_TOOLS",
+      "parent": "BUILDING_INSTALLATIONS",
+      "curricular_module": "I01",
+      "specificity": 65,
+      "frame_pattern": "ferramentas.{0,80}(alicate|eletricista)|alicate.{0,20}(universal|bico|corte)"
+    },
+    {
+      "concept": "ELECTRICAL_CAD",
+      "parent": "ELECTRICAL_DRAWINGS",
+      "curricular_module": "I03",
+      "specificity": 80,
+      "frame_pattern": "\\bcad\\b|recursos de informatica.{0,90}instalacoes|software.{0,35}projeto eletrico"
+    },
+    {
+      "concept": "ELECTRICAL_DIAGRAM_NOTATION",
+      "parent": "ELECTRICAL_DRAWINGS",
+      "curricular_module": "I03",
+      "specificity": 65,
+      "frame_pattern": "unifilar|multifilar|simbologia|paredes.{0,30}caixas"
+    },
+    {
+      "concept": "ELECTRICAL_COMPONENT_SYMBOL",
+      "parent": "ELECTRICAL_DRAWINGS",
+      "curricular_module": "I03",
+      "specificity": 80,
+      "frame_pattern": "(simbolo|simbolos).{0,80}(representar|identificacao)|componente.{0,30}representado|componente.{0,40}representad"
+    },
+    {
+      "concept": "WIRING_INFRASTRUCTURE",
+      "parent": "CONDUCTORS",
+      "curricular_module": "P01",
+      "specificity": 75,
+      "frame_pattern": "eletroduto|canaleta|rede embutida"
+    },
+    {
+      "concept": "CONDUCTOR_CORRECTION",
+      "parent": "CONDUCTORS",
+      "curricular_module": "P01",
+      "specificity": 90,
+      "frame_pattern": "fatores de correcao|fator de correcao"
+    },
+    {
+      "concept": "CONDUCTOR_AMPACITY",
+      "parent": "CONDUCTORS",
+      "curricular_module": "P01",
+      "specificity": 85,
+      "frame_pattern": "capacidade.{0,15}conducao|ampacidade"
+    },
+    {
+      "concept": "CONDUCTOR_SIZING",
+      "parent": "CONDUCTORS",
+      "curricular_module": "P01",
+      "specificity": 60,
+      "frame_pattern": "dimensionamento.{0,25}(condutor|cabo)|bitola.{0,25}condutor|escolher a bitola"
+    },
+    {
+      "concept": "CONDUCTOR_INSULATION",
+      "parent": "CONDUCTORS",
+      "curricular_module": "P01",
+      "specificity": 80,
+      "frame_pattern": "(material|materiais).{0,20}isolamento|isolacao.{0,30}(pvc|epr|xlpe)"
+    },
+    {
+      "concept": "VOLTAGE_DROP",
+      "parent": "CONDUCTORS",
+      "curricular_module": "P01",
+      "specificity": 85,
+      "frame_pattern": "queda de tensao"
+    },
+    {
+      "concept": "PROTECTION_CONDUCTOR_COORDINATION",
+      "parent": "OVERCURRENT_PROTECTION",
+      "curricular_module": "P02",
+      "specificity": 90,
+      "frame_pattern": "(disjuntor.{0,80}(epr|mm2)|\\b(epr|mm2)\\b.{0,100}disjuntor)"
+    },
+    {
+      "concept": "OVERCURRENT_PROTECTION",
+      "parent": "PROTECTION",
+      "curricular_module": "P02",
+      "specificity": 55,
+      "frame_pattern": "disjuntor|fusivel|curto.{0,2}circuito|curtos.{0,2}circuitos|sobrecarga|protecao de ramais alimentadores"
+    },
+    {
+      "concept": "FUSE_OPERATION",
+      "parent": "OVERCURRENT_PROTECTION",
+      "curricular_module": "P02",
+      "specificity": 95,
+      "frame_pattern": "fusivel.{0,50}descontinuidade|elo de fusao"
+    },
+    {
+      "concept": "PROTECTION_SELECTIVITY",
+      "parent": "PROTECTION",
+      "curricular_module": "P02",
+      "specificity": 85,
+      "frame_pattern": "sele[tic]+ividade|seccione apenas o circuito defeituoso|circuito defeituoso.{0,60}demais circuitos"
+    },
+    {
+      "concept": "RESIDUAL_EARTHING_COMPATIBILITY",
+      "parent": "RESIDUAL_PROTECTION",
+      "curricular_module": "P03",
+      "specificity": 95,
+      "frame_pattern": "diferencial.residual.{0,200}esquema de aterramento|esquema de aterramento.{0,200}diferencial.residual"
+    },
+    {
+      "concept": "RESIDUAL_CURRENT_PROTECTION",
+      "parent": "RESIDUAL_PROTECTION",
+      "curricular_module": "P03",
+      "specificity": 80,
+      "frame_pattern": "diferencial.residual|dispositivos? dr|\\bidr\\b|\\bddr\\b|soma vetorial.{0,70}correntes"
+    },
+    {
+      "concept": "LIGHTING_SWITCHING",
+      "parent": "LIGHTING_CONTROLS",
+      "curricular_module": "I02",
+      "specificity": 75,
+      "frame_pattern": "interruptor|lampada.{0,100}pontos de comando"
+    },
+    {
+      "concept": "PHOTOELECTRIC_SWITCH",
+      "parent": "LIGHTING_CONTROLS",
+      "curricular_module": "I02",
+      "specificity": 85,
+      "frame_pattern": "fotocelula|rele.{0,15}foto"
+    },
+    {
+      "concept": "EARTHING_SCHEME",
+      "parent": "EARTHING",
+      "curricular_module": "P04",
+      "specificity": 75,
+      "frame_pattern": "esquema.{0,20}aterramento|\\btn.c.s\\b|\\btn.c\\b|\\btn.s\\b"
+    },
+    {
+      "concept": "EARTHING_ELECTRODE",
+      "parent": "EARTHING",
+      "curricular_module": "P04",
+      "specificity": 80,
+      "frame_pattern": "infraestrutura de aterramento|eletrodo de aterramento"
+    },
+    {
+      "concept": "EARTHING_FUNCTION",
+      "parent": "EARTHING",
+      "curricular_module": "P04",
+      "specificity": 45,
+      "frame_pattern": "aterramento|equipotencial"
+    },
+    {
+      "concept": "SPDA",
+      "parent": "ATMOSPHERIC_PROTECTION",
+      "curricular_module": "P05",
+      "specificity": 90,
+      "frame_pattern": "\\bspda\\b|sistema.{0,40}descargas atmosfericas"
+    },
+    {
+      "concept": "SURGE_PROTECTION",
+      "parent": "ATMOSPHERIC_PROTECTION",
+      "curricular_module": "P05",
+      "specificity": 85,
+      "frame_pattern": "\\bdps\\b|para.raios|protecao contra surtos"
+    },
+    {
+      "concept": "PV_IV_CURVE",
+      "parent": "PHOTOVOLTAICS",
+      "curricular_module": "V01",
+      "specificity": 90,
+      "frame_pattern": "curva iv|curva i.v|maxima potencia.{0,30}fotovolta"
+    },
+    {
+      "concept": "PV_ARRAY_POWER",
+      "parent": "PHOTOVOLTAICS",
+      "curricular_module": "V01",
+      "specificity": 75,
+      "frame_pattern": "fotovoltaic|modulos.{0,30}wp"
+    },
+    {
+      "concept": "PV_ENERGY",
+      "parent": "PHOTOVOLTAICS",
+      "curricular_module": "V01",
+      "specificity": 80,
+      "frame_pattern": "energia.{0,50}painel solar|painel solar.{0,120}energia"
+    },
+    {
+      "concept": "RENEWABLE_SOURCES",
+      "parent": "PHOTOVOLTAICS",
+      "curricular_module": "V01",
+      "specificity": 65,
+      "frame_pattern": "energia renovave|energias renovave|fontes de energia renovave|fontes alternativas de energia"
+    },
+    {
+      "concept": "THERMOGRAPHY",
+      "parent": "FAULT_DIAGNOSIS",
+      "curricular_module": "D02",
+      "specificity": 95,
+      "frame_pattern": "termograf|termovisor|ponto quente"
+    },
+    {
+      "concept": "MAINTENANCE_STRATEGY",
+      "parent": "MAINTENANCE",
+      "curricular_module": "D01",
+      "specificity": 70,
+      "frame_pattern": "manutencao (preventiva|preditiva|corretiva)|chama.se manutencao|inspecoes sistematicas"
+    },
+    {
+      "concept": "FAULT_DIAGNOSIS",
+      "parent": "TECHNICAL_CONCEPTS",
+      "curricular_module": "D02",
+      "specificity": 55,
+      "frame_pattern": "localizacao de falhas|diagnostico.{0,20}falha|localizar.{0,15}defeito"
+    },
+    {
+      "concept": "BOOLEAN_ALGEBRA",
+      "parent": "DIGITAL_LOGIC",
+      "curricular_module": "A01",
+      "specificity": 80,
+      "frame_pattern": "boole|karnaugh"
+    },
+    {
+      "concept": "NUMBER_BASE_CONVERSION",
+      "parent": "DIGITAL_LOGIC",
+      "curricular_module": "A01",
+      "specificity": 85,
+      "frame_pattern": "base (decimal|octal)|hexadecimal|registrador.{0,300}(xor|and|or)"
+    },
+    {
+      "concept": "LADDER_BOOLEAN",
+      "parent": "DIGITAL_LOGIC",
+      "curricular_module": "A01",
+      "specificity": 80,
+      "frame_pattern": "ladder.{0,120}funcao logica|funcao.{0,40}ladder"
+    },
+    {
+      "concept": "LADDER_SEAL_IN",
+      "parent": "MOTOR_CONTROL",
+      "curricular_module": "E03",
+      "specificity": 95,
+      "frame_pattern": "contato.{0,20}selo|selo.{0,25}contato"
+    },
+    {
+      "concept": "PLC_IO",
+      "parent": "PLC",
+      "curricular_module": "A02",
+      "specificity": 80,
+      "frame_pattern": "modulos de entrada|modulos.{0,20}saida|entradas.{0,20}saidas"
+    },
+    {
+      "concept": "PLC_PROGRAMMING",
+      "parent": "PLC",
+      "curricular_module": "A02",
+      "specificity": 85,
+      "frame_pattern": "texto estruturado|linguagem.{0,20}\\bst\\b"
+    },
+    {
+      "concept": "PLC_SCAN",
+      "parent": "PLC",
+      "curricular_module": "A02",
+      "specificity": 90,
+      "frame_pattern": "ciclo.{0,20}varredura"
+    },
+    {
+      "concept": "SCADA_OPERATION",
+      "parent": "PLC",
+      "curricular_module": "A02",
+      "specificity": 75,
+      "frame_pattern": "supervisorio|\\bscada\\b"
+    },
+    {
+      "concept": "CAUSE_EFFECT_LOGIC",
+      "parent": "PLC",
+      "curricular_module": "A02",
+      "specificity": 80,
+      "frame_pattern": "matriz de causa e efeito"
+    },
+    {
+      "concept": "PLC_CONTROL",
+      "parent": "PLC",
+      "curricular_module": "A02",
+      "specificity": 45,
+      "frame_pattern": "controlador logico|\\bclp\\b"
+    },
+    {
+      "concept": "AUTOMATION_ACTUATOR",
+      "parent": "PLC",
+      "curricular_module": "A02",
+      "specificity": 65,
+      "frame_pattern": "atuadores.{0,40}sistema de producao|atuador.{0,40}automatizado"
+    },
+    {
+      "concept": "CONTACTOR_CONTROL",
+      "parent": "COMMANDS",
+      "curricular_module": "E03",
+      "specificity": 60,
+      "frame_pattern": "contator|comandos eletricos automaticos"
+    },
+    {
+      "concept": "RELAY_OPERATION",
+      "parent": "COMMANDS",
+      "curricular_module": "E03",
+      "specificity": 65,
+      "frame_pattern": "rele|reles|chaves eletromecanicas"
+    },
+    {
+      "concept": "PNEUMATIC_VALVE",
+      "parent": "FLUID_POWER",
+      "curricular_module": "H01",
+      "specificity": 65,
+      "frame_pattern": "valvula|pneumatic|hidraulic"
+    },
+    {
+      "concept": "CYLINDER_FORCE",
+      "parent": "FLUID_POWER",
+      "curricular_module": "H01",
+      "specificity": 90,
+      "frame_pattern": "cilindro.{0,180}forca|forca.{0,70}cilindro"
+    },
+    {
+      "concept": "VALVE_RETENTION",
+      "parent": "FLUID_POWER",
+      "curricular_module": "H01",
+      "specificity": 85,
+      "frame_pattern": "valvulas.{0,100}retorno de agua|valvula.{0,25}retencao"
+    },
+    {
+      "concept": "ELECTROPNEUMATIC_SEQUENCE",
+      "parent": "FLUID_POWER",
+      "curricular_module": "H02",
+      "specificity": 80,
+      "frame_pattern": "eletropneumat|sequencia.{0,40}cilindro"
+    },
+    {
+      "concept": "SUBSTATION_AUXILIARY_POWER",
+      "parent": "POWER_NETWORKS",
+      "curricular_module": "R02",
+      "specificity": 90,
+      "frame_pattern": "baterias vrla|bateria.{0,80}subestacao"
+    },
+    {
+      "concept": "SUBSTATION_PROTECTION",
+      "parent": "POWER_NETWORKS",
+      "curricular_module": "R02",
+      "specificity": 80,
+      "frame_pattern": "subestacao.{0,100}protecao|protecao.{0,70}media tensao"
+    },
+    {
+      "concept": "SUBSTATION_OPERATION",
+      "parent": "POWER_NETWORKS",
+      "curricular_module": "R02",
+      "specificity": 45,
+      "frame_pattern": "subestacao|barramento|seccionadora"
+    },
+    {
+      "concept": "DISTRIBUTION_CONNECTION",
+      "parent": "POWER_NETWORKS",
+      "curricular_module": "R01",
+      "specificity": 70,
+      "frame_pattern": "ponto de entrega|ponto de conexao|acesso ao sistema de distribuicao"
+    },
+    {
+      "concept": "DISTRIBUTION_TOPOLOGY",
+      "parent": "POWER_NETWORKS",
+      "curricular_module": "R01",
+      "specificity": 55,
+      "frame_pattern": "rede.{0,25}(radial|anel|distribuicao)|alimentador|poste"
+    },
+    {
+      "concept": "INDUSTRIAL_NETWORK",
+      "parent": "AUTOMATION_COMMUNICATION",
+      "curricular_module": null,
+      "specificity": 85,
+      "frame_pattern": "ethernet|csma|token ring|profibus|modbus"
+    },
+    {
+      "concept": "MATERIAL_PLASTICITY",
+      "parent": "OUTSIDE_CURRICULUM",
+      "curricular_module": null,
+      "specificity": 85,
+      "frame_pattern": "deformar permanentemente|plasticidade"
+    },
+    {
+      "concept": "DISTRIBUTION_REGULATORY_COST",
+      "parent": "OUTSIDE_CURRICULUM",
+      "curricular_module": null,
+      "specificity": 85,
+      "frame_pattern": "\\berd\\b|musderd"
+    },
+    {
+      "concept": "ANEEL_ADMINISTRATION",
+      "parent": "OUTSIDE_CURRICULUM",
+      "curricular_module": null,
+      "specificity": 85,
+      "frame_pattern": "aneel.{0,130}(pautas|assessoria|diretoria)"
+    },
+    {
+      "concept": "PUMP_MECHANICAL_FAULT",
+      "parent": "OUTSIDE_CURRICULUM",
+      "curricular_module": null,
+      "specificity": 85,
+      "frame_pattern": "bomba.{0,40}desgastes.{0,30}(alhetas|rotor)"
+    },
+    {
+      "concept": "LORENTZ_FORCE",
+      "parent": "OUTSIDE_CURRICULUM",
+      "curricular_module": null,
+      "specificity": 85,
+      "frame_pattern": "eletron.{0,100}campo magnetico"
+    },
+    {
+      "concept": "AUTOMOTIVE_STARTING",
+      "parent": "OUTSIDE_CURRICULUM",
+      "curricular_module": null,
+      "specificity": 85,
+      "frame_pattern": "motorista.{0,100}veiculo|veiculo automotor"
+    },
+    {
+      "concept": "UNSPECIFIED_RESISTOR_CIRCUIT",
+      "parent": "INSUFFICIENT_CONTEXT",
+      "curricular_module": null,
+      "specificity": 0,
+      "frame_pattern": "Circuito resistivo referenciado, contexto insuficiente; não inferir topologia."
+    }
+  ],
+  "parent_nodes": [
+    {
+      "concept": "AC_CIRCUITS",
+      "parent": "TECHNICAL_CONCEPTS"
+    },
+    {
+      "concept": "ANALOG_ELECTRONICS",
+      "parent": "TECHNICAL_CONCEPTS"
+    },
+    {
+      "concept": "ATMOSPHERIC_PROTECTION",
+      "parent": "TECHNICAL_CONCEPTS"
+    },
+    {
+      "concept": "AUTOMATION_COMMUNICATION",
+      "parent": "TECHNICAL_CONCEPTS"
+    },
+    {
+      "concept": "AUTOMATION_SENSORS",
+      "parent": "TECHNICAL_CONCEPTS"
+    },
+    {
+      "concept": "BRIDGE_CIRCUITS",
+      "parent": "TECHNICAL_CONCEPTS"
+    },
+    {
+      "concept": "BUILDING_INSTALLATIONS",
+      "parent": "TECHNICAL_CONCEPTS"
+    },
+    {
+      "concept": "COMMANDS",
+      "parent": "TECHNICAL_CONCEPTS"
+    },
+    {
+      "concept": "CONDUCTORS",
+      "parent": "TECHNICAL_CONCEPTS"
+    },
+    {
+      "concept": "DIGITAL_LOGIC",
+      "parent": "TECHNICAL_CONCEPTS"
+    },
+    {
+      "concept": "EARTHING",
+      "parent": "TECHNICAL_CONCEPTS"
+    },
+    {
+      "concept": "ELECTRICAL_DRAWINGS",
+      "parent": "TECHNICAL_CONCEPTS"
+    },
+    {
+      "concept": "FLUID_POWER",
+      "parent": "TECHNICAL_CONCEPTS"
+    },
+    {
+      "concept": "FUNDAMENTALS",
+      "parent": "TECHNICAL_CONCEPTS"
+    },
+    {
+      "concept": "INDIRECT_MEASUREMENT",
+      "parent": "TECHNICAL_CONCEPTS"
+    },
+    {
+      "concept": "INDUSTRIAL_INSTRUMENTATION",
+      "parent": "TECHNICAL_CONCEPTS"
+    },
+    {
+      "concept": "INSUFFICIENT_CONTEXT",
+      "parent": "TECHNICAL_CONCEPTS"
+    },
+    {
+      "concept": "INSULATION",
+      "parent": "TECHNICAL_CONCEPTS"
+    },
+    {
+      "concept": "KIRCHHOFF",
+      "parent": "TECHNICAL_CONCEPTS"
+    },
+    {
+      "concept": "LIGHTING_CONTROLS",
+      "parent": "TECHNICAL_CONCEPTS"
+    },
+    {
+      "concept": "MAINTENANCE",
+      "parent": "TECHNICAL_CONCEPTS"
+    },
+    {
+      "concept": "MEASUREMENTS",
+      "parent": "TECHNICAL_CONCEPTS"
+    },
+    {
+      "concept": "MOTORS",
+      "parent": "TECHNICAL_CONCEPTS"
+    },
+    {
+      "concept": "MOTOR_DRIVES",
+      "parent": "TECHNICAL_CONCEPTS"
+    },
+    {
+      "concept": "MOTOR_STARTING",
+      "parent": "TECHNICAL_CONCEPTS"
+    },
+    {
+      "concept": "MULTIMETER",
+      "parent": "TECHNICAL_CONCEPTS"
+    },
+    {
+      "concept": "NR10",
+      "parent": "TECHNICAL_CONCEPTS"
+    },
+    {
+      "concept": "OUTSIDE_CURRICULUM",
+      "parent": "TECHNICAL_CONCEPTS"
+    },
+    {
+      "concept": "PHOTOVOLTAICS",
+      "parent": "TECHNICAL_CONCEPTS"
+    },
+    {
+      "concept": "PLC",
+      "parent": "TECHNICAL_CONCEPTS"
+    },
+    {
+      "concept": "POWER",
+      "parent": "TECHNICAL_CONCEPTS"
+    },
+    {
+      "concept": "POWER_NETWORKS",
+      "parent": "TECHNICAL_CONCEPTS"
+    },
+    {
+      "concept": "PROTECTION",
+      "parent": "TECHNICAL_CONCEPTS"
+    },
+    {
+      "concept": "RESIDUAL_PROTECTION",
+      "parent": "TECHNICAL_CONCEPTS"
+    },
+    {
+      "concept": "RESISTOR_NETWORKS",
+      "parent": "TECHNICAL_CONCEPTS"
+    },
+    {
+      "concept": "SAFETY",
+      "parent": "TECHNICAL_CONCEPTS"
+    },
+    {
+      "concept": "TRANSFORMERS",
+      "parent": "TECHNICAL_CONCEPTS"
+    }
+  ],
+  "limits": "Deterministic technical frames are not exhaustive semantic understanding. Alternatives support compatible explicit concepts; distractors cannot establish a primary concept alone."
+}

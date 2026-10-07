@@ -1,0 +1,3005 @@
+{
+  "module": "S02",
+  "title": "Qualificação, EPI, altura e zonas de risco",
+  "total_candidates": 207,
+  "primary_assignments": 101,
+  "high_relevance": 38,
+  "medium_relevance": 18,
+  "low_relevance": 151,
+  "outside_theme": {
+    "count": null,
+    "status": "NOT_SEMANTICALLY_REVIEWED"
+  },
+  "image_dependent": 6,
+  "possible_duplicates": 0,
+  "possible_semantic_variants": 0,
+  "priority_ids": {
+    "HIGH": [
+      "Q4208595",
+      "Q4218549",
+      "Q4218688",
+      "Q3992769",
+      "Q3887511",
+      "Q3905508",
+      "Q3761895",
+      "Q3768152",
+      "Q3633932",
+      "Q3466921",
+      "Q3413235",
+      "Q3426557",
+      "Q3314768",
+      "Q3200223",
+      "Q3157289",
+      "Q3189272",
+      "Q2329774",
+      "Q2329798",
+      "Q2376910",
+      "Q2279011",
+      "Q2217537",
+      "Q2226730",
+      "Q2158452",
+      "Q2001158",
+      "Q2001159",
+      "Q1694545",
+      "Q1712220",
+      "Q1712224",
+      "Q1721324",
+      "Q1755413",
+      "Q1023724",
+      "Q1025902",
+      "Q980900",
+      "Q522935",
+      "Q484523",
+      "Q431760",
+      "Q453941",
+      "Q234035"
+    ],
+    "MEDIUM": [
+      "Q4186881",
+      "Q4104270",
+      "Q4128306",
+      "Q3838779",
+      "Q3851450",
+      "Q3742083",
+      "Q3538900",
+      "Q3573970",
+      "Q2587489",
+      "Q2217074",
+      "Q1240735",
+      "Q1088670",
+      "Q1037593",
+      "Q1058595",
+      "Q1011011",
+      "Q1015255",
+      "Q823503",
+      "Q394772"
+    ],
+    "LOW": [
+      "Q4166429",
+      "Q4173192",
+      "Q4193744",
+      "Q4084253",
+      "Q4084254",
+      "Q4084255",
+      "Q4091668",
+      "Q4114652",
+      "Q4128118",
+      "Q4047411",
+      "Q4051355",
+      "Q4083340",
+      "Q3981865",
+      "Q3982957",
+      "Q3982962",
+      "Q3992771",
+      "Q3992772",
+      "Q3996371",
+      "Q4007017",
+      "Q3911621",
+      "Q3958229",
+      "Q3958247",
+      "Q3959277",
+      "Q3887508",
+      "Q3887510",
+      "Q3896595",
+      "Q3898636",
+      "Q3898645",
+      "Q3905638",
+      "Q3803288",
+      "Q3836510",
+      "Q3838193",
+      "Q3838194",
+      "Q3853315",
+      "Q3864511",
+      "Q3865635",
+      "Q3675310",
+      "Q3742071",
+      "Q3790476",
+      "Q3790478",
+      "Q3790482",
+      "Q3793133",
+      "Q3595371",
+      "Q3595372",
+      "Q3646805",
+      "Q3646809",
+      "Q3646811",
+      "Q3646812",
+      "Q3466315",
+      "Q3466931",
+      "Q3535211",
+      "Q3566341",
+      "Q3411309",
+      "Q3411310",
+      "Q3432950",
+      "Q3442209",
+      "Q3442221",
+      "Q3458238",
+      "Q3332125",
+      "Q3333003",
+      "Q3402249",
+      "Q3199934",
+      "Q3199938",
+      "Q3200216",
+      "Q3200217",
+      "Q3260303",
+      "Q3260308",
+      "Q3090263",
+      "Q3090267",
+      "Q3100165",
+      "Q3125852",
+      "Q3157291",
+      "Q3157292",
+      "Q3019377",
+      "Q2768630",
+      "Q2772029",
+      "Q2517376",
+      "Q2587488",
+      "Q2668749",
+      "Q2668754",
+      "Q2486518",
+      "Q2486519",
+      "Q2329797",
+      "Q2333380",
+      "Q2338800",
+      "Q2376905",
+      "Q2401028",
+      "Q2401031",
+      "Q2314685",
+      "Q2314736",
+      "Q2320592",
+      "Q2329758",
+      "Q2295400",
+      "Q2217075",
+      "Q2217077",
+      "Q2217078",
+      "Q2217350",
+      "Q2217351",
+      "Q2189231",
+      "Q2001157",
+      "Q1812354",
+      "Q1694547",
+      "Q1712200",
+      "Q1712201",
+      "Q1712207",
+      "Q1712208",
+      "Q1712217",
+      "Q1755414",
+      "Q1608359",
+      "Q1087489",
+      "Q1088145",
+      "Q1088146",
+      "Q1037592",
+      "Q1049998",
+      "Q1058581",
+      "Q1058582",
+      "Q1058583",
+      "Q1058584",
+      "Q1058591",
+      "Q1058593",
+      "Q1058596",
+      "Q1058597",
+      "Q1015269",
+      "Q1023714",
+      "Q1023725",
+      "Q980919",
+      "Q843667",
+      "Q825994",
+      "Q825995",
+      "Q795353",
+      "Q710276",
+      "Q596749",
+      "Q529413",
+      "Q499930",
+      "Q499931",
+      "Q507421",
+      "Q514366",
+      "Q522933",
+      "Q454865",
+      "Q431771",
+      "Q452627",
+      "Q452628",
+      "Q431292",
+      "Q342450",
+      "Q342456",
+      "Q342460",
+      "Q394960",
+      "Q263024",
+      "Q189050",
+      "Q173549",
+      "Q173557"
+    ]
+  },
+  "candidate_details": [
+    {
+      "source_id": "Q4166429",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4173192",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4186881",
+      "subtopics": [],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4193744",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4208595",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4218549",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4218688",
+      "subtopics": [
+        {
+          "id": "4.3",
+          "title": "EPI e EPC",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.3-epi-e-epc.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4084253",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4084254",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4084255",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4091668",
+      "subtopics": [
+        {
+          "id": "4.6",
+          "title": "Normas correlatas: NR-6, NR-12 e NR-35",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.6-normas-correlatas-nr-6-nr-12-e-nr-35.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4104270",
+      "subtopics": [],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4114652",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4128118",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4128306",
+      "subtopics": [],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4047411",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4051355",
+      "subtopics": [
+        {
+          "id": "4.6",
+          "title": "Normas correlatas: NR-6, NR-12 e NR-35",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.6-normas-correlatas-nr-6-nr-12-e-nr-35.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4083340",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3981865",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3982957",
+      "subtopics": [
+        {
+          "id": "4.3",
+          "title": "EPI e EPC",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.3-epi-e-epc.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3982962",
+      "subtopics": [
+        {
+          "id": "4.3",
+          "title": "EPI e EPC",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.3-epi-e-epc.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3992769",
+      "subtopics": [
+        {
+          "id": "4.3",
+          "title": "EPI e EPC",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.3-epi-e-epc.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3992771",
+      "subtopics": [
+        {
+          "id": "4.3",
+          "title": "EPI e EPC",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.3-epi-e-epc.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3992772",
+      "subtopics": [
+        {
+          "id": "4.6",
+          "title": "Normas correlatas: NR-6, NR-12 e NR-35",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.6-normas-correlatas-nr-6-nr-12-e-nr-35.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3996371",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4007017",
+      "subtopics": [
+        {
+          "id": "4.6",
+          "title": "Normas correlatas: NR-6, NR-12 e NR-35",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.6-normas-correlatas-nr-6-nr-12-e-nr-35.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3911621",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3958229",
+      "subtopics": [
+        {
+          "id": "4.6",
+          "title": "Normas correlatas: NR-6, NR-12 e NR-35",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.6-normas-correlatas-nr-6-nr-12-e-nr-35.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3958247",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3959277",
+      "subtopics": [
+        {
+          "id": "4.6",
+          "title": "Normas correlatas: NR-6, NR-12 e NR-35",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.6-normas-correlatas-nr-6-nr-12-e-nr-35.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3887508",
+      "subtopics": [
+        {
+          "id": "4.6",
+          "title": "Normas correlatas: NR-6, NR-12 e NR-35",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.6-normas-correlatas-nr-6-nr-12-e-nr-35.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3887510",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3887511",
+      "subtopics": [
+        {
+          "id": "4.3",
+          "title": "EPI e EPC",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.3-epi-e-epc.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3896595",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3898636",
+      "subtopics": [
+        {
+          "id": "4.6",
+          "title": "Normas correlatas: NR-6, NR-12 e NR-35",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.6-normas-correlatas-nr-6-nr-12-e-nr-35.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3898645",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3905508",
+      "subtopics": [
+        {
+          "id": "4.3",
+          "title": "EPI e EPC",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.3-epi-e-epc.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "MULTIMETER_CURRENT",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3905638",
+      "subtopics": [
+        {
+          "id": "4.6",
+          "title": "Normas correlatas: NR-6, NR-12 e NR-35",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.6-normas-correlatas-nr-6-nr-12-e-nr-35.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3803288",
+      "subtopics": [
+        {
+          "id": "4.6",
+          "title": "Normas correlatas: NR-6, NR-12 e NR-35",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.6-normas-correlatas-nr-6-nr-12-e-nr-35.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3836510",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3838193",
+      "subtopics": [
+        {
+          "id": "4.3",
+          "title": "EPI e EPC",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.3-epi-e-epc.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3838194",
+      "subtopics": [
+        {
+          "id": "4.3",
+          "title": "EPI e EPC",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.3-epi-e-epc.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3838779",
+      "subtopics": [],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3851450",
+      "subtopics": [],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3853315",
+      "subtopics": [
+        {
+          "id": "4.6",
+          "title": "Normas correlatas: NR-6, NR-12 e NR-35",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.6-normas-correlatas-nr-6-nr-12-e-nr-35.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3864511",
+      "subtopics": [
+        {
+          "id": "4.6",
+          "title": "Normas correlatas: NR-6, NR-12 e NR-35",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.6-normas-correlatas-nr-6-nr-12-e-nr-35.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3865635",
+      "subtopics": [
+        {
+          "id": "4.6",
+          "title": "Normas correlatas: NR-6, NR-12 e NR-35",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.6-normas-correlatas-nr-6-nr-12-e-nr-35.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3675310",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3742071",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3742083",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3761895",
+      "subtopics": [
+        {
+          "id": "4.3",
+          "title": "EPI e EPC",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.3-epi-e-epc.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3768152",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3790476",
+      "subtopics": [
+        {
+          "id": "4.3",
+          "title": "EPI e EPC",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.3-epi-e-epc.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3790478",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3790482",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3793133",
+      "subtopics": [
+        {
+          "id": "4.3",
+          "title": "EPI e EPC",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.3-epi-e-epc.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3595371",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3595372",
+      "subtopics": [
+        {
+          "id": "4.3",
+          "title": "EPI e EPC",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.3-epi-e-epc.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3633932",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3646805",
+      "subtopics": [
+        {
+          "id": "4.3",
+          "title": "EPI e EPC",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.3-epi-e-epc.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3646809",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3646811",
+      "subtopics": [
+        {
+          "id": "4.3",
+          "title": "EPI e EPC",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.3-epi-e-epc.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3646812",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3466315",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3466921",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3466931",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3535211",
+      "subtopics": [
+        {
+          "id": "4.6",
+          "title": "Normas correlatas: NR-6, NR-12 e NR-35",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.6-normas-correlatas-nr-6-nr-12-e-nr-35.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3538900",
+      "subtopics": [],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3566341",
+      "subtopics": [
+        {
+          "id": "4.6",
+          "title": "Normas correlatas: NR-6, NR-12 e NR-35",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.6-normas-correlatas-nr-6-nr-12-e-nr-35.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3573970",
+      "subtopics": [],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3411309",
+      "subtopics": [
+        {
+          "id": "4.3",
+          "title": "EPI e EPC",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.3-epi-e-epc.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3411310",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3413235",
+      "subtopics": [
+        {
+          "id": "4.3",
+          "title": "EPI e EPC",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.3-epi-e-epc.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3426557",
+      "subtopics": [
+        {
+          "id": "4.3",
+          "title": "EPI e EPC",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.3-epi-e-epc.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3432950",
+      "subtopics": [
+        {
+          "id": "4.3",
+          "title": "EPI e EPC",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.3-epi-e-epc.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3442209",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3442221",
+      "subtopics": [
+        {
+          "id": "4.6",
+          "title": "Normas correlatas: NR-6, NR-12 e NR-35",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.6-normas-correlatas-nr-6-nr-12-e-nr-35.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3458238",
+      "subtopics": [
+        {
+          "id": "4.3",
+          "title": "EPI e EPC",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.3-epi-e-epc.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3314768",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3332125",
+      "subtopics": [
+        {
+          "id": "4.6",
+          "title": "Normas correlatas: NR-6, NR-12 e NR-35",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.6-normas-correlatas-nr-6-nr-12-e-nr-35.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3333003",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3402249",
+      "subtopics": [
+        {
+          "id": "4.3",
+          "title": "EPI e EPC",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.3-epi-e-epc.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3199934",
+      "subtopics": [
+        {
+          "id": "4.3",
+          "title": "EPI e EPC",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.3-epi-e-epc.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3199938",
+      "subtopics": [
+        {
+          "id": "4.3",
+          "title": "EPI e EPC",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.3-epi-e-epc.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3200216",
+      "subtopics": [
+        {
+          "id": "4.3",
+          "title": "EPI e EPC",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.3-epi-e-epc.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3200217",
+      "subtopics": [
+        {
+          "id": "4.6",
+          "title": "Normas correlatas: NR-6, NR-12 e NR-35",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.6-normas-correlatas-nr-6-nr-12-e-nr-35.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3200223",
+      "subtopics": [
+        {
+          "id": "4.3",
+          "title": "EPI e EPC",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.3-epi-e-epc.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3260303",
+      "subtopics": [
+        {
+          "id": "4.6",
+          "title": "Normas correlatas: NR-6, NR-12 e NR-35",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.6-normas-correlatas-nr-6-nr-12-e-nr-35.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3260308",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3090263",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3090267",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3100165",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3125852",
+      "subtopics": [
+        {
+          "id": "4.3",
+          "title": "EPI e EPC",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.3-epi-e-epc.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3157289",
+      "subtopics": [
+        {
+          "id": "4.3",
+          "title": "EPI e EPC",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.3-epi-e-epc.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3157291",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3157292",
+      "subtopics": [
+        {
+          "id": "4.3",
+          "title": "EPI e EPC",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.3-epi-e-epc.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3189272",
+      "subtopics": [
+        {
+          "id": "4.3",
+          "title": "EPI e EPC",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.3-epi-e-epc.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3019377",
+      "subtopics": [
+        {
+          "id": "4.3",
+          "title": "EPI e EPC",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.3-epi-e-epc.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2768630",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2772029",
+      "subtopics": [
+        {
+          "id": "4.6",
+          "title": "Normas correlatas: NR-6, NR-12 e NR-35",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.6-normas-correlatas-nr-6-nr-12-e-nr-35.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2517376",
+      "subtopics": [
+        {
+          "id": "4.3",
+          "title": "EPI e EPC",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.3-epi-e-epc.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2587488",
+      "subtopics": [
+        {
+          "id": "4.3",
+          "title": "EPI e EPC",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.3-epi-e-epc.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2587489",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2668749",
+      "subtopics": [
+        {
+          "id": "4.3",
+          "title": "EPI e EPC",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.3-epi-e-epc.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2668754",
+      "subtopics": [
+        {
+          "id": "4.3",
+          "title": "EPI e EPC",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.3-epi-e-epc.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2486518",
+      "subtopics": [
+        {
+          "id": "4.6",
+          "title": "Normas correlatas: NR-6, NR-12 e NR-35",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.6-normas-correlatas-nr-6-nr-12-e-nr-35.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2486519",
+      "subtopics": [
+        {
+          "id": "4.3",
+          "title": "EPI e EPC",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.3-epi-e-epc.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2329774",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2329797",
+      "subtopics": [
+        {
+          "id": "4.6",
+          "title": "Normas correlatas: NR-6, NR-12 e NR-35",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.6-normas-correlatas-nr-6-nr-12-e-nr-35.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2329798",
+      "subtopics": [
+        {
+          "id": "4.3",
+          "title": "EPI e EPC",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.3-epi-e-epc.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2333380",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2338800",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2376905",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2376910",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2401028",
+      "subtopics": [
+        {
+          "id": "4.3",
+          "title": "EPI e EPC",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.3-epi-e-epc.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2401031",
+      "subtopics": [
+        {
+          "id": "4.3",
+          "title": "EPI e EPC",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.3-epi-e-epc.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2314685",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2314736",
+      "subtopics": [
+        {
+          "id": "4.6",
+          "title": "Normas correlatas: NR-6, NR-12 e NR-35",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.6-normas-correlatas-nr-6-nr-12-e-nr-35.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2320592",
+      "subtopics": [
+        {
+          "id": "4.3",
+          "title": "EPI e EPC",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.3-epi-e-epc.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2329758",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2279011",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2295400",
+      "subtopics": [
+        {
+          "id": "4.6",
+          "title": "Normas correlatas: NR-6, NR-12 e NR-35",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.6-normas-correlatas-nr-6-nr-12-e-nr-35.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2217074",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2217075",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2217077",
+      "subtopics": [
+        {
+          "id": "4.6",
+          "title": "Normas correlatas: NR-6, NR-12 e NR-35",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.6-normas-correlatas-nr-6-nr-12-e-nr-35.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2217078",
+      "subtopics": [
+        {
+          "id": "4.3",
+          "title": "EPI e EPC",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.3-epi-e-epc.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2217350",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2217351",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2217537",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2226730",
+      "subtopics": [
+        {
+          "id": "4.3",
+          "title": "EPI e EPC",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.3-epi-e-epc.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2158452",
+      "subtopics": [
+        {
+          "id": "4.3",
+          "title": "EPI e EPC",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.3-epi-e-epc.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2189231",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2001157",
+      "subtopics": [
+        {
+          "id": "4.6",
+          "title": "Normas correlatas: NR-6, NR-12 e NR-35",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.6-normas-correlatas-nr-6-nr-12-e-nr-35.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2001158",
+      "subtopics": [
+        {
+          "id": "4.3",
+          "title": "EPI e EPC",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.3-epi-e-epc.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2001159",
+      "subtopics": [
+        {
+          "id": "4.3",
+          "title": "EPI e EPC",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.3-epi-e-epc.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1812354",
+      "subtopics": [
+        {
+          "id": "4.3",
+          "title": "EPI e EPC",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.3-epi-e-epc.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1694545",
+      "subtopics": [
+        {
+          "id": "4.3",
+          "title": "EPI e EPC",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.3-epi-e-epc.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1694547",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1712200",
+      "subtopics": [
+        {
+          "id": "4.6",
+          "title": "Normas correlatas: NR-6, NR-12 e NR-35",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.6-normas-correlatas-nr-6-nr-12-e-nr-35.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1712201",
+      "subtopics": [
+        {
+          "id": "4.6",
+          "title": "Normas correlatas: NR-6, NR-12 e NR-35",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.6-normas-correlatas-nr-6-nr-12-e-nr-35.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1712207",
+      "subtopics": [
+        {
+          "id": "4.6",
+          "title": "Normas correlatas: NR-6, NR-12 e NR-35",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.6-normas-correlatas-nr-6-nr-12-e-nr-35.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1712208",
+      "subtopics": [
+        {
+          "id": "4.6",
+          "title": "Normas correlatas: NR-6, NR-12 e NR-35",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.6-normas-correlatas-nr-6-nr-12-e-nr-35.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1712217",
+      "subtopics": [
+        {
+          "id": "4.6",
+          "title": "Normas correlatas: NR-6, NR-12 e NR-35",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.6-normas-correlatas-nr-6-nr-12-e-nr-35.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1712220",
+      "subtopics": [
+        {
+          "id": "4.3",
+          "title": "EPI e EPC",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.3-epi-e-epc.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1712224",
+      "subtopics": [
+        {
+          "id": "4.3",
+          "title": "EPI e EPC",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.3-epi-e-epc.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1721324",
+      "subtopics": [
+        {
+          "id": "4.3",
+          "title": "EPI e EPC",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.3-epi-e-epc.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1755413",
+      "subtopics": [
+        {
+          "id": "4.6",
+          "title": "Normas correlatas: NR-6, NR-12 e NR-35",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.6-normas-correlatas-nr-6-nr-12-e-nr-35.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1755414",
+      "subtopics": [
+        {
+          "id": "4.3",
+          "title": "EPI e EPC",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.3-epi-e-epc.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1240735",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1608359",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1087489",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1088145",
+      "subtopics": [
+        {
+          "id": "4.6",
+          "title": "Normas correlatas: NR-6, NR-12 e NR-35",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.6-normas-correlatas-nr-6-nr-12-e-nr-35.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1088146",
+      "subtopics": [
+        {
+          "id": "4.6",
+          "title": "Normas correlatas: NR-6, NR-12 e NR-35",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.6-normas-correlatas-nr-6-nr-12-e-nr-35.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1088670",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1037592",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1037593",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1049998",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1058581",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1058582",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1058583",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1058584",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1058591",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1058593",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1058595",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1058596",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1058597",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1011011",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1015255",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1015269",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1023714",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1023724",
+      "subtopics": [
+        {
+          "id": "4.3",
+          "title": "EPI e EPC",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.3-epi-e-epc.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1023725",
+      "subtopics": [
+        {
+          "id": "4.3",
+          "title": "EPI e EPC",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.3-epi-e-epc.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1025902",
+      "subtopics": [
+        {
+          "id": "4.3",
+          "title": "EPI e EPC",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.3-epi-e-epc.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q980900",
+      "subtopics": [
+        {
+          "id": "4.6",
+          "title": "Normas correlatas: NR-6, NR-12 e NR-35",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.6-normas-correlatas-nr-6-nr-12-e-nr-35.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q980919",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q843667",
+      "subtopics": [
+        {
+          "id": "4.3",
+          "title": "EPI e EPC",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.3-epi-e-epc.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q823503",
+      "subtopics": [],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q825994",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q825995",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q795353",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q710276",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q596749",
+      "subtopics": [
+        {
+          "id": "4.3",
+          "title": "EPI e EPC",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.3-epi-e-epc.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q529413",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q499930",
+      "subtopics": [
+        {
+          "id": "4.3",
+          "title": "EPI e EPC",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.3-epi-e-epc.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q499931",
+      "subtopics": [
+        {
+          "id": "4.3",
+          "title": "EPI e EPC",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.3-epi-e-epc.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q507421",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q514366",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q522933",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q522935",
+      "subtopics": [
+        {
+          "id": "4.3",
+          "title": "EPI e EPC",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.3-epi-e-epc.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q454865",
+      "subtopics": [
+        {
+          "id": "4.6",
+          "title": "Normas correlatas: NR-6, NR-12 e NR-35",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.6-normas-correlatas-nr-6-nr-12-e-nr-35.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q484523",
+      "subtopics": [
+        {
+          "id": "4.3",
+          "title": "EPI e EPC",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.3-epi-e-epc.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q431760",
+      "subtopics": [
+        {
+          "id": "4.3",
+          "title": "EPI e EPC",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.3-epi-e-epc.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q431771",
+      "subtopics": [
+        {
+          "id": "4.3",
+          "title": "EPI e EPC",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.3-epi-e-epc.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q452627",
+      "subtopics": [
+        {
+          "id": "4.3",
+          "title": "EPI e EPC",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.3-epi-e-epc.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q452628",
+      "subtopics": [
+        {
+          "id": "4.3",
+          "title": "EPI e EPC",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.3-epi-e-epc.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q453941",
+      "subtopics": [
+        {
+          "id": "4.3",
+          "title": "EPI e EPC",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.3-epi-e-epc.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q431292",
+      "subtopics": [
+        {
+          "id": "4.3",
+          "title": "EPI e EPC",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.3-epi-e-epc.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q342450",
+      "subtopics": [
+        {
+          "id": "4.3",
+          "title": "EPI e EPC",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.3-epi-e-epc.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q342456",
+      "subtopics": [
+        {
+          "id": "4.3",
+          "title": "EPI e EPC",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.3-epi-e-epc.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q342460",
+      "subtopics": [
+        {
+          "id": "4.3",
+          "title": "EPI e EPC",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.3-epi-e-epc.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q394772",
+      "subtopics": [],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q394960",
+      "subtopics": [
+        {
+          "id": "4.3",
+          "title": "EPI e EPC",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.3-epi-e-epc.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q234035",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q263024",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q189050",
+      "subtopics": [
+        {
+          "id": "4.6",
+          "title": "Normas correlatas: NR-6, NR-12 e NR-35",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.6-normas-correlatas-nr-6-nr-12-e-nr-35.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q173549",
+      "subtopics": [
+        {
+          "id": "4.6",
+          "title": "Normas correlatas: NR-6, NR-12 e NR-35",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.6-normas-correlatas-nr-6-nr-12-e-nr-35.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q173557",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    }
+  ]
+}

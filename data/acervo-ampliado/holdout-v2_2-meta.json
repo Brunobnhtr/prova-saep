@@ -1,0 +1,2106 @@
+{
+  "version": 2.2,
+  "sample_size": 300,
+  "items": [
+    {
+      "source_id": "Q431284",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 356
+    },
+    {
+      "source_id": "Q767411",
+      "sampling_stratum": "Eletrônica__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletrônica",
+      "has_image": false,
+      "statement_length": 255
+    },
+    {
+      "source_id": "Q431812",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 189
+    },
+    {
+      "source_id": "Q460344",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 440
+    },
+    {
+      "source_id": "Q3021225",
+      "sampling_stratum": "Eletrônica__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletrônica",
+      "has_image": false,
+      "statement_length": 130
+    },
+    {
+      "source_id": "Q238964",
+      "sampling_stratum": "Eletricidade__IMG:True__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletricidade",
+      "has_image": true,
+      "statement_length": 90
+    },
+    {
+      "source_id": "Q837399",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 386
+    },
+    {
+      "source_id": "Q189038",
+      "sampling_stratum": "Eletricidade__IMG:True__VF:False__LEN:LONG",
+      "original_source_theme": "Eletricidade",
+      "has_image": true,
+      "statement_length": 1027
+    },
+    {
+      "source_id": "Q3566340",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 148
+    },
+    {
+      "source_id": "Q4024961",
+      "sampling_stratum": "Eletrotécnica__IMG:True__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletrotécnica",
+      "has_image": true,
+      "statement_length": 83
+    },
+    {
+      "source_id": "Q2255976",
+      "sampling_stratum": "Eletricidade__IMG:True__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": true,
+      "statement_length": 352
+    },
+    {
+      "source_id": "Q2927368",
+      "sampling_stratum": "Eletricidade__IMG:True__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": true,
+      "statement_length": 557
+    },
+    {
+      "source_id": "Q777101",
+      "sampling_stratum": "Eletrotécnica__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletrotécnica",
+      "has_image": false,
+      "statement_length": 296
+    },
+    {
+      "source_id": "Q2295406",
+      "sampling_stratum": "Eletrotécnica__IMG:True__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletrotécnica",
+      "has_image": true,
+      "statement_length": 429
+    },
+    {
+      "source_id": "Q3911606",
+      "sampling_stratum": "Eletrotécnica__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletrotécnica",
+      "has_image": false,
+      "statement_length": 100
+    },
+    {
+      "source_id": "Q1630263",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 346
+    },
+    {
+      "source_id": "Q234021",
+      "sampling_stratum": "Eletricidade__IMG:True__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": true,
+      "statement_length": 317
+    },
+    {
+      "source_id": "Q3272494",
+      "sampling_stratum": "Eletrônica__IMG:True__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletrônica",
+      "has_image": true,
+      "statement_length": 114
+    },
+    {
+      "source_id": "Q2200908",
+      "sampling_stratum": "Eletroeletrônica__IMG:True__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletroeletrônica",
+      "has_image": true,
+      "statement_length": 305
+    },
+    {
+      "source_id": "Q3298676",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:LONG",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 1333
+    },
+    {
+      "source_id": "Q3887786",
+      "sampling_stratum": "Eletroeletrônica__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletroeletrônica",
+      "has_image": false,
+      "statement_length": 96
+    },
+    {
+      "source_id": "Q2125850",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 56
+    },
+    {
+      "source_id": "Q462312",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 230
+    },
+    {
+      "source_id": "Q4218542",
+      "sampling_stratum": "Eletroeletrônica__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletroeletrônica",
+      "has_image": false,
+      "statement_length": 496
+    },
+    {
+      "source_id": "Q1927391",
+      "sampling_stratum": "Eletrônica__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletrônica",
+      "has_image": false,
+      "statement_length": 105
+    },
+    {
+      "source_id": "Q3262026",
+      "sampling_stratum": "Eletrônica__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletrônica",
+      "has_image": false,
+      "statement_length": 459
+    },
+    {
+      "source_id": "Q3543751",
+      "sampling_stratum": "Eletrotécnica__IMG:True__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletrotécnica",
+      "has_image": true,
+      "statement_length": 193
+    },
+    {
+      "source_id": "Q3981869",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 133
+    },
+    {
+      "source_id": "Q1023715",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 200
+    },
+    {
+      "source_id": "Q1049997",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 194
+    },
+    {
+      "source_id": "Q2325612",
+      "sampling_stratum": "Eletrônica__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletrônica",
+      "has_image": false,
+      "statement_length": 64
+    },
+    {
+      "source_id": "Q2486502",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 556
+    },
+    {
+      "source_id": "Q3448794",
+      "sampling_stratum": "Eletrotécnica__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletrotécnica",
+      "has_image": false,
+      "statement_length": 274
+    },
+    {
+      "source_id": "Q394776",
+      "sampling_stratum": "Eletrotécnica__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletrotécnica",
+      "has_image": false,
+      "statement_length": 126
+    },
+    {
+      "source_id": "Q235673",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 577
+    },
+    {
+      "source_id": "Q925226",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 168
+    },
+    {
+      "source_id": "Q1023733",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 401
+    },
+    {
+      "source_id": "Q108140",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 190
+    },
+    {
+      "source_id": "Q3321503",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 149
+    },
+    {
+      "source_id": "Q1023714",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 276
+    },
+    {
+      "source_id": "Q93700",
+      "sampling_stratum": "Eletrotécnica__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletrotécnica",
+      "has_image": false,
+      "statement_length": 172
+    },
+    {
+      "source_id": "Q460347",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 197
+    },
+    {
+      "source_id": "Q491628",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 60
+    },
+    {
+      "source_id": "Q413085",
+      "sampling_stratum": "Eletrotécnica__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletrotécnica",
+      "has_image": false,
+      "statement_length": 58
+    },
+    {
+      "source_id": "Q2166315",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 111
+    },
+    {
+      "source_id": "Q879238",
+      "sampling_stratum": "Eletricidade__IMG:True__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": true,
+      "statement_length": 303
+    },
+    {
+      "source_id": "Q2902301",
+      "sampling_stratum": "Eletrotécnica__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletrotécnica",
+      "has_image": false,
+      "statement_length": 114
+    },
+    {
+      "source_id": "Q759385",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 218
+    },
+    {
+      "source_id": "Q3981876",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 168
+    },
+    {
+      "source_id": "Q3778946",
+      "sampling_stratum": "Eletrotécnica__IMG:False__VF:False__LEN:LONG",
+      "original_source_theme": "Eletrotécnica",
+      "has_image": false,
+      "statement_length": 610
+    },
+    {
+      "source_id": "Q3255805",
+      "sampling_stratum": "Eletrônica__IMG:True__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletrônica",
+      "has_image": true,
+      "statement_length": 566
+    },
+    {
+      "source_id": "Q190095",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 145
+    },
+    {
+      "source_id": "Q2081061",
+      "sampling_stratum": "Eletrônica__IMG:True__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletrônica",
+      "has_image": true,
+      "statement_length": 377
+    },
+    {
+      "source_id": "Q3453561",
+      "sampling_stratum": "Eletrotécnica__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletrotécnica",
+      "has_image": false,
+      "statement_length": 434
+    },
+    {
+      "source_id": "Q364387",
+      "sampling_stratum": "Eletrotécnica__IMG:False__VF:False__LEN:LONG",
+      "original_source_theme": "Eletrotécnica",
+      "has_image": false,
+      "statement_length": 632
+    },
+    {
+      "source_id": "Q342450",
+      "sampling_stratum": "Eletrotécnica__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletrotécnica",
+      "has_image": false,
+      "statement_length": 31
+    },
+    {
+      "source_id": "Q2694471",
+      "sampling_stratum": "Eletroeletrônica__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletroeletrônica",
+      "has_image": false,
+      "statement_length": 374
+    },
+    {
+      "source_id": "Q460375",
+      "sampling_stratum": "Eletricidade__IMG:True__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletricidade",
+      "has_image": true,
+      "statement_length": 64
+    },
+    {
+      "source_id": "Q843669",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 273
+    },
+    {
+      "source_id": "Q2051877",
+      "sampling_stratum": "Eletrônica__IMG:True__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletrônica",
+      "has_image": true,
+      "statement_length": 153
+    },
+    {
+      "source_id": "Q2668738",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 176
+    },
+    {
+      "source_id": "Q2693421",
+      "sampling_stratum": "Eletrotécnica__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletrotécnica",
+      "has_image": false,
+      "statement_length": 56
+    },
+    {
+      "source_id": "Q2217136",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 304
+    },
+    {
+      "source_id": "Q184206",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 46
+    },
+    {
+      "source_id": "Q2081065",
+      "sampling_stratum": "Eletricidade__IMG:True__VF:False__LEN:LONG",
+      "original_source_theme": "Eletricidade",
+      "has_image": true,
+      "statement_length": 865
+    },
+    {
+      "source_id": "Q1106117",
+      "sampling_stratum": "Eletrotécnica__IMG:True__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletrotécnica",
+      "has_image": true,
+      "statement_length": 108
+    },
+    {
+      "source_id": "Q184120",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 150
+    },
+    {
+      "source_id": "Q184210",
+      "sampling_stratum": "Eletroeletrônica__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletroeletrônica",
+      "has_image": false,
+      "statement_length": 277
+    },
+    {
+      "source_id": "Q2198761",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:LONG",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 850
+    },
+    {
+      "source_id": "Q522195",
+      "sampling_stratum": "Eletrônica__IMG:True__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletrônica",
+      "has_image": true,
+      "statement_length": 70
+    },
+    {
+      "source_id": "Q811509",
+      "sampling_stratum": "Eletrotécnica__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletrotécnica",
+      "has_image": false,
+      "statement_length": 222
+    },
+    {
+      "source_id": "Q3180692",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 245
+    },
+    {
+      "source_id": "Q1755403",
+      "sampling_stratum": "Eletricidade__IMG:True__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": true,
+      "statement_length": 366
+    },
+    {
+      "source_id": "Q2217545",
+      "sampling_stratum": "Eletrotécnica__IMG:True__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletrotécnica",
+      "has_image": true,
+      "statement_length": 346
+    },
+    {
+      "source_id": "Q3231034",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 122
+    },
+    {
+      "source_id": "Q180460",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 589
+    },
+    {
+      "source_id": "Q3264297",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 242
+    },
+    {
+      "source_id": "Q342455",
+      "sampling_stratum": "Eletrotécnica__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletrotécnica",
+      "has_image": false,
+      "statement_length": 270
+    },
+    {
+      "source_id": "Q278089",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 392
+    },
+    {
+      "source_id": "Q2894103",
+      "sampling_stratum": "Eletrônica__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletrônica",
+      "has_image": false,
+      "statement_length": 307
+    },
+    {
+      "source_id": "Q107300",
+      "sampling_stratum": "Eletrotécnica__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletrotécnica",
+      "has_image": false,
+      "statement_length": 276
+    },
+    {
+      "source_id": "Q402451",
+      "sampling_stratum": "Eletrotécnica__IMG:True__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletrotécnica",
+      "has_image": true,
+      "statement_length": 88
+    },
+    {
+      "source_id": "Q2217378",
+      "sampling_stratum": "Eletrotécnica__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletrotécnica",
+      "has_image": false,
+      "statement_length": 505
+    },
+    {
+      "source_id": "Q3199932",
+      "sampling_stratum": "Eletricidade__IMG:True__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": true,
+      "statement_length": 282
+    },
+    {
+      "source_id": "Q490241",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 111
+    },
+    {
+      "source_id": "Q838715",
+      "sampling_stratum": "Eletricidade__IMG:True__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletricidade",
+      "has_image": true,
+      "statement_length": 96
+    },
+    {
+      "source_id": "Q3637809",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 234
+    },
+    {
+      "source_id": "Q3223387",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 303
+    },
+    {
+      "source_id": "Q3573985",
+      "sampling_stratum": "Eletrotécnica__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletrotécnica",
+      "has_image": false,
+      "statement_length": 288
+    },
+    {
+      "source_id": "Q1334601",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:LONG",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 819
+    },
+    {
+      "source_id": "Q564457",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 244
+    },
+    {
+      "source_id": "Q1058593",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 600
+    },
+    {
+      "source_id": "Q539955",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 586
+    },
+    {
+      "source_id": "Q1768668",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 85
+    },
+    {
+      "source_id": "Q3200216",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:LONG",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 1064
+    },
+    {
+      "source_id": "Q718800",
+      "sampling_stratum": "Eletrotécnica__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletrotécnica",
+      "has_image": false,
+      "statement_length": 478
+    },
+    {
+      "source_id": "Q2325597",
+      "sampling_stratum": "Eletrotécnica__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletrotécnica",
+      "has_image": false,
+      "statement_length": 142
+    },
+    {
+      "source_id": "Q2158444",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 168
+    },
+    {
+      "source_id": "Q186288",
+      "sampling_stratum": "Eletricidade__IMG:True__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": true,
+      "statement_length": 416
+    },
+    {
+      "source_id": "Q2186800",
+      "sampling_stratum": "Eletroeletrônica__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletroeletrônica",
+      "has_image": false,
+      "statement_length": 240
+    },
+    {
+      "source_id": "Q1090699",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 307
+    },
+    {
+      "source_id": "Q1088145",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 115
+    },
+    {
+      "source_id": "Q564469",
+      "sampling_stratum": "Eletricidade__IMG:True__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": true,
+      "statement_length": 422
+    },
+    {
+      "source_id": "Q1010997",
+      "sampling_stratum": "Eletrônica__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletrônica",
+      "has_image": false,
+      "statement_length": 135
+    },
+    {
+      "source_id": "Q3625327",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 190
+    },
+    {
+      "source_id": "Q609654",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 189
+    },
+    {
+      "source_id": "Q1016842",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 232
+    },
+    {
+      "source_id": "Q425008",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 385
+    },
+    {
+      "source_id": "Q4218668",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 278
+    },
+    {
+      "source_id": "Q184181",
+      "sampling_stratum": "Eletrônica__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletrônica",
+      "has_image": false,
+      "statement_length": 227
+    },
+    {
+      "source_id": "Q2356977",
+      "sampling_stratum": "Eletrotécnica__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletrotécnica",
+      "has_image": false,
+      "statement_length": 242
+    },
+    {
+      "source_id": "Q3948999",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 180
+    },
+    {
+      "source_id": "Q431296",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 306
+    },
+    {
+      "source_id": "Q2729165",
+      "sampling_stratum": "Eletrotécnica__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletrotécnica",
+      "has_image": false,
+      "statement_length": 53
+    },
+    {
+      "source_id": "Q3008703",
+      "sampling_stratum": "Eletrônica__IMG:True__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletrônica",
+      "has_image": true,
+      "statement_length": 101
+    },
+    {
+      "source_id": "Q3628734",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 205
+    },
+    {
+      "source_id": "Q185197",
+      "sampling_stratum": "Eletricidade__IMG:True__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletricidade",
+      "has_image": true,
+      "statement_length": 153
+    },
+    {
+      "source_id": "Q2774847",
+      "sampling_stratum": "Eletrônica__IMG:True__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletrônica",
+      "has_image": true,
+      "statement_length": 124
+    },
+    {
+      "source_id": "Q3690128",
+      "sampling_stratum": "Eletroeletrônica__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletroeletrônica",
+      "has_image": false,
+      "statement_length": 148
+    },
+    {
+      "source_id": "Q523017",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 91
+    },
+    {
+      "source_id": "Q2422438",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 496
+    },
+    {
+      "source_id": "Q2158481",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 258
+    },
+    {
+      "source_id": "Q1049990",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 198
+    },
+    {
+      "source_id": "Q408324",
+      "sampling_stratum": "Eletricidade__IMG:True__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletricidade",
+      "has_image": true,
+      "statement_length": 134
+    },
+    {
+      "source_id": "Q2445125",
+      "sampling_stratum": "Eletrotécnica__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletrotécnica",
+      "has_image": false,
+      "statement_length": 194
+    },
+    {
+      "source_id": "Q411634",
+      "sampling_stratum": "Eletroeletrônica__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletroeletrônica",
+      "has_image": false,
+      "statement_length": 103
+    },
+    {
+      "source_id": "Q3466921",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:LONG",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 1160
+    },
+    {
+      "source_id": "Q1023737",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 310
+    },
+    {
+      "source_id": "Q2927367",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 82
+    },
+    {
+      "source_id": "Q231988",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 158
+    },
+    {
+      "source_id": "Q3854879",
+      "sampling_stratum": "Eletricidade__IMG:True__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletricidade",
+      "has_image": true,
+      "statement_length": 134
+    },
+    {
+      "source_id": "Q803831",
+      "sampling_stratum": "Eletrotécnica__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletrotécnica",
+      "has_image": false,
+      "statement_length": 39
+    },
+    {
+      "source_id": "Q189252",
+      "sampling_stratum": "Eletrônica__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletrônica",
+      "has_image": false,
+      "statement_length": 109
+    },
+    {
+      "source_id": "Q945982",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:LONG",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 652
+    },
+    {
+      "source_id": "Q3796727",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 163
+    },
+    {
+      "source_id": "Q747661",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 404
+    },
+    {
+      "source_id": "Q3432609",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 129
+    },
+    {
+      "source_id": "Q980915",
+      "sampling_stratum": "Eletrônica__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletrônica",
+      "has_image": false,
+      "statement_length": 59
+    },
+    {
+      "source_id": "Q564453",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 294
+    },
+    {
+      "source_id": "Q4093933",
+      "sampling_stratum": "Eletrônica__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletrônica",
+      "has_image": false,
+      "statement_length": 377
+    },
+    {
+      "source_id": "Q3573987",
+      "sampling_stratum": "Eletrotécnica__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletrotécnica",
+      "has_image": false,
+      "statement_length": 134
+    },
+    {
+      "source_id": "Q2217539",
+      "sampling_stratum": "Eletrotécnica__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletrotécnica",
+      "has_image": false,
+      "statement_length": 129
+    },
+    {
+      "source_id": "Q2610737",
+      "sampling_stratum": "Eletrotécnica__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletrotécnica",
+      "has_image": false,
+      "statement_length": 328
+    },
+    {
+      "source_id": "Q3980551",
+      "sampling_stratum": "Eletrotécnica__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletrotécnica",
+      "has_image": false,
+      "statement_length": 191
+    },
+    {
+      "source_id": "Q3646806",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 592
+    },
+    {
+      "source_id": "Q850489",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 128
+    },
+    {
+      "source_id": "Q2584557",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 119
+    },
+    {
+      "source_id": "Q3980545",
+      "sampling_stratum": "Eletrotécnica__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletrotécnica",
+      "has_image": false,
+      "statement_length": 216
+    },
+    {
+      "source_id": "Q1023712",
+      "sampling_stratum": "Eletricidade__IMG:True__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": true,
+      "statement_length": 234
+    },
+    {
+      "source_id": "Q596016",
+      "sampling_stratum": "Eletrotécnica__IMG:True__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletrotécnica",
+      "has_image": true,
+      "statement_length": 264
+    },
+    {
+      "source_id": "Q2517375",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 59
+    },
+    {
+      "source_id": "Q186290",
+      "sampling_stratum": "Eletrônica__IMG:False__VF:False__LEN:LONG",
+      "original_source_theme": "Eletrônica",
+      "has_image": false,
+      "statement_length": 917
+    },
+    {
+      "source_id": "Q3255803",
+      "sampling_stratum": "Eletrônica__IMG:True__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletrônica",
+      "has_image": true,
+      "statement_length": 175
+    },
+    {
+      "source_id": "Q3090243",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:LONG",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 637
+    },
+    {
+      "source_id": "Q234019",
+      "sampling_stratum": "Eletrônica__IMG:True__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletrônica",
+      "has_image": true,
+      "statement_length": 427
+    },
+    {
+      "source_id": "Q529406",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 138
+    },
+    {
+      "source_id": "Q3981878",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 172
+    },
+    {
+      "source_id": "Q364386",
+      "sampling_stratum": "Eletrotécnica__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletrotécnica",
+      "has_image": false,
+      "statement_length": 580
+    },
+    {
+      "source_id": "Q522207",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 165
+    },
+    {
+      "source_id": "Q431653",
+      "sampling_stratum": "Eletricidade__IMG:True__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletricidade",
+      "has_image": true,
+      "statement_length": 128
+    },
+    {
+      "source_id": "Q3977401",
+      "sampling_stratum": "Eletrônica__IMG:True__VF:False__LEN:LONG",
+      "original_source_theme": "Eletrônica",
+      "has_image": true,
+      "statement_length": 816
+    },
+    {
+      "source_id": "Q431729",
+      "sampling_stratum": "Eletrônica__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletrônica",
+      "has_image": false,
+      "statement_length": 35
+    },
+    {
+      "source_id": "Q4095961",
+      "sampling_stratum": "Eletrotécnica__IMG:True__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletrotécnica",
+      "has_image": true,
+      "statement_length": 108
+    },
+    {
+      "source_id": "Q1631019",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 134
+    },
+    {
+      "source_id": "Q3442204",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 265
+    },
+    {
+      "source_id": "Q879244",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 253
+    },
+    {
+      "source_id": "Q3900498",
+      "sampling_stratum": "Eletrotécnica__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletrotécnica",
+      "has_image": false,
+      "statement_length": 294
+    },
+    {
+      "source_id": "Q777156",
+      "sampling_stratum": "Eletrotécnica__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletrotécnica",
+      "has_image": false,
+      "statement_length": 343
+    },
+    {
+      "source_id": "Q4218581",
+      "sampling_stratum": "Eletrotécnica__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletrotécnica",
+      "has_image": false,
+      "statement_length": 353
+    },
+    {
+      "source_id": "Q1011010",
+      "sampling_stratum": "Eletrotécnica__IMG:True__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletrotécnica",
+      "has_image": true,
+      "statement_length": 388
+    },
+    {
+      "source_id": "Q2226727",
+      "sampling_stratum": "Eletrônica__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletrônica",
+      "has_image": false,
+      "statement_length": 525
+    },
+    {
+      "source_id": "Q2220360",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 157
+    },
+    {
+      "source_id": "Q767405",
+      "sampling_stratum": "Eletrônica__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletrônica",
+      "has_image": false,
+      "statement_length": 356
+    },
+    {
+      "source_id": "Q1098187",
+      "sampling_stratum": "Eletrotécnica__IMG:True__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletrotécnica",
+      "has_image": true,
+      "statement_length": 142
+    },
+    {
+      "source_id": "Q2354130",
+      "sampling_stratum": "Eletrotécnica__IMG:True__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletrotécnica",
+      "has_image": true,
+      "statement_length": 318
+    },
+    {
+      "source_id": "Q93701",
+      "sampling_stratum": "Eletrotécnica__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletrotécnica",
+      "has_image": false,
+      "statement_length": 287
+    },
+    {
+      "source_id": "Q3625328",
+      "sampling_stratum": "Eletricidade__IMG:True__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletricidade",
+      "has_image": true,
+      "statement_length": 129
+    },
+    {
+      "source_id": "Q2779161",
+      "sampling_stratum": "Eletricidade__IMG:True__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletricidade",
+      "has_image": true,
+      "statement_length": 130
+    },
+    {
+      "source_id": "Q3943015",
+      "sampling_stratum": "Eletroeletrônica__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletroeletrônica",
+      "has_image": false,
+      "statement_length": 534
+    },
+    {
+      "source_id": "Q431644",
+      "sampling_stratum": "Eletricidade__IMG:True__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletricidade",
+      "has_image": true,
+      "statement_length": 65
+    },
+    {
+      "source_id": "Q1010995",
+      "sampling_stratum": "Eletrotécnica__IMG:True__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletrotécnica",
+      "has_image": true,
+      "statement_length": 220
+    },
+    {
+      "source_id": "Q596759",
+      "sampling_stratum": "Eletrônica__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletrônica",
+      "has_image": false,
+      "statement_length": 251
+    },
+    {
+      "source_id": "Q2559466",
+      "sampling_stratum": "Eletrotécnica__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletrotécnica",
+      "has_image": false,
+      "statement_length": 533
+    },
+    {
+      "source_id": "Q3264276",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 79
+    },
+    {
+      "source_id": "Q64193",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 69
+    },
+    {
+      "source_id": "Q879235",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 139
+    },
+    {
+      "source_id": "Q522936",
+      "sampling_stratum": "Eletricidade__IMG:True__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletricidade",
+      "has_image": true,
+      "statement_length": 179
+    },
+    {
+      "source_id": "Q3199943",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 250
+    },
+    {
+      "source_id": "Q2049540",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 351
+    },
+    {
+      "source_id": "Q1766548",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 223
+    },
+    {
+      "source_id": "Q2729149",
+      "sampling_stratum": "Eletrotécnica__IMG:True__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletrotécnica",
+      "has_image": true,
+      "statement_length": 157
+    },
+    {
+      "source_id": "Q3090246",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 348
+    },
+    {
+      "source_id": "Q3690141",
+      "sampling_stratum": "Eletroeletrônica__IMG:True__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletroeletrônica",
+      "has_image": true,
+      "statement_length": 199
+    },
+    {
+      "source_id": "Q3865639",
+      "sampling_stratum": "Eletricidade__IMG:True__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletricidade",
+      "has_image": true,
+      "statement_length": 198
+    },
+    {
+      "source_id": "Q490233",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 80
+    },
+    {
+      "source_id": "Q1037582",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 44
+    },
+    {
+      "source_id": "Q2584771",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 404
+    },
+    {
+      "source_id": "Q108160",
+      "sampling_stratum": "Eletricidade__IMG:True__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": true,
+      "statement_length": 284
+    },
+    {
+      "source_id": "Q883654",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 300
+    },
+    {
+      "source_id": "Q3949001",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 438
+    },
+    {
+      "source_id": "Q3887487",
+      "sampling_stratum": "Eletrotécnica__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletrotécnica",
+      "has_image": false,
+      "statement_length": 94
+    },
+    {
+      "source_id": "Q3509141",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 103
+    },
+    {
+      "source_id": "Q3999438",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 575
+    },
+    {
+      "source_id": "Q2955378",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 343
+    },
+    {
+      "source_id": "Q3232089",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 71
+    },
+    {
+      "source_id": "Q2447332",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 472
+    },
+    {
+      "source_id": "Q2027406",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 238
+    },
+    {
+      "source_id": "Q3550815",
+      "sampling_stratum": "Eletrônica__IMG:True__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletrônica",
+      "has_image": true,
+      "statement_length": 415
+    },
+    {
+      "source_id": "Q2694469",
+      "sampling_stratum": "Eletroeletrônica__IMG:True__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletroeletrônica",
+      "has_image": true,
+      "statement_length": 225
+    },
+    {
+      "source_id": "Q234006",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 212
+    },
+    {
+      "source_id": "Q3742086",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 335
+    },
+    {
+      "source_id": "Q751904",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 327
+    },
+    {
+      "source_id": "Q971882",
+      "sampling_stratum": "Eletrotécnica__IMG:True__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletrotécnica",
+      "has_image": true,
+      "statement_length": 253
+    },
+    {
+      "source_id": "Q2804152",
+      "sampling_stratum": "Eletrônica__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletrônica",
+      "has_image": false,
+      "statement_length": 524
+    },
+    {
+      "source_id": "Q2325610",
+      "sampling_stratum": "Eletrônica__IMG:True__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletrônica",
+      "has_image": true,
+      "statement_length": 442
+    },
+    {
+      "source_id": "Q453947",
+      "sampling_stratum": "Eletrotécnica__IMG:True__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletrotécnica",
+      "has_image": true,
+      "statement_length": 233
+    },
+    {
+      "source_id": "Q2251023",
+      "sampling_stratum": "Eletrotécnica__IMG:True__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletrotécnica",
+      "has_image": true,
+      "statement_length": 277
+    },
+    {
+      "source_id": "Q2125854",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 161
+    },
+    {
+      "source_id": "Q2272592",
+      "sampling_stratum": "Eletrônica__IMG:True__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletrônica",
+      "has_image": true,
+      "statement_length": 238
+    },
+    {
+      "source_id": "Q564449",
+      "sampling_stratum": "Eletricidade__IMG:True__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletricidade",
+      "has_image": true,
+      "statement_length": 151
+    },
+    {
+      "source_id": "Q2421989",
+      "sampling_stratum": "Eletrotécnica__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletrotécnica",
+      "has_image": false,
+      "statement_length": 284
+    },
+    {
+      "source_id": "Q1888086",
+      "sampling_stratum": "Eletricidade__IMG:True__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": true,
+      "statement_length": 218
+    },
+    {
+      "source_id": "Q523006",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 65
+    },
+    {
+      "source_id": "Q759340",
+      "sampling_stratum": "Eletricidade__IMG:True__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": true,
+      "statement_length": 264
+    },
+    {
+      "source_id": "Q818094",
+      "sampling_stratum": "Eletrônica__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletrônica",
+      "has_image": false,
+      "statement_length": 124
+    },
+    {
+      "source_id": "Q834148",
+      "sampling_stratum": "Eletrotécnica__IMG:True__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletrotécnica",
+      "has_image": true,
+      "statement_length": 179
+    },
+    {
+      "source_id": "Q3402698",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 179
+    },
+    {
+      "source_id": "Q3466927",
+      "sampling_stratum": "Eletricidade__IMG:True__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": true,
+      "statement_length": 522
+    },
+    {
+      "source_id": "Q4186872",
+      "sampling_stratum": "Eletrotécnica__IMG:False__VF:False__LEN:LONG",
+      "original_source_theme": "Eletrotécnica",
+      "has_image": false,
+      "statement_length": 695
+    },
+    {
+      "source_id": "Q2158411",
+      "sampling_stratum": "Eletrônica__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletrônica",
+      "has_image": false,
+      "statement_length": 197
+    },
+    {
+      "source_id": "Q2284690",
+      "sampling_stratum": "Eletrônica__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletrônica",
+      "has_image": false,
+      "statement_length": 84
+    },
+    {
+      "source_id": "Q4032376",
+      "sampling_stratum": "Eletrotécnica__IMG:False__VF:False__LEN:LONG",
+      "original_source_theme": "Eletrotécnica",
+      "has_image": false,
+      "statement_length": 1050
+    },
+    {
+      "source_id": "Q431058",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 462
+    },
+    {
+      "source_id": "Q3267717",
+      "sampling_stratum": "Eletricidade__IMG:True__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletricidade",
+      "has_image": true,
+      "statement_length": 132
+    },
+    {
+      "source_id": "Q4183612",
+      "sampling_stratum": "Eletrotécnica__IMG:True__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletrotécnica",
+      "has_image": true,
+      "statement_length": 116
+    },
+    {
+      "source_id": "Q1767168",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 483
+    },
+    {
+      "source_id": "Q2217068",
+      "sampling_stratum": "Eletrotécnica__IMG:True__VF:False__LEN:LONG",
+      "original_source_theme": "Eletrotécnica",
+      "has_image": true,
+      "statement_length": 679
+    },
+    {
+      "source_id": "Q1060220",
+      "sampling_stratum": "Eletricidade__IMG:True__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": true,
+      "statement_length": 244
+    },
+    {
+      "source_id": "Q2894076",
+      "sampling_stratum": "Eletrônica__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletrônica",
+      "has_image": false,
+      "statement_length": 87
+    },
+    {
+      "source_id": "Q184144",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 279
+    },
+    {
+      "source_id": "Q786461",
+      "sampling_stratum": "Eletricidade__IMG:True__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletricidade",
+      "has_image": true,
+      "statement_length": 171
+    },
+    {
+      "source_id": "Q173563",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 405
+    },
+    {
+      "source_id": "Q107335",
+      "sampling_stratum": "Eletrotécnica__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletrotécnica",
+      "has_image": false,
+      "statement_length": 40
+    },
+    {
+      "source_id": "Q728272",
+      "sampling_stratum": "Eletrônica__IMG:True__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletrônica",
+      "has_image": true,
+      "statement_length": 232
+    },
+    {
+      "source_id": "Q3637810",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 142
+    },
+    {
+      "source_id": "Q3532481",
+      "sampling_stratum": "Eletricidade__IMG:True__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletricidade",
+      "has_image": true,
+      "statement_length": 169
+    },
+    {
+      "source_id": "Q2802803",
+      "sampling_stratum": "Eletrotécnica__IMG:False__VF:False__LEN:LONG",
+      "original_source_theme": "Eletrotécnica",
+      "has_image": false,
+      "statement_length": 640
+    },
+    {
+      "source_id": "Q3466923",
+      "sampling_stratum": "Eletricidade__IMG:True__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": true,
+      "statement_length": 548
+    },
+    {
+      "source_id": "Q2058465",
+      "sampling_stratum": "Eletrotécnica__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletrotécnica",
+      "has_image": false,
+      "statement_length": 326
+    },
+    {
+      "source_id": "Q3909995",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 217
+    },
+    {
+      "source_id": "Q3797364",
+      "sampling_stratum": "Eletricidade__IMG:True__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": true,
+      "statement_length": 202
+    },
+    {
+      "source_id": "Q1066333",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 300
+    },
+    {
+      "source_id": "Q3716094",
+      "sampling_stratum": "Eletrotécnica__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletrotécnica",
+      "has_image": false,
+      "statement_length": 492
+    },
+    {
+      "source_id": "Q3742089",
+      "sampling_stratum": "Eletricidade__IMG:True__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": true,
+      "statement_length": 331
+    },
+    {
+      "source_id": "Q734068",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 108
+    },
+    {
+      "source_id": "Q3576879",
+      "sampling_stratum": "Eletrônica__IMG:True__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletrônica",
+      "has_image": true,
+      "statement_length": 108
+    },
+    {
+      "source_id": "Q945963",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:LONG",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 765
+    },
+    {
+      "source_id": "Q1036232",
+      "sampling_stratum": "Eletrônica__IMG:True__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletrônica",
+      "has_image": true,
+      "statement_length": 175
+    },
+    {
+      "source_id": "Q2729185",
+      "sampling_stratum": "Eletrotécnica__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletrotécnica",
+      "has_image": false,
+      "statement_length": 85
+    },
+    {
+      "source_id": "Q2894080",
+      "sampling_stratum": "Eletrônica__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletrônica",
+      "has_image": false,
+      "statement_length": 515
+    },
+    {
+      "source_id": "Q3426562",
+      "sampling_stratum": "Eletricidade__IMG:True__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": true,
+      "statement_length": 219
+    },
+    {
+      "source_id": "Q2157513",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 281
+    },
+    {
+      "source_id": "Q1036260",
+      "sampling_stratum": "Eletrônica__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletrônica",
+      "has_image": false,
+      "statement_length": 305
+    },
+    {
+      "source_id": "Q2693100",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 95
+    },
+    {
+      "source_id": "Q810795",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:LONG",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 838
+    },
+    {
+      "source_id": "Q3509139",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 230
+    },
+    {
+      "source_id": "Q4216215",
+      "sampling_stratum": "Eletrotécnica__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletrotécnica",
+      "has_image": false,
+      "statement_length": 366
+    },
+    {
+      "source_id": "Q173560",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 334
+    },
+    {
+      "source_id": "Q431310",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 428
+    },
+    {
+      "source_id": "Q1058597",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 526
+    },
+    {
+      "source_id": "Q2987955",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 137
+    },
+    {
+      "source_id": "Q879234",
+      "sampling_stratum": "Eletricidade__IMG:True__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": true,
+      "statement_length": 448
+    },
+    {
+      "source_id": "Q2802784",
+      "sampling_stratum": "Eletrotécnica__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletrotécnica",
+      "has_image": false,
+      "statement_length": 98
+    },
+    {
+      "source_id": "Q707694",
+      "sampling_stratum": "Eletricidade__IMG:True__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletricidade",
+      "has_image": true,
+      "statement_length": 94
+    },
+    {
+      "source_id": "Q431300",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 182
+    },
+    {
+      "source_id": "Q248527",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 165
+    },
+    {
+      "source_id": "Q2729181",
+      "sampling_stratum": "Eletrotécnica__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletrotécnica",
+      "has_image": false,
+      "statement_length": 111
+    },
+    {
+      "source_id": "Q3675301",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 557
+    },
+    {
+      "source_id": "Q758581",
+      "sampling_stratum": "Eletroeletrônica__IMG:True__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletroeletrônica",
+      "has_image": true,
+      "statement_length": 246
+    },
+    {
+      "source_id": "Q726866",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:LONG",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 659
+    },
+    {
+      "source_id": "Q743387",
+      "sampling_stratum": "Eletricidade__IMG:True__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletricidade",
+      "has_image": true,
+      "statement_length": 175
+    },
+    {
+      "source_id": "Q976421",
+      "sampling_stratum": "Eletrônica__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletrônica",
+      "has_image": false,
+      "statement_length": 151
+    },
+    {
+      "source_id": "Q2401039",
+      "sampling_stratum": "Eletrotécnica__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletrotécnica",
+      "has_image": false,
+      "statement_length": 388
+    },
+    {
+      "source_id": "Q452619",
+      "sampling_stratum": "Eletroeletrônica__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletroeletrônica",
+      "has_image": false,
+      "statement_length": 116
+    },
+    {
+      "source_id": "Q3188791",
+      "sampling_stratum": "Eletrônica__IMG:False__VF:False__LEN:LONG",
+      "original_source_theme": "Eletrônica",
+      "has_image": false,
+      "statement_length": 935
+    },
+    {
+      "source_id": "Q786457",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 215
+    },
+    {
+      "source_id": "Q2354120",
+      "sampling_stratum": "Eletrotécnica__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletrotécnica",
+      "has_image": false,
+      "statement_length": 255
+    },
+    {
+      "source_id": "Q454860",
+      "sampling_stratum": "Eletrotécnica__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletrotécnica",
+      "has_image": false,
+      "statement_length": 310
+    },
+    {
+      "source_id": "Q397153",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 241
+    },
+    {
+      "source_id": "Q4209249",
+      "sampling_stratum": "Eletrotécnica__IMG:False__VF:False__LEN:LONG",
+      "original_source_theme": "Eletrotécnica",
+      "has_image": false,
+      "statement_length": 1540
+    },
+    {
+      "source_id": "Q431758",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 158
+    },
+    {
+      "source_id": "Q3887477",
+      "sampling_stratum": "Eletrotécnica__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletrotécnica",
+      "has_image": false,
+      "statement_length": 443
+    },
+    {
+      "source_id": "Q231998",
+      "sampling_stratum": "Eletricidade__IMG:True__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletricidade",
+      "has_image": true,
+      "statement_length": 34
+    },
+    {
+      "source_id": "Q2254481",
+      "sampling_stratum": "Eletroeletrônica__IMG:True__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletroeletrônica",
+      "has_image": true,
+      "statement_length": 174
+    },
+    {
+      "source_id": "Q107334",
+      "sampling_stratum": "Eletrotécnica__IMG:False__VF:False__LEN:MEDIUM",
+      "original_source_theme": "Eletrotécnica",
+      "has_image": false,
+      "statement_length": 315
+    },
+    {
+      "source_id": "Q825980",
+      "sampling_stratum": "Eletroeletrônica__IMG:False__VF:False__LEN:LONG",
+      "original_source_theme": "Eletroeletrônica",
+      "has_image": false,
+      "statement_length": 1264
+    },
+    {
+      "source_id": "Q2158448",
+      "sampling_stratum": "Eletricidade__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletricidade",
+      "has_image": false,
+      "statement_length": 183
+    },
+    {
+      "source_id": "Q3012493",
+      "sampling_stratum": "Eletrônica__IMG:True__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletrônica",
+      "has_image": true,
+      "statement_length": 114
+    },
+    {
+      "source_id": "Q3296523",
+      "sampling_stratum": "Eletrotécnica__IMG:False__VF:False__LEN:LONG",
+      "original_source_theme": "Eletrotécnica",
+      "has_image": false,
+      "statement_length": 840
+    },
+    {
+      "source_id": "Q2158412",
+      "sampling_stratum": "Eletrônica__IMG:False__VF:False__LEN:SHORT",
+      "original_source_theme": "Eletrônica",
+      "has_image": false,
+      "statement_length": 157
+    }
+  ]
+}

@@ -1,0 +1,5392 @@
+{
+  "module": "E05",
+  "title": "Dahlander e duas velocidades",
+  "total_candidates": 357,
+  "primary_assignments": 2,
+  "high_relevance": 3,
+  "medium_relevance": 0,
+  "low_relevance": 354,
+  "outside_theme": {
+    "count": null,
+    "status": "NOT_SEMANTICALLY_REVIEWED"
+  },
+  "image_dependent": 166,
+  "possible_duplicates": 2,
+  "possible_semantic_variants": 2,
+  "priority_ids": {
+    "HIGH": [
+      "Q759352",
+      "Q263718",
+      "Q235669"
+    ],
+    "MEDIUM": [],
+    "LOW": [
+      "Q4183614",
+      "Q4218539",
+      "Q4218544",
+      "Q4218675",
+      "Q4084225",
+      "Q4093937",
+      "Q4047413",
+      "Q4051340",
+      "Q4064761",
+      "Q4078059",
+      "Q4083320",
+      "Q4083321",
+      "Q4083323",
+      "Q4083336",
+      "Q4083343",
+      "Q3981866",
+      "Q3981871",
+      "Q3981877",
+      "Q4006486",
+      "Q4006487",
+      "Q4011953",
+      "Q4020224",
+      "Q3920491",
+      "Q3943003",
+      "Q3943007",
+      "Q3978780",
+      "Q3980546",
+      "Q3980547",
+      "Q3981859",
+      "Q3884359",
+      "Q3887489",
+      "Q3887490",
+      "Q3887491",
+      "Q3887505",
+      "Q3887789",
+      "Q3900504",
+      "Q3802131",
+      "Q3803287",
+      "Q3850352",
+      "Q3851440",
+      "Q3851446",
+      "Q3667624",
+      "Q3674360",
+      "Q3743203",
+      "Q3761887",
+      "Q3796394",
+      "Q3616332",
+      "Q3466923",
+      "Q3467619",
+      "Q3479827",
+      "Q3505047",
+      "Q3505049",
+      "Q3566337",
+      "Q3573963",
+      "Q3573965",
+      "Q3573967",
+      "Q3452142",
+      "Q3453561",
+      "Q3453563",
+      "Q3455095",
+      "Q3455513",
+      "Q3458240",
+      "Q3272780",
+      "Q3293312",
+      "Q3366632",
+      "Q3381651",
+      "Q3397789",
+      "Q3199937",
+      "Q3243368",
+      "Q3245383",
+      "Q3245395",
+      "Q3264291",
+      "Q3264300",
+      "Q3100157",
+      "Q3100171",
+      "Q3125843",
+      "Q3138856",
+      "Q3138959",
+      "Q3157278",
+      "Q3157287",
+      "Q3157290",
+      "Q3157293",
+      "Q3172293",
+      "Q3188791",
+      "Q3188793",
+      "Q3188808",
+      "Q3189271",
+      "Q3189281",
+      "Q3008702",
+      "Q3008704",
+      "Q3020994",
+      "Q3021225",
+      "Q3025721",
+      "Q3082344",
+      "Q2878164",
+      "Q2889419",
+      "Q2910286",
+      "Q2955320",
+      "Q2955342",
+      "Q2779415",
+      "Q2779443",
+      "Q2784996",
+      "Q2692678",
+      "Q2693108",
+      "Q2430921",
+      "Q2430936",
+      "Q2436959",
+      "Q2329772",
+      "Q2333379",
+      "Q2356971",
+      "Q2389515",
+      "Q2396768",
+      "Q2396781",
+      "Q2314698",
+      "Q2322812",
+      "Q2323267",
+      "Q2329752",
+      "Q2244997",
+      "Q2258052",
+      "Q2258055",
+      "Q2295396",
+      "Q2209725",
+      "Q2217058",
+      "Q2217147",
+      "Q2217545",
+      "Q2226729",
+      "Q2158444",
+      "Q2158446",
+      "Q2158447",
+      "Q2158448",
+      "Q2158454",
+      "Q2189228",
+      "Q2199724",
+      "Q2200893",
+      "Q1888090",
+      "Q1916787",
+      "Q1916803",
+      "Q1919408",
+      "Q1927404",
+      "Q2015010",
+      "Q2051864",
+      "Q2051868",
+      "Q2051869",
+      "Q2058462",
+      "Q2074790",
+      "Q2074791",
+      "Q1768663",
+      "Q1768669",
+      "Q1808430",
+      "Q1808438",
+      "Q1812397",
+      "Q1830348",
+      "Q1830349",
+      "Q1830360",
+      "Q1668820",
+      "Q1712203",
+      "Q1721317",
+      "Q1217266",
+      "Q1240659",
+      "Q1240662",
+      "Q1240730",
+      "Q1276349",
+      "Q1276356",
+      "Q1276363",
+      "Q1276367",
+      "Q1289626",
+      "Q1629119",
+      "Q1087468",
+      "Q1087490",
+      "Q1087491",
+      "Q1090530",
+      "Q1098271",
+      "Q1106087",
+      "Q1106986",
+      "Q1106987",
+      "Q1106999",
+      "Q1113507",
+      "Q1177662",
+      "Q1179312",
+      "Q1179313",
+      "Q1179320",
+      "Q1036233",
+      "Q1036235",
+      "Q1037590",
+      "Q1046935",
+      "Q1060210",
+      "Q1062918",
+      "Q1015251",
+      "Q1023712",
+      "Q1023744",
+      "Q1025883",
+      "Q1025919",
+      "Q1032587",
+      "Q981770",
+      "Q981774",
+      "Q995991",
+      "Q995992",
+      "Q995993",
+      "Q995994",
+      "Q945969",
+      "Q971891",
+      "Q971895",
+      "Q976426",
+      "Q976475",
+      "Q976482",
+      "Q837394",
+      "Q837401",
+      "Q843694",
+      "Q850466",
+      "Q850488",
+      "Q855027",
+      "Q879235",
+      "Q803834",
+      "Q811519",
+      "Q818090",
+      "Q823499",
+      "Q831193",
+      "Q834148",
+      "Q834155",
+      "Q772173",
+      "Q777161",
+      "Q777162",
+      "Q777193",
+      "Q786468",
+      "Q786475",
+      "Q797906",
+      "Q803802",
+      "Q750425",
+      "Q751891",
+      "Q758579",
+      "Q759355",
+      "Q759356",
+      "Q768537",
+      "Q770891",
+      "Q728300",
+      "Q731871",
+      "Q731875",
+      "Q731876",
+      "Q734059",
+      "Q741960",
+      "Q741961",
+      "Q743378",
+      "Q606989",
+      "Q606995",
+      "Q626781",
+      "Q646520",
+      "Q666495",
+      "Q707686",
+      "Q707696",
+      "Q710264",
+      "Q529407",
+      "Q529416",
+      "Q533343",
+      "Q539958",
+      "Q539961",
+      "Q596705",
+      "Q509732",
+      "Q509734",
+      "Q509735",
+      "Q514340",
+      "Q514354",
+      "Q522200",
+      "Q522202",
+      "Q522211",
+      "Q522213",
+      "Q522231",
+      "Q522939",
+      "Q460305",
+      "Q460307",
+      "Q460364",
+      "Q461601",
+      "Q461662",
+      "Q461677",
+      "Q462310",
+      "Q462321",
+      "Q484527",
+      "Q484535",
+      "Q488164",
+      "Q490124",
+      "Q490245",
+      "Q431726",
+      "Q431816",
+      "Q432400",
+      "Q432421",
+      "Q432422",
+      "Q452620",
+      "Q453936",
+      "Q453946",
+      "Q453952",
+      "Q453993",
+      "Q454013",
+      "Q454855",
+      "Q424977",
+      "Q424997",
+      "Q425009",
+      "Q425010",
+      "Q425021",
+      "Q425025",
+      "Q425033",
+      "Q425827",
+      "Q425830",
+      "Q430246",
+      "Q430255",
+      "Q431021",
+      "Q431030",
+      "Q431070",
+      "Q431284",
+      "Q431293",
+      "Q431299",
+      "Q431574",
+      "Q431580",
+      "Q411990",
+      "Q411991",
+      "Q412007",
+      "Q413089",
+      "Q278071",
+      "Q278074",
+      "Q278090",
+      "Q278091",
+      "Q394764",
+      "Q394786",
+      "Q231996",
+      "Q234010",
+      "Q234012",
+      "Q234014",
+      "Q235680",
+      "Q235685",
+      "Q237314",
+      "Q237320",
+      "Q238962",
+      "Q241756",
+      "Q241773",
+      "Q248523",
+      "Q248530",
+      "Q263016",
+      "Q263030",
+      "Q186297",
+      "Q186311",
+      "Q186312",
+      "Q186321",
+      "Q187137",
+      "Q187140",
+      "Q187147",
+      "Q187148",
+      "Q189027",
+      "Q189041",
+      "Q189061",
+      "Q189209",
+      "Q182427",
+      "Q182640",
+      "Q107351",
+      "Q108724",
+      "Q4183612",
+      "Q64203"
+    ]
+  },
+  "candidate_details": [
+    {
+      "source_id": "Q4183614",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4218539",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4218544",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4218675",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4084225",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4093937",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4047413",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4051340",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4064761",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4078059",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4083320",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4083321",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4083323",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4083336",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "MOTOR_PROTECTION",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4083343",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3981866",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3981871",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3981877",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4006486",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4006487",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4011953",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4020224",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3920491",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3943003",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3943007",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3978780",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3980546",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3980547",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3981859",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3884359",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3887489",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3887490",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "INSULATION_TEST",
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3887491",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3887505",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3887789",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3900504",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3802131",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3803287",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3850352",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3851440",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3851446",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3667624",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3674360",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3743203",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3761887",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3796394",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3616332",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3466923",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3467619",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3479827",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3505047",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3505049",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3566337",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3573963",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3573965",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3573967",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "THREE_PHASE_POWER",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3452142",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3453561",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3453563",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3455095",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3455513",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3458240",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3272780",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3293312",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3366632",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3381651",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3397789",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3199937",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3243368",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3245383",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3245395",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3264291",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3264300",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3100157",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3100171",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3125843",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3138856",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3138959",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3157278",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3157287",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3157290",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3157293",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3172293",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3188791",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3188793",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "THREE_PHASE_POWER",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3188808",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3189271",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3189281",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3008702",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3008704",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3020994",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3021225",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3025721",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3082344",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "MOTOR_PROTECTION",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2878164",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2889419",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2910286",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2955320",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2955342",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2779415",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2779443",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2784996",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2692678",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2693108",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "MOTOR_PROTECTION",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2430921",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2430936",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2436959",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2329772",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2333379",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2356971",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2389515",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2396768",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2396781",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2314698",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2322812",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2323267",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2329752",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2244997",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2258052",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2258055",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2295396",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2209725",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2217058",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2217147",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2217545",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2226729",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2158444",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "MOTOR_PROTECTION",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2158446",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2158447",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2158448",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2158454",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2189228",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2199724",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2200893",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1888090",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1916787",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1916803",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1919408",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1927404",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2015010",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2051864",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2051868",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2051869",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2058462",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2074790",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2074791",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1768663",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1768669",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1808430",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1808438",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1812397",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1830348",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1830349",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1830360",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1668820",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1712203",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1721317",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1217266",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1240659",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1240662",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1240730",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1276349",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1276356",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1276363",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1276367",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1289626",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1629119",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1087468",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1087490",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1087491",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1090530",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1098271",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1106087",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1106986",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1106987",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1106999",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1113507",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1177662",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1179312",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        },
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1179313",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        },
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1179320",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1036233",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1036235",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1037590",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1046935",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1060210",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1062918",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "MOTOR_PROTECTION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1015251",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1023712",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1023744",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1025883",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1025919",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1032587",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q981770",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q981774",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q995991",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q995992",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q995993",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q995994",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q945969",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q971891",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q971895",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q976426",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q976475",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q976482",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q837394",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q837401",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q843694",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q850466",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q850488",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q855027",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q879235",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q803834",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q811519",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q818090",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q823499",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q831193",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q834148",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q834155",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q772173",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q777161",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q777162",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q777193",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q786468",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q786475",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q797906",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q803802",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q750425",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q751891",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q758579",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q759352",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q759355",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q759356",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q768537",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q770891",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q728300",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q731871",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q731875",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q731876",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q734059",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q741960",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q741961",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q743378",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q606989",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q606995",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q626781",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q646520",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q666495",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q707686",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q707696",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q710264",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q529407",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q529416",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q533343",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q539958",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q539961",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q596705",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q509732",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q509734",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q509735",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q514340",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q514354",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q522200",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q522202",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q522211",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q522213",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q522231",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q522939",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q460305",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q460307",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q460364",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q461601",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q461662",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q461677",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q462310",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q462321",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q484527",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q484535",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "THREE_PHASE_POWER",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q488164",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q490124",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q490245",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q431726",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q431816",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q432400",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q432421",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "MOTOR_PROTECTION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q432422",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q452620",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q453936",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q453946",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q453952",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q453993",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q454013",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q454855",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q424977",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q424997",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q425009",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q425010",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q425021",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "THREE_PHASE_POWER",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q425025",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q425033",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q425827",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q425830",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q430246",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q430255",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q431021",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q431030",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q431070",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q431284",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q431293",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q431299",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q431574",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q431580",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q411990",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q411991",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q412007",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q413089",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q263718",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q278071",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q278074",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q278090",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q278091",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q394764",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q394786",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q231996",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q234010",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q234012",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q234014",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q235669",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q235680",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q235685",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q237314",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q237320",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q238962",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q241756",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q241773",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q248523",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q248530",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q263016",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q263030",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q186297",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q186311",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q186312",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q186321",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q187137",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q187140",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "MOTOR_PROTECTION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q187147",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q187148",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q189027",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q189041",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "OHMS_LAW_DIRECT_RESISTANCE",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q189061",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q189209",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q182427",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q182640",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q107351",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q108724",
+      "subtopics": [
+        {
+          "id": "9.3",
+          "title": "Motor de indução trifásico",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\09-maquinas-eletricas\\9.3-motor-de-inducao-trifasico.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4183612",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q64203",
+      "subtopics": [
+        {
+          "id": "10.2",
+          "title": "Diagramas de comando e força",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.2-diagramas-de-comando-e-forca.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    }
+  ]
+}

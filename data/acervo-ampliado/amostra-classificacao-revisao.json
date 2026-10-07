@@ -1,0 +1,4725 @@
+{
+  "seed": 20261006,
+  "selection_bias": "Amostra dirigida por estrato V1, enunciados curtos e majoritariamente sem imagem. Não representativa estatisticamente; expectativas serão anotadas pelo agente, não pelo classificador.",
+  "questions": [
+    {
+      "source_id": "Q4148970",
+      "stratum": "MANDATORY_REGRESSION",
+      "v1_module": "E02",
+      "v1_confidence": "LOW",
+      "statement": "No diagrama elétrico a seguir são exibidos os\ncircuitos de potência e de comando de um motor\nelétrico trifásico.Assinale a alternativa correta em relação ao funcionamento desse circuito.",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "A manobra de reversão com o motor já em\noperação exige o acionamento prévio da chave\nS0 antes da chave S1 ou S2."
+        },
+        {
+          "letra": "B",
+          "texto": "A simbologia empregada entre os contatores\nK1 e K2 indica que o motor M1 possui ligação\ndos enrolamentos em triângulo."
+        },
+        {
+          "letra": "C",
+          "texto": "Os contatos auxiliares normalmente fechados\nK1 e K2 atuam como selo para manter suas\nrespectivas bobinas energizadas."
+        },
+        {
+          "letra": "D",
+          "texto": "Os contatos auxiliares normalmente abertos K1\ne K2 atuam como intertravamento para a ligação simultânea dos contatores."
+        },
+        {
+          "letra": "E",
+          "texto": "A ligação simultânea dos contatores é impedida pelo contato de FT1 que detecta a presença de corrente no motor."
+        }
+      ],
+      "image_references": [
+        {
+          "path": "C:\\dev\\extrator de perguntas\\eletrica_eletronica\\imagens\\Q4148970_01.jpg",
+          "exists": true,
+          "sha256": "3cd034fda1421d221a6cac1a3cd13297843af778ae7cde5ddc0906dc0472a61d",
+          "source_url": "https://qcon-assets-production.s3.amazonaws.com/images/provas/154010/41.jpg"
+        }
+      ],
+      "metadata": [
+        "Circuitos Elétricos em Eletrotécnica",
+        "Circuitos Trifásicos Eletrotécnica",
+        "Equipamentos e Componentes",
+        "Motores em Equipamentos e Componentes na Eletrotécnica"
+      ]
+    },
+    {
+      "source_id": "Q4148977",
+      "stratum": "MANDATORY_REGRESSION",
+      "v1_module": "A03",
+      "v1_confidence": "LOW",
+      "statement": "Os extensômetros resistivos são sensores empregados em uma série de aplicações que envolvem\nmedições de pressão, força e outras grandezas.\nEles estão associados com um circuito comum na instrumentação, a ponte de Wheatstone, como na figura\na seguir:Considerando que a ponte de Wheatstone se encontra\nem equilíbrio e o potenciômetro encontra-se ajustado\nem 270 Ω, assinale a alternativa que indica corretamente a resistência elétrica atual do extensômetro.",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "32 Ω"
+        },
+        {
+          "letra": "B",
+          "texto": "120 Ω"
+        },
+        {
+          "letra": "C",
+          "texto": "180 Ω"
+        },
+        {
+          "letra": "D",
+          "texto": "270 Ω"
+        },
+        {
+          "letra": "E",
+          "texto": "350 Ω"
+        }
+      ],
+      "image_references": [
+        {
+          "path": "C:\\dev\\extrator de perguntas\\eletrica_eletronica\\imagens\\Q4148977_01.jpg",
+          "exists": true,
+          "sha256": "ec0896357f5c6a12eb31b68f3bd00c0ade0832f9bdb503bd851ee458c1d3b410",
+          "source_url": "https://qcon-assets-production.s3.amazonaws.com/images/provas/154010/48.jpg"
+        }
+      ],
+      "metadata": [
+        "Análise de Circuitos",
+        "Interpretação de Circuitos Elétricos",
+        "Medições elétricas"
+      ]
+    },
+    {
+      "source_id": "Q4150424",
+      "stratum": "MANDATORY_REGRESSION",
+      "v1_module": null,
+      "v1_confidence": "UNCLASSIFIED",
+      "statement": "No circuito apresentado na Figura, qual o tipo de transistor utilizado?",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "Transistor darlington."
+        },
+        {
+          "letra": "B",
+          "texto": "Transistor bipolar NPN."
+        },
+        {
+          "letra": "C",
+          "texto": "Transistor bipolar PNP."
+        },
+        {
+          "letra": "D",
+          "texto": "Transistor de efeito de campo."
+        }
+      ],
+      "image_references": [
+        {
+          "path": "C:\\dev\\extrator de perguntas\\eletrica_eletronica\\imagens\\Q4150424_01.jpg",
+          "exists": true,
+          "sha256": "2e6d8823fa05224645f3265c97ae52d37e557bbcfdf1d03b3804d82daf683d85",
+          "source_url": "https://qcon-assets-production.s3.amazonaws.com/images/provas/153648/50.jpg"
+        }
+      ],
+      "metadata": [
+        "Eletrônica Analógica",
+        "Transistores",
+        "Análise de Circuitos",
+        "Interpretação de Circuitos Elétricos"
+      ]
+    },
+    {
+      "source_id": "Q4151541",
+      "stratum": "MANDATORY_REGRESSION",
+      "v1_module": "F01",
+      "v1_confidence": "MEDIUM",
+      "statement": "Assinale a alternativa que indica corretamente a\nmáquina elétrica rotativa de corrente alternada, que\nopera de forma assíncrona.",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "Motor de passo."
+        },
+        {
+          "letra": "B",
+          "texto": "Motor de histerese."
+        },
+        {
+          "letra": "C",
+          "texto": "Motor de relutância."
+        },
+        {
+          "letra": "D",
+          "texto": "Motor de indução monofásico."
+        },
+        {
+          "letra": "E",
+          "texto": "Gerador de corrente contínua."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Equipamentos e Componentes",
+        "Motores em Equipamentos e Componentes na Eletrotécnica"
+      ]
+    },
+    {
+      "source_id": "Q772172",
+      "stratum": "S01:HIGH",
+      "v1_module": "S01",
+      "v1_confidence": "HIGH",
+      "statement": "Durante a desenergização, medida eficaz a ser tomada\nantes do reparo de defeitos na fiação elétrica, a\nordem correta de procedimentos é :",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "desligar, isolar, bloquear, testar, aterrar, proteger e\nsinalizar."
+        },
+        {
+          "letra": "B",
+          "texto": "sinalizar, bloquear, testar, desligar, aterrar, proteger\ne isolar."
+        },
+        {
+          "letra": "C",
+          "texto": "testar, desligar, sinalizar, isolar, bloquear, aterrar e\nproteger."
+        },
+        {
+          "letra": "D",
+          "texto": "isolar, desligar, bloquear, testar, aterrar, proteger e\nsinalizar."
+        },
+        {
+          "letra": "E",
+          "texto": "aterrar, desligar, isolar, bloquear, testar, proteger e\nsinalizar."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Instalações Elétricas em Eletrotécnica"
+      ]
+    },
+    {
+      "source_id": "Q3865649",
+      "stratum": "S01:HIGH",
+      "v1_module": "S01",
+      "v1_confidence": "HIGH",
+      "statement": "No que diz respeito à segurança em eletricidade,\nqual é o nome dado ao conjunto de ações\ncoordenadas, seqüenciadas e controladas,\ndestinadas a garantir a efetiva ausência de tensão\nno circuito, trecho ou ponto de trabalho, durante\ntodo o tempo de intervenção e sob controle dos\ntrabalhadores envolvidos.",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "Aterramento."
+        },
+        {
+          "letra": "B",
+          "texto": "Desenergização."
+        },
+        {
+          "letra": "C",
+          "texto": "Reenergização."
+        },
+        {
+          "letra": "D",
+          "texto": "Condução."
+        },
+        {
+          "letra": "E",
+          "texto": "Polarização."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Instalações Elétricas em Eletricidade"
+      ]
+    },
+    {
+      "source_id": "Q3796729",
+      "stratum": "S01:MEDIUM",
+      "v1_module": "S01",
+      "v1_confidence": "MEDIUM",
+      "statement": "Após desenergizar uma fonte retificada, a equipe nota\nque o capacitor mantém tensão por alguns segundos, e\num técnico quer descarregar tocando com chave\nmetálica. Para mitigação de risco e manutenção futura,\nqual prática é adequada?",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "Jogar água para \"dissipar\" carga."
+        },
+        {
+          "letra": "B",
+          "texto": "Apenas esperar \"uns minutos\" sem medir."
+        },
+        {
+          "letra": "C",
+          "texto": "Curto direto nos terminais com chave de fenda."
+        },
+        {
+          "letra": "D",
+          "texto": "Bater no gabinete para \"derrubar\" a tensão."
+        },
+        {
+          "letra": "E",
+          "texto": "Prever resistor de drenagem e descarregar com\nferramenta apropriada após testar ausência de\ntensão."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Equipamentos Elétricos"
+      ]
+    },
+    {
+      "source_id": "Q522242",
+      "stratum": "S01:LOW",
+      "v1_module": "S01",
+      "v1_confidence": "LOW",
+      "statement": "A propriedade tecnológica que apresentam\ncertos materiais de se deixarem deformar\npermanentemente, assumindo diferentes tamanhos ou\nformas sem sofrerem rupturas, rachaduras ou fortes\nalterações de estrutura quando submetidos a pressão\nou choque compatível com suas propriedades\nmecânicas, é denominada:",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "plasticidade"
+        },
+        {
+          "letra": "B",
+          "texto": "usinabilidade."
+        },
+        {
+          "letra": "C",
+          "texto": "tenacidade."
+        },
+        {
+          "letra": "D",
+          "texto": "fusibilidade."
+        },
+        {
+          "letra": "E",
+          "texto": "temperabilidade."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Equipamentos e Componentes"
+      ]
+    },
+    {
+      "source_id": "Q3413235",
+      "stratum": "S02:HIGH",
+      "v1_module": "S02",
+      "v1_confidence": "HIGH",
+      "statement": "Em instalações elétricas, a segurança é fundamental, e\nos equipamentos de proteção são cruciais para garantir\na integridade física dos trabalhadores e evitar\nacidentes. Estes\nequipamentos\ndividem-se\nem Equipamentos de Proteção Individual (EPI) e\nEquipamentos de Proteção Coletiva (EPC), cada um\ncom sua função específica.\nSão Equipamentos de Proteção Coletiva (EPC), entre\noutros, EXCETO:",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "Dispositivos de Bloqueio e Etiquetagem (LOTO)."
+        },
+        {
+          "letra": "B",
+          "texto": "Manga isolante."
+        },
+        {
+          "letra": "C",
+          "texto": "Interruptor diferencial residual (IDR."
+        },
+        {
+          "letra": "D",
+          "texto": "Disjuntores."
+        },
+        {
+          "letra": "E",
+          "texto": "Fusíveis."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Instalações Elétricas em Eletricidade"
+      ]
+    },
+    {
+      "source_id": "Q3157289",
+      "stratum": "S02:HIGH",
+      "v1_module": "S02",
+      "v1_confidence": "HIGH",
+      "statement": "Examine a lista de itens a seguir e identifique a\nalternativa que representa um Equipamento de\nProteção Individual (EPI) reconhecidamente\ncom capacidade de isolamento elétrico:",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "Óculos de proteção."
+        },
+        {
+          "letra": "B",
+          "texto": "Máscara de solda."
+        },
+        {
+          "letra": "C",
+          "texto": "Luvas de borracha."
+        },
+        {
+          "letra": "D",
+          "texto": "Respirador descartável."
+        },
+        {
+          "letra": "E",
+          "texto": "Fones de ouvido com cancelamento de ruído."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Instalações Elétricas em Eletricidade",
+        "Segurança do Trabalho"
+      ]
+    },
+    {
+      "source_id": "Q1037593",
+      "stratum": "S02:MEDIUM",
+      "v1_module": "S02",
+      "v1_confidence": "MEDIUM",
+      "statement": "Considere os equipamentos abaixo, presentes na rotina dos eletricistas.\nI. Alicate universal com cabo isolado.\nII. Botas de borracha.\nIII. Capacete.\nIV. Detector de tensão.\nSão considerados EPI os que constam APENAS em",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "I e II."
+        },
+        {
+          "letra": "B",
+          "texto": "II e III."
+        },
+        {
+          "letra": "C",
+          "texto": "III e IV."
+        },
+        {
+          "letra": "D",
+          "texto": "I, II e III."
+        },
+        {
+          "letra": "E",
+          "texto": "I e IV."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Equipamentos Elétricos",
+        "Componentes Eletrônicos em Eletricidade"
+      ]
+    },
+    {
+      "source_id": "Q3958229",
+      "stratum": "S02:LOW",
+      "v1_module": "S02",
+      "v1_confidence": "LOW",
+      "statement": "A segurança do trabalho em laboratórios eletrônicos é\ncrucial para prevenir choques elétricos, queimaduras,\nincêndios e danos aos equipamentos. As normas técnicas\nexigem a combinação de Equipamentos de Proteção\nIndividual (EPIs), Equipamentos de Proteção Coletiva\n(EPCs) e procedimentos rigorosos. Quais são os EPIs para\ntrabalhar com eletricidade?",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "Luvas isolantes e bancada aterrada."
+        },
+        {
+          "letra": "B",
+          "texto": "Jaleco de algodão e extintor de incêndio."
+        },
+        {
+          "letra": "C",
+          "texto": "Óculos de segurança e luvas isolantes."
+        },
+        {
+          "letra": "D",
+          "texto": "Bancada aterrada e extintor de incêndio."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Instalações Elétricas em Eletricidade"
+      ]
+    },
+    {
+      "source_id": "Q3468466",
+      "stratum": "F01:HIGH",
+      "v1_module": "F01",
+      "v1_confidence": "HIGH",
+      "statement": "Qual dispositivo de circuito é projetado para armazenar\ncarga elétrica temporariamente?",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "Resistor"
+        },
+        {
+          "letra": "B",
+          "texto": "Capacitor"
+        },
+        {
+          "letra": "C",
+          "texto": "Diodo"
+        },
+        {
+          "letra": "D",
+          "texto": "Indutor"
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Circuitos Elétricos em Eletricidade",
+        "Eletrônica"
+      ]
+    },
+    {
+      "source_id": "Q1916791",
+      "stratum": "F01:HIGH",
+      "v1_module": "F01",
+      "v1_confidence": "HIGH",
+      "statement": "A unidade da diferença de potencial elétrico, em termos\nde unidades de base do Sistema Internacional de Unidades, é expressa por:\nkg.m2.s-3.A-1\nA unidade da Condutância, quando escrita em termos\nde unidades de base do Sistema Internacional de Unidades, é",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "kg.m2.s-3.A-2"
+        },
+        {
+          "letra": "B",
+          "texto": "kg-1.m-2.s4.A2"
+        },
+        {
+          "letra": "C",
+          "texto": "kg-1.m-2.s3.A2"
+        },
+        {
+          "letra": "D",
+          "texto": "kg.m-2.s-3.A"
+        },
+        {
+          "letra": "E",
+          "texto": "kg.m2.s-2.A-2"
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Instrumentos e Medições elétricas",
+        "Unidades Elétricas"
+      ]
+    },
+    {
+      "source_id": "Q3200234",
+      "stratum": "F01:MEDIUM",
+      "v1_module": "F01",
+      "v1_confidence": "MEDIUM",
+      "statement": "Um técnico em elétrica precisa realizar o levantamento\nde carga elétrica de uma residência que possui os\nseguintes equipamentos:\n-10 lâmpadas de 60W cada\n-1 chuveiro elétrico de 5,5kW\n-1 geladeira de 300W\n-1 micro-ondas de 1,2W\n-1 máquina de lavar de 1500W Considerando que a tensão da rede é de 220V e que\ntodos os equipamentos podem funcionar\nsimultaneamente, qual é a corrente total demandada\npela residência?",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "30,45 A"
+        },
+        {
+          "letra": "B",
+          "texto": "41,36 A"
+        },
+        {
+          "letra": "C",
+          "texto": "43,44 A"
+        },
+        {
+          "letra": "D",
+          "texto": "35,00 A"
+        },
+        {
+          "letra": "E",
+          "texto": "32,27 A"
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Circuitos Elétricos em Eletricidade",
+        "Circuitos de Corrente Contínua e de Corrente Alternada"
+      ]
+    },
+    {
+      "source_id": "Q1694550",
+      "stratum": "F01:LOW",
+      "v1_module": "F01",
+      "v1_confidence": "LOW",
+      "statement": "Rede elétrica é o conjunto de condutores ou tubos que\nfazem parte de uma instalação elétrica; são representados\nnos esquemas por símbolos. A rede pode ser de dois tipos:\nexposta ou embutida. No caso da rede embutida, como o\npróprio nome diz, é embutida:",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "Através dos clites e de roldanas presas na parede"
+        },
+        {
+          "letra": "B",
+          "texto": "na alvenaria com eletrodutos metálicos ou em PVC."
+        },
+        {
+          "letra": "C",
+          "texto": "no piso com os tubos e as peças de conexões da mesma\nmarca"
+        },
+        {
+          "letra": "D",
+          "texto": "nas paredes com tubos e conexões de alta resistência\nmecânica à corrosão, usados para água fria e quente\ncom temperaturas de trabalho de 70ºC a 80ºC"
+        },
+        {
+          "letra": "E",
+          "texto": "usando material de plástico ou emborrachado, através\ndos clites."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Instrumentos e Medições elétricas",
+        "Medições Elétricas"
+      ]
+    },
+    {
+      "source_id": "Q3766965",
+      "stratum": "M01:HIGH",
+      "v1_module": "M01",
+      "v1_confidence": "HIGH",
+      "statement": "Em um serviço de instalação elétrica predial, o eletricista está utilizando um multímetro. Qual é a\nfunção principal desse instrumento?",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "Medir a temperatura dos cabos."
+        },
+        {
+          "letra": "B",
+          "texto": "Aumentar a tensão no circuito."
+        },
+        {
+          "letra": "C",
+          "texto": "Cortar a fiação."
+        },
+        {
+          "letra": "D",
+          "texto": "Medir a corrente, tensão e resistência do circuito."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Instrumentos e Medições elétricas"
+      ]
+    },
+    {
+      "source_id": "Q2158458",
+      "stratum": "M01:HIGH",
+      "v1_module": "M01",
+      "v1_confidence": "HIGH",
+      "statement": "A respeito de fundamentos de medidas elétricas e da utilização de instrumentos de medição em circuitos elétricos, julgue o item a seguir.\n\nCaso se faça uma medição de corrente elétrica em um\ncircuito AC, o amperímetro medirá a corrente instantânea\ndesse circuito.",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "Certo"
+        },
+        {
+          "letra": "B",
+          "texto": "Errado"
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Instrumentos e Medições elétricas",
+        "Medições Elétricas"
+      ]
+    },
+    {
+      "source_id": "Q2002186",
+      "stratum": "M01:MEDIUM",
+      "v1_module": "M01",
+      "v1_confidence": "MEDIUM",
+      "statement": "Um voltímetro digital, selecionado na escala de tensão alternada (CA), foi usado\npara medir uma tensão contínua (CC) de 127 V. Qual o valor lido no voltímetro?",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "127/√2 V"
+        },
+        {
+          "letra": "B",
+          "texto": "127 V"
+        },
+        {
+          "letra": "C",
+          "texto": "63,5 V"
+        },
+        {
+          "letra": "D",
+          "texto": "zero"
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Instrumentos e Medições elétricas",
+        "Instrumentos de medição"
+      ]
+    },
+    {
+      "source_id": "Q606953",
+      "stratum": "M01:LOW",
+      "v1_module": "M01",
+      "v1_confidence": "LOW",
+      "statement": "No que se refere a instrumentos de medidas elétricas e a geradores\nde funções, julgue o item seguinte.Se os dois terminais de saída de um gerador de funções típico\nforem conectados aos dois terminais de um resistor de 1 kΩ, a\ntensão entre os terminais será a metade daquela que haveria\nnos terminais do resistor caso este tivesse uma resistência\ninfinita.",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "Certo"
+        },
+        {
+          "letra": "B",
+          "texto": "Errado"
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Instrumentos e Medições elétricas",
+        "Instrumentos de medição"
+      ]
+    },
+    {
+      "source_id": "Q1631012",
+      "stratum": "F02:HIGH",
+      "v1_module": "F02",
+      "v1_confidence": "HIGH",
+      "statement": "A primeira lei de Kirchhoff para a tensão\nelétrica, também conhecida como lei das\nmalhas, afirma que a tensão aplicada a um\ncircuito fechado é igual a:",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "Ao produto das tensões pela corrente\nelétrica."
+        },
+        {
+          "letra": "B",
+          "texto": "Ao quadrado das tensões elétricas."
+        },
+        {
+          "letra": "C",
+          "texto": "A soma das correntes e tensões\nelétricas."
+        },
+        {
+          "letra": "D",
+          "texto": "A soma das quedas de tensão elétrica\nnaquele circuito."
+        },
+        {
+          "letra": "E",
+          "texto": "É inversamente proporcional as tensões\nelétricas."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Circuitos Elétricos em Eletricidade",
+        "Circuitos de Corrente Contínua e de Corrente Alternada"
+      ]
+    },
+    {
+      "source_id": "Q609655",
+      "stratum": "F02:HIGH",
+      "v1_module": "F02",
+      "v1_confidence": "HIGH",
+      "statement": "Basicamente, há dois modos distintos de associação de resistores: associação em série e associação em paralelo. O\nparalelo de nove resistores idênticos de valor igual a 4,5 Ω equivale a",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "0,25 Ω."
+        },
+        {
+          "letra": "B",
+          "texto": "0,5 Ω."
+        },
+        {
+          "letra": "C",
+          "texto": "2,5 Ω ."
+        },
+        {
+          "letra": "D",
+          "texto": "4,5 Ω."
+        },
+        {
+          "letra": "E",
+          "texto": "40,5 Ω."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Circuitos Elétricos em Eletricidade",
+        "Circuitos de Corrente Contínua e de Corrente Alternada"
+      ]
+    },
+    {
+      "source_id": "Q453504",
+      "stratum": "F02:MEDIUM",
+      "v1_module": "F02",
+      "v1_confidence": "MEDIUM",
+      "statement": "Deseja-se medir a tensão entre os terminais do resistor R1 e a resistência equivalente aos resistores R2 e R3 . Essas duas medidas são realizadas, respectivamente, por um",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "voltímetro entre os terminais 1 e 3, e um ohmímetro entre os terminais 3 e 4"
+        },
+        {
+          "letra": "B",
+          "texto": "voltímetro entre os terminais 1 e 2, e um ohmímetro entre os terminais 1 e 4"
+        },
+        {
+          "letra": "C",
+          "texto": "voltímetro entre os terminais 1 e 2, e um ohmímetro entre os terminais 2 e 4"
+        },
+        {
+          "letra": "D",
+          "texto": "amperímetro entre os terminais 1 e 2, e um ohmímetro entre os terminais 1 e 4"
+        },
+        {
+          "letra": "E",
+          "texto": "ohmímetro entre os terminais 1 e 4, e um voltímetro entre os terminais 3 e 4"
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Instrumentos e Medições elétricas",
+        "Medições Elétricas"
+      ]
+    },
+    {
+      "source_id": "Q539964",
+      "stratum": "F02:LOW",
+      "v1_module": "F02",
+      "v1_confidence": "LOW",
+      "statement": "Circuitos elétricos complexos, na prática, nada mais são do que simples associações de dois tipos de circuitos\nfundamentais: circuito em série e circuito em paralelo. Em um circuito série constituído por uma fonte de tensão\ncontínua de 12 V, um capacitor de 100 mF e uma resistência de 10 Ω, após cinco constantes de tempo, o valor da\ncorrente elétrica será",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "Zero."
+        },
+        {
+          "letra": "B",
+          "texto": "0,11 A."
+        },
+        {
+          "letra": "C",
+          "texto": "1,19 A."
+        },
+        {
+          "letra": "D",
+          "texto": "1,2 A."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Análise de Circuitos",
+        "Interpretação de Circuitos Elétricos"
+      ]
+    },
+    {
+      "source_id": "Q2217527",
+      "stratum": "F03:HIGH",
+      "v1_module": "F03",
+      "v1_confidence": "HIGH",
+      "statement": "Um circuito conectado em estrela tem impedâncias Z1, Z2 e Z3 iguais a 5 ohms\ncada. O valor de cada uma das impedâncias ZA, ZB e ZC do circuito equivalente\nconectado em delta será:",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "1,7 Ω"
+        },
+        {
+          "letra": "B",
+          "texto": "5 Ω"
+        },
+        {
+          "letra": "C",
+          "texto": "8,3 Ω"
+        },
+        {
+          "letra": "D",
+          "texto": "15 Ω"
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Circuitos Elétricos em Eletrotécnica",
+        "Circuitos Trifásicos Eletrotécnica"
+      ]
+    },
+    {
+      "source_id": "Q3573981",
+      "stratum": "F03:HIGH",
+      "v1_module": "F03",
+      "v1_confidence": "HIGH",
+      "statement": "Considere um gerador síncrono com rotação\nnominal de 120 rpm em um sistema elétrico\ninterligado cuja frequência nominal é 60 Hz. O\nnúmero de polos desse gerador síncrono é",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "36."
+        },
+        {
+          "letra": "B",
+          "texto": "42."
+        },
+        {
+          "letra": "C",
+          "texto": "60."
+        },
+        {
+          "letra": "D",
+          "texto": "80."
+        },
+        {
+          "letra": "E",
+          "texto": "120."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Instalações Elétricas em Eletrotécnica",
+        "Geração de Energia em Eletrotécnica"
+      ]
+    },
+    {
+      "source_id": "Q2779411",
+      "stratum": "F03:MEDIUM",
+      "v1_module": "F03",
+      "v1_confidence": "MEDIUM",
+      "statement": "Um motor elétrico que tem placa de identificação indicando potência de 3CV, três fases, tensão nominal de 220V/380V e frequência de 50/60HZ, é conectado a uma rede trifásica de 380 V, 60 Hz. Se esse motor girar com 1.775 rpm, terá um número de pólos igual a",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "2."
+        },
+        {
+          "letra": "B",
+          "texto": "6."
+        },
+        {
+          "letra": "C",
+          "texto": "4."
+        },
+        {
+          "letra": "D",
+          "texto": "8."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Equipamentos Elétricos",
+        "Motores"
+      ]
+    },
+    {
+      "source_id": "Q462309",
+      "stratum": "F03:LOW",
+      "v1_module": "F03",
+      "v1_confidence": "LOW",
+      "statement": "Um motor síncrono de polos lisos, trifásico, conectado em estrela, 60 Hz, 1.800 V, entrega 270 HP à carga. A reatância síncrona do motor vale 9 Ω por fase. Nas condições indicadas, o rendimento do motor é de 90%, e o ângulo de potência é de 30 graus elétricos, medidos por um estroboscópio. Considerando-se que a resistência do circuito da armadura pode ser desprezada, a tensão induzida por fase, em volts, é, aproximadamente, de",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "960"
+        },
+        {
+          "letra": "B",
+          "texto": "1.024"
+        },
+        {
+          "letra": "C",
+          "texto": "1.040"
+        },
+        {
+          "letra": "D",
+          "texto": "1.122"
+        },
+        {
+          "letra": "E",
+          "texto": "1.291"
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Equipamentos Elétricos",
+        "Motores"
+      ]
+    },
+    {
+      "source_id": "Q3949007",
+      "stratum": "F04:HIGH",
+      "v1_module": "F04",
+      "v1_confidence": "HIGH",
+      "statement": "A medição e a tarifação de energia elétrica, em unidades consumidoras industriais, frequentemente envolvem a\ncompensação de energia reativa. O que ocorre com o custo da fatura de energia elétrica de uma unidade consumidora,\nquando o seu fator de potência está abaixo do limite regulamentar estabelecido pela concessionária?",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "A concessionária é obrigada a instalar um banco de capacitores para o consumidor."
+        },
+        {
+          "letra": "B",
+          "texto": "A medição da energia reativa é desconsiderada na tarifação."
+        },
+        {
+          "letra": "C",
+          "texto": "O custo da energia ativa (kWh) é reduzido."
+        },
+        {
+          "letra": "D",
+          "texto": "O consumidor recebe um bônus na fatura devido ao baixo consumo de energia ativa."
+        },
+        {
+          "letra": "E",
+          "texto": "O consumidor é penalizado com a cobrança de multa por excedente de energia reativa."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Instrumentos e Medições elétricas",
+        "Medições Elétricas"
+      ]
+    },
+    {
+      "source_id": "Q4006990",
+      "stratum": "F04:HIGH",
+      "v1_module": "F04",
+      "v1_confidence": "HIGH",
+      "statement": "Um motor de indução monofásico de 10 cv tem rendimento\nde 92%, fator de potência indutivo de 80%, tensão nominal de\n220 V e frequência nominal de 50 Hz. Calcule a capacitância de\num capacitor que, conectado aos terminais do motor, altera o\nfator de potência para 100% e assinale a alternativa que indica\nseu valor aproximado.",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "8,06 μF"
+        },
+        {
+          "letra": "B",
+          "texto": "20,12 μF"
+        },
+        {
+          "letra": "C",
+          "texto": "212,96 μF"
+        },
+        {
+          "letra": "D",
+          "texto": "394,6 μF"
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Instalações Elétricas em Eletricidade",
+        "Fator de Potência"
+      ]
+    },
+    {
+      "source_id": "Q3915223",
+      "stratum": "F04:MEDIUM",
+      "v1_module": "F04",
+      "v1_confidence": "MEDIUM",
+      "statement": "Por um chuveiro elétrico, ligado em uma tensão de\n220 volts, passa uma corrente de 15 amperes. Dessa\nforma, a potência elétrica recebida por esse chuveiro\né de:",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "3,3 kW."
+        },
+        {
+          "letra": "B",
+          "texto": "7,3 kW."
+        },
+        {
+          "letra": "C",
+          "texto": "14,6 kW."
+        },
+        {
+          "letra": "D",
+          "texto": "110 kW."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Circuitos Elétricos em Eletricidade"
+      ]
+    },
+    {
+      "source_id": "Q3019378",
+      "stratum": "F04:LOW",
+      "v1_module": "F04",
+      "v1_confidence": "LOW",
+      "statement": "Dentre as vantagens da utilização de recursos de\ninformática no planejamento e execução das instalações\nelétricas, está a/o:",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "restrição da adaptabilidade do projeto;"
+        },
+        {
+          "letra": "B",
+          "texto": "incremento dos custos de implementação;"
+        },
+        {
+          "letra": "C",
+          "texto": "aprimoramento na precisão das medidas;"
+        },
+        {
+          "letra": "D",
+          "texto": "diminuição da eficiência energética;"
+        },
+        {
+          "letra": "E",
+          "texto": "aumento da complexidade do projeto."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Eletrônica",
+        "Automação e Controle em Eletricidade"
+      ]
+    },
+    {
+      "source_id": "Q3981866",
+      "stratum": "I03:HIGH",
+      "v1_module": "I03",
+      "v1_confidence": "HIGH",
+      "statement": "Em projetos elétricos, diferentes tipos de diagramas são\nempregados para facilitar a visualização e a execução das\ninstalações. Um exemplo é o diagrama unifilar, que representa:",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "todos os condutores separadamente"
+        },
+        {
+          "letra": "B",
+          "texto": "apenas um condutor por circuito"
+        },
+        {
+          "letra": "C",
+          "texto": "somente comandos"
+        },
+        {
+          "letra": "D",
+          "texto": "somente potência"
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Instalações Elétricas em Eletricidade"
+      ]
+    },
+    {
+      "source_id": "Q3025721",
+      "stratum": "I03:HIGH",
+      "v1_module": "I03",
+      "v1_confidence": "HIGH",
+      "statement": "Em um diagrama unifilar de um sistema de controle PID,\naparece um bloco de instrumento identificado com a sigla\nTIC. Esse instrumento é denominado de",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "indicador controlador de nível."
+        },
+        {
+          "letra": "B",
+          "texto": "indicador controlador de potência."
+        },
+        {
+          "letra": "C",
+          "texto": "indicador controlador de velocidade."
+        },
+        {
+          "letra": "D",
+          "texto": "indicador controlador de temperatura."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Instalações Elétricas em Eletricidade"
+      ]
+    },
+    {
+      "source_id": "Q1023744",
+      "stratum": "I03:MEDIUM",
+      "v1_module": "I03",
+      "v1_confidence": "MEDIUM",
+      "statement": "Analisando a Figura I, conclui-se que nas paredes existem duas caixas embutidas nas quais serão instaladas:",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "Parede X - interruptor simples e tomada alta Parede Y - tomada média"
+        },
+        {
+          "letra": "B",
+          "texto": "Parede X - interruptor intermediário e tomada baixa Parede Y - tomada alta"
+        },
+        {
+          "letra": "C",
+          "texto": "Parede X - interruptor paralelo e tomada baixa Parede Y - tomada média"
+        },
+        {
+          "letra": "D",
+          "texto": "Parede X - interruptor simples e tomada média Parede Y - tomada baixa"
+        },
+        {
+          "letra": "E",
+          "texto": "Parede X - interruptor paralelo e tomada alta Parede Y - tomada baixa"
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Instrumentos e Medições elétricas",
+        "Simbologia Elétrica"
+      ]
+    },
+    {
+      "source_id": "Q1023708",
+      "stratum": "I03:LOW",
+      "v1_module": "I03",
+      "v1_confidence": "LOW",
+      "statement": "Em um circuito eletroeletrônico, o elemento de sinalização buzina foi utilizado para evidenciar um risco e proteger os usuários.\nEsse componente está corretamente representado em",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "A"
+        },
+        {
+          "letra": "B",
+          "texto": "B"
+        },
+        {
+          "letra": "C",
+          "texto": "C"
+        },
+        {
+          "letra": "D",
+          "texto": "D"
+        },
+        {
+          "letra": "E",
+          "texto": "E"
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Instrumentos e Medições elétricas",
+        "Simbologia Elétrica"
+      ]
+    },
+    {
+      "source_id": "Q3966220",
+      "stratum": "R01:HIGH",
+      "v1_module": "R01",
+      "v1_confidence": "HIGH",
+      "statement": "Considerando as ferramentas presentes na\natividade do eletricista, assinale a alternativa que\ncompleta corretamente a lacuna do texto a seguir:\nPor vezes, o eletricista precisa trabalhar no alto,\nem um poste, no teto, numa marquise ou num\ntelhado. A ________ é um equipamento auxiliar\ndo eletricista e o ajudará muito se for adequada\nao serviço.",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "escada"
+        },
+        {
+          "letra": "B",
+          "texto": "mangueira"
+        },
+        {
+          "letra": "C",
+          "texto": "motoniveladora"
+        },
+        {
+          "letra": "D",
+          "texto": "talha"
+        },
+        {
+          "letra": "E",
+          "texto": "fechadura"
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Instalações Elétricas em Eletricidade"
+      ]
+    },
+    {
+      "source_id": "Q461602",
+      "stratum": "R01:HIGH",
+      "v1_module": "R01",
+      "v1_confidence": "HIGH",
+      "statement": "O valor rms da tensão fase-fase da rede de distribuição de um sistema elétrico industrial é 220 V. Uma carga monofásica é conectada a uma das fases e ao neutro. O valor rms aproximado, em volts, da tensão a que a carga é submetida é",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "110"
+        },
+        {
+          "letra": "B",
+          "texto": "120"
+        },
+        {
+          "letra": "C",
+          "texto": "127"
+        },
+        {
+          "letra": "D",
+          "texto": "210"
+        },
+        {
+          "letra": "E",
+          "texto": "220"
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Circuitos Elétricos em Eletrotécnica"
+      ]
+    },
+    {
+      "source_id": "Q3264283",
+      "stratum": "R01:MEDIUM",
+      "v1_module": "R01",
+      "v1_confidence": "MEDIUM",
+      "statement": "Em instalações elétricas de baixa tensão, a proteção de\nramais alimentadores é dimensionada principalmente de\nforma a proteger",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "as cargas contra sobrecarga e curtos-circuitos."
+        },
+        {
+          "letra": "B",
+          "texto": "os condutores dos ramais alimentadores contra sobrecargas e sobretensões."
+        },
+        {
+          "letra": "C",
+          "texto": "as cargas contra sobrecarga e sobretensões."
+        },
+        {
+          "letra": "D",
+          "texto": "os condutores dos ramais alimentadores contra sobrecargas e curtos-circuitos."
+        },
+        {
+          "letra": "E",
+          "texto": "os condutores dos ramais alimentadores contra sobretensões e curtos-circuitos."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Instalações Elétricas em Eletricidade"
+      ]
+    },
+    {
+      "source_id": "Q499915",
+      "stratum": "R01:LOW",
+      "v1_module": "R01",
+      "v1_confidence": "LOW",
+      "statement": "De acordo com a resolução 414, nos casos de obras com participação financeira do consumidor, para o cálculo do encargo de responsabilidade da distribuidora (ERD), se MUSDERD representa o montante de uso do sistema de distribuição a ser atendido ou acrescido para o cálculo do ERD, em quilowatt (kW), e K representa o fator de cálculo do ERD, então o ERD é determinado pela seguinte equação:",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "ERD = MUSDERD /K;"
+        },
+        {
+          "letra": "B",
+          "texto": "ERD = MUSDERD x K;"
+        },
+        {
+          "letra": "C",
+          "texto": "ERD = K / MUSDERD;"
+        },
+        {
+          "letra": "D",
+          "texto": "ERD = (MUSDERD)K;"
+        },
+        {
+          "letra": "E",
+          "texto": "ERD = MUSDERD x K/(K – 1)."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Instrumentos e Medições elétricas",
+        "Medições Elétricas"
+      ]
+    },
+    {
+      "source_id": "Q180465",
+      "stratum": "H01:MEDIUM",
+      "v1_module": "H01",
+      "v1_confidence": "MEDIUM",
+      "statement": "Os transmissores de sinais podem ser classificados, com respeito ao tipo de sinal de transmissão, como pneumáticos, hidráulicos, elétricos, digitais e via rádio. Que transmissores têm aplicação indicada para ambientes explosivos?",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "Elétricos e a rádio"
+        },
+        {
+          "letra": "B",
+          "texto": "Pneumáticos e elétricos"
+        },
+        {
+          "letra": "C",
+          "texto": "Pneumáticos e hidráulicos"
+        },
+        {
+          "letra": "D",
+          "texto": "Hidráulicos e a rádio"
+        },
+        {
+          "letra": "E",
+          "texto": "Digitais e a rádio"
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Automação e Controle em Eletrônica"
+      ]
+    },
+    {
+      "source_id": "Q2042489",
+      "stratum": "A01:HIGH",
+      "v1_module": "A01",
+      "v1_confidence": "HIGH",
+      "statement": "A álgebra booleana pode ser usada para ajudar na\nanálise de um circuito lógico e como expressar\nmatematicamente a operação do circuito. Também na\nálgebra booleana se tem várias regras denominadas\nteoremas booleanos que com isso é possível:",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "montar a tabela verdade."
+        },
+        {
+          "letra": "B",
+          "texto": "simplificar expressões e circuitos lógicos."
+        },
+        {
+          "letra": "C",
+          "texto": "verificar a funcionalidade de um CI."
+        },
+        {
+          "letra": "D",
+          "texto": "elaborar um CI que conte 2 bits."
+        },
+        {
+          "letra": "E",
+          "texto": "realizar o método de Karnaugh."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Eletrônica Digital",
+        "Circuitos Lógicos e Álgebra Booleana em Eletrônica"
+      ]
+    },
+    {
+      "source_id": "Q2255988",
+      "stratum": "A01:HIGH",
+      "v1_module": "A01",
+      "v1_confidence": "HIGH",
+      "statement": "O resultado da simplificação da seguinte expressão através de álgebra\nbooleana AB + A(B + C) + B(B + C) está CORRETAMENTE representado em:",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "C + B"
+        },
+        {
+          "letra": "B",
+          "texto": "C+AB"
+        },
+        {
+          "letra": "C",
+          "texto": "AB"
+        },
+        {
+          "letra": "D",
+          "texto": "B + AC"
+        },
+        {
+          "letra": "E",
+          "texto": "AC"
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Eletrônica Digital",
+        "Circuitos Lógicos e Álgebra Booleana em Eletrônica"
+      ]
+    },
+    {
+      "source_id": "Q969635",
+      "stratum": "A01:MEDIUM",
+      "v1_module": "A01",
+      "v1_confidence": "MEDIUM",
+      "statement": "No dia a dia usamos uma representação numérica decimal, ou base 10, que constitui em\nrepresentar os números usando alfabeto de 10 elementos (0, 1, 2, 3, 4, 5, 6, 7, 8 e 9). Entretanto,\nexistem outras formas de representação, das quais podemos citar as binárias (0 e 1), octal (0, 1,\n2, 3, 4, 5, 6 e 7) e hexadecimal (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E e F). Qual é o equivalente\nna base decimal do número 638\nna base octal?",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "3310"
+        },
+        {
+          "letra": "B",
+          "texto": "5110"
+        },
+        {
+          "letra": "C",
+          "texto": "4810"
+        },
+        {
+          "letra": "D",
+          "texto": "3010"
+        },
+        {
+          "letra": "E",
+          "texto": "2310"
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Eletrônica Digital em Eletroeletrônica",
+        "Operações Binárias e Hexadecimal"
+      ]
+    },
+    {
+      "source_id": "Q431719",
+      "stratum": "A01:LOW",
+      "v1_module": "A01",
+      "v1_confidence": "LOW",
+      "statement": "Observe o esquema em LADDER apresentado na figura, no qual A e B são entradas, e M é uma saída. A função lógica equivalente a esse esquema é",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "M = A nand B"
+        },
+        {
+          "letra": "B",
+          "texto": "M = (A+B’).(A’+B)"
+        },
+        {
+          "letra": "C",
+          "texto": "M = A’ + B’"
+        },
+        {
+          "letra": "D",
+          "texto": "M = A xor B"
+        },
+        {
+          "letra": "E",
+          "texto": "M = A nor B"
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Automação e Controle em Eletrônica",
+        "CLP (Controlador Lógico Programável)"
+      ]
+    },
+    {
+      "source_id": "Q731875",
+      "stratum": "E01:HIGH",
+      "v1_module": "E01",
+      "v1_confidence": "HIGH",
+      "statement": "Os motores síncronos são denominados dessa forma por\npromoverem o giro do rotor em sincronismo com o campo\ngirante estabelecido pelos enrolamentos do estator, ou seja,\no rotor gira com velocidade igual à velocidade angular\nsíncrona da máquina. Para um motor síncrono de 4 polos,\nque irá operar em um sistema com frequência nominal de\n60 Hz, é correto afirmar que, no regime permanente, o rotor\nestará girando a uma velocidade angular igual a",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "8 rpm."
+        },
+        {
+          "letra": "B",
+          "texto": "180 rpm."
+        },
+        {
+          "letra": "C",
+          "texto": "1.200 rpm."
+        },
+        {
+          "letra": "D",
+          "texto": "1.800 rpm."
+        },
+        {
+          "letra": "E",
+          "texto": "3.600 rpm."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Equipamentos Elétricos",
+        "Motores"
+      ]
+    },
+    {
+      "source_id": "Q2779415",
+      "stratum": "E01:HIGH",
+      "v1_module": "E01",
+      "v1_confidence": "HIGH",
+      "statement": "Um equipamento é acionado por motor de indução de rotor de gaiola de esquilo de 4 polos, 60 Hz. Quando a velocidade do motor é de 1.620 rpm, o escorregamento do motor é de",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "10%."
+        },
+        {
+          "letra": "B",
+          "texto": "6 %."
+        },
+        {
+          "letra": "C",
+          "texto": "4 %."
+        },
+        {
+          "letra": "D",
+          "texto": "8 %."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Circuitos Elétricos em Eletricidade",
+        "Circuitos de Corrente Contínua e de Corrente Alternada",
+        "Instrumentos e Medições elétricas",
+        "Medições Elétricas",
+        "Equipamentos Elétricos",
+        "Motores"
+      ]
+    },
+    {
+      "source_id": "Q1768656",
+      "stratum": "E01:MEDIUM",
+      "v1_module": "E01",
+      "v1_confidence": "MEDIUM",
+      "statement": "O escorregamento é uma característica intrínseca aos motores:",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "de corrente contínua"
+        },
+        {
+          "letra": "B",
+          "texto": "síncronos"
+        },
+        {
+          "letra": "C",
+          "texto": "de passos"
+        },
+        {
+          "letra": "D",
+          "texto": "de indução"
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Motores"
+      ]
+    },
+    {
+      "source_id": "Q1767154",
+      "stratum": "E01:LOW",
+      "v1_module": "E01",
+      "v1_confidence": "LOW",
+      "statement": "Em uma instalação predial, um motor elétrico trifásico\né utilizado para acionar uma bomba. Quando ligado a um\nsistema elétrico de 60 Hz, antes de sua conexão com a\nbomba, observa-se que a velocidade do motor é igual a\n1.188 rpm. Todavia, uma vez realizada a conexão do motor\ncom a bomba, sua velocidade diminui para 1.142 rpm.\nCom base nessa situação hipotética, julgue o item. A máquina elétrica apresenta 6 polos e consiste em um\nmotor síncrono.",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "Certo"
+        },
+        {
+          "letra": "B",
+          "texto": "Errado"
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Equipamentos Elétricos",
+        "Motores"
+      ]
+    },
+    {
+      "source_id": "Q2177313",
+      "stratum": "T01:HIGH",
+      "v1_module": "T01",
+      "v1_confidence": "HIGH",
+      "statement": "Um transformador ideal possui tensão no primário de 120V e no secundário de 12V.\nO secundário desse transformador possui 50 espiras e a ele estará acoplada uma carga de 300W.\nDetermine o número de espiras no primário (N1) e as correntes circulantes no primário e no secundário\ndo transformador.",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "N1: 500 espiras, I1=2,5 A e I2=25 A."
+        },
+        {
+          "letra": "B",
+          "texto": "N1: 5 espiras, I1=25 A e I2= 2,5 A."
+        },
+        {
+          "letra": "C",
+          "texto": "N1: 50000 espiras, I1=250 A e I2= 0,25 A."
+        },
+        {
+          "letra": "D",
+          "texto": "N1: 500 espiras, I1=0,25 A e I2= 2,5 A."
+        },
+        {
+          "letra": "E",
+          "texto": "N1: 50Milhões de espiras, I1=250k A e I2=2,5M A."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Equipamentos Elétricos",
+        "Transformadores"
+      ]
+    },
+    {
+      "source_id": "Q1046934",
+      "stratum": "T01:HIGH",
+      "v1_module": "T01",
+      "v1_confidence": "HIGH",
+      "statement": "Um transformador monofásico que possui 8000 espiras\nem seu enrolamento primário é alimentado por uma tensão de 160 Vca. Considerando não haver nenhum tipo\nde perda no processo de transformação, é correto afirmar\nque no enrolamento secundário, que possui 4000 espiras, a tensão de saída será de",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "64 Vca."
+        },
+        {
+          "letra": "B",
+          "texto": "80 Vca."
+        },
+        {
+          "letra": "C",
+          "texto": "160 Vca."
+        },
+        {
+          "letra": "D",
+          "texto": "200 Vca."
+        },
+        {
+          "letra": "E",
+          "texto": "320 Vca."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Equipamentos Elétricos",
+        "Transformadores"
+      ]
+    },
+    {
+      "source_id": "Q759346",
+      "stratum": "T01:MEDIUM",
+      "v1_module": "T01",
+      "v1_confidence": "MEDIUM",
+      "statement": "Em relação aos dispositivos semicondutores presentes no circuito da figura 15A2AAA, julgue o item subsequente.O componente Q1, localizado na saída do oscilador, representa um diodo, que é responsável pelo chaveamento da corrente no\ntransformador T2.",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "Certo"
+        },
+        {
+          "letra": "B",
+          "texto": "Errado"
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Circuitos Elétricos em Eletricidade",
+        "Circuitos de Corrente Contínua e de Corrente Alternada"
+      ]
+    },
+    {
+      "source_id": "Q2369617",
+      "stratum": "T01:LOW",
+      "v1_module": "T01",
+      "v1_confidence": "LOW",
+      "statement": "Dentre os atuadores que compõem um sistema de\nprodução automatizado encontram-se:",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "motores"
+        },
+        {
+          "letra": "B",
+          "texto": "transformadores"
+        },
+        {
+          "letra": "C",
+          "texto": "transdutores de pressão"
+        },
+        {
+          "letra": "D",
+          "texto": "controladores lógicos programáveis"
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Equipamentos e Componentes",
+        "Motores em Equipamentos e Componentes na Eletrotécnica"
+      ]
+    },
+    {
+      "source_id": "Q460311",
+      "stratum": "T02:HIGH",
+      "v1_module": "T02",
+      "v1_confidence": "HIGH",
+      "statement": "Numa subestação de uma fábrica de explosivos, há um transformador de corrente (T.C.) destinado ao serviço de proteção e, no seu secundário, há uma carga ligada de 3 + j4 ohms, correspondente a 550 volt.amper (V.A.). Se a potência nominal dessa carga é igual a 1.100 V.A., e o fator de sobrecorrente desse T.C. é igual a 15, o fator de sobrecorrente nominal ou de segurança é",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "7,50"
+        },
+        {
+          "letra": "B",
+          "texto": "12,50"
+        },
+        {
+          "letra": "C",
+          "texto": "17,25"
+        },
+        {
+          "letra": "D",
+          "texto": "22,50"
+        },
+        {
+          "letra": "E",
+          "texto": "30,00"
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Equipamentos Elétricos",
+        "Transformadores"
+      ]
+    },
+    {
+      "source_id": "Q3976912",
+      "stratum": "T02:HIGH",
+      "v1_module": "T02",
+      "v1_confidence": "HIGH",
+      "statement": "Durante a medição da corrente na entrada de uma fábrica,\nutilizou-se um amperímetro alimentado através do secundário de\num transformador de corrente (TC) com valores nominais 100-5 A.\nSe a corrente que circula no amperímetro é 2 A, a corrente na\nentrada da fábrica será:",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "5 A"
+        },
+        {
+          "letra": "B",
+          "texto": "20 A"
+        },
+        {
+          "letra": "C",
+          "texto": "40 A"
+        },
+        {
+          "letra": "D",
+          "texto": "100 A"
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Equipamentos e Componentes"
+      ]
+    },
+    {
+      "source_id": "Q278096",
+      "stratum": "T02:MEDIUM",
+      "v1_module": "T02",
+      "v1_confidence": "MEDIUM",
+      "statement": "Os sistemas de energia com baterias são importantes para o funcionamento de cargas que não podem ser interrompidas na falta da rede elétrica, além de ser, em alguns casos, a única fonte de reserva vital, como, por exemplo, para os relés de proteção do sistema elétrico. As baterias VRLA (Valve Regulated Lead Acid)",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "devem ser instaladas na vertical, apenas."
+        },
+        {
+          "letra": "B",
+          "texto": "exigem muita manutenção."
+        },
+        {
+          "letra": "C",
+          "texto": "facilitam a verificação de seu estado."
+        },
+        {
+          "letra": "D",
+          "texto": "necessitam de reposição de água."
+        },
+        {
+          "letra": "E",
+          "texto": "ocupam pouco espaço físico."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Circuitos Elétricos em Eletricidade",
+        "Eletromagnetismo"
+      ]
+    },
+    {
+      "source_id": "Q3272003",
+      "stratum": "T02:LOW",
+      "v1_module": "T02",
+      "v1_confidence": "LOW",
+      "statement": "O protoboard é um dispositivo muito útil nas atividades do dia-a-dia da eletro-eletrônica. Podemos dizer\nque esse dispositivo é",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "um transformador de potencial."
+        },
+        {
+          "letra": "B",
+          "texto": "um transformador de corrente."
+        },
+        {
+          "letra": "C",
+          "texto": "um capacitor de potência."
+        },
+        {
+          "letra": "D",
+          "texto": "um wattímetro."
+        },
+        {
+          "letra": "E",
+          "texto": "uma placa isolante com uma matriz de contatos que possibilita construir circuitos de teste sem que haja\nnecessidade de solda, possibilitando segurança e agilidade em diferentes atividades."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Eletrônica Analógica em Eletroeletrônica"
+      ]
+    },
+    {
+      "source_id": "Q2157566",
+      "stratum": "R02:HIGH",
+      "v1_module": "R02",
+      "v1_confidence": "HIGH",
+      "statement": "No que se refere às instalações elétricas de média tensão, julgue\no item subsequente.Em uma subestação com capacidade instalada de 400 kVA, a\nproteção geral de média tensão deve ser realizada por chave\nseccionadora e fusível.",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "Certo"
+        },
+        {
+          "letra": "B",
+          "texto": "Errado"
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Instalações Elétricas em Eletricidade"
+      ]
+    },
+    {
+      "source_id": "Q2081100",
+      "stratum": "R02:HIGH",
+      "v1_module": "R02",
+      "v1_confidence": "HIGH",
+      "statement": "Com relação a tecnologias utilizadas na automação industrial e\nem controle de processos, julgue o item que se segue. O padrão ethernet é amplamente usado em automação\nindustrial. Esse padrão não utiliza o esquema CSMA/CD,\nque é normalmente usado em tecnologias token ring. Ao não\nse usar esse padrão consagrado, a colisão de dados no\nbarramento é evitada, aumentando-se, assim, a eficiência na\ncomunicação.",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "Certo"
+        },
+        {
+          "letra": "B",
+          "texto": "Errado"
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Automação e Controle em Eletrônica"
+      ]
+    },
+    {
+      "source_id": "Q2729179",
+      "stratum": "R02:MEDIUM",
+      "v1_module": "R02",
+      "v1_confidence": "MEDIUM",
+      "statement": "Uma carga monofásica, cujo valor eficaz de corrente é de 11 A, está ligada a um barramento cujo valor eficaz da tensão é de 220 V através de um cabo paralelo em que cada condutor tem uma resistência de 20 Ω/km. Para que a queda de tensão entre a fonte e a carga seja menor ou igual a 5%, o comprimento máximo do cabo, em metros, deve ser igual ou menor que:",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "10 m"
+        },
+        {
+          "letra": "B",
+          "texto": "25 m"
+        },
+        {
+          "letra": "C",
+          "texto": "50 m"
+        },
+        {
+          "letra": "D",
+          "texto": "100 m"
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Circuitos Elétricos em Eletrotécnica",
+        "Circuitos de Corrente Alternada em Eletrotécnica",
+        "Instalações Elétricas em Eletrotécnica",
+        "Projetos"
+      ]
+    },
+    {
+      "source_id": "Q654057",
+      "stratum": "R02:LOW",
+      "v1_module": "R02",
+      "v1_confidence": "LOW",
+      "statement": "Quando existir propriedade de terceiros, em\nárea urbana, entre a via pública e a propriedade\nonde esteja localizada a unidade consumidora,\ncaso em que o ponto de entrega da conexão do\nsistema elétrico da distribuidora de energia se\nsituará:",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "No limite da via pública com a propriedade onde\nesteja a unidade consumidora."
+        },
+        {
+          "letra": "B",
+          "texto": "No limite da via pública com o barramento geral."
+        },
+        {
+          "letra": "C",
+          "texto": "No limite da via pública com a primeira\npropriedade."
+        },
+        {
+          "letra": "D",
+          "texto": "No limite da via pública com a primeira estrutura\nna propriedade do consumidor."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Instrumentos e Medições elétricas",
+        "Medições Elétricas"
+      ]
+    },
+    {
+      "source_id": "Q3616346",
+      "stratum": "I01:HIGH",
+      "v1_module": "I01",
+      "v1_confidence": "HIGH",
+      "statement": "Um eletricista predial pretende adotar uma lâmpada com alta\neficiência luminosa, longa vida útil, baixa depreciação do fluxo\nluminoso e operação estável. Ele busca uma opção que emita\nluz branco-dourada, favoreça a visualização natural das cores e\nque possa ser utilizada em luminárias originalmente projetadas\npara lâmpadas a vapor de mercúrio. Considerando essas\ncaracterísticas, a lâmpada mais indicada é do tipo:",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "incandescente"
+        },
+        {
+          "letra": "B",
+          "texto": "fluorescente tubular"
+        },
+        {
+          "letra": "C",
+          "texto": "a vapor de sódio de alta pressão"
+        },
+        {
+          "letra": "D",
+          "texto": "LED de estado sólido"
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Instalações Elétricas em Eletricidade"
+      ]
+    },
+    {
+      "source_id": "Q2447327",
+      "stratum": "I01:HIGH",
+      "v1_module": "I01",
+      "v1_confidence": "HIGH",
+      "statement": "Os circuitos elétricos são dimensionados para alimentar equipamentos elétricos como lâmpadas, tomadas de uso geral, chuveiros\netc. Para isso, devem ser calculados conforme a potência desses equipamentos. Portanto, para alimentar um chuveiro de 4.400 W\nem um circuito bifásico de 220 V, o valor da corrente é:",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "20 A."
+        },
+        {
+          "letra": "B",
+          "texto": "30 A."
+        },
+        {
+          "letra": "C",
+          "texto": "44 A."
+        },
+        {
+          "letra": "D",
+          "texto": "88 A."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Circuitos Elétricos em Eletricidade"
+      ]
+    },
+    {
+      "source_id": "Q3942990",
+      "stratum": "I01:MEDIUM",
+      "v1_module": "I01",
+      "v1_confidence": "MEDIUM",
+      "statement": "O protocolo DMX512 é amplamente utilizado em sistemas\nde iluminação cênica e institucional. Sua finalidade principal\né",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "a medição de grandezas elétricas."
+        },
+        {
+          "letra": "B",
+          "texto": "a conversão de sinais analógicos."
+        },
+        {
+          "letra": "C",
+          "texto": "o controle digital de equipamentos de iluminação."
+        },
+        {
+          "letra": "D",
+          "texto": "a proteção de circuitos elétricos."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Eletrônica",
+        "Automação e Controle em Eletricidade"
+      ]
+    },
+    {
+      "source_id": "Q93722",
+      "stratum": "I01:LOW",
+      "v1_module": "I01",
+      "v1_confidence": "LOW",
+      "statement": "O órgão da ANEEL responsável por organizar as pautas das reuniões da sua diretoria é a Assessoria de Comunicação e Imprensa.",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "Certo"
+        },
+        {
+          "letra": "B",
+          "texto": "Errado"
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Instalações Elétricas em Eletricidade",
+        "Instalações de Média Tensão"
+      ]
+    },
+    {
+      "source_id": "Q263040",
+      "stratum": "P01:HIGH",
+      "v1_module": "P01",
+      "v1_confidence": "HIGH",
+      "statement": "Para dimensionamento dos condutores do circuito -2-, considerando-se que as tomadas são de uso geral, então, o valor, em VA, da potência total mínima a ser atribuída a esse circuito é",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "300"
+        },
+        {
+          "letra": "B",
+          "texto": "600"
+        },
+        {
+          "letra": "C",
+          "texto": "900"
+        },
+        {
+          "letra": "D",
+          "texto": "1500"
+        },
+        {
+          "letra": "E",
+          "texto": "1800"
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Circuitos Elétricos em Eletricidade",
+        "Circuitos de Corrente Contínua e de Corrente Alternada"
+      ]
+    },
+    {
+      "source_id": "Q3125854",
+      "stratum": "P01:HIGH",
+      "v1_module": "P01",
+      "v1_confidence": "HIGH",
+      "statement": "No dimensionamento de cabos\nelétricos, um dos fatores que influencia a\ncapacidade de condução de corrente é:",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "O número de interruptores conectados\nao cabo."
+        },
+        {
+          "letra": "B",
+          "texto": "A cor do revestimento do cabo."
+        },
+        {
+          "letra": "C",
+          "texto": "A quantidade de condutores agrupados\nem um mesmo eletroduto."
+        },
+        {
+          "letra": "D",
+          "texto": "O tipo de disjuntor utilizado no quadro\nde distribuição."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Instalações Elétricas em Eletricidade"
+      ]
+    },
+    {
+      "source_id": "Q231985",
+      "stratum": "P01:MEDIUM",
+      "v1_module": "P01",
+      "v1_confidence": "MEDIUM",
+      "statement": "Para o dimensionamento dos condutores do circuito de uma instalação elétrica deve-se aplicar à corrente de projeto os fatores de correção de",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "temperatura e agrupamento."
+        },
+        {
+          "letra": "B",
+          "texto": "temperatura e resistividade da isolação."
+        },
+        {
+          "letra": "C",
+          "texto": "resistividade da isolação e interferência de RF."
+        },
+        {
+          "letra": "D",
+          "texto": "interferência de RF e agrupamento."
+        },
+        {
+          "letra": "E",
+          "texto": "interferência de campo elétrico e permeabilidade magnética."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Instalações Elétricas em Eletricidade",
+        "Instalações de Média Tensão"
+      ]
+    },
+    {
+      "source_id": "Q3008696",
+      "stratum": "P01:LOW",
+      "v1_module": "P01",
+      "v1_confidence": "LOW",
+      "statement": "Na elaboração de um projeto de uma instalação elétrica, é\nnecessário\nI determinar o método e a tensão de instalação.\nII conhecer as potências dos pontos de utilização e calcular a\ncorrente do projeto.\nIII escolher a bitola do condutor por capacidade de condução de\ncorrente.\nIV verificar se o condutor escolhido satisfaz quanto à queda de\ntensão admissível.\nAssinale a opção correta.",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "Apenas o item I está certo."
+        },
+        {
+          "letra": "B",
+          "texto": "Apenas os itens II e III estão certos."
+        },
+        {
+          "letra": "C",
+          "texto": "Apenas os itens I, II e IV estão certos."
+        },
+        {
+          "letra": "D",
+          "texto": "Apenas os itens I, III e IV estão certos."
+        },
+        {
+          "letra": "E",
+          "texto": "Todos os itens estão certos."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Instalações Elétricas em Eletricidade"
+      ]
+    },
+    {
+      "source_id": "Q823507",
+      "stratum": "P02:HIGH",
+      "v1_module": "P02",
+      "v1_confidence": "HIGH",
+      "statement": "Um circuito trifásico sem neutro, com cabos unipolares de 4 mm2 e isolação de EPR será instalado conforme a maneira D.\nA corrente nominal máxima para o disjuntor desse circuito será de:",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "30 A"
+        },
+        {
+          "letra": "B",
+          "texto": "40 A"
+        },
+        {
+          "letra": "C",
+          "texto": "50 A"
+        },
+        {
+          "letra": "D",
+          "texto": "35 A"
+        },
+        {
+          "letra": "E",
+          "texto": "25 A"
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Circuitos Elétricos em Eletricidade",
+        "Circuitos de Corrente Contínua e de Corrente Alternada"
+      ]
+    },
+    {
+      "source_id": "Q3200229",
+      "stratum": "P02:HIGH",
+      "v1_module": "P02",
+      "v1_confidence": "HIGH",
+      "statement": "Em uma residência, um circuito elétrico alimenta uma\nlâmpada de 100W, 220V e uma tomada, onde é\nconectado um ventilador de 80W, 220V. O circuito é\nprotegido por um disjuntor de 10A e está ligado a uma\nrede de tensão nominal de 220V. Considerando que\nambos os aparelhos estão funcionando ao mesmo\ntempo, qual é a corrente total no circuito?",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "1,64A"
+        },
+        {
+          "letra": "B",
+          "texto": "0,82A"
+        },
+        {
+          "letra": "C",
+          "texto": "1,27A"
+        },
+        {
+          "letra": "D",
+          "texto": "1,41A"
+        },
+        {
+          "letra": "E",
+          "texto": "1,05A"
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Circuitos Elétricos em Eletricidade",
+        "Circuitos de Corrente Contínua e de Corrente Alternada"
+      ]
+    },
+    {
+      "source_id": "Q3075673",
+      "stratum": "P02:MEDIUM",
+      "v1_module": "P02",
+      "v1_confidence": "MEDIUM",
+      "statement": "Assinale de forma correta a principal função de um\ndisjuntor em um quadro de distribuição.",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "Medir a tensão elétrica."
+        },
+        {
+          "letra": "B",
+          "texto": "Proteger o circuito contra sobrecargas e curtos\ncircuitos."
+        },
+        {
+          "letra": "C",
+          "texto": "Aumentar a corrente elétrica."
+        },
+        {
+          "letra": "D",
+          "texto": "Reduzir a voltagem."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Circuitos Elétricos em Eletricidade"
+      ]
+    },
+    {
+      "source_id": "Q3509144",
+      "stratum": "P02:LOW",
+      "v1_module": "P02",
+      "v1_confidence": "LOW",
+      "statement": "0 dispositivo que verifica a soma vetorial das correntes\nque entram e saem em um circuito, protegendo pessoas\ne animais domésticos contra correntes de fuga, é\ndenominado de:",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "Disjuntor termomagnético."
+        },
+        {
+          "letra": "B",
+          "texto": "Contator."
+        },
+        {
+          "letra": "C",
+          "texto": "Diferencial Residual."
+        },
+        {
+          "letra": "D",
+          "texto": "Transformador."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Instalações Elétricas em Eletricidade"
+      ]
+    },
+    {
+      "source_id": "Q3607231",
+      "stratum": "I02:HIGH",
+      "v1_module": "I02",
+      "v1_confidence": "HIGH",
+      "statement": "O tipo de interruptor utilizado em instalações elétricas\nque tem a função de ligar e desligar lâmpadas com alimentação bifásica é o interruptor",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "simples."
+        },
+        {
+          "letra": "B",
+          "texto": "duplo."
+        },
+        {
+          "letra": "C",
+          "texto": "bipolar."
+        },
+        {
+          "letra": "D",
+          "texto": "unipolar."
+        },
+        {
+          "letra": "E",
+          "texto": "faseado."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Instalações Elétricas em Eletricidade",
+        "Instrumentos e Medições elétricas"
+      ]
+    },
+    {
+      "source_id": "Q3566335",
+      "stratum": "I02:HIGH",
+      "v1_module": "I02",
+      "v1_confidence": "HIGH",
+      "statement": "Em um circuito onde existe um interruptor paralelo é correto dizer que:",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "só pode ser usado para ligar paralelamente com a tomada."
+        },
+        {
+          "letra": "B",
+          "texto": "não pode ser ligado no mesmo modulo do interruptor simples."
+        },
+        {
+          "letra": "C",
+          "texto": "operando com outro da mesma espécie acende ou apaga de pontos diferentes."
+        },
+        {
+          "letra": "D",
+          "texto": "só pode ser usado sob tensão 110v."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Instalações Elétricas em Eletricidade",
+        "Luminotécnica em Eletrônica"
+      ]
+    },
+    {
+      "source_id": "Q3480988",
+      "stratum": "I02:MEDIUM",
+      "v1_module": "I02",
+      "v1_confidence": "MEDIUM",
+      "statement": "Assinale a alternativa que corresponde ao símbolo para identificação de interruptor simples em um projeto elétrico.",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "S."
+        },
+        {
+          "letra": "B",
+          "texto": "Q."
+        },
+        {
+          "letra": "C",
+          "texto": "W."
+        },
+        {
+          "letra": "D",
+          "texto": "E."
+        },
+        {
+          "letra": "E",
+          "texto": "I."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Instalações Elétricas em Eletrotécnica"
+      ]
+    },
+    {
+      "source_id": "Q1066325",
+      "stratum": "I02:LOW",
+      "v1_module": "I02",
+      "v1_confidence": "LOW",
+      "statement": "Leia as afirmativas a seguir:\n\nI. Os interruptores paralelos não são usados quando se deseja\ncomandar uma lâmpada ou grupo de lâmpadas por pontos\ndiferentes. Podem ser usados apenas nas escadarias e nos\ncorredores.\n\nII. Todo projeto elétrico deve prever condições para a adoção de\naterramento temporário.\nMarque a alternativa CORRETA:",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "As duas afirmativas são verdadeiras."
+        },
+        {
+          "letra": "B",
+          "texto": "A afirmativa I é verdadeira, e a II é falsa."
+        },
+        {
+          "letra": "C",
+          "texto": "A afirmativa II é verdadeira, e a I é falsa."
+        },
+        {
+          "letra": "D",
+          "texto": "As duas afirmativas são falsas."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Equipamentos Elétricos",
+        "Componentes Eletrônicos em Eletricidade"
+      ]
+    },
+    {
+      "source_id": "Q2125847",
+      "stratum": "P03:HIGH",
+      "v1_module": "P03",
+      "v1_confidence": "HIGH",
+      "statement": "Os dispositivos de proteção à corrente diferencial-residual, mais conhecidos como dispositivos DR, são largamente utilizados como\ndispositivos de proteção em instalações elétricas prediais. Sobre os dispositivos DR, marque a alternativa CORRETA:",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "Os dispositivos DR devem ser obrigatoriamente instalados nos circuitos individuais, nunca devendo ser empregados para proteção\ngeral da instalação elétrica."
+        },
+        {
+          "letra": "B",
+          "texto": "Os dispositivos DR substituem os disjuntores termomagnéticos na proteção contra sobrecargas e curto-circuito."
+        },
+        {
+          "letra": "C",
+          "texto": "Os dispositivos DR podem ser utilizados para proteção contra choques elétricos."
+        },
+        {
+          "letra": "D",
+          "texto": "Os dispositivos DR devem ser utilizados para proteção contra surtos de tensão."
+        },
+        {
+          "letra": "E",
+          "texto": "Para a proteção de circuitos de alimentação de chuveiros elétricos de resistência nua (não blindada), devem ser utilizados\ndispositivos DR de alta sensibilidade."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Instalações Elétricas em Eletricidade"
+      ]
+    },
+    {
+      "source_id": "Q4104272",
+      "stratum": "P03:HIGH",
+      "v1_module": "P03",
+      "v1_confidence": "HIGH",
+      "statement": "Conforme a Norma Brasileira n. 5410 (NBR 5410) no item\nque trata do uso de dispositivo diferencial-residual de alta\nsensibilidade, o dispositivo é reconhecido como proteção\nadicional contra choques elétricos. Para essa situação, a\ncorrente nominal do dispositivo deve ser igual ou inferior a",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "30 mA."
+        },
+        {
+          "letra": "B",
+          "texto": "60 mA."
+        },
+        {
+          "letra": "C",
+          "texto": "100 mA."
+        },
+        {
+          "letra": "D",
+          "texto": "300 mA."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Legislação e Normas Regulamentadoras (NR)",
+        "Normas Elétricas"
+      ]
+    },
+    {
+      "source_id": "Q2226740",
+      "stratum": "P03:MEDIUM",
+      "v1_module": "P03",
+      "v1_confidence": "MEDIUM",
+      "statement": "É INCORRETO afirmar que o dispositivo de segurança contra contatos ou fugas\nelétricas chamado de Diferencial Residual (DR) para proteção contra contatos diretos é utilizado:",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "Em ambientes com alto risco de contato de pessoas com o sistema."
+        },
+        {
+          "letra": "B",
+          "texto": "Para processos de testes e montagem de componentes em que possam ocorrer contatos diretos."
+        },
+        {
+          "letra": "C",
+          "texto": "Em cômodos como banheiro ou lavanderia."
+        },
+        {
+          "letra": "D",
+          "texto": "Em sistemas que estejam em dependência com áreas molhadas."
+        },
+        {
+          "letra": "E",
+          "texto": "Como chave de partida de sistema elétrico."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Automação e Controle em Eletrônica"
+      ]
+    },
+    {
+      "source_id": "Q533336",
+      "stratum": "P03:LOW",
+      "v1_module": "P03",
+      "v1_confidence": "LOW",
+      "statement": "Os dispositivos de proteção do tipo diferencial-residual não podem ser usados com todos os tipos de esquema de aterramento que podem ser utilizados em uma instalação elétrica. Das alternativas abaixo, qual esquema de aterramento impossibilita o funcionamento adequado dos dispositivos de proteção do tipo diferencial-residual?",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "IT."
+        },
+        {
+          "letra": "B",
+          "texto": "TN-C-S."
+        },
+        {
+          "letra": "C",
+          "texto": "TN-S."
+        },
+        {
+          "letra": "D",
+          "texto": "TN-C."
+        },
+        {
+          "letra": "E",
+          "texto": "TT."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Equipamentos e Componentes"
+      ]
+    },
+    {
+      "source_id": "Q3675317",
+      "stratum": "M02:HIGH",
+      "v1_module": "M02",
+      "v1_confidence": "HIGH",
+      "statement": "Durante a manutenção elétrica de um centro cultural\npúblico, foi necessário verificar se os condutores e o\nsistema de aterramento estavam devidamente\ninterligados. O instrumento utilizado para esse tipo de\nanálise, que mede continuidade elétrica, tensões e\nresistência em diversos pontos da instalação, é o\n______.\nQual alternativa abaixo preenche corretamente a lacuna?",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "Termovisor"
+        },
+        {
+          "letra": "B",
+          "texto": "Multímetro"
+        },
+        {
+          "letra": "C",
+          "texto": "Megômetro"
+        },
+        {
+          "letra": "D",
+          "texto": "Osciloscópio"
+        },
+        {
+          "letra": "E",
+          "texto": "Alicate amperímetro"
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Instrumentos e Medições elétricas"
+      ]
+    },
+    {
+      "source_id": "Q4129342",
+      "stratum": "M02:HIGH",
+      "v1_module": "M02",
+      "v1_confidence": "HIGH",
+      "statement": "Quando um fusível apresenta descontinuidade, o circuito elétrico é afetado diretamente.\nAnalisando o papel do fusível, assinale o que ocorre no circuito em tal situação:",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "O veículo aumenta a potência."
+        },
+        {
+          "letra": "B",
+          "texto": "O circuito deixa de funcionar."
+        },
+        {
+          "letra": "C",
+          "texto": "A bateria carrega mais rápido."
+        },
+        {
+          "letra": "D",
+          "texto": "O motor reduz a temperatura."
+        },
+        {
+          "letra": "E",
+          "texto": "O alternador para de girar."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Circuitos Elétricos em Eletricidade",
+        "Circuitos de Corrente Contínua e de Corrente Alternada"
+      ]
+    },
+    {
+      "source_id": "Q4083345",
+      "stratum": "M02:MEDIUM",
+      "v1_module": "M02",
+      "v1_confidence": "MEDIUM",
+      "statement": "Acerca de instrumentos de medição, julgue o item subsequente.O megômetro é utilizado para medição de isolação elétrica e\nopera com tensões alternadas de excitação da ordem de\nalgumas dezenas de volts.",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "Certo"
+        },
+        {
+          "letra": "B",
+          "texto": "Errado"
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Instrumentos e Medições elétricas",
+        "Instrumentos de medição",
+        "Medições Elétricas"
+      ]
+    },
+    {
+      "source_id": "Q4160619",
+      "stratum": "S03:MEDIUM",
+      "v1_module": "S03",
+      "v1_confidence": "MEDIUM",
+      "statement": "Assinale em qual das condições as instalações\nelétricas devem manter o prontuário das instalações\nelétricas.",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "Em unidades com demanda superior a 45 kW."
+        },
+        {
+          "letra": "B",
+          "texto": "Em unidades com carga superior a 75 kW."
+        },
+        {
+          "letra": "C",
+          "texto": "Em unidades com carga superior a 100 kW."
+        },
+        {
+          "letra": "D",
+          "texto": "Em unidades com demanda superior a 75 kW."
+        },
+        {
+          "letra": "E",
+          "texto": "Em unidades com carga superior a 45 kW."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Legislação e Normas Regulamentadoras (NR)",
+        "Normas Elétricas",
+        "Instalações Elétricas em Eletrotécnica"
+      ]
+    },
+    {
+      "source_id": "Q3992776",
+      "stratum": "V01:HIGH",
+      "v1_module": "V01",
+      "v1_confidence": "HIGH",
+      "statement": "Durante a instalação de um sistema solar, um técnico precisa calcular a energia gerada por um painel\nsolar em um dia. Ele sabe que o painel tem uma potência de 250 W e opera por 8 horas por dia. Qual\né a energia gerada em kWh?",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "1 kWh."
+        },
+        {
+          "letra": "B",
+          "texto": "2 kWh"
+        },
+        {
+          "letra": "C",
+          "texto": "1.5 kWh"
+        },
+        {
+          "letra": "D",
+          "texto": "2.5 kWh"
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Instrumentos e Medições elétricas",
+        "Medições Elétricas"
+      ]
+    },
+    {
+      "source_id": "Q3887498",
+      "stratum": "V01:HIGH",
+      "v1_module": "V01",
+      "v1_confidence": "HIGH",
+      "statement": "Um sistema fotovoltaico residencial possui 8 módulos de 500 Wp\nconectados em série. A irradiância local no momento\nconsiderado é de 1000 W/m² e a eficiência global do sistema é de\n60%.\nA potência entregue pelo arranjo fotovoltaico ao inversor nesse\ninstante é de",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "4.000 Wp."
+        },
+        {
+          "letra": "B",
+          "texto": "3.500 Wp."
+        },
+        {
+          "letra": "C",
+          "texto": "2.800 Wp."
+        },
+        {
+          "letra": "D",
+          "texto": "2.400 Wp."
+        },
+        {
+          "letra": "E",
+          "texto": "2.000 Wp"
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Instalações Elétricas em Eletrotécnica",
+        "Geração de Energia em Eletrotécnica"
+      ]
+    },
+    {
+      "source_id": "Q3458243",
+      "stratum": "V01:MEDIUM",
+      "v1_module": "V01",
+      "v1_confidence": "MEDIUM",
+      "statement": "Assinale a alternativa correta sobre a curva IV\n(corrente-tensão) de painéis fotovoltaicos.",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "A tensão de circuito aberto corresponde à\nmínima tensão que o painel pode gerar."
+        },
+        {
+          "letra": "B",
+          "texto": "A curva IV dos painéis fotovoltaicos possui o\nformato de uma parábola com a concavidade\nvoltada para baixo."
+        },
+        {
+          "letra": "C",
+          "texto": "O ponto de máxima potência é obtido na região\ndo chamado “joelho” da curva IV."
+        },
+        {
+          "letra": "D",
+          "texto": "O ponto de máxima potência é obtido no\ncruzamento da corrente de curto-circuito e a\ntensão de circuito aberto."
+        },
+        {
+          "letra": "E",
+          "texto": "A variação da irradiância nos painéis não altera a\ncurva IV."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Instalações Elétricas em Eletrotécnica",
+        "Geração de Energia em Eletrotécnica"
+      ]
+    },
+    {
+      "source_id": "Q1113505",
+      "stratum": "V01:LOW",
+      "v1_module": "V01",
+      "v1_confidence": "LOW",
+      "statement": "As fontes alternativas de energia oferecem vantagens\nquando comparadas com as tradicionais, pois\napresentam um impacto reduzido ao meio ambiente,\nalém de diversificar a matriz energética. Nesse\ncontexto, assinale a alternativa correta que contenha\napenas fontes de energia renováveis.",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "Energia solar e Energia eólica"
+        },
+        {
+          "letra": "B",
+          "texto": "Energia oceânica e Energia do Urânio"
+        },
+        {
+          "letra": "C",
+          "texto": "Energia do petróleo e Energia da Biomassa"
+        },
+        {
+          "letra": "D",
+          "texto": "Energia das marés e Energia do gás natural"
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Instalações Elétricas em Eletrotécnica",
+        "Geração de Energia em Eletrotécnica"
+      ]
+    },
+    {
+      "source_id": "Q4218684",
+      "stratum": "D01:HIGH",
+      "v1_module": "D01",
+      "v1_confidence": "HIGH",
+      "statement": "Manutenção preventiva em instalações elétricas reduz\nsignificativamente a probabilidade de falhas. A termografia\ninfravermelha é técnica não destrutiva amplamente\nutilizada para detecção precoce de problemas. A principal vantagem da termografia em manutenção\nelétrica é:",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "Detectar defeitos sem desenergizar equipamentos"
+        },
+        {
+          "letra": "B",
+          "texto": "Medir resistência de isolamento precisamente"
+        },
+        {
+          "letra": "C",
+          "texto": "Calibrar instrumentos de medição"
+        },
+        {
+          "letra": "D",
+          "texto": "Testar funcionamento de proteções"
+        },
+        {
+          "letra": "E",
+          "texto": "Analisar qualidade da energia elétrica"
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Manutenção Elétrica na Eletrotécnica"
+      ]
+    },
+    {
+      "source_id": "Q803824",
+      "stratum": "D01:HIGH",
+      "v1_module": "D01",
+      "v1_confidence": "HIGH",
+      "statement": "A manutenção que permite garantir uma\nqualidade de serviço desejada, com base na aplicação\nsistemática de técnicas de análise, utilizando-se de\nmeios de supervisão centralizados ou de amostragem,\npara reduzir ao mínimo a manutenção preventiva e\ndiminuir a manutenção corretiva é a:",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "programada."
+        },
+        {
+          "letra": "B",
+          "texto": "automática."
+        },
+        {
+          "letra": "C",
+          "texto": "não programada."
+        },
+        {
+          "letra": "D",
+          "texto": "remota."
+        },
+        {
+          "letra": "E",
+          "texto": "controlada ou preditiva."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Manutenção Elétrica na Eletrotécnica"
+      ]
+    },
+    {
+      "source_id": "Q3798181",
+      "stratum": "D01:MEDIUM",
+      "v1_module": "D01",
+      "v1_confidence": "MEDIUM",
+      "statement": "Durante uma manutenção corretiva em painéis de\nautomação, um estagiário sugere procedimentos para\nmedir resistências ôhmicas e tensões em uma malha 24\nVcc. Assinale a opção INCORRETA:",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "As Leis de Kirchhoff de corrente são úteis para\nsomar correntes em um nó, mesmo com várias\nderivações."
+        },
+        {
+          "letra": "B",
+          "texto": "Para medir resistência, desenergize e isole o\ncomponente do resto do circuito."
+        },
+        {
+          "letra": "C",
+          "texto": "Para medir corrente com multímetro, conecte-o em\nparalelo com a carga para \"não interromper o\ncircuito\"."
+        },
+        {
+          "letra": "D",
+          "texto": "Leis de Kirchhoff de tensão ajudam a conferir quedas\nde tensão ao longo de um laço."
+        },
+        {
+          "letra": "E",
+          "texto": "Ao medir tensão em 24 Vcc, conecte as pontas de\nprova em paralelo ao elemento (ou ponto) desejado,\nmantendo o multímetro na escala correta."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Circuitos Elétricos em Eletrotécnica",
+        "Manutenção Elétrica na Eletrotécnica"
+      ]
+    },
+    {
+      "source_id": "Q742064",
+      "stratum": "D01:LOW",
+      "v1_module": "D01",
+      "v1_confidence": "LOW",
+      "statement": "Um grupo de serviços de inspeções sistemáticas, reparos,\nconservação e eliminação de defeitos, para eliminar falhas,\nchama-se manutenção",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "preventiva."
+        },
+        {
+          "letra": "B",
+          "texto": "preditiva."
+        },
+        {
+          "letra": "C",
+          "texto": "de rotina."
+        },
+        {
+          "letra": "D",
+          "texto": "corretiva."
+        },
+        {
+          "letra": "E",
+          "texto": "de problemas."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Manutenção Elétrica na Eletrotécnica"
+      ]
+    },
+    {
+      "source_id": "Q4083376",
+      "stratum": "D02:MEDIUM",
+      "v1_module": "D02",
+      "v1_confidence": "MEDIUM",
+      "statement": "Julgue o item a seguir, referente a conhecimentos necessários\npara a realização de manutenção elétrica, bem como ao disposto\nna NBR 5410.A termografia é uma técnica de manutenção elétrica\ncorretiva utilizada após a ocorrência de falhas.",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "Certo"
+        },
+        {
+          "letra": "B",
+          "texto": "Errado"
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Manutenção Elétrica na Eletrotécnica"
+      ]
+    },
+    {
+      "source_id": "Q1113499",
+      "stratum": "D02:LOW",
+      "v1_module": "D02",
+      "v1_confidence": "LOW",
+      "statement": "As grandezas de um sistema elétrico podem ser\nmensuradas através de instrumentos específicos. O\n_________ é utilizado para medir tensões e deve ser\ncolocado em _________ com o elemento, enquanto\nque o _________ serve para medir corrente e deve ser\ncolocado em _________ com o componente. Assinale a\nalternativa que completa de forma correta e respectiva\nas lacunas.",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "Amperímetro / série / voltímetro / paralelo"
+        },
+        {
+          "letra": "B",
+          "texto": "Voltímetro / série / amperímetro / paralelo"
+        },
+        {
+          "letra": "C",
+          "texto": "Voltímetro / paralelo / amperímetro / série"
+        },
+        {
+          "letra": "D",
+          "texto": "Amperímetro / paralelo / voltímetro / série"
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Análise de Circuitos",
+        "Medições elétricas"
+      ]
+    },
+    {
+      "source_id": "Q811507",
+      "stratum": "E02:HIGH",
+      "v1_module": "E02",
+      "v1_confidence": "HIGH",
+      "statement": "A tensão aplicada aos terminais do estator de um motor de indução\ntrifásico, durante o ensaio de rotor bloqueado, deve ser",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "igual à nominal."
+        },
+        {
+          "letra": "B",
+          "texto": "20% maior que a nominal."
+        },
+        {
+          "letra": "C",
+          "texto": "50% maior que a nominal."
+        },
+        {
+          "letra": "D",
+          "texto": "menor que a nominal."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Equipamentos e Componentes",
+        "Motores em Equipamentos e Componentes na Eletrotécnica"
+      ]
+    },
+    {
+      "source_id": "Q413070",
+      "stratum": "E02:HIGH",
+      "v1_module": "E02",
+      "v1_confidence": "HIGH",
+      "statement": "Um motor trifásico possui seis terminais de conexão externa para configurar o modo de operação. Na configuração estrela, a tensão de linha especificada é 380 V. Nesse caso, a tensão em cada enrolamento vale, em V,",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "660."
+        },
+        {
+          "letra": "B",
+          "texto": "220."
+        },
+        {
+          "letra": "C",
+          "texto": "190."
+        },
+        {
+          "letra": "D",
+          "texto": "440."
+        },
+        {
+          "letra": "E",
+          "texto": "127."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Equipamentos e Componentes",
+        "Motores em Equipamentos e Componentes na Eletrotécnica"
+      ]
+    },
+    {
+      "source_id": "Q514337",
+      "stratum": "E02:MEDIUM",
+      "v1_module": "E02",
+      "v1_confidence": "MEDIUM",
+      "statement": "Um motor de indução trifásico, 220 V, 60 Hz, possui a proteção de uma chave magnética. Dados do motor:· potência mecânica: 3 CV · corrente nominal: 9 A. · elevação de temperatura admissível : 40 ºC O relé térmico da chave magnética desse motor deve ser ajustado para um valor, em A, de:",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "11,25."
+        },
+        {
+          "letra": "B",
+          "texto": "10,75."
+        },
+        {
+          "letra": "C",
+          "texto": "10,35."
+        },
+        {
+          "letra": "D",
+          "texto": "9,95."
+        },
+        {
+          "letra": "E",
+          "texto": "9,45."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Equipamentos e Componentes",
+        "Motores em Equipamentos e Componentes na Eletrotécnica"
+      ]
+    },
+    {
+      "source_id": "Q811511",
+      "stratum": "E02:LOW",
+      "v1_module": "E02",
+      "v1_confidence": "LOW",
+      "statement": "Nos procedimentos fixados pela Aneel, quanto aos critérios\ntécnicos e operacionais mínimos para o desenvolvimento\nde projetos de acesso ao sistema de distribuição, é estabelecido\no seguinte:",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "o ponto de conexão caracteriza-se como o limite de\nresponsabilidades entre a acessada e o acessante."
+        },
+        {
+          "letra": "B",
+          "texto": "os níveis de tensão 440/220V correspondem a um\ndos padrões nominais do sistema trifásico."
+        },
+        {
+          "letra": "C",
+          "texto": "a conexão de consumidores com tensões diferentes\ndas tensões nominais padronizadas é proibida."
+        },
+        {
+          "letra": "D",
+          "texto": "a conexão de centrais geradoras de energia ao sistema\nde distribuição em baixa tensão é proibida."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Legislação e Normas Regulamentadoras (NR)"
+      ]
+    },
+    {
+      "source_id": "Q747658",
+      "stratum": "E03:HIGH",
+      "v1_module": "E03",
+      "v1_confidence": "HIGH",
+      "statement": "Para a ligação de motores, é possível realizar a partida direta. Esta ligação denomina-se partida",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "trifásica e com rotor em gaiola e admite potência máxima de 7,5 HP."
+        },
+        {
+          "letra": "B",
+          "texto": "com a tensão de abastecimento e admite potência máxima de 5 HP."
+        },
+        {
+          "letra": "C",
+          "texto": "por inversão e admite potência máxima de 10 HP."
+        },
+        {
+          "letra": "D",
+          "texto": "automática e admite potência máxima de 3,5 HP."
+        },
+        {
+          "letra": "E",
+          "texto": "autotransformadora e admite potência máxima de 6 HP."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Equipamentos Elétricos",
+        "Motores"
+      ]
+    },
+    {
+      "source_id": "Q1629121",
+      "stratum": "E03:HIGH",
+      "v1_module": "E03",
+      "v1_confidence": "HIGH",
+      "statement": "No circuito de comando, mostrado na figura, o intertravamento",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "permite energizar as bobinas das contatoras K1 e K2\nao mesmo tempo."
+        },
+        {
+          "letra": "B",
+          "texto": "garante que a contatora K2 somente poderá ser acionada depois que K1 for acionada."
+        },
+        {
+          "letra": "C",
+          "texto": "garante o desligamento de K1 sempre que K2 for acionada."
+        },
+        {
+          "letra": "D",
+          "texto": "permite o acionamento da contatora K1 somente depois do acionamento de K2."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Equipamentos e Componentes",
+        "Motores em Equipamentos e Componentes na Eletrotécnica"
+      ]
+    },
+    {
+      "source_id": "Q2955313",
+      "stratum": "E03:MEDIUM",
+      "v1_module": "E03",
+      "v1_confidence": "MEDIUM",
+      "statement": "Protege o motor elétrico contra sobrecarga e\nnormalmente é utilizado acoplado ao elemento de\ncomando do circuito denominado contator.",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "Disjuntor magnético."
+        },
+        {
+          "letra": "B",
+          "texto": "Relé bimetálico."
+        },
+        {
+          "letra": "C",
+          "texto": "Fusível diazed."
+        },
+        {
+          "letra": "D",
+          "texto": "Termostato."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Equipamentos Elétricos",
+        "Motores"
+      ]
+    },
+    {
+      "source_id": "Q3422149",
+      "stratum": "E03:LOW",
+      "v1_module": "E03",
+      "v1_confidence": "LOW",
+      "statement": "Nos sistemas de comandos elétricos, qual o\nprincipal elemento de suma importância, que\nexerce papel crítico na proteção e controle de\ncircuitos, atuando com chaves eletromecânicas\nou eletrônicas que, em virtude de condições\nparticulares do circuito (superaquecimento,\nfalhas de tensão e etc.), acionam a abertura ou o\nfechamento de contatos?",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "Relé."
+        },
+        {
+          "letra": "B",
+          "texto": "Bobina."
+        },
+        {
+          "letra": "C",
+          "texto": "Eletroduto."
+        },
+        {
+          "letra": "D",
+          "texto": "Dimmer."
+        },
+        {
+          "letra": "E",
+          "texto": "Botoeira"
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Circuitos Elétricos em Eletricidade"
+      ]
+    },
+    {
+      "source_id": "Q1762486",
+      "stratum": "A02:HIGH",
+      "v1_module": "A02",
+      "v1_confidence": "HIGH",
+      "statement": "Considere a existência de três registradores em um CLP, denominados rA, rB e rC, cujos conteúdos iniciais sejam respectivamente C3H, 24H e 65H. Após a realização da operação lógica (rB ← rA XOR rC), o conteúdo CORRETO de rB será:",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "24H."
+        },
+        {
+          "letra": "B",
+          "texto": "28H."
+        },
+        {
+          "letra": "C",
+          "texto": "A6H."
+        },
+        {
+          "letra": "D",
+          "texto": "E7H."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Eletrônica Digital",
+        "Flip-Flops"
+      ]
+    },
+    {
+      "source_id": "Q596755",
+      "stratum": "A02:HIGH",
+      "v1_module": "A02",
+      "v1_confidence": "HIGH",
+      "statement": "Com relação a processos industriais e sistemas de automação, julgue o item que se segue.Os módulos de entrada e de saída de um controlador lógico\nnormalmente não permitem isolação elétrica entre o processo\ne o próprio controlador.",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "Certo"
+        },
+        {
+          "letra": "B",
+          "texto": "Errado"
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Eletrônica",
+        "Automação e Controle em Eletricidade"
+      ]
+    },
+    {
+      "source_id": "Q3021242",
+      "stratum": "A02:MEDIUM",
+      "v1_module": "A02",
+      "v1_confidence": "MEDIUM",
+      "statement": "Na linguagem de “texto estruturado” (ST – Structured Text), o símbolo de “=” não\nrealiza uma atribuição e é reservado apenas para uma comparação lógica de igualdade. O sinal\nutilizado para representar uma atribuição de valores é:",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "=="
+        },
+        {
+          "letra": "B",
+          "texto": "=:"
+        },
+        {
+          "letra": "C",
+          "texto": "=>"
+        },
+        {
+          "letra": "D",
+          "texto": ":="
+        },
+        {
+          "letra": "E",
+          "texto": "<="
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Automação e Controle em Eletrônica",
+        "CLP (Controlador Lógico Programável)"
+      ]
+    },
+    {
+      "source_id": "Q182432",
+      "stratum": "A02:LOW",
+      "v1_module": "A02",
+      "v1_confidence": "LOW",
+      "statement": "Num sistema supervisório em modo de execução, é proporcionado ao usuário um ambiente gráfico que permite",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "vincular as tags de variáveis às propriedades dos objetos gráficos e aos efeitos de animação nas telas."
+        },
+        {
+          "letra": "B",
+          "texto": "modificar, de forma on-line, os parâmetros dos PID das malhas de controle de processo."
+        },
+        {
+          "letra": "C",
+          "texto": "criar, copiar e modificar telas e tags, conforme as especificações do projeto."
+        },
+        {
+          "letra": "D",
+          "texto": "programar as sequências em que os dados são armazenados, para efeito de histórico, ou atualizados para as demais telas do sistema."
+        },
+        {
+          "letra": "E",
+          "texto": "alterar as definições das tags de variáveis na base de dados do sistema."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Automação e Controle em Eletrônica",
+        "CLP (Controlador Lógico Programável)"
+      ]
+    },
+    {
+      "source_id": "Q3386300",
+      "stratum": "E06:HIGH",
+      "v1_module": "E06",
+      "v1_confidence": "HIGH",
+      "statement": "Em um sistema de acionamento elétrico, um motor de\nindução trifásico é controlado por um inversor de\nfrequência. O inversor está configurado para operar em\nmodo de controle vetorial. Se a carga requer um\naumento de torque, qual das seguintes ações o inversor\ndeve tomar?",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "Manter a amplitude e a frequência da tensão de\nsaída inalteradas."
+        },
+        {
+          "letra": "B",
+          "texto": "Diminuir a frequência da tensão de saída."
+        },
+        {
+          "letra": "C",
+          "texto": "Aumentar a frequência da tensão de saída."
+        },
+        {
+          "letra": "D",
+          "texto": "Aumentar a amplitude da tensão de saída."
+        },
+        {
+          "letra": "E",
+          "texto": "Diminuir a amplitude da tensão de saída."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Equipamentos e Componentes"
+      ]
+    },
+    {
+      "source_id": "Q3232090",
+      "stratum": "E06:HIGH",
+      "v1_module": "E06",
+      "v1_confidence": "HIGH",
+      "statement": "Qual a principal função de um inversor de\nfrequência em sistemas de acionamento de motores?",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "Aumentar a eficiência energética."
+        },
+        {
+          "letra": "B",
+          "texto": "Regular a velocidade de rotação do motor."
+        },
+        {
+          "letra": "C",
+          "texto": "Melhorar o fator de potência da instalação."
+        },
+        {
+          "letra": "D",
+          "texto": "Reduzir o consumo de corrente."
+        },
+        {
+          "letra": "E",
+          "texto": "Diminuir o ruído do motor durante a operação."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Eletrônica",
+        "Automação e Controle em Eletricidade",
+        "Equipamentos Elétricos",
+        "Motores"
+      ]
+    },
+    {
+      "source_id": "Q490253",
+      "stratum": "E06:MEDIUM",
+      "v1_module": "E06",
+      "v1_confidence": "MEDIUM",
+      "statement": "Odispositivosoft-starteréútilnocomandode:",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "gerador."
+        },
+        {
+          "letra": "B",
+          "texto": "motor."
+        },
+        {
+          "letra": "C",
+          "texto": "capacitor."
+        },
+        {
+          "letra": "D",
+          "texto": "lâmpada."
+        },
+        {
+          "letra": "E",
+          "texto": "alarme."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Equipamentos Elétricos",
+        "Motores"
+      ]
+    },
+    {
+      "source_id": "Q1888091",
+      "stratum": "E06:LOW",
+      "v1_module": "E06",
+      "v1_confidence": "LOW",
+      "statement": "Dentre as alternativas referentes aos inversores de frequência, assinale a CORRETA.",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "Para o tipo de controle escalar ou linear o fluxo se mantém constante para todas as faixas de velocidade."
+        },
+        {
+          "letra": "B",
+          "texto": "São dispositivos utilizados para variar a velocidade de motores de indução trifásicos, mantendo o controle\nda relação tensão/frequência (V/f) constante."
+        },
+        {
+          "letra": "C",
+          "texto": "O controle vetorial não impede o chamado enfraquecimento do fluxo do motor, que ocorre para operação\nem baixas frequências."
+        },
+        {
+          "letra": "D",
+          "texto": "Independentemente do tipo de controle, escalar ou vetorial, não é possível fazer inversão de velocidade,\ndevido à elevada corrente solicitada pelo motor, nessa operação."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Equipamentos Elétricos"
+      ]
+    },
+    {
+      "source_id": "Q2867844",
+      "stratum": "E04:HIGH",
+      "v1_module": "E04",
+      "v1_confidence": "HIGH",
+      "statement": "Em uma avaliação, foi determinado que o acionamento de\num motor de indução trifásico deveria ser feito por meio de\nchave estrela-triângulo. Assim, durante a partida em estrela,\no conjugado do motor foi reduzido para",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "64% do seu valor de partida direta."
+        },
+        {
+          "letra": "B",
+          "texto": "42% do seu valor de partida direta."
+        },
+        {
+          "letra": "C",
+          "texto": "33% do seu valor de partida direta."
+        },
+        {
+          "letra": "D",
+          "texto": "25% do seu valor de partida direta."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Automação e Controle em Eletrônica",
+        "Eletrônica de Potência"
+      ]
+    },
+    {
+      "source_id": "Q3231028",
+      "stratum": "E04:HIGH",
+      "v1_module": "E04",
+      "v1_confidence": "HIGH",
+      "statement": "O esquema em estrela-triângulo é comumente utilizado para o acionamento de motores\nelétricos trifásicos. O mecanismo de funcionamento desse tipo de partida consiste em:",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "Dividir a tensão em dois níveis, de modo que a corrente de partida dos motores reduza\nconsideravelmente."
+        },
+        {
+          "letra": "B",
+          "texto": "Polarizar a corrente em dois níveis, de modo que se crie uma componente reativa e outra\nindutiva."
+        },
+        {
+          "letra": "C",
+          "texto": "Dividir a tensão em dois níveis, de modo que a corrente de partida dos motores aumente\nconsideravelmente."
+        },
+        {
+          "letra": "D",
+          "texto": "Dividir a tensão em seis níveis, de modo que a corrente de partida dos motores aumente\nconsideravelmente."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Equipamentos Elétricos",
+        "Motores"
+      ]
+    },
+    {
+      "source_id": "Q173552",
+      "stratum": "E04:MEDIUM",
+      "v1_module": "E04",
+      "v1_confidence": "MEDIUM",
+      "statement": "Para dar partida num motor elétrico com uma chave estrela-triângulo, é necessário que o motor seja",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "monofásico, e que seus terminais estejam acessíveis."
+        },
+        {
+          "letra": "B",
+          "texto": "monofásico, e que os terminais dos enrolamentos de partida estejam acessíveis."
+        },
+        {
+          "letra": "C",
+          "texto": "trifásico, e que, pelo menos, um terminal dos enrolamentos das fases esteja acessível."
+        },
+        {
+          "letra": "D",
+          "texto": "trifásico, e que os dois terminais dos enrolamentos das fases estejam acessíveis."
+        },
+        {
+          "letra": "E",
+          "texto": "trifásico, e que, pelo menos, dois enrolamentos tenham seus terminais acessíveis."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Equipamentos Elétricos",
+        "Motores"
+      ]
+    },
+    {
+      "source_id": "Q2910275",
+      "stratum": "E04:LOW",
+      "v1_module": "E04",
+      "v1_confidence": "LOW",
+      "statement": "Em um transformador trifásico ligado em Y- (estrela\ntriângulo) tendo a tensão V e a corrente I de linha no\nprimário (Y). Qual a relação que expressa a tensão e a\ncorrente na fase do secundário?\na= N1/N2.",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "V/a e I/3."
+        },
+        {
+          "letra": "B",
+          "texto": "B"
+        },
+        {
+          "letra": "C",
+          "texto": "C"
+        },
+        {
+          "letra": "D",
+          "texto": "D"
+        },
+        {
+          "letra": "E",
+          "texto": "E"
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Circuitos Elétricos em Eletrotécnica",
+        "Circuitos de Corrente Alternada em Eletrotécnica",
+        "Circuitos Trifásicos Eletrotécnica",
+        "Equipamentos e Componentes",
+        "Transformadores"
+      ]
+    },
+    {
+      "source_id": "Q522245",
+      "stratum": "A03:HIGH",
+      "v1_module": "A03",
+      "v1_confidence": "HIGH",
+      "statement": "A tecnologia utilizada nos sensores de presença\né denominada:",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "efeito fotoelétrico"
+        },
+        {
+          "letra": "B",
+          "texto": "raio infravermelho passivo."
+        },
+        {
+          "letra": "C",
+          "texto": "radar."
+        },
+        {
+          "letra": "D",
+          "texto": "dual."
+        },
+        {
+          "letra": "E",
+          "texto": "ultrassom."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Instalações Elétricas em Eletrotécnica"
+      ]
+    },
+    {
+      "source_id": "Q1087482",
+      "stratum": "A03:HIGH",
+      "v1_module": "A03",
+      "v1_confidence": "HIGH",
+      "statement": "Um técnico em Eletrotécnica, ao analisar um\nprocesso de armazenamento de líquido em\num tanque equipado com sensor de nível\nultrassônico, verifica que, de acordo com a\ndocumentação do sensor, a velocidade de\ndeslocamento do sinal é de 25 m/s e o tempo\nentre o sinal e o eco é de 200 ms. Nesse\ncaso, a distância medida pelo sensor é de",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "5,0 m."
+        },
+        {
+          "letra": "B",
+          "texto": "1,0 m."
+        },
+        {
+          "letra": "C",
+          "texto": "3,5 m."
+        },
+        {
+          "letra": "D",
+          "texto": "1,7 m."
+        },
+        {
+          "letra": "E",
+          "texto": "2,5 m."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Equipamentos e Componentes",
+        "Componentes Eletrônicos em Eletrotécnica"
+      ]
+    },
+    {
+      "source_id": "Q411629",
+      "stratum": "A03:MEDIUM",
+      "v1_module": "A03",
+      "v1_confidence": "MEDIUM",
+      "statement": "Sistemas de detecção e alarme de incêndio são utilizados para comandar alarmes de incêndio em prédios a partir de uma central de controle. Para essa finalidade, são instalados indicadores visuais e sonoros nos vários locais do edifício. Assinale a opção correta acerca dos detectores automáticos.",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "Com esse dispositivo é possível localizar o foco de incêndio e proteger uma área de aproximadamente 1.000 m2 ."
+        },
+        {
+          "letra": "B",
+          "texto": "Detectores de fumaça por ionização são incapazes de detectar a erupção de fogo por meio da fumaça produzida antes das chamas se formarem."
+        },
+        {
+          "letra": "C",
+          "texto": "Detectores termovelocimétricos controlam a variação de temperatura em relação ao tempo."
+        },
+        {
+          "letra": "D",
+          "texto": "Detectores térmicos são utilizados para prevenção de vapores inflamáveis no interior da edificação."
+        },
+        {
+          "letra": "E",
+          "texto": "Detectores de chama devem ser utilizados somente em locais onde o surgimento de fumaça deve preceder à erupção de chamas."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Equipamentos Elétricos em Eletroeletrônica",
+        "Componentes Eletrônicos em Eletroeletrônica"
+      ]
+    },
+    {
+      "source_id": "Q402449",
+      "stratum": "A03:LOW",
+      "v1_module": "A03",
+      "v1_confidence": "LOW",
+      "statement": "Uma bomba que apresenta grandes desgastes nas alhetas do rotor provocará um problema de",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "alto aquecimento do motor."
+        },
+        {
+          "letra": "B",
+          "texto": "desgastes prematuros nos mancais."
+        },
+        {
+          "letra": "C",
+          "texto": "ruídos excessivos durante o funcionamento."
+        },
+        {
+          "letra": "D",
+          "texto": "oscilações no fluxo de água."
+        },
+        {
+          "letra": "E",
+          "texto": "baixa vazão de água."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Instalações Elétricas em Eletrotécnica"
+      ]
+    },
+    {
+      "source_id": "Q759352",
+      "stratum": "E05:HIGH",
+      "v1_module": "E05",
+      "v1_confidence": "HIGH",
+      "statement": "Em relação aos motores elétricos, julgue o item que se segue.No motor Dahlander, é possível se obter duas velocidades de\noperação com um só enrolamento.",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "Certo"
+        },
+        {
+          "letra": "B",
+          "texto": "Errado"
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Equipamentos Elétricos",
+        "Motores"
+      ]
+    },
+    {
+      "source_id": "Q186325",
+      "stratum": "P04:HIGH",
+      "v1_module": "P04",
+      "v1_confidence": "HIGH",
+      "statement": "De acordo com a NBR 5410, o esquema de aterramento mais adequado aos circuitos terminais em instalaçõe elétricas residenciais e comerciais é o",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "TN-C"
+        },
+        {
+          "letra": "B",
+          "texto": "TN-S"
+        },
+        {
+          "letra": "C",
+          "texto": "TN-C-S"
+        },
+        {
+          "letra": "D",
+          "texto": "TT"
+        },
+        {
+          "letra": "E",
+          "texto": "IT"
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Legislação e Normas Regulamentadoras (NR)",
+        "Normas Elétricas"
+      ]
+    },
+    {
+      "source_id": "Q3915208",
+      "stratum": "P04:HIGH",
+      "v1_module": "P04",
+      "v1_confidence": "HIGH",
+      "statement": "De acordo com a NBR 5410, toda edificação deve\ndispor de uma infraestrutura de aterramento,\ndenominada como:",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "Anel de aterramento."
+        },
+        {
+          "letra": "B",
+          "texto": "Circuito de aterramento."
+        },
+        {
+          "letra": "C",
+          "texto": "Eletrodo de aterramento."
+        },
+        {
+          "letra": "D",
+          "texto": "Base de aterramento."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Instalações Elétricas em Eletricidade"
+      ]
+    },
+    {
+      "source_id": "Q186435",
+      "stratum": "P04:MEDIUM",
+      "v1_module": "P04",
+      "v1_confidence": "MEDIUM",
+      "statement": "Ao consultar um manual básico de eletricidade, um operador constatou que",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "o aterramento elétrico cumpre a finalidade principal de sensibilizar a proteção para que a sua atuação seja eficiente e segura."
+        },
+        {
+          "letra": "B",
+          "texto": "o aterramento elétrico possui a finalidade principal de fazer com que os potenciais de toque e passo sejam maiores que os limites da fibrilação do coração."
+        },
+        {
+          "letra": "C",
+          "texto": "o aterramento elétrico tem como finalidade primeira escoar as cargas dinâmicas, equalizando os potenciais."
+        },
+        {
+          "letra": "D",
+          "texto": "a lâmpada incandescente é o elemento de maior complexidade dentre os dispositivos elétricos."
+        },
+        {
+          "letra": "E",
+          "texto": "as tomadas tripolares que alimentam os equipamentos trifásicos têm a vantagem de ter posição única e bem definida."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Instalações Elétricas em Eletricidade",
+        "Proteção e Aterramento"
+      ]
+    },
+    {
+      "source_id": "Q2523914",
+      "stratum": "P04:LOW",
+      "v1_module": "P04",
+      "v1_confidence": "LOW",
+      "statement": "A aplicação de cabos isolados em instalações elétricas de baixa tensão requer atenção aos materiais de isolamento devido às suas propriedades dielétricas e de resistência térmica. Considerando essas premissas, o material mais adequado para ambientes com elevadas temperaturas operacionais e resistência a agentes químicos seria:",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "PVC (Policloreto de Vinila)."
+        },
+        {
+          "letra": "B",
+          "texto": "XLPE (Polietileno Reticulado)."
+        },
+        {
+          "letra": "C",
+          "texto": "PE (Polietileno)."
+        },
+        {
+          "letra": "D",
+          "texto": "EPR (Etileno Propileno Diene Monômero)."
+        },
+        {
+          "letra": "E",
+          "texto": "PTFE (PoliTetraFluoroEtileno)."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Instalações Elétricas em Eletricidade",
+        "Proteção e Aterramento"
+      ]
+    },
+    {
+      "source_id": "Q2314741",
+      "stratum": "P05:HIGH",
+      "v1_module": "P05",
+      "v1_confidence": "HIGH",
+      "statement": "Em sistemas de distribuição em alta tensão, a utilização\nde para-raios é dispensável, pois os isoladores do\nsistema são suficientes para proteger os equipamentos\ncontra sobretensões, garantindo a segurança da\ninstalação.",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "Certo"
+        },
+        {
+          "letra": "B",
+          "texto": "Errado"
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Instalações Elétricas em Eletricidade",
+        "Segurança do Trabalho",
+        "Equipamentos Elétricos",
+        "Componentes Eletrônicos em Eletricidade"
+      ]
+    },
+    {
+      "source_id": "Q4083375",
+      "stratum": "P05:HIGH",
+      "v1_module": "P05",
+      "v1_confidence": "HIGH",
+      "statement": "No que se refere a grandezas elétricas, ao aterramento de equipamentos e a sistemas de proteção contra descargas atmosféricas (SPDA), julgue o item a seguir.Quanto menos espesso for o condutor do SPDA, menor será\na impedância do sistema.",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "Certo"
+        },
+        {
+          "letra": "B",
+          "texto": "Errado"
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Instalações Elétricas em Eletrotécnica",
+        "Aterramento e Proteção"
+      ]
+    },
+    {
+      "source_id": "Q3125845",
+      "stratum": "P05:MEDIUM",
+      "v1_module": "P05",
+      "v1_confidence": "MEDIUM",
+      "statement": "Um sistema de proteção contra surtos\n(DPS) deve ser instalado para:",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "Controlar a corrente total do circuito."
+        },
+        {
+          "letra": "B",
+          "texto": "Limitar sobretensões transitórias\ncausadas por raios ou manobras na rede elétrica."
+        },
+        {
+          "letra": "C",
+          "texto": "Reduzir o consumo de energia elétrica\nem circuitos residenciais."
+        },
+        {
+          "letra": "D",
+          "texto": "Aumentar a resistência elétrica de cabos\nde alumínio."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Instalações Elétricas em Eletricidade"
+      ]
+    },
+    {
+      "source_id": "Q1629114",
+      "stratum": "P05:LOW",
+      "v1_module": "P05",
+      "v1_confidence": "LOW",
+      "statement": "A Norma Regulamentadora n. 10 (NR10) estabelece os requisitos e as condições mínimas, objetivando a implementação de medidas de controle e sistemas preventivos, de\nforma a garantir a segurança e a saúde dos trabalhadores\nque, direta ou indiretamente, interajam em instalações\nelétricas e serviços com eletricidade. Na seção sobre medidas de controle, essa norma estabelece que as empresas com carga instalada de até 75 kW estão obrigadas a\nmanter:",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "conjunto de procedimentos e instruções técnicas e\nadministrativas de segurança e saúde, implantadas e\nrelacionadas à NR10 e descrição das medidas de\ncontrole existentes."
+        },
+        {
+          "letra": "B",
+          "texto": "documentação das inspeções e medições do sistema\nde proteção contra descargas atmosféricas e aterramentos elétricos."
+        },
+        {
+          "letra": "C",
+          "texto": "esquemas unifilares atualizados das instalações\nelétricas dos seus estabelecimentos com as especificações do sistema de aterramento e demais equipamentos e dispositivos de proteção."
+        },
+        {
+          "letra": "D",
+          "texto": "resultados dos testes de isolação elétrica realizados\nem equipamentos de proteção individual e coletiva."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Legislação e Normas Regulamentadoras (NR)",
+        "Legislações e Resoluções Normativas"
+      ]
+    },
+    {
+      "source_id": "Q2314701",
+      "stratum": "UNCLASSIFIED",
+      "v1_module": null,
+      "v1_confidence": "UNCLASSIFIED",
+      "statement": "Indutores são componentes elétricos que acumulam\nenergia em um campo magnético e podem ser\nconstituídos por um fio enrolado em espiral em torno de\num núcleo, que pode ser de ar, ferro ou algum material\nmagnético.",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "Certo"
+        },
+        {
+          "letra": "B",
+          "texto": "Errado"
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Equipamentos Elétricos",
+        "Componentes Eletrônicos em Eletricidade"
+      ]
+    },
+    {
+      "source_id": "Q2538201",
+      "stratum": "UNCLASSIFIED",
+      "v1_module": null,
+      "v1_confidence": "UNCLASSIFIED",
+      "statement": "É correto afirmar que, na região ativa, o transistor:",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "Não conduz corrente, sendo ideal para aplicações de desligamento em circuitos."
+        },
+        {
+          "letra": "B",
+          "texto": "Atua como um interruptor fechado, conduzindo corrente máxima independentemente do sinal de entrada."
+        },
+        {
+          "letra": "C",
+          "texto": "Funciona como um amplificador de sinais fracos, no qual variações no sinal de entrada produzem variações proporcionais no sinal de saída."
+        },
+        {
+          "letra": "D",
+          "texto": "Sempre conduz corrente máxima, levando à ruptura se não for devidamente controlado."
+        },
+        {
+          "letra": "E",
+          "texto": "Impede a passagem de qualquer sinal, sendo usado principalmente em circuitos de proteção."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Eletrônica Analógica",
+        "Transistores"
+      ]
+    },
+    {
+      "source_id": "Q2693093",
+      "stratum": "UNCLASSIFIED",
+      "v1_module": null,
+      "v1_confidence": "UNCLASSIFIED",
+      "statement": "Considere as afirmativas: I. Após ser desconectado de uma fonte de tensão, o capacitor continua carregado. II. Uma das operações para o transistor bipolar é operar como uma chave controlada. III. Um transistor pode operar como uma fonte de corrente e como amplificador. Assinale a alternativa correta:",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "Somente a afirmativa I é verdadeira."
+        },
+        {
+          "letra": "B",
+          "texto": "Somente a afirmativa II é verdadeira"
+        },
+        {
+          "letra": "C",
+          "texto": "Somente as afirmativas I e II são verdadeiras."
+        },
+        {
+          "letra": "D",
+          "texto": "Somente as afirmativas II e III são verdadeiras."
+        },
+        {
+          "letra": "E",
+          "texto": "Todas as afirmativas são verdadeiras."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Eletrônica Analógica",
+        "Transistores",
+        "Amplificadores em Eletrônica"
+      ]
+    },
+    {
+      "source_id": "Q404449",
+      "stratum": "UNCLASSIFIED",
+      "v1_module": null,
+      "v1_confidence": "UNCLASSIFIED",
+      "statement": "O transistor apresentado no circuito 3 é do tipo",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "PN."
+        },
+        {
+          "letra": "B",
+          "texto": "NP."
+        },
+        {
+          "letra": "C",
+          "texto": "PNP."
+        },
+        {
+          "letra": "D",
+          "texto": "NPN."
+        },
+        {
+          "letra": "E",
+          "texto": "PPN."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Eletrônica Analógica",
+        "Transistores"
+      ]
+    },
+    {
+      "source_id": "Q4097795",
+      "stratum": "UNCLASSIFIED",
+      "v1_module": null,
+      "v1_confidence": "UNCLASSIFIED",
+      "statement": "Entre as ferramentas básicas utilizadas pelo\neletricista, destacam-se os alicates. Assinale a\nalternativa que apresenta corretamente outra\nutilização de tipos específicos de alicate.",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "O alicate de bico meia-cana serve para fazer\nolhais nas pontas dos fios, facilitando conexões."
+        },
+        {
+          "letra": "B",
+          "texto": "O alicate de corte é utilizado apenas para\ntornear condutores metálicos em espiral."
+        },
+        {
+          "letra": "C",
+          "texto": "O alicate universal é indicado\nexclusivamente para desencapar fios finos de\ncobre esmaltado."
+        },
+        {
+          "letra": "D",
+          "texto": "O alicate de pressão é utilizado apenas para\nmedir continuidade elétrica em circuitos."
+        },
+        {
+          "letra": "E",
+          "texto": "O alicate de bico redondo é usado\nunicamente para segurar isoladores de\nporcelana."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Instalações Elétricas em Eletricidade"
+      ]
+    },
+    {
+      "source_id": "Q2314684",
+      "stratum": "UNCLASSIFIED",
+      "v1_module": null,
+      "v1_confidence": "UNCLASSIFIED",
+      "statement": "Uma boa prática de organização é manter as ferramentas\nde trabalho espalhadas em locais diversos e próximos ao\nchão, garantindo a facilidade de acesso, pois os materiais\nestarão sempre ao redor da área de execução do\ntrabalho.",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "Certo"
+        },
+        {
+          "letra": "B",
+          "texto": "Errado"
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Equipamentos Elétricos",
+        "Componentes Eletrônicos em Eletricidade"
+      ]
+    },
+    {
+      "source_id": "Q747675",
+      "stratum": "UNCLASSIFIED",
+      "v1_module": null,
+      "v1_confidence": "UNCLASSIFIED",
+      "statement": "O componente que constitui três terminais (anodo, catodo e gate) e que deve ser polarizado com tensão mais alta no anodo e\nmais baixa no catodo, além de precisar de um pulso no gate, cujo o fornecimento se dá em duas versões SCR e TRIAC, é\nconhecido como",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "LED."
+        },
+        {
+          "letra": "B",
+          "texto": "tiristor."
+        },
+        {
+          "letra": "C",
+          "texto": "transistor."
+        },
+        {
+          "letra": "D",
+          "texto": "indutor."
+        },
+        {
+          "letra": "E",
+          "texto": "relê."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Eletrônica",
+        "Eletrônica Digital em Eletricidade"
+      ]
+    },
+    {
+      "source_id": "Q1812409",
+      "stratum": "UNCLASSIFIED",
+      "v1_module": null,
+      "v1_confidence": "UNCLASSIFIED",
+      "statement": "Julgue o item subsequente, a respeito de elementos básicos\nde circuitos eletrônicos analógicos. Durante o processo de dopagem de dispositivos\nsemicondutores, o efeito de avalanche não afeta os portadores\nminoritários e majoritários em um diodo.",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "Certo"
+        },
+        {
+          "letra": "B",
+          "texto": "Errado"
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Eletrônica",
+        "Eletrônica Analógica em Eletricidade"
+      ]
+    },
+    {
+      "source_id": "Q413081",
+      "stratum": "UNCLASSIFIED",
+      "v1_module": null,
+      "v1_confidence": "UNCLASSIFIED",
+      "statement": "I. Trata-se de um circuito de fonte de alimentação com tensão de saída não regulada. II. A tensão de saída é de 12 V. III. Utiliza um circuito retificador de meia onda. Está correto o que consta APENAS em",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "I"
+        },
+        {
+          "letra": "B",
+          "texto": "II"
+        },
+        {
+          "letra": "C",
+          "texto": "I e II."
+        },
+        {
+          "letra": "D",
+          "texto": "II e III."
+        },
+        {
+          "letra": "E",
+          "texto": "I e III."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Circuitos Elétricos em Eletrotécnica"
+      ]
+    },
+    {
+      "source_id": "Q777107",
+      "stratum": "UNCLASSIFIED",
+      "v1_module": null,
+      "v1_confidence": "UNCLASSIFIED",
+      "statement": "Um motor série absorve uma corrente de 5 A e desenvolve um torque de 30 Nm. O novo torque, em Nm, quando a\ncorrente aumenta para 10 A e este aumento produz 50% de acréscimo no fluxo magnético produzido pelo campo-série,\nserá de",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "15."
+        },
+        {
+          "letra": "B",
+          "texto": "60."
+        },
+        {
+          "letra": "C",
+          "texto": "120."
+        },
+        {
+          "letra": "D",
+          "texto": "90."
+        },
+        {
+          "letra": "E",
+          "texto": "30."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Equipamentos e Componentes",
+        "Motores em Equipamentos e Componentes na Eletrotécnica"
+      ]
+    },
+    {
+      "source_id": "Q330187",
+      "stratum": "UNCLASSIFIED",
+      "v1_module": null,
+      "v1_confidence": "UNCLASSIFIED",
+      "statement": "Utilizando-se o critério de Barkhausen, assinale a alternativa na qual o diagrama acima entra em oscilação espontaneamente.",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "&beta; A é negativo, obtendo-se uma realimentação negativa."
+        },
+        {
+          "letra": "B",
+          "texto": "&beta; A é nulo, não existindo uma realimentação."
+        },
+        {
+          "letra": "C",
+          "texto": "&beta; A é positivo e inferior à unidade, obtendo-se uma realimentação positiva."
+        },
+        {
+          "letra": "D",
+          "texto": "&beta; A é unitário, e o ganho total do amplificador realimentado tende a infinito."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Eletrônica Analógica",
+        "Amplificadores em Eletrônica"
+      ]
+    },
+    {
+      "source_id": "Q342468",
+      "stratum": "UNCLASSIFIED",
+      "v1_module": null,
+      "v1_confidence": "UNCLASSIFIED",
+      "statement": "Assinale a alternativa que indica o valor de R1 .",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "R1 = 2,5 Ω"
+        },
+        {
+          "letra": "B",
+          "texto": "R1 = 5,0 Ω"
+        },
+        {
+          "letra": "C",
+          "texto": "R1= 20 Ω"
+        },
+        {
+          "letra": "D",
+          "texto": "R1 = 25 Ω"
+        },
+        {
+          "letra": "E",
+          "texto": "R1 = 30 Ω"
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Circuitos Elétricos em Eletrotécnica"
+      ]
+    },
+    {
+      "source_id": "Q3887803",
+      "stratum": "UNCLASSIFIED",
+      "v1_module": null,
+      "v1_confidence": "UNCLASSIFIED",
+      "statement": "Em um retificador controlado utilizando tiristores (SCR), o ângulode disparo (α)",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "impede que o tiristor desligue no semiciclo negativo."
+        },
+        {
+          "letra": "B",
+          "texto": "controla a tensão média na saída."
+        },
+        {
+          "letra": "C",
+          "texto": "altera a frequência da tensão de saída."
+        },
+        {
+          "letra": "D",
+          "texto": "garante que o tiristor conduza durante todo o ciclo."
+        },
+        {
+          "letra": "E",
+          "texto": "aumenta a amplitude da tensão de entrada."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Eletrônica Analógica em Eletroeletrônica",
+        "Diodo em Eletroeletrônica"
+      ]
+    },
+    {
+      "source_id": "Q816265",
+      "stratum": "UNCLASSIFIED",
+      "v1_module": null,
+      "v1_confidence": "UNCLASSIFIED",
+      "statement": "Um elétron, cuja carga é de 1,6 × 10−19 C, cruzou perpendicularmente certo campo magnético, à velocidade da luz. A\nintensidade do campo magnético foi medida, obtendo-se o valor de 4,16 × 1010 T. Apresenta com maior proximidade a força\nexercida sobre esse elétron é:",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "0,2 N."
+        },
+        {
+          "letra": "B",
+          "texto": "0,001 N."
+        },
+        {
+          "letra": "C",
+          "texto": "0,01 N."
+        },
+        {
+          "letra": "D",
+          "texto": "2 N."
+        },
+        {
+          "letra": "E",
+          "texto": "20 N."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Instrumentos e Medições elétricas",
+        "Medições Elétricas"
+      ]
+    },
+    {
+      "source_id": "Q3981911",
+      "stratum": "UNCLASSIFIED",
+      "v1_module": null,
+      "v1_confidence": "UNCLASSIFIED",
+      "statement": "Um transistor de junção bipolar consegue amplificar um sinal\nsem distorção, caso ele opere:",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "saturado"
+        },
+        {
+          "letra": "B",
+          "texto": "dentro da região ativa"
+        },
+        {
+          "letra": "C",
+          "texto": "abaixo da região de corte"
+        },
+        {
+          "letra": "D",
+          "texto": "com corrente de base igual a corrente de coletor"
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Eletrônica Analógica",
+        "Transistores",
+        "Amplificadores em Eletrônica"
+      ]
+    },
+    {
+      "source_id": "Q3943016",
+      "stratum": "UNCLASSIFIED",
+      "v1_module": null,
+      "v1_confidence": "UNCLASSIFIED",
+      "statement": "Uma das fases no planejamento de projetos\neletroeletrônicos é a criação do projeto esquemático e,\nquando possível, a simulação desse projeto em software\nespecífico. Para simular um projeto de filtro ativo passabanda com amplificador operacional (AmpOp), é necessário\nincluir fontes de",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "A"
+        },
+        {
+          "letra": "B",
+          "texto": "B"
+        },
+        {
+          "letra": "C",
+          "texto": "C"
+        },
+        {
+          "letra": "D",
+          "texto": "D"
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Eletrônica Analógica em Eletroeletrônica"
+      ]
+    },
+    {
+      "source_id": "Q514370",
+      "stratum": "UNCLASSIFIED",
+      "v1_module": null,
+      "v1_confidence": "UNCLASSIFIED",
+      "statement": "Um circuito eletrônico apresenta em sua entrada um sinal de 1 W de potência, e em sua saída um sinal de 100 W. O ganho de potência do circuito, em dB, vale:",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "10."
+        },
+        {
+          "letra": "B",
+          "texto": "20."
+        },
+        {
+          "letra": "C",
+          "texto": "30."
+        },
+        {
+          "letra": "D",
+          "texto": "40."
+        },
+        {
+          "letra": "E",
+          "texto": "100."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Instalações Elétricas em Eletroeletrônica",
+        "Instalações de baixa e média tensão"
+      ]
+    },
+    {
+      "source_id": "Q431629",
+      "stratum": "UNCLASSIFIED",
+      "v1_module": null,
+      "v1_confidence": "UNCLASSIFIED",
+      "statement": "Pela análise da matriz de causa e efeito, conclui-se que “Output 8” será ativado se for acionado",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "“Input 2” e “Input 4” e “Input 7”"
+        },
+        {
+          "letra": "B",
+          "texto": "“Input 2” e “Input 4” ou “Input 7”"
+        },
+        {
+          "letra": "C",
+          "texto": "“Input 2” ou “Input 4” ou “Input 7”"
+        },
+        {
+          "letra": "D",
+          "texto": "“Input 2” ou “Input 4” e “Input 7”"
+        },
+        {
+          "letra": "E",
+          "texto": "“Input 2” e “Input 4”"
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Circuitos Elétricos em Eletricidade"
+      ]
+    },
+    {
+      "source_id": "Q1762481",
+      "stratum": "UNCLASSIFIED",
+      "v1_module": null,
+      "v1_confidence": "UNCLASSIFIED",
+      "statement": "Um amplificador apresenta um ganho de potência de 30 dB. se uma fonte aplica 10mW em sua entrada, a potência CORRETA de saída é:",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "1W."
+        },
+        {
+          "letra": "B",
+          "texto": "10W."
+        },
+        {
+          "letra": "C",
+          "texto": "3W."
+        },
+        {
+          "letra": "D",
+          "texto": "300W."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Eletrônica Analógica",
+        "Amplificadores em Eletrônica"
+      ]
+    },
+    {
+      "source_id": "Q2226732",
+      "stratum": "UNCLASSIFIED",
+      "v1_module": null,
+      "v1_confidence": "UNCLASSIFIED",
+      "statement": "Quando se trabalha com a obtenção de dados e análise de sinais, os algarismos\nsignificativos têm fundamental importância para a apresentação e a análise correta dos resultados\nanalíticos experimentais. Assinale a alternativa que apresenta quatro algarismos significativos de\nforma correta.",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "1,07."
+        },
+        {
+          "letra": "B",
+          "texto": "133x10-1."
+        },
+        {
+          "letra": "C",
+          "texto": "12,213."
+        },
+        {
+          "letra": "D",
+          "texto": "0,0123."
+        },
+        {
+          "letra": "E",
+          "texto": "0,5370."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Análise de Circuitos"
+      ]
+    },
+    {
+      "source_id": "Q3980565",
+      "stratum": "UNCLASSIFIED",
+      "v1_module": null,
+      "v1_confidence": "UNCLASSIFIED",
+      "statement": "A segurança em serviços com eletricidade exige a adoção de\nmedidas rigorosas antes do início das atividades. Assim, antes de\niniciar uma manutenção elétrica, além de isolar o circuito, deve-se\nprioritariamente:",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "medir potência"
+        },
+        {
+          "letra": "B",
+          "texto": "testar continuidade"
+        },
+        {
+          "letra": "C",
+          "texto": "desenergizar o circuito"
+        },
+        {
+          "letra": "D",
+          "texto": "substituir componentes"
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Legislação e Normas Regulamentadoras (NR)",
+        "Manutenção Elétrica na Eletrotécnica"
+      ]
+    },
+    {
+      "source_id": "Q1023720",
+      "stratum": "UNCLASSIFIED",
+      "v1_module": null,
+      "v1_confidence": "UNCLASSIFIED",
+      "statement": "Quando o sinal de saída de um sensor não é suficientemente forte para ser utilizado em seu propósito, como acionar um relé,\npor exemplo, a solução é utilizar um sistema auxiliar para reforçar o sinal. Esta ação pode ser efetuada por meio de um transistor\nbipolar corretamente polarizado como chave. Nesse sistema, durante a operação, quando a tensão VCE do transistor se encontra\npróximo de zero, o transistor está operando na região",
+      "alternatives": [
+        {
+          "letra": "A",
+          "texto": "de corte."
+        },
+        {
+          "letra": "B",
+          "texto": "proibida."
+        },
+        {
+          "letra": "C",
+          "texto": "ativa."
+        },
+        {
+          "letra": "D",
+          "texto": "de saturação."
+        },
+        {
+          "letra": "E",
+          "texto": "de ruptura."
+        }
+      ],
+      "image_references": [],
+      "metadata": [
+        "Eletrônica",
+        "Automação e Controle em Eletricidade"
+      ]
+    }
+  ]
+}

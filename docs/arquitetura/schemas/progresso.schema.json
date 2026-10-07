@@ -1,0 +1,225 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Contrato de backup de progresso",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "exportedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "moduleVersions": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "instances": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "templateId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "templateVersion": {
+            "type": "string",
+            "minLength": 1
+          },
+          "generatorVersion": {
+            "type": "string",
+            "minLength": 1
+          },
+          "seed": {
+            "type": "string",
+            "minLength": 1
+          },
+          "parameters": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "number"
+            }
+          },
+          "optionPermutation": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true
+          }
+        },
+        "required": [
+          "id",
+          "templateId",
+          "templateVersion",
+          "generatorVersion",
+          "seed",
+          "parameters",
+          "optionPermutation"
+        ]
+      }
+    },
+    "attempts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "instanceId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "stepId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "selectedOptionId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "correct": {
+            "type": "boolean"
+          },
+          "hints": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "attemptIndex": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "occurredAt": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "required": [
+          "id",
+          "instanceId",
+          "stepId",
+          "selectedOptionId",
+          "correct",
+          "hints",
+          "attemptIndex",
+          "occurredAt"
+        ]
+      }
+    },
+    "reviews": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "subthemeId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "dueAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "intervalDays": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "lapses": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "schedulerVersion": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "subthemeId",
+          "dueAt",
+          "intervalDays",
+          "lapses",
+          "schedulerVersion"
+        ]
+      }
+    },
+    "sessions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "profileId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "startedAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "deadlineAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "status": {
+            "enum": [
+              "em_andamento",
+              "entregue",
+              "expirado"
+            ]
+          },
+          "instanceIds": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true
+          },
+          "answers": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "required": [
+          "id",
+          "profileId",
+          "startedAt",
+          "deadlineAt",
+          "status",
+          "instanceIds",
+          "answers"
+        ]
+      }
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "exportedAt",
+    "moduleVersions",
+    "instances",
+    "attempts",
+    "reviews",
+    "sessions"
+  ]
+}

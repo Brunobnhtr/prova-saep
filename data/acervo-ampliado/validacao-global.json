@@ -1,0 +1,63 @@
+{
+  "passed": 14,
+  "failed": 0,
+  "checks": [
+    {
+      "check": "all 9791 IDs unique and reconciled",
+      "passed": true
+    },
+    {
+      "check": "classified plus unclassified equals total",
+      "passed": true
+    },
+    {
+      "check": "all answers remain unresolved",
+      "passed": true
+    },
+    {
+      "check": "source lots unchanged since scan",
+      "passed": true
+    },
+    {
+      "check": "35 module queues",
+      "passed": true
+    },
+    {
+      "check": "no invented module IDs",
+      "passed": true
+    },
+    {
+      "check": "module totals reconcile",
+      "passed": true
+    },
+    {
+      "check": "queue references exist",
+      "passed": true
+    },
+    {
+      "check": "relevance partitions each queue",
+      "passed": true
+    },
+    {
+      "check": "all prior topic joins audited",
+      "passed": true
+    },
+    {
+      "check": "VF detected from actual two-option labels",
+      "passed": true
+    },
+    {
+      "check": "missing visuals flagged for inspection rather than invalidated",
+      "passed": true
+    },
+    {
+      "check": "numeric variant candidates reference valid IDs",
+      "passed": true
+    },
+    {
+      "check": "family groups plus unassigned cover exactly the catalog",
+      "passed": true
+    }
+  ],
+  "scope": "Coverage and structural integrity only; does not certify semantic classifications."
+}

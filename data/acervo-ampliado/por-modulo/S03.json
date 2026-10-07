@@ -1,0 +1,2295 @@
+{
+  "module": "S03",
+  "title": "Classificação de tensão e documentação",
+  "total_candidates": 155,
+  "primary_assignments": 16,
+  "high_relevance": 14,
+  "medium_relevance": 8,
+  "low_relevance": 133,
+  "outside_theme": {
+    "count": null,
+    "status": "NOT_SEMANTICALLY_REVIEWED"
+  },
+  "image_dependent": 16,
+  "possible_duplicates": 0,
+  "possible_semantic_variants": 0,
+  "priority_ids": {
+    "HIGH": [
+      "Q4218549",
+      "Q4114652",
+      "Q4047411",
+      "Q3314768",
+      "Q3100165",
+      "Q1058581",
+      "Q1058582",
+      "Q1058583",
+      "Q1058591",
+      "Q1058593",
+      "Q1058596",
+      "Q825994",
+      "Q710276",
+      "Q234035"
+    ],
+    "MEDIUM": [
+      "Q4160619",
+      "Q4083386",
+      "Q3452157",
+      "Q2694290",
+      "Q2217149",
+      "Q1240735",
+      "Q1058588",
+      "Q394771"
+    ],
+    "LOW": [
+      "Q4159527",
+      "Q4166429",
+      "Q4173192",
+      "Q4193744",
+      "Q4208595",
+      "Q4208614",
+      "Q4083874",
+      "Q4084253",
+      "Q4084254",
+      "Q4084255",
+      "Q4128118",
+      "Q4083340",
+      "Q3981865",
+      "Q3996371",
+      "Q3911621",
+      "Q3958247",
+      "Q3977391",
+      "Q3887510",
+      "Q3896595",
+      "Q3898645",
+      "Q3836510",
+      "Q3851447",
+      "Q3851987",
+      "Q3675310",
+      "Q3742071",
+      "Q3768152",
+      "Q3790478",
+      "Q3790482",
+      "Q3595371",
+      "Q3633932",
+      "Q3646809",
+      "Q3646812",
+      "Q3466315",
+      "Q3466921",
+      "Q3466931",
+      "Q3411310",
+      "Q3442209",
+      "Q3452145",
+      "Q3333003",
+      "Q3396410",
+      "Q3260308",
+      "Q3090263",
+      "Q3090267",
+      "Q3138858",
+      "Q3138958",
+      "Q3157291",
+      "Q2992836",
+      "Q3008710",
+      "Q2894107",
+      "Q2737527",
+      "Q2767024",
+      "Q2768630",
+      "Q2772024",
+      "Q2773340",
+      "Q2802803",
+      "Q2329774",
+      "Q2333380",
+      "Q2338800",
+      "Q2376905",
+      "Q2376910",
+      "Q2385433",
+      "Q2314685",
+      "Q2329758",
+      "Q2279011",
+      "Q2217075",
+      "Q2217350",
+      "Q2217351",
+      "Q2217362",
+      "Q2217531",
+      "Q2217532",
+      "Q2217533",
+      "Q2217537",
+      "Q2081100",
+      "Q2157566",
+      "Q2189231",
+      "Q1808433",
+      "Q1830346",
+      "Q1694547",
+      "Q1608359",
+      "Q1087489",
+      "Q1088668",
+      "Q1106119",
+      "Q1037592",
+      "Q1037611",
+      "Q1037613",
+      "Q1049998",
+      "Q1058584",
+      "Q1058597",
+      "Q1015269",
+      "Q1023714",
+      "Q1023730",
+      "Q879246",
+      "Q980902",
+      "Q980919",
+      "Q836921",
+      "Q836923",
+      "Q879240",
+      "Q879242",
+      "Q879243",
+      "Q811516",
+      "Q823496",
+      "Q825995",
+      "Q772178",
+      "Q795353",
+      "Q596741",
+      "Q654057",
+      "Q707684",
+      "Q529413",
+      "Q507421",
+      "Q514338",
+      "Q514366",
+      "Q522933",
+      "Q522934",
+      "Q490125",
+      "Q490137",
+      "Q490243",
+      "Q431733",
+      "Q432401",
+      "Q432420",
+      "Q453960",
+      "Q454850",
+      "Q424985",
+      "Q425011",
+      "Q431076",
+      "Q263719",
+      "Q342458",
+      "Q342462",
+      "Q394776",
+      "Q263024",
+      "Q173569",
+      "Q182637",
+      "Q173545",
+      "Q173557"
+    ]
+  },
+  "candidate_details": [
+    {
+      "source_id": "Q4159527",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4160619",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4166429",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4173192",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4193744",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4208595",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4208614",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4218549",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4083874",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4084253",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4084254",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4084255",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4114652",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4128118",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4047411",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4083340",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4083386",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3981865",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3996371",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3911621",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3958247",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3977391",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3887510",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3896595",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3898645",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3836510",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3851447",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3851987",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3675310",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3742071",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3768152",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3790478",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3790482",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3595371",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3633932",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3646809",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3646812",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3466315",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3466921",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3466931",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3411310",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3442209",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3452145",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3452157",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3314768",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3333003",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3396410",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3260308",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3090263",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3090267",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3100165",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3138858",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3138958",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3157291",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2992836",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3008710",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2894107",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2737527",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2767024",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2768630",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2772024",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2773340",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2802803",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2694290",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2329774",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2333380",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2338800",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2376905",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2376910",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2385433",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2314685",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2329758",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2279011",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2217075",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2217149",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2217350",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2217351",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2217362",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2217531",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2217532",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2217533",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2217537",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2081100",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2157566",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2189231",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1808433",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1830346",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1694547",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1240735",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1608359",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1087489",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1088668",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1106119",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1037592",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1037611",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "CONTACTOR_NO_NC",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1037613",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1049998",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1058581",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1058582",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1058583",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1058584",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1058588",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1058591",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1058593",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1058596",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1058597",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1015269",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1023714",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1023730",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q879246",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q980902",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q980919",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q836921",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q836923",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q879240",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q879242",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q879243",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q811516",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q823496",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q825994",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q825995",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q772178",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q795353",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q710276",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q596741",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "THREE_PHASE_POWER",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q654057",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q707684",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q529413",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q507421",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q514338",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q514366",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q522933",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q522934",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q490125",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q490137",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q490243",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q431733",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q432401",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q432420",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q453960",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q454850",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q424985",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q425011",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q431076",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q263719",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q342458",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q342462",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q394771",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q394776",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q234035",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q263024",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q173569",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q182637",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q173545",
+      "subtopics": [
+        {
+          "id": "13.2",
+          "title": "Subestações e seus equipamentos",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.2-subestacoes-e-seus-equipamentos.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q173557",
+      "subtopics": [
+        {
+          "id": "4.2",
+          "title": "NR-10: riscos e medidas de controle",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\04-seguranca-em-eletricidade-nr-10\\4.2-nr-10-riscos-e-medidas-de-controle.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    }
+  ]
+}

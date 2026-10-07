@@ -1,0 +1,31 @@
+{
+  "module": "A03",
+  "title": "Sensores de presença, alarme e nível",
+  "primary_count": 12,
+  "secondary_count": 0,
+  "confidence_counts": {
+    "HIGH": 12
+  },
+  "interaction_candidate_counts": {
+    "LOW": 8,
+    "MEDIUM": 4
+  },
+  "inspection_priority_counts": {
+    "P3": 12
+  },
+  "primary_ids": [
+    "Q1087482",
+    "Q1087493",
+    "Q1702544",
+    "Q1770362",
+    "Q2746799",
+    "Q2955768",
+    "Q3716099",
+    "Q3864511",
+    "Q411629",
+    "Q4165674",
+    "Q431735",
+    "Q522245"
+  ],
+  "secondary_ids": []
+}

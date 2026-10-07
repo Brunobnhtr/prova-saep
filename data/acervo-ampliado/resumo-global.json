@@ -1,0 +1,858 @@
+{
+  "TOTAL_QUESTIONS": 9791,
+  "INDEX_TOTAL": 9791,
+  "INDEX_IDS_MATCH": true,
+  "CLASSIFIED": 8913,
+  "UNCLASSIFIED": 878,
+  "WITH_IMAGES": 2665,
+  "IMAGE_MISSING": 449,
+  "TRUE_FALSE": 1031,
+  "MULTIPLE_PROPOSITIONS": 866,
+  "CALCULATION": 2422,
+  "CONCEPTUAL": 3668,
+  "DIAGRAM": 2288,
+  "PROCEDURE": 614,
+  "POSSIBLE_DUPLICATES": 19,
+  "EXACT_DUPLICATE_GROUPS": 0,
+  "NUMERIC_VARIANT_GROUPS": 9,
+  "SHARED_IMAGE_GROUPS": 21,
+  "HIGH_INTERACTION_POTENTIAL": 3500,
+  "MODULE_ASSIGNMENTS": 19643,
+  "SEMANTIC_FAMILY_ASSIGNED": 1062,
+  "INSPECTION_QUEUE": 4835,
+  "ALL_ANSWERS_UNRESOLVED": true,
+  "TYPE_COUNTS_MULTI_LABEL": {
+    "CALCULATION": 2422,
+    "CONCEPTUAL": 3668,
+    "DIAGRAM": 2288,
+    "MEASUREMENT": 799,
+    "MULTIPLE_PROPOSITIONS": 866,
+    "SAFETY_NORM": 489,
+    "PROCEDURE": 614,
+    "LADDER_LOGIC": 41,
+    "COMPONENT_IDENTIFICATION": 29,
+    "GRAPH": 103,
+    "TRUE_FALSE": 1031,
+    "OTHER": 3
+  },
+  "MODULES": [
+    {
+      "module": "S01",
+      "title": "Desenergização e reenergização",
+      "total_candidates": 253,
+      "primary_assignments": 159,
+      "high_relevance": 50,
+      "medium_relevance": 33,
+      "low_relevance": 170,
+      "outside_theme": {
+        "count": null,
+        "status": "NOT_SEMANTICALLY_REVIEWED"
+      },
+      "image_dependent": 11,
+      "possible_duplicates": 0,
+      "possible_semantic_variants": 0
+    },
+    {
+      "module": "S02",
+      "title": "Qualificação, EPI, altura e zonas de risco",
+      "total_candidates": 207,
+      "primary_assignments": 101,
+      "high_relevance": 38,
+      "medium_relevance": 18,
+      "low_relevance": 151,
+      "outside_theme": {
+        "count": null,
+        "status": "NOT_SEMANTICALLY_REVIEWED"
+      },
+      "image_dependent": 6,
+      "possible_duplicates": 0,
+      "possible_semantic_variants": 0
+    },
+    {
+      "module": "F01",
+      "title": "Unidades e grandezas CC/CA",
+      "total_candidates": 2502,
+      "primary_assignments": 1479,
+      "high_relevance": 275,
+      "medium_relevance": 587,
+      "low_relevance": 1640,
+      "outside_theme": {
+        "count": null,
+        "status": "NOT_SEMANTICALLY_REVIEWED"
+      },
+      "image_dependent": 729,
+      "possible_duplicates": 7,
+      "possible_semantic_variants": 7
+    },
+    {
+      "module": "M01",
+      "title": "Multímetro, alicate e seleção de escala",
+      "total_candidates": 729,
+      "primary_assignments": 434,
+      "high_relevance": 313,
+      "medium_relevance": 137,
+      "low_relevance": 279,
+      "outside_theme": {
+        "count": null,
+        "status": "NOT_SEMANTICALLY_REVIEWED"
+      },
+      "image_dependent": 207,
+      "possible_duplicates": 1,
+      "possible_semantic_variants": 1
+    },
+    {
+      "module": "F02",
+      "title": "Lei de Ohm e associação de resistores",
+      "total_candidates": 625,
+      "primary_assignments": 398,
+      "high_relevance": 170,
+      "medium_relevance": 109,
+      "low_relevance": 346,
+      "outside_theme": {
+        "count": null,
+        "status": "NOT_SEMANTICALLY_REVIEWED"
+      },
+      "image_dependent": 214,
+      "possible_duplicates": 1,
+      "possible_semantic_variants": 1
+    },
+    {
+      "module": "F03",
+      "title": "Frequência, formas de onda e reatância",
+      "total_candidates": 1342,
+      "primary_assignments": 689,
+      "high_relevance": 419,
+      "medium_relevance": 448,
+      "low_relevance": 475,
+      "outside_theme": {
+        "count": null,
+        "status": "NOT_SEMANTICALLY_REVIEWED"
+      },
+      "image_dependent": 397,
+      "possible_duplicates": 0,
+      "possible_semantic_variants": 0
+    },
+    {
+      "module": "F04",
+      "title": "Potência, energia e fator de potência",
+      "total_candidates": 1165,
+      "primary_assignments": 824,
+      "high_relevance": 466,
+      "medium_relevance": 512,
+      "low_relevance": 187,
+      "outside_theme": {
+        "count": null,
+        "status": "NOT_SEMANTICALLY_REVIEWED"
+      },
+      "image_dependent": 140,
+      "possible_duplicates": 2,
+      "possible_semantic_variants": 2
+    },
+    {
+      "module": "I03",
+      "title": "Simbologia, unifilar, multifilar e CAD",
+      "total_candidates": 436,
+      "primary_assignments": 161,
+      "high_relevance": 71,
+      "medium_relevance": 84,
+      "low_relevance": 281,
+      "outside_theme": {
+        "count": null,
+        "status": "NOT_SEMANTICALLY_REVIEWED"
+      },
+      "image_dependent": 240,
+      "possible_duplicates": 4,
+      "possible_semantic_variants": 4
+    },
+    {
+      "module": "R01",
+      "title": "Estruturas, postes, alimentadores e topologias",
+      "total_candidates": 353,
+      "primary_assignments": 166,
+      "high_relevance": 37,
+      "medium_relevance": 117,
+      "low_relevance": 199,
+      "outside_theme": {
+        "count": null,
+        "status": "NOT_SEMANTICALLY_REVIEWED"
+      },
+      "image_dependent": 54,
+      "possible_duplicates": 0,
+      "possible_semantic_variants": 0
+    },
+    {
+      "module": "H01",
+      "title": "Válvulas, atuadores e simbologia",
+      "total_candidates": 88,
+      "primary_assignments": 64,
+      "high_relevance": 0,
+      "medium_relevance": 88,
+      "low_relevance": 0,
+      "outside_theme": {
+        "count": null,
+        "status": "NOT_SEMANTICALLY_REVIEWED"
+      },
+      "image_dependent": 23,
+      "possible_duplicates": 0,
+      "possible_semantic_variants": 0
+    },
+    {
+      "module": "A01",
+      "title": "Booleanos, binário, tabela verdade e Ladder",
+      "total_candidates": 532,
+      "primary_assignments": 436,
+      "high_relevance": 153,
+      "medium_relevance": 141,
+      "low_relevance": 238,
+      "outside_theme": {
+        "count": null,
+        "status": "NOT_SEMANTICALLY_REVIEWED"
+      },
+      "image_dependent": 148,
+      "possible_duplicates": 0,
+      "possible_semantic_variants": 0
+    },
+    {
+      "module": "E01",
+      "title": "Placa, potência, corrente e velocidade",
+      "total_candidates": 310,
+      "primary_assignments": 194,
+      "high_relevance": 64,
+      "medium_relevance": 82,
+      "low_relevance": 164,
+      "outside_theme": {
+        "count": null,
+        "status": "NOT_SEMANTICALLY_REVIEWED"
+      },
+      "image_dependent": 48,
+      "possible_duplicates": 0,
+      "possible_semantic_variants": 0
+    },
+    {
+      "module": "T01",
+      "title": "Relação de transformação e proteções",
+      "total_candidates": 699,
+      "primary_assignments": 444,
+      "high_relevance": 320,
+      "medium_relevance": 286,
+      "low_relevance": 93,
+      "outside_theme": {
+        "count": null,
+        "status": "NOT_SEMANTICALLY_REVIEWED"
+      },
+      "image_dependent": 141,
+      "possible_duplicates": 0,
+      "possible_semantic_variants": 0
+    },
+    {
+      "module": "T02",
+      "title": "TC, TP, relés e medição indireta",
+      "total_candidates": 561,
+      "primary_assignments": 19,
+      "high_relevance": 15,
+      "medium_relevance": 58,
+      "low_relevance": 488,
+      "outside_theme": {
+        "count": null,
+        "status": "NOT_SEMANTICALLY_REVIEWED"
+      },
+      "image_dependent": 154,
+      "possible_duplicates": 1,
+      "possible_semantic_variants": 1
+    },
+    {
+      "module": "R02",
+      "title": "Equipamentos, barramentos e operação",
+      "total_candidates": 319,
+      "primary_assignments": 129,
+      "high_relevance": 40,
+      "medium_relevance": 95,
+      "low_relevance": 184,
+      "outside_theme": {
+        "count": null,
+        "status": "NOT_SEMANTICALLY_REVIEWED"
+      },
+      "image_dependent": 69,
+      "possible_duplicates": 0,
+      "possible_semantic_variants": 0
+    },
+    {
+      "module": "I01",
+      "title": "Tomadas, iluminação e previsão de cargas",
+      "total_candidates": 1119,
+      "primary_assignments": 729,
+      "high_relevance": 231,
+      "medium_relevance": 250,
+      "low_relevance": 638,
+      "outside_theme": {
+        "count": null,
+        "status": "NOT_SEMANTICALLY_REVIEWED"
+      },
+      "image_dependent": 171,
+      "possible_duplicates": 5,
+      "possible_semantic_variants": 5
+    },
+    {
+      "module": "P01",
+      "title": "Condutores, instalação e fatores de correção",
+      "total_candidates": 522,
+      "primary_assignments": 187,
+      "high_relevance": 67,
+      "medium_relevance": 42,
+      "low_relevance": 413,
+      "outside_theme": {
+        "count": null,
+        "status": "NOT_SEMANTICALLY_REVIEWED"
+      },
+      "image_dependent": 63,
+      "possible_duplicates": 9,
+      "possible_semantic_variants": 9
+    },
+    {
+      "module": "P02",
+      "title": "Disjuntores, fusíveis, curvas e curto-circuito",
+      "total_candidates": 900,
+      "primary_assignments": 474,
+      "high_relevance": 269,
+      "medium_relevance": 262,
+      "low_relevance": 369,
+      "outside_theme": {
+        "count": null,
+        "status": "NOT_SEMANTICALLY_REVIEWED"
+      },
+      "image_dependent": 129,
+      "possible_duplicates": 3,
+      "possible_semantic_variants": 3
+    },
+    {
+      "module": "I02",
+      "title": "Interruptores, sensores e relé fotocélula",
+      "total_candidates": 609,
+      "primary_assignments": 76,
+      "high_relevance": 20,
+      "medium_relevance": 150,
+      "low_relevance": 439,
+      "outside_theme": {
+        "count": null,
+        "status": "NOT_SEMANTICALLY_REVIEWED"
+      },
+      "image_dependent": 109,
+      "possible_duplicates": 0,
+      "possible_semantic_variants": 0
+    },
+    {
+      "module": "P03",
+      "title": "DR, IDR, DDR e coordenação de funções",
+      "total_candidates": 506,
+      "primary_assignments": 32,
+      "high_relevance": 33,
+      "medium_relevance": 26,
+      "low_relevance": 447,
+      "outside_theme": {
+        "count": null,
+        "status": "NOT_SEMANTICALLY_REVIEWED"
+      },
+      "image_dependent": 64,
+      "possible_duplicates": 3,
+      "possible_semantic_variants": 3
+    },
+    {
+      "module": "M02",
+      "title": "Continuidade e resistência de isolamento",
+      "total_candidates": 695,
+      "primary_assignments": 34,
+      "high_relevance": 31,
+      "medium_relevance": 47,
+      "low_relevance": 617,
+      "outside_theme": {
+        "count": null,
+        "status": "NOT_SEMANTICALLY_REVIEWED"
+      },
+      "image_dependent": 208,
+      "possible_duplicates": 1,
+      "possible_semantic_variants": 1
+    },
+    {
+      "module": "S03",
+      "title": "Classificação de tensão e documentação",
+      "total_candidates": 155,
+      "primary_assignments": 16,
+      "high_relevance": 14,
+      "medium_relevance": 8,
+      "low_relevance": 133,
+      "outside_theme": {
+        "count": null,
+        "status": "NOT_SEMANTICALLY_REVIEWED"
+      },
+      "image_dependent": 16,
+      "possible_duplicates": 0,
+      "possible_semantic_variants": 0
+    },
+    {
+      "module": "V01",
+      "title": "Arranjos, potência e eficiência",
+      "total_candidates": 331,
+      "primary_assignments": 23,
+      "high_relevance": 4,
+      "medium_relevance": 6,
+      "low_relevance": 321,
+      "outside_theme": {
+        "count": null,
+        "status": "NOT_SEMANTICALLY_REVIEWED"
+      },
+      "image_dependent": 38,
+      "possible_duplicates": 0,
+      "possible_semantic_variants": 0
+    },
+    {
+      "module": "D01",
+      "title": "Preventiva, preditiva, corretiva e inspeções",
+      "total_candidates": 136,
+      "primary_assignments": 121,
+      "high_relevance": 70,
+      "medium_relevance": 19,
+      "low_relevance": 47,
+      "outside_theme": {
+        "count": null,
+        "status": "NOT_SEMANTICALLY_REVIEWED"
+      },
+      "image_dependent": 3,
+      "possible_duplicates": 0,
+      "possible_semantic_variants": 0
+    },
+    {
+      "module": "D02",
+      "title": "Termografia, conexões e localização de falhas",
+      "total_candidates": 505,
+      "primary_assignments": 106,
+      "high_relevance": 1,
+      "medium_relevance": 12,
+      "low_relevance": 492,
+      "outside_theme": {
+        "count": null,
+        "status": "NOT_SEMANTICALLY_REVIEWED"
+      },
+      "image_dependent": 139,
+      "possible_duplicates": 1,
+      "possible_semantic_variants": 1
+    },
+    {
+      "module": "E02",
+      "title": "Bobinas, fechamentos e ligação monofásica/trifásica",
+      "total_candidates": 783,
+      "primary_assignments": 294,
+      "high_relevance": 176,
+      "medium_relevance": 198,
+      "low_relevance": 409,
+      "outside_theme": {
+        "count": null,
+        "status": "NOT_SEMANTICALLY_REVIEWED"
+      },
+      "image_dependent": 171,
+      "possible_duplicates": 0,
+      "possible_semantic_variants": 0
+    },
+    {
+      "module": "E03",
+      "title": "Direta, reversão, selo e intertravamento",
+      "total_candidates": 501,
+      "primary_assignments": 234,
+      "high_relevance": 83,
+      "medium_relevance": 42,
+      "low_relevance": 376,
+      "outside_theme": {
+        "count": null,
+        "status": "NOT_SEMANTICALLY_REVIEWED"
+      },
+      "image_dependent": 257,
+      "possible_duplicates": 2,
+      "possible_semantic_variants": 2
+    },
+    {
+      "module": "H02",
+      "title": "Sequências, selo e diagnóstico eletropneumático",
+      "total_candidates": 5,
+      "primary_assignments": 0,
+      "high_relevance": 0,
+      "medium_relevance": 5,
+      "low_relevance": 0,
+      "outside_theme": {
+        "count": null,
+        "status": "NOT_SEMANTICALLY_REVIEWED"
+      },
+      "image_dependent": 3,
+      "possible_duplicates": 0,
+      "possible_semantic_variants": 0
+    },
+    {
+      "module": "A02",
+      "title": "Entradas, saídas e controle sequencial",
+      "total_candidates": 286,
+      "primary_assignments": 132,
+      "high_relevance": 82,
+      "medium_relevance": 92,
+      "low_relevance": 112,
+      "outside_theme": {
+        "count": null,
+        "status": "NOT_SEMANTICALLY_REVIEWED"
+      },
+      "image_dependent": 83,
+      "possible_duplicates": 0,
+      "possible_semantic_variants": 0
+    },
+    {
+      "module": "E06",
+      "title": "Inversor, soft-starter e parametrização",
+      "total_candidates": 192,
+      "primary_assignments": 42,
+      "high_relevance": 41,
+      "medium_relevance": 15,
+      "low_relevance": 136,
+      "outside_theme": {
+        "count": null,
+        "status": "NOT_SEMANTICALLY_REVIEWED"
+      },
+      "image_dependent": 64,
+      "possible_duplicates": 0,
+      "possible_semantic_variants": 0
+    },
+    {
+      "module": "E04",
+      "title": "Estrela-triângulo e compensadora",
+      "total_candidates": 299,
+      "primary_assignments": 31,
+      "high_relevance": 38,
+      "medium_relevance": 31,
+      "low_relevance": 230,
+      "outside_theme": {
+        "count": null,
+        "status": "NOT_SEMANTICALLY_REVIEWED"
+      },
+      "image_dependent": 109,
+      "possible_duplicates": 0,
+      "possible_semantic_variants": 0
+    },
+    {
+      "module": "A03",
+      "title": "Sensores de presença, alarme e nível",
+      "total_candidates": 309,
+      "primary_assignments": 140,
+      "high_relevance": 13,
+      "medium_relevance": 14,
+      "low_relevance": 282,
+      "outside_theme": {
+        "count": null,
+        "status": "NOT_SEMANTICALLY_REVIEWED"
+      },
+      "image_dependent": 67,
+      "possible_duplicates": 0,
+      "possible_semantic_variants": 0
+    },
+    {
+      "module": "E05",
+      "title": "Dahlander e duas velocidades",
+      "total_candidates": 357,
+      "primary_assignments": 2,
+      "high_relevance": 3,
+      "medium_relevance": 0,
+      "low_relevance": 354,
+      "outside_theme": {
+        "count": null,
+        "status": "NOT_SEMANTICALLY_REVIEWED"
+      },
+      "image_dependent": 166,
+      "possible_duplicates": 2,
+      "possible_semantic_variants": 2
+    },
+    {
+      "module": "P04",
+      "title": "Esquemas de aterramento e equipotencialização",
+      "total_candidates": 807,
+      "primary_assignments": 459,
+      "high_relevance": 200,
+      "medium_relevance": 136,
+      "low_relevance": 471,
+      "outside_theme": {
+        "count": null,
+        "status": "NOT_SEMANTICALLY_REVIEWED"
+      },
+      "image_dependent": 118,
+      "possible_duplicates": 2,
+      "possible_semantic_variants": 2
+    },
+    {
+      "module": "P05",
+      "title": "Captação, descida, aterramento e DPS",
+      "total_candidates": 505,
+      "primary_assignments": 84,
+      "high_relevance": 56,
+      "medium_relevance": 51,
+      "low_relevance": 398,
+      "outside_theme": {
+        "count": null,
+        "status": "NOT_SEMANTICALLY_REVIEWED"
+      },
+      "image_dependent": 48,
+      "possible_duplicates": 3,
+      "possible_semantic_variants": 3
+    }
+  ],
+  "SOURCE_FILES": [
+    {
+      "path": "C:\\dev\\extrator de perguntas\\eletrica_eletronica\\questoes\\lote_0001.json",
+      "sha256": "7b23b70da4cf3646c79a54aa98a5a302e08a8b68df2faa0a775b83af88a0cdac",
+      "count": 200
+    },
+    {
+      "path": "C:\\dev\\extrator de perguntas\\eletrica_eletronica\\questoes\\lote_0002.json",
+      "sha256": "8721306e390e30dc0df005cea4029a68536d3962fc238ba2a0fa481cec7aad4c",
+      "count": 200
+    },
+    {
+      "path": "C:\\dev\\extrator de perguntas\\eletrica_eletronica\\questoes\\lote_0003.json",
+      "sha256": "a36678c9d6d2cfbd125a20634aaa99abd81c88e2d50ebae721207eb4638e56d5",
+      "count": 200
+    },
+    {
+      "path": "C:\\dev\\extrator de perguntas\\eletrica_eletronica\\questoes\\lote_0004.json",
+      "sha256": "8b8bfc4dc0aeb655a49f32a4c3adede0efdf856dc11ccfdb4fa4f45bdee1ac54",
+      "count": 200
+    },
+    {
+      "path": "C:\\dev\\extrator de perguntas\\eletrica_eletronica\\questoes\\lote_0005.json",
+      "sha256": "c1ae32e7195775fce28a660bdc2ddca24c2b05a598416d448bb456db33c9c23b",
+      "count": 200
+    },
+    {
+      "path": "C:\\dev\\extrator de perguntas\\eletrica_eletronica\\questoes\\lote_0006.json",
+      "sha256": "265bb9c2ad1266cdea6fc9e49b4da676e6a13422e771e1f6b3175181acff2ca1",
+      "count": 200
+    },
+    {
+      "path": "C:\\dev\\extrator de perguntas\\eletrica_eletronica\\questoes\\lote_0007.json",
+      "sha256": "ab4f00d883aad0fc98dec9f7ed34f5f8fbfc7e31184386ab8efff75a2ed805b8",
+      "count": 200
+    },
+    {
+      "path": "C:\\dev\\extrator de perguntas\\eletrica_eletronica\\questoes\\lote_0008.json",
+      "sha256": "35623271a5ca6732614c96489689fc99c4e64b74e3d7ce3bab2e0c7c1e89d4b6",
+      "count": 200
+    },
+    {
+      "path": "C:\\dev\\extrator de perguntas\\eletrica_eletronica\\questoes\\lote_0009.json",
+      "sha256": "37aa09cf170bfac692369c55f746c689388d221491ce1209a10e0813a72f85c3",
+      "count": 200
+    },
+    {
+      "path": "C:\\dev\\extrator de perguntas\\eletrica_eletronica\\questoes\\lote_0010.json",
+      "sha256": "453ae45e95fe223a54782ad6b01f5671d1668a19ee3ed5819478ad22d56abc12",
+      "count": 200
+    },
+    {
+      "path": "C:\\dev\\extrator de perguntas\\eletrica_eletronica\\questoes\\lote_0011.json",
+      "sha256": "de7267ebffeaf8cb8c468cdec8c5930c436d50db5c62302e87ea616fb36d03ed",
+      "count": 200
+    },
+    {
+      "path": "C:\\dev\\extrator de perguntas\\eletrica_eletronica\\questoes\\lote_0012.json",
+      "sha256": "8e5f62b76f90083423e3268b30f07ede2deb32330d79c14c2eb07393f23b5635",
+      "count": 200
+    },
+    {
+      "path": "C:\\dev\\extrator de perguntas\\eletrica_eletronica\\questoes\\lote_0013.json",
+      "sha256": "40a381d990a33d21e4d8c01dad463631c924b0240f06c1b4ff4452687fc18334",
+      "count": 200
+    },
+    {
+      "path": "C:\\dev\\extrator de perguntas\\eletrica_eletronica\\questoes\\lote_0014.json",
+      "sha256": "5031de77f255f72eb7e6731ad506bdcbbb58cf9c00316fc5f9447242c3b5ab8d",
+      "count": 200
+    },
+    {
+      "path": "C:\\dev\\extrator de perguntas\\eletrica_eletronica\\questoes\\lote_0015.json",
+      "sha256": "8a7c70005a77bf2cfdaa2a55565260b27da68afc6f7fe1843aff46906bfce1f3",
+      "count": 200
+    },
+    {
+      "path": "C:\\dev\\extrator de perguntas\\eletrica_eletronica\\questoes\\lote_0016.json",
+      "sha256": "d056f55074f43151b21ff93465559518d749d55382c7feab524cbd4cf0604b6d",
+      "count": 200
+    },
+    {
+      "path": "C:\\dev\\extrator de perguntas\\eletrica_eletronica\\questoes\\lote_0017.json",
+      "sha256": "1f73123232be0b5c141510676896dfa0dd7e6a48edc998035187594e07efa2a6",
+      "count": 200
+    },
+    {
+      "path": "C:\\dev\\extrator de perguntas\\eletrica_eletronica\\questoes\\lote_0018.json",
+      "sha256": "478ac80561f813a6a7432aca9d2fefefb7525b009749fa081304e9ef94becd20",
+      "count": 200
+    },
+    {
+      "path": "C:\\dev\\extrator de perguntas\\eletrica_eletronica\\questoes\\lote_0019.json",
+      "sha256": "07f90e793345f58b2571e7c64374327ede1a4ce53aa796358e6c6eb3f8c5e3be",
+      "count": 200
+    },
+    {
+      "path": "C:\\dev\\extrator de perguntas\\eletrica_eletronica\\questoes\\lote_0020.json",
+      "sha256": "60d310cfdda00677653aff7d3f752695c05dfeff0af94c3fb51308eef4d3b16d",
+      "count": 200
+    },
+    {
+      "path": "C:\\dev\\extrator de perguntas\\eletrica_eletronica\\questoes\\lote_0021.json",
+      "sha256": "9fad4f38a7100f1b1a1ef7c9b3c7d75b6d8d85b804174cc21400ae1e2410cb35",
+      "count": 200
+    },
+    {
+      "path": "C:\\dev\\extrator de perguntas\\eletrica_eletronica\\questoes\\lote_0022.json",
+      "sha256": "f02fcfe5175fb447d9790141905a48ab257e7ba960a9690a2045bd5d796db03c",
+      "count": 200
+    },
+    {
+      "path": "C:\\dev\\extrator de perguntas\\eletrica_eletronica\\questoes\\lote_0023.json",
+      "sha256": "73d726fba59ea4712724986274b9d4e3011957ed572017aed69237980c23c841",
+      "count": 200
+    },
+    {
+      "path": "C:\\dev\\extrator de perguntas\\eletrica_eletronica\\questoes\\lote_0024.json",
+      "sha256": "a74ba7ef0247a83bf5342889320de0ad8e15ae23ff3f57d604b75fd46d818969",
+      "count": 200
+    },
+    {
+      "path": "C:\\dev\\extrator de perguntas\\eletrica_eletronica\\questoes\\lote_0025.json",
+      "sha256": "06b42fe5e6966d569e50b477dab789bdcc88c62f719595bcd319684d2b91ace9",
+      "count": 200
+    },
+    {
+      "path": "C:\\dev\\extrator de perguntas\\eletrica_eletronica\\questoes\\lote_0026.json",
+      "sha256": "d86fafa8466106d046832d286ebd08cd6ec5ac6bb039f2c4afc2984523a09b20",
+      "count": 200
+    },
+    {
+      "path": "C:\\dev\\extrator de perguntas\\eletrica_eletronica\\questoes\\lote_0027.json",
+      "sha256": "f0f7ede8c112518677f66b204fc1bb7f38cd6beb02985011abd9672a9feac37d",
+      "count": 200
+    },
+    {
+      "path": "C:\\dev\\extrator de perguntas\\eletrica_eletronica\\questoes\\lote_0028.json",
+      "sha256": "4d0d11294b60c5756dcbab33575b3907fd318e8b8b010732d70b94af9b350be4",
+      "count": 200
+    },
+    {
+      "path": "C:\\dev\\extrator de perguntas\\eletrica_eletronica\\questoes\\lote_0029.json",
+      "sha256": "c3c7d939e2e6a1d1ef2f22d182f3e10dba644a9069dbe9fe066f6c54ed57cd4e",
+      "count": 200
+    },
+    {
+      "path": "C:\\dev\\extrator de perguntas\\eletrica_eletronica\\questoes\\lote_0030.json",
+      "sha256": "998b259ba5cc62a669c81f895482f33dab06f9f20b854accf2cddcbce27f619a",
+      "count": 200
+    },
+    {
+      "path": "C:\\dev\\extrator de perguntas\\eletrica_eletronica\\questoes\\lote_0031.json",
+      "sha256": "9d0b64f9e7a310b2798a57a02c594d30ee8f794536c9bc772c57da91338bb815",
+      "count": 200
+    },
+    {
+      "path": "C:\\dev\\extrator de perguntas\\eletrica_eletronica\\questoes\\lote_0032.json",
+      "sha256": "56ca0a501d4fa31a5f983b078cd766a8e6957cb62edbfd6c2c140d9ed63a1267",
+      "count": 200
+    },
+    {
+      "path": "C:\\dev\\extrator de perguntas\\eletrica_eletronica\\questoes\\lote_0033.json",
+      "sha256": "c6f4f820664fa6d3a7210c45dbee2a4c97da96a0c0e9d089c5d8abe9ca917cfc",
+      "count": 200
+    },
+    {
+      "path": "C:\\dev\\extrator de perguntas\\eletrica_eletronica\\questoes\\lote_0034.json",
+      "sha256": "5db71718bf3690f7e98a292290b13f454081fb7d8b50f7c1cb8c0c8de9767d4d",
+      "count": 200
+    },
+    {
+      "path": "C:\\dev\\extrator de perguntas\\eletrica_eletronica\\questoes\\lote_0035.json",
+      "sha256": "7c2a32f85ebcdf29bbb225fe7764e47c14029ee648000d9b214624058607791d",
+      "count": 200
+    },
+    {
+      "path": "C:\\dev\\extrator de perguntas\\eletrica_eletronica\\questoes\\lote_0036.json",
+      "sha256": "25aeebd012ede33f9252a13a79ad4776871c05486063919264db17ba71968f75",
+      "count": 200
+    },
+    {
+      "path": "C:\\dev\\extrator de perguntas\\eletrica_eletronica\\questoes\\lote_0037.json",
+      "sha256": "48bc48dbd8d20e4708f582aa27a372bdcfac24dd37bc49bda07da999b6d52f94",
+      "count": 200
+    },
+    {
+      "path": "C:\\dev\\extrator de perguntas\\eletrica_eletronica\\questoes\\lote_0038.json",
+      "sha256": "2d8ab8fd919906b3816e4f1c8eb0cdb039a5af643ac41c3a034cf0ae339a97ef",
+      "count": 200
+    },
+    {
+      "path": "C:\\dev\\extrator de perguntas\\eletrica_eletronica\\questoes\\lote_0039.json",
+      "sha256": "ddd4b6c4049825701b511fce4d6e0764c675713d3d23152df618c195c8275b2e",
+      "count": 200
+    },
+    {
+      "path": "C:\\dev\\extrator de perguntas\\eletrica_eletronica\\questoes\\lote_0040.json",
+      "sha256": "9f90626b753354aa5f5d21731f647f7a9f58d87d2ef1bbabc45abb219cc9dca8",
+      "count": 200
+    },
+    {
+      "path": "C:\\dev\\extrator de perguntas\\eletrica_eletronica\\questoes\\lote_0041.json",
+      "sha256": "240bdaff75e299686dea9303f2f665be20c8d8f301c645f06ef292d6eef4beba",
+      "count": 200
+    },
+    {
+      "path": "C:\\dev\\extrator de perguntas\\eletrica_eletronica\\questoes\\lote_0042.json",
+      "sha256": "991f61f84427ea3c270928f23e9234146c9d4fb34e2439dd2f92b76f94023af3",
+      "count": 200
+    },
+    {
+      "path": "C:\\dev\\extrator de perguntas\\eletrica_eletronica\\questoes\\lote_0043.json",
+      "sha256": "9831920b0aef9c9ed7e2f17a0b82edfa7973e8f5b48dc59550c48b9dc40432b3",
+      "count": 200
+    },
+    {
+      "path": "C:\\dev\\extrator de perguntas\\eletrica_eletronica\\questoes\\lote_0044.json",
+      "sha256": "2d3e1e832192cb44a6ba25fedcdc1fc4f131100dc62739954e9effe3c146062a",
+      "count": 200
+    },
+    {
+      "path": "C:\\dev\\extrator de perguntas\\eletrica_eletronica\\questoes\\lote_0045.json",
+      "sha256": "6c1eb40866b6fa810df13466be219ee1f0938c41c008acc50f6537fb6ad1a5d8",
+      "count": 200
+    },
+    {
+      "path": "C:\\dev\\extrator de perguntas\\eletrica_eletronica\\questoes\\lote_0046.json",
+      "sha256": "777ed2fab605acef66cfb6cc3a92ff7d5223648d9c75579fd51b01b6d5743a15",
+      "count": 200
+    },
+    {
+      "path": "C:\\dev\\extrator de perguntas\\eletrica_eletronica\\questoes\\lote_0047.json",
+      "sha256": "32606484ab4e3b1c72600b8dae1976be08a0819024b3b632e4f715f435fe8e73",
+      "count": 200
+    },
+    {
+      "path": "C:\\dev\\extrator de perguntas\\eletrica_eletronica\\questoes\\lote_0048.json",
+      "sha256": "1132d2c186f195cc970264cea5158f062db280e9d9d30b70d177dc7c808b726d",
+      "count": 200
+    },
+    {
+      "path": "C:\\dev\\extrator de perguntas\\eletrica_eletronica\\questoes\\lote_0049.json",
+      "sha256": "f3be49f2deae4d0c405cf5c713d386486c20c1af8cdb65e0e007f576cfef2713",
+      "count": 191
+    }
+  ],
+  "LIMITS": [
+    "Type counts overlap. Module assignments include primary and secondary.",
+    "Heuristic contextual triage is not exhaustive semantic reading or difficulty assessment.",
+    "Image essentiality is inferred from text, not visual inspection of all images.",
+    "No automatic rejection or answer generation. Microlote verification remains separate."
+  ],
+  "PRIOR_TOPIC_JOINS": 9491,
+  "BROKEN_LOCAL_IMAGE_QUESTIONS": 4,
+  "HTML_IMAGE_GAP_QUESTIONS": 11,
+  "VISUAL_CONTEXT_WITHOUT_IMAGE": 441,
+  "MISSING_STATEMENTS": 4
+}

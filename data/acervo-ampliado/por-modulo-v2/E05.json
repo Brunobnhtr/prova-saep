@@ -1,0 +1,15 @@
+{
+  "module": "E05",
+  "title": "Dahlander e duas velocidades",
+  "primary_count": 3,
+  "secondary_count": 0,
+  "confidence_counts": {
+    "HIGH": 3
+  },
+  "primary_ids": [
+    "Q235669",
+    "Q263718",
+    "Q759352"
+  ],
+  "secondary_ids": []
+}

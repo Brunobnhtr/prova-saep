@@ -1,0 +1,64 @@
+{
+  "module": "H02",
+  "title": "Sequências, selo e diagnóstico eletropneumático",
+  "total_candidates": 5,
+  "primary_assignments": 0,
+  "high_relevance": 0,
+  "medium_relevance": 5,
+  "low_relevance": 0,
+  "outside_theme": {
+    "count": null,
+    "status": "NOT_SEMANTICALLY_REVIEWED"
+  },
+  "image_dependent": 3,
+  "possible_duplicates": 0,
+  "possible_semantic_variants": 0,
+  "priority_ids": {
+    "HIGH": [],
+    "MEDIUM": [
+      "Q4027618",
+      "Q3188808",
+      "Q3188810",
+      "Q461673",
+      "Q180773"
+    ],
+    "LOW": []
+  },
+  "candidate_details": [
+    {
+      "source_id": "Q4027618",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3188808",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3188810",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q461673",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q180773",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    }
+  ]
+}

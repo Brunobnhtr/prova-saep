@@ -1,0 +1,4949 @@
+{
+  "module": "V01",
+  "title": "Arranjos, potência e eficiência",
+  "total_candidates": 331,
+  "primary_assignments": 23,
+  "high_relevance": 4,
+  "medium_relevance": 6,
+  "low_relevance": 321,
+  "outside_theme": {
+    "count": null,
+    "status": "NOT_SEMANTICALLY_REVIEWED"
+  },
+  "image_dependent": 38,
+  "possible_duplicates": 0,
+  "possible_semantic_variants": 0,
+  "priority_ids": {
+    "HIGH": [
+      "Q4051353",
+      "Q3992776",
+      "Q3887498",
+      "Q3272777"
+    ],
+    "MEDIUM": [
+      "Q3754044",
+      "Q3790478",
+      "Q3458243",
+      "Q2354138",
+      "Q1011009",
+      "Q980911"
+    ],
+    "LOW": [
+      "Q4173194",
+      "Q4186180",
+      "Q4186875",
+      "Q4196171",
+      "Q4207232",
+      "Q4218681",
+      "Q4093463",
+      "Q4097779",
+      "Q4128296",
+      "Q4128311",
+      "Q4128313",
+      "Q4130653",
+      "Q4148962",
+      "Q4051384",
+      "Q4083355",
+      "Q4083362",
+      "Q3981869",
+      "Q3981872",
+      "Q3982949",
+      "Q3982960",
+      "Q3992767",
+      "Q3992768",
+      "Q4006490",
+      "Q4007006",
+      "Q3942989",
+      "Q3980543",
+      "Q3980548",
+      "Q3980556",
+      "Q3887500",
+      "Q3888897",
+      "Q3900507",
+      "Q3907470",
+      "Q3910001",
+      "Q3798176",
+      "Q3803280",
+      "Q3851432",
+      "Q3668219",
+      "Q3675301",
+      "Q3716087",
+      "Q3579849",
+      "Q3595375",
+      "Q3595382",
+      "Q3605749",
+      "Q3631914",
+      "Q3644748",
+      "Q3646799",
+      "Q3650142",
+      "Q3507987",
+      "Q3507995",
+      "Q3507996",
+      "Q3509134",
+      "Q3559736",
+      "Q3422150",
+      "Q3435238",
+      "Q3448787",
+      "Q3449176",
+      "Q3452144",
+      "Q3453354",
+      "Q3455515",
+      "Q3458225",
+      "Q3458228",
+      "Q3458409",
+      "Q3267710",
+      "Q3267720",
+      "Q3293313",
+      "Q3296523",
+      "Q3296524",
+      "Q3298668",
+      "Q3314769",
+      "Q3332995",
+      "Q3357554",
+      "Q3386301",
+      "Q3386307",
+      "Q3393715",
+      "Q3199930",
+      "Q3199935",
+      "Q3199943",
+      "Q3201977",
+      "Q3223383",
+      "Q3223385",
+      "Q3232097",
+      "Q3232104",
+      "Q3260291",
+      "Q3264276",
+      "Q3264279",
+      "Q3264287",
+      "Q3089655",
+      "Q3089657",
+      "Q3089662",
+      "Q3090234",
+      "Q3090237",
+      "Q3090250",
+      "Q3090258",
+      "Q3090262",
+      "Q3096737",
+      "Q3101062",
+      "Q3138859",
+      "Q3138956",
+      "Q3157276",
+      "Q3157282",
+      "Q3157288",
+      "Q3188792",
+      "Q3188804",
+      "Q2987955",
+      "Q3019365",
+      "Q3019378",
+      "Q3027665",
+      "Q3089622",
+      "Q2875019",
+      "Q2894078",
+      "Q2914635",
+      "Q2955755",
+      "Q2955763",
+      "Q2737528",
+      "Q2744260",
+      "Q2779158",
+      "Q2787749",
+      "Q2517375",
+      "Q2523908",
+      "Q2523913",
+      "Q2523992",
+      "Q2584767",
+      "Q2584771",
+      "Q2586178",
+      "Q2608784",
+      "Q2608796",
+      "Q2700268",
+      "Q2421985",
+      "Q2422004",
+      "Q2427320",
+      "Q2443234",
+      "Q2486496",
+      "Q2486504",
+      "Q2517359",
+      "Q2517372",
+      "Q2329779",
+      "Q2333389",
+      "Q2338792",
+      "Q2338811",
+      "Q2354129",
+      "Q2354137",
+      "Q2376907",
+      "Q2384046",
+      "Q2385100",
+      "Q2385436",
+      "Q2386839",
+      "Q2401045",
+      "Q2314679",
+      "Q2314732",
+      "Q2319948",
+      "Q2329756",
+      "Q2329766",
+      "Q2252814",
+      "Q2258058",
+      "Q2272598",
+      "Q2308337",
+      "Q2216622",
+      "Q2217142",
+      "Q2217148",
+      "Q2217357",
+      "Q2217359",
+      "Q2217361",
+      "Q2217363",
+      "Q2217366",
+      "Q2217369",
+      "Q2217370",
+      "Q2217375",
+      "Q2217521",
+      "Q2217535",
+      "Q2217542",
+      "Q2220347",
+      "Q2220348",
+      "Q2220367",
+      "Q2220369",
+      "Q2226736",
+      "Q2226743",
+      "Q2198761",
+      "Q2200897",
+      "Q1924411",
+      "Q1924412",
+      "Q1924413",
+      "Q1924415",
+      "Q1931397",
+      "Q2027402",
+      "Q2058454",
+      "Q1767159",
+      "Q1847388",
+      "Q1847398",
+      "Q1694563",
+      "Q1712209",
+      "Q1712221",
+      "Q1218063",
+      "Q1276351",
+      "Q1276352",
+      "Q1334606",
+      "Q1629109",
+      "Q1629124",
+      "Q1087477",
+      "Q1088670",
+      "Q1098260",
+      "Q1106086",
+      "Q1107005",
+      "Q1113505",
+      "Q1113510",
+      "Q1179319",
+      "Q1046931",
+      "Q1049989",
+      "Q1058585",
+      "Q1058586",
+      "Q1060209",
+      "Q1060221",
+      "Q1066333",
+      "Q1000405",
+      "Q1011007",
+      "Q1015258",
+      "Q1016832",
+      "Q883615",
+      "Q945961",
+      "Q976461",
+      "Q976470",
+      "Q980907",
+      "Q836082",
+      "Q836084",
+      "Q836886",
+      "Q836908",
+      "Q836909",
+      "Q836910",
+      "Q836911",
+      "Q836918",
+      "Q839159",
+      "Q855023",
+      "Q855029",
+      "Q879238",
+      "Q879239",
+      "Q879245",
+      "Q803807",
+      "Q803822",
+      "Q811520",
+      "Q811523",
+      "Q818114",
+      "Q824381",
+      "Q825986",
+      "Q776979",
+      "Q777095",
+      "Q777156",
+      "Q797907",
+      "Q797911",
+      "Q797912",
+      "Q750416",
+      "Q751907",
+      "Q718792",
+      "Q718793",
+      "Q726866",
+      "Q726868",
+      "Q747661",
+      "Q596760",
+      "Q596763",
+      "Q596764",
+      "Q609658",
+      "Q654053",
+      "Q654059",
+      "Q677880",
+      "Q677882",
+      "Q529122",
+      "Q529123",
+      "Q533338",
+      "Q533339",
+      "Q533342",
+      "Q584680",
+      "Q499913",
+      "Q499915",
+      "Q509726",
+      "Q514331",
+      "Q522235",
+      "Q460540",
+      "Q461652",
+      "Q462324",
+      "Q488194",
+      "Q488195",
+      "Q488196",
+      "Q490126",
+      "Q490138",
+      "Q431805",
+      "Q432427",
+      "Q454846",
+      "Q454849",
+      "Q424990",
+      "Q431075",
+      "Q431310",
+      "Q411630",
+      "Q413076",
+      "Q278096",
+      "Q394765",
+      "Q394766",
+      "Q394769",
+      "Q394774",
+      "Q394787",
+      "Q394788",
+      "Q394789",
+      "Q234022",
+      "Q237317",
+      "Q262810",
+      "Q186309",
+      "Q189236",
+      "Q180465",
+      "Q180769",
+      "Q180779",
+      "Q182382",
+      "Q182404",
+      "Q107302",
+      "Q107303",
+      "Q107304",
+      "Q107305",
+      "Q107306",
+      "Q107312",
+      "Q107313",
+      "Q107314",
+      "Q107315",
+      "Q93702",
+      "Q93705",
+      "Q93708"
+    ]
+  },
+  "candidate_details": [
+    {
+      "source_id": "Q4173194",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4186180",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4186875",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4196171",
+      "subtopics": [
+        {
+          "id": "1.9",
+          "title": "Fontes de energia e geração",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\01-alicerce-o-que-e-eletricidade\\1.9-fontes-de-energia-e-geracao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4207232",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4218681",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4093463",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4097779",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4128296",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4128311",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4128313",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4130653",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4148962",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4051353",
+      "subtopics": [
+        {
+          "id": "1.9",
+          "title": "Fontes de energia e geração",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\01-alicerce-o-que-e-eletricidade\\1.9-fontes-de-energia-e-geracao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4051384",
+      "subtopics": [
+        {
+          "id": "1.9",
+          "title": "Fontes de energia e geração",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\01-alicerce-o-que-e-eletricidade\\1.9-fontes-de-energia-e-geracao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4083355",
+      "subtopics": [
+        {
+          "id": "1.9",
+          "title": "Fontes de energia e geração",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\01-alicerce-o-que-e-eletricidade\\1.9-fontes-de-energia-e-geracao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4083362",
+      "subtopics": [
+        {
+          "id": "1.9",
+          "title": "Fontes de energia e geração",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\01-alicerce-o-que-e-eletricidade\\1.9-fontes-de-energia-e-geracao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3981869",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3981872",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3982949",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3982960",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3992767",
+      "subtopics": [
+        {
+          "id": "1.9",
+          "title": "Fontes de energia e geração",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\01-alicerce-o-que-e-eletricidade\\1.9-fontes-de-energia-e-geracao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3992768",
+      "subtopics": [
+        {
+          "id": "1.9",
+          "title": "Fontes de energia e geração",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\01-alicerce-o-que-e-eletricidade\\1.9-fontes-de-energia-e-geracao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3992776",
+      "subtopics": [
+        {
+          "id": "1.9",
+          "title": "Fontes de energia e geração",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\01-alicerce-o-que-e-eletricidade\\1.9-fontes-de-energia-e-geracao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4006490",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4007006",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3942989",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3980543",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3980548",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3980556",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3887498",
+      "subtopics": [
+        {
+          "id": "1.9",
+          "title": "Fontes de energia e geração",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\01-alicerce-o-que-e-eletricidade\\1.9-fontes-de-energia-e-geracao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3887500",
+      "subtopics": [
+        {
+          "id": "1.9",
+          "title": "Fontes de energia e geração",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\01-alicerce-o-que-e-eletricidade\\1.9-fontes-de-energia-e-geracao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3888897",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3900507",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3907470",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3910001",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3798176",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3803280",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3851432",
+      "subtopics": [
+        {
+          "id": "1.9",
+          "title": "Fontes de energia e geração",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\01-alicerce-o-que-e-eletricidade\\1.9-fontes-de-energia-e-geracao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3668219",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3675301",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3716087",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3754044",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3790478",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3579849",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3595375",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3595382",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3605749",
+      "subtopics": [
+        {
+          "id": "1.9",
+          "title": "Fontes de energia e geração",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\01-alicerce-o-que-e-eletricidade\\1.9-fontes-de-energia-e-geracao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3631914",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3644748",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "CONTINUITY_TEST",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3646799",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3650142",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3507987",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3507995",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3507996",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3509134",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3559736",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3422150",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3435238",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3448787",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3449176",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3452144",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3453354",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3455515",
+      "subtopics": [
+        {
+          "id": "1.9",
+          "title": "Fontes de energia e geração",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\01-alicerce-o-que-e-eletricidade\\1.9-fontes-de-energia-e-geracao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3458225",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3458228",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3458243",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3458409",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3267710",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3267720",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3272777",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3293313",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3296523",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3296524",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3298668",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3314769",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3332995",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3357554",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3386301",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3386307",
+      "subtopics": [
+        {
+          "id": "1.9",
+          "title": "Fontes de energia e geração",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\01-alicerce-o-que-e-eletricidade\\1.9-fontes-de-energia-e-geracao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3393715",
+      "subtopics": [
+        {
+          "id": "1.9",
+          "title": "Fontes de energia e geração",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\01-alicerce-o-que-e-eletricidade\\1.9-fontes-de-energia-e-geracao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3199930",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3199935",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3199943",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3201977",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3223383",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3223385",
+      "subtopics": [
+        {
+          "id": "1.9",
+          "title": "Fontes de energia e geração",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\01-alicerce-o-que-e-eletricidade\\1.9-fontes-de-energia-e-geracao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3232097",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3232104",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3260291",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3264276",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3264279",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3264287",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3089655",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3089657",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3089662",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3090234",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3090237",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "THREE_PHASE_POWER",
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3090250",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3090258",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3090262",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3096737",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3101062",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3138859",
+      "subtopics": [
+        {
+          "id": "1.9",
+          "title": "Fontes de energia e geração",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\01-alicerce-o-que-e-eletricidade\\1.9-fontes-de-energia-e-geracao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3138956",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3157276",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3157282",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3157288",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3188792",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3188804",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2987955",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3019365",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3019378",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3027665",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3089622",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2875019",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2894078",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2914635",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2955755",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2955763",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2737528",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2744260",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2779158",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2787749",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "SERIES_EQUIVALENT_RESISTANCE",
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2517375",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2523908",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2523913",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2523992",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2584767",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2584771",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2586178",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2608784",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2608796",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2700268",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2421985",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2422004",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2427320",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2443234",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2486496",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2486504",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2517359",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2517372",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2329779",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2333389",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2338792",
+      "subtopics": [
+        {
+          "id": "1.9",
+          "title": "Fontes de energia e geração",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\01-alicerce-o-que-e-eletricidade\\1.9-fontes-de-energia-e-geracao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2338811",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2354129",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2354137",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2354138",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2376907",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2384046",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2385100",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2385436",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2386839",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2401045",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2314679",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2314732",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2319948",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2329756",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2329766",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2252814",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "THREE_PHASE_POWER",
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2258058",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2272598",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2308337",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2216622",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2217142",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "OHMS_LAW_DIRECT_RESISTANCE",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2217148",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2217357",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2217359",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2217361",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2217363",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2217366",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2217369",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2217370",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2217375",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2217521",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2217535",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2217542",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2220347",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2220348",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2220367",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2220369",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2226736",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2226743",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2198761",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2200897",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1924411",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1924412",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1924413",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1924415",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1931397",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2027402",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2058454",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1767159",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1847388",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1847398",
+      "subtopics": [
+        {
+          "id": "1.9",
+          "title": "Fontes de energia e geração",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\01-alicerce-o-que-e-eletricidade\\1.9-fontes-de-energia-e-geracao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1694563",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1712209",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "OHMS_LAW_DIRECT_RESISTANCE",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1712221",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1218063",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1276351",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1276352",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1334606",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1629109",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "RLC_PHASOR",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1629124",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1087477",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1088670",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1098260",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1106086",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1107005",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1113505",
+      "subtopics": [
+        {
+          "id": "1.9",
+          "title": "Fontes de energia e geração",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\01-alicerce-o-que-e-eletricidade\\1.9-fontes-de-energia-e-geracao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1113510",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1179319",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1046931",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1049989",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1058585",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1058586",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1060209",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1060221",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1066333",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1000405",
+      "subtopics": [
+        {
+          "id": "1.9",
+          "title": "Fontes de energia e geração",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\01-alicerce-o-que-e-eletricidade\\1.9-fontes-de-energia-e-geracao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1011007",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "SERIES_EQUIVALENT_RESISTANCE",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1011009",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1015258",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1016832",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "OHMS_LAW_DIRECT_RESISTANCE",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q883615",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q945961",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q976461",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q976470",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q980907",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q980911",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q836082",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q836084",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q836886",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q836908",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q836909",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "OHMS_LAW_DIRECT_RESISTANCE",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q836910",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q836911",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q836918",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q839159",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q855023",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q855029",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q879238",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q879239",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q879245",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q803807",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q803822",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q811520",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q811523",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q818114",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q824381",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q825986",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "POWER_DC",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q776979",
+      "subtopics": [
+        {
+          "id": "1.9",
+          "title": "Fontes de energia e geração",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\01-alicerce-o-que-e-eletricidade\\1.9-fontes-de-energia-e-geracao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q777095",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q777156",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q797907",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q797911",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q797912",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q750416",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q751907",
+      "subtopics": [
+        {
+          "id": "1.9",
+          "title": "Fontes de energia e geração",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\01-alicerce-o-que-e-eletricidade\\1.9-fontes-de-energia-e-geracao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q718792",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q718793",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "THREE_PHASE_POWER",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q726866",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q726868",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q747661",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q596760",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q596763",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q596764",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q609658",
+      "subtopics": [
+        {
+          "id": "1.9",
+          "title": "Fontes de energia e geração",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\01-alicerce-o-que-e-eletricidade\\1.9-fontes-de-energia-e-geracao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q654053",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q654059",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q677880",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q677882",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q529122",
+      "subtopics": [
+        {
+          "id": "1.9",
+          "title": "Fontes de energia e geração",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\01-alicerce-o-que-e-eletricidade\\1.9-fontes-de-energia-e-geracao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q529123",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q533338",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q533339",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q533342",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q584680",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q499913",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q499915",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q509726",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q514331",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q522235",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q460540",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q461652",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q462324",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q488194",
+      "subtopics": [
+        {
+          "id": "1.9",
+          "title": "Fontes de energia e geração",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\01-alicerce-o-que-e-eletricidade\\1.9-fontes-de-energia-e-geracao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q488195",
+      "subtopics": [
+        {
+          "id": "1.9",
+          "title": "Fontes de energia e geração",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\01-alicerce-o-que-e-eletricidade\\1.9-fontes-de-energia-e-geracao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q488196",
+      "subtopics": [
+        {
+          "id": "1.9",
+          "title": "Fontes de energia e geração",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\01-alicerce-o-que-e-eletricidade\\1.9-fontes-de-energia-e-geracao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q490126",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q490138",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q431805",
+      "subtopics": [
+        {
+          "id": "1.9",
+          "title": "Fontes de energia e geração",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\01-alicerce-o-que-e-eletricidade\\1.9-fontes-de-energia-e-geracao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "CONTINUITY_TEST",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q432427",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q454846",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q454849",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q424990",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q431075",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q431310",
+      "subtopics": [
+        {
+          "id": "1.9",
+          "title": "Fontes de energia e geração",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\01-alicerce-o-que-e-eletricidade\\1.9-fontes-de-energia-e-geracao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q411630",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q413076",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q278096",
+      "subtopics": [
+        {
+          "id": "1.9",
+          "title": "Fontes de energia e geração",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\01-alicerce-o-que-e-eletricidade\\1.9-fontes-de-energia-e-geracao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q394765",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q394766",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q394769",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q394774",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q394787",
+      "subtopics": [
+        {
+          "id": "1.9",
+          "title": "Fontes de energia e geração",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\01-alicerce-o-que-e-eletricidade\\1.9-fontes-de-energia-e-geracao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q394788",
+      "subtopics": [
+        {
+          "id": "1.9",
+          "title": "Fontes de energia e geração",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\01-alicerce-o-que-e-eletricidade\\1.9-fontes-de-energia-e-geracao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q394789",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q234022",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q237317",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q262810",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q186309",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q189236",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q180465",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q180769",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q180779",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q182382",
+      "subtopics": [
+        {
+          "id": "1.9",
+          "title": "Fontes de energia e geração",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\01-alicerce-o-que-e-eletricidade\\1.9-fontes-de-energia-e-geracao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q182404",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q107302",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q107303",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q107304",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q107305",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q107306",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q107312",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q107313",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q107314",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q107315",
+      "subtopics": [
+        {
+          "id": "14.3",
+          "title": "Eficiência energética e tarifação",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\14-manutencao-e-eficiencia-energetica\\14.3-eficiencia-energetica-e-tarifacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q93702",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q93705",
+      "subtopics": [
+        {
+          "id": "1.9",
+          "title": "Fontes de energia e geração",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\01-alicerce-o-que-e-eletricidade\\1.9-fontes-de-energia-e-geracao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q93708",
+      "subtopics": [
+        {
+          "id": "13.1",
+          "title": "Geração, transmissão e distribuição",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\13-sistemas-eletricos-de-potencia\\13.1-geracao-transmissao-e-distribuicao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "version": 2.1,
+  "passed": 9,
+  "failed": 0,
+  "checks": [
+    {
+      "check": "Total 9791 questions preserved",
+      "passed": true
+    },
+    {
+      "check": "IDs V1/V2.1 identical",
+      "passed": true
+    },
+    {
+      "check": "V1 SHA-256 intact",
+      "passed": true
+    },
+    {
+      "check": "Classifier SHA-256 matches frozen hash",
+      "passed": true
+    },
+    {
+      "check": "Answers unresolved in all records",
+      "passed": true
+    },
+    {
+      "check": "Golden Set 153/153 regressions PASS",
+      "passed": true
+    },
+    {
+      "check": "Target Regressions 31/31 PASS",
+      "passed": true
+    },
+    {
+      "check": "Blind holdout evaluation complete (200 cases)",
+      "passed": true
+    },
+    {
+      "check": "No hallucinated module when unclassified",
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,783 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Contrato editorial v2 — conteúdo experimental separado do motor",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "module",
+    "source_kind",
+    "format",
+    "version",
+    "recovery",
+    "validation",
+    "contract_version",
+    "semantic_family",
+    "source_answer",
+    "resolved_answer",
+    "verified_answer",
+    "lineage",
+    "content"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "module": {
+      "type": "string",
+      "pattern": "^[A-Z][0-9]{2}$"
+    },
+    "source_kind": {
+      "enum": [
+        "source_question",
+        "adapted_question",
+        "original_app_question"
+      ]
+    },
+    "source_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "format": {
+      "enum": [
+        "normal",
+        "interactive"
+      ]
+    },
+    "version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "tf_level": {
+      "enum": [
+        "TF_L1",
+        "TF_L2",
+        "TF_L3",
+        "TF_L4",
+        "TF_L5"
+      ]
+    },
+    "recovery": {
+      "type": "object",
+      "required": [
+        "statement",
+        "options",
+        "original_answer",
+        "essential_assets_missing"
+      ],
+      "properties": {
+        "statement": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "options": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "text": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "id",
+              "text"
+            ]
+          }
+        },
+        "original_answer": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "essential_assets_missing": {
+          "type": "boolean"
+        },
+        "source_reference": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_file": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "structural_condition": {
+          "enum": [
+            "COMPLETE",
+            "INCOMPLETE"
+          ]
+        },
+        "dependencies": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "validation": {
+      "type": "object",
+      "required": [
+        "status",
+        "confidence",
+        "proposed_answer",
+        "solution",
+        "evidence",
+        "option_checks",
+        "assumptions",
+        "ambiguity_review"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "UNRESOLVED",
+            "SOLVED_AI",
+            "VERIFIED",
+            "AMBIGUOUS",
+            "INVALID"
+          ]
+        },
+        "confidence": {
+          "enum": [
+            "LOW",
+            "MEDIUM",
+            "HIGH",
+            null
+          ]
+        },
+        "proposed_answer": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "solution": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "confidence_reason": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "issue_reasons": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "option_checks": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "option": {
+                "type": "string",
+                "minLength": 1
+              },
+              "correct": {
+                "type": "boolean"
+              },
+              "reason": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "option",
+              "correct",
+              "reason"
+            ]
+          }
+        },
+        "assumptions": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "ambiguity_review": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "enum": [
+                  "SOLVED_AI",
+                  "VERIFIED"
+                ]
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "proposed_answer": {
+                "type": "string",
+                "minLength": 1
+              },
+              "solution": {
+                "type": "string",
+                "minLength": 1
+              },
+              "confidence": {
+                "enum": [
+                  "LOW",
+                  "MEDIUM",
+                  "HIGH"
+                ]
+              },
+              "confidence_reason": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "confidence_reason"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "const": "VERIFIED"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "evidence": {
+                "minItems": 1
+              }
+            }
+          }
+        }
+      ],
+      "additionalProperties": false
+    },
+    "contract_version": {
+      "const": 2
+    },
+    "semantic_family": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_answer": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "status": {
+          "const": "NOT_AVAILABLE"
+        },
+        "option": {
+          "type": "null"
+        }
+      },
+      "required": [
+        "status",
+        "option"
+      ]
+    },
+    "resolved_answer": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "option": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "status": {
+          "enum": [
+            "UNRESOLVED",
+            "SOLVED_AI"
+          ]
+        },
+        "confidence": {
+          "enum": [
+            "LOW",
+            "MEDIUM",
+            "HIGH",
+            null
+          ]
+        }
+      },
+      "required": [
+        "option",
+        "status",
+        "confidence"
+      ]
+    },
+    "verified_answer": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "option": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "status": {
+          "enum": [
+            "NOT_VERIFIED",
+            "VERIFIED"
+          ]
+        },
+        "method": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "references": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      },
+      "required": [
+        "option",
+        "status",
+        "method",
+        "references"
+      ]
+    },
+    "lineage": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "question_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "derived_from": {
+          "type": "string",
+          "minLength": 1
+        },
+        "modified_fields": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "editorial_reason": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "question_id",
+        "source_id",
+        "version",
+        "derived_from",
+        "modified_fields",
+        "editorial_reason"
+      ]
+    },
+    "content": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "statement": {
+          "type": "string",
+          "minLength": 1
+        },
+        "assets": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "path": {
+                "type": "string",
+                "minLength": 1
+              },
+              "sha256": {
+                "type": "string",
+                "pattern": "^[a-f0-9]{64}$"
+              },
+              "description": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "path",
+              "sha256",
+              "description"
+            ]
+          }
+        },
+        "steps": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "kind": {
+                "enum": [
+                  "choice",
+                  "classification",
+                  "spans"
+                ]
+              },
+              "prompt": {
+                "type": "string",
+                "minLength": 1
+              },
+              "options": {
+                "type": "array",
+                "minItems": 2,
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "id": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "text": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "error_tag": {
+                      "enum": [
+                        "CONCEPT_SELECTION_ERROR",
+                        "FORMULA_RECALL_ERROR",
+                        "FORMULA_SELECTION_ERROR",
+                        "FORMULA_INVERSION",
+                        "DATA_EXTRACTION_ERROR",
+                        "WRONG_VALUE_SELECTION",
+                        "FORMULA_SUBSTITUTION_ERROR",
+                        "UNIT_ERROR",
+                        "UNIT_CONVERSION_ERROR",
+                        "ALGEBRA_ERROR",
+                        "ARITHMETIC_ERROR",
+                        "SIGN_ERROR",
+                        "DIAGRAM_INTERPRETATION_ERROR",
+                        "GRAPH_INTERPRETATION_ERROR",
+                        "SERIES_PARALLEL_CONFUSION",
+                        "COMPONENT_IDENTIFICATION_ERROR",
+                        "SEQUENCE_LOGIC_ERROR",
+                        "SAFETY_RULE_ERROR",
+                        "FINAL_ANSWER_ERROR",
+                        "CARELESS_ERROR",
+                        "TRUE_FALSE_CLASSIFICATION_ERROR",
+                        "JUSTIFICATION_ERROR",
+                        "FALSE_REASONING_WITH_CORRECT_ANSWER",
+                        "ERROR_LOCALIZATION_ERROR",
+                        "STATEMENT_CORRECTION_ERROR",
+                        "CONDITION_IDENTIFICATION_ERROR",
+                        "ABSOLUTE_CONDITION_ERROR",
+                        "CONCEPT_BOUNDARY_ERROR",
+                        "APPLICATION_AFTER_CLASSIFICATION_ERROR",
+                        "CONDITIONAL_REASONING_ERROR",
+                        "LADDER_TRACE_ERROR",
+                        "CONTACT_STATE_ERROR"
+                      ]
+                    },
+                    "distractor_rationale": {
+                      "type": "string",
+                      "minLength": 1
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "text"
+                  ],
+                  "dependentRequired": {
+                    "error_tag": [
+                      "distractor_rationale"
+                    ],
+                    "distractor_rationale": [
+                      "error_tag"
+                    ]
+                  }
+                }
+              },
+              "answer": {
+                "oneOf": [
+                  {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  {
+                    "type": "array",
+                    "minItems": 1,
+                    "uniqueItems": true,
+                    "items": {
+                      "type": "string",
+                      "minLength": 1
+                    }
+                  }
+                ]
+              },
+              "feedback": {
+                "type": "string",
+                "minLength": 1
+              },
+              "error_tag": {
+                "enum": [
+                  "CONCEPT_SELECTION_ERROR",
+                  "FORMULA_RECALL_ERROR",
+                  "FORMULA_SELECTION_ERROR",
+                  "FORMULA_INVERSION",
+                  "DATA_EXTRACTION_ERROR",
+                  "WRONG_VALUE_SELECTION",
+                  "FORMULA_SUBSTITUTION_ERROR",
+                  "UNIT_ERROR",
+                  "UNIT_CONVERSION_ERROR",
+                  "ALGEBRA_ERROR",
+                  "ARITHMETIC_ERROR",
+                  "SIGN_ERROR",
+                  "DIAGRAM_INTERPRETATION_ERROR",
+                  "GRAPH_INTERPRETATION_ERROR",
+                  "SERIES_PARALLEL_CONFUSION",
+                  "COMPONENT_IDENTIFICATION_ERROR",
+                  "SEQUENCE_LOGIC_ERROR",
+                  "SAFETY_RULE_ERROR",
+                  "FINAL_ANSWER_ERROR",
+                  "CARELESS_ERROR",
+                  "TRUE_FALSE_CLASSIFICATION_ERROR",
+                  "JUSTIFICATION_ERROR",
+                  "FALSE_REASONING_WITH_CORRECT_ANSWER",
+                  "ERROR_LOCALIZATION_ERROR",
+                  "STATEMENT_CORRECTION_ERROR",
+                  "CONDITION_IDENTIFICATION_ERROR",
+                  "ABSOLUTE_CONDITION_ERROR",
+                  "CONCEPT_BOUNDARY_ERROR",
+                  "APPLICATION_AFTER_CLASSIFICATION_ERROR",
+                  "CONDITIONAL_REASONING_ERROR",
+                  "LADDER_TRACE_ERROR",
+                  "CONTACT_STATE_ERROR"
+                ]
+              },
+              "hints": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "level": {
+                      "type": "integer",
+                      "minimum": 1,
+                      "maximum": 3
+                    },
+                    "text": {
+                      "type": "string",
+                      "minLength": 1
+                    }
+                  },
+                  "required": [
+                    "level",
+                    "text"
+                  ]
+                }
+              }
+            },
+            "required": [
+              "id",
+              "kind",
+              "prompt",
+              "options",
+              "answer",
+              "feedback",
+              "hints"
+            ]
+          }
+        },
+        "final_answer": {
+          "type": "string",
+          "minLength": 1
+        },
+        "solution": {
+          "type": "string",
+          "minLength": 1
+        },
+        "incorrect_spans": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "text": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "id",
+              "text"
+            ]
+          }
+        }
+      },
+      "required": [
+        "statement",
+        "assets",
+        "steps",
+        "final_answer",
+        "solution"
+      ]
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "source_kind": {
+            "enum": [
+              "source_question",
+              "adapted_question"
+            ]
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "source_id"
+        ],
+        "properties": {
+          "source_id": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "validation": {
+            "properties": {
+              "status": {
+                "enum": [
+                  "SOLVED_AI",
+                  "VERIFIED"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "recovery": {
+            "properties": {
+              "essential_assets_missing": {
+                "const": false
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "validation": {
+            "properties": {
+              "status": {
+                "const": "VERIFIED"
+              }
+            }
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "verified_answer": {
+            "properties": {
+              "option": {
+                "type": "string",
+                "minLength": 1
+              },
+              "status": {
+                "const": "VERIFIED"
+              },
+              "method": {
+                "type": "string",
+                "minLength": 1
+              },
+              "references": {
+                "minItems": 1
+              }
+            }
+          },
+          "recovery": {
+            "properties": {
+              "statement": {
+                "type": "string",
+                "minLength": 1
+              },
+              "structural_condition": {
+                "const": "COMPLETE"
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

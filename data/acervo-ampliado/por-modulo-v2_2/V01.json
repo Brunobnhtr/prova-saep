@@ -1,0 +1,33 @@
+{
+  "module": "V01",
+  "title": "Arranjos, potência e eficiência",
+  "primary_count": 11,
+  "secondary_count": 0,
+  "confidence_counts": {
+    "HIGH": 7,
+    "MEDIUM": 4
+  },
+  "interaction_candidate_counts": {
+    "MEDIUM": 6,
+    "LOW": 5
+  },
+  "inspection_priority_counts": {
+    "P3": 6,
+    "P2": 4,
+    "P0": 1
+  },
+  "primary_ids": [
+    "Q3790478",
+    "Q1113505",
+    "Q3027680",
+    "Q3386307",
+    "Q3887500",
+    "Q3272777",
+    "Q3458243",
+    "Q3754044",
+    "Q3887498",
+    "Q3992776",
+    "Q4051353"
+  ],
+  "secondary_ids": []
+}

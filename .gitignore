@@ -1,0 +1,17 @@
+# Fontes locais/extrações reais não devem entrar automaticamente na versão pública.
+/data/provas/
+/data/extraidos/
+/data/livros/
+/data/fase2/
+/tmp/
+/*.pdf
+/*.docx
+__pycache__/
+/node_modules/
+/dist/
+/dry-run-batch-*/
+/mock-dry-run/
+/experimentos/
+/*.zip
+.env
+.DS_Store

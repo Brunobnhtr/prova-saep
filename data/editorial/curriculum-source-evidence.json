@@ -1,0 +1,1178 @@
+[
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-ce-2016.txt",
+    "line": 78,
+    "matched_text": "Eletrotécnica será indispensável, pois atuará nas áreas como elétrica predial, industrial e alta tensão,",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-ce-2016.txt",
+    "line": 769,
+    "matched_text": "e metodológicas) mais recorrentes e significativas que resultaram da análise do perfil profissional do",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-ce-2016.txt",
+    "line": 911,
+    "matched_text": "dinâmicos, sujeitos às mudanças decorrentes de transformações que ocorrem segundo contextos",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F04",
+    "source_file": "data/extraidos/plano-eletrotecnica-ce-2016.txt",
+    "line": 1230,
+    "matched_text": "2.Reconhecer princípios da física (eletricidade, magnetismo, eletromagnetismo e mecânica)",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-ce-2016.txt",
+    "line": 1239,
+    "matched_text": "11.Identificar as ferramentas adequadas para realização dos testes de acordo com a classe de tensão",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-ce-2016.txt",
+    "line": 1241,
+    "matched_text": "13.Identificar ausência de tensão",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-ce-2016.txt",
+    "line": 1300,
+    "matched_text": "3.Grandezas fundamentais do circuito elétrico",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-ce-2016.txt",
+    "line": 1301,
+    "matched_text": "3.1.Corrente elétrica",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-ce-2016.txt",
+    "line": 1302,
+    "matched_text": "3.2.Tensão elétrica",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F02",
+    "source_file": "data/extraidos/plano-eletrotecnica-ce-2016.txt",
+    "line": 1327,
+    "matched_text": "7.1.Leis: Ohm, Kirchoff",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-ce-2016.txt",
+    "line": 1329,
+    "matched_text": "8.Potência elétrica em corrente contínua",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F04",
+    "source_file": "data/extraidos/plano-eletrotecnica-ce-2016.txt",
+    "line": 1335,
+    "matched_text": "9.Magnetismo e Eletromagnetismo",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F04",
+    "source_file": "data/extraidos/plano-eletrotecnica-ce-2016.txt",
+    "line": 1338,
+    "matched_text": "9.2.Campo magnético: linhas de forças magnéticas, fluxo de indução magnética, densidade do fluxo magnético,",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F04",
+    "source_file": "data/extraidos/plano-eletrotecnica-ce-2016.txt",
+    "line": 1340,
+    "matched_text": "9.3.Eletromagnetismo: campo magnético no condutor, regras, força de Lorentz, lei de faraday, lei de lenz,",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F04",
+    "source_file": "data/extraidos/plano-eletrotecnica-ce-2016.txt",
+    "line": 1341,
+    "matched_text": "autoindução",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-ce-2016.txt",
+    "line": 1343,
+    "matched_text": "10.1Capacitores: definição, características, comportamento em corrente contínua, associação em série, associação",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F02",
+    "source_file": "data/extraidos/plano-eletrotecnica-ce-2016.txt",
+    "line": 1343,
+    "matched_text": "10.1Capacitores: definição, características, comportamento em corrente contínua, associação em série, associação",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-ce-2016.txt",
+    "line": 1345,
+    "matched_text": "10.2.Indutores: definição, características, comportamento em corrente contínua, associação em série, associação",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F02",
+    "source_file": "data/extraidos/plano-eletrotecnica-ce-2016.txt",
+    "line": 1345,
+    "matched_text": "10.2.Indutores: definição, características, comportamento em corrente contínua, associação em série, associação",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-ce-2016.txt",
+    "line": 1351,
+    "matched_text": "12.Corrente alternada",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-ce-2016.txt",
+    "line": 1354,
+    "matched_text": "12.3.Análise fasorial de circuitos em corrente alternada com representação na forma retangular e polar: resistivo,",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-ce-2016.txt",
+    "line": 1357,
+    "matched_text": "12.4. Potência em corrente alternada: aparente, ativa, reativa",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F02",
+    "source_file": "data/extraidos/plano-eletrotecnica-ce-2016.txt",
+    "line": 1374,
+    "matched_text": "14.3.Instrumentos e grandezas: voltímetro, amperímetro, ohmímetro, wattímetro, cossifímetro, frequencímetro,",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-ce-2016.txt",
+    "line": 1383,
+    "matched_text": "15.6.Reguladores de tensão",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-ce-2016.txt",
+    "line": 1590,
+    "matched_text": "8.Identificar e utilizar EPI e EPC adequados à atividade e à classe de tensão",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-ce-2016.txt",
+    "line": 1641,
+    "matched_text": "4.5.Dispositivos a corrente de fuga",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-ce-2016.txt",
+    "line": 1642,
+    "matched_text": "4.6.Extra baixa tensão",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F04",
+    "source_file": "data/extraidos/plano-eletrotecnica-ce-2016.txt",
+    "line": 1862,
+    "matched_text": "8.5.Tipos: Faraday e Franklin",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-ce-2016.txt",
+    "line": 1864,
+    "matched_text": "9.Tomadas de corrente",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-ce-2016.txt",
+    "line": 1871,
+    "matched_text": "10.Motores elétricos de corrente alternada",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-ce-2016.txt",
+    "line": 1898,
+    "matched_text": "12.6.Tipos:alimentação em baixa tensão e alimentação em média tensão",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-ce-2016.txt",
+    "line": 1926,
+    "matched_text": "ABNT. NBR 5410: 2004: instalações elétricas de baixa tensão. Rio de Janeiro, 2005.",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-ce-2016.txt",
+    "line": 2157,
+    "matched_text": "ABNT. NBR 5410: 2004: instalações elétricas de baixa tensão. Rio de Janeiro, 2005.",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-ce-2016.txt",
+    "line": 2284,
+    "matched_text": "5.9.Frenagem: por contra corrente, eletromecânica, por injeção de corrente contínua",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F04",
+    "source_file": "data/extraidos/plano-eletrotecnica-ce-2016.txt",
+    "line": 2315,
+    "matched_text": "8.Motores de indução (assíncrono)",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-ce-2016.txt",
+    "line": 2331,
+    "matched_text": "10.Motor de corrente contínua",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-ce-2016.txt",
+    "line": 2703,
+    "matched_text": "ABNT. NBR 5410: 2004: instalações elétricas de baixa tensão. Rio de Janeiro, 2005.",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-ce-2016.txt",
+    "line": 2818,
+    "matched_text": "3.6.Classe de tensão: BT, MT, AT",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-ce-2016.txt",
+    "line": 2848,
+    "matched_text": "de corrente, transformadores de potencial, transformadores reguladores de tensão",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-ce-2016.txt",
+    "line": 2850,
+    "matched_text": "4.12.Sistema de proteção: relé de sobrecorrente, relés de sub e sobre tensão, relés de gás ou Buchholz, relés de",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-ce-2016.txt",
+    "line": 2852,
+    "matched_text": "4.13.Para-raios: descarregador de chifres, tipos de para-raios, tensão de disparo, corrente de descarga, tensão",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-ce-2016.txt",
+    "line": 2858,
+    "matched_text": "4.18.Serviços auxiliares de SEP: sistemas de corrente contínua, sistema de ar comprimido",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-ce-2016.txt",
+    "line": 3072,
+    "matched_text": "ABNT. NBR 5410: 2004: instalações elétricas de baixa tensão. Rio de Janeiro, 2005.",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-ce-2016.txt",
+    "line": 3249,
+    "matched_text": "ABNT. NBR 5410: 2004: instalações elétricas de baixa tensão. Rio de Janeiro, 2005.",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-ce-2016.txt",
+    "line": 3361,
+    "matched_text": "1.2.Aplicação conforme Norma ABNT de Instalações Elétricas em Baixa Tensão (NBR 5410)",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-ce-2016.txt",
+    "line": 3379,
+    "matched_text": "de isolação (fuga de corrente), resistência de isolamento, falhas elétricas (curto-circuito franco/por impedância),",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F03",
+    "source_file": "data/extraidos/plano-eletrotecnica-ce-2016.txt",
+    "line": 3379,
+    "matched_text": "de isolação (fuga de corrente), resistência de isolamento, falhas elétricas (curto-circuito franco/por impedância),",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-ce-2016.txt",
+    "line": 3381,
+    "matched_text": "(sub/sobre/desequilíbrio/tensão-corrente), sequência de fase (inversão), análise de vibrações,análise de ruídos",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-ce-2016.txt",
+    "line": 3510,
+    "matched_text": "de isolação (fuga de corrente) no SEP, resistência de isolamento, falhas elétricas (curto-circuito franco/por",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-ce-2016.txt",
+    "line": 3511,
+    "matched_text": "impedância), condições e valores nominais de trabalho (sub/sobre/desequilíbrio/tensão-corrente)",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F03",
+    "source_file": "data/extraidos/plano-eletrotecnica-ce-2016.txt",
+    "line": 3511,
+    "matched_text": "impedância), condições e valores nominais de trabalho (sub/sobre/desequilíbrio/tensão-corrente)",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 931,
+    "matched_text": "•   Máquinas elétricas: motores de corrente contínua e alternada; geradores e transformadores; Chaves e",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 954,
+    "matched_text": "elétrica e detector de tensão",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 964,
+    "matched_text": "provisório; equipotencialização do sistema; vara de manobra, detectores de tensão, cintos de segurança,",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 1833,
+    "matched_text": "provisório; equipotencialização do sistema; detectores de tensão, cintos de segurança, capacetes classe",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 1844,
+    "matched_text": "de proteção; transformador de corrente; transformador de potencial; chave telecomandada; poste; chave",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 1862,
+    "matched_text": "•   Máquinas elétricas: motores de corrente contínua e alternada; geradores e transformadores; Chaves e",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 1868,
+    "matched_text": "elétrica, detector de tensão - BT e MC; micromimetro; medidor de relação de transformação; caixa de",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F02",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 1869,
+    "matched_text": "calibração de relé; Hipot; miliohmimetro; cossifímetro; drones com câmeras infravermelha; traçador de",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 2092,
+    "matched_text": "poluição decorrentes dos processos                1.2.3. Não renováveis",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F04",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 2352,
+    "matched_text": "do indivíduo;                                       3.2. Indução",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 3063,
+    "matched_text": "•   Reconhecer os princípios da eletroeletrônica    1. Circuitos Elétricos em Corrente Alternada",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F03",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 3071,
+    "matched_text": "•   Reconhecer os diferentes tipos de                1.7. Reatância Capacitiva e Indutiva",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F03",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 3072,
+    "matched_text": "instrumentos de medição empregados na        1.8. Conceito de impedância",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 3073,
+    "matched_text": "eletrotécnica, suas características essenciais,    1.9. Potência em Corrente Alternada",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 3077,
+    "matched_text": "de grandezas elétricas em corrente alternada;    1.9.4. Fator de potência e correção",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 3078,
+    "matched_text": "•   Aplicar os fundamentos matemáticos de        1.10. Análise fasorial de circuitos em corrente",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 3080,
+    "matched_text": "corrente alternada para análise de sistemas           polar: resistivo, capacitivo, indutivo, resistivo,",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 3084,
+    "matched_text": "circuitos em corrente alternada;                  2. Equipamentos de medição elétrica",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 3086,
+    "matched_text": "quanto a circuitos de corrente alternada e        2.2. Tipos: analógicos e digitais",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F03",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 3086,
+    "matched_text": "quanto a circuitos de corrente alternada e        2.2. Tipos: analógicos e digitais",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 3088,
+    "matched_text": "•   Reconhecer os princípios da corrente alternada  2.3.1. Voltímetro",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F02",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 3098,
+    "matched_text": "•   Reconhecer unidades de medida empregadas    2.3.3. Ohmímetro",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 3099,
+    "matched_text": "em circuitos de corrente alternada, assim       2.3.4. Wattímetro",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F03",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 3099,
+    "matched_text": "em circuitos de corrente alternada, assim       2.3.4. Wattímetro",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F04",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 3103,
+    "matched_text": "3. Magnetismo e Eletromagnetismo",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F04",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 3105,
+    "matched_text": "3.2. Lei de Faraday",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F04",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 3106,
+    "matched_text": "3.3. Campo magnético no conduto",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F04",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 3108,
+    "matched_text": "3.5. Fluxo de indução magnética",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F04",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 3113,
+    "matched_text": "3.10. Eletromagnetismo",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F04",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 3114,
+    "matched_text": "3.10.1. Campo magnético no condutor",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F04",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 3116,
+    "matched_text": "3.10.3. Fluxo de indução magnético",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F04",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 3119,
+    "matched_text": "3.10.6. Autoindução",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 3126,
+    "matched_text": "4.2. Reguladores de tensão",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 3175,
+    "matched_text": "•   Fontes de tensão simétricas",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F04",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 3181,
+    "matched_text": "•   Kits Didáticos de Eletromagnetismo (bobinas com",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 3186,
+    "matched_text": "capacitores, indutores, diodos, fontes de tensão",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 3261,
+    "matched_text": "•   Aplicar os fundamentos da física para cálculos    2.2. Corrente elétrica",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 3263,
+    "matched_text": "•   Reconhecer os princípios da corrente contínua    2.4. Resistência e resistividade",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 3266,
+    "matched_text": "quanto a circuitos de corrente contínua e          2.7. Potência elétrica",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F02",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 3266,
+    "matched_text": "quanto a circuitos de corrente contínua e          2.7. Potência elétrica",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 3269,
+    "matched_text": "instrumentos de medição empregados na         2.10. Efeitos da corrente elétrica",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 3276,
+    "matched_text": "componentes de circuitos em corrente            2.11.4. Térmica",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F02",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 3312,
+    "matched_text": "5.3.4. Ohmímetro",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 3315,
+    "matched_text": "6.  Circuitos Elétricos em Corrente Contínua",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F02",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 3320,
+    "matched_text": "6.2. Associação de resistores",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F02",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 3325,
+    "matched_text": "6.3.1. Ohm (1ª e 2ª lei)",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F02",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 3328,
+    "matched_text": "6.3.4. Kirchhoff",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 3370,
+    "matched_text": "capacitores, indutores, diodos, fontes de tensão",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 3503,
+    "matched_text": "realizada            baixa tensão",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 3532,
+    "matched_text": "de controle e        8. Tomadas de Corrente",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 3592,
+    "matched_text": "de baixa tensão                    de acordo com",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 3637,
+    "matched_text": "realizada            Corrente Alternada",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F04",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 3676,
+    "matched_text": "17.3. Tipos: Faraday e                                      específicas, para o",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 3971,
+    "matched_text": "Detectora de tensão Sem Contato.",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 4166,
+    "matched_text": "definição do escopo    condução de corrente (IZ)",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 4167,
+    "matched_text": "do projeto             5.1.2. Queda de tensão (ΔV)",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 4239,
+    "matched_text": "•   Utlizar ferramentas   em Baixa Tensão",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 4492,
+    "matched_text": "segurança conforme    3.1.1. Tipos (Corrente Contínua,",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 4525,
+    "matched_text": "manutenção            4.1.6. Frenagem: por contracorrente,",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 4526,
+    "matched_text": "eletromecânica, por injeção de corrente",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 4551,
+    "matched_text": "processo de            Tensão",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 4555,
+    "matched_text": "• Selecionar             Baixa Tensão",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 4693,
+    "matched_text": "Energia Elétrica e Caneta Detectora de tensão Sem Contato.",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 4714,
+    "matched_text": "•   Fita isolante alta tensão p/condutores elétricos",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F02",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 4803,
+    "matched_text": "manutenção elétrica     1.2.9. Miliohmímetro",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 4855,
+    "matched_text": "3.11. Fuga de corrente                            manutenção de",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 4886,
+    "matched_text": "• Identificar os tipos de                                                              4.4.1. Medida de tensão",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 4896,
+    "matched_text": "conforme a              4.4.2. Medida de corrente",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 4939,
+    "matched_text": "em Baixa Tensão                 tempo para controle",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 4946,
+    "matched_text": "Baixa Tensão                  conformidade e",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 5222,
+    "matched_text": "trabalho da manutenção  em Baixa Tensão",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 5267,
+    "matched_text": "(energias renováveis,                               condução de corrente (IZ)                             terminologias e",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 5268,
+    "matched_text": "dispositivos para                                           5.2.2. Queda de tensão (ΔV)                           convenções gráficas de",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F02",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 5779,
+    "matched_text": "•   Miliohmímetro",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 6121,
+    "matched_text": "potência - sep            1.4. Classe de tensão: BT,",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 6157,
+    "matched_text": "dos insumos,           Média Tensão",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 6173,
+    "matched_text": "situações de risco à       sobrecorrente",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 6175,
+    "matched_text": "ambiente na realização    sobretensão",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 6181,
+    "matched_text": "com o sistema elétrico    Corrente - TC",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 6257,
+    "matched_text": "de trabalho na           de média tensão de 1 kV a",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 6260,
+    "matched_text": "instalação do sistema      corrente com isolação",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 6261,
+    "matched_text": "elétrico de potência -      sólida para tensão",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 6313,
+    "matched_text": "corrente, tensão,",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 6333,
+    "matched_text": "•   Laboratório Interno de Média Tensão (subestação em",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 6336,
+    "matched_text": "Baixa Tensão",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 6341,
+    "matched_text": "•   Detector de tensão MT e BT",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 6343,
+    "matched_text": "isolante de média e baixa tensão, luva de cobertura.",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 6445,
+    "matched_text": "• Identificar as             1.4.4. Fuga de Corrente",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 6456,
+    "matched_text": "segurança conforme o   média tensão de 1 kV a",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 6459,
+    "matched_text": "de potência a ser        corrente com isolação",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 6460,
+    "matched_text": "realizada                sólida para tensão máxima",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F02",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 6518,
+    "matched_text": "3.3.4. Microhmímetro                               preventiva em função",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 6532,
+    "matched_text": "segurança nas                                                              3.4.4. Tensão Elétrica",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 6633,
+    "matched_text": "corrente, tensão,",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 6658,
+    "matched_text": "Tensão",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 6659,
+    "matched_text": "•    Laboratório Interno de Média Tensão (subestação em",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 6662,
+    "matched_text": "•    Detector de tensão MT e BT",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 6684,
+    "matched_text": "de média e baixa tensão, luva de cobertura. trava queda,",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 6688,
+    "matched_text": "tensão (BT/MT), Aterramento temporário, cones, fita de",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 6843,
+    "matched_text": "softwares de projeto     Corrente - TC",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 6888,
+    "matched_text": "instalações e           de média tensão de 1 kV",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 6891,
+    "matched_text": "potência                 corrente com isolação",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 6892,
+    "matched_text": "• Identificar as              sólida para tensão",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 7103,
+    "matched_text": "destinação de resíduos    2.4.3. Corrente de curto-",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 7105,
+    "matched_text": "de instalação elétrica,     2.4.4. Corrente de operação",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 7107,
+    "matched_text": "específicas, para o        2.4.5. Tensão com circuito",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 7109,
+    "matched_text": "normas ambientais        2.4.6. Tensão de operação",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 7115,
+    "matched_text": "implementação a ser      2.4.9. Perdas Corrente",
+    "kind": "MODULE_DEFINITION"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 7117,
+    "matched_text": "Legislação,               • Interpretar                2.4.10. Perdas Corrente",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 7375,
+    "matched_text": "1.2 Utilizando ferramentas    a tomada de decisões      concorrentes",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 7408,
+    "matched_text": "2 Elaborar a proposta de  aspectos indispensáveis à                                proposta de valor e                                                     os concorrentes, os",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 7450,
+    "matched_text": "concorrentes, os",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 7803,
+    "matched_text": "ambiente associados ao  3.2.3. Flutuações de tensão",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F01",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 7807,
+    "matched_text": "prediais                 corrente e tensão",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F02",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 10525,
+    "matched_text": "introdução.  Poderá  conter  sugestões ou recomendações para o      – Associação Brasileira de Normas Técnicas  é  encarregada  das",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F02",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 10532,
+    "matched_text": "(Arial, 12, espaço 1,5, justificado, margem primeira linha 1,25, para      ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. NBR",
+    "kind": "PREREQUISITE_REFERENCE"
+  },
+  {
+    "module": "F02",
+    "source_file": "data/extraidos/plano-eletrotecnica-rr-semipresencial.txt",
+    "line": 10646,
+    "matched_text": "FONTE DE PESQUISA: Associação Brasileira de Normas Técnicas - ABNT, 13. ed.",
+    "kind": "PREREQUISITE_REFERENCE"
+  }
+]

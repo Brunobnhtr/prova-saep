@@ -1,0 +1,4370 @@
+{
+  "module": "E04",
+  "title": "Estrela-triângulo e compensadora",
+  "total_candidates": 299,
+  "primary_assignments": 31,
+  "high_relevance": 38,
+  "medium_relevance": 31,
+  "low_relevance": 230,
+  "outside_theme": {
+    "count": null,
+    "status": "NOT_SEMANTICALLY_REVIEWED"
+  },
+  "image_dependent": 109,
+  "possible_duplicates": 0,
+  "possible_semantic_variants": 0,
+  "priority_ids": {
+    "HIGH": [
+      "Q4032379",
+      "Q3887798",
+      "Q3900503",
+      "Q3690133",
+      "Q3452153",
+      "Q3396413",
+      "Q3231028",
+      "Q3069886",
+      "Q2867371",
+      "Q2867844",
+      "Q2559463",
+      "Q2666056",
+      "Q2668742",
+      "Q2401054",
+      "Q2436962",
+      "Q2198764",
+      "Q2198765",
+      "Q1927401",
+      "Q2058451",
+      "Q1767155",
+      "Q1240729",
+      "Q1106120",
+      "Q1037586",
+      "Q1037604",
+      "Q1015260",
+      "Q945964",
+      "Q971897",
+      "Q811503",
+      "Q825978",
+      "Q797726",
+      "Q758559",
+      "Q529410",
+      "Q452632",
+      "Q234009",
+      "Q237312",
+      "Q238954",
+      "Q186299",
+      "Q186319"
+    ],
+    "MEDIUM": [
+      "Q3990597",
+      "Q4011944",
+      "Q4025520",
+      "Q3943005",
+      "Q3761883",
+      "Q3761884",
+      "Q3761888",
+      "Q3453555",
+      "Q3264303",
+      "Q2910275",
+      "Q2955311",
+      "Q2416984",
+      "Q2430928",
+      "Q2401039",
+      "Q2320589",
+      "Q2258056",
+      "Q2295402",
+      "Q1888092",
+      "Q1927400",
+      "Q1755404",
+      "Q1218066",
+      "Q1062920",
+      "Q971894",
+      "Q751900",
+      "Q770889",
+      "Q499928",
+      "Q514353",
+      "Q412003",
+      "Q234016",
+      "Q235680",
+      "Q173552"
+    ],
+    "LOW": [
+      "Q4148970",
+      "Q4151542",
+      "Q4166419",
+      "Q4218581",
+      "Q4218683",
+      "Q4218687",
+      "Q4218697",
+      "Q4114653",
+      "Q4032374",
+      "Q4032384",
+      "Q4032405",
+      "Q4032407",
+      "Q4044465",
+      "Q3981864",
+      "Q4007325",
+      "Q4007340",
+      "Q4011949",
+      "Q4024968",
+      "Q4024969",
+      "Q4025524",
+      "Q4027612",
+      "Q3920497",
+      "Q3980554",
+      "Q3887487",
+      "Q3891635",
+      "Q3900516",
+      "Q3900517",
+      "Q3796726",
+      "Q3796732",
+      "Q3837903",
+      "Q3846531",
+      "Q3846968",
+      "Q3851439",
+      "Q3851980",
+      "Q3675319",
+      "Q3675324",
+      "Q3763474",
+      "Q3781762",
+      "Q3790481",
+      "Q3790488",
+      "Q3577013",
+      "Q3577016",
+      "Q3579851",
+      "Q3639291",
+      "Q3466929",
+      "Q3543774",
+      "Q3561144",
+      "Q3422149",
+      "Q3448792",
+      "Q3449169",
+      "Q3449171",
+      "Q3452154",
+      "Q3453355",
+      "Q3455514",
+      "Q3458245",
+      "Q3458413",
+      "Q3383715",
+      "Q3223390",
+      "Q3233443",
+      "Q3233444",
+      "Q3264293",
+      "Q3264305",
+      "Q3264306",
+      "Q3188796",
+      "Q3189268",
+      "Q3189269",
+      "Q3008685",
+      "Q3008686",
+      "Q3021241",
+      "Q3069874",
+      "Q3069885",
+      "Q3089619",
+      "Q2955268",
+      "Q2737524",
+      "Q2738698",
+      "Q2773352",
+      "Q2802822",
+      "Q2559450",
+      "Q2608791",
+      "Q2668728",
+      "Q2668731",
+      "Q2668733",
+      "Q2668744",
+      "Q2692660",
+      "Q2693110",
+      "Q2403194",
+      "Q2403196",
+      "Q2436964",
+      "Q2354125",
+      "Q2376888",
+      "Q2385426",
+      "Q2401036",
+      "Q2401040",
+      "Q2314705",
+      "Q2325589",
+      "Q2325600",
+      "Q2226616",
+      "Q2226625",
+      "Q2226740",
+      "Q2226751",
+      "Q2157511",
+      "Q2158397",
+      "Q2178402",
+      "Q2198766",
+      "Q2198767",
+      "Q2200902",
+      "Q2200906",
+      "Q1888093",
+      "Q1919409",
+      "Q1919412",
+      "Q2015011",
+      "Q2047328",
+      "Q1766556",
+      "Q1767156",
+      "Q1768650",
+      "Q1770768",
+      "Q1808435",
+      "Q1830352",
+      "Q1631017",
+      "Q1668821",
+      "Q1694555",
+      "Q1721319",
+      "Q1755402",
+      "Q1755412",
+      "Q1218065",
+      "Q1289614",
+      "Q1289615",
+      "Q1289621",
+      "Q1629120",
+      "Q1629121",
+      "Q1087464",
+      "Q1087469",
+      "Q1087470",
+      "Q1087476",
+      "Q1087478",
+      "Q1088667",
+      "Q1106090",
+      "Q1106998",
+      "Q1107004",
+      "Q1113512",
+      "Q1179316",
+      "Q1037601",
+      "Q1037612",
+      "Q1050006",
+      "Q1062923",
+      "Q981788",
+      "Q971890",
+      "Q976427",
+      "Q837392",
+      "Q837393",
+      "Q837397",
+      "Q837398",
+      "Q843662",
+      "Q843688",
+      "Q879232",
+      "Q803826",
+      "Q811512",
+      "Q823502",
+      "Q823509",
+      "Q777165",
+      "Q786453",
+      "Q791533",
+      "Q795351",
+      "Q797903",
+      "Q803804",
+      "Q750419",
+      "Q751897",
+      "Q758563",
+      "Q768536",
+      "Q770897",
+      "Q718822",
+      "Q734065",
+      "Q734068",
+      "Q734070",
+      "Q734076",
+      "Q741959",
+      "Q743372",
+      "Q747658",
+      "Q529390",
+      "Q529411",
+      "Q596017",
+      "Q514337",
+      "Q454912",
+      "Q460306",
+      "Q461600",
+      "Q461672",
+      "Q462307",
+      "Q484536",
+      "Q431765",
+      "Q452621",
+      "Q453953",
+      "Q453954",
+      "Q454837",
+      "Q454839",
+      "Q425825",
+      "Q425829",
+      "Q430260",
+      "Q431022",
+      "Q431028",
+      "Q431068",
+      "Q431069",
+      "Q431290",
+      "Q431291",
+      "Q411993",
+      "Q411996",
+      "Q412004",
+      "Q412006",
+      "Q263712",
+      "Q278083",
+      "Q278084",
+      "Q235668",
+      "Q263019",
+      "Q263020",
+      "Q263032",
+      "Q186317",
+      "Q186332",
+      "Q186333",
+      "Q186527",
+      "Q189046",
+      "Q189219",
+      "Q189734",
+      "Q189755",
+      "Q195600",
+      "Q173574",
+      "Q182367",
+      "Q182373",
+      "Q182392",
+      "Q182406",
+      "Q182645",
+      "Q173560"
+    ]
+  },
+  "candidate_details": [
+    {
+      "source_id": "Q4148970",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "THREE_PHASE_POWER",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4151542",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4166419",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4218581",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4218683",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4218687",
+      "subtopics": [
+        {
+          "id": "10.3",
+          "title": "Intertravamento, selo e temporização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.3-intertravamento-selo-e-temporizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4218697",
+      "subtopics": [
+        {
+          "id": "10.3",
+          "title": "Intertravamento, selo e temporização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.3-intertravamento-selo-e-temporizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4114653",
+      "subtopics": [
+        {
+          "id": "10.3",
+          "title": "Intertravamento, selo e temporização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.3-intertravamento-selo-e-temporizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "LADDER_SEAL_IN",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4032374",
+      "subtopics": [
+        {
+          "id": "10.3",
+          "title": "Intertravamento, selo e temporização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.3-intertravamento-selo-e-temporizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4032379",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4032384",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "LADDER_SEAL_IN",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4032405",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4032407",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4044465",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "MOTOR_PROTECTION",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3981864",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3990597",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4007325",
+      "subtopics": [
+        {
+          "id": "10.3",
+          "title": "Intertravamento, selo e temporização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.3-intertravamento-selo-e-temporizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "LADDER_SEAL_IN",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4007340",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4011944",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        },
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        },
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4011949",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4024968",
+      "subtopics": [
+        {
+          "id": "10.3",
+          "title": "Intertravamento, selo e temporização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.3-intertravamento-selo-e-temporizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4024969",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q4025520",
+      "subtopics": [],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4025524",
+      "subtopics": [
+        {
+          "id": "10.3",
+          "title": "Intertravamento, selo e temporização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.3-intertravamento-selo-e-temporizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q4027612",
+      "subtopics": [
+        {
+          "id": "10.3",
+          "title": "Intertravamento, selo e temporização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.3-intertravamento-selo-e-temporizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "MOTOR_PROTECTION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3920497",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3943005",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3980554",
+      "subtopics": [
+        {
+          "id": "10.3",
+          "title": "Intertravamento, selo e temporização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.3-intertravamento-selo-e-temporizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3887487",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3887798",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3891635",
+      "subtopics": [
+        {
+          "id": "10.3",
+          "title": "Intertravamento, selo e temporização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.3-intertravamento-selo-e-temporizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "CONTACTOR_NO_NC",
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3900503",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3900516",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3900517",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3796726",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "LADDER_SEAL_IN",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3796732",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3837903",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3846531",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "LADDER_SEAL_IN",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3846968",
+      "subtopics": [
+        {
+          "id": "10.3",
+          "title": "Intertravamento, selo e temporização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.3-intertravamento-selo-e-temporizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3851439",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3851980",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3675319",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3675324",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3690133",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3761883",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        },
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        },
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3761884",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        },
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        },
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3761888",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        },
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        },
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3763474",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3781762",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3790481",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "CONTACTOR_NO_NC",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3790488",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3577013",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "MOTOR_PROTECTION",
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3577016",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3579851",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3639291",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3466929",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3543774",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3561144",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3422149",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3448792",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3449169",
+      "subtopics": [
+        {
+          "id": "10.3",
+          "title": "Intertravamento, selo e temporização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.3-intertravamento-selo-e-temporizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3449171",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3452153",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3452154",
+      "subtopics": [
+        {
+          "id": "10.3",
+          "title": "Intertravamento, selo e temporização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.3-intertravamento-selo-e-temporizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3453355",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3453555",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3455514",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3458245",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "THREE_PHASE_POWER",
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3458413",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3383715",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3396413",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3223390",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3231028",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3233443",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3233444",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3264293",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "MOTOR_PROTECTION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3264303",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3264305",
+      "subtopics": [
+        {
+          "id": "10.3",
+          "title": "Intertravamento, selo e temporização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.3-intertravamento-selo-e-temporizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3264306",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3188796",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "MOTOR_PROTECTION",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3189268",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "CONTACTOR_NO_NC",
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3189269",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3008685",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3008686",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "CONTACTOR_NO_NC",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3021241",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "CONTACTOR_NO_NC",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3069874",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3069885",
+      "subtopics": [
+        {
+          "id": "10.3",
+          "title": "Intertravamento, selo e temporização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.3-intertravamento-selo-e-temporizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q3069886",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q3089619",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2867371",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2867844",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2910275",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2955268",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "THREE_PHASE_POWER",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2955311",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2737524",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "MOTOR_PROTECTION",
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2738698",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2773352",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "LADDER_SEAL_IN",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2802822",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2559450",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2559463",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "MOTOR_PROTECTION",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2608791",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2666056",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2668728",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2668731",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2668733",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2668742",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2668744",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2692660",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2693110",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2401054",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2403194",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2403196",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2416984",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2430928",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2436962",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2436964",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2354125",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "THREE_PHASE_POWER",
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2376888",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2385426",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2401036",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2401039",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2401040",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2314705",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2320589",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2325589",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2325600",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2258056",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2295402",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2226616",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2226625",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2226740",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2226751",
+      "subtopics": [
+        {
+          "id": "10.3",
+          "title": "Intertravamento, selo e temporização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.3-intertravamento-selo-e-temporizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2157511",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "THREE_PHASE_POWER",
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2158397",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2178402",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2198764",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2198765",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2198766",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2198767",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2200902",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2200906",
+      "subtopics": [
+        {
+          "id": "10.3",
+          "title": "Intertravamento, selo e temporização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.3-intertravamento-selo-e-temporizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1888092",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1888093",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1919409",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "THREE_PHASE_POWER",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1919412",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1927400",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1927401",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q2015011",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2047328",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q2058451",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1766556",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1767155",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1767156",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1768650",
+      "subtopics": [
+        {
+          "id": "10.3",
+          "title": "Intertravamento, selo e temporização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.3-intertravamento-selo-e-temporizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1770768",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1808435",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1830352",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1631017",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1668821",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1694555",
+      "subtopics": [
+        {
+          "id": "10.3",
+          "title": "Intertravamento, selo e temporização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.3-intertravamento-selo-e-temporizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1721319",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1755402",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "CONTACTOR_NO_NC",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1755404",
+      "subtopics": [],
+      "family": "MOTOR_PROTECTION",
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1755412",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1218065",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1218066",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1240729",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "THREE_PHASE_POWER",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1289614",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1289615",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1289621",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1629120",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1629121",
+      "subtopics": [
+        {
+          "id": "10.3",
+          "title": "Intertravamento, selo e temporização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.3-intertravamento-selo-e-temporizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1087464",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1087469",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1087470",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "MOTOR_PROTECTION",
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1087476",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1087478",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1088667",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1106090",
+      "subtopics": [
+        {
+          "id": "10.3",
+          "title": "Intertravamento, selo e temporização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.3-intertravamento-selo-e-temporizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1106120",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1106998",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "CONTACTOR_NO_NC",
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1107004",
+      "subtopics": [
+        {
+          "id": "10.3",
+          "title": "Intertravamento, selo e temporização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.3-intertravamento-selo-e-temporizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1113512",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1179316",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1037586",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1037601",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1037604",
+      "subtopics": [
+        {
+          "id": "10.3",
+          "title": "Intertravamento, selo e temporização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.3-intertravamento-selo-e-temporizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1037612",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1050006",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1062920",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q1062923",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q1015260",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "MOTOR_PROTECTION",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q981788",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q945964",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q971890",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "LADDER_SEAL_IN",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q971894",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q971897",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "POWER_DC",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q976427",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q837392",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q837393",
+      "subtopics": [
+        {
+          "id": "10.3",
+          "title": "Intertravamento, selo e temporização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.3-intertravamento-selo-e-temporizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q837397",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q837398",
+      "subtopics": [
+        {
+          "id": "10.3",
+          "title": "Intertravamento, selo e temporização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.3-intertravamento-selo-e-temporizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q843662",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q843688",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q879232",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q803826",
+      "subtopics": [
+        {
+          "id": "10.3",
+          "title": "Intertravamento, selo e temporização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.3-intertravamento-selo-e-temporizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q811503",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q811512",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q823502",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q823509",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q825978",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q777165",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "MOTOR_PROTECTION",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q786453",
+      "subtopics": [
+        {
+          "id": "10.3",
+          "title": "Intertravamento, selo e temporização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.3-intertravamento-selo-e-temporizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q791533",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q795351",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q797726",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q797903",
+      "subtopics": [
+        {
+          "id": "10.3",
+          "title": "Intertravamento, selo e temporização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.3-intertravamento-selo-e-temporizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q803804",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q750419",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q751897",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q751900",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q758559",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "MOTOR_PROTECTION",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q758563",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q768536",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q770889",
+      "subtopics": [],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q770897",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q718822",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q734065",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q734068",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q734070",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q734076",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q741959",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q743372",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q747658",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q529390",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q529410",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q529411",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q596017",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "MOTOR_PROTECTION",
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q499928",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q514337",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "THREE_PHASE_POWER",
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q514353",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q454912",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q460306",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q461600",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "CONTACTOR_NO_NC",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q461672",
+      "subtopics": [
+        {
+          "id": "10.3",
+          "title": "Intertravamento, selo e temporização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.3-intertravamento-selo-e-temporizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q462307",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q484536",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q431765",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "MOTOR_PROTECTION",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q452621",
+      "subtopics": [
+        {
+          "id": "10.3",
+          "title": "Intertravamento, selo e temporização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.3-intertravamento-selo-e-temporizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q452632",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q453953",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q453954",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q454837",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q454839",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q425825",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q425829",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q430260",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q431022",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q431028",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q431068",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q431069",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "CONTACTOR_NO_NC",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q431290",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "MOTOR_PROTECTION",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q431291",
+      "subtopics": [
+        {
+          "id": "10.3",
+          "title": "Intertravamento, selo e temporização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.3-intertravamento-selo-e-temporizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "CONTACTOR_NO_NC",
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q411993",
+      "subtopics": [
+        {
+          "id": "10.3",
+          "title": "Intertravamento, selo e temporização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.3-intertravamento-selo-e-temporizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q411996",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q412003",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q412004",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q412006",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q263712",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q278083",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q278084",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q234009",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "NR10_DEENERGIZATION",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q234016",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q235668",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "CONTACTOR_NO_NC",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q235680",
+      "subtopics": [],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q237312",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q238954",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q263019",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q263020",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q263032",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q186299",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "THREE_PHASE_POWER",
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q186317",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q186319",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q186332",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q186333",
+      "subtopics": [
+        {
+          "id": "10.3",
+          "title": "Intertravamento, selo e temporização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.3-intertravamento-selo-e-temporizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q186527",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q189046",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "MOTOR_PROTECTION",
+      "confidence": "HIGH",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q189219",
+      "subtopics": [
+        {
+          "id": "10.3",
+          "title": "Intertravamento, selo e temporização",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.3-intertravamento-selo-e-temporizacao.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q189734",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q189755",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q195600",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q173574",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q182367",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q182373",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "HIGH",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q182392",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q182406",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": "CONTACTOR_NO_NC",
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q182645",
+      "subtopics": [
+        {
+          "id": "10.1",
+          "title": "Dispositivos de comando e proteção de motores",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.1-dispositivos-de-comando-e-protecao-de-motores.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    },
+    {
+      "source_id": "Q173552",
+      "subtopics": [],
+      "family": null,
+      "confidence": "MEDIUM",
+      "needs_inspection": false
+    },
+    {
+      "source_id": "Q173560",
+      "subtopics": [
+        {
+          "id": "10.4",
+          "title": "Partidas de motores: direta, reversora, estrela-triângulo",
+          "file": "C:\\dev\\extrator de perguntas\\livros senai\\questoes\\10-comandos-e-acionamentos-eletricos\\10.4-partidas-de-motores-direta-reversora-estrela-triangulo.md",
+          "join_method": "EXACT_NORMALIZED_STATEMENT"
+        }
+      ],
+      "family": null,
+      "confidence": "LOW",
+      "needs_inspection": true
+    }
+  ]
+}

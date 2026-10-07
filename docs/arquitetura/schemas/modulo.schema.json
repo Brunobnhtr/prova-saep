@@ -1,0 +1,197 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Contrato de módulo de estudo",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "contentVersion": {
+      "type": "string",
+      "minLength": 1
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "subthemeIds": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "prerequisites": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "matrixItemId": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "matrixStatus": {
+      "enum": [
+        "pendente",
+        "confirmada"
+      ]
+    },
+    "technicalStatus": {
+      "enum": [
+        "rascunho",
+        "revisado"
+      ]
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "locator": {
+            "type": "string",
+            "minLength": 1
+          },
+          "verificationStatus": {
+            "enum": [
+              "pendente",
+              "verificada"
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "title",
+          "locator",
+          "verificationStatus"
+        ]
+      }
+    },
+    "lessons": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "markdownPath": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sourceIds": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true
+          }
+        },
+        "required": [
+          "id",
+          "markdownPath",
+          "sourceIds"
+        ]
+      }
+    },
+    "labs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "scenarioId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "family": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sourceIds": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true
+          }
+        },
+        "required": [
+          "id",
+          "scenarioId",
+          "family",
+          "sourceIds"
+        ]
+      }
+    },
+    "questionTemplates": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "id",
+    "contentVersion",
+    "title",
+    "subthemeIds",
+    "prerequisites",
+    "matrixItemId",
+    "matrixStatus",
+    "technicalStatus",
+    "sources",
+    "lessons",
+    "labs",
+    "questionTemplates"
+  ],
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "matrixStatus": {
+            "const": "confirmada"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "matrixItemId": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    }
+  ]
+}
