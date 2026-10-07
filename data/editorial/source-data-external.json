@@ -1,0 +1,21 @@
+{
+  "version": "1.0",
+  "repository": "Brunobnhtr/prova-saep",
+  "base_commit": "6b94a054b9d0784ee2d6efe674b6e97583422595",
+  "storage": "google-drive",
+  "drive_folder_name": "prova-saep - Dados Fonte (NAO APAGAR)",
+  "drive_folder_id": "15eK70chiWDawD8cKBpIYAwLAFi6AKFYr",
+  "expected": {
+    "source_files": 49,
+    "records": 9791,
+    "unique_ids": 9791,
+    "alternative_cardinality": {"2": 1031, "4": 2545, "5": 6215},
+    "visual_questions": 2665,
+    "available_visual_questions": 2653,
+    "reference_missing": 12,
+    "available_image_files": 2861
+  },
+  "transient_delivery_root": "prova-saep - Atualizacoes ChatGPT",
+  "persistent": true,
+  "delete_after_delivery": false
+}
