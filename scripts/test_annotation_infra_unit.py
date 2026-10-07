@@ -185,7 +185,7 @@ def test_validar_anotacoes():
             "primary_module": "F01",
             "acceptable_modules": [],
             "annotation_confidence": "HIGH",
-            "reasoning_summary": "Valid reasoning here",
+            "reasoning_summary": "Valid reasoning here that is definitely long enough to pass V4.1.3 quality gate checks and everything else.",
             "image_status": "NOT_APPLICABLE",
             "image_required": False,
             "ambiguity": False,
@@ -193,7 +193,10 @@ def test_validar_anotacoes():
             "supplement_used": False,
             "supplement_fields_used": [],
             "annotation_status": "ANNOTATED",
-            "module_evidence": [{"kind": "STATEMENT", "text": "evidence text"}]
+            "module_evidence": [
+                {"kind": "STATEMENT", "text": "evidence text that is long enough to pass"},
+                {"kind": "CURRICULUM_SUBTOPIC", "module": "F01", "subtopic": "Algum subtopico real."}
+            ]
         }
         
         # 1. positive
