@@ -1,0 +1,27 @@
+{
+  "batch_id": "REAL-BATCH-0001-25",
+  "annotator_a_sha256": "4dc0e0f88fce23c190ffb751a240327983621e43873d9fe2a3e5aba1f9bbcff0",
+  "annotator_b_sha256": "5c327ea4e63ab281af3e9da59f25cb4d6040510da9e470e701cb36dd0699ad1d",
+  "adjudicator_sha256": "8a9508591cc041a1d1f01733dd71df750e67c05efd54f2e251b6778aecb3a2ea",
+  "strict_agreement": {
+    "count": 22,
+    "total": 25,
+    "rate_percent": 88.0
+  },
+  "status_agreement": {
+    "count": 24,
+    "total": 25,
+    "rate_percent": 96.0
+  },
+  "acceptable_agreement": {
+    "count": 23,
+    "total": 25,
+    "rate_percent": 92.0
+  },
+  "final_status": {
+    "ANNOTATED": 21,
+    "OUT_OF_CURRICULUM": 4
+  },
+  "annotation_b_quality_issue": "V4.1.1 accepted placeholder reasoning/evidence; fixed by V4.1.2 semantic quality gate.",
+  "raw_labels_location": "Google Drive persistent annotation workspace; not committed to public GitHub."
+}
