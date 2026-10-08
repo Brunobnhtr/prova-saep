@@ -122,7 +122,9 @@ def test_repeated_reasoning_template_rejected():
 
 
 def test_generic_reasoning_template_rejected():
-    a = ann(reason='A questão aborda diretamente o conceito central deste módulo, exigindo cálculos específicos e análise do circuito.')
+    a = ann(
+        reason='A questão aborda diretamente o conceito central deste módulo, exigindo cálculos específicos e análise do circuito.'
+    )
     assert_fail(run(pack(1), env([a])), 'GENERIC_REASONING_TEMPLATE')
 
 
@@ -138,13 +140,30 @@ def test_wrong_subtopic_rejected():
 
 
 def test_reason_not_linked_to_statement_rejected():
-    a = ann(reason='Este conteúdo pertence ao Sistema Internacional e prefixos porque trata apenas de conversões e nomenclatura geral de unidades técnicas.')
+    a = ann(
+        reason='Este conteúdo pertence ao Sistema Internacional e prefixos porque trata apenas de conversões e nomenclatura geral de unidades técnicas.'
+    )
     assert_fail(run(pack(1), env([a])), 'REASONING_NOT_LINKED_TO_STATEMENT')
 
 
 def test_reason_not_linked_to_curriculum_rejected():
-    a = ann(reason='A corrente elétrica aparece no enunciado, mas o raciocínio discute exclusivamente manutenção preventiva e inspeção periódica de equipamentos.')
-    assert_fail(run(pack(1), env([a])), 'REASONING_NOT_LINKED_TO_CURRICULUM')
+    # The statement/reasoning share maintenance-specific tokens, while the deliberately
+    # selected F01 curriculum evidence is "Corrente elétrica".  This isolates the
+    # curriculum-binding check instead of accidentally sharing the token "corrente"
+    # with both sides of the test.
+    p = pack(1)
+    p['questions'][0]['statement'] = (
+        'A inspeção preventiva programada reduz falhas e paradas de equipamentos industriais.'
+    )
+    a = ann(
+        reason=(
+            'O enunciado descreve inspeção preventiva programada e redução de falhas em equipamentos; '
+            'o raciocínio permanece no domínio de manutenção preventiva.'
+        ),
+        evid='A inspeção preventiva programada reduz falhas',
+        subtopic='Corrente elétrica',
+    )
+    assert_fail(run(p, env([a])), 'REASONING_NOT_LINKED_TO_CURRICULUM')
 
 
 def run_tests():
